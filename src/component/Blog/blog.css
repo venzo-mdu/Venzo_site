@@ -1,0 +1,341 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container2{
+    background-color: #0A1020;
+    display: flex;
+    height: 60vh;
+    padding: 4% 9% 0 18%;
+}
+.blogHr{
+    color: white;
+    border: 2px solid #ffff;
+    width: 100%;
+    margin: 0 0 8% 0;
+}
+.bloghead{
+    color: white;
+    width: 19vw;
+}
+.arrows{
+    margin-left: 20vw;
+    margin-top: -14vh;
+}
+.arrows2{
+    margin-left: 20vw;
+    margin-top: -19vh;
+}
+.Blogs{
+    margin-right: 20%;
+    line-height: 1.6;
+}
+.box{
+    width: 25vw;
+    height: 30vh;
+    margin-left: 5%;
+    padding: 10%;
+    background-color: #50535e; 
+    border-radius: 5%
+}
+.careershead{
+    color: #f6f6f6;
+}
+.careersdec{
+    text-align: center;
+    color: white;
+    opacity: 52%;
+    padding: 5% 0;
+}
+.date {
+    color: white;
+    opacity: 52%;
+    font-family: poppins-light;
+}
+.blurTitle{
+    padding: 0 10% 8% 12%;
+    font-size: 36px;
+}
+.blurTitle1{
+    padding: 0 10% 8% 40%;
+    font-size: 36px;
+
+}
+.jobs{
+    margin-left: 7vw;
+    color: #FFFFFF;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+}
+
+
+@media screen  and (max-width:1024px) and (min-width:775px){
+    .container2{
+        background-color: #0A1020;
+        display: flex;
+        height: 60vh;
+        padding: 5% 9% 0 10%;
+        line-height: 1.7;
+
+    }
+    
+    .bloghead{
+        color: white;
+        width: 33vw;
+    }
+    .arrows{
+        margin-left: 35vw;
+        margin-top: -15vh;
+    }
+    .arrows2{
+        margin-left: 35vw;
+        margin-top: -21vh;
+    }
+    .Blogs{
+        margin-right: 20%;
+    }
+    .box{
+        width: 25vw;
+        height: 30vh;
+        margin-left: 5%;
+        padding: 10%;
+        background-color: #50535e; 
+        border-radius: 5%;
+    }
+    .careershead{
+        color: #f6f6f6;
+        font-size:large;
+        padding-top: 8%;
+    }
+    .careersdec{
+        text-align: center;
+        color: white;
+        opacity: 52%;
+        font-size:small;
+        padding-top: 8%;
+
+    }
+    .date {
+        color: white;
+        opacity: 52%;
+        font-family: poppins-light;
+    }
+    .blurTitle{
+        padding: 0 0 5% 5vw;
+    }
+    .jobs{
+        margin-left: 5vw;
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+    .blurTitle1{
+        padding: 0 0 9% 25%;
+    }
+}
+
+@media screen  and (max-width:1440px) and (min-width:1030px){
+    .container2{
+        background-color: #0A1020;
+        display: flex;
+        height: 60vh;
+        padding: 3% 9% 0 15%;
+        line-height: 1.7;
+
+    }
+    
+    .bloghead{
+        color: white;
+        width: 24vw;
+    }
+    .arrows{
+        margin-left: 27vw;
+        margin-top: -15vh;
+    }
+    .arrows2{
+        margin-left: 27vw;
+        margin-top: -20vh;
+    }
+    .Blogs{
+        margin-right: 20%;
+    }
+    .box{
+        width: 25vw;
+        height: 30vh;
+        margin-left: 5%;
+        padding: 13%;
+        background-color: #50535e; 
+        border-radius: 5%;
+    }
+    .careershead{
+        color: #f6f6f6;
+        font-size:large;
+        padding-top: 8%;
+        padding-left: 9%;
+    }
+    .careersdec{
+        text-align: center;
+        color: white;
+        opacity: 52%;
+        font-size:small;
+        padding-top: 8%;
+
+    }
+    .date {
+        color: white;
+        opacity: 52%;
+        font-family: poppins-light;
+    }
+    .blurTitle{
+        padding: 0 0 9% -30%;
+    }
+    .blurTitle1{
+        padding: 0 0 9% 35%;
+    }
+    .jobs{
+        margin-left: 5vw;
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+
+}
+
+@media screen  and (max-width:770px) and (min-width:500px){
+    .container2{
+        background-color: #0A1020;
+        display: block;
+        height: 90vh;
+        padding: 5% 9% 0 10%;
+        line-height: 1.7;
+    }
+    
+    .bloghead{
+        color: white;
+        width: 100vw;
+    }
+    .arrows{
+        margin-left: 65vw;
+        margin-top: -15vh;
+    }
+    .arrows2{
+        margin-left: 65vw;
+        margin-top: -15vh;
+    }
+    .Blogs{
+        margin-right: 20%;
+    }
+    .box{
+        width: 85vw;
+        height: 32vh;
+        margin-left: -5%;
+        padding: 5%;
+        background-color: #50535e; 
+        border-radius: 7px;
+        margin-top: -7%;
+    }
+    .blogHr{
+        display: none;
+    }
+    .careershead{
+        color: #f6f6f6;
+        font-size:  35px;
+        padding-top: 1%;
+        text-align: center; 
+       }
+    .careersdec{
+        text-align: center;
+        color: white;
+        opacity: 52%;
+        font-size:20px;
+        padding-top: 2%;
+
+    }
+    .date {
+        color: white;
+        opacity: 52%;
+        font-family: poppins-light;
+    }
+    .blurTitle{
+        padding: 0 0 9% 20vw;
+    }
+    .jobs{
+        margin-left: 30vw;
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+    .blurTitle1{
+        padding: 0 0 9% 30vw;
+    }
+}
+
+@media screen  and (max-width:380px) {
+    .container2{
+        background-color: #0A1020;
+        display: block;
+        height: 90vh;
+        padding: 5% 9% 0 10%;
+        line-height: 2;
+    }
+    .blurTitle{
+        padding: 0 0 9% 3%;
+    }
+    .bloghead{
+        color: white;
+        width: 70vw;
+        font-size: 12px;
+    }
+    .arrows{
+        margin-left: 70vw;
+        margin-top: -13vh;
+    }
+    .arrows2{
+        margin-left: 70vw;
+        margin-top: -17vh;
+    }
+    .Blogs{
+        margin-right: 0%;
+    }
+    .box{
+        width: 80vw;
+        height: 30vh;
+        margin-left: 0%;
+        padding: 10%;
+        background-color: #50535e; 
+        border-radius: 5%;
+    }
+    .careershead{
+        color: #f6f6f6;
+        font-size:large;
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+    .careersdec{
+        text-align: center;
+        color: white;
+        opacity: 52%;
+        font-size:small;
+        padding-top: 8%;
+
+    }
+    .date {
+        color: white;
+        opacity: 52%;
+        font-family: poppins-light;
+    }
+    .blurTitle1{
+        padding: 0 0 9% 25%;
+    }
+    .jobs{
+        margin-left: 20vw;
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+    .blogHr{
+        display: none;
+    }
+}
