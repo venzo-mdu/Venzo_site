@@ -1,6 +1,6 @@
 [
     {
-        "title": "build",
+        "title": "Build",
         "content": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
         "images": "../images/Build.svg",
         "SubContent": [
@@ -18,7 +18,7 @@
             },
             {
                 "icon": "../images/iOS Development-gradient.svg",
-                "title1": "IOS Development",
+                "title1": "ios Development",
                 "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
                 "className": "IOS",
                 "readMore": "Read More",
@@ -63,7 +63,7 @@
         "SubContent": [
             {
                 "icon": "../images/Bespoke Solutions-gradient.svg",
-                "title1": "Bespoke solutions",
+                "title1": "Bespoke Solutions",
                 "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
                 "className": "Bespoke"
             },

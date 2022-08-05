@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-around;
     height:50vh;
+    margin: 3% 0 0 0;
 }
 .developmentServices p{
     width: 30%;
@@ -37,6 +38,7 @@
  list-style-type: none;
  font-size: 16px;
  width:130%;
+ line-height: 2;
 
 }
 .technologies2 li {
@@ -44,16 +46,28 @@
     list-style-type: none;
     font-size: 16px;
     width:130%;
-
+    line-height: 2;
+}
+.technologies1 li:hover{
+    cursor:pointer;
+    color:black;
+}
+.technologies2 li:hover{
+    cursor:pointer;
+    color:black;
 }
 .venzoMantra{
     background-color: #0A1020;
-    height:45vh;
-    width:65vw;
-    margin:-5% 0% 10% 16%;
+    height:52vh;
+    width:70vw;
+    margin:-2% 0% 10% 16%;
     border-radius:10px 10px 10px 10px;
     padding: 2% 3%;
     display: flex;
+}
+.venzoexperts{
+    margin-left: 4%;
+    margin-top: 3%;
 }
 .venzoMantra #reach{
     font-family: poppins-semibold;
@@ -68,24 +82,81 @@
     background:-webkit-linear-gradient(60deg, #e66521,#d1368f, #ae01ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: -1% 0 0 0;
 }
 .venzoMantra #venzoExpertise{
-    width: 65%;
+    width: 70%;
     color: white;
-    font-family:poppins-semibold;
-    font-size: 18px;
+    font-family:poppins-medium;
+    font-size: 16px;
     line-height: 2;
+    margin: 3% 0 0 0;
 }
 .venzoMantra #Motto{
     font-family: poppins-semibold;
     color: white;
     font-size: 30px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .venzoexpertImg img{
-    margin:50% 0% 0 0;
+    margin:40% 0% 0 -65%;
 }
 @media screen  and (max-width:375px)  {
+    .developmentServices{
+        font-size: 30px;
+        font-family: poppins-semibold;
+        padding: 0 10%;
+        display: flex;
+        justify-content: space-around;
+        height:50vh;
+    }
+    .developmentServices p{
+        width: 90%;
+        margin: -200% 0 0 5%;
+        text-align: center;
+    }
+    .technologies1{
+        margin: -140% 0 0 -70%;
+        width:100%;
+    }
+    .technologies2{
+        margin: -80% 0 0 -90%;
+        width:100%;
+    }
+    .venzoexperts{
+        text-align: center;
+    }
+    .venzoMantra{
+        background-color: #0A1020;
+        height:50vh;
+        width:80vw;
+        margin:-120% 0% 10% 10%;
+        border-radius:10px 10px 10px 10px;
+        padding: 8% 3%;
+        display: block;
+    }
+    .venzoMantra #reach{
+        font-size: 17px;
+    }
+    .venzoMantra #mantra{
+        font-size: 17px;
+    }
+   
+    .venzoMantra #venzoExpertise{
+        width: 100%;
+        font-size: 14px;
+        opacity: 0.5;
+    }
+    .venzoMantra #Motto{
+        font-size: 15px;
+    }
+    .venzoexpertImg img{
+        margin:3% 5% 0 30%;
+        height:40%;
+        width:40%;
+    }
+}
+@media screen  and (max-width:425px)  {
     .developmentServices{
         font-size: 30px;
         font-family: poppins-semibold;

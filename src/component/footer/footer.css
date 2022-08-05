@@ -1,10 +1,10 @@
 @font-face {
     font-family:'poppins-thin';
-    src: url('../../../Poppins//Poppins-Thin.ttf');
+    src: url('../../../Poppins/Poppins-Thin.ttf');
 }
     @font-face {
     font-family:'poppins-medium';
-    src: url('../../../Poppins//Poppins-Medium.ttf');
+    src: url('../../../Poppins/Poppins-Medium.ttf');
   }
 footer{
     background-color: #0A1020;
@@ -19,18 +19,19 @@ footer{
     padding-top: 3%;
 }
 .footer h5{
-    font-family:'poppins-medium';
+    font-family:poppins-medium;
     margin-top: 2%;
+    font-size:16px;
 }
 .footerDetails{
     margin: -2%;
 }
 .address{
     display: block;
-    margin: 0 -20% 0 2%;
+    margin: 0 -10% 0 -8%;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     width: 30vw;
 }
@@ -39,9 +40,9 @@ footer{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin: 0 22% 0 2%;
+    margin: 0 22% 0 -8%;
     width: 20vw;
 
 }
@@ -49,24 +50,28 @@ footer{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin: 0 9% 0  -60%;
+    margin: 0 9% 0  -70%;
 
 }
 .contactUs{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0 2%;
+
+}
+.business{
+    margin: 20% 0 0 0;
 
 }
 .copyRight{
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 2% 10%;
     display: block;
@@ -293,6 +298,80 @@ footer{
     
 }
 @media screen  and (max-width:375px){
+    
+    footer{
+        height: 100%;
+        background-color: #0A1020;
+        }.footer{
+        display: block;
+        padding-top: 8%;
+    }
+    .footer div{
+        margin:1% 0 0 0;
+    }
+    .footer h5{
+        margin: 0 0 0 24%;
+        margin: 5% 0;
+    }
+    .footerDetails{
+        margin: 0 30% 0 0;
+    }
+    .footer .titleHr{
+        display: none;    }
+    .ch1{
+        padding: 5% 0;
+    }
+
+    .laptopResponsive{
+        display: block;
+    }
+    .laptopResponsive1{
+        display: block;
+        
+    }
+    .address .headOffice{
+        width:225%;
+    }
+    .address .branchOffice{
+        width:225%;
+    }
+    footer{
+        background-color: #0A1020;
+        height:max-content;
+        width:100vw;
+    }
+    .logoIcon{
+        display: none;
+    }
+    .copyRight{
+        margin: 5% 2%;
+        padding-bottom: 5%;
+        font-size: 12px;
+    }
+    .copyRight p{
+        width: 100%;
+        margin:2% 0 0 20%;
+    }
+    .copyRight hr{
+        width:75%;
+    }
+
+    .services p{
+        width: 260%;
+    } 
+    .laptopResponsive1{
+       margin: 45% 0% 0 -7%;
+    }
+    .contactUs{
+        margin: 0 0% 0 9%;
+    }  
+    .business{
+        margin: 12% 0 0 0;
+
+    }
+
+}
+@media screen  and (max-width:425px){
     
     footer{
         height: 100%;

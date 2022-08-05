@@ -1,5 +1,5 @@
 import React from 'react'
-import "../devServices/devServices.css"
+import "./devServices .css"
 import rightArrow from "../../images/Read more arrow-gradient.svg"
 import roundimage  from "../../images/round.png"
  
@@ -27,8 +27,8 @@ function devServices() {
     </div>
     <div className='venzoMantra'>
       <div className='venzoexperts'>
-      <p id='reach'>Make your reach with</p>
-     <p id='mantra'>VENZO MANTRA</p>
+      <p id='reach'>Make your reach with<br/><span id='mantra'>VENZO MANTRA</span></p>
+     
      <p id='venzoExpertise'>Venzo’s expertise have delivered successful applications that accelerate digital transformation with our unique blend of business expertise and streamlined process.</p>
      <p id='Motto'>Build.&nbsp;&nbsp;Innovate.&nbsp;&nbsp;Grow.</p>
       </div>

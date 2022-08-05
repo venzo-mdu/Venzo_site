@@ -3,11 +3,12 @@ import "../header/header.css"
 import Venzologo1 from "../../images/venzoWhite.svg"
 import HeaderData from "../../content/headerData.json"
 
-function header() {
+function header(props) {
+    console.log("props",props.flag)
   return (
       
    <header>
-       <div className='header'>
+        <div id={props.flag == 'header2'?'headerSection':' '} className='header'>
        <div className='logo'>
            <img src={Venzologo1} alt='logoIcon'></img>
        </div>

@@ -21,7 +21,7 @@
     height: 8%;
 }
 .header .links ul{
-    margin:-1.5% 50%;
+    margin:-1.5% 43%;
     width:80%;
 }
 .header .links li{
@@ -31,7 +31,24 @@
     margin: 0% 1%;
     font-weight: 500;
 }
+#headerSection{
+    background-color: #0a1020;
+    z-index: 0!important;
+    }
 @media screen and (max-width:375px){
+    .header .links li{
+        display:none;
+    }
+    .header img{
+        margin:5% 5%;
+        width:30%;
+        height: 30%;
+    }
+    .header{
+        position: sticky;
+    }
+}
+@media screen and (max-width:425px) and (min-width:375px){
     .header .links li{
         display:none;
     }

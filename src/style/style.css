@@ -2,10 +2,16 @@
     font-family:'poppins-light';
     src: url('../../Poppins/Poppins-Light.ttf');
 }
+@font-face {
+    font-family:'poppins-Medium';
+    src: url('../../Poppins/Poppins-Medium.ttf');
+}
 body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    cursor:default;
+
 }
 
 .containor1{
@@ -18,8 +24,9 @@ body{
     margin-left: 19%;
 }
 .title{
- font-size: 5rem;
+ font-size: 4rem;
  padding-bottom: 5%;
+font-family: poppins-Medium;
 }
 .desc{
     font-size: 18px;
@@ -52,7 +59,7 @@ body{
 }
 .heading{
     font-size: 20px;
-    margin: 2% 0 2% 0;
+    margin: 5% 0 5% 0;
 
 }
 .col3{
@@ -69,16 +76,27 @@ body{
 .readMore{
     float: right;
     margin-right: 8%;
-    margin-top: -3%;
+    margin-top: 3%;
+    font-size: 14px;
+    color: #000000;
+    opacity: 52%;
 }
+
+.readMore:hover{
+    color: #000000;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+
 .arrow1{
-    margin-top: -27%;
+    margin-top: -25%;
     margin-left: 92%;
 }
 .hr_line{
     width: 65%;
     margin-left: 18%;
-    margin-top: -1%;
+    margin-top: 0;
 }
 .customer{
     padding-left: 19%;
@@ -120,7 +138,14 @@ body{
 
 }
 .readMore1{
-    font-size: 20px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 52%;
+}
+.readMore1:hover{
+    color: #000000;
+    opacity: 100%;
+    cursor: pointer;
 }
 .col4{
     width: 41%;
@@ -133,20 +158,22 @@ body{
 
 .containor3{
     margin: 0 9px 0  0;
+    padding: 4% 0;
     width: 100vw;
     display: flex;
     background-color: #f6f6f6;
 }
 
 .anyIdea{
-    margin-left: 19vw;
-    padding: 3% 0;
+    margin-left: 18vw;
+    padding: 2% 0;
     font-size: 45px;
+    margin-top:-1% ;
 }
 .talk{
     margin-left: 28vw;
     height: 5vh;
-    margin-top: 8vh;
+    margin-top: 6vh;
     width: 11vw;
     color: white;
     background-color: #000000;

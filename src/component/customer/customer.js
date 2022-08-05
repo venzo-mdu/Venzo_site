@@ -1,17 +1,17 @@
 import React from 'react'
-// import video from '../../images/Video thumbnail.svg'
-// import arrow from '../../images/Read more arrow-gradient.svg'
+import video from '../../images/Video thumbnail.svg'
+import arrow from '../../images/Read more arrow-gradient.svg'
 import '../../style/style.css'
 import '../../style/laptop.css'
 import '../../style/laptopL.css'
 import '../../style/tablet.css'
 import '../../style/mobile.css'
-import customerContent from '../../content/CustomerContent.json'
+// import customerContent from '../../content/CustomerContent.json'
 
 function customer() {
     return (
-        <div>
-            {/* <p className='cus-title'> We offer refined customized applications that streamline your business needs and <b>enhance customer experience </b>for diversified sectors.</p>
+        <div  className='customer'>
+            <p className='cus-title'> We offer refined customized applications that streamline your business needs and <b>enhance customer experience </b>for diversified sectors.</p>
             <div className='row2'>
                 <div className='col4'>
                     <p className=' des1'>We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience</p>
@@ -21,8 +21,8 @@ function customer() {
                     <img className='videoImg' src={video} alt='video' />
 
                 </div>
-            </div> */}
-            {customerContent.customer.map((item) => {
+            </div>
+            {/* {customerContent.customer.map((item) => {
                return <div className='customer'>
                     <p className='cus-title'> {item.title}</p>
                     <div className='row2'>
@@ -36,7 +36,7 @@ function customer() {
                         </div>
                     </div>
                 </div>
-            })}
+            })} */}
 
         </div>
     )
