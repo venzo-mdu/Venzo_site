@@ -6,30 +6,22 @@ import Customer from "../component/customer/customer"
 import Blog from "../component/Blog/blog"
 import Idea from "../component/idea/idea"
 import Footer from '../component/footer/footer';
-import Header from "../component/header/header";
 import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
-import DM_Page from "../component/DmPage/DM_Page"
 
 const IndexPage = () => {
   return (
-    // <div>
-    //   <ImageCarousel />
-    //   <DevServices />
-    //   <Build />
-    //   {/* <hr className="hr_line"/>
-    //   <Innovate />
-    //   <hr className="hr_line"/>
-    //   <Grow /> */}
-    //   <Customer />
-    //   <Blog />
-    //   <Idea />
-    //   <Footer />
-
-    // </div>
     <div>
-      <DM_Page />
+      <ImageCarousel />
+      <DevServices />
+      <Build />
+      <Customer />
+      <Blog />
+      <Idea />
+      <Footer />
+
     </div>
+
   )
 }
 export default IndexPage

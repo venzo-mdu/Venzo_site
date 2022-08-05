@@ -1,0 +1,135 @@
+[
+    {
+        "title": "Search Engine Optimization",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon":"../DMpage/Google.png"
+           
+            },
+            {
+                "icon": "../DMpage/bing.png"
+               
+            },
+            {
+                "icon": "../DMpage/yahoo.png"
+      
+            }
+        ]
+    },
+    {
+        "title": "Social Media Optimization & Social Media Marketing",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/insta.png"
+               
+            },
+            {
+                "icon": "../DMpage/fb.png"
+             
+            },
+            {
+                "icon": "../DMpage/youtube.png"
+             
+            }
+        ]
+
+    },
+    {
+        "title": "Market Place Optimization",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/amazon.png"
+     
+            },
+            {
+                "icon": "../DMpage/flipkart.png"
+              
+            },
+            {
+                "icon": "../DMpage/meesho.png"
+  
+            }
+        ]
+    },
+    {
+        "title": "Video Marketing",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/youtube.png"
+              
+            },
+            {
+                "icon": "../DMpage/vimeo.png"
+               
+            }
+        ]
+    },
+    {
+        "title": "Content Marketing",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/data.png"
+                
+            },
+            {
+                "icon": "../DMpage/statistic.png"
+             
+            },
+            {
+                "icon": "../DMpage/content.png"
+              
+            }
+        ]
+    },
+    {
+        "title": "Email Marketing",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/mailchimp.png"
+         
+            },
+            {
+                "icon": "../DMpage/email marketing.png"
+                
+            }
+        ]
+    },
+    {
+        "title": "Paid Campaigns",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/google ad.png"
+             
+            },
+            {
+                "icon": "../DMpage/fb.png"
+           
+            },
+            {
+                "icon": "../DMpage/youtube.png"
+        
+            }
+        ]
+    },
+    {
+        "title": "App Store Optimization",
+        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+        "SubContent": [
+            {
+                "icon": "../DMpage/appstore.png"
+    
+            },
+            {
+                "icon": "../DMpage/playstore.png"
+                
+            }
+        ]
+    }
+]
