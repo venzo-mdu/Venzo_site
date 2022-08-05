@@ -1,0 +1,34 @@
+
+    {
+        "customer": [
+            {
+                "title": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "desc": "We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.",
+                "readMore": "READ MORE",
+                "arrow": "../images/Read more arrow-gradient.svg",
+                "Images": "../images/Video thumbnail.svg"
+            }
+        ],
+        "blog": [
+            {
+                "title1": "Our Latest Blogs",
+                "title2": "Careers",
+                "decs1": "New Product Development; Winner's Guild",
+                "decs2": "How To Choose Betwen React Native And Ionic For Your App",
+                "decs3": "Selenium the Most Popular Test Automation Tool",
+                "date1": "May04,2022",
+                "subTitle": "Want to be a Venzoian?",
+                "careersDecs": "Interested in working with us?",
+                "careersDecs1": "Explore career oppourtunities below.",
+                "job": "View Job",
+                "arrow": "../images/Read more arrow-gradient.svg"
+            }
+        ],
+        "idea": [
+            {
+                "line1": "Any Ideas?",
+                "line2": "Let’s make it happen.",
+                "talk": "Let's Talk"
+            }
+        ]
+    }

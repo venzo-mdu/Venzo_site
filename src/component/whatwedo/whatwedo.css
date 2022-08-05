@@ -1,0 +1,107 @@
+@font-face {
+    font-family:'poppins-semibold';
+    src: url('../../../Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family:'poppins-thin';
+    src: url('../../../Poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../../../Poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../../../Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../../Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('../../../Poppins/Poppins-ExtraBold.ttf');
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.whatwedo{
+    background-color: white;
+    height: 140vh;
+    padding: 0 5%;
+}
+.whatwedoText h3{
+    font-size: 40px;
+    font-family: poppins-semibold;
+    margin: 12% 0 0 0;
+}
+.whatwedoText p{
+    width:20%;
+    color: black;
+    opacity: 0.4;
+    font-family: poppins-medium;
+    margin: 2% 0 0 0;
+    position: absolute;
+
+}
+.whatwedoCard{
+    display: flex;
+    justify-content: center;
+    margin: -14.8% 0 0 0;
+    height: 60vh;
+}
+.whatwedoCard div{
+    padding:4% 1%;
+    border:1px solid #ebeaea;
+    border-top: none;
+    width:12vw;
+    background-color: #d9d7d7;
+}
+.whatwedoCard p{
+    width:105%;
+    font-size: 14px;
+    font-family: poppins-regular;
+    margin:30% 0 0 0;
+}
+.whatwedoCard .uxResearch{
+    background-image: url('../../images/uxResearch_No1.svg');
+}
+.whatwedoCard .uiuxDesign{
+    background-image: url('../../images/uiux_Design_No2.svg');
+}
+.whatwedoCard .digitalPrototyping{
+    background-image: url('../../images/digitalPrototyping_No3.svg');
+}
+.whatwedoCard .digitalBranding{
+    background-image: url('../../images/digitalBranding_No4.svg');
+}
+.whatwedoCard .uxResearch:hover{
+    background-image: url('../../images/UX\ research.svg');
+    color: white;
+}
+.whatwedoCard .uiuxDesign:hover{
+    background-image: url('../../images/Ux\ Ui\ Design.svg');
+    color: white;
+}
+.whatwedoCard .digitalPrototyping:hover{
+    background-image: url('../../images/Digital\ prototyping.svg');
+    color: white;
+}
+.whatwedoCard .digitalBranding:hover{
+    background-image: url('../../images/Digital\ prototyping.svg');
+    color: white;
+}
+.whatwedo .ourApproach h1{
+    font-family: poppins-semibold;
+    font-size: 100px;
+    text-align: center;
+    margin: 5% 0 0 0;
+    background: linear-gradient(178deg, #000000 -700.43%, rgba(0, 0, 0, 0) 105.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.whatwedo .ourApproach img{
+    margin: 2% 0% 0 28%;
+}

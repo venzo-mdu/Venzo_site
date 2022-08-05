@@ -1,0 +1,15 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.prototypes{
+    background-color: whitesmoke;
+    height: 30vh;
+    padding: 4% 10%;
+}
+.prototypes #days{
+    background: linear-gradient(269.28deg, #C90736 0.5%, #0022FF 105.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

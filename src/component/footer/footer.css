@@ -1,0 +1,447 @@
+@font-face {
+    font-family:'poppins-thin';
+    src: url('../../../Poppins/Poppins-Thin.ttf');
+}
+    @font-face {
+    font-family:'poppins-medium';
+    src: url('../../../Poppins/Poppins-Medium.ttf');
+  }
+footer{
+    background-color: #0A1020;
+    height:50vh;
+    width:100vw;
+}
+
+.footer{
+    display: flex;
+    line-height: 1.5;
+    margin: 0 0 0 20%;
+    padding-top: 3%;
+}
+.footer h5{
+    font-family:poppins-medium;
+    margin-top: 2%;
+    font-size:16px;
+}
+.footerDetails{
+    margin: -2%;
+}
+.address{
+    display: block;
+    margin: 0 -10% 0 -8%;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 14px;
+    font-weight: 400;
+    width: 30vw;
+}
+
+.services{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 22% 0 -8%;
+    width: 20vw;
+
+}
+.aboutUs{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 9% 0  -70%;
+
+}
+.contactUs{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 2%;
+
+}
+.business{
+    margin: 20% 0 0 0;
+
+}
+.copyRight{
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2% 10%;
+    display: block;
+}
+.copyRight p{
+    margin:1% 38%;
+}
+.copyRightHr{
+    color: #FFFFFF;
+    width:75%;
+    margin:1% 0% 0 12.5%;
+    opacity: 0.5;
+}
+.titleHr{
+    color: #FFFFFF;
+    width:40%;
+    margin: 1% 0% 2% 0;
+    opacity: 0.5;
+}
+.logoIcon{
+    width:70px;
+    height:70px;
+    margin:-10% 0% 0% 85%;
+}
+.laptopResponsive{
+    display: flex;
+}
+.laptopResponsive1{
+    display: flex;
+}
+
+@media screen  and (max-width:1440px) and (min-width:1030px) {
+footer{
+    background-color: #0A1020;
+    height:55vh;
+    width:100vw;
+}
+
+.footer{
+    display: flex;
+    line-height: 1.5;
+    padding: 3% 10%;
+    margin: 2% 0 0 0%;
+}
+.footer h5{
+    font-family:'poppins-medium';
+}
+.footerDetails{
+    margin: -2%;
+}
+.address{
+    display: block;
+    margin: 0 12% 0 11%;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.services{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 19% 0 -10%;
+
+}
+.services p{
+    width: 20vw;
+
+}
+ .headOffice{
+    width: 20vw;
+}
+.aboutUs{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 17% 0  -21%;
+
+}
+.contactUs{
+    display: block;
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 10% 0 -12%;
+
+}
+.copyRight{
+    color: #FFFFFF;
+    font-family: poppins-thin;
+    font-size: 16px;
+    font-weight: 400;
+    margin: -1% 3%;
+    display: block;
+}
+.copyRight p{
+    margin:1% 35%;
+}
+.copyRight hr{
+    color: #FFFFFF;
+    width:75%;
+    margin:1% 0% 0 12.5%;
+    opacity: 0.5;
+}
+.logoIcon{
+    width:70px;
+    height:70px;
+    margin:-8% 0% 0% 90%;
+}
+.laptopResponsive{
+    display: flex;
+}
+.laptopResponsive1{
+    display: flex;
+}
+
+}
+
+
+@media screen and (max-width:1030px) and (min-width:775px) {
+    footer{
+        background-color: #0A1020;
+        height:90vh;
+        width:100vw;
+    }
+    .laptopResponsive{
+        margin: 0% 0 0 0;
+    }
+    .address {
+        display: block;
+        margin: 0 -4% 0 -7%;
+        color: #FFFFFF;
+        font-family: poppins-thin;
+        font-size: 16px;
+        font-weight: 400;
+        width: 30vw;
+    }
+    
+    .address .headOffice{
+        width:200%;
+    }
+    .address .branchOffice{
+        width:210%;
+    }
+    .services{
+        margin: 0 0 0 69%;
+    } 
+    .services p{
+        width: 200%;
+    } 
+    .laptopResponsive1{
+       margin: 40% 0% 0 -25%;
+    }
+    .contactUs{
+        margin: 0 0% 0 35%;
+    }
+    .copyRight {
+        color: #FFFFFF;
+        font-family: poppins-thin;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 2% -24%;
+        display: block;
+    }
+    .copyRightHr {
+        color: #FFFFFF;
+        width: 47%;
+        margin: 1% 0% 0 26%;
+        opacity: 0.5;
+    }
+    .logoIcon{
+        width:70px;
+        height:70px;
+        margin:-15% 0% 0% 87%;
+    }
+  }
+  
+  @media screen  and (max-width:770px) and (min-width:500px) {
+    footer{
+        background-color: #0A1020;
+        height:90vh;
+        width:100vw;
+    }
+    .laptopResponsive{
+        margin: 5% 0 0 -10%;
+        
+    }
+    .address .headOffice{
+        width:200%;
+    }
+    .address .branchOffice{
+        width:210%;
+    }
+    .services{
+        margin: 0 0 0 86%;
+    } 
+    .services p{
+        width: 200%;
+    } 
+    .laptopResponsive1{
+       margin: 55% 0% 0 -7%;
+    }
+    .contactUs{
+        margin: 0 0% 0 9%;
+    }  
+    .business{
+        margin: 12% 0 0 0;
+
+    }
+    .copyRight p{
+        width: 80%;
+        margin:2% 0 0 25%;
+    }
+    .copyRightHr{
+        width:90%;
+        margin:0 0 0 3%
+    }
+    
+}
+@media screen  and (max-width:375px){
+    
+    footer{
+        height: 100%;
+        background-color: #0A1020;
+        }.footer{
+        display: block;
+        padding-top: 8%;
+    }
+    .footer div{
+        margin:1% 0 0 0;
+    }
+    .footer h5{
+        margin: 0 0 0 24%;
+        margin: 5% 0;
+    }
+    .footerDetails{
+        margin: 0 30% 0 0;
+    }
+    .footer .titleHr{
+        display: none;    }
+    .ch1{
+        padding: 5% 0;
+    }
+
+    .laptopResponsive{
+        display: block;
+    }
+    .laptopResponsive1{
+        display: block;
+        
+    }
+    .address .headOffice{
+        width:225%;
+    }
+    .address .branchOffice{
+        width:225%;
+    }
+    footer{
+        background-color: #0A1020;
+        height:max-content;
+        width:100vw;
+    }
+    .logoIcon{
+        display: none;
+    }
+    .copyRight{
+        margin: 5% 2%;
+        padding-bottom: 5%;
+        font-size: 12px;
+    }
+    .copyRight p{
+        width: 100%;
+        margin:2% 0 0 20%;
+    }
+    .copyRight hr{
+        width:75%;
+    }
+
+    .services p{
+        width: 260%;
+    } 
+    .laptopResponsive1{
+       margin: 45% 0% 0 -7%;
+    }
+    .contactUs{
+        margin: 0 0% 0 9%;
+    }  
+    .business{
+        margin: 12% 0 0 0;
+
+    }
+
+}
+@media screen  and (max-width:425px){
+    
+    footer{
+        height: 100%;
+        background-color: #0A1020;
+        }.footer{
+        display: block;
+        padding-top: 8%;
+    }
+    .footer div{
+        margin:1% 0 0 0;
+    }
+    .footer h5{
+        margin: 0 0 0 24%;
+        margin: 5% 0;
+    }
+    .footerDetails{
+        margin: 0 30% 0 0;
+    }
+    .footer .titleHr{
+        display: none;    }
+    .ch1{
+        padding: 5% 0;
+    }
+
+    .laptopResponsive{
+        display: block;
+    }
+    .laptopResponsive1{
+        display: block;
+        
+    }
+    .address .headOffice{
+        width:225%;
+    }
+    .address .branchOffice{
+        width:225%;
+    }
+    footer{
+        background-color: #0A1020;
+        height:max-content;
+        width:100vw;
+    }
+    .logoIcon{
+        display: none;
+    }
+    .copyRight{
+        margin: 5% 2%;
+        padding-bottom: 5%;
+        font-size: 12px;
+    }
+    .copyRight p{
+        width: 100%;
+        margin:2% 0 0 20%;
+    }
+    .copyRight hr{
+        width:75%;
+    }
+
+    .services p{
+        width: 260%;
+    } 
+    .laptopResponsive1{
+       margin: 45% 0% 0 -7%;
+    }
+    .contactUs{
+        margin: 0 0% 0 9%;
+    }  
+    .business{
+        margin: 12% 0 0 0;
+
+    }
+
+}

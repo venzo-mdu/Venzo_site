@@ -1,0 +1,410 @@
+@font-face {
+    font-family:'poppins-light';
+    src: url('../../../Poppins//Poppins-Light.ttf');
+}
+@font-face {
+    font-family:'poppins-regular';
+    src: url('../../../Poppins//Poppins-Regular.ttf');
+}
+@font-face {
+    font-family:'poppins-medium';
+    src: url('../../../Poppins//Poppins-Medium.ttf');
+}
+@font-face {
+    font-family:'poppins-bold';
+    src: url('../../../Poppins//Poppins-Black.ttf');
+}
+.carousel-item{
+    height: 93vh;
+}
+.carousel-control-next-icon{
+    display: none;
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-indicators{
+    height:100px;
+    width: 100px;
+    border-radius: 25%;
+}
+.item1 {
+    text-align: left;
+    margin-top: -40%;
+    margin-left: 16%;
+    }
+    
+.item2{
+
+    text-align: left;
+    margin-top: -40%;
+    margin-left: 16%;
+}
+    
+.item3 {
+    text-align: left;
+    margin-top: -40%;
+    margin-left: 16%;
+}
+#blockchain{
+    font-family: poppins-light;
+    color:white;
+    font-size: 60px;
+    font-weight: 800;
+}
+#dataEngineering{
+    font-family: poppins-light;
+    color:#0a1020;
+    font-size: 60px;
+    font-weight: 800;
+}
+#productDevelopment{
+    color:white;
+    font-family: poppins-light;
+    font-size: 60px;
+    font-weight: 800;
+}
+#knowMore{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: poppins-regular;
+    margin-top: 1%;
+    color: white;
+}
+#knowMore1{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: poppins-regular;
+    margin-top: 1%;
+    color:#0a1020;
+}
+#blockchainDev{
+    color: white;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+#dataEnggDev{
+    color:#0a1020;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+#productDev{
+    color: white;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+.whiteArrow {
+    width:20px;
+}
+.blackArrow1{
+    width:30px;
+    height:50px;
+}
+/* 
+.carousel {
+    position: relative;
+    width: 300%;
+    margin-tp: 0;
+    left: 0;
+    animation: 10s slider infinite ;
+    z-index: 0;
+}
+
+#slider .carousel .carousel-inner {
+    width: 100%;
+    float: left;
+}
+.carousel-indicators li {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+  }
+.carousel-inner {
+
+    height: 95vh;
+    text-align: center;
+    color: #1e232d;
+    display: flex;
+    width: 100%;
+  }
+
+  .carousel-item {
+
+    padding: 4%;
+    
+    text-align: center;
+    
+    margin-right: 0;
+    
+    
+    
+    }
+    
+    .item1 {
+    
+    background-image: url('../../images//Blockchain-1.png');
+    
+    text-align: left;
+    
+    display: block;
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+    width: 100%;
+    
+    }
+    
+    .item2{
+    
+    background-image: url('../../images//Data-Engineering-Banner.png');
+    
+    text-align: left;
+    
+    display: block;
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+    width: 100%;
+    
+    }
+    
+    .item3 {
+    
+    background-image: url('../../images//Product-Development-Banner.png');
+    
+    text-align: left;
+    
+    display: block;
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+    width: 100%;
+    
+    }
+#blockchain{
+    font-family: poppins-light;
+    color:white;
+    font-size: 60px;
+    font-weight: 800;
+}
+#dataEngineering{
+    font-family: poppins-light;
+    color:#0a1020;
+    font-size: 60px;
+    font-weight: 800;
+}
+#productDevelopment{
+    color:white;
+    font-family: poppins-light;
+    font-size: 60px;
+    font-weight: 800;
+}
+#knowMore{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: poppins-regular;
+    margin-top: 1%;
+    color: white;
+}
+#knowMore1{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: poppins-regular;
+    margin-top: 1%;
+    color:#0a1020;
+}
+#blockchainDev{
+    color: white;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+#dataEnggDev{
+    color:#0a1020;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+#productDev{
+    color: white;
+    font-size: 20px;
+    font-family: poppins-medium;
+}
+.whiteArrow {
+    width:20px;
+}
+.blackArrow1{
+    width:30px;
+    height:50px;
+}
+@keyframes slider {
+    0% {
+        left: 0%
+    }
+    32.9% {
+        left: 0%
+    }
+    33% {
+        left: -100%
+    }
+    65.9% {
+        left:-100%
+    }
+    
+    66%{
+        left:-200%
+    }
+    100%{
+        left: -200%;
+}  
+} */
+
+.socialMediaIcon{
+    position: fixed;
+    top:34%;
+    right: 2%;
+    z-index: 1;
+}
+.socialMediaIcon img{
+    display: block;
+    margin:0 0 60% 0;
+}
+/* #fbicon{
+    color: black;
+}
+#twittericon{
+    color: black;
+}
+#linkedinicon{
+    color: black;
+}
+#instaicon{
+    background-color: black;
+} */
+@media screen and (max-width:375px) {
+    .carousel-item{
+        margin: -0.1%;
+        background-size:100% ;
+        height: 20%;
+    }
+    .carousel-item1 .carousel-item-2 .carousel-item-3{
+      background-size:100% 100% ;
+      margin: auto;
+  }
+
+  #blockchain{
+    font-size: 10px;
+}
+#dataEngineering{
+    font-size: 10px;
+}
+#productDevelopment{
+    font-size: 10px;
+}
+
+#blockchainDev{
+    color: white;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+#dataEnggDev{
+    color: white;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+#productDev{
+    color:#0a1020;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+  .carousel-item{
+      margin: -0.1%;
+      background-size:100% ;
+      height: 75%;
+  }
+  .carousel-item1 .carousel-item-2 .carousel-item-3{
+    background-size:100% 100% ;
+}
+.socialMediaIcon img{
+    display:none
+}
+#blockchain{
+    font-size: 25px;
+}
+#dataEngineering{
+    font-size: 25px;
+}
+#productDevelopment{
+    font-size: 25px;
+}
+}
+
+
+@media screen  and (max-width:770px) and (min-width:500px) {
+
+    .carousel-item{
+        margin: 2% 0 0 0;
+        background-size:100% ;
+        height: 60%;
+    }
+    .carousel-item1 .carousel-item-2 .carousel-item-3{
+      background-size:100% 100% ;
+  }
+  #blockchain{
+    font-size: 20px;
+}
+#dataEngineering{
+    font-size: 20px;
+}
+#productDevelopment{
+    font-size: 20px;
+}
+
+.socialMediaIcon img{
+    display: none
+}
+}
+
+@media screen and (max-width:425px) and (min-width:375px) {
+    .carousel-item{
+        margin: -0.1%;
+        background-size:100% ;
+        height: 20%;
+    }
+    .carousel-item1 .carousel-item-2 .carousel-item-3{
+      background-size:100% 100% ;
+      margin: auto;
+  }
+
+  #blockchain{
+    font-size: 10px;
+}
+#dataEngineering{
+    font-size: 10px;
+}
+#productDevelopment{
+    font-size: 10px;
+}
+
+#blockchainDev{
+    color: white;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+#dataEnggDev{
+    color: white;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+#productDev{
+    color:#0a1020;
+    font-size: 7px;
+    font-family: poppins-medium;
+}
+}
