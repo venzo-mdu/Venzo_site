@@ -1,24 +1,22 @@
-import React, { useState } from 'react';
-import Fade from 'react-bootstrap/Fade'; import Header from '../header/header'
-import Collapse from 'react-bootstrap/Collapse'
-import { Accordion, Card, Button } from "react-bootstrap";
-
+import React from 'react';
+import Header from '../header/header'
+import Footer from "../footer/footer"
 import block from '../../images/Blockchain.png'
 import './DM_page.css'
 import colorArrow from '../../images/Read more arrow-gradient.svg'
 import line from '../../images/Vector 76.svg'
 import Service from './service'
 import Dmcarousels from './DmCarousel'
-import FrequntQus from '../../content/ferquntQus.json'
+import DmFrequentQues from './DmFrequentQues';
+import './laptopL.css'
 function DM_Page() {
-    const [open, setOpen] = useState(false);
 
     return (
         <>
             <Header flag='header1' />
             <Header flag='header2' />
             <div>
-                <div >
+                <div  className='starting'>
                     <img className='blockLogo w-100 ' src={block} ></img>
                     <div className='section1'>
                         <p className='Dm_Title'>We grow Business <br />online</p>
@@ -71,28 +69,15 @@ function DM_Page() {
             </div>
             <Dmcarousels />
             <div className='section6'>
-                <p className='sect6_title'>Frequently asked questions?</p>
-                {FrequntQus.map(item => {
-                    return <div key={item.id} defaultActiveKey="0">
-                    {console.log(item.id,item.titile,item.data)}
-                        <p>{item.titile}</p>
-                        <Button variant="link" Key={item.id} onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="collapseID"> +  </Button>
-                        <Collapse in={open} Key={item.id}>
-                            <div 
-                                style={{
-                                    width: 300,
-                                    textAlign: 'justify'
-                                }}
-                            >
-                                {item.data}
-                            </div>
-                        </Collapse>
-                    </div>
-                })}
-
+                <DmFrequentQues />
             </div>
-
-
+            <div>
+                <div className='containor3'>
+                    <p className='anyIdea'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
+                    <button className=' btn auidt'>Free website audit</button>
+                </div>
+            </div>
+            <Footer />    
         </>
     )
 }
