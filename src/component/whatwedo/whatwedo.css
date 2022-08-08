@@ -29,7 +29,15 @@ body{
 .whatwedo{
     background-color: white;
     height: 150vh;
-    padding: 0 5%;
+    padding: 0 0 0 5%;
+   
+}
+.whatwedoflex{
+    width: 100%;
+    display: flex;
+}
+.whatwedoText{
+    width:30%;
 }
 .whatwedoText h3{
     font-size: 50px;
@@ -49,14 +57,15 @@ body{
 .whatwedoCard{
     display: flex;
     justify-content: center;
-    margin: -15.5% -58% 0 0;
-    height: 60vh;
+    /* margin: -15.5% -45% 0 0; */
+    /* height: 100vh; */
+    width: 70%;
 }
 .whatwedoCard div{
     padding:4% 1%;
     border:1px solid #ebeaea;
     border-top: none;
-    width:12vw;
+    width:20%;
     background-color: #d9d7d7;
 }
 .whatwedoCard p{
@@ -67,18 +76,29 @@ body{
 }
 .whatwedoCard .uxResearch{
     background-image: url('../../images/uxResearch_No1.svg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
 }
 .whatwedoCard .uiuxDesign{
     background-image: url('../../images/uiux_Design_No2.svg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
 }
 .whatwedoCard .digitalPrototyping{
     background-image: url('../../images/digitalPrototyping_No3.svg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
 }
 .whatwedoCard .digitalBranding{
     background-image: url('../../images/digitalBranding_No4.svg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
 }
 .whatwedoCard .uxResearch:hover{
-    background-image: url('../../images/UX\ research.svg');
+    background-image: url('../../images/UX research.svg');
     color: white;
 }
 .whatwedoCard .uiuxDesign:hover{

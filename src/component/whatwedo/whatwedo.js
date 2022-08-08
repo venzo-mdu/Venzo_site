@@ -6,6 +6,7 @@ function whatwedo() {
   return (
       <section>
           <div className='whatwedo'>
+            <div className='whatwedoflex'>
               <div className='whatwedoText'>
                   <h3>What we do?</h3>
                   <p>We offer design thinking-based and technology driven services in digital product innovation, customer experience management, and digital transformation.</p>
@@ -29,6 +30,7 @@ function whatwedo() {
                    <h4>Digital<br></br>Branding</h4>
                    <p>Helping brands with all digital support to grow digitally.</p>
                       
+                 </div>
                  </div>
               </div>
               <div className='ourApproach'>

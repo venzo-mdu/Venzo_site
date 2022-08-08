@@ -24,6 +24,7 @@ body{
     width: 100vw;
     height: 60vh;
     z-index: 0;
+    background-size: 100% 100%;
 }
 .digitalProducts{
     padding: 8% 15%;
@@ -48,4 +49,5 @@ body{
     font-family: poppins-medium;
     color: white;
     font-size: 16px;
+    margin: 3% 0 0 0;
 }
