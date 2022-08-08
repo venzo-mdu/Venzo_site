@@ -1,3 +1,19 @@
+@font-face {
+    font-family:'poppins-semibold';
+    src: url('../../../Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family:'poppins-thin';
+    src: url('../../../Poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../../../Poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../../../Poppins/Poppins-Medium.ttf');
+}
 body{
     padding:0;
     margin: 0;
@@ -6,10 +22,25 @@ body{
     background-color: whitesmoke;
     height: 30vh;
     padding: 4% 10%;
+    display: inline-flex;
+    width: 100vw;
+}
+.prototypes h1{
+    font-family:poppins-semibold;
+    font-size: 50px;
 }
 .prototypes #days{
     background: linear-gradient(269.28deg, #C90736 0.5%, #0022FF 105.22%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+.prototypes .design{
+        height: 5vh;
+        width: 13vw;
+        color: white;
+        background-color: #000000;
+        border-radius: 7px 7px 7px 7px;
+        font-size: 18px;
+        margin: 1.5% 0 0 40%;
 }

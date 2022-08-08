@@ -3,6 +3,8 @@ import About from "../component/aboutUIUX/aboutUIUX";
 import Header from "../component/header/header"
 import Whatwedo  from '../component/whatwedo/whatwedo';
 import Prototypes from "../component/prototypes/prototypes";
+import Fidelity from "../component/fidelity/fidelity";
+import Footer from "../component/footer/footer"
 
 const uiuxPage=()=>{
   return(
@@ -12,6 +14,8 @@ const uiuxPage=()=>{
           <About/>
           <Whatwedo/>
           <Prototypes/>
+          <Fidelity/>
+          <Footer/>
     </>
   );
 }

@@ -6,6 +6,7 @@ function prototypes() {
       <section>
           <div className='prototypes'>
            <h1>Build Your Prototypes<br></br><span id="days">in 7 days</span></h1>
+           <button className='design'>Request a design</button>
           </div>
       </section>
   )

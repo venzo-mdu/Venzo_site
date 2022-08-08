@@ -28,27 +28,28 @@ body{
 }
 .whatwedo{
     background-color: white;
-    height: 140vh;
+    height: 150vh;
     padding: 0 5%;
 }
 .whatwedoText h3{
-    font-size: 40px;
+    font-size: 50px;
     font-family: poppins-semibold;
-    margin: 12% 0 0 0;
+    margin: 12% 0 0 10%;
 }
 .whatwedoText p{
     width:20%;
     color: black;
     opacity: 0.4;
     font-family: poppins-medium;
-    margin: 2% 0 0 0;
+    margin: 2% 0 0 9%;
     position: absolute;
+    font-size: 20px;
 
 }
 .whatwedoCard{
     display: flex;
     justify-content: center;
-    margin: -14.8% 0 0 0;
+    margin: -15.5% -58% 0 0;
     height: 60vh;
 }
 .whatwedoCard div{
@@ -60,7 +61,7 @@ body{
 }
 .whatwedoCard p{
     width:105%;
-    font-size: 14px;
+    font-size: 18px;
     font-family: poppins-regular;
     margin:30% 0 0 0;
 }
@@ -102,6 +103,39 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.whatwedo .ourApproach img{
-    margin: 2% 0% 0 28%;
+
+.whatwedo .ourApproach .approach{
+    display: block;
+    padding: 3% 15%;
+}
+.ourApproach .approachDesign{
+    position: relative;
+}
+.ourApproach .approachDesign img{
+    position: absolute;
+    margin: 3.5% 0 0 30%;
+    height: 63vh;
+}
+
+.approach{
+    position: absolute;
+}
+.approach .research{
+    display: inline-flex;
+}
+
+.approach .ideate{
+    margin: 15% 0 0 19%;
+    display: inline-flex;
+}
+.approach .prototype{
+    margin: 20% 0 0 29%;
+    display: inline-flex;
+}
+.approach div p{
+    margin:3% 0 0 10%;
+    font-family: poppins-medium;
+    font-size: 18px;
+    opacity: 0.5;
+    line-height: 1;
 }

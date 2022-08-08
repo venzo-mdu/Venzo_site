@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fidelityPrototypes{
+    height: 75vh;
+}
+.fidelity{
+    display: flex;
+    padding: 5% 10%;
+}
+.fidelity .lowFidelity{
+    margin: 0% 0% 0 10%;
+}
+.fidelity .highFidelity{
+    margin: 0% 0 0 10%;
+}
+.fidelity .lowFidelity p{
+    width:100%;
+    color: black;
+    opacity: 0.4;
+    font-family: poppins-medium;
+    margin: 2% 0 0 0%;
+}
+.fidelity .highFidelity p{
+    width:90%;
+    color: black;
+    opacity: 0.4;
+    font-family: poppins-medium;
+    margin: 2% 0 0 0%;
+}
+.fidelity .lowFidelity img{
+    margin: 5% 0 0 -10%;
+}
+.fidelity .highFidelity img{
+    margin: 10% 0 0 0%;
+}
+.ourInsights{
+    display: flex;
+    padding: 2% 7%;
+    width: 100%;
+    margin: 0 0 0 5%;
+}
+.ourInsights div{
+      display: flex;
+}
+.ourInsights .idea{
+    width: 33%;
+
+}
+.ourInsights div h4{
+    margin: 4% 0 0 10%;
+    width: 100%;
+}
