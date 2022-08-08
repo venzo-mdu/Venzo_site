@@ -192,31 +192,75 @@
     background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .DM_cardTitle {
-    width: 296px;
+    width: 30%;
+    height: 20%;
     margin-left: 12%;
     list-style:  none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 2.8;
     text-align: right;
-    color: #BCBCBC;
+
 }
 .DmCarosel{
     display: flex;
-    margin: 5% 5%;
+    margin: 5% 20%;
 }
 .carousel-item{
     height: 6%;
 }
-.carousel-control-next, .carousel-control-prev{    display: none;
+.cardtitle1:active {
+    color: red;
+}
+.DM_cardTitle > li {
+       color: #BCBCBC;
+}
+.DM_cardTitle > li:hover {
+    color: black;
+}
+.DM_cardTitle > li:active {
+    color: green;
+}
+.carousel-control-next, .carousel-control-prev{
+        display: none;
 }
 .line1{
     margin-right: 2%;
     margin-left: 5%;
     width: max-content;
+}
+.card1{
+    width: 25vw;
+    height: 30vh;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 3%;
+
+}
+.cardList{
+    display: flex;
+    height: 50vh;
+    padding-top: 5%;
+    background-image: url('../../images/Background-1.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 33vw;
+    background-position-y: -1vh;
+}
+.sect6_title{
+    font-family: "Poppins", Sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 120px;
+    text-align: center;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
