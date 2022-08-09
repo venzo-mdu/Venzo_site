@@ -8,7 +8,7 @@
   }
 footer{
     background-color: #0A1020;
-    height:50vh;
+    height:53vh;
     width:100vw;
 }
 
@@ -21,7 +21,7 @@ footer{
 .footer h5{
     font-family:poppins-medium;
     margin-top: 2%;
-    font-size:16px;
+    font-size:18px;
 }
 .footerDetails{
     margin: -2%;
@@ -31,7 +31,7 @@ footer{
     margin: 0 -10% 0 -8%;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     width: 30vw;
 }
@@ -40,7 +40,7 @@ footer{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 22% 0 -8%;
     width: 20vw;
@@ -50,7 +50,7 @@ footer{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 9% 0  -70%;
 
@@ -59,7 +59,7 @@ footer{
     display: block;
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 2%;
 
@@ -71,13 +71,13 @@ footer{
 .copyRight{
     color: #FFFFFF;
     font-family: poppins-thin;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin: 2% 10%;
     display: block;
 }
 .copyRight p{
-    margin:1% 7.5%;
+    margin:1% 8%;
 }
 .copyRightHr{
     color: #FFFFFF;
@@ -174,7 +174,7 @@ footer{
     display: block;
 }
 .copyRight p{
-    margin:1% 35%;
+    margin:1% 13%;
 }
 .copyRight hr{
     color: #FFFFFF;
@@ -204,7 +204,7 @@ footer{
         width:100vw;
     }
     .laptopResponsive{
-        margin: 0% 0 0 0;
+        margin: 5% 0 0 0;
     }
     .address {
         display: block;
@@ -229,17 +229,22 @@ footer{
         width: 200%;
     } 
     .laptopResponsive1{
-       margin: 40% 0% 0 -25%;
+       margin: 45% 0% 0 -20%;
     }
     .contactUs{
-        margin: 0 0% 0 35%;
+        margin: 0 0% 0 25%;
+    }
+    .aboutUs{
+
+        margin: 0 20% 0  -80%;
+    
     }
     .copyRight {
         color: #FFFFFF;
         font-family: poppins-thin;
         font-size: 16px;
         font-weight: 400;
-        margin: 2% -24%;
+        margin: 2% 10%;
         display: block;
     }
     .copyRightHr {

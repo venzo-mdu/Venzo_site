@@ -27,7 +27,7 @@ body{
     background-size: 100% 100%;
 }
 .digitalProducts{
-    padding: 8% 15%;
+    padding: 8% 10%;
 }
 #usable{
     background: linear-gradient(269.28deg, #C90736 0.5%, #0022FF 105.22%);
@@ -50,4 +50,7 @@ body{
     color: white;
     font-size: 16px;
     margin: 3% 0 0 0;
+}
+@media screen and (max-width:1440px) and (min-width:1030px) {
+    
 }
