@@ -2,9 +2,12 @@ import React from 'react';
 import Header from '../header/header'
 import Footer from "../footer/footer"
 import block from '../../images/Blockchain.png'
+import block1 from '../../DMpage/blockLogo1.png';
 import './DM_page.css'
 import colorArrow from '../../images/Read more arrow-gradient.svg'
 import line from '../../images/Vector 76.svg'
+import line1 from '../../DMpage/Vector 82.png'
+
 import Service from './service'
 import Dmcarousels from './DmCarousel'
 import DmFrequentQues from './DmFrequentQues';
@@ -19,6 +22,7 @@ function DM_Page() {
             <div>
                 <div  className='starting'>
                     <img className='blockLogo w-100 ' src={block} ></img>
+                    <img className='blockLogo1 w-100 ' src={block1} ></img>
                     <div className='section1'>
                         <p className='Dm_Title'>We grow Business <br />online</p>
                         <p className="blockchainDesc">We’re your data-driven brand growth engine</p>
@@ -36,12 +40,15 @@ function DM_Page() {
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2B</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
+                            <img className="lineM" src={line1} />
+
                         </div>
 
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2C</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
                             <img className='line' src={line} ></img>
+                            <img className="lineM" src={line1} />
 
                         </div>
                         <div className='desc-p'>
