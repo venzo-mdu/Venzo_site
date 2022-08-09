@@ -9,6 +9,7 @@ import Service from './service'
 import Dmcarousels from './DmCarousel'
 import DmFrequentQues from './DmFrequentQues';
 import './laptopL.css'
+import './mobile.css'
 function DM_Page() {
 
     return (
@@ -73,7 +74,7 @@ function DM_Page() {
             </div>
             <div>
                 <div className='containor3'>
-                    <p className='anyIdea'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
+                    <p className='anyIdea1'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
                     <button className=' btn auidt'>Free website audit</button>
                 </div>
             </div>

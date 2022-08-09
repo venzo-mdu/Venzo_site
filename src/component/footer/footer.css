@@ -229,10 +229,10 @@ footer{
         width: 200%;
     } 
     .laptopResponsive1{
-       margin: 40% 0% 0 -25%;
+       margin: 45% 0% 0 -20%;
     }
     .contactUs{
-        margin: 0 0% 0 35%;
+        margin: 0 0% 0 25%;
     }
     .aboutUs{
 
@@ -244,7 +244,7 @@ footer{
         font-family: poppins-thin;
         font-size: 16px;
         font-weight: 400;
-        margin: 2% -90%;
+        margin: 2% 10%;
         display: block;
     }
     .copyRightHr {
