@@ -179,3 +179,53 @@ body{
         margin: 8% 0% 0 20%;
     }
 }
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .whatwedo{
+        height: 135vh;
+       
+    }
+    .whatwedoCard{
+        height: 50vh;
+    }
+    .whatwedoText h3{
+        font-size: 30px;
+        font-family: poppins-semibold;
+    }
+    .whatwedoText p{
+        font-size: 15px;
+    
+    }
+    .whatwedo .ourApproach h1{
+        font-size: 60px;
+    }
+    .whatwedo .approachDesign img{
+            height: 50vh;
+    }
+    .approach div h2{
+        margin:0% 0 0 0%;
+    }
+    .approach .prototype p{
+        margin: 8% 0 0 15%;
+    }
+}
+@media screen and (max-width:770px) and (min-width:380px) {
+    .whatwedoflex{
+        display: block;
+    }
+    .whatwedoText h3{
+        width: 150%;
+    }
+    .whatwedoText p{
+        width: 50%;
+    }
+    .whatwedoCard{
+        height: 36vh;
+        margin: 30% 0 0 0;
+    }
+    .whatwedo .ourApproach h1{
+        font-size: 40px;
+    }
+    .whatwedo .ourApproach .approachDesign img{
+        display: none;
+    }
+}

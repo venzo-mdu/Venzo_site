@@ -19,7 +19,7 @@ body{
     padding: 0;
 }
 .fidelityPrototypes{
-    height: 75vh;
+    height: 80vh;
 }
 .fidelity{
     display: flex;
@@ -71,4 +71,19 @@ body{
     margin: 4% 0 0 10%;
     width: 100%;
     font-family: poppins-medium;
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .fidelity{
+        margin: 0 0 0 -10%;
+    }
+    .fidelityPrototypes{
+        height: 70vh;
+    }
+    .ourInsights img{
+        height: 5vh;
+    }
+    .ourInsights h4{
+        margin:  0 0 0 -3%;
+        font-size:16px;
+    }
 }

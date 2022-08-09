@@ -54,3 +54,19 @@ body{
 @media screen and (max-width:1440px) and (min-width:1030px) {
     
 }
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .digitalProducts{
+        padding: 15% 10%;
+    }
+}
+@media screen and (max-width:770px) and (min-width:380px) {
+    .digitalProducts{
+        padding: 20% 10%;
+    }
+    #digitalLine1{
+        font-size: 35px;
+    }
+    #digitalLine3{
+        margin: 5% 0 0 0;
+    }
+}
