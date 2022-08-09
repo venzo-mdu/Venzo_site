@@ -1,7 +1,5 @@
 import * as React from "react"
 import Build from '../component/Build/build'
-import Innovate from "../component/Innovate/innovate"
-import Grow from '../component/Grow/grow'
 import Customer from "../component/customer/customer"
 import Blog from "../component/Blog/blog"
 import Idea from "../component/idea/idea"

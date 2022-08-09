@@ -262,7 +262,7 @@
     margin-left: 3%;
 
 }
-..accordion-flush .accordion-item .accordion-button {
+.accordion-flush .accordion-item .accordion-button {
     border-radius: 0;
 }
 .accordion-item:first-of-type .accordion-button {
