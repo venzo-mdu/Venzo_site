@@ -1,0 +1,89 @@
+@font-face {
+    font-family:'poppins-semibold';
+    src: url('../../../Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family:'poppins-thin';
+    src: url('../../../Poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../../../Poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../../../Poppins/Poppins-Medium.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.fidelityPrototypes{
+    height: 80vh;
+}
+.fidelity{
+    display: flex;
+    padding: 5% 10%;
+}
+.fidelity h3{
+    font-family: poppins-semibold;
+}
+.fidelity .lowFidelity{
+    margin: 0% 0% 0 10%;
+}
+.fidelity .highFidelity{
+    margin: 0% 0 0 10%;
+}
+.fidelity .lowFidelity p{
+    width:100%;
+    color: black;
+    opacity: 0.4;
+    font-family: poppins-medium;
+    margin: 10% 0 0 0%;
+}
+.fidelity .highFidelity p{
+    width:90%;
+    color: black;
+    opacity: 0.4;
+    font-family: poppins-medium;
+    margin: 9% 0 0 0%;
+}
+.fidelity .lowFidelity img{
+    margin: 5% 0 0 -10%;
+}
+.fidelity .highFidelity img{
+    margin: 10% 0 0 0%;
+}
+.ourInsights{
+    display: flex;
+    padding: 2% 7%;
+    width: 100%;
+    margin: 0 0 0 5%;
+}
+.ourInsights div{
+      display: flex;
+}
+.ourInsights .idea{
+    width: 33%;
+
+}
+.ourInsights div h4{
+    margin: 4% 0 0 10%;
+    width: 100%;
+    font-family: poppins-medium;
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .fidelity{
+        margin: 0 0 0 -10%;
+    }
+    .fidelityPrototypes{
+        height: 70vh;
+    }
+    .ourInsights img{
+        height: 5vh;
+    }
+    .ourInsights h4{
+        margin:  0 0 0 -3%;
+        font-size:16px;
+    }
+}

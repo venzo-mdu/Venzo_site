@@ -1,20 +1,18 @@
 @font-face {
-    font-family: 'poppins-thin';
+    font-family:'poppins-thin';
     src: url('../../../Poppins/Poppins-Thin.ttf');
 }
-
-@font-face {
-    font-family: 'poppins-medium';
+    @font-face {
+    font-family:'poppins-medium';
     src: url('../../../Poppins/Poppins-Medium.ttf');
-}
-
-footer {
+  }
+footer{
     background-color: #0A1020;
-    height: 53vh;
-    width: 100vw;
+    height:53vh;
+    width:100vw;
 }
 
-.footer {
+.footer{
     display: flex;
     line-height: 1.5;
     margin: 0 0 0 20%;
@@ -284,7 +282,6 @@ footer {
         margin: 2% 10%;
         display: block;
     }
-
     .copyRightHr {
         color: #FFFFFF;
         width: 47%;

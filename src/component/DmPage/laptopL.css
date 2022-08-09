@@ -215,16 +215,7 @@
     
     }
     
-    
-    .DM_cardTitle > li {
-           color: #BCBCBC;
-    }
-    .DM_cardTitle > li:hover {
-        color: black;
-    }
-    .DM_cardTitle > li:active {
-        color: green;
-    }
+
     .carousel-control-next, .carousel-control-prev{
             display: none;
     }
@@ -541,16 +532,7 @@
     
     }
     
-    
-    .DM_cardTitle > li {
-           color: #BCBCBC;
-    }
-    .DM_cardTitle > li:hover {
-        color: black;
-    }
-    .DM_cardTitle > li:active {
-        color: green;
-    }
+
     .carousel-control-next, .carousel-control-prev{
             display: none;
     }
@@ -596,7 +578,9 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
+    .section6{
+        margin-top: 3%;
+    }
     .freqQus{
         width: 55%;
         margin-left: 22%;

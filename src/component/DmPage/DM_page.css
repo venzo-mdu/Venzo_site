@@ -240,7 +240,7 @@
 }
 
 .DM_cardTitle>li:active {
-    color: green;
+    color: black;
 }
 
 .carousel-control-next,
@@ -291,7 +291,9 @@ button:focus:not(:focus-visible) {
     background-position-x: 24vw;
     background-position-y: -1vh;
 }
-
+.section6{
+    margin-top: -45%;
+}
 .sect6_title {
     font-family: "Poppins", Sans-serif;
     font-size: 100px;
@@ -310,7 +312,6 @@ button:focus:not(:focus-visible) {
     margin-bottom: 5%;
     z-index: 0;
     margin-top: 2%;
-
 }
 
 .Accordion.Header {
