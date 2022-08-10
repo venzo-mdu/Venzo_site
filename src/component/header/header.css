@@ -48,7 +48,9 @@ html, body{
     .header .links li {
         display: none;
     }
-
+    .header .logo {
+        width: 61%;
+    }
     .header img {
         margin: 5% 5%;
         width: 30%;
@@ -57,6 +59,7 @@ html, body{
 
     .header {
         position: sticky;
+        height: 10vh;
     }
 }
 

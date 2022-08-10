@@ -49,7 +49,7 @@
     }
 
     .Serv_left {
-        width: 50%;
+        width: 87%;
         margin: 2% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -59,7 +59,7 @@
     }
 
     .Serv_right {
-        width: 70%;
+        width: 87%;
         margin: 4% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -70,13 +70,14 @@
 
     .DM_icons {
         margin-right: 5%;
+        margin-top: 4%;
     }
 
     .serv_hr {
         border: 1 solid black;
         display: inline;
         margin-left: 7%;
-        width: 75%;
+        width: 87%;
         margin-top: -3%;
     }
 
@@ -265,7 +266,9 @@
     .carousel-item {
         height: 6%;
     }
-
+    .section6{
+        margin-top: 10%;
+    }
     .sect6_title {
         font-family: "Poppins", Sans-serif;
         font-size: 60px;
@@ -401,7 +404,7 @@
     }
 
     .Serv_left {
-        width: 80%;
+        width: 87%;
         margin: 10% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -411,7 +414,7 @@
     }
 
     .Serv_right {
-        width: 80%;
+        width: 87%;
         margin: 4% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -428,8 +431,8 @@
         border: 1 solid black;
         display: inline;
         margin-left: 7%;
-        width: 75%;
-        margin-top: 10%;
+        width: 85%;
+        margin-top: 5%;
     }
 
     .Dm_heading {
@@ -621,7 +624,9 @@
     .carousel-item {
         height: 2%;
     }
-
+    .section6{
+        margin-top: 10%;
+    }
     .sect6_title {
         font-family: "Poppins", Sans-serif;
         font-size: 45px;
@@ -712,7 +717,7 @@
     }
 
     .section1 {
-        margin: -75vh 0 0 7%;
+        margin: -70vh 0 0 7%;
     }
 
     .starting {
@@ -722,11 +727,11 @@
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
-        font-size: 42px;
+        font-size: 40px;
         font-weight: 600;
         font-style: normal;
         line-height: 1.2;
-        letter-spacing: 2;
+        letter-spacing: -4;
         padding-bottom: 7%;
     }
 
@@ -759,7 +764,7 @@
     }
 
     .Serv_left {
-        width: 80%;
+        width: 87%;
         margin: 10% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -769,7 +774,7 @@
     }
 
     .Serv_right {
-        width: 80%;
+        width: 87%;
         margin: 4% 0 4% 7%;
         font-family: 'Poppins';
         font-style: normal;
@@ -786,7 +791,7 @@
         border: 1 solid black;
         display: inline;
         margin-left: 7%;
-        width: 75%;
+        width: 87%;
         margin-top: 10%;
     }
 
@@ -848,7 +853,7 @@
         border-radius: 10px 10px 10px 10px;
         margin: 4% auto 0;
         width: 90%;
-        height: 80vh;
+        height: 73vh;
     }
 
     .desc-p {
@@ -982,7 +987,7 @@
 
     .sect6_title {
         font-family: "Poppins", Sans-serif;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 600;
         font-style: normal;
         line-height: 120%;
@@ -991,9 +996,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-
+    .section6{
+        margin-top: 40%;
+    }
     .freqQus {
-        width: 80%;
+        width: 85%;
         margin-left: 7%;
         margin-bottom: 5%;
     }
@@ -1003,7 +1010,7 @@
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 175%;
+        line-height: 120%;
         color: #000000;
         padding-bottom: 3%;
         z-index: 0;
