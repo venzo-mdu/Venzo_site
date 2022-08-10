@@ -1,0 +1,4 @@
+node_modules/
+.cache/
+src/component/Grow
+src/component/Innovate
