@@ -558,14 +558,14 @@
     }
 
     .DM_cardTitle {
-        width: 30%;
+        width: 35%;
         height: 20%;
         margin-left: 7%;
         list-style: none;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 2.5;
         text-align: left;
 
@@ -614,17 +614,13 @@
         background-position-x: -2vw;
         background-position-y: -4vh;
     }
-
-    .DmCarosel {
+    .slidermob{
         display: block;
-        margin: 5% -74%;
+        margin: 10% 0 10% 30%;
         z-index: -1;
-        height: 5%;
-        overflow-y: hidden;
     }
-
-    .carousel-item {
-        height: 2%;
+    .sliderLap, .sliderDesk{
+        display: none;
     }
     .section6{
         margin-top: 10%;
@@ -925,7 +921,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 2.5;
         text-align: left;
 
@@ -975,16 +971,13 @@
         background-position-y: -4vh;
     }
 
-    .DmCarosel {
+    .slidermob{
         display: block;
-        margin: 5% -74%;
+        margin: 10% 0 10% 30%;
         z-index: -1;
-        height: 5%;
-        overflow-y: hidden;
     }
-
-    .carousel-item {
-        height: 2%;
+    .sliderLap, .sliderDesk{
+        display: none;
     }
 
     .sect6_title {
