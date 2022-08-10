@@ -221,14 +221,16 @@
 
 }
 
-.DmCarosel {
-    display: flex;
-    margin: 5% 10%;
+.sliderDesk {
+    margin: 0% 8%;
     z-index: -1;
 }
+.sliderLap, .slidermob{
+    display: none;
+}
+.slick-prev, .slick-next{
 
-.carousel-item {
-    height: 4%;
+    display: none;
 }
 
 .DM_cardTitle>li {
@@ -292,7 +294,7 @@ button:focus:not(:focus-visible) {
     background-position-y: -1vh;
 }
 .section6{
-    margin-top: -45%;
+    margin-top: 5%;
 }
 .sect6_title {
     font-family: "Poppins", Sans-serif;

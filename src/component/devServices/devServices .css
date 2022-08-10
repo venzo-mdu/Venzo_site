@@ -164,6 +164,8 @@
         display: flex;
         justify-content: space-around;
         height:50vh;
+        margin:80vh 0% 10% 0%;
+
     }
     .developmentServices p{
         width: 90%;
@@ -183,7 +185,7 @@
     }
     .venzoMantra{
         background-color: #0A1020;
-        height:50vh;
+        height:55vh;
         width:80vw;
         margin:-120% 0% 10% 10%;
         border-radius:10px 10px 10px 10px;
@@ -247,9 +249,9 @@
     }
     .venzoMantra{
         background-color: #0A1020;
-        height:50vh;
+        height:57vh;
         width:75vw;
-        margin:-8% 0% 10% 12%;
+        margin:-4% 0% 10% 12%;
         border-radius:10px 10px 10px 10px;
         padding: 2% 3%;
         display: flex;
@@ -294,6 +296,7 @@
         display: flex;
         justify-content: space-around;
         height:50vh;
+        margin: 20% 0 0 10%;
     }
     .developmentServices p{
         width: 115%;
@@ -310,9 +313,9 @@
     }
     .venzoMantra{
         background-color: #0A1020;
-        height:62vh;
+        height:70vh;
         width:90vw;
-        margin:-25% 0% 10% 5%;
+        margin:-15% 0% 10% 5%;
         border-radius:10px 10px 10px 10px;
         padding: 2% 3%;
         display: block;
@@ -335,6 +338,8 @@
         display: flex;
         justify-content: space-around;
         height:50vh;
+        margin:40% 0% 10% 0%;
+
     }
     .developmentServices p{
         width: 40%;
@@ -351,7 +356,7 @@
     }
     .venzoMantra{
         background-color: #0A1020;
-        height:60vh;
+        height:65vh;
         width:90vw;
         margin:-35% 0% 10% 5%;
         border-radius:10px 10px 10px 10px;

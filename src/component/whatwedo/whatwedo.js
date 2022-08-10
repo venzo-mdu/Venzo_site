@@ -32,6 +32,27 @@ function whatwedo() {
                       
                  </div>
                  </div>
+                 <div className='whatwedoCardResponsive'>
+                 <div className='uxResearch1'>
+                   <h4>UX<br></br>Research</h4>
+                   <p>Understanding the user needs and evaluating to convert more business values.</p>
+                  </div>
+                  <div className='uiuxDesign1'>
+                   <h4>UI/UX<br></br>Design</h4>
+                   <p>A complete product design focused on usability and interactions.</p>
+                      
+                 </div>
+                 <div className='digitalPrototyping1'>
+                   <h4>Digital<br></br>Prototyping</h4>
+                   <p>Digital prototype of the product focused on data driven design.</p>
+                      
+                 </div>
+                 <div className='digitalBranding1'>
+                   <h4>Digital<br></br>Branding</h4>
+                   <p>Helping brands with all digital support to grow digitally.</p>
+                      
+                 </div>
+                 </div>
               </div>
               <div className='ourApproach'>
                   <h1>Our approach on design</h1>
