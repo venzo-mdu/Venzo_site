@@ -5,7 +5,6 @@
         "SubContent": [
             {
                 "icon":"../DMpage/Google.png"
-           
             },
             {
                 "icon": "../DMpage/bing.png"
@@ -33,7 +32,8 @@
                 "icon": "../DMpage/youtube.png"
              
             }
-        ]
+        ],
+        "alt":"Social Media icon"
 
     },
     {
@@ -52,7 +52,9 @@
                 "icon": "../DMpage/meesho.png"
   
             }
-        ]
+        ],
+        "alt":"Market Place icon"
+
     },
     {
         "title": "Video Marketing",
@@ -66,7 +68,8 @@
                 "icon": "../DMpage/vimeo.png"
                
             }
-        ]
+        ],
+        "alt":"Vedio Marketing icon"
     },
     {
         "title": "Content Marketing",
@@ -84,7 +87,9 @@
                 "icon": "../DMpage/content.png"
               
             }
-        ]
+        ],
+        "alt":"Content Marketing icon"
+
     },
     {
         "title": "Email Marketing",
@@ -98,7 +103,8 @@
                 "icon": "../DMpage/email marketing.png"
                 
             }
-        ]
+        ],
+        "alt":"Email Marketing icon"
     },
     {
         "title": "Paid Campaigns",
@@ -116,7 +122,9 @@
                 "icon": "../DMpage/youtube.png"
         
             }
-        ]
+        ],
+        "alt":"Paid Campaigns icon"
+
     },
     {
         "title": "App Store Optimization",

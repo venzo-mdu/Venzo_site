@@ -10,14 +10,16 @@
 
 @media screen and (max-width:1445px) and (min-width:1025px) {
     .section1 {
-        margin: -30% 0 0 12%;
+        margin: 0% 0 0 9%;
     }
-.starting{
-    padding-top: 5%;
-}
-.blockLogo1{
-    display: none;
-}
+
+    .starting {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/Blockchain.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -47,18 +49,17 @@
     }
     
     .section2 {
-        margin-top: -8%;
+        margin-top: 0%;
     
     }
     
     .Dm_sec {
         display: flex;
-        height: 30vh;
     }
     
     .Serv_left {
-        width: 30%;
-        margin: 3% 0 0 13%;
+        width: 40%;
+        margin: 3% 0 0 9%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -68,11 +69,11 @@
     
     .Serv_right {
         width: 40%;
-        margin: 3% 0 0 6%;
+        margin: 3% 0 0 2%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 175%;
     }
     
@@ -83,10 +84,9 @@
     .serv_hr {
         border: 1 solid black;
         display: inline;
-        margin-left: 10%;
-        width: 80%;
-        margin-top: -4%;
-
+        margin-left: 8%;
+        width: 85%;
+        margin-top: 0%;
     }
     
     .Dm_heading {
@@ -96,7 +96,7 @@
         font-style: normal;
         line-height: 168px;
         text-align: center;
-        margin-top: 25%;
+        margin-top: 5%;
         background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -106,11 +106,11 @@
         text-align: center;
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 70%;
-        background-position-y: 3vh;
+        background-position-x: 73%;
+        background-position-y: 67%;
         margin-top: -2%;
-        background-size: 23%;
-        padding-bottom: 5%;
+        background-size: 27%;
+        padding-bottom: 2%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -242,13 +242,12 @@
         background-position-x: 22vw;
         background-position-y: -5vh;
     }
-    .DmCarosel{
-        display: flex;
-        margin: 5% 0%;
+    .sliderDesk {
+        margin: 5% 8% 0;
         z-index: -1;
     }
-    .carousel-item{
-        height: 4%;
+    .sliderLap, .slidermob{
+        display: none;
     }
     .carousel-indicators {
     display: none;
@@ -322,13 +321,15 @@
 }
 @media screen and (max-width:1024px) and (min-width:775px) {
     .section1 {
-        margin: -30% 0 0 12%;
+        margin: 0% 0 0 7%;
     }
-    .starting{
-        padding-top: 5%;
-    }
-    .blockLogo1{
-        display: none;
+
+    .starting {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/Blockchain.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
     }
     .Dm_Title {
         color: #FFFFFF;
@@ -359,13 +360,13 @@
     }
     
     .section2 {
-        margin-top: -10%;
+        margin-top: 0%;
     
     }
     
     .Dm_sec {
         display: flex;
-        height: 30vh;
+        height: 30%;
     }
     
     .Serv_left {
@@ -397,7 +398,7 @@
         display: inline;
         margin-left: 8%;
         width: 85%;
-        margin-top: -10%;
+        margin-top: 5%;
     }
     
     .Dm_heading {
@@ -407,7 +408,7 @@
         font-style: normal;
         line-height: 168px;
         text-align: center;
-        margin-top: 25%;
+        margin-top: 5%;
         background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -418,10 +419,10 @@
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
         background-position-x: 74%;
-        background-position-y: 3vh;
+        background-position-y: 60%;
         margin-top: -2%;
         background-size: 28%;
-        padding-bottom: 10%;
+        padding-bottom: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -559,13 +560,12 @@
         background-position-x: -2vw;
         background-position-y: -4vh;
     }
-    .DmCarosel{
-        display: flex;
-        margin: 5% -24%;
+    .sliderDesk {
+        margin: 20% 8% 0;
         z-index: -1;
     }
-    .carousel-item{
-        height: 6%;
+    .sliderLap, .slidermob{
+        display: none;
     }
     .sect6_title{
         font-family: "Poppins", Sans-serif;

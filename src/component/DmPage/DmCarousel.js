@@ -89,17 +89,17 @@ function DmCarousel() {
         // </div>
         <div>
         <div className='sliderDesk'>
-            <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={3000} >
+            <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
                 {renderSlides()}
             </Slider>
         </div>
         <div className='sliderLap'>
-            <Slider dots={false} slidesToShow={4} slidesToScroll={1} autoplay={true} autoplaySpeed={3000} >
+            <Slider dots={false} slidesToShow={4} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
                 {renderSlides()}
             </Slider>
         </div>
         <div className='slidermob'>
-            <Slider dots={false} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={3000} >
+            <Slider dots={false} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
                 {renderSlides()}
             </Slider>
         </div>
