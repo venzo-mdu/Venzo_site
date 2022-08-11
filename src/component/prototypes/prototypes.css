@@ -68,3 +68,30 @@ body{
         width: 30%;
     }
 }
+@media screen and (max-width:770px) and (min-width:380px) {
+   .prototypes{
+       display: block;
+   }
+   .prototypes h1{
+       font-size: 30px;
+       text-align: center;
+    }
+    .prototypes .design{
+        width: 35%;
+        margin: 5% 0 0 33%;
+    }
+}
+@media screen and (max-width:375px) {
+    .prototypes{
+        display: block;
+    }
+    .prototypes h1{
+        font-size: 30px;
+        width: 110%;
+        margin:10% 0 0 -1.5%;
+     }
+     .prototypes .design{
+         width: 60%;
+         margin: 15% 0 0 -1%;
+     }
+}

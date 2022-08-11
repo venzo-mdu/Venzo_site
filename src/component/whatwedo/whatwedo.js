@@ -1,6 +1,7 @@
 import React from 'react'
 import "../whatwedo/whatwedo.css"
 import UIUXArrow from "../../images/uiuxarrow.svg"
+import straightArrow from "../../images/straightArrow.svg"
 
 function whatwedo() {
   return (
@@ -57,7 +58,8 @@ function whatwedo() {
               <div className='ourApproach'>
                   <h1>Our approach on design</h1>
                   <div className='approachDesign'>
-                  <img src={UIUXArrow} alt="UIUXArrow"></img>
+                  <img id="uiuxarrow" src={UIUXArrow} alt="UIUXArrow"></img>
+                  <img id="straightarrow" src={straightArrow} alt="straightArrow"></img>
                   <div className='approach'>
                     <div className='research'>
                        <h2>Research &Discover</h2>

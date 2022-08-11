@@ -134,7 +134,8 @@ body {
     background-image: url('../../images/Digital branding.svg');
     color: white;
 }
-.whatwedoCardResponsive{
+
+.whatwedoCardResponsive {
     display: none;
 }
 
@@ -189,33 +190,47 @@ body {
     opacity: 0.5;
     line-height: 1;
 }
+.ourApproach .approachDesign #straightarrow{
+    display: none;
+}
 
 @media screen and (max-width:1440px) and (min-width:1030px) {
     .whatwedo {
-        height: 170vh;
+        height: 160vh;
 
     }
 
     .whatwedoCard {
-        height: 70vh;
+        height: 55vh;
     }
-    .whatwedoCardResponsive{
+
+    .whatwedoCardResponsive {
         display: none;
     }
+
     .whatwedo .ourApproach h1 {
         font-size: 80px;
     }
-
+  
     .ourApproach .prototype h2 {
         margin: 4% 0 0 0%;
     }
+    .approach .ideate {
+        margin: 26% 0 0 24%;
+    }
+    .approach .prototype{
+        margin: 23% 0 0 45%;
 
+    }
     .approach .research p {
         margin: 0 0 0 3%;
     }
 
     .approach .prototype p {
-        margin: 8% 0% 0 20%;
+        margin: 8% 0% 0 6%;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: none;
     }
 }
 
@@ -228,9 +243,11 @@ body {
     .whatwedoCard {
         height: 50vh;
     }
-    .whatwedoCardResponsive{
+
+    .whatwedoCardResponsive {
         display: none;
     }
+
     .whatwedoText h3 {
         font-size: 30px;
         font-family: poppins-semibold;
@@ -256,12 +273,16 @@ body {
     .approach .prototype p {
         margin: 8% 0 0 15%;
     }
+    .ourApproach .approachDesign #straightarrow{
+        display: none;
+    }
 }
 
 @media screen and (max-width:770px) and (min-width:380px) {
-     .whatwedo{
+    .whatwedo {
         height: 215vh;
-     }
+    }
+
     .whatwedoflex {
         display: block;
     }
@@ -269,37 +290,43 @@ body {
     .whatwedoText h3 {
         width: 150%;
         font-size: 30px;
-        margin: 10% 0 0 90%;
+        margin: 13% 0 0 90%;
     }
 
     .whatwedoText p {
         width: 50%;
         font-size: 18px;
+        margin: 4% 0 0 20%;
 
     }
 
     .whatwedoCard {
         display: none;
     }
-    
+
     .whatwedoCardResponsive {
         display: block;
         width: 100vw;
-        margin: 25% 0 0 0 ;
+        margin: 25% 0 0 0;
     }
+
     .whatwedoCardResponsive div {
-        padding: 4% 1%;
+        padding: 5% 5%;
         border: 1px solid #ebeaea;
         width: 100%;
         height: 30vh;
         background-color: #d9d7d7;
         margin: 0 0 0 -5%;
     }
+    .whatwedoCardResponsive div p{
+        margin: 5% 0 0 0;
+        width: 60%;
+    }
 
     .whatwedoCardResponsive .uxResearch1 {
         background-image: url('../../images/mobres5.svg');
         background-repeat: no-repeat;
-        background-size: 100% ;
+        background-size: 100%;
     }
 
     .whatwedoCardResponsive .uiuxDesign1 {
@@ -325,31 +352,198 @@ body {
         background-size: 100%;
 
     }
+
     .whatwedoCardResponsive .uxResearch1:hover {
         background-image: url('../../images/mobres1.svg');
         color: white;
     }
-    
+
     .whatwedoCardResponsive .uiuxDesign1:hover {
         background-image: url('../../images/mobres2.svg');
         color: white;
     }
-    
+
     .whatwedoCardResponsive .digitalPrototyping1:hover {
         background-image: url('../../images/mobres3.svg');
         color: white;
     }
-    
+
     .whatwedoCardResponsive .digitalBranding1:hover {
         background-image: url('../../images/mobres4.svg');
         color: white;
     }
 
+    .whatwedo .ourApproach .approach {
+        margin: 5% 0 0 0;
+    }
+     .ourApproach .approachDesign #uiuxarrow{
+         display: none;
+     }
+     .ourApproach .approachDesign #straightarrow{
+        height: 35vh;
+        margin: 8% 0 0 38%;
+    }
+    .approach .ideate {
+        margin: 8% 0 0 0%;
+    }
+     
+    .approach .prototype {
+        margin: 10% 0 0 0%;
+    }
+    .approach .research p{
+        margin: 0 0 0 15%;
+
+    }
+    .approach .ideate p{
+        margin: 0 0 0 19%;
+    }
+
     .whatwedo .ourApproach h1 {
         font-size: 40px;
     }
-  
-    .whatwedo .ourApproach .approachDesign img {
+    .ourApproach .approachDesign #straightarrow{
+        display: block;
+    }
+
+   
+}
+@media screen and (max-width:375px){
+    .whatwedo {
+        height: 170vh;
+    }
+
+    .whatwedoflex {
+        display: block;
+    }
+
+    .whatwedoText h3 {
+        width: 200%;
+        font-size: 30px;
+        margin: 15% 0 0 70%;
+    }
+
+    .whatwedoText p {
+        width: 90%;
+        font-size: 18px;
+        margin: 4% 0 0 0%;
+        text-align: center;
+
+    }
+
+    .whatwedoCard {
         display: none;
     }
+
+    .whatwedoCardResponsive {
+        display: block;
+        width: 100vw;
+        margin: 55% 0 0 0;
+    }
+
+    .whatwedoCardResponsive div {
+        padding: 5% 5%;
+        border: 1px solid #ebeaea;
+        width: 100%;
+        height: 20vh;
+        background-color: #d9d7d7;
+        margin: 0 0 0 -5%;
+    }
+    .whatwedoCardResponsive div p{
+        margin: 8% 0 0 0;
+        font-size: 14px;
+    }
+    .whatwedoCardResponsive .uxResearch1 {
+        background-image: url('../../images/mobres5.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .whatwedoCardResponsive .uiuxDesign1 {
+        background-image: url('../../images//mobres6.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+    }
+
+    .whatwedoCardResponsive .digitalPrototyping1 {
+
+        background-image: url('../../images//mobres7.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .whatwedoCardResponsive .digitalBranding1 {
+
+        background-image: url('../../images//mobres8.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .whatwedoCardResponsive .uxResearch1:hover {
+        background-image: url('../../images/mobres1.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .uiuxDesign1:hover {
+        background-image: url('../../images/mobres2.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .digitalPrototyping1:hover {
+        background-image: url('../../images/mobres3.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .digitalBranding1:hover {
+        background-image: url('../../images/mobres4.svg');
+        color: white;
+    }
+
+    .whatwedo .ourApproach .approach {
+        margin: 5% 0 0 0;
+    }
+     .ourApproach .approachDesign #uiuxarrow{
+         display: none;
+     }
+     .ourApproach .approachDesign #straightarrow{
+        height: 35vh;
+        margin: 8% 0 0 35%;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: block;
+    }
+  
+    .approach .ideate {
+        margin: 20% 0 0 0%;
+    }
+    .approach .prototype {
+        margin: 10% 0 0 0%;
+    }
+     .ourApproach .approach h2{
+         margin: 0 0 0 -10%;
+         font-size: 14px;
+     }
+     .ourApproach .approach p{
+         font-size: 16px;
+         width: 70%;
+     }
+    
+    .approach .research p{
+        margin: 0 0 0 15%;
+
+    }
+    .approach .ideate p{
+        margin: 0 0 0 19%;
+    }
+
+    .whatwedo .ourApproach h1 {
+        font-size: 35px;
+    }
+    .ourApproach .approachDesign .approach h2{
+        margin: 0 0 0 -15%;
+    }
+
 }

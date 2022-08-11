@@ -87,3 +87,73 @@ body{
         font-size:16px;
     }
 }
+@media screen and (max-width:770px) and (min-width:380px) {
+    .fidelityPrototypes{
+        height: 125vh;
+    }
+    .fidelity{
+        display: block;
+    }
+    .fidelity .lowFidelity{
+        margin: 0 0 0 25%;
+    }
+    .fidelity .highFidelity{
+        margin: 0 0 0 25%;
+    }
+    .ourInsights{
+        display: block;
+        width:175%;
+    }
+    .ourInsights div h4{
+        font-size: 18px;
+        margin: 11% 0 0 15%;
+    }
+    .ourInsights img{
+        height: 5vh;
+        margin: 8% 0 0 0;
+    }
+}
+@media screen and (max-width:375px){
+    .fidelityPrototypes{
+        height: 95vh;
+    }
+    .fidelity{
+        display: block;
+    }
+    .fidelity .lowFidelity{
+        margin: 0 0 0 0%;
+    }
+    .fidelity .lowFidelity p{
+        font-size: 14px;
+        width: 115%;
+    }
+    .fidelity .highFidelity p{
+        font-size: 14px;
+        width: 115%;
+    }
+    .fidelity .highFidelity{
+        margin: 0 0 0 5%;
+    }
+    .fidelity .lowFidelity img {
+    margin: 5% 0 0 -10%;
+    width:120%;
+    }
+    .fidelity .highFidelity img {
+        margin: 10% 0 0 -7%;
+        width:100%;
+        }
+    .ourInsights{
+        display: block;
+        width:175%;
+    }
+    .ourInsights div h4{
+        font-size: 13px;
+        margin: 13% -74% 0 15%;
+        width: 120%;
+    }
+    
+    .ourInsights img{
+        height: 5vh;
+        margin: 8% 0 0 0;
+    }
+}
