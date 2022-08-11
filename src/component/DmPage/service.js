@@ -18,7 +18,7 @@ function service() {
                             {console.log(serviceData.SubContent)}
 
                             {item.SubContent.map(item => {
-                                return <img className="DM_icons" src={item.icon} />
+                                return <img className="DM_icons" src={item.icon}  alt="mobile media icon"/>
                            
                             })}
                         </div>

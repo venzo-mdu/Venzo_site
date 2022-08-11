@@ -1,17 +1,15 @@
-@media screen and (max-width:770px) and (min-width:415px) {
-    .blockLogo1 {
-        display: none;
-    }
-
+@media screen and (max-width:770px) and (min-width:435px) {
     .section1 {
-        margin: -32% 0 0 7%;
+        margin: 0% 0 0 7%;
     }
 
     .starting {
-        padding: 5% 0 0 0;
-
+        padding: 10% 0 10% 0;
+        background-image: url("../../images/Blockchain.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
     }
-
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -20,6 +18,7 @@
         font-style: normal;
         line-height: 1.3;
         letter-spacing: -2px;
+        padding-top: 15%;
     }
 
     .blockchainDesc {
@@ -87,7 +86,7 @@
         font-style: normal;
         line-height: 168px;
         text-align: center;
-        margin-top: 15%;
+        margin-top: 5%;
         background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -97,18 +96,18 @@
         text-align: center;
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 76%;
-        background-position-y: 3vh;
+        background-position-x: 80%;
+        background-position-y: 30%;
         margin-top: -5%;
-        background-size: 28%;
+        background-size: 35%;
         padding-bottom: 10%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
-        line-height: 175%;
+        line-height: 120%;
         color: #000000;
-
+        width: 90%;
 
     }
 
@@ -238,8 +237,7 @@
     }
 
     .card1 {
-        width: 40vw;
-        height: 45%;
+        width: 50%;
         background: #FFFFFF;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
@@ -318,9 +316,8 @@
     }
 
     .auidt {
-        height: 5vh;
-        margin-top: 4vh;
-        width: 19vw;
+        margin-top: 4%;
+        width: 22%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
@@ -330,9 +327,9 @@
 
     .auidt:hover {
         color: #FFFFFF;
-        width: 19vw;
+        width: 22%;
         font-size: 13px;
-        height: 4vh;
+        height: 70%;
         background-color: transparent;
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
     }
@@ -347,22 +344,14 @@
 }
 
 @media screen and (max-width:430px) and (min-width:380px) {
-    .blockLogo {
-        display: none;
-    }
-
-    .blockLogo1 {
-        display: block;
-    }
-
     .section1 {
-        margin: -190% 0 0 7%;
+        margin: 0% 0 0 7%;
     }
 
     .starting {
         padding: 0% 0 0 0;
-        margin: -11% 0 0 0;
-
+        background-image: url("../../DMpage/blockLogo1.png");
+        height: 100vh;
     }
 
     .Dm_Title {
@@ -374,6 +363,7 @@
         line-height: 1.2;
         letter-spacing: -4;
         padding-bottom: 7%;
+        padding-top: 20%;
     }
 
     .blockchainDesc {
@@ -396,7 +386,7 @@
     }
 
     .section2 {
-        margin-top: 120%
+        margin-top: 0%
     }
 
     .Dm_sec {
@@ -454,18 +444,18 @@
         text-align: center;
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 55%;
+        background-position-x: 75%;
         background-position-y: 85%;
         background-size: 70%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 175%;
         text-align: center;
         color: #000000;
-        width: 386px;
-        height: 81px;
+        width: 85%;
+        padding-left: 15%;
 
 
     }
@@ -596,8 +586,7 @@
     }
 
     .card1 {
-        width: 40vw;
-        height: 35vh;
+        width: 40%;
         background: #FFFFFF;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
@@ -607,17 +596,14 @@
 
     .cardList {
         display: flex;
-        height: 50vh;
+        height: 50%;
         padding-top: 7%;
-        background-image: url('../../images/Background-1.jpg');
-        background-repeat: no-repeat;
-        background-position-x: -2vw;
-        background-position-y: -4vh;
+        background-image: none
     }
 
     .slidermob{
         display: block;
-        margin: 60% 0 -20% 30%;
+        margin: 30% 0 -20% 30%;
         z-index: -1;
     }
     .sliderLap, .sliderDesk{
@@ -676,9 +662,9 @@
     }
 
     .auidt {
-        height: 5vh;
-        margin-top: 0vh;
-        width: 40vw;
+        height: 10%;
+        margin-top: 0%;
+        width: 40%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
@@ -688,9 +674,9 @@
 
     .auidt:hover {
         color: #FFFFFF;
-        width: 40vw;
+        width: 40%;
         font-size: 13px;
-        height: 4vh;
+        height: 40%;
         background-color: transparent;
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
     }
@@ -702,25 +688,21 @@
         font-size: 32px;
     }
     .containor3{
-        margin-top: 5vh;
+        margin-top: 5%;
     }
 }
 
 @media screen and (max-width:375px)  {
-    .blockLogo {
-        display: none;
-    }
 
-    .blockLogo1 {
-        display: block;
-    }
 
     .section1 {
-        margin: -170% 0 0 7%;
+        margin: 0% 0 0 7%;
     }
 
     .starting {
         padding: 0% 0 0 0;
+        background-image: url("../../DMpage/blockLogo1.png");
+        height: 100vh;
     }
 
     .Dm_Title {
@@ -732,6 +714,7 @@
         line-height: 1.2;
         letter-spacing: -4;
         padding-bottom: 7%;
+        padding-top: 30%;
     }
 
     .blockchainDesc {
@@ -754,7 +737,7 @@
     }
 
     .section2 {
-        margin-top: 120%
+        margin-top: 0%
     }
 
     .Dm_sec {
@@ -810,22 +793,16 @@
 
     .Dm_subheading {
         text-align: center;
-        background-image: url('../../images/Vector-61.png');
-        background-repeat: no-repeat;
-        background-position-x: 55%;
-        background-position-y: 85%;
-        background-size: 70%;
+        background-image: none;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 175%;
         text-align: center;
         color: #000000;
-        width: 386px;
-        height: 81px;
-
-
+        width: 90%;
+        padding-left: 10%;
     }
 
     .section4 {
@@ -954,8 +931,7 @@
     }
 
     .card1 {
-        width: 40vw;
-        height: 35vh;
+        width: 40%;
         background: #FFFFFF;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
@@ -965,17 +941,14 @@
 
     .cardList {
         display: flex;
-        height: 50vh;
+        height: 50%;
         padding-top: 7%;
-        background-image: url('../../images/Background-1.jpg');
-        background-repeat: no-repeat;
-        background-position-x: -2vw;
-        background-position-y: -4vh;
+        background-image: none
     }
 
     .slidermob{
         display: block;
-        margin: 60% 0 -20% 30%;
+        margin: 30% 0 -20% 30%;
         z-index: -1;
     }
     .sliderLap, .sliderDesk{
@@ -1034,8 +1007,8 @@
     }
 
     .auidt {
-        height: 5vh;
-        margin-top: 0vh;
+        height: 10%;
+        margin-top: 0%;
         width: 40vw;
         color: white;
         background-color: #000000;
@@ -1048,7 +1021,7 @@
         color: #FFFFFF;
         width: 40vw;
         font-size: 13px;
-        height: 4vh;
+        height: 40%;
         background-color: transparent;
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
     }

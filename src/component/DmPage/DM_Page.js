@@ -21,8 +21,8 @@ function DM_Page() {
             <Header flag='header2' />
             <div>
                 <div  className='starting'>
-                    <img className='blockLogo w-100 ' src={block} ></img>
-                    <img className='blockLogo1 w-100 ' src={block1} ></img>
+                    {/* <img className='blockLogo w-100 ' src={block} ></img>
+                    <img className='blockLogo1 w-100 ' src={block1} ></img> */}
                     <div className='section1'>
                         <p className='Dm_Title'>We grow Business <br />online</p>
                         <p className="blockchainDesc">We’re your data-driven brand growth engine</p>

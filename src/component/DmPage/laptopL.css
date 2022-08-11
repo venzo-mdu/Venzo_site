@@ -10,14 +10,16 @@
 
 @media screen and (max-width:1445px) and (min-width:1025px) {
     .section1 {
-        margin: -30% 0 0 12%;
+        margin: 0% 0 0 9%;
     }
-.starting{
-    padding-top: 5%;
-}
-.blockLogo1{
-    display: none;
-}
+
+    .starting {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/Blockchain.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -47,12 +49,7 @@
     }
     
     .section2 {
-        margin-top: -8%;
-    
-    }
-    
-    .section2 {
-        margin-top: -10%;
+        margin-top: 0%;
     
     }
     
@@ -99,7 +96,7 @@
         font-style: normal;
         line-height: 168px;
         text-align: center;
-        margin-top: 25%;
+        margin-top: 5%;
         background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -109,10 +106,10 @@
         text-align: center;
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 70%;
+        background-position-x: 73%;
         background-position-y: 67%;
         margin-top: -2%;
-        background-size: 23%;
+        background-size: 27%;
         padding-bottom: 2%;
         font-family: 'Poppins';
         font-style: normal;
@@ -324,13 +321,15 @@
 }
 @media screen and (max-width:1024px) and (min-width:775px) {
     .section1 {
-        margin: -30% 0 0 12%;
+        margin: 0% 0 0 7%;
     }
-    .starting{
-        padding-top: 5%;
-    }
-    .blockLogo1{
-        display: none;
+
+    .starting {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/Blockchain.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
     }
     .Dm_Title {
         color: #FFFFFF;
@@ -361,7 +360,7 @@
     }
     
     .section2 {
-        margin-top: -10%;
+        margin-top: 0%;
     
     }
     
@@ -409,7 +408,7 @@
         font-style: normal;
         line-height: 168px;
         text-align: center;
-        margin-top: 25%;
+        margin-top: 5%;
         background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -420,10 +419,10 @@
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
         background-position-x: 74%;
-        background-position-y: 37%;
+        background-position-y: 60%;
         margin-top: -2%;
         background-size: 28%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
