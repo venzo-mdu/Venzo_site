@@ -1,0 +1,273 @@
+ .ourApproach{
+     background-color: white;
+     height:100vh;
+     margin: -5% 0 0 0;
+ } 
+ 
+ .ourApproach h1 {
+    font-family: poppins-semibold;
+    font-size: 130px;
+    text-align: center;
+    margin: 5% 0 0 0;
+    background: linear-gradient(178deg, #000000 -700.43%, rgba(0, 0, 0, 0) 105.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ .ourApproach .approach {
+    display: block;
+    padding: 3% 15%;
+}
+
+.ourApproach .approachDesign {
+    position: relative;
+}
+
+.ourApproach .approachDesign img {
+    position: absolute;
+    margin: 3.5% 0 0 30%;
+    height: 63vh;
+}
+
+.approach {
+    position: absolute;
+}
+
+.approach .research {
+    display: inline-flex;
+}
+
+.approach .ideate {
+    margin: 18% 0 0 19%;
+    display: inline-flex;
+}
+
+.approach .prototype {
+    margin: 15% 0 0 29%;
+    display: inline-flex;
+}
+
+.approach div p {
+    margin: 2% 0 0 10%;
+    font-family: poppins-medium;
+    font-size: 18px;
+    opacity: 0.5;
+    line-height: 1;
+}
+.ourApproach .approachDesign #straightarrow{
+    display: none;
+}
+@media screen and (max-width:1440px) and (min-width:1030px) {
+    .ourApproach{
+    margin: -95% 0 0 0;
+    }
+     .ourApproach h1 {
+        font-size: 80px;
+    }
+  
+    .ourApproach .prototype h2 {
+        margin: 4% 0 0 0%;
+    }
+    .approach .ideate {
+        margin: 25% 0 0 24%;
+    }
+    .approach .prototype{
+        margin: 22% 0 0 45%;
+
+    }
+    .approach .research p {
+        margin: 0 0 0 3%;
+    }
+
+    .approach .prototype p {
+        margin: 8% 0% 0 10%;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .ourApproach{
+        margin: -75% 0 0 0;
+        }
+    .ourApproach h1 {
+        font-size: 60px;
+    }
+
+   .approachDesign img {
+        height: 50vh;
+    }
+
+    .approach div h2 {
+        margin: 0% 0 0 0%;
+    }
+    .approach .ideate {
+        margin: 25% 0 0 24%;
+    }
+    .approach .ideate p{
+        margin: 2% 0 0 15%;
+
+    }
+    .approach .prototype  {
+        margin: 27% 0 0 40%;
+        width: 70%;
+    }
+    .approach .prototype p {
+        margin: 4% 0 0 16%;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: none;
+    }
+}
+@media screen and (max-width:770px) and (min-width:380px) {
+    .ourApproach{
+        margin: -75% 0 0 0;
+        height: 60vh;
+        }
+     .ourApproach .approach {
+        margin: 5% 0 0 0;
+    }
+     .ourApproach .approachDesign #uiuxarrow{
+         display: none;
+     }
+     .ourApproach .approachDesign #straightarrow{
+        height: 35vh;
+        margin: 8% 0 0 38%;
+    }
+    .approach h2{
+        font-size: 18px;
+        margin: 0 0 0 10%;
+    }
+    .approach .ideate {
+        margin: 8% 0 0 0%;
+    }
+     .approach .ideate h2{
+         margin: 5% 0 0 9%;
+     }
+      .approach .prototype h2{
+         margin: 8% 0 0 9%;
+     }
+    .approach .prototype {
+        margin: 10% 0 0 0%;
+    }
+    .approach .research p{
+        margin: 0 0 0 15%;
+
+    }
+    .approach .ideate p{
+        margin: 5% 0 0 18%;
+    }
+   .approach .prototype p{
+        margin: 8% 0 0 14%;
+   }
+    .ourApproach h1 {
+        font-size: 40px;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: block;
+    }
+
+}
+@media screen and (max-width:425px){
+    .ourApproach{
+        margin: -130% 0 0 0;
+        height: 60vh;
+        }
+    .ourApproach .approach {
+          margin: 5% 0 0 0;
+      }
+       .ourApproach .approachDesign #uiuxarrow{
+           display: none;
+       }
+       .ourApproach .approachDesign #straightarrow{
+          height: 35vh;
+          margin: 8% 0 0 35%;
+      }
+      .ourApproach .approachDesign #straightarrow{
+          display: block;
+      }
+    
+      .approach .ideate {
+          margin: 30% 0 0 0%;
+      }
+      .approach .prototype {
+          margin: 45% 0 0 0%;
+      }
+       .ourApproach .approach h2{
+           margin: 0 0 0 -10%;
+           font-size: 14px;
+       }
+       .ourApproach .approach p{
+           font-size: 12px;
+           width: 70%;
+       }
+      
+      .approach .research p{
+          margin: 0 0 0 15%;
+  
+      }
+      .approach .ideate p{
+          margin: 0 0 0 19%;
+      }
+      .approach .prototype p{
+          margin: 0 0 0 16%;
+      }
+      .ourApproach h1 {
+          font-size: 35px;
+      }
+      .ourApproach .approachDesign .approach h2{
+          margin: 0 0 0 -15%;
+      }
+  }
+@media screen and (max-width:375px){
+    .ourApproach{
+        margin: -150% 0 0 0;
+        height: 60vh;
+        }
+     .ourApproach .approach {
+        margin: 5% 0 0 0;
+    }
+     .ourApproach .approachDesign #uiuxarrow{
+         display: none;
+     }
+     .ourApproach .approachDesign #straightarrow{
+        height: 35vh;
+        margin: 8% 0 0 35%;
+    }
+    .ourApproach .approachDesign #straightarrow{
+        display: block;
+    }
+     .ourApproach .approach h2{
+         margin: 0 0 0 -10%;
+         font-size: 14px;
+     }
+     .approach .ideate {
+        margin: 30% 0 0 0%;
+    }
+    .approach .prototype {
+        margin: 40% 0 0 0%;
+    }
+     .ourApproach .approach p{
+         width: 70%;
+     }
+     .ourApproach .approach p{
+        font-size: 12px;
+        width: 70%;
+    }
+    .approach .research p{
+        margin: 0 0 0 15%;
+
+    }
+    .approach .ideate p{
+        margin: 0 0 0 19%;
+
+    }
+   .ourApproach h1 {
+        font-size: 35px;
+    }
+    .ourApproach .approachDesign .approach h2{
+        margin: 0 0 0 -15%;
+    }
+
+}

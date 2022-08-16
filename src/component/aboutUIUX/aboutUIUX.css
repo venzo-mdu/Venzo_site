@@ -97,3 +97,26 @@ body{
         margin: 10% 0 0 0;
     }
 }
+@media screen and (max-width:425px) {
+    .aboutUIUX{
+        display: none;
+    }
+    .aboutUIUXRes{
+        background-image: url("../../images//bgMob2.png");
+        background-size: 100% 100%;
+        height: 100vh;
+        display: block;
+    }
+    .digitalProducts{
+        padding: 20% 10%;
+    }
+    #digitalLine1{
+        font-size: 32px;
+    }
+    #digitalLine2{
+        margin: 10% 0 0 0;
+    }
+    #digitalLine3{
+        margin: 10% 0 0 0;
+    }
+}

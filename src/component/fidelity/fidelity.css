@@ -132,7 +132,7 @@ body{
         width: 115%;
     }
     .fidelity .highFidelity{
-        margin: 0 0 0 5%;
+        margin: 0 0 0 0%;
     }
     .fidelity .lowFidelity img {
     margin: 5% 0 0 -10%;
@@ -154,6 +154,50 @@ body{
     
     .ourInsights img{
         height: 5vh;
-        margin: 8% 0 0 0;
+        margin: 8% 0 0 -5%;
+    }
+}
+@media screen and (max-width:425px){
+    .fidelityPrototypes{
+        height: 100vh;
+    }
+    .fidelity{
+        display: block;
+    }
+    .fidelity .lowFidelity{
+        margin: 0 0 0 0%;
+    }
+    .fidelity .lowFidelity p{
+        font-size: 14px;
+        width: 115%;
+    }
+    .fidelity .highFidelity p{
+        font-size: 14px;
+        width: 115%;
+    }
+    .fidelity .highFidelity{
+        margin: 0 0 0 0%;
+    }
+    .fidelity .lowFidelity img {
+    margin: 5% 0 0 -10%;
+    width:120%;
+    }
+    .fidelity .highFidelity img {
+        margin: 10% 0 0 -7%;
+        width:100%;
+        }
+    .ourInsights{
+        display: block;
+        width:175%;
+    }
+    .ourInsights div h4{
+        font-size: 13px;
+        margin: 13% -74% 0 15%;
+        width: 120%;
+    }
+    
+    .ourInsights img{
+        height: 5vh;
+        margin: 8% 0 0 -5%;
     }
 }

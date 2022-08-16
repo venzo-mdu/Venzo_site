@@ -81,6 +81,24 @@ body{
         margin: 5% 0 0 33%;
     }
 }
+
+@media screen and (max-width:425px) {
+    .prototypes{
+        display: block;
+    }
+    .prototypes h1{
+        font-size: 30px;
+        width: 110%;
+        margin:10% 0 0 -1.5%;
+        text-align: left;
+
+     }
+     .prototypes .design{
+        width: 60%;
+        margin: 15% 0 0 -2%;
+    }
+}
+
 @media screen and (max-width:375px) {
     .prototypes{
         display: block;
@@ -92,6 +110,6 @@ body{
      }
      .prototypes .design{
          width: 60%;
-         margin: 15% 0 0 -1%;
+         margin: 15% 0 0 -2%;
      }
 }
