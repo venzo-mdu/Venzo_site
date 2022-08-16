@@ -7,20 +7,112 @@ import './DM_page.css'
 import colorArrow from '../../images/Read more arrow-gradient.svg'
 import line from '../../images/Vector 76.svg'
 import line1 from '../../DMpage/Vector 82.png'
-
+import ImageGallery from "react-image-gallery";
 import Service from './service'
 import Dmcarousels from './DmCarousel'
 import DmFrequentQues from './DmFrequentQues';
 import './laptopL.css'
 import './mobile.css'
+import "react-image-gallery/styles/css/image-gallery.css";
+
 function DM_Page() {
+    // const customised_portfolio_reports = [
+    //     {
+    //         describtion: (
+
+    //             <div>
+      
+    //               <div className="portFolioLine"></div>
+      
+    //               <div style={{ display: "flex" }}>
+      
+    //                 <div className="portFolioNumber">01</div>
+      
+    //                 <div className="PortFolioHead">White labelled</div>
+      
+    //               </div>
+      
+    //               <div className="PortFolioLabel">Your brand name and logo</div>
+      
+    //             </div>
+      
+    //           ),
+    //      thumbnail: "https://picsum.photos/id/1018/250/150/",
+    //      thumbnailLabel:(
+
+    //         <div>
+  
+    //           <div className="portFolioLine"></div>
+  
+    //           <div style={{ display: "flex" }}>
+  
+    //             <div className="portFolioNumber">01</div>
+  
+    //             <div className="PortFolioHead">White labelled</div>
+  
+    //           </div>
+  
+    //           <div className="PortFolioLabel">Your brand name and logo</div>
+  
+    //         </div>
+  
+    //       )
+    //     },
+    //     {
+    //         original: "https://picsum.photos/id/1015/1000/600/",
+    //         thumbnail: "https://picsum.photos/id/1015/250/150/",
+    //         thumbnailLabel:(
+
+    //             <div>
+      
+    //               <div className="portFolioLine"></div>
+      
+    //               <div style={{ display: "flex" }}>
+      
+    //                 <div className="portFolioNumber">02</div>
+      
+    //                 <div className="PortFolioHead">White labelled</div>
+      
+    //               </div>
+      
+    //               <div className="PortFolioLabel">Your brand name and logo</div>
+      
+    //             </div>
+      
+    //           )
+    //     },
+    //     {
+    //         original: "https://picsum.photos/id/1019/1000/600/",
+    //         thumbnail: "https://picsum.photos/id/1019/250/150/",
+    //         thumbnailLabel:(
+
+    //             <div>
+      
+    //               <div className="portFolioLine"></div>
+      
+    //               <div style={{ display: "flex" }}>
+      
+    //                 <div className="portFolioNumber">03</div>
+      
+    //                 <div className="PortFolioHead">White labelled</div>
+      
+    //               </div>
+      
+    //               <div className="PortFolioLabel">Your brand name and logo</div>
+      
+    //             </div>
+      
+    //           )
+
+    //     }
+    //   ];
 
     return (
         <>
             <Header flag='header1' />
             <Header flag='header2' />
             <div>
-                <div  className='starting'>
+                <div className='starting'>
                     {/* <img className='blockLogo w-100 ' src={block} ></img>
                     <img className='blockLogo1 w-100 ' src={block1} ></img> */}
                     <div className='section1'>
@@ -74,7 +166,27 @@ function DM_Page() {
 
                     </div>
                 </div>
+{/* 
+                <div className='section5'>
+                <ImageGallery
+
+                        items={customised_portfolio_reports}
+                        infinite={true}
+                        showNav={false}
+                        showFullscreenButton={false}
+                        showPlayButton={false}
+                        showBullets={true}
+                        autoPlay={false}
+                        isRTL={false}
+                        // useTranslate3D={false}
+                        slideInterval={3000}
+                        thumbnailPosition='left'
+                    />
+
+                </div> */}
+
             </div>
+
             <Dmcarousels />
             <div className='section6'>
                 <DmFrequentQues />
@@ -85,7 +197,7 @@ function DM_Page() {
                     <button className=' btn auidt'>Free website audit</button>
                 </div>
             </div>
-            <Footer />    
+            <Footer />
         </>
     )
 }
@@ -113,3 +225,4 @@ function dated(va) {
 }
 
 export default DM_Page
+

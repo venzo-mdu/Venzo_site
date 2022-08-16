@@ -30,6 +30,7 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-image-gallery": "^1.2.9",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "sass": "^1.54.0",

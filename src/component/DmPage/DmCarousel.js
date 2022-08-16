@@ -21,72 +21,7 @@ function DmCarousel() {
 
 
     return (
-        // <div>
-        //     <Carousel fade className='DmCarosel' interval={3000}>
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={surcamp} />
-        //                 <img className='line1' src={sirius} />
-        //                 <img className='line1' src={agsHealth} />
-        //                 <img className='line1' src={panPure} />
-        //                 <img className='line1' src={btsscrop} />
-        //                 <img className='line1' src={mangopoint} />
-        //             </div>
-        //         </Carousel.Item>
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={sirius} />
-        //                 <img className='line1' src={agsHealth} />
-        //                 <img className='line1' src={panPure} />
-        //                 <img className='line1' src={btsscrop} />
-        //                 <img className='line1' src={mangopoint} />
-        //                 <img className='line1' src={surcamp} />
-
-        //             </div>
-        //         </Carousel.Item>
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={agsHealth} />
-        //                 <img className='line1' src={panPure} />
-        //                 <img className='line1' src={btsscrop} />
-        //                 <img className='line1' src={mangopoint} />
-        //                 <img className='line1' src={surcamp} />
-        //                 <img className='line1' src={sirius} />
-        //             </div>
-        //         </Carousel.Item>                
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={panPure} />
-        //                 <img className='line1' src={btsscrop} />
-        //                 <img className='line1' src={mangopoint} />
-        //                 <img className='line1' src={surcamp} />
-        //                 <img className='line1' src={sirius} />
-        //                 <img className='line1' src={agsHealth} />
-        //             </div>
-        //         </Carousel.Item>                
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={btsscrop} />
-        //                 <img className='line1' src={mangopoint} />
-        //                 <img className='line1' src={surcamp} />
-        //                 <img className='line1' src={sirius} />
-        //                 <img className='line1' src={agsHealth} />
-        //                 <img className='line1' src={panPure} />
-        //             </div>
-        //         </Carousel.Item>                
-        //         <Carousel.Item >
-        //             <div >
-        //                 <img className='line1' src={mangopoint} />
-        //                 <img className='line1' src={surcamp} />
-        //                 <img className='line1' src={sirius} />
-        //                 <img className='line1' src={agsHealth} />
-        //                 <img className='line1' src={panPure} />
-        //                 <img className='line1' src={btsscrop} />
-        //             </div>
-        //         </Carousel.Item>
-
-        //     </Carousel>
-        // </div>
+       
         <div>
         <div className='sliderDesk'>
             <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >

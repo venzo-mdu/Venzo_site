@@ -201,9 +201,39 @@ body{
     display: none;
 }
 .section5 {
-    margin-top: 3%;
+    margin: 3% 10%;
 }
-
+.portFolioLine{
+    color: #000;
+}
+.image-gallery-thumbnail-image {
+    display: none
+}
+.PortFolioHead{
+    color: gray;
+}
+.image-gallery-thumbnails-wrapper.left .image-gallery-thumbnails .image-gallery-thumbnail,
+.image-gallery-thumbnails-wrapper.right .image-gallery-thumbnails .image-gallery-thumbnail{    
+    display: block;
+    margin-right: 0;
+    margin-top: 50% !important;
+}
+.image-gallery-thumbnail-label {    
+    box-sizing: none;
+    color: red !important;
+    font-size: 1em;
+    left: 0;
+    line-height: 1em;
+    padding: 25%;
+    position: absolute;
+    top: 50%;
+    text-shadow: 1px 1px 0 black;
+    transform: translateY(-50%);
+    white-space: normal;
+    width: 100%;
+    background-color: #000;
+    margin-top: 5%;
+}
 .sect5_title {
     font-family: "Poppins", Sans-serif;
     font-size: 100px;
@@ -312,9 +342,7 @@ button:focus:not(:focus-visible) {
     font-style: normal;
     line-height: 120px;
     text-align: center;
-    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   
 }
 
 .freqQus {
