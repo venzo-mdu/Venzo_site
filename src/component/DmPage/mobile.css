@@ -792,7 +792,7 @@
     .Dm_subheading {
         text-align: center;
         background-image: url('../../images/Vector-61.png');
-        background-position-x: 75%;
+        background-position-x: 70%;
         background-position-y: 85%;
         background-size: 70%;
         font-family: 'Poppins';
@@ -802,8 +802,9 @@
         line-height: 175%;
         text-align: center;
         color: #000000;
-        width: 90%;
-        padding-left: 10%;
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 10%;
     }
 
     .section4 {
