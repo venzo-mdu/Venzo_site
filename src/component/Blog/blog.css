@@ -7,8 +7,8 @@ body{
 .container2{
     background-color: #0A1020;
     display: flex;
-    height: 70vh;
-    padding: 6% 9% 0 18%;
+    height: 65%;
+    padding: 6% 9% 3% 18%;
 }
 .blogHr{
     color: white;
@@ -22,21 +22,21 @@ body{
 }
 .arrows{
     margin-left: 20vw;
-    margin-top: -14vh;
+    margin-top: -34%;
 }
 .arrows2{
     margin-left: 20vw;
-    margin-top: -19vh;
+    margin-top: -45%;
 }
 .Blogs{
     margin-right: 20%;
     line-height: 1.6;
 }
 .box{
-    width: 25vw;
-    height: 30vh;
+    width: 130%;
+    height: 60%;
     margin-left: 5%;
-    padding: 10%;
+    padding: 13%;
     background-color: #50535e; 
     border-radius: 5%
 }
@@ -83,7 +83,7 @@ body{
     .container2{
         background-color: #0A1020;
         display: flex;
-        height: 60vh;
+        height: 60%;
         padding: 5% 9% 0 10%;
         line-height: 1.7;
 
@@ -91,23 +91,24 @@ body{
     
     .bloghead{
         color: white;
-        width: 33vw;
+        width: 65%;
+
     }
     .arrows{
-        margin-left: 35vw;
-        margin-top: -15vh;
+        margin-left: 90%;
+        margin-top: -35%;
     }
     .arrows2{
-        margin-left: 35vw;
-        margin-top: -21vh;
+        margin-left: 90%;
+        margin-top: -48%;
     }
     .Blogs{
         margin-right: 20%;
     }
     .box{
-        width: 25vw;
-        height: 30vh;
-        margin-left: 5%;
+        width: 125%;
+        height: 50%;
+        margin-left: -2%;
         padding: 10%;
         background-color: #50535e; 
         border-radius: 5%;
@@ -116,6 +117,7 @@ body{
         color: #f6f6f6;
         font-size:large;
         padding-top: 8%;
+        margin-left: 10%;
     }
     .careersdec{
         text-align: center;
@@ -123,12 +125,13 @@ body{
         opacity: 52%;
         font-size:small;
         padding-top: 8%;
-
     }
     .date {
         color: white;
         opacity: 52%;
         font-family: poppins-light;
+        padding-bottom: 3%;
+
     }
     .blurTitle{
         padding: 0 0 5% 5vw;
@@ -148,7 +151,6 @@ body{
     .container2{
         background-color: #0A1020;
         display: flex;
-        height: 60vh;
         padding: 3% 9% 0 15%;
         line-height: 1.7;
 
@@ -160,20 +162,20 @@ body{
     }
     .arrows{
         margin-left: 27vw;
-        margin-top: -15vh;
+        margin-top: -33%;
     }
     .arrows2{
         margin-left: 27vw;
-        margin-top: -20vh;
+        margin-top: -40;
     }
     .Blogs{
         margin-right: 20%;
     }
     .box{
-        width: 25vw;
-        height: 30vh;
+        width: 160%;
+        height: 60%;
         margin-left: 5%;
-        padding: 13%;
+        padding: 17%;
         background-color: #50535e; 
         border-radius: 5%;
     }
@@ -181,7 +183,7 @@ body{
         color: #f6f6f6;
         font-size:large;
         padding-top: 8%;
-        padding-left: 9%;
+        padding-left: 15%;
     }
     .careersdec{
         text-align: center;
@@ -203,7 +205,7 @@ body{
         padding: 0 0 9% 35%;
     }
     .jobs{
-        margin-left: 5vw;
+        margin-left: 30%;
         color: #FFFFFF;
         background-color: transparent;
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);

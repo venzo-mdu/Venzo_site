@@ -75,21 +75,21 @@ body{
         padding-top: 4%;
         background-color: #f6f6f6;
         color: #0A1020;
-        padding-bottom: 7vh;
+        padding-bottom: 10%;
     
     }
     .row2{
         display:flex;
     }
     .cus-title{
-        width: 68%;
+        width: 70%;
         font-size: 30px;
         line-height: 1.6;
         font-family: poppins-light,sans-serif;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
         background-position-x: 93%;
-        background-position-y: 75%;
+        background-position-y: 70%;
     }
     .des1{
         width: 63%;
@@ -134,8 +134,8 @@ body{
     }
     .talk{
         margin-left: 30vw;
-        height: 5vh;
-        margin-top: 8vh;
+        height: 5%;
+        margin-top: 3%;
         width: 11vw;
         color: white;
         background-color: #000000;

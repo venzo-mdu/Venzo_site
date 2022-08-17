@@ -21,7 +21,7 @@ function DevType() {
                             <img className="con_image" src={item.images} />
                         </div>
                     </div>
-                    <div className=" row">
+                    <div className=" row1">
                         {item.SubContent.map(item => {
                             return <div className='column'>
                                 <img className="icon1" src={item.icon} />
