@@ -9,6 +9,7 @@ import Footer from '../component/footer/footer';
 import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
 import UIUXPage from "../pages/UIUX"
+import bankingQAPage from "./bankingQA";
 
 const IndexPage = () => {
   return (
@@ -27,6 +28,8 @@ const IndexPage = () => {
       <Idea />
       <Footer />
       <Link to="/UIUX"></Link>
+      <Link to="/banking-QAPage"></Link>
+
 
 
     </div>

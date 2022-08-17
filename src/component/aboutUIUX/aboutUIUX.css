@@ -55,6 +55,9 @@ body{
     margin: 3% 0 0 0;
 }
 @media screen and (max-width:1440px) and (min-width:1030px) {
+    .digitalProducts{
+        padding: 12% 10%;
+    }
     
 }
 @media screen and (max-width:1024px) and (min-width:775px) {

@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family:'poppins-semibold';
+    src: url('../../../Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family:'poppins-thin';
+    src: url('../../../Poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url('../../../Poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../../../Poppins/Poppins-Medium.ttf');
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.improve{
+    background-image: url("../../../src/images/improveBG.png");
+    width: 100vw;
+    height: 80vh;
+    z-index: 0;
+    background-size: 100% 100%;
+}
+.improveSoftware{
+    padding: 12% 12%;
+}
+#improveSoftwareLine1{
+    font-family: poppins-semibold;
+    color: white;
+    font-size: 65px;
+}
+#improveSoftwareLine2{
+    font-family: poppins-medium;
+    color: white;
+    font-size: 20px;
+}
+#improveSoftwareLine3{
+    font-family: poppins-medium;
+    color: white;
+    font-size: 16px;
+    margin: 3% 0 0 0;
+}
+.improveRes{
+    display:none;
+}
+@media screen and (max-width:1440px) and (min-width:1030px) {
+    .improve{
+        height: 70vh;
+    }
+    .improveSoftware{
+        padding: 12% 10%;
+    }
+    
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .improve{
+        height: 60vh;
+    }
+    .improveSoftware{
+        padding: 15% 10%;
+    }
+    #improveSoftwareLine1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:770px) and (min-width:380px) {
+    .improve{
+        height: 50vh;
+    }
+    .improveSoftware{
+        padding: 20% 10%;
+    }
+    #improveSoftwareLine1{
+        font-size: 35px;
+    }
+    #improveSoftwareLine3{
+        margin: 5% 0 0 0;
+    }
+}

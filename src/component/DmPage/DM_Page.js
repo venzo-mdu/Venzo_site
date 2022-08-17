@@ -152,7 +152,8 @@ function DM_Page() {
                     </div>
                 </div>
                 <div className='section5'>
-                    <p className='sect5_title'> What you get</p> </div>
+                    <p className='sect5_title'> What you get</p> 
+                </div>
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
                         <li className='cardtitle1' onClick={() => dated('brand')}>Brand Promotion</li>
