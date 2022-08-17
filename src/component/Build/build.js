@@ -1,9 +1,5 @@
 import React from 'react'
-// import build from '../../images/Build.svg'
-// import web from '../../images/Web development-gradient.svg'
-// import android from '../../images/Android Development-gradient.svg'
-// import ios from '../../images/iOS Development-gradient.svg'
-// import arrow from '../../images/Read more arrow-gradient.svg'
+
 import '../../style/style.css'
 import '../../style/laptop.css'
 import '../../style/laptopL.css'
@@ -57,7 +53,11 @@ function Build() {
 }
 
 export default Build
-
+// import build from '../../images/Build.svg'
+// import web from '../../images/Web development-gradient.svg'
+// import android from '../../images/Android Development-gradient.svg'
+// import ios from '../../images/iOS Development-gradient.svg'
+// import arrow from '../../images/Read more arrow-gradient.svg'
 
 {/* <div className="containor1" >
                 <div className="build">
