@@ -82,3 +82,257 @@
 .approachQA .enhancement p{
     margin: 0% 0 0 19%;
 }
+.ourapproachQA .approachDesignQA #straightarrowQA{
+    display: none;
+}
+@media screen and (max-width:1445px) and (min-width:1025px) {
+.ourapproachQA h1 {
+    font-size: 100px;
+}
+.approachQA .production {
+    margin-top:12%
+}
+.ourapproachQA .approachDesignQA #straightarrowQA{
+    display: none;
+}
+}
+@media screen and (max-width:1024px) and (min-width:775px) {
+        
+        .ourapproachQA h1 {
+            font-size: 90px;
+            margin: 10% 0 0 0;
+        }
+        .approachQA .production {
+            margin-top:12%
+        }
+        .ourapproachQA .approachDesignQA img {
+            margin: 3.5% 0 0 25%;
+            height: 70vh;
+        }
+        .ourapproachQA .approachDesignQA #straightarrowQA{
+            display: none;
+        }
+        .ourapproachQA .approachQA div h2{
+            font-size: 20px;
+        }
+        .approachQA .requirement{
+            margin: 0% 0 0 -3%;
+        }
+        .approachQA .requirement p{
+            margin: 0% 0 0 8%;
+        }
+        .approachQA .feasibility {
+            margin: 8% 0 0 -3%;
+        }
+        .approachQA .feasibility p{
+            margin: 0 0 0 8%;
+        }
+        .approachQA .analysis p{
+            margin-left: 17%;
+        }
+        .approachQA .production {
+            margin-top:12%
+        }
+        .approachQA .production p{
+            margin-left:30%;
+        }
+        .approachQA .enhancement p{
+            margin-left:30%
+        }
+
+    }
+    
+    @media screen and (max-width:770px) and (min-width:435px) {
+        .ourapproachQA{
+            height: 100vh;
+        }
+        .ourapproachQA h1 {
+            font-size: 70px;
+            margin: 10% 0 0 0;
+        }
+        .approachQA .production {
+            margin-top:12%
+        }
+        .ourapproachQA .approachDesignQA #bankingarrow{
+            display: none;
+        }
+        .ourapproachQA .approachDesignQA #straightarrowQA{
+            height: 65vh;
+            margin: 8% 0 0 40%;
+            display: block;
+
+        }
+        .ourapproachQA .approachQA div h2{
+            font-size:18px;
+        }
+        .ourapproachQA .approachQA div p{
+            font-size: 16px;
+        }
+        .approachQA .requirement{
+            margin: 5% 0 0 5%;
+        }
+        .approachQA .requirement p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .feasibility {
+            margin: 10% 0 0 5%;
+
+        }
+        .approachQA .feasibility p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .analysis {
+            margin: 8% 0 0 10%;
+        }
+        .approachQA .analysis p{
+            margin-left: 32%;
+        }
+        .approachQA .implementation{
+            margin: 14% 0 0 6%;
+        }
+        .approachQA .implementation p{
+            margin-left: 30%;
+        }
+        .approachQA .production {
+            margin:12% 0 0 5%;
+        }
+        .approachQA .production p{
+            margin-left:30%;
+        }
+        .approachQA .enhancement{
+            margin:12% 0 0 5%;
+        }
+        .approachQA .enhancement p{
+            margin-left:30%
+        }
+    }
+    
+    @media screen and (max-width:430px) and (min-width:380px) {
+        .ourapproachQA{
+            height: 90vh;
+        }
+        .ourapproachQA h1 {
+            font-size: 35px;
+            margin: 10% 0 0 0;
+        }
+        .ourapproachQA .approachQA div h2{
+            font-size:12px;
+        }
+        .ourapproachQA .approachQA div p{
+            font-size: 14px;
+        }
+        .approachQA .production {
+            margin-top:12%
+        }
+        .ourapproachQA .approachDesignQA #bankingarrow{
+            display: none;
+        }
+        .ourapproachQA .approachDesignQA #straightarrowQA{
+            height: 56vh;
+            margin: 8% 0 0 45%;
+            display: block;
+
+        }
+       
+        .approachQA .requirement{
+            margin: 5% 0 0 5%;
+        }
+        .approachQA .requirement p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .feasibility {
+            margin: 10% 0 0 5%;
+
+        }
+        .approachQA .feasibility p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .analysis {
+            margin: 8% 0 0 10%;
+        }
+        .approachQA .analysis p{
+            margin-left: 32%;
+        }
+        .approachQA .implementation{
+            margin: 14% 0 0 6%;
+        }
+        .approachQA .implementation p{
+            margin-left: 30%;
+        }
+        .approachQA .production {
+            margin:12% 0 0 5%;
+        }
+        .approachQA .production p{
+            margin-left:30%;
+        }
+        .approachQA .enhancement{
+            margin:12% 0 0 5%;
+        }
+        .approachQA .enhancement p{
+            margin-left:30%
+        }
+    }
+    
+    @media screen and (max-width:375px)  {
+        .ourapproachQA{
+            height: 90vh;
+        }
+        .ourapproachQA h1 {
+            font-size: 35px;
+            margin: 10% 0 0 0;
+        }
+        .ourapproachQA .approachQA div h2{
+            font-size:12px;
+        }
+        .ourapproachQA .approachQA div p{
+            font-size: 14px;
+        }
+        .approachQA .production {
+            margin-top:12%
+        }
+        .ourapproachQA .approachDesignQA #bankingarrow{
+            display: none;
+        }
+        .ourapproachQA .approachDesignQA #straightarrowQA{
+            height: 60vh;
+            margin: 8% 0 0 45%;
+            display: block;
+        }
+        .approachQA .requirement{
+            margin: 5% 0 0 5%;
+        }
+        .approachQA .requirement p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .feasibility {
+            margin: 10% 0 0 5%;
+
+        }
+        .approachQA .feasibility p{
+            margin: 0% 0 0 30%;
+        }
+        .approachQA .analysis {
+            margin: 8% 0 0 10%;
+        }
+        .approachQA .analysis p{
+            margin-left: 32%;
+        }
+        .approachQA .implementation{
+            margin: 14% 0 0 6%;
+        }
+        .approachQA .implementation p{
+            margin-left: 30%;
+        }
+        .approachQA .production {
+            margin:12% 0 0 5%;
+        }
+        .approachQA .production p{
+            margin-left:30%;
+        }
+        .approachQA .enhancement{
+            margin:12% 0 0 5%;
+        }
+        .approachQA .enhancement p{
+            margin-left:30%
+        }
+    }

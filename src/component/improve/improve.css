@@ -82,3 +82,37 @@ body{
         margin: 5% 0 0 0;
     }
 }
+@media screen and (max-width:430px) and (min-width:380px) {
+    .improve{
+        display: none;
+    }
+    .improveRes{
+        background-image: url("../../images/bankingresQABg.png");
+        background-size: 100% 100%;
+        height: 100vh;
+        display: block;
+    }
+}
+@media screen and (max-width:380px){
+    .improve{
+        display: none;
+    }
+    .improveRes{
+        background-image: url("../../images/bankingresQABg.png");
+        background-size: 100% 100%;
+        height: 100vh;
+        display: block;
+    }
+    .improveSoftware{
+        padding: 20% 10%;
+    }
+    #improveSoftwareLine1{
+        font-size: 32px;
+    }
+    #improveSoftwareLine2{
+        margin: 10% 0 0 0;
+    }
+    #improveSoftwareLine3{
+        margin: 10% 0 0 0;
+    }
+}

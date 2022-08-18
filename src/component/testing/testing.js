@@ -6,7 +6,7 @@ function testing() {
       <section>
           <div className='testing'>
             <div className='typesTesting'>
-                <h1>Types of<br></br> Testings<br></br> we do</h1>
+                <h1>Types of Testings we do</h1>
                 <div className='testingCard'>
                    <div className='types'>
                        <div className='types1'>

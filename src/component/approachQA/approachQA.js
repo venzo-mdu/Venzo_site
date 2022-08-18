@@ -1,6 +1,7 @@
 import React from 'react'
 import "../approachQA/approachQA.css"
 import BankingArrow from "../../images/bankingArrow.png"
+import BankingArrowstraight from '../../images/straightBankingQA.png'
 
 function approachQA() {
   return (
@@ -9,7 +10,7 @@ function approachQA() {
           <h1>Our approach on design</h1>
           <div className='approachDesignQA'>
                   <img id="bankingarrow" src={BankingArrow} alt="BankingArrow"></img>
-                  {/* <img id="straightarrow" src={straightArrow} alt="straightArrow"></img> */}
+                  <img id="straightarrowQA" src={BankingArrowstraight} alt="straightArrowQA"></img>
                   <div className='approachQA'>
                     <div className='requirement'>
                        <h2>Requirement Gathering</h2>

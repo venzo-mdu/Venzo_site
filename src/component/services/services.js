@@ -8,7 +8,7 @@ function services() {
 
                 <div className='section2'>
                     <p className='Dm_heading'>Services</p>
-                    <p className='Dm_subheading'>We built the best-in-class software solutions that bring <strong>enhanced growth to your business</strong></p>
+                    <p className='Dm_subheading'>We built the best-in-class software solutions that bring <strong >enhanced growth to your business</strong></p>
                 </div>
             {servicesData.map(item => {
                 return <div >

@@ -24,3 +24,22 @@
     font-size: 18px;
     margin: 1.5% 0 0 10%;
 }
+@media screen and (max-width:1445px) and (min-width:1025px) {
+}
+    @media screen and (max-width:1024px) and (min-width:775px) {
+        .customerExperiance h3{
+            font-family:poppins-semibold;
+            font-size: 35px;
+            width: 65%;
+        }
+}
+    
+    @media screen and (max-width:770px) and (min-width:435px) {
+}
+    
+    @media screen and (max-width:430px) and (min-width:380px) {
+    }
+        @media screen and (max-width:375px)  {
+        }
+    
+    
