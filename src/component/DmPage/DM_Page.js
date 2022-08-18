@@ -192,7 +192,7 @@ function DM_Page() {
                 <DmFrequentQues />
             </div>
             <div>
-                <div className='containor3'>
+                <div className='containor11'>
                     <p className='anyIdea1'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
                     <button className=' btn auidt'>Free website audit</button>
                 </div>

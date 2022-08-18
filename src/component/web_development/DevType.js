@@ -1,9 +1,9 @@
 import React from 'react'
 import devContent from '../../content/devContent.json'
 function DevType() {
-  return (
-<div>
-            
+    return (
+        <div>
+
             {devContent.map(item => {
                 return <div>
                     <div className="development1" >
@@ -22,21 +22,30 @@ function DevType() {
                         </div>
                     </div>
                     <div className=" row1">
-                        {item.SubContent.map(item => {
-                            return <div className='column'>
-                                <img className="icon1" src={item.icon} />
-                                <h2 className="heading1">{item.title1}</h2>
-                               
+                        <div className='column'>
+                            <div className='column1'>
+                                {item.SubContent.map(item => {
+                                    return <div className='column2'>
+                                            <img className="icon1" src={item.icon1} />
+                                            <h2 className="heading1">{item.title1}</h2>
+                                    </div>
+                                })}
                             </div>
-                        })}
+                            <div className='column1'>
+                                {item.SubContent1.map(item => {
+                                    return <div className='column2'>
+                                        <img className="icon1" src={item.icon2} />
+                                        <h2 className="heading1">{item.title2}</h2>
+                                    </div>
+                                })}
+                            </div>
+                        </div>
+                        {item.hrLine ? <hr className='hr_line1' /> : " "}
 
                     </div>
-                    {item.hrLine ? <hr className='hr_line' /> : " "}
-
                 </div>
-                
             })}
-        </div>  )
+        </div>)
 }
 
 export default DevType

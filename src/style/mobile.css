@@ -101,7 +101,7 @@ body{
         padding-top:5% ;
     }
     .cus-title{
-        width: 93%;
+        width: 90%;
         font-size: 21px;
         line-height: 1.2;
         font-family: sans-serif;
@@ -124,7 +124,7 @@ body{
     .videoImg{
         margin-right: 2%;
         margin-top: -5%;
-        width: 85vw;
+        width: 85%;
     }
 
     .col4{
@@ -153,20 +153,20 @@ body{
         
     }
     .anyIdea{
-        margin-left: 10vw;
+        margin-left: 10%;
         padding: 8% 0;
         font-size: 30px;
     }
     .talk{
-        margin-left: 25vw;
-        height: 5vh;
+        margin-left: 25%;
+        height: 40%;
         margin-top: 0vh;
-        width: 40vw;
+        width: 40%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
         font-size: 13px;
-        padding: 0 4%;
+        padding: 2% 4%;
     }
     .talk:hover{
         color: #FFFFFF;
@@ -181,7 +181,7 @@ body{
     }
 }
 
-@media screen  and (min-width:375px) and (max-width:425px){
+@media screen  and (max-width:428px) and (min-width:380px){
     .containor1{
         display: block;
         margin-top: 1%
@@ -248,8 +248,8 @@ body{
 
     }
     .arrow1{
-        margin-top: -32%;
-        margin-left: 65%;
+        margin-top: 0% !important;
+        margin-left: -5% !important;
     }
     .readMore1{
         margin-right: 5%;
@@ -258,8 +258,8 @@ body{
     }
 
     .hr_line{
-        width: 84%;
-        margin-left: 10%;
+        width: 90% !important;
+        margin-left: 5% !important;
     }
     .customer{
         padding-left: 9%;
@@ -275,12 +275,19 @@ body{
         padding-top:5% ;
     }
     .cus-title{
-        width: 93%;
-        font-size: 21px;
-        line-height: 1.2;
-        font-family: sans-serif;
-        background-image: none;
-        text-align:justify ;  
+        width: 85%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 165%;
+        text-align: center;
+        color: #000000; 
+        background-image: url('../images/Vector-61.png');
+        background-repeat: no-repeat;
+        background-position-x: 3%;
+        background-position-y: 85%;
+        background-size: contain;
 
     }
     .des1{
@@ -318,7 +325,7 @@ body{
 
     }
     .containor3{
-        margin: 0 0 0% 0;
+        margin: -3% 0 0% 0;
         padding-bottom: 10%;
         width: 100%;
         height: 20%;
@@ -327,20 +334,20 @@ body{
         
     }
     .anyIdea{
-        margin-left: 10vw;
+        margin-left: 10%;
         padding: 8% 0;
         font-size: 30px;
     }
     .talk{
-        margin-left: 25vw;
-        height: 5vh;
-        margin-top: 0vh;
-        width: 40vw;
+        margin-left: 25%;
+        height: 70%;
+        margin-top: 0%;
+        width: 40%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
         font-size: 13px;
-        padding: 0 4%;
+        padding: 2% 4%;
     }
     .talk:hover{
         color: #FFFFFF;

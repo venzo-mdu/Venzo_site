@@ -5,33 +5,36 @@
         "images": "../images/wordpress.png",
         "SubContent": [
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "WordPress CMS Installation & Configuration"
 
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Custom WordPress Web Development"
 
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Responsive WordPress Theme Development"
 
-            },
+            }
+            
+        ],
+        "SubContent1":[
             {
-                "icon": "../images/secure.png",
-                "title1": "WordPress Plugin Development"
+                "icon2": "../images/secure.png",
+                "title2": "WordPress Plugin Development"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "API Integration & Module Management"
+                "icon2": "../images/secure.png",
+                "title2": "API Integration & Module Management"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "WordPress Migration And Maintenance Services"
+                "icon2": "../images/secure.png",
+                "title2": "WordPress Migration And Maintenance Services"
 
             }
         ],
@@ -43,33 +46,36 @@
         "images": "../images/ecommerce.png",
         "SubContent": [
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Responsive Shopping Website"
 
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Payment Gateway Integration"
 
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "WordPress Theme Customisation"
 
-            },
+            }
+            
+        ],
+        "SubContent1":[
             {
-                "icon": "../images/secure.png",
-                "title1": "100% Customizable Design"
+                "icon2": "../images/secure.png",
+                "title2": "100% Customizable Design"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "Multiple Product Image"
+                "icon2": "../images/secure.png",
+                "title2": "Multiple Product Image"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "Manage Category"
+                "icon2": "../images/secure.png",
+                "title2": "Manage Category"
 
             }
         ],
@@ -82,30 +88,33 @@
         "images": "../images/website.png",
         "SubContent": [
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Website Design"
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "CMS Development"
             },
             {
-                "icon": "../images/secure.png",
+                "icon1": "../images/secure.png",
                 "title1": "Website Maintenance"
-            },
+            }
+        ],
+        "SubContent1":[
+            
             {
-                "icon": "../images/secure.png",
-                "title1": "Website Redesign"
+                "icon2": "../images/secure.png",
+                "title2": "Website Redesign"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "Responsive Web Design"
+                "icon2": "../images/secure.png",
+                "title2": "Responsive Web Design"
 
             },
             {
-                "icon": "../images/secure.png",
-                "title1": "Manage Category"
+                "icon2": "../images/secure.png",
+                "title2": "Manage Category"
 
             }
         ]

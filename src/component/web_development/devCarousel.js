@@ -10,7 +10,7 @@ function devCarousel() {
     return (
         <div className='devCaros'> 
          <Carousel >
-            <Carousel.Item >
+            <Carousel.Item className='devcarosel'>
 
                 <div className='item1'>
                     <div>
@@ -30,7 +30,7 @@ function devCarousel() {
 
             </Carousel.Item>
 
-            <Carousel.Item >
+            <Carousel.Item className='devcarosel'>
 
                 <div className='item3'>
                     <div>
@@ -48,7 +48,7 @@ function devCarousel() {
 
                 </div>
             </Carousel.Item>
-            <Carousel.Item >
+            <Carousel.Item className='devcarosel'>
 
                 <div className='item2'>
                     <div>

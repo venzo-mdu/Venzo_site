@@ -217,30 +217,30 @@ body{
     .container2{
         background-color: #0A1020;
         display: block;
-        height: 90vh;
-        padding: 5% 9% 0 10%;
+        height: 100%;
+        padding: 5% 9% 8% 10%;
         line-height: 1.7;
     }
     
     .bloghead{
         color: white;
-        width: 100vw;
+        width: 100%;
     }
     .arrows{
-        margin-left: 65vw;
-        margin-top: -15vh;
+        margin-left: 100%;
+        margin-top: -30%;
     }
     .arrows2{
-        margin-left: 65vw;
-        margin-top: -15vh;
+        margin-left: 100%;
+        margin-top: -28%;
     }
     .Blogs{
         margin-right: 20%;
     }
     .box{
-        width: 85vw;
-        height: 32vh;
-        margin-left: -5%;
+        width: 95%;
+        height: 33%;
+        margin-left: 0%;
         padding: 5%;
         background-color: #50535e; 
         border-radius: 7px;
@@ -269,7 +269,8 @@ body{
         font-family: poppins-light;
     }
     .blurTitle{
-        padding: 0 0 9% 20vw;
+        padding: 0 0 9% 30%;
+        padding-top: 2%;
     }
     .jobs{
         margin-left: 30vw;
@@ -278,15 +279,15 @@ body{
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
     }
     .blurTitle1{
-        padding: 0 0 9% 30vw;
+        padding: 0 0 9% 35%;
     }
 }
 @media screen  and (max-width:425px) and (min-width:375px){
     .container2{
         background-color: #0A1020;
         display: block;
-        height: 90vh;
-        padding: 5% 9% 0 10%;
+        height: 100%;
+        padding: 5% 9% 10% 10%;
         line-height: 2;
     }
     .blurTitle{
@@ -294,23 +295,23 @@ body{
     }
     .bloghead{
         color: white;
-        width: 70vw;
+        width: 70%;
         font-size: 12px;
     }
     .arrows{
-        margin-left: 70vw;
-        margin-top: -13vh;
+        margin-left: 80%;
+        margin-top: -33%;
     }
     .arrows2{
-        margin-left: 70vw;
-        margin-top: -17vh;
+        margin-left: 80%;
+        margin-top: -44%;
     }
     .Blogs{
         margin-right: 0%;
     }
     .box{
-        width: 80vw;
-        height: 30vh;
+        width: 100%;
+        height: 50%;
         margin-left: 0%;
         padding: 10%;
         background-color: #50535e; 
@@ -339,7 +340,7 @@ body{
         padding: 0 0 9% 25%;
     }
     .jobs{
-        margin-left: 20vw;
+        margin-left: 30%;
         color: #FFFFFF;
         background-color: transparent;
         background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
@@ -349,12 +350,12 @@ body{
     }
 }
 
-@media screen  and (max-width:380px) {
+@media screen  and (max-width:378px) {
     .container2{
         background-color: #0A1020;
         display: block;
-        height: 90vh;
-        padding: 5% 9% 0 10%;
+        height: 90%;
+        padding: 5% 9% 10% 10%;
         line-height: 2;
     }
     .blurTitle{
@@ -362,15 +363,15 @@ body{
     }
     .bloghead{
         color: white;
-        width: 70vw;
+        width: 70%;
         font-size: 12px;
     }
     .arrows{
-        margin-left: 70vw;
-        margin-top: -13vh;
+        margin-left: 90%;
+        margin-top: -45%;
     }
     .arrows2{
-        margin-left: 70vw;
+        margin-left: 90%;
         margin-top: -17vh;
     }
     .Blogs{

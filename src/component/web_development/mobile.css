@@ -1,0 +1,389 @@
+@media screen and (max-width:425px) and (min-width:380px) {
+
+* {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        cursor: default;
+    }
+    
+    .sect1 {
+        margin: 0% 0 0 8%;
+    }
+    .mobilBr{
+        display: none;
+    }
+    .component {
+        padding: 20% 0 10% 0;
+        background-image: url("../../webDev_Image/devBgM.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .web_Title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        margin-right: -10%;
+        width: 90%;
+    }
+    
+    .webDesc {
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #F4F4FF;
+        width: 80%;
+        padding-top: 5%;
+    }
+    
+    .whiteArrow {
+        margin-left: 0.5%;
+    }
+    
+    .knowmore {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-top: 5%;
+    }
+    
+    .sect2 {
+        margin-top: 3%;
+    }
+    
+    .sect2_title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 120%;
+        text-align: center;
+        background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    
+    .sect2-desc {
+        background-color: #0A1020;
+        display: block;
+        gap: 0px;
+        background: 0.3s, border-radius 0.3s, opacity 0.3s;
+        border-style: solid;
+        border-width: 0px 0px 0px 0px;
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 0%;
+        margin-right: 3%;
+        padding: 10%;
+        margin-left: 11%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    
+    .devdesc-p {
+        width: 100%;
+    }
+    
+    .Webdesc-titlte {
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 3%;
+    }
+    
+    .Webdesc-detail {
+        margin: auto;
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 175%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .Vline {
+      display: none;
+    }
+    
+    .lineM {
+        display: block;
+        width: 90%;
+        margin-left: 2%;
+    }
+    
+    
+    .development1{
+        display: block;
+        margin-top: 5%
+    }
+    .devContent{
+        height:12%;
+        width:40%;
+        margin-left: 8%;
+    }
+    .con_title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 120%;
+        color: #000000;
+    }
+    .con_desc{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        width: 200%;        
+        text-align: justify;
+    }
+    .con_image{
+        display: none;
+    }
+    .row1{
+        margin-left: 7%;
+        margin-top: 4%;
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 3%;
+    }
+    .column1{
+        display: block;
+    } 
+    .column2{
+        width: 100%;
+        display:flex;
+        margin-bottom: 1%;
+    }
+    .icon1{
+        width: 17px;
+        height: 20px;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+    .heading1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        width: 70%;
+        margin-left: 3%;
+    }
+    
+    .desc1{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24.5px;
+        color: #000000;
+        opacity: 52%;
+        text-align:justify ;  
+    }
+    
+    
+    .hr_line1{
+        width: 95%;
+        margin-left: -3%;
+        margin-top: 0;
+    }
+    
+    .devCaros .carousel{
+        margin: 0%;
+        padding: 0;
+        margin-bottom: 2%;
+        display: flex;
+        z-index: -1;
+    }
+    .devCaros .carousel .carousel-item{
+        width: 85%;
+        margin: 0% 8%;
+        padding: 5% 0;
+        background-color: #F8F8F8;
+        border-radius: 7px 7px 7px 7px;
+        height: 100% !important;
+    
+    }
+    
+    .devCaros .carousel-control-next-icon{
+        display: none;
+    }
+    .devCaros .carousel-control-prev-icon{
+        display: none;
+    }
+    .devCaros .carousel-indicators{
+        display:flex;
+        text-align: center;
+        background-color: #FFF;
+        margin-top: 90%;
+        bottom: -50px;
+    }
+    .devCaros .carousel-indicators button {
+        border-radius: 50%;
+        padding: 5px;
+        width: 10px;
+        background-color: red;
+        margin-top: 0%;
+        
+    }
+    
+    .devCaros .item1 {
+        text-align: left;
+        margin-top: 0%;
+        margin-left: 5%;
+        display: flex;
+    }
+    .devCaros .mango{
+        margin-top: 0%;
+        width: 40%;
+        height: 40.34px;
+        padding-bottom: 2%;
+    
+    }    
+    .devCaros .item2{
+        display: flex;
+        text-align: left;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+        
+    .devCaros .item3 {
+        text-align: left;
+        margin-top: 0%;
+        margin-left: 5%;
+        display: flex;
+    }
+    
+    .rightPic{
+        margin-left: -5%;
+        width: 95%;
+    }
+    .devCaros .blockchain{
+        font-family: poppins-light;
+        color:black;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .devCaros .dataEngineering{
+        font-family: poppins-light;
+        color:#0a1020;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .devCaros .productDevelopment{
+        color:black;
+        font-family: poppins-light;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .devCaros .knowMore{
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: poppins-regular;
+        margin-top: 1%;
+        color: black;
+    }
+    .devCaros .knowMore1{
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: poppins-regular;
+        margin-top: 1%;
+        color:#0a1020;
+    }
+    .devCaros .blockchainDev{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+    
+    }
+    .devCaros .dataEnggDev{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
+        width: 30%;
+    
+    }
+    .devCaros .productDev{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
+        width: 30%;
+    }
+    
+    .containor12{
+        margin: 5% 9px 0  0;
+        padding: 4% 0;
+        width: 100%;
+        display: flex;
+        background-color: #f6f6f6;
+    }
+    
+    .anyIdea12{
+        margin-left: 12%;
+        padding: 2% 0;
+        font-size: 30px;
+        margin-top:-1% ;
+    }
+    .talk12{
+        margin-left: 25%;
+        height: 35%;
+        margin-top: 5%;
+        width: 15%;
+        color: white;
+        background-color: #000000;
+        border-radius: 7px 7px 7px 7px;
+        font-size: 14px;
+    }
+    .talk12:hover{
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+    
+    .textColor{
+        background: -webkit-linear-gradient(60deg, #e66521,#d1368f, #ae01ff);
+        -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent;
+    }
+}

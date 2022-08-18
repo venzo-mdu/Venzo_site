@@ -2,7 +2,7 @@
     font-family:'poppins-light';
     src: url('../../Poppins/Poppins-Light.ttf');
 }
-@media screen  and (max-width:770px) and (min-width:500px) {
+@media screen  and (max-width:770px) and (min-width:430px) {
     .containor1{
         display: block;
         margin-top: 1%
@@ -71,7 +71,8 @@
     }
     .arrow1{
         float: right;
-        margin-top: -19%;
+        padding-top: 8%;
+        padding-bottom: 18%;
         margin-right: 15%;
     }
     .hr_line{
@@ -139,7 +140,7 @@
 
     }
     .containor3{
-        margin: 0 9px 0  0;
+        margin: 0% 9px 0  0;
         width: 101%;
         height: 20%;
         display: flex;
@@ -151,15 +152,15 @@
         font-size: 40px;
     }
     .talk{
-        margin-left: 15vw;
-        height: 9vh;
-        margin-top: 9vh;
-        width: 20vw;
+        margin-left: 8%;
+        margin-top: 9%;
+        width: 20%;
+        height: 40%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
         font-size: 18px;
-        padding: 0 4%;
+        padding: 2% 4% 2%;
     }
     .talk:hover{
         color: #FFFFFF;
