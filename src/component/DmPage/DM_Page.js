@@ -166,8 +166,8 @@ function DM_Page() {
 
                     </div>
                 </div>
-{/* 
-                <div className='section5'>
+
+                {/* <div className='section5'>
                 <ImageGallery
 
                         items={customised_portfolio_reports}

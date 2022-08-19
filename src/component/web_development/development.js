@@ -29,26 +29,27 @@ function Development() {
                     <div className='devdesc-p'>
                         <p className='Webdesc-titlte'>Wordpress Development</p>
                         <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
-                        <img className="lineM" src={line1} />
+                        <img className="lineM1" src={line1} />
                     </div>
 
                     <div className='devdesc-p'>
                         <p className='Webdesc-titlte'>Ecommerce Development</p>
                         <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
-                        <img className='Vline' src={line} ></img>
-                        <img className="lineM" src={line1} />
+                        <img className='Vline1' src={line} ></img>
+                        <img className="lineM1" src={line1} />
 
                     </div>
                     <div className='devdesc-p'>
                         <p className='Webdesc-titlte'>Website Development</p>
                         <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
-                        <img className='Vline' src={line} ></img>
+                        <img className='Vline1' src={line} ></img>
 
                     </div>
                 </div>
             </div>
             <DevType />
-            <p className='sect2_title'> We  worked with </p>
+            <hr className='hr_line2'/>
+            <p className='sect3_title'> We  worked with </p>
             <DevCarousel />
             <div>
                 <div className='containor12'>
