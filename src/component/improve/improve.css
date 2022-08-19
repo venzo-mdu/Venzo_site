@@ -19,107 +19,100 @@ body{
     padding: 0;
     margin: 0;
 }
-.aboutUIUX{
-    background-image: url("../../../src/images/Banner.png");
+.improve{
+    background-image: url("../../../src/images/improveBG.png");
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     z-index: 0;
     background-size: 100% 100%;
 }
-.aboutUIUXRes{
-    display: none;
+.improveSoftware{
+    padding: 12% 12%;
 }
-.digitalProducts{
-    padding: 8% 10%;
-}
-#usable{
-    background: linear-gradient(269.28deg, #C90736 0.5%, #0022FF 105.22%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-#digitalLine1{
+#improveSoftwareLine1{
     font-family: poppins-semibold;
     color: white;
-    font-size: 55px;
+    font-size: 65px;
 }
-#digitalLine2{
+#improveSoftwareLine2{
     font-family: poppins-medium;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
-#digitalLine3{
+#improveSoftwareLine3{
     font-family: poppins-medium;
     color: white;
     font-size: 16px;
     margin: 3% 0 0 0;
 }
+.improveRes{
+    display:none;
+}
 @media screen and (max-width:1440px) and (min-width:1030px) {
-    .digitalProducts{
+    .improve{
+        height: 70vh;
+    }
+    .improveSoftware{
         padding: 12% 10%;
     }
     
 }
 @media screen and (max-width:1024px) and (min-width:775px) {
-    .digitalProducts{
+    .improve{
+        height: 60vh;
+    }
+    .improveSoftware{
         padding: 15% 10%;
+    }
+    #improveSoftwareLine1{
+        font-size: 35px;
     }
 }
 @media screen and (max-width:770px) and (min-width:380px) {
-   
-    .digitalProducts{
+    .improve{
+        height: 50vh;
+    }
+    .improveSoftware{
         padding: 20% 10%;
     }
-    #digitalLine1{
+    #improveSoftwareLine1{
         font-size: 35px;
     }
-    #digitalLine3{
+    #improveSoftwareLine3{
         margin: 5% 0 0 0;
     }
 }
-@media screen and (max-width:375px) {
-    .aboutUIUX{
+@media screen and (max-width:430px) and (min-width:380px) {
+    .improve{
         display: none;
     }
-    .aboutUIUXRes{
-        background-image: url("../../images//bgMob2.png");
+    .improveRes{
+        background-image: url("../../images/bankingresQABg.png");
         background-size: 100% 100%;
         height: 100vh;
         display: block;
-    }
-    .digitalProducts{
-        padding: 20% 10%;
-    }
-    #digitalLine1{
-        font-size: 32px;
-    }
-    #digitalLine2{
-        margin: 10% 0 0 0;
-    }
-    #digitalLine3{
-        margin: 10% 0 0 0;
     }
 }
-@media screen and (max-width:425px) {
-    .aboutUIUX{
+@media screen and (max-width:380px){
+    .improve{
         display: none;
     }
-    .aboutUIUXRes{
-        background-image: url("../../images//bgMob2.png");
+    .improveRes{
+        background-image: url("../../images/bankingresQABg.png");
         background-size: 100% 100%;
         height: 100vh;
         display: block;
     }
-    .digitalProducts{
+    .improveSoftware{
         padding: 20% 10%;
     }
-    #digitalLine1{
+    #improveSoftwareLine1{
         font-size: 32px;
     }
-    #digitalLine2{
+    #improveSoftwareLine2{
         margin: 10% 0 0 0;
     }
-    #digitalLine3{
+    #improveSoftwareLine3{
         margin: 10% 0 0 0;
     }
 }
