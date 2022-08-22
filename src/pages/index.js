@@ -29,9 +29,6 @@ const IndexPage = () => {
       <Footer />
       <Link to="/UIUX"></Link>
       <Link to="/banking-QAPage"></Link>
-
-
-
     </div>
    
   )
