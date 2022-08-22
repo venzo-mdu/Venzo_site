@@ -1,0 +1,257 @@
+@media screen and (max-width:1024px) and (min-width:775px) {    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: default;
+}.help {
+    background: url('../../images/Rectangle\ 117.png'), #0A1020;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    height: 659px;
+}
+
+.helpTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
+}
+
+.helpDesc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    width: 45%;
+    text-align: center;
+    margin-left: 27%;
+}
+
+.contactUs1 {
+    background: #0A1020;
+    border-radius: 8px;
+    width: 90%;
+    height: 705px;
+    margin-top: -30%;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 10%;
+
+}
+
+.contact1 {
+    width: 50%;
+    padding: 3%;
+}
+
+.contactTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 133%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.lin1 {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.ph_icon {
+    color: #FFFFFF;
+    Width: 16.43px;
+    Height: 21px;
+    margin-right: 5%;
+}
+
+.country1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 8%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-right: 5%;
+    color: #FFFFFF;
+
+}
+
+.phn {
+    color: #909090;
+    line-height: 3;
+    text-decoration: none;
+}
+.lin2 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.careers1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 58%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-right: 2%;
+    color: #FFFFFF;
+    margin-left: 9%;
+    margin-bottom: 3%;
+    margin-top: -2.4%;
+}
+
+.lin3 {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+
+}
+
+.address1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-right: 5%;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: -1.4%;
+}
+
+.addrs {
+    margin-top: 3%;
+    color: #909090;
+
+}
+
+.contactform {
+    width: 60%;
+    height: 80%;
+    margin-left: -4%;
+    margin-top: 3%;
+    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
+    border-radius: 10.8395px;
+    padding: 4%;
+
+}
+
+.formTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+input {
+    padding: 2%;
+    border-radius: 7px;
+    width: 47%;
+}
+
+.Fname {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #929292;
+    margin: 2% 2% 4% 0;
+}
+
+.Femail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #929292;
+}
+
+.Fphone {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #929292;
+    margin: 2% 4% 4% 0;
+    width: 97%;
+}
+
+.Fmessage {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #929292;
+    padding: 2%;
+    width: 97%;
+    height: 30%;
+}
+
+.Fbutton {
+    background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    border-radius: 8px;
+    padding: 1% 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 8% 0 0 75%;
+}
+.mediaIocn{
+    margin: -3% 0 4%;
+}
+.icontitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #929292;
+    margin-top: 5%;
+}
+.mediaIcons{
+    width: 50%;
+    margin: 4% 0 10% 30%;
+}
+
+.icons1 {
+    width: 28.97px;
+    height: 28.97px;
+    margin-left: 10%;
+
+}}

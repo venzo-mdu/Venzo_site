@@ -6,10 +6,15 @@ import phone from '../../images/phone.png'
 import mail from '../../images/mail.png'
 import location from '../../images/location.png'
 import './contactus.css'
-import FbIcon from "../../images/Fb.svg"
-import TwitterIcon from "../../images/Twitter.svg"
-import LinkedinIcon from "../../images/Linkedin.svg"
-import InstaIcon from "../../images/insta.svg"
+import './laptopL.css'
+import './laptop.css'
+import './tablet.css'
+import './mobile.css'
+import FbIcon from "../../images/facebook.png"
+import TwitterIcon from "../../images/tiwerr.png"
+import LinkedinIcon from "../../images/linkedin.png"
+import InstaIcon from "../../images/insta.png"
+import youtube from '../../images/youtube.png'
 function contactUs() {
     return (
         <div>
@@ -44,19 +49,22 @@ function contactUs() {
                     <input className='Fname' type="text" placeholder='Name*'></input>
                     <input className='Femail' type="text" placeholder='Email*'></input>
                     <input className='Fphone' type="phone" placeholder='Mobile number'></input>
-                    <textarea className='Fmessage' rows="5" cols="50" placeholder='Message*'></textarea>
+                    <textarea className='Fmessage' placeholder='Message*'></textarea>
                     <button className='Fbutton'>Submit</button>
- 
+
                 </div>
             </div>
-            {/* <div className='mediaIocn'>
+            <div className='mediaIocn'>
                 <p className='icontitle'>connect with us</p>
-                <div>
-                <img id='icons1' src={FbIcon} alt='fbIcon'></img>
-                <img id='icons1' src={TwitterIcon} alt='twitterIcon'></img>
-                <img id='icons1' src={LinkedinIcon} alt='linkedIcon'></img>
-                <img id='icons1' src={InstaIcon} alt='instaIcon'></img>                </div>
-            </div> */}
+                <div className='mediaIcons'>
+                    <img className='icons1' src={FbIcon} alt='fbIcon'></img>
+                    <img className='icons1' src={TwitterIcon} alt='twitterIcon'></img>
+                    <img className='icons1' src={LinkedinIcon} alt='linkedIcon'></img>
+                    <img className='icons1' src={InstaIcon} alt='instaIcon'></img>  
+                    <img className='icons1' src={youtube} alt='youtube'></img>
+
+                </div>
+            </div>
             <Footer />
         </div>
     )
