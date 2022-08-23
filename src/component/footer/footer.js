@@ -2,6 +2,7 @@ import React from 'react'
 import "../footer/footer.css"
 import footerIcon from "../../images/Footericon.svg"
 import footerData from "../../content/footerData.json"
+import { Link } from 'gatsby'
 
 function Footer() {
   return (
@@ -114,7 +115,7 @@ function Footer() {
                     footerData.map(item => {
                       return (
                         <>
-                          <h5>{item.contactTitle}</h5>
+                          <h5><Link to="/contactus">{item.contactTitle}</Link></h5>
                           <p>{item.contact1 ? item.contact1.country1 : " "}</p>
                           <p>{item.contact1 ? item.contact1.phone1 : " "}</p>
                           <p>{item.contact1 ? item.contact2.country2 : " "}</p>

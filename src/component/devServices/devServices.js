@@ -2,6 +2,7 @@ import React from 'react'
 import "./devServices .css"
 import rightArrow from "../../images/Read more arrow-gradient.svg"
 import roundimage  from "../../images/round.png"
+import { Link } from 'gatsby'
  
 function devServices() {
   return (
@@ -11,10 +12,10 @@ function devServices() {
             <div className='technologies1'>
                     <li>iOS Development <img src={rightArrow} alt='right-Arrow'></img> </li>
                     <li>Android Development<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Web App Development<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>UI/UX Design <img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>QA Engineering <img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Staff Augmentation <img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/webDevelopment">Web App Development<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/UIUX">UI/UX Design <img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/bankingQA">QA Engineering <img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/dm_page">Digital Marketing <img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
             <div className='technologies2'>
                     <li>iOS Development <img src={rightArrow} alt='right-Arrow'></img> </li>
