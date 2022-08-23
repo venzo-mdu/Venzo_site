@@ -2,18 +2,21 @@
     font-family: 'poppins-medium';
     src: url('../../../Poppins//Poppins-Medium.ttf');
 }
-html, body{
+
+html,
+body {
     overflow-x: hidden;
 }
+
 .header {
     position: fixed;
     /* background-color: #0A1020; */
     width: 100%;
     color: white;
     margin: 0% 0 0% 0;
-    padding: 1% 12% 0;
+    padding: 2% 12% 2%;
     z-index: 3;
-    height: 8%;
+    height: 10%;
 }
 
 .header .logo {
@@ -54,12 +57,14 @@ html, body{
     .header {
         position: fixed;
         z-index: 3;
-        height: 8%;
+        height: 10%;
     }
-    .header .logo{
-        width: 30%;
-        margin: 1% 0 0 0;
+
+    .header .logo {
+        width: 200%;
+        margin-top: 0%;
     }
+
     .header img {
         margin: 0% 2% 0 0%;
         width: 5%;
@@ -68,15 +73,18 @@ html, body{
 
     .header .links {
         margin: -3% 0% 0 5%;
-        width:76%;
+        width: 90%;
     }
+
     .header .links li {
         font-size: 16px;
     }
+
     .header .logo {
         width: 300%;
     }
 }
+
 @media screen and (max-width:1024px) and (min-width:775px) {
 
     .header {
@@ -91,27 +99,34 @@ html, body{
     }
 
     .header .links ul {
-        margin: -3% 0% 0 25%;
         width: 100%;
+        margin-left: 30%;
+        margin-top: -3%;
     }
+
     .header .links li {
         font-size: 14px;
     }
+
     .header .logo {
         width: 270vw;
     }
 }
+
 @media screen and (max-width:770px) and (min-width:440px) {
 
-    header{
+    header {
         margin: -4% 0 0 0;
     }
+
     .header .links {
         display: none;
     }
-     .header .logo{
-         margin: 1.5% 0 0 0;
-     }
+
+    .header .logo {
+        margin: 1.5% 0 0 0;
+    }
+
     .header img {
         margin: 0.5% -2%;
         width: 7%;
@@ -131,10 +146,11 @@ html, body{
         margin: -10% 0 0 0;
         height: 8vh;
     }
+
     .header .links li {
         display: none;
     }
-   
+
     .header img {
         /* margin: 5% 5%; */
         width: 100%;
@@ -145,6 +161,7 @@ html, body{
     .header .links li {
         font-size: 14px;
     }
+
     .header {
         position: sticky;
         margin: 0;
@@ -160,25 +177,31 @@ html, body{
         margin: -10% 0 0 0;
         height: 10vh;
     }
-    header{
+
+    header {
         margin: -8% 0 0 0;
     }
-    .header .logo{
+
+    .header .logo {
         margin: 8% 0 0 0;
     }
-    .header .logo img{
+
+    .header .logo img {
         width: 172%;
     }
+
     .header .links li {
         display: none;
     }
-   
+
     #headerSection {
-    margin-top: -20%;    
+        margin-top: -20%;
     }
-    .header2{
+
+    .header2 {
         display: none;
     }
+
     .header {
         position: sticky;
         height: 70%;
