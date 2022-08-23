@@ -12,3 +12,19 @@ body{
     background-position-y: 75%;
     background-size: 55%;
 }
+@media screen and (max-width:425px) {
+    #titleinQA{
+        width: 100%;
+    }
+    #parainQA{
+        margin: 0 0 -15% 0;
+    }
+}
+@media screen and (max-width:375px) {
+    #titleinQA{
+        width: 100%;
+    }
+    #parainQA{
+        margin: 0 0 -10% 0;
+    }
+}

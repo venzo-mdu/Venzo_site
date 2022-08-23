@@ -103,7 +103,9 @@ html, body{
 }
 @media screen and (max-width:770px) and (min-width:440px) {
 
-
+    header{
+        margin: -4% 0 0 0;
+    }
     .header .links {
         display: none;
     }
@@ -111,7 +113,7 @@ html, body{
          margin: 1.5% 0 0 0;
      }
     .header img {
-        margin: 0% -2%;
+        margin: 0.5% -2%;
         width: 7%;
         height: 15%;
     }

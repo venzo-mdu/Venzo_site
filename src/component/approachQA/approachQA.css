@@ -210,6 +210,8 @@
     @media screen and (max-width:430px) and (min-width:380px) {
         .ourapproachQA{
             height: 90vh;
+            padding: 3% 0 0 0;
+
         }
         .ourapproachQA h1 {
             font-size: 35px;
@@ -276,6 +278,7 @@
     @media screen and (max-width:375px)  {
         .ourapproachQA{
             height: 90vh;
+            padding: 3% 0 0 0;
         }
         .ourapproachQA h1 {
             font-size: 35px;

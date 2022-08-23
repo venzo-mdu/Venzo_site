@@ -14,7 +14,7 @@ function services() {
                 return <div >
               
                 <img className="serv_hr" src={line} />
-                <div className='Dm_sec' >
+                <div id='parainQA' className='Dm_sec' >
                     <div className='Serv_left'>
                         <div className="serv_title">
                             <p id="titleinQA"> {item.title}.</p>

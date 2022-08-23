@@ -71,6 +71,8 @@ font-family: poppins-Medium;
     color: #000000;
     opacity: 52%;
     text-align:justify ;  
+    margin:  0 0 20% 0;
+
 }
 .readMore{
     float: right;

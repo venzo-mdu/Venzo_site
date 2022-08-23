@@ -47,7 +47,7 @@ function tools() {
               </marquee>
               </div>
           </div>
-s      </section>
+      </section>
   )
 }
 

@@ -36,8 +36,8 @@ function Build() {
                                 <img className="icon" src={item.icon} />
                                 <h2 className="heading">{item.title1}</h2>
                                 <p className="desc1">{item.content1}</p>
-                        <p className='readMore'> {item.readMore ? item.readMore : ""}&nbsp;</p>
-                                {item.arrow ? <img className='arrow1' src={item.arrow} alt='arrow' /> : ""}
+                        {/* <p className='readMore'> {item.readMore ? item.readMore : ""}&nbsp;</p> */}
+                                {/* {item.arrow ? <img className='arrow1' src={item.arrow} alt='arrow' /> : ""} */}
                             </div>
                         })}
 

@@ -70,10 +70,10 @@
         margin: 4% 0 0 0%;
     }
     .approach .ideate {
-        margin: 25% 0 0 24%;
+        margin: 17% 0 0 20%;
     }
     .approach .prototype{
-        margin: 22% 0 0 45%;
+        margin: 15% 0 0 35%;
 
     }
     .approach .research p {
@@ -177,6 +177,9 @@
     .ourApproach .approach {
           margin: 5% 0 0 0;
       }
+      .ourApproach .approachDesign{
+          margin: 0 0 0 10%;
+      }
        .ourApproach .approachDesign #uiuxarrow{
            display: none;
        }
@@ -192,7 +195,7 @@
           margin: 30% 0 0 0%;
       }
       .approach .prototype {
-          margin: 45% 0 0 0%;
+          margin: 40% 0 0 0%;
       }
        .ourApproach .approach h2{
            margin: 0 0 0 -10%;
@@ -227,6 +230,9 @@
         }
      .ourApproach .approach {
         margin: 5% 0 0 0;
+    }
+    .ourApproach .approachDesign{
+        margin: 0 0 0 10%;
     }
      .ourApproach .approachDesign #uiuxarrow{
          display: none;

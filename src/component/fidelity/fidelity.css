@@ -113,9 +113,10 @@ body{
         margin: 8% 0 0 0;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
     .fidelityPrototypes{
-        height: 95vh;
+        height: 100vh;
+        margin:5% 0 0 0;
     }
     .fidelity{
         display: block;
@@ -157,9 +158,11 @@ body{
         margin: 8% 0 0 -5%;
     }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:375px){
     .fidelityPrototypes{
-        height: 100vh;
+        height: 95vh;
+        margin:5% 0 0 0;
+
     }
     .fidelity{
         display: block;
