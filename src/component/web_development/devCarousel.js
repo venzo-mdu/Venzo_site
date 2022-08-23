@@ -1,6 +1,5 @@
 import React from 'react'
 import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery from "react-image-gallery";
 import './development.css'
 import Carousel from 'react-bootstrap/Carousel';
 import mango from '../../webDev_Image/mango.png'

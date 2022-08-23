@@ -29,17 +29,17 @@ function contactUs() {
                     <p className='contactTitle' >Got an idea?<br />Let's get in touch!</p>
                     <img src={Rectangle} />
                     <div className='lin1'>
-                        <img className='ph_icon' src={phone} />
+                        <img className='ph_icon' src={phone} alt='ph_icon'/>
                         <h5 className='country1'>INDIA<br /> <span className='phn'>+91 9840594865</span></h5>
                         <p className='country1'>USA<br /> <span className='phn'>+1 325 271 4695 </span></p>
                     </div>
                     <div className='lin2'>
-                        <img className='ph_icon' src={mail} />
+                        <img className='ph_icon' src={mail} alt='mail_icon'/>
                         <p className='careers1'>Business<br /> <span className='phn'>bd@venzotechnologies.com </span></p>
                         <p className='careers1'>Careers<br /> <span className='phn'>hrteam@venzotechnologies.com </span></p>
                     </div>
                     <div className='lin3'>
-                        <img className='ph_icon' src={location} />
+                        <img className='ph_icon' src={location} alt='location_icon'/>
                         <p className='address1'>CHENNAI<br /> <span className='addrs'>Purva Primus, 8th Floor, No.236,<br />Old Mahabalipuram Rd, Thoraipakkam,<br />Chennai-600097,Tamil Nadu, India.</span></p>
                         <p className='address1'> MADURAI<br /> <span className='addrs'>Plot No: 16,5/244,<br />Maruthupandiar 1st Cross street,<br />JJ Nagar, Madurai – 625020,Tamil Nadu, India.</span></p>
                     </div>

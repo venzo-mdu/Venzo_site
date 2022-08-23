@@ -8,7 +8,7 @@ function service() {
 
             {serviceData.map(item => {
                 return <div >
-                <img className="serv_hr" src={line} />
+                <img className="serv_hr" src={line} alt='line'/>
                 <div className='Dm_sec' >
                     <div className='Serv_left'>
                         <div className="serv_title">
