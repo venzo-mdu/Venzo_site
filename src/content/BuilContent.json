@@ -33,7 +33,7 @@
         "images": "../images/Innovate.svg",
         "SubContent": [
             {
-                "icon": "../images/Banking Solutions-gradient.svg",
+                "icon": "../images/Blockchain Development-gradient.svg",
                 "title1": "Blockchain Development",
                 "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
                 "className": "Blockchain"
