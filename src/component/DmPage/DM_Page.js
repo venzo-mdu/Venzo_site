@@ -132,21 +132,21 @@ function DM_Page() {
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2B</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
-                            <img className="lineM" src={line1} />
+                            <img className="lineM" src={line1} alt='line'/>
 
                         </div>
 
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2C</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
-                            <img className='line' src={line} ></img>
-                            <img className="lineM" src={line1} />
+                            <img className='line' src={line} alt='line'></img>
+                            <img className="lineM" src={line1} alt='line'/>
 
                         </div>
                         <div className='desc-p'>
                             <p className='desc-titlte'>Ecommerce</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
-                            <img className='line' src={line} ></img>
+                            <img className='line' src={line} alt='line'></img>
 
                         </div>
                     </div>

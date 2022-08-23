@@ -18,7 +18,7 @@ function DevType() {
                             </div>
                         </div>
                         <div >
-                            <img className="con_image" src={item.images} />
+                            <img className="con_image" src={item.images} alt='image'/>
                         </div>
                     </div>
                     <div className=" row1">
@@ -26,7 +26,7 @@ function DevType() {
                             <div className='column1'>
                                 {item.SubContent.map(item => {
                                     return <div className='column2'>
-                                            <img className="icon1" src={item.icon1} />
+                                            <img className="icon1" src={item.icon1} alt='icon'/>
                                             <h2 className="heading1">{item.title1}</h2>
                                     </div>
                                 })}
@@ -34,7 +34,7 @@ function DevType() {
                             <div className='column1'>
                                 {item.SubContent1.map(item => {
                                     return <div className='column2'>
-                                        <img className="icon1" src={item.icon2} />
+                                        <img className="icon1" src={item.icon2} alt='icon'/>
                                         <h2 className="heading1">{item.title2}</h2>
                                     </div>
                                 })}

@@ -15,7 +15,7 @@ function DmCarousel() {
     const renderSlides = () =>
         Dm_Carousel.map(num => (
             <div>
-                <img src={num.images} />
+                <img src={num.images} alt='company Logo'/>
             </div>
         ));
 
