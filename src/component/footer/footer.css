@@ -14,7 +14,7 @@ footer{
 
 .footer{
     display: flex;
-    line-height: 1.5;
+    line-height: 2;
     margin: 0 0 0 20%;
     padding-top: 3%;
 }
@@ -37,7 +37,7 @@ footer{
     font-size: 16px;
     font-weight: 400;
     width: 30vw;
-    line-height: 1.2;
+    line-height: 2;
 }
 
 .services {
@@ -367,14 +367,17 @@ footer{
 
     .address .headOffice {
         width: 200%;
+        font-size: 11px;
+        margin-top: 10%;
     }
 
     .address .branchOffice {
         width: 210%;
+        font-size: 11px;
     }
 
     .services {
-        margin: -5% 0 0 70%;
+        margin: 2% 0 0 70%;
     }
 
     .services p {
@@ -384,13 +387,17 @@ footer{
     .laptopResponsive1 {
         margin: 85% 0% 0 5%;
     }
-
+    .company{
+        font-size: 12px;
+    }
     .contactUs {
         margin: 0% 0% 0 0%;
     }
-
+    .careers{
+        margin:26% 0 0 0 ;
+    }
     .business {
-        margin: 32% 0 0 0;
+        margin: 31% 0 0 0;
 
     }
 
@@ -422,14 +429,16 @@ footer{
 
     .address .headOffice {
         width: 200%;
+        font-size: 11px;
     }
 
     .address .branchOffice {
         width: 210%;
+        font-size: 11px;
     }
 
     .services {
-        margin: -5% 0 0 65%;
+        margin: 1% 0 0 70%;
     }
 
     .services p {
@@ -441,11 +450,13 @@ footer{
     }
 
     .contactUs {
-        margin: 0% 0% 0 -7%;
+        margin: 0% 0% 0 -3%;
     }
-
+    .careers{
+        margin:26% 0 0 0 ;
+    }
     .business {
-        margin: 32% 0 0 0;
+        margin: 37% 0 0 -4%;
 
     }
 

@@ -566,7 +566,7 @@ body {
 .contactUs1 {
     background: #0A1020;
     border-radius: 8px;
-    width: 100%;
+    width: 95%;
     height: 80%;
     margin-top: -65%;
     margin-left: 3%;
@@ -576,7 +576,7 @@ body {
 }
 
 .contact1 {
-    width: 80%;
+    width: 90%;
     padding: 5%;
     margin-left: 3%;
 }

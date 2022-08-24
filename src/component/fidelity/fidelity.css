@@ -115,7 +115,7 @@ body{
 }
 @media screen and (max-width:425px){
     .fidelityPrototypes{
-        height: 100vh;
+        height: 105vh;
         margin:5% 0 0 0;
     }
     .fidelity{

@@ -118,22 +118,22 @@ body {
 }
 
 .whatwedoCard .uxResearch:hover {
-    background-image: url('../../images/UX research.svg');
+    background-image: url('../../images/bguiux1.png');
     color: white;
 }
 
 .whatwedoCard .uiuxDesign:hover {
-    background-image: url('../../images/Ux\ Ui\ Design.svg');
+    background-image: url('../../images/bguiux2.png');
     color: white;
 }
 
 .whatwedoCard .digitalPrototyping:hover {
-    background-image: url('../../images/Digital\ prototyping.svg');
+    background-image: url('../../images/bguiux3.png');
     color: white;
 }
 
 .whatwedoCard .digitalBranding:hover {
-    background-image: url('../../images/Digital branding.svg');
+    background-image: url('../../images/bguiux4.png');
     color: white;
 }
 

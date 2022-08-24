@@ -58,14 +58,16 @@
          "emailHR":"hrteam@venzotechnologies.com"
     },
     {    
-        "contactTitle":"Contact Us",
-        "contact1":{
-             "country1":"India :",
-             "phone1":"+91 9840594865"
+        "contactsTitle":"Contact Us",
+        "contacts1":{
+             "phoneIcon2":"../images/phone.png",
+             "country2":"India :",
+             "phone2":"+91 9840594865"
          },
-         "contact2":{
-            "country2":"USA :",
-            "phone2":"+1 325 271 4695 "
+         "contacts2":{
+            "phoneIcon3":"../images/phone.png",
+            "country3":"USA :",
+            "phone3":"+1 325 271 4695 "
         }
     },
     {    
