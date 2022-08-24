@@ -6,6 +6,9 @@
     font-family:'poppins-medium';
     src: url('../../../Poppins/Poppins-Medium.ttf');
   }
+  hr{
+      width: 50%;
+  }
 footer{
     background-color: #0A1020;
     height:100%;
@@ -72,7 +75,7 @@ footer{
 }
 
 .business {
-    margin: 20% 0 0 0;
+    margin: 5% 0 0 0;
 
 }
 
@@ -262,16 +265,16 @@ footer{
     }
 
     .laptopResponsive1 {
-        margin: 45% 0% 0 -20%;
+        margin: 45% 0% 0 0%;
     }
 
     .contactUs {
-        margin: 0 0% 0 25%;
+        margin: 0 0% 0 55%;
     }
 
     .aboutUs {
 
-        margin: 0 20% 0 -80%;
+        margin: 0 0% 0 -155%;
 
     }
 
@@ -324,20 +327,26 @@ footer{
     .services p {
         width: 200%;
     }
+  
 
+    .aboutUs {
+
+        margin: 2% 0% 0 -90%;
+
+    }
     .laptopResponsive1 {
         margin: 55% 0% 0 -12%;
     }
 
     .contactUs {
-        margin: 0 0% 0 24%;
+        margin: 4% 0% 0 43%;
     }
 
     .business {
         margin: 12% 0 0 0;
 
     }
-
+   
     .copyRight p {
         width: 80%;
         margin: 2% 0 0 -2%;
@@ -375,7 +384,11 @@ footer{
         width: 210%;
         font-size: 11px;
     }
+    .aboutUs {
 
+        margin: 2% 0% 0 -92%;
+
+    }
     .services {
         margin: 2% 0 0 70%;
     }
@@ -391,7 +404,7 @@ footer{
         font-size: 12px;
     }
     .contactUs {
-        margin: 0% 0% 0 0%;
+        margin: 5% 0% 0 8%;
     }
     .careers{
         margin:26% 0 0 0 ;
@@ -450,7 +463,7 @@ footer{
     }
 
     .contactUs {
-        margin: 0% 0% 0 -3%;
+        margin: 5% 0% 0 8%;
     }
     .careers{
         margin:26% 0 0 0 ;

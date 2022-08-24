@@ -66,6 +66,11 @@ function Footer() {
                   <hr></hr>
                   <p>hrteam@venzotechnologies.com</p>
                 </div>
+                <div className='business'>
+                  <h5>Business</h5>
+                  <hr></hr>
+                  <p>bd@venzotechnologies.com</p>
+                </div>
               </div>
               <div className='contactUs'>
                 <div className='contact'>
@@ -77,11 +82,7 @@ function Footer() {
                   <p>+1 325 271 4695</p>
 
                 </div>
-                <div className='business'>
-                  <h5>Business</h5>
-                  <hr></hr>
-                  <p>bd@venzotechnologies.com</p>
-                </div>
+              
               </div>
             </div>
           </div>
