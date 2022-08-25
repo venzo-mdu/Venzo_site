@@ -1,14 +1,18 @@
 [   
     {
-        "navLink":"Home"
+        "navLink":"Home",
+        "routeLink":"/"
     },
     {
-        "navLink":"Product Development"
+        "navLink":"Product Development",
+        "routeLink":"/UIUX"
     },
     {
-        "navLink":"BlockChain Development"
+        "navLink":"BlockChain Development",
+        "routeLink":"/bankingQA"
     },
     {
-        "navLink":"Data Engineering"
+        "navLink":"Data Engineering",
+        "routeLink":"/webDevelopment"
     }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../footer/footer.css"
 import footerIcon from "../../images/Footericon.svg"
-import footerData from "../../content/footerData.json"
+// import footerData from "../../content/footerData.json"
 import phone from '../../images/phone.png'
 import { Link } from 'gatsby'
 
@@ -18,7 +18,7 @@ function Footer() {
               <div className='address'>
                 <div className='headOffice'>
                   <h5>Chennai</h5>
-                  <hr></hr>
+                  <hr className='titleHr'></hr>
                   8th Floor, Purva Primus,<br></br>
                   No.236, Old Mahabalipuram Rd, &nbsp;<br></br>
                   Thoraipakkam – 600097.
@@ -26,7 +26,7 @@ function Footer() {
                 </div>
                 <div className='branchOffice'>
                   <h5>Madurai</h5>
-                  <hr></hr>
+                  <hr  className='titleHr'></hr>
                   Plot No 15,5/244,<br></br>
                   Maruthupandiar 1st Cross Street,&nbsp;<br></br>
                   JJ Nagar, Madurai – 625020
@@ -37,7 +37,7 @@ function Footer() {
               <div className='services'>
 
                 <h5>Services</h5>
-                <hr></hr>
+                <hr  className='titleHr'></hr>
                 <p> Product Development<br></br>
                   Blockchain Development<br></br>
                   Data Engineering<br></br>
@@ -52,7 +52,7 @@ function Footer() {
               <div className='aboutUs'>
                 <div className='company'>
                   <h5>Company</h5>
-                  <hr></hr>
+                  <hr  className='titleHr'></hr>
                   About us<br></br>
                   Careers<br></br>
                   Blogs<br></br>
@@ -63,12 +63,12 @@ function Footer() {
                 <div className='careers'>
 
                   <h5>Careers</h5>
-                  <hr></hr>
+                  <hr  className='titleHr'></hr>
                   <p>hrteam@venzotechnologies.com</p>
                 </div>
                 <div className='business'>
                   <h5>Business</h5>
-                  <hr></hr>
+                  <hr  className='titleHr'></hr>
                   <p>bd@venzotechnologies.com</p>
                 </div>
               </div>
@@ -76,6 +76,7 @@ function Footer() {
                 <div className='contact'>
 
                   <h5><Link to="/contactus">Contact Us</Link></h5>
+                  <hr  className='titleHr'></hr>
                   <p>India:</p>
                   <p>+91 9840594865</p>
                   <p>USA:</p>
@@ -87,6 +88,7 @@ function Footer() {
             </div>
           </div>
           <div className='copyRight'>
+            <hr></hr>
             <p>Copyright 2022 Venzo.All Rights Reserved</p>
 
           </div>

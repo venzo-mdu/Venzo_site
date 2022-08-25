@@ -2,6 +2,8 @@ import React from 'react'
 import "../header/header.css"
 import Venzologo1 from "../../images/venzoWhite.svg"
 import HeaderData from "../../content/headerData.json"
+import ToggleIcon from "../../images/toggleIcon.png"
+import { Link } from 'gatsby'
 
 function header(props) {
     console.log("props",props.flag)
@@ -23,10 +25,11 @@ function header(props) {
            {
                HeaderData.map(item=>{
                 console.log(HeaderData);
-                return <li>{item.navLink}</li>
+                return <li><Link to={item.routeLink}>{item.navLink}</Link></li>
                })
            }
                   </ul>
+                  <img className='toggleIcon'  src={ToggleIcon} alt="toggleicon"></img>
        </div>
      
 
