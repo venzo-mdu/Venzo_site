@@ -6,7 +6,9 @@
     font-family:'poppins-medium';
     src: url('../../../Poppins/Poppins-Medium.ttf');
   }
-  hr{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @media screen  and (min-width:1450px) {
+      hr{
       width: 50%;
   }
 footer{
@@ -119,7 +121,7 @@ footer{
 .laptopResponsive1 {
     display: flex;
 }
-
+}
 @media screen and (max-width:1440px) and (min-width:1030px) {
     footer {
         background-color: #0A1020;

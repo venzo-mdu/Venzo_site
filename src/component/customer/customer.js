@@ -11,7 +11,7 @@ import '../../style/mobile.css'
 function customer() {
     return (
         <div  className='customer'>
-            <p className='cus-title'> We offer refined customized applications that streamline your business needs and <b>enhance customer experience </b>for diversified sectors.</p>
+            <p className='cus-title'> We offer refined customized <br className='mobileBr'/> applications that streamline <br className='webBr' /> your <br className='mobileBr'/> business needs and <br className='mobileBr'/>  <b>enhance customer experience </b> <br className='webBr' />for <br className='mobileBr'/>  diversified sectors.</p>
             <div className='row2'>
                 <div className='col4'>
                     <p className=' des1'>We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience</p>
