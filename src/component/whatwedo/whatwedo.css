@@ -255,11 +255,11 @@ body {
 }
 
 @media screen and (max-width:1024px) and (min-width:775px) {
+
     .whatwedo {
         background-color: white;
         height: 90%;
         padding: 0 0 0 5%;
-    
     }
     
     .whatwedoflex {
@@ -366,13 +366,19 @@ body {
 
 @media screen and (max-width:770px) and (min-width:380px) {
     .whatwedo {
-        height: 215vh;
+        background-color: white;
+        height: 90%;
+        padding: 0 0 0 5%;
     }
-
+    
     .whatwedoflex {
         display: block;
     }
-
+    
+    .whatwedoText {
+        width: 30%;
+    }
+    
     .whatwedoText h3 {
         width: 150%;
         font-size: 30px;
@@ -383,24 +389,123 @@ body {
         width: 50%;
         font-size: 18px;
         margin: 4% 0 0 20%;
-
     }
-
+    
     .whatwedoCard {
-        display: none;
+        display: none
     }
-
+    
+    
     .whatwedoCardResponsive {
         display: block;
         width: 100vw;
         margin: 25% 0 0 0;
     }
-
     .whatwedoCardResponsive div {
         padding: 5% 5%;
         border: 1px solid #ebeaea;
         width: 100%;
-        height: 30vh;
+        background-color: #d9d7d7;
+        margin: 0 0 0 -5%;
+    }
+    .whatwedoCardResponsive div p{
+        margin: 5% 0 0 0;
+        width: 60%;
+    }
+
+    .whatwedoCardResponsive .uxResearch1 {
+        background-image: url('../../images/mobres5.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .whatwedoCardResponsive .uiuxDesign1 {
+        background-image: url('../../images//mobres6.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+    }
+
+    .whatwedoCardResponsive .digitalPrototyping1 {
+
+        background-image: url('../../images//mobres7.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .whatwedoCardResponsive .digitalBranding1 {
+
+        background-image: url('../../images//mobres8.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .whatwedoCardResponsive .uxResearch1:hover {
+        background-image: url('../../images/mobres1.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .uiuxDesign1:hover {
+        background-image: url('../../images/mobres2.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .digitalPrototyping1:hover {
+        background-image: url('../../images/mobres3.svg');
+        color: white;
+    }
+
+    .whatwedoCardResponsive .digitalBranding1:hover {
+        background-image: url('../../images/mobres4.svg');
+        color: white;
+    }
+ 
+   
+}
+@media screen and (max-width:375px){
+    .whatwedo {
+        background-color: white;
+        height: 90%;
+        padding: 0 0 0 5%;
+    }
+    
+    .whatwedoflex {
+        display: block;
+    }
+    
+    .whatwedoText {
+        width: 30%;
+    }
+    
+    .whatwedoText h3 {
+        width: 150%;
+        font-size: 30px;
+        margin: 13% 0 0 90%;
+    }
+
+    .whatwedoText p {
+        width: 50%;
+        font-size: 10px;
+        margin: 4% 0 4% 20%;
+    }
+    
+    .whatwedoCard {
+        display: none
+    }
+    
+    
+    .whatwedoCardResponsive {
+        display: block;
+        width: 100vw;
+        margin: 65% 0 0 0 !important;
+    }
+    .whatwedoCardResponsive div {
+        padding: 5% 5%;
+        border: 1px solid #ebeaea;
+        width: 100%;
         background-color: #d9d7d7;
         margin: 0 0 0 -5%;
     }
@@ -459,150 +564,56 @@ body {
         color: white;
     }
 
-    
-   
-}
-@media screen and (max-width:375px){
-    .whatwedo {
-        height: 170vh;
-    }
-
-    .whatwedoflex {
-        display: block;
-    }
-
-    .whatwedoText h3 {
-        width: 200%;
-        font-size: 30px;
-        margin: 25% 0 0 70%;
-    }
-
-    .whatwedoText p {
-        width: 90%;
-        font-size: 15px;
-        margin: 7% 0 0 0%;
-        text-align: center;
-
-    }
-
-    .whatwedoCard {
-        display: none;
-    }
-
-    .whatwedoCardResponsive {
-        display: block;
-        width: 100vw;
-        margin: 50% 0 0 0;
-    }
-
-    .whatwedoCardResponsive div {
-        padding: 5% 5%;
-        border: 1px solid #ebeaea;
-        width: 100%;
-        height: 20vh;
-        background-color: #d9d7d7;
-        margin: 0 0 0 -5%;
-    }
-    .whatwedoCardResponsive div p{
-        margin: 8% 0 0 0;
-        font-size: 14px;
-    }
-    .whatwedoCardResponsive .uxResearch1 {
-        background-image: url('../../images/mobres5.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .whatwedoCardResponsive .uiuxDesign1 {
-        background-image: url('../../images//mobres6.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-
-
-    }
-
-    .whatwedoCardResponsive .digitalPrototyping1 {
-
-        background-image: url('../../images//mobres7.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-
-    }
-
-    .whatwedoCardResponsive .digitalBranding1 {
-
-        background-image: url('../../images//mobres8.svg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-
-    }
-
-    .whatwedoCardResponsive .uxResearch1:hover {
-        background-image: url('../../images/mobres1.svg');
-        color: white;
-    }
-
-    .whatwedoCardResponsive .uiuxDesign1:hover {
-        background-image: url('../../images/mobres2.svg');
-        color: white;
-    }
-
-    .whatwedoCardResponsive .digitalPrototyping1:hover {
-        background-image: url('../../images/mobres3.svg');
-        color: white;
-    }
-
-    .whatwedoCardResponsive .digitalBranding1:hover {
-        background-image: url('../../images/mobres4.svg');
-        color: white;
-    }
-
     }
 @media screen and (max-width:425px){
     .whatwedo {
-        height: 170vh;
+        background-color: white;
+        height: 90%;
+        padding: 0 0 0 5%;
     }
-
+    
     .whatwedoflex {
         display: block;
     }
-
+    
+    .whatwedoText {
+        width: 30%;
+    }
+    
     .whatwedoText h3 {
-        width: 200%;
+        width: 150%;
         font-size: 30px;
-        margin: 25% 0 0 70%;
+        margin: 13% 0 0 90%;
     }
 
     .whatwedoText p {
-        width: 90%;
-        font-size: 15px;
-        margin: 7% 0 0 0%;
-        text-align: center;
-
+        width: 50%;
+        font-size: 18px;
+        margin: 4% 0 0 20%;
     }
-
+    
     .whatwedoCard {
-        display: none;
+        display: none
     }
-
+    
+    
     .whatwedoCardResponsive {
         display: block;
         width: 100vw;
-        margin: 50% 0 0 0;
+        margin: 25% 0 0 0;
     }
-
     .whatwedoCardResponsive div {
         padding: 5% 5%;
         border: 1px solid #ebeaea;
         width: 100%;
-        height: 20vh;
         background-color: #d9d7d7;
         margin: 0 0 0 -5%;
     }
     .whatwedoCardResponsive div p{
-        margin: 8% 0 0 0;
-        font-size: 14px;
+        margin: 5% 0 0 0;
+        width: 60%;
     }
+
     .whatwedoCardResponsive .uxResearch1 {
         background-image: url('../../images/mobres5.svg');
         background-repeat: no-repeat;
@@ -652,7 +663,6 @@ body {
         background-image: url('../../images/mobres4.svg');
         color: white;
     }
-
    
 
 }

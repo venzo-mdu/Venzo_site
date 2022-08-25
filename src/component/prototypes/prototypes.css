@@ -96,14 +96,14 @@ body{
 @media screen and (max-width:770px) and (min-width:380px) {
    .prototypes{
        display: block;
+       margin-left: -3%;
    }
    .prototypes h1{
        font-size: 30px;
-       text-align: center;
     }
     .prototypes .design{
         width: 35%;
-        margin: 5% 0 0 33%;
+        margin: 5% 0 0 0%;
     }
 }
 

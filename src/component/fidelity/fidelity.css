@@ -72,33 +72,138 @@ body{
     width: 100%;
     font-family: poppins-medium;
 }
-@media screen and (max-width:1024px) and (min-width:775px) {
-    .fidelity{
-        margin: 0 0 0 -10%;
+
+
+@media screen and (max-width:1440px) and (min-width:1030px)    {
+ .fidelityPrototypes{
+        margin-bottom: 5%;
     }
+    .fidelity{
+        display: flex;
+        padding: 5% 10%;
+    }
+    .fidelity h3{
+        font-family: poppins-semibold;
+    }
+    .fidelity .lowFidelity{
+        margin: 0% 0% 0 10%;
+    }
+    .fidelity .highFidelity{
+        margin: 0% 0 0 10%;
+    }
+    .fidelity .lowFidelity p{
+        width:100%;
+        color: black;
+        opacity: 0.4;
+        font-family: poppins-medium;
+        margin: 10% 0 0 0%;
+    }
+    .fidelity .highFidelity p{
+        width:90%;
+        color: black;
+        opacity: 0.4;
+        font-family: poppins-medium;
+        margin: 9% 0 0 0%;
+    }
+    .fidelity .lowFidelity img{
+        margin: 5% 0 0 -10%;
+    }
+    .fidelity .highFidelity img{
+        margin: 10% 0 0 0%;
+    }
+    .ourInsights{
+        display: flex;
+        padding: 2% 7%;
+        width: 100%;
+        margin: 0 0 0 5%;
+    }
+    .ourInsights div{
+          display: flex;
+    }
+    .ourInsights .idea{
+        width: 33%;
+    
+    }
+    .ourInsights div h4{
+        margin: 4% 0 0 10%;
+        width: 100%;
+        font-family: poppins-medium;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (min-width:775px) {
     .fidelityPrototypes{
-        height: 70vh;
+        margin-bottom: 5%;
+    }
+    .fidelity{
+        display: flex;
+        padding: 5% 10%;
+    }
+    .fidelity h3{
+        font-family: poppins-semibold;
+    }
+    .fidelity .lowFidelity{
+        margin: 0% 0% 0 0%;
+    }
+    .fidelity .highFidelity{
+        margin: 0% 0 0 10%;
+    }
+    .fidelity .lowFidelity p{
+        width:100%;
+        color: black;
+        opacity: 0.4;
+        font-family: poppins-medium;
+        margin: 10% 0 0 0%;
+    }
+    .fidelity .highFidelity p{
+        width:90%;
+        color: black;
+        opacity: 0.4;
+        font-family: poppins-medium;
+        margin: 9% 0 0 0%;
+    }
+    .fidelity .lowFidelity img{
+        margin: 5% 0 0 -10%;
+    }
+    .fidelity .highFidelity img{
+        margin: 5% 0 0 0%;
+    }
+    .ourInsights{
+        display: flex;
+        padding: 2% 3%;
+        width: 100%;
+        margin: 0 0 0 0 0%;
+    }
+    .ourInsights div{
+          display: flex;
+    }
+    .ourInsights .idea{
+        width: 33%;
+    
+    }
+    .ourInsights div h4{
+        margin: 4% 0 0 10%;
+        width: 100%;
+        font-size: 16px;
+        font-family: poppins-medium;
     }
     .ourInsights img{
-        height: 5vh;
-    }
-    .ourInsights h4{
-        margin:  0 0 0 -3%;
-        font-size:16px;
+        width: 20%;
     }
 }
 @media screen and (max-width:770px) and (min-width:380px) {
     .fidelityPrototypes{
-        height: 125vh;
+        margin-bottom: 5%;
     }
     .fidelity{
         display: block;
     }
     .fidelity .lowFidelity{
-        margin: 0 0 0 25%;
+        margin: 0 0 0 0%;
     }
     .fidelity .highFidelity{
-        margin: 0 0 0 25%;
+        margin: 0 0 0 0%;
     }
     .ourInsights{
         display: block;
@@ -106,17 +211,16 @@ body{
     }
     .ourInsights div h4{
         font-size: 18px;
-        margin: 11% 0 0 15%;
+        margin: 11% 0 0 10%;
     }
     .ourInsights img{
-        height: 5vh;
         margin: 8% 0 0 0;
     }
 }
 @media screen and (max-width:425px){
     .fidelityPrototypes{
-        height: 105vh;
-        margin:5% 0 0 0;
+    
+        margin:5% 0 5% 0;
     }
     .fidelity{
         display: block;
@@ -160,8 +264,7 @@ body{
 }
 @media screen and (max-width:375px){
     .fidelityPrototypes{
-        height: 95vh;
-        margin:5% 0 0 0;
+        margin:5% 0 5% 0;
 
     }
     .fidelity{
