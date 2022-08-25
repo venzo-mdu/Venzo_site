@@ -22,7 +22,6 @@ body{
 .aboutUIUX{
     background-image: url("../../../src/images/Banner.png");
     width: 100vw;
-    height: 60vh;
     z-index: 0;
     background-size: 100% 100%;
 }
