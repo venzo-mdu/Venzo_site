@@ -24,6 +24,7 @@ footer{
     width:100%;
 }
 
+
 .footer{
     display: flex;
     line-height: 2;
@@ -45,8 +46,8 @@ footer{
     display: block;
     margin: 0 -10% 0 -8%;
     color: #FFFFFF;
-    font-family: poppins-light;
-    font-size: 16px;
+    font-family: poppins-regular;
+    font-size: 14px;
     font-weight: 400;
     width: 30vw;
     line-height: 2;
@@ -55,8 +56,8 @@ footer{
 .services {
     display: block;
     color: #FFFFFF;
-    font-family: poppins-light;
-    font-size: 16px;
+    font-family: poppins-regular;
+    font-size: 14px;
     font-weight: 400;
     margin: 0 22% 0 -8%;
     width: 20vw;
@@ -66,8 +67,8 @@ footer{
 .aboutUs {
     display: block;
     color: #FFFFFF;
-    font-family: poppins-light;
-    font-size: 16px;
+    font-family: poppins-regular;
+    font-size: 14px;
     font-weight: 400;
     margin: 0 9% 0 -70%;
 
@@ -76,8 +77,8 @@ footer{
 .contactUs {
     display: block;
     color: #FFFFFF;
-    font-family: poppins-light;
-    font-size: 16px;
+    font-family: poppins-regular;
+    font-size: 14px;
     font-weight: 400;
     margin: 0 2%;
 
@@ -90,8 +91,8 @@ footer{
 
 .copyRight {
     color: #FFFFFF;
-    font-family: poppins-light;
-    font-size: 16px;
+    font-family: poppins-regular;
+    font-size: 14px;
     font-weight: 400;
     margin: 2% 10%;
     display: block;
@@ -109,11 +110,16 @@ footer{
 }
 
 .titleHr {
-    color: #FFFFFF;
+    border:1px solid white;
     width: 50%;
     margin: 1% 0% 2% 0;
+    opacity: 5;
 }
+#paraHR{
+    width: 80%;
+    margin: 0 0 0 8%;
 
+}
 .logoIcon {
     width: 70px;
     height: 70px;

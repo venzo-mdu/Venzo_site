@@ -39,6 +39,9 @@ a{
     width: 80%;
 
 }
+.header .links .home{
+    opacity: 0.5;
+}
 
 .header .links li {
     display: inline;
