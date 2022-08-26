@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 
-@media screen and (max-width:1024px) and (min-width:775px) {
+@media screen and (max-width:1024px) and (min-width:771px) {
 
     .containor1 {
         display: flex;

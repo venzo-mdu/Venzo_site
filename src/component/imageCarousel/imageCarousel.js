@@ -10,99 +10,94 @@ import Header from '../header/header.js'
 import blog1 from '../../images/Blockchain-1.png'
 import blog2 from '../../images/Data-Engineering-Banner.png'
 import blog3 from '../../images/Product-Development-Banner.png'
-import Carousel from 'react-bootstrap/Carousel';
-
+import blogBl1 from '../../images/blogBl1.png'
+import blogBl2 from '../../images/blogBl2.png'
+import blogBl3 from '../../images/blogBl3.png'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 function imageCarousel() {
+    const items = [
+        <img src={blog1} role="presentation" />,
+        <img src={blog2} role="presentation" />,
+        <img src={blog3} role="presentation" />,
+    ];
     return (
         <>
-            <Header flag='header1'/>
-            <Header flag='header2'/>
-
-            <div id="slider">
-                {/* <div className="carousel">
-                <div className="carousel-inner">
-
-                    <div className="carousel-item carousel-item-1">
+            <Header flag='header1' />
+            <Header flag='header2' />
+            <AliceCarousel
+                stopAutoPlayOnHover={false}
+                buttonsDisabled={false}
+                mouseTrackingEnabled
+                autoPlay={true}
+                playButtonEnabled={false}
+                autoPlayInterval={3000}
+            >
+                <div>
+                    <img
+                        id='blockchainweb'
+                        className="d-block w-100"
+                        src={blog1}
+                        alt="blockchain "
+                    />
+                    <img
+                        className=" blockchainBl"
+                        src={blogBl1}
+                        alt="blockchainBl "
+                    />
+                    <div className='item1'>
                         <p id='blockchain'>Decentralization<br></br>
                             and cryptographic<br></br>
                             hashing</p>
-                            <p id="blockchainDev">We build Blockchain Development<br></br>
+                        <p id="blockchainDev">We build Blockchain Development<br></br>
                             that people trust</p>
-                            <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
-                    </div>
-                    <div className="carousel-item carousel-item-2">
-                    <p id='dataEngineering'>Crafting Tech into<br></br>
-                                your ideas</p>
-                                <p id="dataEnggDev">
-                            We build Product Development<br></br>
-                            that people trust</p>
-                            <p id="knowMore1">Know More <img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
-                    </div>
-                    <div className="carousel-item carousel-item-3">
-                    <p id='productDevelopment'>Development and<br></br>
-                        Growth</p>
-                        <p id="productDev">
-                            We build Product Development<br></br>
-                            that people trust</p>
-                            <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
-
+                        <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
-            </div> */}
-
-                <Carousel fade>
-                    <Carousel.Item >
-                        <img
-                            className="d-block w-100"
-                            src={blog1}
-                            alt="blockchain "
-                        />
-                        <div className='item1'>
-                            <p id='blockchain'>Decentralization<br></br>
-                                and cryptographic<br></br>
-                                hashing</p>
-                            <p id="blockchainDev">We build Blockchain Development<br></br>
-                                that people trust</p>
-                            <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
-                        </div>
-
-                    </Carousel.Item>
-                    
-                    <Carousel.Item >
-                        <img
-                            className="d-block w-100"
-                            src={blog3}
-                            alt=" productDevelopment"
-                        />
-
-                        <div className='item3'>
+                <div>
+                    <img
+                        id='productDevelopmentweb'
+                        className="d-block w-100 "
+                        src={blog3}
+                        alt=" productDevelopment"
+                    />
+                    <img
+                        className="productDevelopmentBl"
+                        src={blogBl3}
+                        alt="productDevelopmentBl "
+                    />
+                    <div className='item3'>
                         <p id='productDevelopment'>Development and<br></br>
-                        Growth</p>
+                            Growth</p>
                         <p id="productDev">
                             We build Product Development<br></br>
                             that people trust</p>
-                            <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item >
-                        <img
-                            className="d-block w-100"
-                            src={blog2}
-                            alt="dataEngineering "
-                        />
-
-                        <div className='item2'>
+                        <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                    </div>
+                </div>
+                <div>
+                    <img
+                        id='productDevelopmentweb'
+                        className="d-block w-100"
+                        src={blog2}
+                        alt="dataEngineering "
+                    />
+                    <img
+                        className="dataEngineeringBl"
+                        src={blogBl2}
+                        alt="dataEngineeringBl "
+                    />
+                    <div className='item2'>
                         <p id='dataEngineering'>Crafting Tech into<br></br>
-                                your ideas</p>
-                                <p id="dataEnggDev">
+                            your ideas</p>
+                        <p id="dataEnggDev">
                             We build Product Development<br></br>
                             that people trust</p>
-                            <p id="knowMore1">Know More <img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
-                        </div>
-                    </Carousel.Item>
-                </Carousel>
+                        <p id="knowMore1">Know More <img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
+                    </div>
+                </div>
+            </AliceCarousel>
 
-            </div>
             <div className='socialMediaIcon'>
                 <img id='fbicon' src={FbIcon} alt='fbIcon'></img>
                 <img id='twittericon' src={TwitterIcon} alt='twitterIcon'></img>
