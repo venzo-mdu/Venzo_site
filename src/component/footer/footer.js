@@ -78,9 +78,9 @@ function Footer() {
                   <h5><Link to="/contactus">Contact Us</Link></h5>
                   <hr  className='titleHr'></hr>
                   <p>India:</p>
-                  <p>+91 9840594865</p>
+                  <p><img src={phone} alt='phone'/> &nbsp;+91 9840594865</p>
                   <p>USA:</p>
-                  <p>+1 325 271 4695</p>
+                  <p><img src={phone} alt='phone' />&nbsp;+1 325 271 4695</p>
 
                 </div>
               
@@ -88,7 +88,7 @@ function Footer() {
             </div>
           </div>
           <div className='copyRight'>
-            <hr></hr>
+            <hr className='copyRightHr'></hr>
             <p>Copyright 2022 Venzo.All Rights Reserved</p>
 
           </div>

@@ -84,57 +84,54 @@ body{
         }
     
 }
-@media screen and (max-width:1024px) and (min-width:775px) {
+@media screen and (max-width:1024px) and (min-width:771px) {
     .prototypes h1{
-        flex-basis: 70%;
+        font-family:poppins-semibold;
+        font-size: 40px;
     }
     .prototypes .design{
         margin: 5% 0 0 5%;
         width: 30%;
     }
 }
-@media screen and (max-width:770px) and (min-width:380px) {
-   .prototypes{
-       display: block;
-       margin-left: -3%;
-   }
-   .prototypes h1{
-       font-size: 30px;
+@media screen and (max-width:770px) and (min-width:426px) {
+    .prototypes h1{
+        font-size: 20px !important;
     }
-    .prototypes .design{
-        width: 35%;
-        margin: 5% 0 0 0%;
-    }
-}
-
-@media screen and (max-width:425px) {
     .prototypes{
         display: block;
     }
-    .prototypes h1{
-        font-size: 30px;
-        width: 110%;
-        margin:10% 0 0 -1.5%;
-        text-align: left;
-
-     }
-     .prototypes .design{
-        width: 60%;
-        margin: 15% 0 0 -2%;
+    .prototypes .design{
+        margin: 5% 0 0 0%;
+        width: 30%;
     }
 }
 
+@media screen and (max-width:425px) and (min-width:376px) {
+    .prototypes h1{
+        font-size: 20px !important;
+    }
+    .prototypes{
+        display: block;
+    }
+    .prototypes .design{
+        margin: 5% 0 5% 0%;
+        width: 60%;
+        padding: 1%;
+    }
+}
 @media screen and (max-width:375px) {
     .prototypes{
         display: block;
     }
     .prototypes h1{
-        font-size: 30px;
-        width: 110%;
+        font-size: 24px;
+        width: 100%;
         margin:10% 0 0 -1.5%;
      }
      .prototypes .design{
          width: 60%;
-         margin: 15% 0 0 -2%;
+         margin: 5% 0 5% -2%;
+         padding: 1%;
      }
 }

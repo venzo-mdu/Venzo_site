@@ -103,8 +103,8 @@ footer{
 
 .copyRightHr {
     color: #FFFFFF;
-    width: 75%;
-    margin: 1% 0% 0 12.5%;
+    width: 85%;
+    margin: 1% 0% 0 8%;
     opacity: 0.5;
 }
 
@@ -408,7 +408,7 @@ footer{
     }
     .aboutUs {
 
-        margin: 2% 0% 0 -92%;
+        margin: 2% 0% 0 -86%;
 
     }
     .services {
@@ -448,8 +448,8 @@ footer{
     }
 
     .copyRightHr {
-        width: 90%;
-        margin: 0 0 0 3%
+        width: 85%;
+        margin: 0 0 0 -2%
     }
     .logoIcon {
         width: 50px;

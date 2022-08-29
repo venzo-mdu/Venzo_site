@@ -3,7 +3,11 @@
 .alice-carousel__dots{
     display: none;
 }
-
+#blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
 .alice-carousel__prev-btn,.alice-carousel__next-btn{
     display: none !important;
 }
@@ -246,9 +250,7 @@
 
 
 @media screen  and (max-width:770px) and (min-width:501px) {
-    .alice-carousel__wrapper {
-        height: 100vh !important;
-    }
+
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
@@ -258,7 +260,7 @@
     }
     .item1 {
         text-align: left;
-        margin-top: -190%;
+        margin-top: -150%;
         margin-left: 11%;
         padding-bottom: 50%;
         }
@@ -356,7 +358,7 @@
 
 @media screen  and (max-width:500px) and (min-width:426px) {
     .alice-carousel__wrapper {
-        height: 100vh !important;
+        height: 80vh !important;
     }
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
@@ -468,6 +470,7 @@
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
+
     }
 
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
@@ -478,22 +481,19 @@
 }
     .item1 {
         text-align: left;
-        margin-top: -180%;
+        margin-top: -150%;
         margin-left: 11%;
-        /* padding-bottom: 50%; */
         }
         
     .item2{
-        /* padding-bottom: 50%; */
         text-align: left;
-        margin-top: -180%;
+        margin-top: -150%;
         margin-left: 11%;
     }
         
     .item3 {
-        /* padding-bottom: 50%; */
         text-align: left;
-        margin-top: -180%;
+        margin-top: -150%;
         margin-left: 11%;
     }
     #blockchain{
@@ -579,7 +579,6 @@
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
-        height: 100vh
     }
     .alice-carousel__wrapper {
         height: 100vh !important;
@@ -597,14 +596,14 @@
     .item2{
         padding-bottom: 70%;
         text-align: left;
-        margin-top: -155%;
+        margin-top: -150%;
         margin-left: 11%;
     }
         
     .item3 {
         padding-bottom: 70%;
         text-align: left;
-        margin-top: -220%;
+        margin-top: -150%;
         margin-left: 11%;
     }
     #blockchain{

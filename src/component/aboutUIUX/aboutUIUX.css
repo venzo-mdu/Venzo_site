@@ -76,7 +76,8 @@ body{
         margin: 5% 0 0 0;
     }
 }
-@media screen and (max-width:375px) {
+
+@media screen and (max-width:425px) {
     .aboutUIUX{
         display: none;
     }
@@ -99,7 +100,7 @@ body{
         margin: 10% 0 0 0;
     }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:375px) {
     .aboutUIUX{
         display: none;
     }
