@@ -25,7 +25,7 @@ function header(props) {
            {
                HeaderData.map(item=>{
                 console.log(HeaderData);
-                return <li><Link to={item.routeLink}>{item.navLink}</Link></li>
+                return <li><Link to={item.routeLink} className={item?item.activeLink:" "}>{item.navLink}</Link></li>
                })
            }
                   </ul>
