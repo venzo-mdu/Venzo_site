@@ -131,7 +131,7 @@ a{
     }
 }
 
-@media screen and (max-width:770px) and (min-width:440px) {
+@media screen and (max-width:774px) and (min-width:431px) {
 
     header {
         margin: -4% 0 0 0;
@@ -141,7 +141,7 @@ a{
         display: none;
     }
     .header .toggleicon{
-        display: block;
+        display: block !important;
         height: 25px;
         width: 28px;
         position: absolute;
@@ -203,11 +203,11 @@ a{
  
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:374px) {
     #headerSection {
         background-color: #0a1020;
         z-index: 0 !important;
-        margin: -10% 0 0 0;
+        margin: 0% 0 0 0;
         height: 10vh;
     }
     .header .toggleIcon{
@@ -215,15 +215,15 @@ a{
         height: 22px;
         width: 30px;
         position: absolute;
-        top: -89px;
+        top: -80px;
         right: 35px;
     }
     header {
-        margin: -8% 0 0 0;
+        margin: -7% 0 0 0;
     }
 
     .header .logo {
-        margin: 8% 0 0 0;
+        margin: 10% 0 0 0;
     }
 
     .header .logo img {
@@ -245,6 +245,6 @@ a{
     .header {
         position: sticky;
         height: 70%;
-        margin: 0 0 6% 0;
+        margin: 0 0 3% 0;
     }
 }

@@ -77,17 +77,10 @@ function Footer() {
 
                   <h5><Link to="/contactus">Contact Us</Link></h5>
                   <hr  className='titleHr'></hr>
-<<<<<<< HEAD
                   <p>India:</p>
                   <p><img src={phone} alt='phone'/> &nbsp;+91 9840594865</p>
                   <p>USA:</p>
                   <p><img src={phone} alt='phone' />&nbsp;+1 325 271 4695</p>
-=======
-                  <p>India :</p>
-                  <p><img src={phone} alt='phoneIcon'></img> +91 9840594865</p>
-                  <p>USA :</p>
-                  <p><img src={phone} alt='phoneIcon'></img> +1 325 271 4695</p>
->>>>>>> 69a47d502b49fb995a18575f4ab2ceb77172a329
 
                 </div>
               
@@ -95,13 +88,8 @@ function Footer() {
             </div>
           </div>
           <div className='copyRight'>
-<<<<<<< HEAD
             <hr className='copyRightHr'></hr>
             <p>Copyright 2022 Venzo.All Rights Reserved</p>
-=======
-            <hr id='paraHR'></hr>
-            <p >Copyright 2022 Venzo.All Rights Reserved</p>
->>>>>>> 69a47d502b49fb995a18575f4ab2ceb77172a329
 
           </div>
           <img className='logoIcon' src={footerIcon} alt="footerIcon"></img>

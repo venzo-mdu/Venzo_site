@@ -12,7 +12,7 @@ body{
     background-position-y: 75%;
     background-size: 55%;
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:425px) and (min-width:376px) {
     #titleinQA{
         width: 100%;
     }

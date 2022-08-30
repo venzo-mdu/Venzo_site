@@ -64,7 +64,7 @@ body{
         padding: 15% 10%;
     }
 }
-@media screen and (max-width:770px) and (min-width:380px) {
+@media screen and (max-width:770px) and (min-width:425px) {
    
     .digitalProducts{
         padding: 20% 10%;
@@ -77,7 +77,7 @@ body{
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:424px) and (min-width:376px) {
     .aboutUIUX{
         display: none;
     }
