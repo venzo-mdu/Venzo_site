@@ -203,6 +203,9 @@ body{
 .section5 {
     margin: 3% 10%;
 }
+.section51{
+    display: none;
+}
 .portFolioLine{
     color: #000;
 }

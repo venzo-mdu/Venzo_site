@@ -14,6 +14,7 @@ import DmFrequentQues from './DmFrequentQues';
 import './laptopL.css'
 import './mobile.css'
 import "react-image-gallery/styles/css/image-gallery.css";
+import Accordion from 'react-bootstrap/Accordion';
 
 function DM_Page() {
     // const customised_portfolio_reports = [
@@ -168,23 +169,57 @@ function DM_Page() {
                     </div>
                 </div>
 
-                {/* <div className='section5'>
-                <ImageGallery
+                <div className='section51'>
+                <Accordion defaultActiveKey="0" flush>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>Brand Promotion</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                            <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                            <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                        <Accordion.Header>Increase Sales</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header>Lead Generation</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                        items={customised_portfolio_reports}
-                        infinite={true}
-                        showNav={false}
-                        showFullscreenButton={false}
-                        showPlayButton={false}
-                        showBullets={true}
-                        autoPlay={false}
-                        isRTL={false}
-                        // useTranslate3D={false}
-                        slideInterval={3000}
-                        thumbnailPosition='left'
-                    />
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="4">
+                        <Accordion.Header>SE ranking</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                </div> */}
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="5">
+                        <Accordion.Header>Online Reputation</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="6">
+                        <Accordion.Header>Social media engagement</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+
+                </div>
 
             </div>
 

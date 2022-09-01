@@ -1,4 +1,4 @@
-@media screen and (max-width:770px) and (min-width:545px) {
+@media screen and (max-width:770px) and (min-width:501px) {
     .section1 {
         margin: 0% 0 0 7%;
     }
@@ -10,6 +10,7 @@
         background-repeat: no-repeat;
         width: 100vw;
     }
+
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -198,74 +199,82 @@
 
     }
 
-    .DM_cardTitle {
-        width: 30%;
-        height: 20%;
-        margin-left: 7%;
-        list-style: none;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 2.5;
-        text-align: left;
-
-    }
-
-
-    .DM_cardTitle>li {
-        color: #BCBCBC;
-    }
-
-    .DM_cardTitle>li:hover {
-        color: black;
-    }
-
-    .DM_cardTitle>li:active {
-        color: black;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-
-    .line1 {
-        margin-right: 2%;
-        margin-left: 5%;
-        width: max-content;
-    }
-
-    .card1 {
-        width: 50%;
+    .cardbox {
+        width: 90%;
         background: #FFFFFF;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
-        margin-left: 3%;
-
+        margin-left: 5%;
     }
 
     .cardList {
-        display: flex;
-        height: 50%;
-        padding-top: 7%;
-        background-image: none
+        display: none
+    }
+    .section51 .accordion-button{
+        font-size: 24px;
+        margin-left: 7%;
+    } 
+    .section51 {
+        display: block;
     }
 
-    .sliderLap{
+    .section51 .accordion-button::after {
+        display: none;
+    }
+
+    .section51 .accordion-item {
+        border: none;
+    }
+
+    .section51 >.Accordion.Header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: right;
+        color: #000000;
+        z-index: 0;
+
+    }
+
+    .cardtitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 175%;
+        color: #0A1020;
+    }
+
+    .carddesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .sliderLap {
         display: block;
         margin: 15% 5%;
         z-index: -1;
     }
-    .slidermob, .sliderDesk{
+
+    .slidermob,
+    .sliderDesk {
         display: none;
     }
+
     .carousel-item {
         height: 4%;
     }
-    .section6{
+
+    .section6 {
         margin-top: 10%;
     }
+
     .sect6_title {
         font-family: "Poppins", Sans-serif;
         font-size: 60px;
@@ -342,7 +351,8 @@
         font-size: 35px;
     }
 }
-@media screen and (max-width:540px) and (min-width:430px) {
+
+@media screen and (max-width:500px) and (min-width:426px) {
     .section1 {
         margin: 0% 0 0 7%;
     }
@@ -544,66 +554,70 @@
 
     }
 
-    .DM_cardTitle {
-        width: 30%;
-        height: 20%;
+    .cardbox {
+        width: 90%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-left: 5%;
+    }
+
+    .cardList {
+        display: none
+    }
+
+    .section51 {
+        display: block;
+    }
+    .section51 .accordion-button{
+        font-size: 20px;
         margin-left: 7%;
-        list-style: none;
+    } 
+    .section51 .accordion-button::after {
+        display: none;
+    }
+
+    .section51 .accordion-item {
+        border: none;
+    }
+
+    .section51 >.Accordion.Header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: right;
+        color: #000000;
+    }
+
+    .cardtitle {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 2.5;
-        text-align: left;
+        line-height: 175%;
+        color: #0A1020;
+    }
 
+    .carddesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
     }
 
 
-    .DM_cardTitle>li {
-        color: #BCBCBC;
-    }
-
-    .DM_cardTitle>li:hover {
-        color: black;
-    }
-
-    .DM_cardTitle>li:active {
-        color: black;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-
-    .line1 {
-        margin-right: 2%;
-        margin-left: 5%;
-        width: max-content;
-    }
-
-    .card1 {
-        width: 40%;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        margin-left: 3%;
-
-    }
-
-    .cardList {
-        display: flex;
-        height: 50%;
-        padding-top: 7%;
-        background-image: none
-    }
-
-    .slidermob{
+    .slidermob {
         display: block;
         margin: 30% 0 -20% 30%;
         z-index: -1;
     }
-    .sliderLap, .sliderDesk{
+
+    .sliderLap,
+    .sliderDesk {
         display: none;
     }
 
@@ -618,9 +632,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .section6{
+
+    .section6 {
         margin-top: 40%;
     }
+
     .freqQus {
         width: 85%;
         margin-left: 7%;
@@ -684,14 +700,15 @@
         font-size: 45px;
         font-size: 32px;
     }
-    .containor11{
+
+    .containor11 {
         margin-top: 5%;
     }
 }
 
 
 
-@media screen and (max-width:430px) and (min-width:380px) {
+@media screen and (max-width:425px) and (min-width:376px) {
     .section1 {
         margin: 0% 0 0 7%;
     }
@@ -893,66 +910,71 @@
 
     }
 
-    .DM_cardTitle {
-        width: 30%;
-        height: 20%;
+    
+    .cardbox {
+        width: 90%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-left: 5%;
+    }
+
+    .cardList {
+        display: none
+    }
+
+    .section51 {
+        display: block;
+    }
+    .section51 .accordion-button{
+        font-size: 16px;
         margin-left: 7%;
-        list-style: none;
+    } 
+    .section51 .accordion-button::after {
+        display: none;
+    }
+
+    .section51 .accordion-item {
+        border: none;
+    }
+
+    .section51 >.Accordion.Header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: right;
+        color: #000000;
+    }
+
+    .cardtitle {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 2.5;
-        text-align: left;
+        line-height: 175%;
+        color: #0A1020;
+    }
 
+    .carddesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
     }
 
 
-    .DM_cardTitle>li {
-        color: #BCBCBC;
-    }
-
-    .DM_cardTitle>li:hover {
-        color: black;
-    }
-
-    .DM_cardTitle>li:active {
-        color: black;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-
-    .line1 {
-        margin-right: 2%;
-        margin-left: 5%;
-        width: max-content;
-    }
-
-    .card1 {
-        width: 40%;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        margin-left: 3%;
-
-    }
-
-    .cardList {
-        display: flex;
-        height: 50%;
-        padding-top: 7%;
-        background-image: none
-    }
-
-    .slidermob{
+    .slidermob {
         display: block;
         margin: 30% 0 -20% 30%;
         z-index: -1;
     }
-    .sliderLap, .sliderDesk{
+
+    .sliderLap,
+    .sliderDesk {
         display: none;
     }
 
@@ -967,9 +989,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .section6{
+
+    .section6 {
         margin-top: 40%;
     }
+
     .freqQus {
         width: 85%;
         margin-left: 7%;
@@ -1033,12 +1057,13 @@
         font-size: 45px;
         font-size: 32px;
     }
-    .containor11{
+
+    .containor11 {
         margin-top: 5%;
     }
 }
 
-@media screen and (max-width:375px)  {
+@media screen and (max-width:375px) {
 
 
     .section1 {
@@ -1231,7 +1256,7 @@
 
     .sect5_title {
         font-family: "Poppins", Sans-serif;
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 600;
         font-style: normal;
         line-height: 70px;
@@ -1242,72 +1267,77 @@
 
     }
 
-    .DM_cardTitle {
-        width: 30%;
-        height: 20%;
-        margin-left: 7%;
-        list-style: none;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 2.5;
-        text-align: left;
-
-    }
-
-
-    .DM_cardTitle>li {
-        color: #BCBCBC;
-    }
-
-    .DM_cardTitle>li:hover {
-        color: black;
-    }
-
-    .DM_cardTitle>li:active {
-        color: black;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-
-    .line1 {
-        margin-right: 2%;
-        margin-left: 5%;
-        width: max-content;
-    }
-
-    .card1 {
-        width: 40%;
+    
+    .cardbox {
+        width: 90%;
         background: #FFFFFF;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
-        margin-left: 3%;
+        margin-left: 5%;
 
     }
 
     .cardList {
-        display: flex;
-        height: 50%;
-        padding-top: 7%;
-        background-image: none
+        display: none
     }
 
-    .slidermob{
+    .section51 {
+        display: block;
+    }
+    .section51 .accordion-button{
+        font-size: 14px;
+        margin-left: 7%;
+    } 
+    .section51 .accordion-button::after {
+        display: none;
+    }
+
+    .section51 .accordion-item {
+        border: none;
+    }
+
+    .section51 >.Accordion.Header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: right;
+        color: #000000;
+    }
+
+    .cardtitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 175%;
+        color: #0A1020;
+    }
+
+    .carddesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 175%;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .slidermob {
         display: block;
         margin: 30% 0 -20% 30%;
         z-index: -1;
     }
-    .sliderLap, .sliderDesk{
+
+    .sliderLap,
+    .sliderDesk {
         display: none;
     }
 
     .sect6_title {
         font-family: "Poppins", Sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
         font-style: normal;
         line-height: 120%;
@@ -1316,12 +1346,14 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .section6{
+
+    .section6 {
         margin-top: 40%;
     }
+
     .freqQus {
-        width: 85%;
-        margin-left: 7%;
+        width: 90%;
+        margin-left: 4%;
         margin-bottom: 5%;
     }
 
@@ -1335,7 +1367,9 @@
         padding-bottom: 3%;
         z-index: 0;
     }
-
+    .accordion-button{
+        font-size: 14px;
+    } 
     .collapseData {
         font-family: 'Poppins';
         font-style: normal;
@@ -1382,7 +1416,8 @@
         font-size: 45px;
         font-size: 32px;
     }
-    .containor11{
+
+    .containor11 {
         margin-top: 5%;
     }
 }
