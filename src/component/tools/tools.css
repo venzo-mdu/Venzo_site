@@ -1,11 +1,12 @@
-.toolsweuse{
-        background-color: #0A1020;
-        height:60vh;
-        width: 100vw;
-        display: inline-flex;
-        padding: 3% 10%;
+.toolsweuse {
+    background-color: #0A1020;
+    height: 60vh;
+    width: 100%;
+    display: inline-flex;
+    padding: 3% 10%;
 }
-.toolsweuse h1{
+
+.toolsweuse .toolsBlock .headingWeb {
     font-size: 90px;
     font-family: poppins-semibold;
     background: linear-gradient(182.19deg, #FFFFFF -860.5%, rgba(255, 255, 255, 0) 98.16%);
@@ -16,48 +17,223 @@
     margin: 2% 0 0 0;
     width: 185%;
 }
-.toolsweuse #weuse{
+
+.toolsweuse .toolsBlock .headingRes {
+    display: none;
+}
+
+.toolsweuse #weuse {
     margin: 0% 0 0 30%;
 }
-.toolsweuse .toolsBlock{
+
+.toolsweuse .toolsBlock {
     display: block;
+    width: 50%;
 }
-.toolsweuse .marqueeTools{
-    display: inline-flex;
+
+.toolsweuse .marqueeTools {
+    display: inline-flex!important;
     margin: 0 0 0 50%;
+    width: 50%;
+
 }
-.toolsweuse .marqueeTools .downSidetools{
-    background-color: #1d2331; 
+
+.toolsweuse .marqueeTools .downSidetools {
+    background-color: #1d2331;
     height: 15vh;
-    width:10vw;
+    width: 10vw;
     padding: 15% 15%;
     margin: 20% 0 0 20%;
     border-radius: 8px 8px 8px 8px;
-    border:1px solid rgb(126, 123, 123)
+    border: 1px solid rgb(126, 123, 123)
 }
+
 marquee {
     width: 13vw;
 }
-.toolsweuse .marqueeTools .upSidedowntools{
-    background-color: #1d2331; 
+
+.toolsweuse .marqueeTools .upSidedowntools {
+    background-color: #1d2331;
     height: 15vh;
-    width:10vw;
+    width: 10vw;
     padding: 15% 15%;
     margin: 20% 0 0 20%;
     border-radius: 8px 8px 8px 8px;
-    border:1px solid rgb(126, 123, 123)
+    border: 1px solid rgb(126, 123, 123)
 }
-.toolsweuse .toolsBlock .toolTypes p{
-        font-family: poppins-medium;
-        font-size: 18px;
-        color: white;
-        line-height: 1.5;
-        margin: 5% 0 0 0;
-        width: 250%;
+
+.toolsweuse .toolsBlock .toolTypes p {
+    font-family: poppins-medium;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin: 5% 0 0 0;
+    width: 250%;
 }
-.toolTypes .jira{
+
+.toolTypes .jira {
     color: white;
     font-size: 16px;
     margin: 0 0 0 5%;
     font-family: poppins-medium;
+}
+
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .toolsweuse h1 {
+        font-size: 70px;
+        margin: 2% 0 0 0;
+        width: 185%;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .toolsweuse h1 {
+        font-size: 50px;
+        margin: 2% 0 0 0;
+        width: 185%;
+    }
+
+    .toolsweuse .toolTypes {
+        margin: 20% 0 0 0;
+    }
+
+}
+
+@media screen and (min-width:426px) and (min-width:767px) {
+    .toolsweuse .toolsBlock {
+        display: block;
+        text-align: center;
+    }
+
+    .toolsweuse h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .toolsweuse .toolsBlock .headingWeb {
+        display: none;
+    }
+
+    .toolsweuse .toolsBlock .headingRes {
+        display: block;
+        font-size: 45px;
+        text-align: center;
+        width: 200%;
+        margin: 10% 0 0 0;
+    }
+
+    .toolsweuse .toolsBlock .toolTypes {
+        width: 100%
+    }
+
+    .toolsweuse .toolsBlock .toolTypes p {
+        font-size: 14px;
+        margin: 10% 0 0 -12%;
+        width: 200%;
+        line-height: 24.5px;
+    }
+
+    .toolsweuse .toolsBlock .toolTypes img {
+        margin: 10% 0 0 40%;
+        width: 45px;
+        height: 45px;
+    }
+
+    .toolsweuse .toolsBlock .toolTypes .jira {
+        font-size: 22px;
+        margin: 0 0 0 5%;
+    }
+
+    .toolsweuse .marqueeTools {
+        display: none;
+    }
+
+    .marqueeToolsRes marquee {
+        width: 100%;
+    }
+
+    .toolsweuse .marqueeToolsRes .leftSidetools {
+        display: inline-flex;
+        background-color: #1d2331;
+        height: 15vh;
+        width: 35vw;
+        padding: 15% 15%;
+        margin: 20% 0 0 20%;
+        border-radius: 8px 8px 8px 8px;
+        border: 1px solid rgb(126, 123, 123)
+    }
+}
+
+@media screen and (max-width:425px) {
+
+
+    .toolsweuse {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .toolsweuse .toolsBlock .headingWeb {
+        display: none;
+    }
+
+    .toolsweuse .toolsBlock {
+        width: 100%;
+        text-align: center;
+    }
+
+    .toolsweuse .toolTypes {
+        width: 100%;
+    }
+
+    .toolsBlock .headingRes {
+        display: block !important;
+        text-align: center;
+        margin: auto;
+        font-size: 45px;
+        width: 100%;
+        background: linear-gradient(182.19deg, #FFFFFF -860.5%, rgba(255, 255, 255, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .toolsweuse .toolsBlock .toolTypes .toolimgWithtitle {
+        margin: 5% 0 0 0%;
+    }
+
+    .toolsweuse .toolsBlock .toolTypes p {
+        margin: 5% 0 0 0;
+        width: 100%;
+        line-height: 24.5px;
+        font-size: 14px;
+
+
+    }
+
+    .toolsweuse .toolTypes img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .toolsweuse .marqueeToolsRes .leftSidetools {
+        display: inline-flex;
+        background-color: #1d2331;
+        height: 15vh;
+        width: 35vw;
+        padding: 15% 15%;
+        margin: 20% 0 0 20%;
+        border-radius: 8px 8px 8px 8px;
+        border: 1px solid rgb(126, 123, 123)
+    }
+
+    .toolsweuse .marqueeTools {
+        display: none;
+    }
+
+    marquee {
+        width: 100%;
+    }
+
 }
