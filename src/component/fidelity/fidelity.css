@@ -192,7 +192,7 @@ body{
         width: 20%;
     }
 }
-@media screen and (max-width:770px) and (min-width:380px) {
+@media screen and (max-width:770px) and (min-width:426px) {
     .fidelityPrototypes{
         margin-bottom: 5%;
     }
@@ -217,7 +217,7 @@ body{
         margin: 8% 0 0 0;
     }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:425px) and (min-width:376px){
     .fidelityPrototypes{
     
         margin:5% 0 5% 0;

@@ -312,15 +312,15 @@ footer{
     }
 }
 
-@media screen and (max-width:770px) and (min-width:500px) {
+@media screen and (max-width:770px) and (min-width:501px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
         width: 100vw;
+        padding-bottom: 15%;
     }
 
     .laptopResponsive {
-        margin: 5% 0 0 -10%;
+        margin: 2% 0 0 -10%;
         width: 100%;
 
     }
@@ -352,7 +352,7 @@ footer{
 
     }
     .laptopResponsive1 {
-        margin: 58% 0% 0 -10%;
+        margin: 45% 0% 0 -10%;
         width: 100%;
     }
 
@@ -373,7 +373,7 @@ footer{
 
     .copyRightHr {
         width: 90%;
-        margin: 0 0 0 3%
+        margin: 0 0 0 -2%
     }
     .logoIcon {
         width: 60px;
@@ -383,8 +383,88 @@ footer{
 
 }
 
+@media screen and (max-width:500px) and (min-width:426px){
+    footer {
+        background-color: #0A1020;
+        height: 100%;
+        width: 100vw;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .laptopResponsive {
+        margin: 5% 0 0 -10%;
+        width: 100%;
 
-@media screen and (max-width:425px){
+    }
+    .address{
+        width: 50%;
+    }
+    .address .headOffice {
+        font-size: 11px;
+        margin-top: 10%;
+        width: 200%;
+    }
+
+    .address .branchOffice {
+        font-size: 11px;
+        width: 210%;
+
+    }
+    .aboutUs {
+
+        margin: 2% 0% 0 -86%;
+
+    }
+    .services {
+        margin: 2% 0 0 95%;
+    }
+
+    .services p {
+        width: 200%;
+    }
+
+    .laptopResponsive1 {
+        margin: 65% 0% 0 7%;
+        width: 100%;
+    }
+    .aboutUs{
+        width: 50%;
+    }
+    .company{
+        font-size: 12px;
+    }
+    .contactUs {
+        margin: 5% 0% 0 40%;
+        width: 50%;
+    }
+    .careers{
+        margin:26% 0 0 0 ;
+    }
+    .business {
+        margin: 31% 0 0 0;
+
+    }
+
+    .copyRight p {
+        width: 80%;
+        margin: 2% 0 0 -2%;
+        font-size: 12px;
+    }
+
+    .copyRightHr {
+        width: 85%;
+        margin: 0 0 0 -2%
+    }
+    .logoIcon {
+        width: 50px;
+        height: 50px;
+        margin: -20% 0% 0% 80%;
+    }
+    
+}
+
+@media screen and (max-width:425px) and (min-width:376px){
     footer {
         background-color: #0A1020;
         height: 100%;
@@ -494,6 +574,7 @@ footer{
     .services {
         width: 50%;
         margin-top: 4%;
+        margin-left: 75%;
     }
 
     .services p {
@@ -507,6 +588,7 @@ footer{
     }
     .aboutUs{
         width: 50%;
+        margin-left: -92%;
     }
     .contactUs {
         width: 50%;
@@ -529,7 +611,7 @@ footer{
 
     .copyRightHr {
         width: 90%;
-        margin: 0 0 0 3%
+        margin: 0 0 0 0%
     }
     .logoIcon {
         width: 50px;

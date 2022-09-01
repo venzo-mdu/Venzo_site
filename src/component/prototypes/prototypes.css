@@ -94,7 +94,7 @@ body{
         width: 30%;
     }
 }
-@media screen and (max-width:770px) and (min-width:426px) {
+@media screen and (max-width:770px) and (min-width:501px) {
     .prototypes h1{
         font-size: 20px !important;
     }
@@ -106,7 +106,19 @@ body{
         width: 30%;
     }
 }
-
+@media screen and (max-width:500px) and (min-width:426px) {
+    .prototypes h1{
+        font-size: 20px !important;
+    }
+    .prototypes{
+        display: block;
+    }
+    .prototypes .design{
+        margin: 5% 0 5% 0%;
+        width: 50%;
+        padding: 1%;
+    }
+}
 @media screen and (max-width:425px) and (min-width:376px) {
     .prototypes h1{
         font-size: 20px !important;

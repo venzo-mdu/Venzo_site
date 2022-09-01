@@ -187,7 +187,7 @@
      }
  }
 
- @media screen and (max-width:770px) and (min-width:380px) {
+ @media screen and (max-width:770px) and (min-width:501px) {
      .ourApproach {
          margin: 0% 0 0 0;
      }
@@ -203,7 +203,7 @@
      .ourApproach .approachDesign #straightarrow {
          margin: 8% 0 0 30%;
          display: block;
-
+        
      }
 
      .ourApproach h1 {
@@ -237,7 +237,94 @@
 
 
  }
+ @media screen and (max-width:500px) and (min-width:426px) {
+    .ourApproach {
+        margin: 0% 0 0 0;
+    }
 
+    .ourApproach .approach {
+        margin: 5% 0 10% 0;
+    }
+
+    .ourApproach .approachDesign #uiuxarrow {
+        display: none;
+    }
+
+    .ourApproach .approachDesign #straightarrow {
+        margin: 15% 0 0 30%;
+        display: block;
+        width: 4%;
+    }  
+
+    .ourApproach h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        background: linear-gradient(165.51deg, #000000 -700.43%, rgba(0, 0, 0, 0) 105.58%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .approach div p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 175%;
+        text-align: justify;
+        color: #929292;
+        width: 56%;
+        margin-top: -2%;
+    }
+    .approach .research {
+        margin: -100% 0 0 -8%;
+        position: absolute;
+        display: inline-flex;
+    }
+    .approach h2{
+       font-family: 'Poppins';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 120%;
+       letter-spacing: -0.02em;
+       color: #000000;
+       width: 25%;
+    }
+
+    .approach .ideate {
+        margin: -60% 0 0 -8%;
+        position: absolute;
+        display: inline-flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #000000;}
+
+    .approach .prototype {
+        margin: -15% 0 0 -8%;
+        position: absolute;
+        display: inline-flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #000000;
+       }
+}
  @media screen and (max-width:425px) and (min-width:376px) {
      .ourApproach {
          margin: 0% 0 0 0;
@@ -342,6 +429,7 @@
     .ourApproach .approachDesign #straightarrow {
         margin: 15% 0 0 33%;
         display: block;
+        width: 5%;
     }  
 
     .ourApproach h1 {
@@ -358,7 +446,7 @@
         background-clip: text;
         text-fill-color: transparent;
         width: 100%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .approach div p {
@@ -373,7 +461,7 @@
         margin-top: -2%;
     }
     .approach .research {
-        margin: -155% 0 0 -8%;
+        margin: -125% 0 0 -8%;
         position: absolute;
         display: inline-flex;
     }
@@ -389,7 +477,7 @@
     }
 
     .approach .ideate {
-        margin: -90% 0 0 -8%;
+        margin: -75% 0 0 -8%;
         position: absolute;
         display: inline-flex;
         font-family: 'Poppins';
