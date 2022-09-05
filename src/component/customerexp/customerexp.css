@@ -25,6 +25,31 @@
     margin: 1.5% 0 0 10%;
 }
 @media screen and (max-width:1445px) and (min-width:1025px) {
+    .customerExperiance{
+        background-color: whitesmoke;
+        padding: 4% 10% 20%;
+        display: inline-flex;
+        width: 100vw;
+    }
+    .customerExperiance h3{
+        font-family:poppins-semibold;
+        font-size: 40px;
+    }
+    .customerExperiance #through{
+        background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .customerExperiance .reachus{
+        height: 5vh;
+        width: 13vw;
+        color: white;
+        background-color: #000000;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 18px;
+        margin: 1.5% 0 0 10%;
+    }
 }
     @media screen and (max-width:1024px) and (min-width:775px) {
         .customerExperiance h3{
