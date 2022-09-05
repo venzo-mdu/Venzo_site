@@ -86,15 +86,91 @@
     display: none;
 }
 @media screen and (max-width:1445px) and (min-width:1025px) {
-.ourapproachQA h1 {
-    font-size: 100px;
-}
-.approachQA .production {
-    margin-top:12%
-}
-.ourapproachQA .approachDesignQA #straightarrowQA{
-    display: none;
-}
+    .ourapproachQA{
+        background-color: white;
+        margin: -5% 0 20% 0;
+    } 
+    
+    .ourapproachQA h1 {
+       font-family: poppins-semibold;
+       font-size: 130px;
+       text-align: center;
+       margin: 5% 0 0 0;
+       background: linear-gradient(178deg, #000000 -700.43%, rgba(0, 0, 0, 0) 105.58%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+    }
+    .ourapproachQA .approachQA{
+        display: block;
+        padding: 3% 12%;
+    }
+    .ourapproachQA .approachDesignQA {
+        position: relative;
+    }
+    
+    .ourapproachQA .approachDesignQA img {
+        position: absolute;
+        margin: 3.5% 0 0 30%;
+    }
+    .ourapproachQA .approachQA div{
+        display: inline-flex;
+    }
+    .ourapproachQA .approachQA div h2{
+        width: 20%;
+        font-size: 28px;
+        font-weight: 500;
+        font-family: poppins;
+    }
+    .ourapproachQA .approachDesignQA div p{
+        font-family: poppins-medium;
+        font-size: 18px;
+        opacity: 0.5;
+        line-height: 1;
+        width: 50%;
+    }
+    .approachQA .requirement p{
+        margin: 1% 0 0 10%;
+    }
+    .approachQA .feasibility{
+        margin: 3% 0 0 0;
+    }
+    .approachQA .feasibility p{
+        margin: 0 0 0 12%;
+    }
+    .approachQA .analysis{
+        margin: 6% 0 0 19%;
+    }
+    .approachQA .analysis p{
+        margin: 0% 0 0 18%;
+    }
+    .approachQA .implementation{
+        margin: 3% 0 0 16%;
+    }
+    .approachQA .implementation p{
+        margin: 0 0 0 15%;
+    }
+    .approachQA .analysis h2{
+        margin: 0% 0 0 -5%;
+    }
+    .approachQA .implementation h2{
+        margin: 0% 0 0 -1%;
+    }
+    .approachQA .production{
+        margin: 3% 0 0 34%;
+    }
+    .approachQA .production p{
+        margin: 0% 0 0 20%;
+    }
+    .approachQA .enhancement{
+        margin: 6% 0 0 30%;
+    }
+    .approachQA .enhancement p{
+        margin: 0% 0 0 19%;
+    }
+    .ourapproachQA .approachDesignQA #straightarrowQA{
+        display: none;
+    }
 }
 @media screen and (max-width:1024px) and (min-width:775px) {
         

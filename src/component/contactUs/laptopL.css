@@ -183,6 +183,8 @@ input {
     line-height: 21px;
     color: #929292;
     margin: 2% 2% 4% 0;
+    width: 47%;
+
 }
 
 .Femail {
@@ -192,6 +194,8 @@ input {
     font-size: 14px;
     line-height: 21px;
     color: #929292;
+    width: 47%;
+
 }
 
 .Fphone {

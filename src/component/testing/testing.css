@@ -45,22 +45,49 @@
     margin: 0 0 0 25%;
 }
 @media screen and (max-width:1445px) and (min-width:1025px) {
+    .testing{
+        background-color: #0A1020;
+        height:70vh;
+        width: 100vw;
+    }
+    .testing .typesTesting{
+        display: flex;
+        padding: 5% 10%;
+    }
+    .testing .typesTesting h1{
+        font-size: 70px;
+        font-family: poppins-semibold;
+        background:linear-gradient(#fff -10%,#0a1020);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 30%;
+        margin: 2% 0 0 0;
+        width: 55%;
+    
+    }
     .testing .typesTesting .testingCard{
-        width:65%;
-        height: 30vh;
-
+        background: #1d2331; 
+        width: 90%;
+        padding-bottom: 22%;
+        margin: 0% 0 0 0%;
+        border-radius: 8px 8px 8px 8px;
+        border:1px solid rgb(126, 123, 123)
+        
+    }
+    .testingCard .types{
+        display: flex;
     }
     .testingCard .types .types1{
         color: white;
         font-family: poppins-medium;
-        line-height: 2;
-        margin: 0 0 0 0%;
+        line-height: 2.5;
+        margin: 0 0 0 5%;
     
     }
     .testingCard .types .types2{
         color: white;
         font-family: poppins-medium;
-        line-height: 2;
+        line-height: 2.5;
         margin: 0 0 0 25%;
     }
 }
