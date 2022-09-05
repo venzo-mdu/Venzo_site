@@ -62,7 +62,7 @@ function Footer() {
                 </div>
                 <div className='careers'>
 
-                  <h5>Careers</h5>
+                <h5><Link to="/careers">Careers</Link></h5>
                   <hr  className='titleHr'></hr>
                   <p>hrteam@venzotechnologies.com</p>
                 </div>

@@ -1,0 +1,46 @@
+.perks{
+    background-color: #0A1020;;
+    width: 100%;
+    height: 421px;
+    padding: 5% 5%;
+    display: flex;
+}
+/* .perks .perksLeftsection{
+       text-align: left;
+} */
+.perks .perksLeftsection #perksLeftTitle{
+    font-family: poppins;
+    font-size: 55px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+.perks .perksLeftsection #perksLeftText{
+    color: #AEB4C3;
+    font-family: poppins;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 24px;
+    width:25%;
+}
+.perks .perksRightsection{
+    display: flex;
+}
+.perks .perksRightsection .perksLefticon{
+    display: block;
+}
+.perks .perksRightsection .perksLefticon p{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.perks .perksRightsection .perksRighticon{
+    display: block;
+}
+.perks .perksRightsection .perksRighticon p{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 100%;
+}

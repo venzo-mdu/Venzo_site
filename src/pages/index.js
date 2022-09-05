@@ -10,6 +10,7 @@ import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
 import UIUXPage from "../pages/UIUX"
 import bankingQAPage from "./bankingQA";
+import careers from "./careers";
 
 const IndexPage = () => {
   return (
@@ -29,6 +30,7 @@ const IndexPage = () => {
       <Footer />
       <Link to="/UIUX"></Link>
       <Link to="/banking-QAPage"></Link>
+      <Link to="/careers"></Link>
     </div>
    
   )
