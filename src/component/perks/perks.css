@@ -4,10 +4,11 @@
     height: 421px;
     padding: 5% 5%;
     display: flex;
+    width: 100%;
 }
-/* .perks .perksLeftsection{
-       text-align: left;
-} */
+.perks .perksLeftsection{
+    width: 50%;
+}
 .perks .perksLeftsection #perksLeftTitle{
     font-family: poppins;
     font-size: 55px;
@@ -20,13 +21,15 @@
     font-size:16px;
     font-weight: 500;
     line-height: 24px;
-    width:25%;
+    width:52%;
 }
 .perks .perksRightsection{
     display: flex;
+    width: 50%;
 }
 .perks .perksRightsection .perksLefticon{
     display: block;
+    width: 50%;
 }
 .perks .perksRightsection .perksLefticon p{
     font-size: 18px;
@@ -36,6 +39,13 @@
 }
 .perks .perksRightsection .perksRighticon{
     display: block;
+    width: 50%;
+}
+.perks .perksRightsection .perksLefticon p{
+    margin: 0 0 15% 0;
+}
+.perks .perksRightsection .perksLefticon img{
+    margin: -10% 0 0% 0;
 }
 .perks .perksRightsection .perksRighticon p{
     font-size: 18px;
@@ -43,4 +53,10 @@
     font-weight: 500;
     color: #FFFFFF;
     width: 100%;
+}
+.perks .perksRightsection .perksRighticon img{
+    margin: -10% 0 0% 0;
+}
+.perks .perksRightsection .perksRighticon p{
+    margin: 0 0 16% 0;
 }

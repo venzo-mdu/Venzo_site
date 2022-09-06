@@ -1,0 +1,12 @@
+.frequently{
+    padding: 5% 0 0 0;
+    text-align: center;
+}
+.frequently #frequentlyTitle{
+    font-family: poppins;
+    font-size: 75px;
+    font-weight: 600;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}

@@ -3,7 +3,7 @@ import "../perks/perks.css"
 import perkImg1 from "../../images/perks1.png"
 import perkImg2 from "../../images/perks2.png"
 import perkImg3 from "../../images/perks3.png"
-// import perkImg4 from "../../images/perks4.png"
+import perkImg4 from "../../images/perks4.png"
 
 
 
@@ -28,7 +28,7 @@ function perks() {
             <div className='perksRighticon'>
              <img src={perkImg2} alt="perkIcon"></img>
              <p>Career Growth</p>
-             {/* <img src={perkImg4} alt="perkIcon"></img> */}
+             <img src={perkImg4} alt="perkIcon"></img>
              <p>Vision Building</p>
             </div>
         </div>

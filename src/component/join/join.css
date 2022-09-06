@@ -1,0 +1,35 @@
+.joinus{
+    padding: 5% 20%;
+}
+.joinus .innerJoin{
+    background-color: #0A1020;
+    height: 350px;
+    width:1166px;
+    width:100%;
+    display: inline-flex;
+    padding: 5% 5%;
+    border-radius:12px 12px 12px 12px;
+}
+.innerJoin .innerText{
+    width:50%;
+    margin:0 0 0 6%;
+}
+.innerJoin .innerText #innerTextTitle{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.innerJoin .innerText #innerTextPara{
+    color: #FFFFFF;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.innerJoin .innerText #applyNow{
+    color: #FFFFFF;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 600;
+}
