@@ -21,3 +21,8 @@
     width:80%
 
 }
+@media screen and (max-width:1025px) and (min-width:768px) {
+.lifeAtvenzo #lifeAtvenzoText{
+    width: 100%;
+}
+}

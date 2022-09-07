@@ -8,3 +8,74 @@
     font-weight: 500;
     text-align: center;
 }
+.positions .posCard{
+    padding: 5% 18%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%
+}
+.posCard .cards{
+  padding: 10% 10%;
+  width:316px;
+  height: 256px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 27px 3px rgba(0, 0, 0, 0.12);
+}
+.posCard .cards #cardTitle{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0A1020;
+    
+}
+.posCard .cards #cardText{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.14px;
+    color: #6C6C6C;
+}
+.posCard .cards #viewJob{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1C9EDC;
+}
+.posCard .cards img{
+    margin:0 0 0 5%;
+}
+@media screen and (max-width:1445px)and (min-width:1024px){
+
+}
+@media screen and (max-width:1024px)and (min-width:768px){
+.positions .posCard{
+    padding: 2% 6%;
+}
+.posCard .cards{
+    width:276px;
+    height: 230px;
+}
+}
+@media screen and (max-width:768px)and (min-width:431px){
+.posCard .cards #cardTitle{
+    font-size: 12px;
+}
+    .positions .posCard{
+        padding: 2% 8%;
+    }
+    .posCard .cards{
+        width:200px;
+        height: 230px;
+    }
+}
+@media  screen and (max-width:430px) {
+.positions .posCard{
+    display: block;
+    padding: 2% 8%;
+}
+.posCard .cards{
+    margin: 0 0 10% 0;
+}
+}

@@ -8,7 +8,7 @@ function join() {
          <section>
              <div className='joinus'>
                 <div className='innerJoin'>
-                  <img src={JoinusImg} alt='joinus'></img>
+                  <img className="joinImg" src={JoinusImg} alt='joinus'></img>
                   <div className='innerText'>
                       <p id='innerTextTitle'>Join with us</p>
                       <p id='innerTextPara'>Here are some career pathways to consider if you enjoy working with others.</p>

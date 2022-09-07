@@ -33,3 +33,33 @@
     background-color: transparent;
     background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
 }
+@media screen and (max-width:1024px)and (min-width:768px){
+.pathway #pathwayText{
+    font-size: 30px;
+    width:65%;
+}
+.pathway .pathwayButton{
+    height: 25%;
+    margin: 1.5% 0 0 15%;
+
+}
+}
+@media screen and (max-width:430px) {
+.pathway{
+    display: block;
+    width:100%;
+    height:346px;
+}
+.pathway #pathwayText{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    width:100%;
+}
+.pathway .pathwayButton{
+    width: 40%;
+    height: 15%;
+    margin: 1.5% 0 0 0%;
+
+}
+}

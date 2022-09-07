@@ -22,8 +22,63 @@
     line-height: 24px;
     text-align: center;
     margin: 0 0 0 30%;
-    width:37%
+    width:37%;
 }
 .colleagues img{
     margin: 5% 0 0 0;
+}
+.colleagues .colleagueImgRes{
+    display: none;
+}
+@media screen and (max-width:1025px) and (min-width:768px) {
+.colleagues{
+    padding: 15% 0 0 0;
+}
+.colleagues img{
+    width:80%;
+}
+.colleagues .colleagueImgRes{
+    display: none!important;
+}
+}
+@media screen and (max-width:768px) and (min-width:431px) {
+    .colleagues{
+        height: 80vh;
+        padding: 20% 0 0 0;
+    }
+    .colleagues #candidateTitle{
+    font-size: 40px;
+    }
+    .colleagues #candidateText{
+      width:50%;
+      margin: 0 0 0 25%;
+      
+    }
+    .colleagues img{
+        width:80%;
+    }
+    .colleagues .colleagueImgRes{
+        display: none;
+    }
+}
+@media  screen and (max-width:430px) {
+    .colleagues #candidateTitle{
+       font-size: 30px;
+    }
+    .colleagues #candidateText{
+      width:90%;
+      margin: 0 0 0 5%;
+    }
+ 
+    .colleagues .colleagueImgRes{
+        display: block;
+    }
+    .colleagues .colleagueImg{
+        display: none!important;
+    }
+}
+@media screen  and (min-width:1025px){
+    .colleagues .colleagueImgRes{
+        display: none;
+    }
 }

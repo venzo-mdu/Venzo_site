@@ -60,3 +60,66 @@
 .perks .perksRightsection .perksRighticon p{
     margin: 0 0 16% 0;
 }
+@media screen and (max-width:1445px)and (min-width:1024px){
+.perks .perksRightsection {
+    margin: 5% 0 0 0;
+}
+}
+@media screen and (max-width:1025px) and (min-width:768px) {
+.perks .perksLeftsection #perksLeftText{
+    width:82%;
+}
+.perks .perksRightsection  p{
+    margin: 15% 0 0 0;
+}
+}
+@media screen and (max-width:768px) and (min-width:431px) {
+.perks{
+    height: 350px;
+}
+.perks .perksLeftsection #perksLeftTitle{
+    font-size:35px;
+}
+.perks .perksRightsection  {
+    margin: 5% 0 0 0;
+}
+
+}
+@media  screen and (max-width:430px) {
+    .perks{
+        display: block;
+        height: 600px;
+        width: 428px;
+
+    }
+.perks .perksLeftsection{
+    width:100%
+}
+.perks .perksRightsection{
+    width:100%
+}
+.perks .perksLeftsection #perksLeftTitle{
+    font-size: 40px;
+    font-weight: 600;
+    }
+.perks .perksLeftsection #perksLeftText{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justify;
+    width:80%
+}
+
+.perks .perksRightsection .perksLefticon{
+    margin: 5% 0 0 0;
+   width:50%
+
+}
+
+.perks .perksRightsection .perksRighticon{
+    margin: 5% 0 0 0;
+
+    width:50%
+
+}
+}
