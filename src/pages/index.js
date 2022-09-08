@@ -20,10 +20,6 @@ const IndexPage = () => {
       <ImageCarousel />
       <DevServices />
       <Build />
-      {/* <hr className="hr_line"/>
-      <Innovate />
-      <hr className="hr_line"/>
-      <Grow /> */}
       <Customer />
       <Blog />
       <Idea />

@@ -1,0 +1,26 @@
+.sect51_title{
+    font-family: "Poppins", Sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 80px;
+    text-align: center;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:425px){
+    .sect51_title {
+        font-family: "Poppins", Sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 60px;
+        text-align: center;
+        background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+}

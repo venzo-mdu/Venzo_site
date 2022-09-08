@@ -50,19 +50,19 @@ body{
 }
 @media screen and (max-width:1440px) and (min-width:1030px) {
     .improve{
-        height: 70vh;
+        height: 100vh;
     }
     .improveSoftware{
-        padding: 12% 10%;
+        padding: 15% 10% 0;
     }
     
 }
 @media screen and (max-width:1024px) and (min-width:775px) {
     .improve{
-        height: 60vh;
+        height: 100vh;
     }
     .improveSoftware{
-        padding: 15% 10%;
+        padding: 30% 10% 0;
     }
     #improveSoftwareLine1{
         font-size: 35px;

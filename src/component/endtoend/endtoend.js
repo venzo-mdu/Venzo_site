@@ -1,12 +1,13 @@
 import React from 'react'
 import '../endtoend/endtoend.css'
+import Accordion from 'react-bootstrap/Accordion';
 
 function endtoend() {
   return (
       <section>
           <div className='endtoendSolutions'>
           <div className='section5'>
-                    <p className='sect5_title'> End to End Banking solutions</p> 
+                    <p className='sect51_title'> End to End Banking solutions</p> 
                 </div>
 
                 <div className='cardList'>
@@ -22,6 +23,58 @@ function endtoend() {
 
                     </div>
                 </div>
+                <div className='section51'>
+                <Accordion defaultActiveKey="0" flush>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>Business consulting</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                            <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                            <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                        <Accordion.Header>Production Designing</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header>Product Development</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="4">
+                        <Accordion.Header>Tools Developmen</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="5">
+                        <Accordion.Header>QA Engineering</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="6">
+                        <Accordion.Header>Support Services</Accordion.Header>
+                        <Accordion.Body className=' cardbox'>
+                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+
+                </div>
+
           </div>
       </section>
   )

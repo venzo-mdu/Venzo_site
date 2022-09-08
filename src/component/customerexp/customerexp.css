@@ -51,17 +51,28 @@
         margin: 1.5% 0 0 10%;
     }
 }
-    @media screen and (max-width:1024px) and (min-width:775px) {
+    @media screen and (max-width:1024px) and (min-width:769px) {
         .customerExperiance h3{
-            font-size: 35px;
+            font-size: 24px;
             width: 65%;
+            margin-top: 7%;
         }
+        .customerExperiance .reachus{
+            height: 5vh;
+            width: 13vw;
+            color: white;
+            background-color: #000000;
+            border-radius: 10px 10px 10px 10px;
+            font-size: 18px;
+            margin: 9% 0 0 10%;
+        }
+
 }
     
-    @media screen and (max-width:770px) and (min-width:435px) {
+    @media screen and (max-width:768px) and (min-width:435px) {
         .customerExperiance h3{
-            font-size: 30px;
-            width: 65%;
+            font-size: 27px;
+            width: 63%;
         }
         .customerExperiance .reachus{
             width: 15vw;
