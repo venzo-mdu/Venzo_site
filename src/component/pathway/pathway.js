@@ -12,4 +12,4 @@ function pathway() {
   )
 }
 
-export default pathway
+export default pathway;

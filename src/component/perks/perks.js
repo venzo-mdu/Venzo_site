@@ -6,9 +6,6 @@ import perkImg3 from "../../images/perks3.png"
 import perkImg4 from "../../images/perks4.png"
 
 
-
-
-
 function perks() {
   return (
       <>

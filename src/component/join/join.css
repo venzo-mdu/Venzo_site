@@ -33,6 +33,9 @@
     font-size: 14px;
     font-weight: 600;
 }
+.innerJoin img{
+margin: 0 0 0 2%;
+}
 @media screen and (max-width:1445px)and (min-width:1024px){
 .joinus .innerJoin{
     width: 950px;
@@ -47,5 +50,75 @@
 @media screen and (max-width:768px)and (min-width:431px){
     .innerJoin .joinImg{
         width:55%;
+    }
+}
+@media screen and (max-width:430px) {
+.joinus{
+    padding: 0;
+}
+.joinus .innerJoin{
+    border-radius: 0px;
+    height: 615px;
+    width: 428px;
+    display: block;
+    padding-top: 10%;
+
+}
+.innerJoin .joinImg{
+    width: 100%;
+}
+.joinus .innerJoin .joinImgRes{
+    display: block;
+}
+.innerJoin .innerText{
+    width:100%;
+}
+.innerJoin .innerText #innerTextTitle{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10% 0 0 -10%;
+}
+.innerJoin .innerText #innerTextPara{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin: 5% 0 0 -12%;
+
+}
+.innerJoin .innerText #applyNow{
+    text-align: center;
+    margin: 10% 0 0 -12%;
+
+}
+
+}
+@media screen  and (max-width:376px){
+.joinus .innerJoin{
+    height:550px
+}
+    .innerJoin .joinImg{
+        width: 85%;
+    }
+    .innerJoin .innerText #innerTextTitle{
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        margin: 10% 0 0 -25%;
+    }
+    .innerJoin .innerText #innerTextPara{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin: 5% 0 0 -3%;
+        width: 80%;
+    
+    }
+    .innerJoin .innerText #applyNow{
+        text-align: center;
+        margin: 10% 0 0 -25%;
+    
     }
 }

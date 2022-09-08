@@ -26,3 +26,19 @@
     width: 100%;
 }
 }
+@media screen and (max-width:431px) {
+    .lifeAtvenzo{
+        padding: 5% 10%;
+    
+    }
+.lifeAtvenzo #lifeAtvenzotitle{
+    font-size: 32px;
+    font-weight:600;
+    border-left:3px solid #EC3939;
+}
+.lifeAtvenzo #lifeAtvenzoText{
+    font-size: 14px;
+    font-weight:400;
+    width:100%;
+}
+}

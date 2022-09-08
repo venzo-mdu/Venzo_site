@@ -49,6 +49,7 @@
     display: block;
     width:100%;
     height:346px;
+    padding-top: 10%;
 }
 .pathway #pathwayText{
     font-size: 32px;
@@ -59,7 +60,7 @@
 .pathway .pathwayButton{
     width: 40%;
     height: 15%;
-    margin: 1.5% 0 0 0%;
+    margin:5% 0 0 0%;
 
 }
 }

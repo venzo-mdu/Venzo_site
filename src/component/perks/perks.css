@@ -26,6 +26,7 @@
 .perks .perksRightsection{
     display: flex;
     width: 50%;
+    margin: 2% 0 0 0;
 }
 .perks .perksRightsection .perksLefticon{
     display: block;
@@ -88,9 +89,9 @@
 @media  screen and (max-width:430px) {
     .perks{
         display: block;
-        height: 600px;
+        height: 550px;
         width: 428px;
-
+        padding: 10% 5%;
     }
 .perks .perksLeftsection{
     width:100%

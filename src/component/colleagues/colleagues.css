@@ -12,7 +12,7 @@
     text-align: center;
 }
 .colleagues #gradientText{
-    color: #ec16b7;
+    color: #AD00FF;
 }
 .colleagues #candidateText{
     color: #929292;
@@ -27,18 +27,13 @@
 .colleagues img{
     margin: 5% 0 0 0;
 }
-.colleagues .colleagueImgRes{
-    display: none;
-}
+
 @media screen and (max-width:1025px) and (min-width:768px) {
 .colleagues{
     padding: 15% 0 0 0;
 }
 .colleagues img{
     width:80%;
-}
-.colleagues .colleagueImgRes{
-    display: none!important;
 }
 }
 @media screen and (max-width:768px) and (min-width:431px) {
@@ -57,11 +52,12 @@
     .colleagues img{
         width:80%;
     }
-    .colleagues .colleagueImgRes{
-        display: none;
-    }
+   
 }
 @media  screen and (max-width:430px) {
+    .colleagues{
+        height: 60vh;
+    }
     .colleagues #candidateTitle{
        font-size: 30px;
     }
@@ -69,16 +65,8 @@
       width:90%;
       margin: 0 0 0 5%;
     }
- 
-    .colleagues .colleagueImgRes{
-        display: block;
-    }
-    .colleagues .colleagueImg{
-        display: none!important;
-    }
-}
-@media screen  and (min-width:1025px){
-    .colleagues .colleagueImgRes{
-        display: none;
+    .colleagues img{
+        width:100%;
+        border-radius:0px!important;
     }
 }

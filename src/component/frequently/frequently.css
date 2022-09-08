@@ -10,3 +10,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
+
+@media screen and (max-width:430px){
+.frequently #frequentlyTitle{
+    font-size: 45px;
+    font-weight: 600;
+}
+}
+@media screen and (max-width:376px) {
+
+.frequently #frequentlyTitle{
+    font-size: 30px;
+    width:80%;
+    margin:0 0 0 10%;
+}
+}
