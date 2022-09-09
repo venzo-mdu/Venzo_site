@@ -48,14 +48,17 @@
         background-color: #000000;
         border-radius: 10px 10px 10px 10px;
         font-size: 18px;
-        margin: 1.5% 0 0 10%;
+        margin: 8% 0 0 10%;
     }
 }
     @media screen and (max-width:1024px) and (min-width:769px) {
+        .customerExperiance {
+            margin-top: 4%;
+        }
         .customerExperiance h3{
             font-size: 24px;
             width: 65%;
-            margin-top: 7%;
+            margin-top: 4%;
         }
         .customerExperiance .reachus{
             height: 5vh;
@@ -64,7 +67,7 @@
             background-color: #000000;
             border-radius: 10px 10px 10px 10px;
             font-size: 18px;
-            margin: 9% 0 0 10%;
+            margin: 7% 0 0 10%;
         }
 
 }
@@ -79,15 +82,16 @@
         }
 }
     
-    @media screen and (max-width:430px) and (min-width:380px) {
+    @media screen and (max-width: 425px) and (min-width:376px) {
         .customerExperiance{
             display: block;
             padding-top: 15%;
+            padding-bottom: 15%;
         }
         .customerExperiance h3{
             font-size: 20px;
             width: 110%;
-            margin: 0 0 0 1%;
+            margin: -10% 0 0% 1%;
         }
         .customerExperiance .reachus{
             width: 30vw;

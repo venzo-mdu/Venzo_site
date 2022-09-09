@@ -112,7 +112,7 @@
 
     .testing .typesTesting .testingCard {
         width: 70%;
-        height: 30vh;
+        height: 35vh;
         margin: 0 0 0 10%;
     }
 
@@ -130,7 +130,7 @@
     }
 }
 
-@media screen and (max-width:768px) and (min-width:435px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .testing {
         height: 90vh;
     }
@@ -161,9 +161,10 @@
     }
 }
 
-@media screen and (max-width:430px) and (min-width:380px) {
+@media screen and (max-width:425px) and (min-width:380px) {
     .testing {
-        height: 90vh;
+        height: 110vh;
+        margin-top: 50%;
     }
 
     .testing .typesTesting {
@@ -171,16 +172,16 @@
     }
 
     .testing .typesTesting h1 {
-        font-size: 50px;
+        font-size: 35px;
         width: 75%;
         text-align: center;
         margin: 0 0 0 12%;
     }
 
     .testing .typesTesting .testingCard {
-        height: 55vh;
+        height: 75vh;
         width: 90%;
-        margin: 10% 0 0 5%;
+        margin: 5% 0 0 5%;
     }
 
     .testingCard .types {
