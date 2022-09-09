@@ -18,13 +18,13 @@ function perks() {
         <div className='perksRightsection'>
             <div className='perksLefticon'>
              <img src={perkImg1} alt="perkIcon"></img>
-             <p>Explore Talents</p>
+             <p id='exploreTalents'>Explore Talents</p>
              <img src={perkImg3} alt="perkIcon"></img>
              <p>Social Learning</p>
             </div>
             <div className='perksRighticon'>
              <img src={perkImg2} alt="perkIcon"></img>
-             <p>Career Growth</p>
+             <p id='careerGrowth'>Career Growth</p>
              <img src={perkImg4} alt="perkIcon"></img>
              <p>Vision Building</p>
             </div>

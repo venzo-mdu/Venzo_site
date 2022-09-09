@@ -2,7 +2,7 @@
     background-color: #0A1020;;
     width: 100%;
     height: 421px;
-    padding: 5% 5%;
+    padding: 5% 15%;
     display: flex;
     width: 100%;
 }
@@ -21,7 +21,7 @@
     font-size:16px;
     font-weight: 500;
     line-height: 24px;
-    width:52%;
+    width:55%;
 }
 .perks .perksRightsection{
     display: flex;
@@ -37,6 +37,12 @@
     font-family: poppins;
     font-weight: 500;
     color: #FFFFFF;
+}
+.perks .perksRightsection .perksLefticon #exploreTalents{
+    margin-bottom: 25%;
+}
+.perks .perksRightsection .perksRighticon #careerGrowth{
+    margin-bottom: 25%;
 }
 .perks .perksRightsection .perksRighticon{
     display: block;

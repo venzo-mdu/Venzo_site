@@ -21,6 +21,17 @@
     width:80%
 
 }
+.youtubeVideo{
+    display: inline-flex;
+    padding: 1% 3%;
+    width: 100%;
+} 
+.youtubeVideo .link1{
+    width:50%
+}
+.youtubeVideo .link2{
+    width:50%
+}
 @media screen and (max-width:1025px) and (min-width:768px) {
 .lifeAtvenzo #lifeAtvenzoText{
     width: 100%;
