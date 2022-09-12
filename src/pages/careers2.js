@@ -3,6 +3,7 @@ import Header from '../component/header/header'
 import JobDetails from '../component/careersPage2/jobDetails/jobDetails'
 import ApplyJob from '../component/careersPage2/applyJob/applyJob'
 import Discussion from '../component/careersPage2/discussion/discussion'
+import Footer from '../component/footer/footer'
 
 const careersPage=()=>{
   return (
@@ -11,6 +12,7 @@ const careersPage=()=>{
     <JobDetails/>
     <ApplyJob/>
     <Discussion/>
+    <Footer/>
     </>
   )
 }

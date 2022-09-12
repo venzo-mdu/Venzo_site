@@ -32,11 +32,38 @@
 .youtubeVideo .link2{
     width:50%
 }
+@media screen and (max-width:1440px) and (min-width:1024px) {
+
+.youtubeVideo .link2{
+    margin-left:10%;
+}
+}
 @media screen and (max-width:1025px) and (min-width:768px) {
+
 .lifeAtvenzo #lifeAtvenzoText{
     width: 100%;
 }
+.youtubeVideo{
+    display: block;
 }
+
+.youtubeVideo .link1{
+    margin-left:10%;
+    width:20%
+}
+.youtubeVideo .link2{
+    margin-left:15%;
+    margin-top:5%;
+    width:20%
+}
+}
+/* @media screen and (max-width:767px) and (min-width:430px) {
+    .youtubeVideo .link1{
+        margin-left:10%;
+        width:20%
+    }
+} */
+
 @media screen and (max-width:431px) {
     .lifeAtvenzo{
         padding: 5% 10%;
@@ -51,5 +78,14 @@
     font-size: 14px;
     font-weight:400;
     width:100%;
+}
+.youtubeVideo{
+    display: block;
+}
+.youtubeVideo .link1{
+    width:10%
+}
+.youtubeVideo .link2{
+    width:10%
 }
 }
