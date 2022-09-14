@@ -13,11 +13,11 @@ function discussion() {
       <p id='gotanIdeaText'>Let’s discuss your project & find out what we can do to provide value.</p>
        </div>
        <div className='enquiryinDiscussion'>
-       <div className='contactform'>
+       <div className='contactformCareers'>
                     <p className='formTitle'>Let’s catch the initial spark!</p>
                     <input className='Fname' type="text" placeholder='Name*'></input>
                     <input className='Femail' type="text" placeholder='Email*'></input>
-                    <input className='Fphone' type="phone" placeholder='Mobile number'></input>
+                    <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
                     <textarea className='Fmessage' placeholder='Message*'></textarea>
                     <button className='Fbutton'>Submit</button>
 

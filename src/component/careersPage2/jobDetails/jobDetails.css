@@ -2,11 +2,15 @@
     
     background-repeat:no-repeat;
 }
-.jobDetails img{
+.careers2bg{
+    display: block;
     width:100%;
     height:50vh;
-    margin:5% 0 0 0;
 }
+.careers2bgRes{
+    display: none;
+}
+
 .jobDetails #jobDetailsText{
     font-family: Poppins;
     font-size: 55px;
@@ -17,4 +21,42 @@
     top: 30%;
     left: 40%;
 
+}
+@media screen and (max-width:768px) and (min-width:431px) {
+.jobDetails #jobDetailsText{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+}
+@media screen and (max-width:430px) {
+    
+    .jobDetails{
+        background-repeat:no-repeat;
+    }
+    .careers2bgRes{
+      display: block;
+      height: 170px;
+      width: 758px;
+        
+    }
+    .careers2bg{
+        display: none;
+    }
+.jobDetails #jobDetailsText{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    top: 85px;
+    left: 130px;
+
+}
+}
+@media screen and (max-width:380px) {
+.jobDetails #jobDetailsText{
+    left: 110px;
+
+}
 }

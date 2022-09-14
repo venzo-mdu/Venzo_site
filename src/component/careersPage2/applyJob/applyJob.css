@@ -19,6 +19,18 @@
 .applyJob .applyNow{
     width: 50%;
 }
+.socialmediaIconsCareers{
+    display: inline-flex;
+    width: 100%;
+}
+.icons{
+    display: inline-flex;
+}
+.icons img{
+    height: 16.678285598754883px;
+    width: 16.678285598754883px;
+    margin: 20% 0 0 30%;
+}
 .details #detailsText{
     font-family: Poppins;
     font-size: 32px;
@@ -41,7 +53,7 @@
 .applyJob .applyNowButton{
     height: 35%;
     padding: 0.5% 0;
-    width: 10vw;
+    width: 12vw;
     color: white;
     background: #0A1020;
     border-radius: 10px 10px 10px 10px;
@@ -58,6 +70,7 @@
     color:#929292;
     margin: 1.5% 0 0 40%;
 }
+
 .applyJob .descripition{
     background-color: #F8F8F8;
     border-radius: 12px;
@@ -78,6 +91,9 @@
     text-align: left;
     color:#0A1020;
 
+}
+.skillsRequired ul li img{
+    display: none;
 }
 .skillsRequired #skillsRequiredTitle{
     font-family: Poppins;
@@ -111,8 +127,86 @@ ul li{
     color:#929292;
 
 }
+@media screen and (max-width:768px) and (min-width:431px) {
+.applyJob .applyNowButton{
+    height: 25%;
+    width:55%;
+    margin-top: 5%;
+}
+.descripition .applyNowButton{
+    height: 8%;
+    width:35%;
+}
+.socialmediaIconsCareers{
+    margin-top:7% ;
+}
+.icons img{
+    height: 16.678285598754883px;
+    width: 16.678285598754883px;
+    margin-left: 15%;
 
 
+}
 
+}
+@media screen and (max-width:430px) {
+.applyJob .descripition{
+    height:697px;
+}
+    .applyNow{
+        display: none;
+    }
 
+    .details #detailsText{
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        white-space:nowrap;
+    }
+.details #experiancerText{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    white-space:nowrap;
+}
+.jobDescripition ul li{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: justified;
+    width: 328px;
+    margin-left: -10%;
 
+}
+.jobDescripition ul img {
+display: none;
+}
+.skillsRequired ul li img{
+    display: block;
+    margin-left: -5%;
+    margin-top: 5%;
+    width:5%;
+}
+.skillsRequired ul li{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: justified;
+
+}
+.descripition .applyNowButton{
+    height: 40px;
+    width: 328px;
+    margin-left: 4%;
+}    
+}
+@media screen and (max-width:380px) {
+    .descripition .applyNowButton{
+    width: 300px;
+    margin-left: 1%;
+    }
+}

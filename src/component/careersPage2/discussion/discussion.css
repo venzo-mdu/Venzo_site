@@ -30,14 +30,22 @@
     width: 45%;
 
 }
+.enquiryinDiscussion{
+    height: 500px;
+    width: 687px;
+    border-radius: 10.839534759521484px;
+    padding: 3% 5%;
+    background: #0A1020;
+
+}
 .enquiryinDiscussion  .contactform {
     width: 50%;
     height: 84%;
     margin-left: -4%;
     margin-top: 3%;
-    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
     border-radius: 10.8395px;
     padding: 4%;
+    background: unset;
 
 }
 .enquiryinDiscussion .formTitle {
@@ -83,7 +91,7 @@
     line-height: 21px;
     color: #929292;
     margin: 2% 4% 4% 0;
-    width: 93%;
+    width: 96%;
 }
 
 .enquiryinDiscussion  .Fmessage {
@@ -94,11 +102,12 @@
     line-height: 21px;
     color: #929292;
     padding: 2%;
-    width: 93%;
-    height: 30%;
+    height: 100px;
+    width:96%;
+    border-radius: 4px;
+    
 }
-
-.enquiryinDiscussion  .Fbutton {
+.enquiryinDiscussion .Fbutton {
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     border-radius: 8px;
     padding: 1% 5%;
@@ -109,4 +118,47 @@
     line-height: 120%;
     color: #FFFFFF;
     margin: 8% 0 0 75%;
+}
+@media screen and (max-width:430px) {
+.discussion{
+    display: block;
+    height:90vh;
+}
+
+
+.gotanIdea #gotanIdeaTitle{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width:208px;
+}
+.gotanIdea #gotanIdeaText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 56px;
+    width: 388px;
+}
+
+.discussion .enquiryinDiscussion{
+   width:90vw;
+   padding-top:15%;
+   margin-top: 15%;
+}
+.enquiryinDiscussion .Fbutton {
+    margin: 10% 0 0 3%;
+    width: 320px;
+    
+}
+}
+@media screen and (max-width:380px) {
+.enquiryinDiscussion .Fbutton {
+    margin-left: 1%;
+    width: 290px;
+}
+
 }
