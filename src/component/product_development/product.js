@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import './product.css';
+import './laptopL.css';
+
 import line from '../../images/Vector 76.svg';
 import quality from '../../images/enterpise.png'
 import mvp from '../../images/mvp.png'
@@ -12,8 +14,20 @@ import saas1 from '../../images/saas1.png'
 import saas2 from '../../images/saas2.png'
 import saas3 from '../../images/saas3.png'
 
+import bgImageAnimation from '../../images/animationBg.png'
+import whyVenzoIcon1 from '../../images/whyVenzoicon1.png'
+import whyVenzoIcon2 from '../../images/whyVenzoicon2.png'
+import whyVenzoIcon3 from '../../images/whyVenzoicon3.png'
+import whyVenzoIcon4 from '../../images/whyVenzoicon4.png'
+import productImage from '../../images/productImage.png'
+import borderLine from '../../images/borderLine.png'
+
+
+
 function product() {
     return (
+        <>        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'></link>
+
         <div>
             <Header flag='header1' />
             <Header flag='header2' />
@@ -166,6 +180,52 @@ function product() {
                 </div>
             
             </div>
+   
+               <div className='animation'>
+                   <img src={bgImageAnimation} alt='backgroundImage'></img>
+                   <p id='animationText'>We’ll identify and equip you with a team of developers perfectly suited to your project, ready to work hand-in-glove with your in-house team, using shared tools and methodologies.</p>
+               </div>
+      
+
+               <div className='whyVenzo'>
+                     <p id='whyVenzoTitle'>Why <span id='colorVenzoText'>Venzo?</span></p>
+                     <p id='whyVenzoText'>Venzo’s product engineering solutions team uses cutting-edge technologies, solid frameworks, and efficient workflows to provide stage-wise delivery for improved product control and visibility.</p>
+                     <div className='venzoCards'>
+                         <div className='subCards'>
+                             <img src={whyVenzoIcon1} alt='whyVenzoIcon'></img>
+                          <p id='subCardsText'>Product engineering experts</p>
+                         </div>
+                         <div className='subCards'>
+                         <img src={whyVenzoIcon2} alt='whyVenzoIcon'></img>
+                          <p id='subCardsText'>Quality driven</p>
+                             
+                         </div>
+                         <div className='subCards'>
+                         <img src={whyVenzoIcon3} alt='whyVenzoIcon'></img>
+                          <p id='subCardsText'>Diverse technology</p>
+                             
+                         </div>
+                         <div className='subCards'>
+                         <img src={whyVenzoIcon4} alt='whyVenzoIcon'></img>
+                          <p id='subCardsText'>Information Security</p>
+                             
+                         </div>
+                     </div>
+              
+               </div>
+           
+
+           <div className='awesomeProducts'>
+            <div className='ourProducts'>
+              <div className='productDesc'>
+               <p id='productTitle'>Madras Daily</p>
+               <img  className='boderLine' src={borderLine} alt='borderImage'></img>
+               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+              </div>
+              <img  className='productImage' src={productImage} alt='productImage'></img>
+            </div>
+           </div>
+
             <div>
                 <div className='buildProduct'>
                     <p className='build'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
@@ -174,6 +234,8 @@ function product() {
             </div>
             <Footer />
         </div>
+        </>
+
     )
 }
 

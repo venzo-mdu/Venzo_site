@@ -4,7 +4,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 610px;
 }
 
 .saas {
@@ -59,7 +59,7 @@
 
 .linev {
     background: rgba(216, 216, 216, 1);
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .helpTitle {
@@ -251,6 +251,132 @@
     width: 70%;
     margin-left: 15%;
     margin-bottom: 30%;
+}
+.animation{
+    /* background-image: url('../../images/animationBg.png'); */
+    padding: 3% 5%;
+    position: relative;
+}
+.animation img {
+    width:100%;
+}
+.animation #animationText{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.025em;
+    height: 140px;
+    width: 668px;
+    position: absolute;
+    top:400px;
+    left:600px;
+    text-align: center;
+}
+
+.whyVenzo{
+    padding: 5% 5%;
+}
+.whyVenzo #whyVenzoTitle{
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin-left: 18%;
+    
+}
+.whyVenzo #colorVenzoText{
+    background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.whyVenzo #whyVenzoText{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #848484;
+    width: 933px;
+    margin-left: 18%;
+
+    
+}
+.venzoCards{
+    padding: 5% 18%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%;
+}
+.venzoCards .subCards{
+    padding: 10% 15%;
+    height: 274px;
+    width: 222px;
+    border-radius: 12px;
+    background: #F9F9F9;
+    display: block;
+}
+.venzoCards .subCards #subCardsText{
+    font-family: Manrope;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    height: 96px;
+    width: 148px;
+    margin-top:30%;
+
+}
+.awesomeProducts{
+    background-color:#0A1020;
+    height: 661px;
+    width:100vw;
+    padding: 5%;
+}
+.ourProducts{
+    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
+    border-radius: 5px;
+    height: 500px;
+    width: 1144px;
+    padding: 5% 10%;
+    display: flex;
+    width: 100%;
+}
+.ourProducts .productDesc{
+    width:50%
+}
+.productDesc #productTitle{
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.productDesc #productText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    height: 125px;
+    width: 434px;
+    margin-top: 5%;
+
+}
+.boderLine{
+width:20%;
+}
+.ourProducts .productImage{
+    width: 50%;
 }
 .Quotes {
     font-family: 'Poppins';
