@@ -10,7 +10,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
-
+.collapseData{
+    text-align: left;
+}
 @media screen and (max-width:430px){
 .frequently #frequentlyTitle{
     font-size: 45px;

@@ -216,6 +216,7 @@ function product() {
            
 
            <div className='awesomeProducts'>
+               <p className='awesomeTitle'>Awesome products from <span id='awesomeVenzo'>Venzo !</span></p>
             <div className='ourProducts'>
               <div className='productDesc'>
                <p id='productTitle'>Madras Daily</p>
@@ -227,8 +228,9 @@ function product() {
            </div>
 
             <div>
+
                 <div className='buildProduct'>
-                    <p className='build'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
+                    <p className='buildText'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
                     <button className=' btn buildtalk'>Let's talk</button>
                 </div>
             </div>

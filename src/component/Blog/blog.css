@@ -45,8 +45,8 @@ body{
     height: 60%;
     margin-left: 8%;
     padding: 13%;
-    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
-    border-radius: 15px;    
+    background: #181D2B;
+    border-color: 0.5px solid #77797D;
     border-radius: 5%;
     box-sizing: border-box;
 }

@@ -1,5 +1,12 @@
-@media screen and (max-width:1440) and (min-width:1025px){
+@media screen and (max-width:1445px) and (min-width:1025px) {
     .saas{
-        margin-left: -5%;
+      
+    margin:0 0 5% -10%;
+
+    }
+    .animation #animationText{
+        position:absolute;
+        left:390px;
+        top:300px;
     }
 }

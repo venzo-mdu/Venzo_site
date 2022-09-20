@@ -11,12 +11,13 @@ body{
 
 .containor1{
     display: flex;
-    margin-top: 4%
+    margin: 4%;
+    width: 100%;
 }
 .build{
     height:12%;
-    width:25%;
-    margin-left: 16%;
+    width:50%!important;
+    padding: 1% 0 0 8%;
 }
 .title{
     font-family: 'Poppins';
@@ -33,16 +34,15 @@ font-weight: 400;
 font-size: 18px;
 line-height: 175%;
 color: rgba(0, 0, 0, 0.5);
+width:50%;
 }
-.images{
-    margin-left: 40%;
-    width: 50%;
+/* .images{
     height: auto;
-    width: 100%;
-}
+    width: 80%;
+} */
 .row{
     display:flex;
-    margin-left: 16%;
+    margin-left: 12%;
     margin-top: 2%;
     font-size: 20px;
 }

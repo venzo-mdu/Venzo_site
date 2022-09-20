@@ -5,8 +5,8 @@ import '../../style/laptop.css'
 import '../../style/laptopL.css'
 import '../../style/tablet.css'
 import '../../style/mobile.css'
-
 import buildContent from '../../content/BuilContent.json'
+
 function Build() {
     return (
         <div>
@@ -26,9 +26,8 @@ function Build() {
                                 </div>
                             </div>
                         </div>
-                        <div >
+                        
                             <img className="images" src={item.images} alt='image'/>
-                        </div>
                     </div>
                     <div className=" row">
                         {item.SubContent.map(item => {

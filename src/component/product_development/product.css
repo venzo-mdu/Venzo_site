@@ -254,7 +254,6 @@
 }
 .animation{
     /* background-image: url('../../images/animationBg.png'); */
-    padding: 3% 5%;
     position: relative;
 }
 .animation img {
@@ -334,12 +333,29 @@
 }
 .awesomeProducts{
     background-color:#0A1020;
-    height: 661px;
+    height: 750px;
     width:100vw;
     padding: 5%;
 }
+.awesomeProducts .awesomeTitle{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.awesomeProducts #awesomeVenzo{
+    background: -webkit-linear-gradient(273.09deg, #AD00FF 21.43%, #FF7A00 212.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
 .ourProducts{
-    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
+    background: #181D2B;
     border-radius: 5px;
     height: 500px;
     width: 1144px;
@@ -376,7 +392,7 @@
 width:20%;
 }
 .ourProducts .productImage{
-    width: 50%;
+   margin-left: 15%;
 }
 .Quotes {
     font-family: 'Poppins';
@@ -392,13 +408,13 @@ width:20%;
 
 .buildProduct {
     margin: 0 9px 0 0;
-    padding: 4% 0;
+    padding: 4% 10%;
     width: 100%;
     display: flex;
     background-color: #f6f6f6;
 }
 
-.build {
+.buildText {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -410,7 +426,6 @@ width:20%;
 }
 
 .buildtalk {
-    margin-left: -35%;
     height: 45%;
     margin-top: 2%;
     width: 11%;

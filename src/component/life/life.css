@@ -45,6 +45,7 @@
 }
 .youtubeVideo{
     display: block;
+    padding: 1% 6%;
 }
 
 .youtubeVideo .link1{
@@ -57,12 +58,11 @@
     width:20%
 }
 }
-/* @media screen and (max-width:767px) and (min-width:430px) {
-    .youtubeVideo .link1{
-        margin-left:10%;
-        width:20%
+@media screen and (max-width:768px) and (min-width:430px) {
+    .youtubeVideo {
+        padding: 1% 0%;
     }
-} */
+}
 
 @media screen and (max-width:431px) {
     .lifeAtvenzo{
@@ -83,9 +83,15 @@
     display: block;
 }
 .youtubeVideo .link1{
-    width:10%
+    width:100%;
+}
+.youtubeVideo .link1 img{
+    width: 100%;
 }
 .youtubeVideo .link2{
-    width:10%
+    width:100%;
+}
+.youtubeVideo .link2 img{
+    width: 100%;
 }
 }
