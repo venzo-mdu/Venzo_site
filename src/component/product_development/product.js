@@ -4,6 +4,10 @@ import Footer from '../footer/footer';
 import './product.css';
 import './laptopL.css';
 import './laptopM.css';
+import './productTab.css';
+import './mobile.css';
+
+
 
 
 import line from '../../images/Vector 76.svg';
@@ -82,20 +86,20 @@ function product() {
                             <p className='cons_desc'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
                             <div className='cons_list'>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Technical<br />consultation </p>
+                                    <p className='cons_subTitle'>Technical consultation </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
 
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  &  <br />Conceptualization </p>
+                                    <p className='cons_subTitle'>Ideas  & Conceptualization </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy <br />Development </p>
+                                    <p className='cons_subTitle'>Strategy Development </p>
                                 </div>
                             </div>
                         </div>
@@ -105,29 +109,29 @@ function product() {
                             <p className='cons_title'>Saas Development</p>
                             <p className='cons_desc'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
                             <div className='dev_list'>
-                                <div>
+                                <div className='dev_list-Block'>
 
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Technical<br />consultation </p>
+                                    <p className='cons_subTitle'>Technical consultation </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div  className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  &  <br />Conceptualization </p>
+                                    <p className='cons_subTitle'>Ideas  &  Conceptualization </p>
                                 </div>
                                 </div>
-                                <div>
+                                <div className='dev_list-Block'>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy <br />Development </p>
+                                    <p className='cons_subTitle'>Strategy Development </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>04</p>
-                                    <p className='cons_subTitle'>Strategy <br />Development </p>
+                                    <p className='cons_subTitle'>Strategy Development </p>
                                 </div>
                                 </div>
                             </div>
@@ -142,14 +146,14 @@ function product() {
                             <p className='cons_desc'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
                             <div className='cons_list'>
                             <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'> 
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Flexible team <br />& 24/7 Service </p>
+                                    <p className='cons_subTitle'>Flexible team & 24/7 Service </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
-                                <div>
+                                <div className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ongoing  <br />support & maintenance </p>
+                                    <p className='cons_subTitle'>Ongoing  support & maintenance </p>
                                 </div> 
                             </div>
                         </div>

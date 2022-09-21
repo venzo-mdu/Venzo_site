@@ -1,0 +1,119 @@
+@media screen and (max-width:430px) {
+    .product_Title {
+        margin: 8% 10%;
+    }
+    .expert_flex{
+        display: block;
+        text-align: center;
+    }
+    .expert_flex p{
+        margin: -5% 0 0 0;
+    }
+    .saas{
+        text-align: center;
+    }
+    .cons_desc{
+        margin: 0 0 0 10%;
+    }
+    .cards1,.cards2,.cards3{
+        width:300px;
+        margin: 0 0 10% 8%;
+        text-align: left;
+    }
+    .ImpactTitle{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 31px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        width: 350px;
+        margin: 0 0 0 5%;
+
+    }
+    /* .cards3{
+        margin-left: -10%;
+    } */
+    .animation #animationText{
+        left:190px;
+        top:150px;
+        font-size: 16px;
+        width: 50%;
+    }
+    .linev{
+        display: none;
+    }
+    .linevText{
+        display: flex;
+    }
+    .helpTitle{
+        font-size: 38px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .helpDesc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        height: 128px;
+        width: 361px;
+        margin: 0 0 0 8%;
+        
+    }
+    .cons_list{
+        display: block;
+        margin: 0 0 0 25%;
+    }
+    .dev_list-Block{
+        display: block;
+        margin: 0% 0 0 25%;
+    }
+    .cons_subTitle{
+        margin: 1% 0 0 5%;
+        width:70%;
+    }
+    /* .ourProducts{
+        display: block;
+        text-align: center;
+    } */
+    .cardlist{
+        display: block;
+        text-align: center;
+
+    }
+    .saas_consulting, .saas_Development {
+        display: block;
+       
+    }
+    .awesomeProducts{
+        height: 100vh;
+   }
+   .ourProducts{
+       padding:5% 5%;
+       margin: 10% 0 0 0;
+       display: block;
+       height: 700px;
+   }
+   .cardlist {
+       padding:3% 5%;
+       grid-template-columns: repeat(2,1fr);
+      
+  }
+  
+  .venzoCards{
+   grid-template-columns: repeat(2,1fr);
+   margin: 0 0 0 15%;
+
+  }
+  .whyVenzo #whyVenzoTitle{
+      text-align: center;
+  }
+  .whyVenzo #whyVenzoText{
+      width:50%;
+      text-align: center;
+      margin: 0 0 0 35%;
+  }
+
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width:768px) and (min-width:431px) {
+    .product_Title {
+        margin: 8% 10%;
+    }
+    .expert_flex{
+        display: block;
+        text-align: center;
+    }
+    .expert_flex p{
+        margin: -5% 0 0 0;
+    }
+    .saas{
+        text-align: center;
+    }
+    .cons_desc{
+        margin: 0 0 0 10%;
+    }
+    .cards1,.cards2,.cards3{
+        width:300px;
+        margin: 0 0 10% 25%;
+        text-align: left;
+    }
+    /* .cards3{
+        margin-left: -10%;
+    } */
+    .animation #animationText{
+        left:190px;
+        top:150px;
+        font-size: 16px;
+        width: 50%;
+    }
+    .linev{
+        display: none;
+    }
+    .linevText{
+        display: flex;
+    }
+    .cons_list{
+        display: block;
+        margin: 0 0 0 25%;
+    }
+    .dev_list-Block{
+        display: block;
+        margin: 0% 0 0 25%;
+    }
+    .cons_subTitle{
+        margin: 1% 0 0 5%;
+        width:70%;
+    }
+    /* .ourProducts{
+        display: block;
+        text-align: center;
+    } */
+    .cardlist{
+        display: block;
+        text-align: center;
+
+    }
+    .saas_consulting, .saas_Development {
+        display: block;
+       
+    }
+    .awesomeProducts{
+        height: 100vh;
+   }
+   .ourProducts{
+       padding:5% 5%;
+       margin: 10% 0 0 0;
+       display: block;
+       height: 700px;
+   }
+   .cardlist {
+       padding:3% 5%;
+       grid-template-columns: repeat(2,1fr);
+      
+  }
+  
+  .venzoCards{
+   grid-template-columns: repeat(2,1fr);
+   margin: 0 0 0 15%;
+
+  }
+  .whyVenzo #whyVenzoTitle{
+      text-align: center;
+  }
+  .whyVenzo #whyVenzoText{
+      width:50%;
+      text-align: center;
+      margin: 0 0 0 35%;
+  }
+
+}
