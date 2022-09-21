@@ -137,6 +137,7 @@
     font-size: 14px;
     line-height: 175%;
     color: #9E9E9E;
+    width:80%;
 }
 
 .cons_number {
@@ -428,7 +429,7 @@ width:20%;
 .buildtalk {
     height: 45%;
     margin-top: 2%;
-    width: 11%;
+    width: 200px;
     color: white;
     background-color: #000000;
     border-radius: 7px 7px 7px 7px;

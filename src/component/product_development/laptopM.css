@@ -1,0 +1,22 @@
+@media screen and (max-width:1025px) and (min-width:768px) {
+    .expert_flex {
+        margin: 0 5% 5% 3%;
+    }
+    .saas{
+        margin: 0 5% 5% 3%;
+    }
+    .animation #animationText{
+        left:190px;
+        top:200px
+    }
+    .whyVenzo{
+        margin:3% 0 0 -21.5%;
+    }
+    .awesomeProducts{
+
+    }
+    .ourProducts{
+        padding:10% 5%;
+    }
+
+}

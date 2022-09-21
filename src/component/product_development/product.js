@@ -3,6 +3,8 @@ import Header from '../header/header';
 import Footer from '../footer/footer';
 import './product.css';
 import './laptopL.css';
+import './laptopM.css';
+
 
 import line from '../../images/Vector 76.svg';
 import quality from '../../images/enterpise.png'
