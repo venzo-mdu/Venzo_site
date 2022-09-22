@@ -6,11 +6,13 @@ import './laptopL.css';
 import './laptopM.css';
 import './productTab.css';
 import './mobile.css';
+import './mobileS.css';
 
 
 
 
 import line from '../../images/Vector 76.svg';
+import expertsBottomline from '../../images/expertsBottomline.png';
 import quality from '../../images/enterpise.png'
 import mvp from '../../images/mvp.png'
 import domin from '../../images/domin.png'
@@ -19,8 +21,13 @@ import sme from '../../images/sme.png'
 import saas1 from '../../images/saas1.png'
 import saas2 from '../../images/saas2.png'
 import saas3 from '../../images/saas3.png'
+import saas4 from '../../images/saasDevelopmentimg.png'
+
+
 
 import bgImageAnimation from '../../images/animationBg.png'
+import bgImageAnimationRes from '../../images/animationBgRes.png'
+
 import whyVenzoIcon1 from '../../images/whyVenzoicon1.png'
 import whyVenzoIcon2 from '../../images/whyVenzoicon2.png'
 import whyVenzoIcon3 from '../../images/whyVenzoicon3.png'
@@ -42,6 +49,11 @@ function product() {
                     <p className='product_Title'>Developing<br /> products that<br /> provide <span className='colorname'>real value</span></p>
                 </div>
             </div>
+            {/* <div>
+                <div className='product_section2'>
+                    <p className='product_Title'>Developing<br /> products that<br /> provide <span className='colorname'>real value</span></p>
+                </div>
+            </div> */}
             <div className='product_experts'>
                 <p className='experts_title'>We are <span className='colorname'>experts in</span></p>
                 <div className='expert_flex'>
@@ -80,7 +92,7 @@ function product() {
                 </div>
                 <div className='saas'>
                     <div className='saas_consulting'>
-                        <img src={saas1} />
+                        <img className='saasImg' src={saas1} />
                         <div className='cons_right'>
                             <p className='cons_title'>Saas Consulting</p>
                             <p className='cons_desc'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
@@ -105,6 +117,7 @@ function product() {
                         </div>
                     </div>
                     <div className='saas_Development'>
+                    <img className='saasImg' id='saasImgRes' src={saas4} />
                         <div className='cons_left'>
                             <p className='cons_title'>Saas Development</p>
                             <p className='cons_desc'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
@@ -136,11 +149,11 @@ function product() {
                                 </div>
                             </div>
                         </div>
-                        <img src={saas2} />
+                        <img className='saasImg1' src={saas2} />
 
                     </div>
                     <div className='saas_consulting'>
-                        <img src={saas3} />
+                        <img className='saasImg' src={saas3} />
                         <div className='cons_right'>
                             <p className='cons_title'>Support and Maintanence</p>
                             <p className='cons_desc'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
@@ -188,7 +201,9 @@ function product() {
             </div>
    
                <div className='animation'>
-                   <img src={bgImageAnimation} alt='backgroundImage'></img>
+                   <img className='animationBG' src={bgImageAnimation} alt='backgroundImage'></img>
+                   <img className='animationBGRes' src={bgImageAnimationRes} alt='backgroundImage'></img>
+                  
                    <p id='animationText'>We’ll identify and equip you with a team of developers perfectly suited to your project, ready to work hand-in-glove with your in-house team, using shared tools and methodologies.</p>
                </div>
       
@@ -226,7 +241,7 @@ function product() {
             <div className='ourProducts'>
               <div className='productDesc'>
                <p id='productTitle'>Madras Daily</p>
-               <img  className='boderLine' src={borderLine} alt='borderImage'></img>
+               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
                <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
               </div>
               <img  className='productImage' src={productImage} alt='productImage'></img>

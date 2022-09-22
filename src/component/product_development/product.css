@@ -6,7 +6,9 @@
     width: 100vw;
     height: 610px;
 }
-
+/* .product_section2{
+    display: none;
+} */
 .saas {
     margin-bottom: 10%;
 }
@@ -96,7 +98,9 @@
     margin-top: 5%;
 
 }
-
+#saasImgRes{
+    display: none;
+}
 .cons_list {
     display: flex;
 }
@@ -262,8 +266,12 @@
     /* background-image: url('../../images/animationBg.png'); */
     position: relative;
 }
-.animation img {
+.animationBG{
+    display: block;
     width:100%;
+}
+.animationBGRes{
+    display: none;
 }
 .animation #animationText{
     font-family: Poppins;
@@ -394,7 +402,7 @@
     margin-top: 5%;
 
 }
-.boderLine{
+.borderLine{
 width:20%;
 }
 .ourProducts .productImage{
