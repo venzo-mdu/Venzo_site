@@ -6,7 +6,7 @@
     },
     {
         "navLink":"Product Development",
-        "routeLink":"/product_development"
+        "routeLink":"/productDevelopment"
     },
     {
         "navLink":"BlockChain Development",

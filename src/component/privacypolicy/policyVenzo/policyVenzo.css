@@ -1,0 +1,177 @@
+.policyVenzo{
+      padding: 1% 5%;
+      margin: -25% 0 0 0;
+}
+.policies{
+    background-color: #F8F8F8;
+    height: 1250px;
+    width: 1650px;
+    left: 101px;
+    top: 284px;
+    border-radius: 8px;
+
+}
+
+
+.policy{
+    padding: 5% 5%;
+}
+.policy #firstPara{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    text-align: left;
+    width:90%;
+    color: #606060;
+
+}
+.policy #personalTitle{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.policy #personalText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    width: 90%;
+    color: #606060;
+}
+.policyList #policyListText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    width: 90%;
+    color: #606060;
+
+}
+.policyList ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    color: #606060;
+
+}
+.policy #emailText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    color: #606060;
+
+}
+.policy #attentionMail{
+    color: #000000;
+}
+.policy #attentionText{
+    color:#000000;
+}
+.policy #attention{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: justified;
+    color: #606060;
+    width:17%;
+
+}
+@media screen and (max-width:1440px) and (min-width:1030px){
+        .policyVenzo{
+            padding: 1% 3%;
+        }
+        .policies{
+        background-color: #F8F8F8;
+        height: 1350px;
+        width: 1250px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:775px){
+    .policyVenzo{
+        padding: 1% 2.1%;
+        margin: -35% 0 0 0;
+    }
+    .policies{
+    background-color: #F8F8F8;
+    height: 1450px;
+    width: 900px;
+   }
+.policy #attention{
+    width:35%
+}
+}
+@media screen and (max-width:770px) and (min-width:431px){
+    .policyVenzo{
+        padding: 1% 2.3%;
+        margin: -45% 0 0 0;
+    }
+    .policies{
+    background-color: #F8F8F8;
+    height: 1550px;
+    width: 735px;
+   }
+   .policy #attention{
+    width:40%
+}
+}
+@media screen and (max-width:430px) {
+    .policyVenzo{
+        margin: 0% 0 0 0;
+        padding: 0;
+    }
+    .policies{
+        background-color: #F8F8F8;
+        height: 1550px;
+        width: 735px;
+        border-radius: 0px;
+       }
+       .policy{
+           padding: 3% 3%;
+       }
+    .policy #firstPara{   
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        text-align: justified;
+        width: 388px;
+        }
+    .policy #personalTitle{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .policyList #policyListText{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        text-align: justified;
+        width:388px;
+    }
+}

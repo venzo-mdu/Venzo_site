@@ -29,6 +29,7 @@ const IndexPage = () => {
       <Link to="/banking-QAPage"></Link>
       <Link to="/careers"></Link>
       <Link to="/careers2"></Link>
+      
 
     </div>
    
