@@ -11,7 +11,7 @@ import ImageCarousel from "../component/imageCarousel/imageCarousel";
 import UIUXPage from "../pages/UIUX"
 import bankingQAPage from "./bankingQA";
 import careers from "./careers";
-import careers2 from "./careers2";
+import careers2 from "./careersdetails";
 
 const IndexPage = () => {
   return (
@@ -28,7 +28,7 @@ const IndexPage = () => {
       <Link to="/UIUX"></Link>
       <Link to="/banking-QAPage"></Link>
       <Link to="/careers"></Link>
-      <Link to="/careers2"></Link>
+      <Link to="/careersdetails"></Link>
       
 
     </div>

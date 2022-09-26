@@ -37,6 +37,16 @@
     text-align: center;
     color: #000000;
 }
+.policy #personalTitle1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+
 .policy #personalText{
     font-family: Poppins;
     font-size: 16px;
@@ -140,7 +150,7 @@
     }
     .policies{
         background-color: #F8F8F8;
-        height: 1550px;
+        height: 2100px;
         width: 735px;
         border-radius: 0px;
        }
@@ -148,7 +158,6 @@
            padding: 3% 3%;
        }
     .policy #firstPara{   
-        font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         line-height: 32px;
@@ -157,7 +166,6 @@
         width: 388px;
         }
     .policy #personalTitle{
-        font-family: Poppins;
         font-size: 18px;
         font-weight: 600;
         line-height: 36px;
@@ -166,7 +174,6 @@
 
     }
     .policyList #policyListText{
-        font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         line-height: 32px;
@@ -174,4 +181,39 @@
         text-align: justified;
         width:388px;
     }
-}
+    .policy #personalText{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        text-align: justified;
+        width:388px;
+    }
+    .policyList ul li{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        text-align: justified;
+        width:388px;
+    }
+    .policy #personalTitle1{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        width:388px;
+    }
+    .policy #emailText{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.03em;
+        text-align: justified;
+        width: 388px;
+    }
+    .policy #attention{
+        width: 388px;
+    }
+} 

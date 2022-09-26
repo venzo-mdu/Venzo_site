@@ -24,7 +24,7 @@ function policyVenzo() {
                     <li>ask for personal information.</li>
                    </ul>
                  </div>
-                 <p id='personalTitle'>How Do We Gather Data By Automatic Means?</p> 
+                 <p id='personalTitle1'>How Do We Gather Data By Automatic Means?</p> 
                <p id='personalText'>Sometimes we use cookie technology, web beacons, and other similar devices on the Venzo Technologies Websites to enhance functionality and navigation for our visitors, and portions of the Venzo Technologies Websites may use statistical tools that may be operated by third party providers (collectively, the ” Analytical Tools ”).</p>
                  <div className='policyList'>
                    <ul>
