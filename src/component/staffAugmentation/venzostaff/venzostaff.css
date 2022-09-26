@@ -1,0 +1,41 @@
+.staffBanner{
+    height: 75vh;
+    width:100%;
+    position: relative;
+    z-index: -1;
+}
+.bannerText{
+    position: absolute;
+    left:100px;
+    top:200px;
+}
+.venzoSA #venzoSATitle{
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+   
+    width:10%;
+}
+.venzoSA #venzoSAText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 780px;
+    color: #C4C4C4;
+}
+.venzoSA #venzoSATalk{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
