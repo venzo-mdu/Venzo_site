@@ -19,12 +19,13 @@ function privacyVenzo() {
       <PolicyVenzo/>
       <div className='connectwithUs'>
              <p id='connectwithUsTitle'>connect with us</p>
+             <div className='privacyMediaIcons'>
               <img className='ppicons' src={fbIcon} alt='socialIcons'></img>
               <img className='ppicons' src={TwitterIcon} alt='socialIcons'></img>
               <img className='ppicons' src={linkedinIcon} alt='socialIcons'></img>
               <img className='ppicons' src={instaIcon} alt='socialIcons'></img>
               <img className='ppicons' src={youtubeIcon} alt='socialIcons'></img>
-
+              </div>
            </div>
     </div>
     </>

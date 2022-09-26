@@ -217,3 +217,39 @@
         width: 388px;
     }
 } 
+@media screen and (max-width:376px) {
+    .policy #firstPara{  
+        width: 330px;
+        font-size: 14px;
+    }
+    .policy #personalTitle{
+        width: 330px;
+        font-size: 14px;
+
+    }
+    .policyList #policyListText{
+        width: 330px;
+        font-size: 14px;
+    }
+    .policy #personalText{
+        width: 330px;
+        font-size: 14px;
+    }
+    .policyList ul li{
+        width: 330px;
+        font-size: 14px;
+    }
+    .policy #personalTitle1{
+        width: 330px;
+        font-size: 14px;
+    }
+    .policy #emailText{
+        width: 330px;
+        font-size: 14px;
+    }
+    .policy #attention{
+        width: 330px;
+        font-size: 14px;
+
+    }
+}

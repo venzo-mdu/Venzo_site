@@ -644,7 +644,9 @@ footer {
         width: 50%;
         margin: 0 0 0 20%;
     }
-
+    .company {
+        font-size: 11px;
+    }
     .careers {
         margin: 15% 0 0 0;
 
