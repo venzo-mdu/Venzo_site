@@ -23,7 +23,7 @@ function devServices() {
                     <li>Web App Development<img src={rightArrow} alt='right-Arrow'></img> </li>
                     <li>UI/UX Design <img src={rightArrow} alt='right-Arrow'></img></li>
                     <li>QA Engineering <img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Staff Augmentation <img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/staffaugmentation">Staff Augmentation <img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
     </div>
     <div className='venzoMantra'>

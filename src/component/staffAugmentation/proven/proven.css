@@ -1,0 +1,66 @@
+.provenDev{
+    height: 60vh;
+    padding: 5% 5%;
+    text-align: center;
+}
+.provenDev #provenDevTitle{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.provenDev #provenDevText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #00000080;
+    width: 18%;
+    text-align: center;
+    margin: 1% 0 0 42%;
+}
+.processSA{
+    display: inline-flex;
+    position: relative;
+    margin: 1% 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.arrowImg1,.arrowImg2{
+    height: 100%;
+}
+.arrowImg2{
+    margin: 0 0 0 0.5%;
+}
+.processSA #iconbelowText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #4A4A4A;
+    margin:15% 0% 0 -12%;
+}
+.processSA #iconbelowText1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin:12% 0% 0 -8%;
+}
+.processSA .iconbelowText2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #4A4A4A;
+    margin:12% 0% 0 -15%;
+}

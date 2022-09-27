@@ -1,7 +1,7 @@
 import React from 'react'
 import "../positions/positions.css"
 import { Link } from 'gatsby'
-import careerArrow from '../../images/CarrerArrow.png'
+import careerArrow from '../../images/CareerArrow.png'
 
 
 
