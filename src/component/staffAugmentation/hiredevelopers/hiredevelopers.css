@@ -48,7 +48,7 @@
     letter-spacing: -0.025em;
     text-align: left; 
     color: #757575;
-    margin: -3% 0 0 8%;
+    margin: -4% 0 0 8%;
 }
 #imageText1{
     font-family: Poppins;
@@ -59,4 +59,20 @@
     text-align: left; 
     color: #FFFFFF;
     margin: -3% 0 0 8%;
+}
+@media screen and (max-width:1025px) and (min-width:775px) {
+    .hireDevelopers{
+        padding: 10% 8%;
+    }
+    .rightHire{
+        margin: 2% 0 0 10%;
+
+    }
+    #imageText{
+    margin: -7% 0 0 15%;
+    }
+    #imageText1{
+    margin: -7% 0 0 15%;
+    }
+    
 }
