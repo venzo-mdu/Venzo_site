@@ -11,7 +11,9 @@
     color: #000000;
 }
 #hiringGradient{
-    color: #AD00FF;
+    background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .hiring #hiringText{
     font-family: Poppins;
@@ -105,11 +107,14 @@
 }
 .whyChoose{
     width:100%;
-    display:flex;
     padding: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%;
 }
 .choosingIdeas{
-    width: 25%;
+    width: 100%;
     display: block;
     margin: 0 0 0 10%;
 }
@@ -187,12 +192,74 @@
     }
     .choosingIdeas{
         margin: 0 0 0 5%;
+        width: 100%;
+
     }
+    
     .choosingIdeas #chooseimageText{
           width: 100%;
     }
 }
+@media screen and (max-width:768px) and (min-width:431px){
+    .hiringposCard{
+        padding: 3% 2%;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 3%
+    }
+    .hiring .hireCards{
+        margin: -15% 0 0 0;
+    }
+    .hireDemand{
+        display: block;
+    }
+    .backgroundimagesSA{
+        height: 90vh;
+    }
+    .bgImgSA1,.bgImgSA2{
+        display: none;
+    }
+    .hireDemand{
+        padding:5% 3%;
+        width: 100%;
+        height: 40vh;
+    }
+    .backgroundimagesSA{
+     margin:0 0 10% 0;
+    }
+    .venzoSAImage{
+        border-radius: 0px 12px 0px 0px;
+        width:100%;
+    }
+    .leftImagehire{
+        width: 100%;
+    }
+    .rightTexthire{
+        border-radius: 0px 0px 12px 12px;
+        padding: 10% 5%;
+        margin: -15px 0 0 0;
+        width: 100%;
+    }
+    .whyChoose{
+        width:100%;
+        padding: 5% 10%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 3%;
+    }
+    .choosingIdeas{
+        margin: 0 0 0 15%;
+        width: 100%;
+    }
+    .choosingIdeas #chooseimageText{
+        width:100%
+    }
+}
 @media screen and (max-width:430px){
+    .hiring{
+        padding: 5% 3%;
+    }
 .hiring #hiringTitle{
     font-size: 32px;
     font-weight: 600;
@@ -211,7 +278,27 @@
     display: none;
 }
 .hireDemand{
+    padding:3% 3%;
+    width: 100%;
+    height: 40vh;
     display: block;
+}
+.backgroundimagesSA{
+ margin:0 0 -15% 0;
+}
+.venzoSAImage{
+    border-radius: 0px 12px 0px 0px;
+    width:100%;
+}
+.leftImagehire{
+    width: 100%;
+}
+.rightTexthire{
+    border-radius: 0px 0px 12px 12px;
+    padding: 10% 5%;
+    margin: -15px 0 0 0;
+    width: 100%;
+    height: 50vh;
 }
 .choose #chooseTitle{
     font-family: Poppins;
@@ -230,8 +317,49 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: justified;
-    width: 90%;
+    width: 100%;
 
 }
+.whyChoose{
+    width:100%;
+    padding: 5% 0%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%;
+}
+.choosingIdeas{
+    width:100;
+}
+.choosingIdeas #chooseimageText{
+    width:100%;
+    margin: 5% 0 0 -10%;
 
+}
+}
+@media screen and (max-width:375px) {
+    .hireDemand{
+        padding:3% 3%;
+        width: 100%;
+        height: 40vh;
+        display: block;
+        margin: -10% 0 0 0;
+    }
+    .backgroundimagesSA{
+     margin:0 0 -15% 0;
+    }
+    .venzoSAImage{
+        border-radius: 0px 12px 0px 0px;
+        width:100%;
+    }
+    .leftImagehire{
+        width: 100%;
+    }
+    .rightTexthire{
+        border-radius: 0px 0px 12px 12px;
+        padding: 15% 5%;
+        margin: -15px 0 0 0;
+        width: 100%;
+        height: 60vh;
+    }
 }

@@ -75,3 +75,64 @@
 
     }
 }
+@media screen and (max-width:768px) and (min-width:431px){
+    .provenDev{
+        height:90vh;
+        position: relative;
+    }
+    .processSA{
+        display: block;
+        }
+    
+    .arrowImg1,.arrowImg2{
+        display: none;
+    }
+    .processSA #iconbelowText{
+        margin: 2% 0 10% 2%;
+    }
+    .processSA #iconbelowText1{
+        margin: 2% 0 30% 3%;
+
+    }
+    .provenDev #provenDevText{
+        position: absolute;
+        width: 40%;
+        top: 400px;
+        left: -85px;
+    }
+}
+@media screen and (max-width:430px) {
+    .provenDev{
+        height:90vh;
+        position: relative;
+        padding: 10% 5%;
+    }
+    .processSA{
+        display: block;
+        }
+    
+    .arrowImg1,.arrowImg2{
+        display: none;
+    }
+    .processSA #iconbelowText{
+        margin: 2% 0 20% 2%;
+    }
+    .processSA #iconbelowText1{
+        margin: 2% 0 50% 3%;
+    }
+    .provenDev #provenDevText{
+        position: absolute;
+        width: 60%;
+        top: 430px;
+        left: -85px;
+    }
+}
+@media screen and (max-width:375px) {
+    .processSA #iconbelowText1{
+        margin: 2% 0 60% 3%;
+    }
+    .provenDev #provenDevText{
+        top: 410px;
+        left: -80px;
+    }
+}
