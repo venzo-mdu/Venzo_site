@@ -53,7 +53,8 @@ function Footer() {
                 <div className='company'>
                   <h5>Company</h5>
                   <hr  className='titleHr'></hr>
-                  About us<br></br>
+                  <Link to="/aboutus">About us</Link>
+                  <br></br>
                   Careers<br></br>
                   Blogs<br></br>
                   Reach Us<br></br>
