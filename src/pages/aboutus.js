@@ -16,8 +16,8 @@ function aboutus() {
       <Community/>
       <Life/>
       {/* <Culture/> */}
-      {/* <Leadership/> */}
-      {/* <Mobility/> */}
+      <Leadership/>
+      <Mobility/>
       <Footer/>
       </>
   )

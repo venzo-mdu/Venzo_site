@@ -1,6 +1,6 @@
 .community{
     background-color: #0A1020;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     padding: 5% 5%;
     display: flex;
@@ -20,13 +20,18 @@
     letter-spacing: -0.02em;
     text-align: left;
     color: #FFFFFF;
-
+    width: 60%;
 }
+/* .betterImage{
+    width: 10%;
+} */
 .betterment{
-    display: block;
+    display: grid;
+    margin: 5% 0 0 0;
 }
 .betterCommunity{
-display: inline-flex;
+display:flex;
+margin: 0% 0 2% 10%;
 }
 #belowLeftText{
     font-family: Poppins;
@@ -36,7 +41,8 @@ display: inline-flex;
     letter-spacing: 0em;
     text-align: left;
     color: #A4A4A4;
-
+    width:60%;
+    margin: 5% 0 0 0;
 }
 
 #betterText{
@@ -47,5 +53,12 @@ display: inline-flex;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    margin: 0 0 0 5%;
 
+}
+
+.communityImage{
+    width: 40%;
+    height: 50vh;
+    margin: 0 0 0 5%;
 }

@@ -1,0 +1,23 @@
+.leadership{
+    padding: 4% 1%;
+}
+#leadershipTitle{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#leadershipText{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color:#0A1020;
+}
