@@ -1,28 +1,33 @@
-.unleashing{
- padding: 10% 3%;
+.unleashing {
+    padding: 10% 3%;
 }
-.unleashing #unleashingTitle{
+
+.unleashing #unleashingTitle {
     font-family: Poppins;
     font-size: 43px;
     font-weight: 600;
     line-height: 52px;
     letter-spacing: -0.04em;
     text-align: left;
-    width:45%;
+    width: 45%;
     margin: 0 0 0 10%;
 }
-.powerOfvenzo{
+
+.powerOfvenzo {
     width: 100%;
     display: flex;
     padding: 5% 10%;
 }
-.powerOfvenzo .powerleftImage{
+
+.powerOfvenzo .powerleftImage {
     width: 50%;
 }
-.powerOfvenzo .powerrightImage{
+
+.powerOfvenzo .powerrightImage {
     width: 50%;
 }
-.powerrightImage #powerrightText{
+
+.powerrightImage #powerrightText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -32,17 +37,20 @@
     color: #A4A4A4;
     width: 76%;
 }
-.aboutVenzo{
+
+.aboutVenzo {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
 }
-.aboutInner{
- width: 100%;
- margin: 10% 0 0 0;
+
+.aboutInner {
+    width: 100%;
+    margin: 10% 0 0 0;
 }
-.aboutInner #aboutinnerNumber{ 
+
+.aboutInner #aboutinnerNumber {
     font-family: Poppins;
     font-size: 29px;
     font-weight: 500;
@@ -51,24 +59,28 @@
     text-align: justified;
     color: #000000;
 }
-.aboutInner #aboutinnerText{
+
+.aboutInner #aboutinnerText {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: justified;
-    color: #929292;    
+    color: #929292;
 }
-.commitments{
-width: 100%;
-display: flex;
-padding: 5% 10%;
+
+.commitments {
+    width: 100%;
+    display: flex;
+    padding: 5% 10%;
 }
-.leftCommit{
-width: 30%;
+
+.leftCommit {
+    width: 30%;
 }
-.leftCommit #leftCommitTitle{
+
+.leftCommit #leftCommitTitle {
     font-family: Poppins;
     font-size: 28px;
     font-weight: 600;
@@ -77,13 +89,16 @@ width: 30%;
     text-align: left;
     color: #000000;
 }
-.leftCommit .whatCommits1{
+
+.leftCommit .whatCommits1 {
     border-left: 2px solid red;
 }
-.leftCommit .whatCommits{
+
+.leftCommit .whatCommits {
     border-left: 2px solid #A4A4A4;
 }
-.whatCommits1 #whatCommitsText1{
+
+.whatCommits1 #whatCommitsText1 {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
@@ -93,45 +108,55 @@ width: 30%;
     color: #000000;
     margin: 0 0 0 5%;
 }
-.whatCommits #whatCommitsText{
+
+.whatCommits #whatCommitsText {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: -0.02em;
     text-align: left;
-    color:#A4A4A4;
+    color: #A4A4A4;
     margin: 5% 0 0 5%;
 }
-.rightCommit{
+
+.rightCommit {
     width: 70%;
 }
-.rightCommit #rightCommitTitle{
+
+.rightCommit #rightCommitTitle {
     font-family: Poppins;
     font-size: 22px;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: -0.02em;
     text-align: left;
-    color: #000000;    
+    color: #000000;
 }
-.rightCommit #rightCommitText{
+
+.rightCommit #rightCommitText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 31px;
     letter-spacing: 0em;
     text-align: justified;
-    color: #A4A4A4; 
-    width: 90%;   
+    color: #A4A4A4;
+    width: 90%;
 }
-.rightCommitIcons{
-    display: flex;
+
+.rightCommitIcons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%;
 }
-.rightCommitblocks{
+
+.rightCommitblocks {
     margin: 5% 0 0 2%;
 }
-#tickiconText{
+
+#tickiconText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -142,4 +167,193 @@ width: 30%;
     margin: 10% 0 0 0;
     width: 65%;
 
+}
+
+@media screen and (max-width:1445px) and (min-width:1024px) {
+    .powerOfvenzo .powerrightImage {
+        margin: 0 0 0 10%;
+    }
+
+    .powerrightImage #powerrightText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .powerImage {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:431px) {
+    .powerOfvenzo {
+        display: block;
+    }
+
+    .powerImage {
+        width: 100%;
+    }
+
+    .unleashing #unleashingTitle {
+        width: 100%;
+    }
+
+    .powerOfvenzo .powerrightImage {
+        width: 100%;
+    }
+
+    .powerrightImage #powerrightText {
+        width: 100%;
+        margin: 5% 0 0 0;
+    }
+
+    .commitments {
+        display: block;
+        width: 100%;
+    }
+
+    .leftCommit {
+        width: 100%;
+    }
+
+    .rightCommit {
+        width: 100%;
+    }
+
+    .rightCommit #rightCommitTitle {
+        width: 100%;
+    }
+
+    .rightCommit #rightCommitText {
+        width: 100%;
+    }
+
+    .leftCommit #leftCommitTitle {
+        width: 100%;
+    }
+
+    .rightCommitIcons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 3%;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .powerOfvenzo {
+        padding: 5% 5%;
+    }
+
+    .unleashing #unleashingTitle {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        width: 100%;
+        margin: 0 0 0 4%;
+
+    }
+
+    .aboutVenzo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 3%;
+    }
+
+    .aboutInner {
+        width: 100%;
+        margin: 10% 0 0 0;
+    }
+
+    .powerOfvenzo {
+        display: block;
+    }
+
+    .powerOfvenzo .powerrightImage {
+        width: 100%;
+    }
+
+    .powerrightImage #powerrightText {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .commitments {
+        display: block;
+        width: 100%;
+        padding: 3% 1%;
+        margin: 15% 0 0 0;
+    }
+
+    .leftCommit {
+        width: 100%;
+    }
+
+    .rightCommit {
+        width: 100%;
+    }
+
+    .rightCommit #rightCommitTitle {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
+
+    .rightCommit #rightCommitText {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .leftCommit #leftCommitTitle {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    .rightCommitIcons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 3%;
+    }
+}
+@media screen and (max-width:375px) {
+    .powerOfvenzo .powerrightImage {
+        width: 100%;
+    }
+    .rightCommit {
+        width: 100%;
+    }
+    .rightCommit #rightCommitTitle {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+    }
 }

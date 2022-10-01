@@ -19,7 +19,7 @@ function unleashing() {
       <p id='unleashingTitle'>Venzo is <span id='hiringGradient'> unleashing the transformative power </span>in Technology platforms</p>
       <div className='powerOfvenzo'>
         <div className='powerleftImage'>
-            <img className='powerImage' alt='venzopower' src={powerImage}></img>
+          <img className='powerImage' alt='venzopower' src={powerImage}></img>
         </div>
         <div className='powerrightImage'>
           <p id='powerrightText'>Venzo Technologies leverages the power of cognitive computing, hyper-automation, cloud, analytics, and emerging technologies to assist our clients in adapting to and succeeding in the digital world.</p>
@@ -58,44 +58,44 @@ function unleashing() {
         </div>
       </div>
 
-     <div className='commitments'>
-         <div className='leftCommit'>
-           <p id='leftCommitTitle'>Our Commitments</p>
-             <div className='whatCommits1'>
-                <p id='whatCommitsText1'>Values</p>
-             </div>
-             <div className='whatCommits'>
-             <p id='whatCommitsText'>Diversity & Equity</p>
-             </div>
-             <div className='whatCommits'>
-             <p id='whatCommitsText'>Society Impact</p>
-             </div>
-         </div>
-         <div className='rightCommit'>
-           <p id='rightCommitTitle'>We offer solutions for Startups/SME/Entrepreneurs</p>
-           <p id='rightCommitText'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
-          
-           <div className='rightCommitIcons'>
-             <div className='rightCommitblocks'>
-               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
-               <p id='tickiconText'>Accelerated Work</p>
-             </div>
-             <div className='rightCommitblocks'>
-               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
-               <p id='tickiconText'>Total Transparency</p>
-             </div>
-             <div className='rightCommitblocks'>
-               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
-               <p id='tickiconText'>Customer Centred Experience</p>
-             </div>
-             <div className='rightCommitblocks'>
-               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
-               <p id='tickiconText'>Revolutionary Testing</p>
-             </div>
-           </div>
-         
-         </div>
-     </div>
+      <div className='commitments'>
+        <div className='leftCommit'>
+          <p id='leftCommitTitle'>Our Commitments</p>
+          <div className='whatCommits1'>
+            <p id='whatCommitsText1'>Values</p>
+          </div>
+          <div className='whatCommits'>
+            <p id='whatCommitsText'>Diversity & Equity</p>
+          </div>
+          <div className='whatCommits'>
+            <p id='whatCommitsText'>Society Impact</p>
+          </div>
+        </div>
+        <div className='rightCommit'>
+          <p id='rightCommitTitle'>We offer solutions for Startups/SME/Entrepreneurs</p>
+          <p id='rightCommitText'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
+
+          <div className='rightCommitIcons'>
+            <div className='rightCommitblocks'>
+              <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+              <p id='tickiconText'>Accelerated Work</p>
+            </div>
+            <div className='rightCommitblocks'>
+              <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+              <p id='tickiconText'>Total Transparency</p>
+            </div>
+            <div className='rightCommitblocks'>
+              <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+              <p id='tickiconText'>Customer Centred Experience</p>
+            </div>
+            <div className='rightCommitblocks'>
+              <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+              <p id='tickiconText'>Revolutionary Testing</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
 
     </div>

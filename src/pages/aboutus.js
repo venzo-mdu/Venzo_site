@@ -15,7 +15,7 @@ function aboutus() {
       <Unleashing/>
       <Community/>
       <Life/>
-      {/* <Culture/> */}
+      <Culture/>
       <Leadership/>
       <Mobility/>
       <Footer/>
