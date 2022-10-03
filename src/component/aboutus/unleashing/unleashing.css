@@ -1,5 +1,5 @@
 .unleashing {
-    padding: 10% 3%;
+    padding: 10% 3% 5%;
 }
 
 .unleashing #unleashingTitle {
@@ -49,7 +49,12 @@
     width: 100%;
     margin: 10% 0 0 0;
 }
+#unleashingGradient{
+    background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+}
 .aboutInner #aboutinnerNumber {
     font-family: Poppins;
     font-size: 29px;

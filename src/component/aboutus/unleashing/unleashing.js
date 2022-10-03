@@ -16,7 +16,7 @@ import TickIcon from '../../../images/aboutus/aboutus17.png'
 function unleashing() {
   return (
     <div className='unleashing'>
-      <p id='unleashingTitle'>Venzo is <span id='hiringGradient'> unleashing the transformative power </span>in Technology platforms</p>
+      <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the transformative power </span>in Technology platforms</p>
       <div className='powerOfvenzo'>
         <div className='powerleftImage'>
           <img className='powerImage' alt='venzopower' src={powerImage}></img>
