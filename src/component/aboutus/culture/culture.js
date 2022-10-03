@@ -13,10 +13,12 @@ function culture() {
       <p id='cultureTitle'>The Venzo Way of Culture, Co-Operative & Versatile</p>
       <p id='cultureText'>With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality. </p>
       <div className='cultures'>
+      {/* <marquee direction="left"> */}
          <img className='cultureImage' src={cultureImage1} alt='culture'></img>
          <img className='cultureImage' src={cultureImage2} alt='culture'></img>
          <img className='cultureImage' src={cultureImage3} alt='culture'></img>
          <img className='cultureImage' src={cultureImage4} alt='culture'></img>
+         {/* </marquee> */}
       </div>
     </div>
   )

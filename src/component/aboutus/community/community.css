@@ -161,9 +161,12 @@ margin: 0% 0 2% 10%;
     }
     
     .communityImage{
-        width: 55%;
+        width: 40%;
         height: 30vh;
-        margin: 10% 0 0 0%;
+        margin: 10% 0 0 7%;
+    }
+    #tickiconText {
+        width: 85%;
     }
 }
 @media screen and (max-width:375px) {

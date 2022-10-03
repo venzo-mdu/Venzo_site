@@ -270,7 +270,12 @@
         width: 100%;
         margin: 10% 0 0 0;
     }
-
+    .powerOfvenzo .powerleftImage{
+        width: 100%;
+    }
+    .powerImage{
+        width: 100%;
+    }
     .powerOfvenzo {
         display: block;
     }
@@ -303,7 +308,19 @@
     .rightCommit {
         width: 100%;
     }
-
+    .leftCommit .whatCommits1 {
+        border-left: none;
+    }
+    .whatCommits1 #whatCommitsText1{
+        margin:  0 0 0 0%;
+    }
+    .whatCommits #whatCommitsText {
+        display: none;
+    }
+        .leftCommit .whatCommits {
+        border-left: none;
+    }
+    
     .rightCommit #rightCommitTitle {
         font-family: Poppins;
         font-size: 16px;
@@ -311,6 +328,7 @@
         line-height: 19px;
         letter-spacing: -0.02em;
         text-align: left;
+        margin: 5% 0 0 0;
 
     }
 

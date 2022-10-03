@@ -50,6 +50,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
+    margin: 0;
 }
 #positionText{
     font-family: Poppins;
@@ -82,4 +83,44 @@
 #aboutLeaders{
     width: 85%;
 }
+}
+@media screen and (max-width:430px) {
+    .ourLeaders{
+        padding: 3% 1%;
+        display: block;
+        margin: 0 0 0 5%;
+
+    }     
+    #leadershipTitle{
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+    #leadershipText{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+    #aboutLeaders{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        width: 100%;
+    }
+}
+@media screen and (max-width:375px) {
+    .ourLeaders{
+        margin: 0 0 0 3%;
+    }
 }
