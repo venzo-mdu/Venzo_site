@@ -6,21 +6,23 @@ import fbIcon from '../../../images/fbCareers2.png'
 import twitterIcon from '../../../images/twitterCareers2.png'
 import linkedinIcon from '../../../images/linkedinCareers2.png'
 import instaIcon from '../../../images/igCareers2.png'
-
-function applyJob() {
+ import Popup from '../popup/popup'
+ import {useState} from 'react'
+function ApplyJob() {
+  const [buttonPopup, setButtonPopup] =useState(false);
   return (
     <>
    
     
     <section>
-      <div className='applyJob'>
+      <div className='applyJob'> 
         <div className='job'>
           <div className='details'>
             <p id='detailsText'>Automation Tester</p>
             <p id='experiancerText'><img src={experianceImg} alt='experiance'></img> 3 - 5 Years Experience</p>
           </div>
           <div className='applyNow'>
-            <button className='applyNowButton' data-toggle="modal" data-target="#exampleModalCenter">Apply Now</button>
+            <button className='applyNowButton' data-toggle="modal" data-target="#exampleModalCenter"  onClick={() => setButtonPopup(true)}>Apply Now</button>
 
             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -77,15 +79,23 @@ function applyJob() {
 
               
             </div>
-            <button className='applyNowButton'>Apply Now</button>
+            <button className='applyNowButton' onClick={() => setButtonPopup(true)}>Apply Now</button>
         </div>
       </div>
 
     </section>
-
+    <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+        <p>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>    
+    </Popup>
  
     </>
   )
 }
 
-export default applyJob
+export default ApplyJob
