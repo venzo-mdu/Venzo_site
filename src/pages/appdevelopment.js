@@ -13,8 +13,9 @@ function appdevelopment() {
       <>
       <Header flag='header2'/>
       <Customized/>
-      {/* <Agile/>
-      <Dprocess/>
+      <Cando/>
+      <Agile/>
+      {/* <Dprocess/>
       <Offering/>
       <Techs/> */}
       {/* <Footer/> */}

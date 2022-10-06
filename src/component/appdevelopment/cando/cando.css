@@ -1,0 +1,64 @@
+.canDo{
+    padding: 3% 5%;
+}
+#canDotitle{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: #000000;
+}
+#canDotext{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4D4D4DBF;
+    width: 70%;
+    margin: 0 0 0 15%;
+}
+.candoCards{
+    padding: 4% 8%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 3%;
+}
+.candocards1,.candocards2,.candocards3,.candocards4{
+ position: relative;
+}
+.cardsIcon{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+}
+#cardsTitle{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    width: 55%;
+}
+#cardsTitle1{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    width: 60%;
+}
