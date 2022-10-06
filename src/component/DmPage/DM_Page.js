@@ -157,7 +157,7 @@ function DM_Page() {
                 </div>
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
-                        <li className='cardtitle1' onClick={() => dated('brand')}>Brand Promotion</li>
+                        <li className='cardtitle1' defaultActiveKey="0" onClick={() => dated('brand')}>Brand Promotion</li>
                         <li className='cardtitle2' onClick={() => dated('sales')}>Increase Sales</li>
                         <li className='cardtitle3' onClick={() => dated('lead')}>Lead Generation</li>
                         <li className='cardtitle4' onClick={() => dated('se')}>SE ranking</li>
@@ -241,22 +241,28 @@ function dated(va) {
     { console.log(va) }
     let container = document.querySelector('.card1')
     if (va == 'brand') {
-        container.innerHTML = 'brand1111'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
+        container.style.color = 'Black';
+        {console.log(container.style)}
     }
     else if (va === 'sales') {
-        container.innerHTML = 'brand2222'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
+
     }
     else if (va === 'lead') {
-        container.innerHTML = 'brand3333'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
+
     }
     else if (va === 'se') {
-        container.innerHTML = 'brand4444'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
+
     }
     else if (va === 'online') {
-        container.innerHTML = 'brand5555'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
+
     }
     else if (va === 'social') {
-        container.innerHTML = 'brand6666'
+        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
     }
 }
 

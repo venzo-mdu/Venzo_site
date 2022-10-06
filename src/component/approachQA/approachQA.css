@@ -24,7 +24,7 @@
 .ourapproachQA .approachDesignQA img {
     position: absolute;
     margin: 3.5% 0 0 25%;
-    height: 90vh;
+    height: 104vh;
 }
 .ourapproachQA .approachQA div{
     display: inline-flex;
@@ -110,7 +110,8 @@
     
     .ourapproachQA .approachDesignQA img {
         position: absolute;
-        margin: 3.5% 0 0 30%;
+        margin: 3.5% 0 0 31%;
+        height: 125vh;
     }
     .ourapproachQA .approachQA div{
         display: inline-flex;

@@ -23,4 +23,10 @@
     position: absolute;
     top: 16px;
     right: 16px;
+    padding:10px
+}
+
+.popup-inner input{
+    width: 46%;
+
 }

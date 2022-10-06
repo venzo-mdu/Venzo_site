@@ -183,6 +183,8 @@
         line-height: 21px;
         color: #929292;
         margin: 2% 4% 4% 0;
+        width: 45%;
+
     }
 
     .Femail {
@@ -192,6 +194,7 @@
         font-size: 14px;
         line-height: 21px;
         color: #929292;
+        width: 45%;
     }
 
     .Fphone {

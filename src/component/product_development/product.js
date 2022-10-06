@@ -7,10 +7,6 @@ import './laptopM.css';
 import './productTab.css';
 import './mobile.css';
 import './mobileS.css';
-
-
-
-
 import line from '../../images/Vector 76.svg';
 import expertsBottomline from '../../images/expertsBottomline.png';
 import quality from '../../images/enterpise.png'
@@ -22,19 +18,17 @@ import saas1 from '../../images/saas1.png'
 import saas2 from '../../images/saas2.png'
 import saas3 from '../../images/saas3.png'
 import saas4 from '../../images/saasDevelopmentimg.png'
-
-
-
 import bgImageAnimation from '../../images/animationBg.png'
 import bgImageAnimationRes from '../../images/animationBgRes.png'
-
 import whyVenzoIcon1 from '../../images/whyVenzoicon1.png'
 import whyVenzoIcon2 from '../../images/whyVenzoicon2.png'
 import whyVenzoIcon3 from '../../images/whyVenzoicon3.png'
 import whyVenzoIcon4 from '../../images/whyVenzoicon4.png'
 import productImage from '../../images/productImage.png'
 import borderLine from '../../images/borderLine.png'
-
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 
 function product() {
@@ -80,7 +74,7 @@ function product() {
                         <p>Business<br /> Consulting</p>
                     </div>
                     <img className='linev' src={line} alt='line' />
-
+           
                     <div>
                         <img src={sme} />
                         <p>SME<br /> Product Development</p>
@@ -238,6 +232,29 @@ function product() {
 
            <div className='awesomeProducts'>
                <p className='awesomeTitle'>Awesome products from <span id='awesomeVenzo'>Venzo !</span></p>
+            <Carousel>
+            <Carousel.Item >
+                <div className='ourProducts'>
+                <div className='productDesc'>
+                <p id='productTitle'>Madras Daily</p>
+                <img  className='borderLine' src={borderLine} alt='borderImage'></img>
+                <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                </div>
+                <img  className='productImage' src={productImage} alt='productImage'></img>
+                </div>
+              </Carousel.Item>
+              <Carousel.Item >
+
+                <div className='ourProducts'>
+              <div className='productDesc'>
+               <p id='productTitle'>Madras Daily</p>
+               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
+               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+              </div>
+              <img  className='productImage' src={productImage} alt='productImage'></img>
+            </div>
+            </Carousel.Item >
+            <Carousel.Item >
             <div className='ourProducts'>
               <div className='productDesc'>
                <p id='productTitle'>Madras Daily</p>
@@ -246,6 +263,30 @@ function product() {
               </div>
               <img  className='productImage' src={productImage} alt='productImage'></img>
             </div>
+            </Carousel.Item >
+            <Carousel.Item >
+            <div className='ourProducts'>
+              <div className='productDesc'>
+               <p id='productTitle'>Madras Daily</p>
+               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
+               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+              </div>
+              <img  className='productImage' src={productImage} alt='productImage'></img>
+            </div>
+            </Carousel.Item >
+            <Carousel.Item >
+            <div className='ourProducts'>
+              <div className='productDesc'>
+               <p id='productTitle'>Madras Daily</p>
+               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
+               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+              </div>
+              <img  className='productImage' src={productImage} alt='productImage'></img>
+            </div>
+            </Carousel.Item >
+
+            </Carousel>
+
            </div>
 
             <div>
