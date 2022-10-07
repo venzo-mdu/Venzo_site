@@ -272,4 +272,7 @@
 .animationBGRes{
     display: block;
 }
+.carousel-indicators {
+    display: flex;
+}
 }

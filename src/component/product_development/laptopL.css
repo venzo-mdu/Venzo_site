@@ -9,4 +9,14 @@
         left:390px;
         top:300px;
     }
+    .cardlist {
+        grid-row-gap: 11%;
+        grid-column-gap: 3%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 3% 0%;
+    }
+    .carousel-indicators {
+        display: flex;
+    }
 }

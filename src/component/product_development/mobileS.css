@@ -46,4 +46,7 @@
     .productDesc #productText {
         font-size: 14px;
     }
+    .carousel-indicators {
+        display: flex;
+    }
 }

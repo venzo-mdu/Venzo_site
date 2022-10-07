@@ -9,11 +9,11 @@ function devCarousel() {
     return (
         <div className='devCaros'> 
          <Carousel >
-            <Carousel.Item className='devcarosel'>
+            <Carousel.Item >
 
                 <div className='item1'>
                     <div>
-                    <img className='mango' src={mango}></img>
+                        <img className='mango' src={mango}></img>
                         <p className="blockchainDev">WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
                     </div>
                     <div>
@@ -29,9 +29,9 @@ function devCarousel() {
 
             </Carousel.Item>
 
-            <Carousel.Item className='devcarosel'>
+            <Carousel.Item >
 
-                <div className='item3'>
+                <div className='item1'>
                     <div>
                     <img className='mango'  src={mango}></img>
 
@@ -47,9 +47,9 @@ function devCarousel() {
 
                 </div>
             </Carousel.Item>
-            <Carousel.Item className='devcarosel'>
+            <Carousel.Item >
 
-                <div className='item2'>
+                <div className='item1'>
                     <div>
                     <img className='mango'  src={mango}></img>
 
