@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import mango from '../../webDev_Image/mango.png'
 import blog3 from '../../webDev_Image/carosImage.png'
 function devCarousel() {
-
+  
     return (
         <div className='devCaros'> 
          <Carousel >
