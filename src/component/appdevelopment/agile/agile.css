@@ -37,6 +37,10 @@
     display: block;
     margin: 5% 0 0 0;    
 }
+.agilecardText2{
+    margin: 8% 0 0 -3%;
+    width: 100%;
+}
 #agileTitle{
     font-family: Poppins;
     font-size: 18px;
@@ -54,7 +58,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #A4A4A4;
-    width: 60%;
+    width: 75%;
 }
 #agileText2{
     font-family: Poppins;

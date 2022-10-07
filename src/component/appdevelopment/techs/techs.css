@@ -1,0 +1,35 @@
+.techsweUse{
+    padding: 3% 5%;
+}
+.techsText{
+    display: flex;
+    width: 100%;
+    margin: 0 0 0 15%;
+}
+#gradienttechsText{
+    background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#techsTitle{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #000000;  
+    width: 30%;  
+}
+#techsrightText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #000000BF;    
+    width: 40%;  
+
+}
