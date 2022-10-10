@@ -225,12 +225,19 @@
         width: max-content;
     }
     .card1{
-        width: 40vw;
-        height: 35vh;
+        width: 35%;
+        height: 100%;
         background: #FFFFFF;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 12px rgb(0 0 0 / 25%);
         border-radius: 10px;
-        margin-left: 3%;
+        margin-left: 11%;
+        padding: 1%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 175%;
+        color: #0A1020;
     
     }
     .cardList{
@@ -243,21 +250,7 @@
         background-position-y: -5vh;
     }
     
-.card1 {
-    width: 30%;
-    height: 32vh;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-left: 3%;
-    padding: 1%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 175%;
-    color: #0A1020;
-}
+
 .card1 .cardDecs   {
     font-family: 'Poppins';
     font-style: normal;
@@ -572,13 +565,23 @@
         width: max-content;
     }
     .card1{
-        width: 40vw;
-        height: 35vh;
+        width: 43%;
+        height: 124%;
         background: #FFFFFF;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 12px rgb(0 0 0 / 25%);
         border-radius: 10px;
         margin-left: 3%;
-    
+        padding: 1%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 175%;
+        color: #0A1020;
+    }
+    .DM_cardTitle>li {
+        color: #BCBCBC;
+        font-size: 20px     ;
     }
     .cardList{
         display: flex;

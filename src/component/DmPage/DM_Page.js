@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../header/header'
 import Footer from "../footer/footer"
 import block from '../../images/Blockchain.png'
@@ -17,97 +17,77 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import Accordion from 'react-bootstrap/Accordion';
 
 function DM_Page() {
-    // const customised_portfolio_reports = [
-    //     {
-    //         describtion: (
-
-    //             <div>
-      
-    //               <div className="portFolioLine"></div>
-      
-    //               <div style={{ display: "flex" }}>
-      
-    //                 <div className="portFolioNumber">01</div>
-      
-    //                 <div className="PortFolioHead">White labelled</div>
-      
-    //               </div>
-      
-    //               <div className="PortFolioLabel">Your brand name and logo</div>
-      
-    //             </div>
-      
-    //           ),
-    //      thumbnail: "https://picsum.photos/id/1018/250/150/",
-    //      thumbnailLabel:(
-
-    //         <div>
-  
-    //           <div className="portFolioLine"></div>
-  
-    //           <div style={{ display: "flex" }}>
-  
-    //             <div className="portFolioNumber">01</div>
-  
-    //             <div className="PortFolioHead">White labelled</div>
-  
-    //           </div>
-  
-    //           <div className="PortFolioLabel">Your brand name and logo</div>
-  
-    //         </div>
-  
-    //       )
-    //     },
-    //     {
-    //         original: "https://picsum.photos/id/1015/1000/600/",
-    //         thumbnail: "https://picsum.photos/id/1015/250/150/",
-    //         thumbnailLabel:(
-
-    //             <div>
-      
-    //               <div className="portFolioLine"></div>
-      
-    //               <div style={{ display: "flex" }}>
-      
-    //                 <div className="portFolioNumber">02</div>
-      
-    //                 <div className="PortFolioHead">White labelled</div>
-      
-    //               </div>
-      
-    //               <div className="PortFolioLabel">Your brand name and logo</div>
-      
-    //             </div>
-      
-    //           )
-    //     },
-    //     {
-    //         original: "https://picsum.photos/id/1019/1000/600/",
-    //         thumbnail: "https://picsum.photos/id/1019/250/150/",
-    //         thumbnailLabel:(
-
-    //             <div>
-      
-    //               <div className="portFolioLine"></div>
-      
-    //               <div style={{ display: "flex" }}>
-      
-    //                 <div className="portFolioNumber">03</div>
-      
-    //                 <div className="PortFolioHead">White labelled</div>
-      
-    //               </div>
-      
-    //               <div className="PortFolioLabel">Your brand name and logo</div>
-      
-    //             </div>
-      
-    //           )
-
-    //     }
-    //   ];
-
+    const [active, setActive] = useState('');
+    const dated = (va) => {
+        let container = document.querySelector('.card1')
+        setActive(va)
+        if (va == 'brand') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your  1.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'sales') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 2.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'lead') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 3.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'se') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 4.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'online') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 5.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'social') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 6.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+    }
     return (
         <>
             <Header flag='header1' />
@@ -133,7 +113,7 @@ function DM_Page() {
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2B</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
-                            <img className="lineM" src={line1} alt='line'/>
+                            <img className="lineM" src={line1} alt='line' />
 
                         </div>
 
@@ -141,7 +121,7 @@ function DM_Page() {
                             <p className='desc-titlte'>B2C</p>
                             <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
                             <img className='line' src={line} alt='line'></img>
-                            <img className="lineM" src={line1} alt='line'/>
+                            <img className="lineM" src={line1} alt='line' />
 
                         </div>
                         <div className='desc-p'>
@@ -153,71 +133,72 @@ function DM_Page() {
                     </div>
                 </div>
                 <div className='section5'>
-                    <p className='sect5_title'> What you get</p> 
+                    <p className='sect5_title'> What you get</p>
                 </div>
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
-                        <li className='cardtitle1' defaultActiveKey="0" onClick={() => dated('brand')}>Brand Promotion</li>
-                        <li className='cardtitle2' onClick={() => dated('sales')}>Increase Sales</li>
-                        <li className='cardtitle3' onClick={() => dated('lead')}>Lead Generation</li>
-                        <li className='cardtitle4' onClick={() => dated('se')}>SE ranking</li>
-                        <li className='cardtitle5' onClick={() => dated('online')}>Online Reputation</li>
-                        <li className='cardtitle6' onClick={() => dated('social')}>Social media engagement</li>
+                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Brand Promotion</li>
+                        <li className={active === 'sales' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('sales')}>Increase Sales</li>
+                        <li className={active === 'lead' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('lead')}>Lead Generation</li>
+                        <li className={active === 'se' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('se')}>SE ranking</li>
+                        <li className={active === 'online' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('online')}>Online Reputation</li>
+                        <li className={active === 'social' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('social')}>Social media engagement</li>
                     </ul>
                     <div className='card1'>
-
+                        <p> We offer refined customized applications that streamline your. </p>
+                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
                     </div>
                 </div>
 
                 <div className='section51'>
-                <Accordion defaultActiveKey="0" flush>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>Brand Promotion</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                            <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                            <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>Increase Sales</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="3">
-                        <Accordion.Header>Lead Generation</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                    <Accordion defaultActiveKey="0" flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>Brand Promotion</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>Increase Sales</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                            <Accordion.Header>Lead Generation</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="4">
-                        <Accordion.Header>SE ranking</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                            <Accordion.Header>SE ranking</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="5">
-                        <Accordion.Header>Online Reputation</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="5">
+                            <Accordion.Header>Online Reputation</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="6">
-                        <Accordion.Header>Social media engagement</Accordion.Header>
-                        <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="6">
+                            <Accordion.Header>Social media engagement</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
+                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
 
                 </div>
 
@@ -227,6 +208,35 @@ function DM_Page() {
             <div className='section6'>
                 <DmFrequentQues />
             </div>
+
+{/* 
+
+            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+                <Row>
+                    <Col sm={4}>
+                        <ListGroup>
+                            <ListGroup.Item action href="#link1">
+                                Link 1
+                            </ListGroup.Item>
+                            <ListGroup.Item action href="#link2">
+                                Link 2
+                            </ListGroup.Item>
+                        </ListGroup>
+                    </Col>
+                    <Col sm={8}>
+                        <Tab.Content>
+                            <Tab.Pane eventKey="#link1">
+                                link1 isisss
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="#link2">
+                                link2 isisisis 
+                            </Tab.Pane>
+                        </Tab.Content>
+                    </Col>
+                </Row>
+            </Tab.Container> */}
+
+
             <div>
                 <div className='containor11'>
                     <p className='anyIdea1'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
@@ -234,37 +244,12 @@ function DM_Page() {
                 </div>
             </div>
             <Footer />
+
         </>
     )
 }
-function dated(va) {
-    { console.log(va) }
-    let container = document.querySelector('.card1')
-    if (va == 'brand') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
-        container.style.color = 'Black';
-        {console.log(container.style)}
-    }
-    else if (va === 'sales') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
 
-    }
-    else if (va === 'lead') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
-
-    }
-    else if (va === 'se') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
-
-    }
-    else if (va === 'online') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
-
-    }
-    else if (va === 'social') {
-        container.innerHTML =  " We offer refined customized applications that streamline your.<br /> <br className='cardDecs'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.<br />"
-    }
-}
 
 export default DM_Page
+
 

@@ -283,8 +283,14 @@ body{
 .DM_cardTitle>li:hover {
     color: black;
 }
-
-.DM_cardTitle li:active  {
+.subTitle{
+    color: #BCBCBC;
+    font-size: 18px;
+}
+.cardtitle01{
+    color: #000 !important;
+}
+.DM_cardTitle li:focus  {
     color: black;
 }
 

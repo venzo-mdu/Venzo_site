@@ -1,8 +1,79 @@
-import React from 'react'
+import React, {useState}  from 'react'
 import '../endtoend/endtoend.css'
 import Accordion from 'react-bootstrap/Accordion';
 
-function endtoend() {
+function Endtoend() {
+    const [active, setActive] = useState('');
+    const dated = (va) => {
+        let container = document.querySelector('.card1')
+        setActive(va)
+        if (va == 'brand') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your  1.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'sales') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 2.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'lead') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 3.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'se') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 4.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'online') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 5.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+        else if (va === 'social') {
+            container.innerHTML = "<font size=4 color=black>\
+            We offer refined customized applications that streamline your 6.\
+            </font>\
+            <br>\
+            <br>\
+            <font size=3 color=gray>\
+            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            </font>\
+    ";
+        }
+    }
   return (
       <section>
           <div className='endtoendSolutions'>
@@ -12,15 +83,16 @@ function endtoend() {
 
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
-                        <li className='cardtitle1' onClick={() => dated('brand')}>Business consulting</li>
-                        <li className='cardtitle2' onClick={() => dated('sales')}>Production Designing</li>
-                        <li className='cardtitle3' onClick={() => dated('lead')}>Product Development</li>
-                        <li className='cardtitle4' onClick={() => dated('se')}>Tools Development</li>
-                        <li className='cardtitle5' onClick={() => dated('online')}>QA Engineering</li>
-                        <li className='cardtitle6' onClick={() => dated('social')}>Support Services</li>
+                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Brand Promotion</li>
+                        <li className={active === 'sales' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('sales')}>Increase Sales</li>
+                        <li className={active === 'lead' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('lead')}>Lead Generation</li>
+                        <li className={active === 'se' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('se')}>SE ranking</li>
+                        <li className={active === 'online' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('online')}>Online Reputation</li>
+                        <li className={active === 'social' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('social')}>Social media engagement</li>
                     </ul>
                     <div className='card1'>
-
+                        <p> We offer refined customized applications that streamline your. </p>
+                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
                     </div>
                 </div>
                 <div className='section51'>
@@ -78,28 +150,8 @@ function endtoend() {
           </div>
       </section>
   )
-  function dated(va) {
-    { console.log(va) }
-    let container = document.querySelector('.card1')
-    if (va == 'brand') {
-        container.innerHTML = 'brand1111'
-    }
-    else if (va === 'sales') {
-        container.innerHTML = 'brand2222'
-    }
-    else if (va === 'lead') {
-        container.innerHTML = 'brand3333'
-    }
-    else if (va === 'se') {
-        container.innerHTML = 'brand4444'
-    }
-    else if (va === 'online') {
-        container.innerHTML = 'brand5555'
-    }
-    else if (va === 'social') {
-        container.innerHTML = 'brand6666'
-    }
-}
+
+
 }
 
-export default endtoend
+export default Endtoend
