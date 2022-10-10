@@ -75,6 +75,10 @@
     left: 55px;
     width: 60%;
 }
+
+.canDocards1Img{
+    display: none;
+}
 @media screen and (max-width:1440px) and (min-width:1025px) {
 .candoCards{
     padding: 4% 1%;
@@ -101,5 +105,96 @@
         padding: 4% 4%;
         margin: 0 0 0 3%;
 
+    }
+}
+@media screen and (max-width:430px) {
+    #canDotitle{
+        font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        margin: 5% 0 0 0;
+    }
+    #canDotext{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+        margin: 5% 0 0 1%;
+    }
+    .candoCards{
+        display: block;
+    }
+    .canDocardsImg{
+        display: none;
+    }
+    .canDocards1Img{
+        display: block;
+        margin: 0 0 5% -10%;
+    }
+    .cardsIcon{
+        left:0px
+    }
+    #cardsTitle{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #FFFFFF;
+        position: absolute;
+        top: 130px;
+        left: 35px;
+        width: 55%;
+    }
+    #cardsTitle2{
+        display: none;
+    }
+    #cardsTitle1{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+        top:50px;
+        left:30px;
+    }
+    #rescardsIcon{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+    #cardsTitle{
+     
+        top: 110px;
+        left: 35px;
+        width: 55%;
+    }
+    .cardsIcon{
+        left:50px;
+        top:40px;
+    }
+    #cardsTitle1{
+        width: 90%;
+        top:50px;
+        left:20px;
+    }
+    .candoCards{
+        padding: 4% 0;
+    }
+    .canDocards1Img{
+        margin: 0 0 5% 1%;
+        width: 100%;
+    }
+    #cardsTitle{
+        left:90px;
     }
 }

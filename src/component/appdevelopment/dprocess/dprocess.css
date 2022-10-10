@@ -4,7 +4,7 @@
     display: flex;
     height: 90vh;
     width: 100%;
-    margin: 0 0 0 10%;
+    margin: 0 0 5% 10%;
 }
 .leftDevprocess{
   width: 40%;
@@ -55,18 +55,13 @@
     text-align: left;
     color:#000000;    
 }
-#rightdevprocessTitle1{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 26px;
-    letter-spacing: -0.025em;
-    text-align: left;
+#rightdevprocessTitle:hover{
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 #rightdevprocessDesc{
     font-family: Poppins;
     font-size: 14px;
