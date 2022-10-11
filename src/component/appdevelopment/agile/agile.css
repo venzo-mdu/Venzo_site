@@ -25,9 +25,7 @@
     grid-row-gap: 11%;
     grid-column-gap: 3%;
 }
-.agileimage2{
-    margin:-8% 0 0 0;
-}
+
 .agileCard1{
     display: flex;
 
@@ -36,10 +34,7 @@
     display: block;
     margin: 5% 0 0 0;    
 }
-.agilecardText2{
-    margin: 8% 0 0 -3%;
-    width: 100%;
-}
+
 #agileTitle{
     font-family: Poppins;
     font-size: 18px;
@@ -59,16 +54,7 @@
     color: #A4A4A4;
     width: 75%;
 }
-#agileText2{
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #A4A4A4;
-    width: 90%;
-}
+
 #agileDevbutton{
     background: #0A1020;
     width: 30%;
@@ -79,6 +65,20 @@
     border-image-slice: 1;
     border-width: 1px;
     border-radius: 8px !important;
+}
+.offerButton {
+    width: 90%;
+    text-align: center;
+    background: transparent;
+    color: #FFFFFF;
+    /* border-image:linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    border-width: 1px;
+    border-style: solid; */
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-radius: 8px !important;
+
 }
 .border-gradient-purple {
     border-image-source: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -96,17 +96,12 @@
 #agileText{
     width: 100%;
 }
-.agilecardText2{
-    margin: 5% 0 0 -7%;
-    width: 100%;
-}
-#agileText2{
-    width: 100%;
-}
+
+
 }
 @media screen and (max-width:1025px) and (min-width:768px) {
     .agileCards{
-        padding: 3% 0%;
+        padding: 3% 5%;
         margin: 0 0 0 -5%;
         display: block;
     }
@@ -117,28 +112,22 @@
     #agileText{
         width: 100%;
     }
-    .agilecardText2{
-        margin: 8% 0 0 -5%;
-        width: 100%;
-    }
+  
     #agileText2{
         width: 100%;
     }
     .agileCard1{
         margin: 5% 0 0 0;
     }
-    .agileimage2 {
-        margin: -5% 0 0 -5%;
+    #agileText{
+        width: 70%;
     }
+    
 }
 @media screen and (max-width:768px) and (min-width:431px){
-    .agilecardText2{
-        margin: 8% 0 0 -6%;
-        width: 100%;
-    }
-    .agileimage2 {
-        margin: -5% 0 0 -7%;
-    }
+   #agileText{
+       width: 85%;
+   }
 }
 @media screen and (max-width:430px) {
     #agileDevTitle{
@@ -155,14 +144,15 @@
         padding: 3% 0%;
         display: block;
     }
+    .agileimage{
+        margin: 0 0 0 9%;
+    }
     .agileCard1{
         display: block;
+        margin: 0 0 10% 0;
     }
     .agilecardText{
-        margin: 0 0 0 10%;
-    }
-    .agilecardText2{
-        margin: 0 0 0 10%;
+        margin: 0 0 0 5%;
     }
     #agileTitle{
         font-family: Poppins;
@@ -171,6 +161,7 @@
         line-height: 32px;
         letter-spacing: 0em;
         text-align: center;
+        margin: 0 0 5 -10%;
     }
     #agileText{
         font-family: Poppins;
@@ -179,20 +170,24 @@
         line-height: 28px;
         letter-spacing: 0em;
         text-align: center;
-        width: 75%;
-    }
-    #agileText2{
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: center;
-        width: 75%;
+        width: 80%;
+        margin: 0 0 0 8%;
     }
     #agileDevbutton{
         width: 30%;
-        margin: 5% 0 0 20%;
-       
+        margin: 5% 0 0 30%;
+    }
+}
+@media screen and (max-width:375px) {
+    .agileimage{
+        margin: 0 0 0 5%;
+    }
+    #agileText{
+        width: 90%;
+        margin: 0 0 0 3%;
+    }
+    #agileDevbutton{
+        width: 30%;
+        margin: 5% 0 0 33%;
     }
 }
