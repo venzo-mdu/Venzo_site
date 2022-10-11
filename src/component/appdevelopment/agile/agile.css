@@ -66,21 +66,8 @@
     border-width: 1px;
     border-radius: 8px !important;
 }
-.offerButton {
-    width: 90%;
-    text-align: center;
-    background: transparent;
-    color: #FFFFFF;
-    /* border-image:linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
-    border-width: 1px;
-    border-style: solid; */
-    border: 1px solid;
-    border-image-slice: 1;
-    border-width: 1px;
-    border-radius: 8px !important;
 
-}
-.border-gradient-purple {
+#border-gradient-purple {
     border-image-source: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     
 }
