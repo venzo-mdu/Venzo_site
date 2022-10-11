@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@media screen  and (min-width:1450px) 
+@media screen  and (min-width:1441px) 
 {
 body{
     padding: 0;
@@ -16,7 +16,7 @@ body{
 }
 .build{
     height:12%;
-    width:50%!important;
+    width:52%;
     padding: 1% 0 0 8%;
 }
 .title{
@@ -34,7 +34,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 175%;
 color: rgba(0, 0, 0, 0.5);
-width:50%;
+width:60%;
 }
 /* .images{
     height: auto;
@@ -49,12 +49,12 @@ width:50%;
 
 .col1{
     width: 25%;
-    margin-right: 2%;
+    margin-right: 4%;
     justify-content:space-evenly;
 }
 .col2{
     width: 25%;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 .heading{
     font-family: 'Poppins';
@@ -81,8 +81,8 @@ width:50%;
 }
 
 .hr_line{
-    width: 65%;
-    margin-left: 16%;
+    width: 75%;
+    margin-left: 13%;
     margin-top: 0;
 }
 .customer{

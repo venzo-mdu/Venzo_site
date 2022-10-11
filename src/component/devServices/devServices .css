@@ -60,9 +60,9 @@
 
     .venzoMantra {
         background-color: #0A1020;
-        height: 70%;
+        height: 74%;
         width: 80%;
-        margin: -2% 0% 10% 10%;
+        margin: -2% 0% 13% 10%;
         border-radius: 10px 10px 10px 10px;
         padding: 2% 3%;
         display: flex;
@@ -111,7 +111,8 @@
         line-height: 120%;
         color: #FFFFFF;
         margin-top: 10%;
-    }
+        margin-bottom: 3%;
+}
 
     .venzoexpertImg img {
         margin: 40% 0% 0 -65%;

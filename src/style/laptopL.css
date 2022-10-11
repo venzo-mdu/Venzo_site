@@ -13,7 +13,7 @@ body{
 }
 .build{
     height:12%;
-    width:25%;
+    width:35%;
     margin-left: 13%;
 }
 .title{
@@ -33,8 +33,8 @@ line-height: 175%;
 color: rgba(0, 0, 0, 0.5);
 }
 .images{
-    margin-left: 40%;
-    width: 80%;
+    margin-left: 4%;
+    width: 45%;
     height: auto;
 }
 .row{
