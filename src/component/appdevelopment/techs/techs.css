@@ -1,35 +1,194 @@
-.techsweUse{
+
+.techsweUse {
     padding: 3% 5%;
 }
-.techsText{
+
+.techsText {
     display: flex;
     width: 100%;
     margin: 0 0 0 15%;
 }
-#gradienttechsText{
+
+#gradienttechsText {
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-#techsTitle{
+
+#techsTitle {
     font-family: Poppins;
     font-size: 32px;
     font-weight: 600;
     line-height: 38px;
     letter-spacing: -0.025em;
     text-align: left;
-    color: #000000;  
-    width: 30%;  
+    color: #000000;
+    width: 30%;
 }
-#techsrightText{
+
+#techsrightText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: justified;
-    color: #000000BF;    
-    width: 40%;  
+    color: #000000BF;
+    width: 40%;
+}
 
+#techsName {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+.techsGrid {
+    display: grid;
+    border: none;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2% 5%;
+    margin: 0 10%;
+}
+.techsGrid:hover #designGrid img ,.techsGrid:hover #mobileGrid img,.techsGrid:hover #frontendGrid img,.techsGrid:hover #backendGrid img{
+   margin-left: -2%;
+}
+.techsGrid div {
+    border: .5px solid rgba(229, 231, 235, 0.5);
+    padding: 3% 10%;
+}
+.techsIcon1{
+    margin: 0 0 0 5%;
+}
+
+#designGrid {
+    border-top: none;
+    border-left: none;
+}
+
+#mobileGrid {
+    border-top: none;
+    border-right: none;
+}
+
+#frontendGrid {
+    border-left: none;
+    border-bottom: none;
+}
+
+#backendGrid {
+    border-bottom: none;
+    border-right: none;
+}
+
+#designGrid .techsIcon {
+    margin-left: -13%;
+}
+
+#mobileGrid .techsIcon {
+    margin-left: -15%;
+}
+
+#frontendGrid .techsIcon {
+    margin-left: -13%;
+}
+
+#backendGrid .techsIcon {
+    margin-left: -15%;
+}
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .techsGrid {
+        padding: 2% 3%;
+        width: 100%;
+        margin:0 0%;
+    }
+}
+@media screen and  (max-width:1025px) and (min-width:768px){
+    .techsweUse{
+        padding: 3% 1%;
+        margin: 0 0 0 -5%;
+    }
+    .techsGrid {
+        padding: 2% 1%;
+        width: 100%;
+        margin:0 0%;
+    }
+    #techsrightText {
+        width: 55%;
+    }
+    .techsGrid div {
+        padding: 3% 6%;
+    }
+    .techsIcon1{
+        margin: 0 0 0 -6%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:431px){
+    .tech {
+        margin: 10% 0 0% 0;
+    }
+    .techsweUse {
+        padding: 3% 1%;
+        margin: 0 0 0 -10%;
+    }
+    #techsrightText {
+        width: 50%;
+        margin: 0 0 0 5%;
+    }
+    .techsGrid {
+        padding: 2% 1%;
+        width: 100%;
+        margin:0 0%;
+        display: block;
+        
+    }
+    .techsGrid div {
+        border: none;
+    }
+}
+@media screen and (max-width:430px) {
+    .techsweUse {
+        padding: 3% 1%;
+        margin: 0 0 0 -10%;
+    }
+    
+    .techsText {
+        display: block;
+       
+    }
+    #techsTitle {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+    
+    #techsrightText {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: justified;
+        width: 85%;
+    }
+    .techsGrid {
+        padding: 2% 1%;
+        width: 100%;
+        margin:0 0%;
+        display: block;
+    }
+    .techsGrid div {
+        border: none;
+    }
+    .techsIcon1,.techsIcon{
+        width: 30%;
+    }
 }

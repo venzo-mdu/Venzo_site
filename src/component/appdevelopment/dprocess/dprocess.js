@@ -29,7 +29,7 @@ function dprocess() {
                 <div className='rightdevText'>
                     <img className='devprocessIcon' src={appd6} alt='devicon'></img>
                     <div className='rightdevprocessText'>
-                        <p id='rightdevprocessTitle1'>Planning</p>
+                        <p id='rightdevprocessTitle'>Planning</p>
                         <p id='rightdevprocessDesc'>Iterations are used to break down the app development process. We collaborate with our clients to plan each iteration in order to produce the desired outcomes.</p>
                         <hr className='hrIndprocess'></hr>
 

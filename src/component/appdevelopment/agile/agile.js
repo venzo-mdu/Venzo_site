@@ -11,20 +11,20 @@ function agile() {
    
     <div className='agileCards'>
         <div className='agileCard1'>
-        <img className='agileimage1' src={appDev1} alt='agileImage'></img>
+        <img className='agileimage' src={appDev1} alt='agileImage'></img>
         <div className='agilecardText'>
             <p id='agileTitle'>Android Development</p>
             <p id='agileText'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
-            <button id='agileDevbutton'>Let's Talk</button>
+            <button id='agileDevbutton' className='border-gradient-purple'>Let's Talk</button>
         </div>
         </div>
 
         <div className='agileCard1'>
-        <img className='agileimage2' src={appDev2} alt='agileImage'></img>
-        <div className='agilecardText2'>
+        <img className='agileimage' src={appDev2} alt='agileImage'></img>
+        <div className='agilecardText'>
             <p id='agileTitle'>iOS Development</p>
-            <p id='agileText2'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
-            <button id='agileDevbutton'>Let's Talk</button>
+            <p id='agileText'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
+            <button id='agileDevbutton' >Let's Talk</button>
         </div>
         </div>
     </div>
