@@ -18,7 +18,8 @@ function tools() {
                         <p>We offer refined customized applications that streamline your business needs and enhance customer experience We offer refined customized applications that streamline your business needs and enhance customer experience.</p>
                     </div>
                     <div className='marqueeToolsRes'>
-                    <marquee direction="left">
+                    <marquee direction="left" scrolldelay="1500">            
+
                         {
                             toolsData.map(item => {
                                 return (

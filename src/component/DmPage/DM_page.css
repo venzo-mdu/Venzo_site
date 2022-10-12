@@ -355,6 +355,7 @@ button:focus:not(:focus-visible) {
     background-repeat: no-repeat;
     background-position-x: 24vw;
     background-position-y: -1vh;
+    margin-bottom: 5%       ;
 }
 .section6{
     margin-top: 5%;

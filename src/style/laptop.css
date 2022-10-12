@@ -15,7 +15,7 @@ body {
 
     .build {
         height: 12%;
-        width: 40%;
+        width: 30%;
         margin-left: 9%;
     }
 
@@ -38,8 +38,8 @@ body {
     }
 
     .images {
-        margin-left: 28%;
-        width: 70%;
+        margin-left: 13%;
+        width: 40%;
         height: auto;
     }
 
