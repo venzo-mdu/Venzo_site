@@ -15,8 +15,8 @@ function blockchaindevelopment() {
          <Header flag='header2'/>
          <BCBanner/>
          <BCNetwork/>
-         {/* <BCServices/>
-         <BCExecution/>
+         <BCServices/>
+         {/* <BCExecution/>
          <Footer/> */}
       </>
   )
