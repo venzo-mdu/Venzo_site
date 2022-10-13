@@ -1,0 +1,38 @@
+[
+    {
+        "images": "../images/blog0.png",
+        "title1": "New Product Development; Winner’s Guide",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …",
+        "subTitle":"Automated Testing   |   May 26, 2022"
+    },
+    {
+        "images": "../images/blog1.png",
+        "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
+        "subTitle":" Product Development   |   February 16, 2022",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+    },
+    {
+        "images": "../images/blog2.png",
+        "title1": "New Product Development; Winner’s Guide",
+        "subTitle":"Automated Testing   |   May 26, 2022",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+    },
+    {
+        "images": "../images/blog3.png",
+        "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …",
+        "subTitle":" Product Development   |   February 16, 2022"
+    },
+    {
+        "images": "../images/blog4.png",
+        "title1": "New Product Development; Winner’s Guide",
+        "subTitle":"Automated Testing   |   May 26, 2022",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+    },
+    {
+        "images": "../images/blog5.png",
+        "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
+        "subTitle":" Product Development   |   February 16, 2022",
+        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+    }
+]
