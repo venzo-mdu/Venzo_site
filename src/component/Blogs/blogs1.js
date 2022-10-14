@@ -1,8 +1,11 @@
 import React from 'react'
 import Header from '../header/header'
+import Footer from '../footer/footer'
 import './blogs.css'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
+import tweet1 from '../../images/blogsPic/tweet1.png'
+import tweet2 from '../../images/blogsPic/tweet2.png'
 function blogs1() {
     return (
         <div>
@@ -35,16 +38,22 @@ function blogs1() {
                 </div>
                 <div className='blogsRight'>
                     <div className='slide1'>
-                        <p>All Categories</p> <hr/>
-                        <p>Automated Testing</p><hr/>
-                        <p>Mobile App Development</p><hr/>
-                        <p>Mobile App Development</p><hr/>
-                        <p>Staff Augmentation</p><hr/>
-                        <p>Technology</p><hr/>
+                        <p>All Categories</p> <hr />
+                        <p>Automated Testing</p><hr />
+                        <p>Mobile App Development</p><hr />
+                        <p>Mobile App Development</p><hr />
+                        <p>Staff Augmentation</p><hr />
+                        <p>Technology</p><hr />
                         <p>Web App Development</p>
+                    </div>
+                    <div className='slide2'>
+                        <p>Tweets</p>
+                        <img src={tweet1} />
+                        <img src={tweet2} />
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

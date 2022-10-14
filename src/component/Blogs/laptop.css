@@ -1,0 +1,166 @@
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .blogs_section1 {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/blogsPic/Rectangle\ 117.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 450px;
+    }
+    
+    .Blogs_title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    
+    .Blogs_desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 55%;
+        margin-left: 23%;
+    }
+    
+    .blogs_section2 {
+        display: flex;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    
+    .searchBox {
+        padding: 0.5%;
+        background: #F6F6F6;
+        border-radius: 8px;
+        margin-left: 55%;
+    }
+    
+    .categories {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+    
+    .sect2_hr {
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 2%;
+    }
+    
+    .blogs_section3 {
+        display: flex;
+        margin-bottom: 10%;
+    }
+    
+    .blogs_cardlist {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        margin-right: 20%;
+        z-index: -1;
+        margin-top: 3%;
+    }
+    
+    .card11 {
+        margin-bottom: 5%;
+        margin-left: 25%;
+    }
+    
+    .blogsubtitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 200%;
+        color: #165EA0;
+        padding: 3% 0 0;
+    }
+    
+    .blogsTitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142.5%;
+        color: #000000;
+        padding: 5% 0;
+    
+    }
+    
+    .blogsdesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 151%;
+        text-align: justify;
+        color: #6C6C6C;
+        padding-bottom: 5%;
+    }
+    
+    .blogsRight {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        padding: 3%;
+        height: 400px;
+        margin-top: 3%;
+        width: 20%;
+    }
+    
+    .slide1 {
+        margin-bottom: 50%;
+    }
+    
+    .slide1 p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #A4A4A4;
+    }
+    
+    .slide1 p:hover {
+        color: #000;
+        cursor: pointer;
+    }
+    
+    .slide2 {
+        margin-top: 5%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        margin-left: -20%;
+        width: 145%;
+        padding-top: 5%;
+    }
+    .slide2 p{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-left: 5%;
+    }
+    .slide2 img{
+        margin: 5%;
+        padding-bottom: 15%;
+    }
+    
+}
