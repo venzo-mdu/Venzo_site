@@ -1,0 +1,83 @@
+.bcExecution{
+    padding: 3% 5%;
+}
+
+#executionTitle1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    background: linear-gradient(272.57deg, #AD00FF 21.61%, #FF7A00 133.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#executionTitle2{
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: #000000;    
+}
+#firstTitle{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color:#7777777D
+}
+#firstTitle1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color:#000000;
+}
+#timelineText1{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000A6;
+    width: 70%;
+}
+#timelineText2{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #000000A6;
+    width: 70%;
+    margin: 0 0 0 30%;
+}
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    #timelineText1{
+    width: 80%;
+    }
+    #timelineText2{
+        width: 80%;
+        margin: 0 0 0 20%;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:768px) {
+    
+    #timelineText1{
+        width: 90%;
+        }
+        #timelineText2{
+            width: 100%;
+            margin: 0 0 0 0%;
+        }
+}

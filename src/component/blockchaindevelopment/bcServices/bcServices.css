@@ -1,4 +1,4 @@
-.bcServices{
+.bcServices {
     width: 100%;
     position: relative;
     background-image: url('../../../images//blockchaindevelopment/bcd30.png');
@@ -7,16 +7,19 @@
     height: 140vh;
 
 }
-.innerbcServices{
-position: absolute;
-top:100px;
-width: 100%;
+
+.innerbcServices {
+    position: absolute;
+    top: 100px;
+    width: 100%;
 
 }
-.bcServicesBG{
+
+.bcServicesBG {
     width: 100%;
 }
-.bcServicesText{
+
+.bcServicesText {
     width: 100%;
     padding: 3% 5%;
     /* position: absolute;
@@ -24,22 +27,26 @@ width: 100%;
     display: flex;
     margin: 0 0 0 10%;
 }
-.bcServicesLeft{
+
+.bcServicesLeft {
     width: 30%;
 }
-.bcServicesRight{
+
+.bcServicesRight {
     width: 70%;
 }
-#bcServicesTitle1{
+
+#bcServicesTitle1 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.025em;
     text-align: left;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-#bcServicesTitle2{
+
+#bcServicesTitle2 {
     font-family: Poppins;
     font-size: 38px;
     font-weight: 500;
@@ -51,35 +58,39 @@ width: 100%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-#bcServicesrightText{
+
+#bcServicesrightText {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: justified;
-    color: #FFFFFFFC;   
-    width: 70%; 
+    color: #FFFFFFFC;
+    width: 70%;
 }
-.bctalkServices{
+
+.bctalkServices {
     padding: 3% 10%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
     /* position: absolute;
     top: 300px;
     left:50px; */
 }
-.bcservicesCards{
+
+.bcservicesCards {
     border: 0.46px solid;
     padding: 8% 5% 30%;
     background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
     border-radius: 13px;
     width: 90%;
-    
+
 }
-#bcCardtitle{
+
+#bcCardtitle {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 600;
@@ -90,33 +101,37 @@ width: 100%;
     width: 60%;
     margin: 5% 0 0 0;
 }
-#bcCardtext{
+
+#bcCardtext {
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFFA6;   
-    margin: 5% 0 0 0; 
+    color: #FFFFFFA6;
+    margin: 5% 0 0 0;
     height: 65%;
     width: 90%;
 }
-.bcServicesbutton{
+
+.bcServicesbutton {
     background: #404759;
     border-radius: 8px;
     color: #FFFFFF;
     width: 30%;
     height: 15%;
-    border:none
+    border: none
 }
-.bcserviceChoose{
-    padding:3% 5%;
+
+.bcserviceChoose {
+    padding: 3% 5%;
     /* position: absolute;
     top:300px;
     left:250px; */
 }
-#bcservicechooseTitle{
+
+#bcservicechooseTitle {
     font-family: Poppins;
     font-size: 26px;
     font-weight: 600;
@@ -125,60 +140,68 @@ width: 100%;
     text-align: center;
     color: #FFFFFF;
 }
-#bcservicegradientText{
+
+#bcservicegradientText {
     background: linear-gradient(272.33deg, #f12929 21.7%, #FF7A00 103.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-#bcservicechooseText{
+
+#bcservicechooseText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF80;    
+    color: #FFFFFF80;
     width: 65%;
     margin: 1% 0 0 18%;
 
 }
-.bcserviceschooseCards{
+
+.bcserviceschooseCards {
     padding: 3% 15%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
     margin: -5% 0 0 0%;
 }
-.bcserviceschooseCard1{
-background-image: url('../../../images/blockchaindevelopment/bcd21.png');
-/* height: 100vh; */
-background-repeat: no-repeat;
-background-size: 100%;
+
+.bcserviceschooseCard1 {
+    background-image: url('../../../images/blockchaindevelopment/bcd21.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
-.bcserviceschooseCard2{
-background-image: url('../../../images/blockchaindevelopment/bcd24.png');
-/* height: 100vh; */
-background-repeat: no-repeat;
-background-size: 100%;
+
+.bcserviceschooseCard2 {
+    background-image: url('../../../images/blockchaindevelopment/bcd24.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
-.bcserviceschooseCard3{
-background-image: url('../../../images/blockchaindevelopment/bcd22.png');
-/* height: 100vh; */
-background-repeat: no-repeat;
-background-size: 100%;
+
+.bcserviceschooseCard3 {
+    background-image: url('../../../images/blockchaindevelopment/bcd22.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
-.bcserviceschooseCard4{
-background-image: url('../../../images/blockchaindevelopment/bcd23.png');
-/* height: 100vh; */
-background-repeat: no-repeat;
-background-size: 100%;
+
+.bcserviceschooseCard4 {
+    background-image: url('../../../images/blockchaindevelopment/bcd23.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-#bcserviceschooseCardText{
+
+#bcserviceschooseCardText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -191,140 +214,197 @@ background-size: 100%;
     margin: auto;
     margin-top: 25%;
 }
+
 @media screen and (max-width:1445px) and (min-width:1025px) {
-    .bcServices{
-        height: 150vh;
-    
+    .bcServices {
+        height: 140vh;
+
     }
-    .innerbcServices{
-        top:50px;
+
+    .innerbcServices {
+        top: 50px;
         width: 100%;
     }
-    .bcServicesText{
+
+    .bcServicesText {
         padding: 5% 2%;
     }
-    .bcServicesLeft{
+
+    .bcServicesLeft {
         width: 20%;
     }
-    .bcServicesRight{
+
+    .bcServicesRight {
         width: 80%;
     }
-    #bcServicesrightText{
+
+    #bcServicesrightText {
         width: 75%;
         margin: 2% 0 0 5%;
     }
-    #bcCardtitle{
+
+    #bcCardtitle {
         width: 80%;
     }
-    #bcserviceschooseCardText{
-    margin: 25% 0 0 30%;
+
+    #bcserviceschooseCardText {
+        margin: 25% 0 0 30%;
     }
 }
+
 @media screen and (max-width:1025px) and (min-width:768px) {
-    .bcServices{
-        height: 1600px;
-    
+    .innerbcServices {
+        top: 30px;
     }
-    .bcServicesText{
+
+    .bcServices {
+        height: 1100px;
+    }
+
+    .bcServicesText {
         padding: 5% 1%;
         margin: 0 0 0 5%;
     }
-    #bcServicesrightText{
+
+    #bcServicesrightText {
         width: 94%;
     }
-    
-    .bcserviceschooseCards{
+
+    .bcserviceschooseCards {
         padding: 3% 5%;
         margin: 0 0 0 0%;
-        
+
     }
-    .bcserviceschooseCard1,.bcserviceschooseCard2,.bcserviceschooseCard3,.bcserviceschooseCard4{
+
+    .bcserviceschooseCard1,
+    .bcserviceschooseCard2,
+    .bcserviceschooseCard3,
+    .bcserviceschooseCard4 {
         position: relative;
     }
-   #bcserviceschooseCardText{
-    width: 85%;
-    padding: 10px;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-   }
-  
-   
 
-}
-@media screen and (max-width:768px) and (min-width:431px) {
-   
-    .innerbcServices{
-        top:55px;
+    #bcserviceschooseCardText {
+        width: 85%;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+
+    .bctalkServices {
+        padding: 3% 5%;
+    }
+
+    .bcservicesCards {
+        width: 100%;
+
+    }
+
+    #bcCardtitle {
         width: 100%;
     }
-    #bcCardtitle{
-        width:100%
+    #bcCardtext{
+        width: 95%;
     }
-    #bcservicechooseText{
+    .bcServicesbutton {
+        width: 50%;
+        height: 10%;
+    }
+
+
+}
+
+@media screen and (max-width:768px) and (min-width:431px) {
+    .bcServices {
+        height: 1500px;
+    }
+    .innerbcServices {
+        top: 55px;
+        width: 100%;
+    }
+
+    #bcCardtitle {
+        width: 85%
+    }
+
+    #bcservicechooseText {
         width: 80%;
         margin: 0 0 0 11%;
     }
-    .bctalkServices{
+
+    .bctalkServices {
         padding: 3% 5%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 5%;
         grid-column-gap: 3%;
     }
-    .bcserviceChoose{
+
+    .bcserviceChoose {
         margin: 3% 0 0 0;
     }
-    .bcserviceschooseCard1,.bcserviceschooseCard2,.bcserviceschooseCard3,.bcserviceschooseCard4{
-        background-size: 100% ;
+
+    .bcserviceschooseCard1,
+    .bcserviceschooseCard2,
+    .bcserviceschooseCard3,
+    .bcserviceschooseCard4 {
+        background-size: 100%;
     }
-    #bcserviceschooseCardText{
+
+    #bcserviceschooseCardText {
         top: -15px;
         left: 15px;
     }
+    .bcServicesbutton {
+        width: 50%;
+        height: 15%;
+    }
 }
+
 @media screen and (max-width:430px) {
-    .bcServices{
+    .bcServices {
         background-image: url('../../../images/blockchaindevelopment/bcd31.png');
         background-size: 100% 100%;
-        height: 280vh;
+        height: 1500px;
     }
-    .innerbcServices{
-        top:40px;
+
+    .innerbcServices {
+        top: 40px;
     }
-    .bcServicesText{
+
+    .bcServicesText {
         display: block;
-       padding: 1% 1%;
-       margin: 0 0 0 3%;
+        padding: 1% 1%;
+        margin: 0 0 0 3%;
+    }
 
- 
-    }
-    .bcServicesLeft{
-        width: 100%;
-    }
-    .bcServicesRight{
+    .bcServicesLeft {
         width: 100%;
     }
 
-    #bcServicesTitle1{
+    .bcServicesRight {
+        width: 100%;
+    }
+
+    #bcServicesTitle1 {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
         letter-spacing: -0.025em;
         text-align: left;
-
     }
-    #bcServicesTitle2{
+
+    #bcServicesTitle2 {
         font-family: Poppins;
         font-size: 38px;
         font-weight: 500;
         line-height: 46px;
         letter-spacing: -0.055em;
         text-align: left;
-        
     }
-    #bcServicesrightText{
+
+    #bcServicesrightText {
         font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
@@ -333,22 +413,27 @@ background-size: 100%;
         text-align: justified;
         width: 100%;
     }
-    .bctalkServices{
+
+    .bctalkServices {
         display: block;
         padding: 3% 5%;
     }
-    .bcservicesCards{
+
+    .bcservicesCards {
         width: 100%;
         margin: 0 0 8% 0;
-         padding: 8% 5% 20%;
+        padding: 8% 5% 20%;
     }
-    #bcCardtext{
+
+    #bcCardtext {
         height: 80%;
     }
-    .bcServicesbutton{
+
+    .bcServicesbutton {
         margin: 10% 0 0 0;
     }
-    #bcservicechooseTitle{
+
+    #bcservicechooseTitle {
         font-family: Poppins;
         font-size: 22px;
         font-weight: 600;
@@ -356,7 +441,8 @@ background-size: 100%;
         letter-spacing: -0.025em;
         text-align: center;
     }
-    #bcservicechooseText{
+
+    #bcservicechooseText {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 400;
@@ -366,7 +452,19 @@ background-size: 100%;
         width: 100%;
         margin: auto;
     }
-    .bcserviceschooseCards{
-        display: block;
+
+    .bcserviceschooseCards {
+        padding: 3% 15%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 5%;
+        grid-column-gap: 3%;
+        margin: -5% 0 0 0%;
+    }
+    .bcserviceschooseCard1,
+    .bcserviceschooseCard2,
+    .bcserviceschooseCard3,
+    .bcserviceschooseCard4 {
+      height: 215px;
     }
 }

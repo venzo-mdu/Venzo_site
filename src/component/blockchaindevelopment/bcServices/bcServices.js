@@ -50,24 +50,24 @@ function bcServices() {
 
                 <div className='bcserviceschooseCards'>
                     <div className='bcserviceschooseCard1'>
-                     <p id='bcserviceschooseCardText'>Dynamic Engagement Model</p>
+                        <p id='bcserviceschooseCardText'>Dynamic Engagement Model</p>
                     </div>
                     <div className='bcserviceschooseCard2'>
-                    <p id='bcserviceschooseCardText'>Client Association at Each Stage</p>
+                        <p id='bcserviceschooseCardText'>Client Association at Each Stage</p>
 
                     </div>
                     <div className='bcserviceschooseCard3'>
-                    <p id='bcserviceschooseCardText'>Use of <br></br>Latest  Technologies</p>
+                        <p id='bcserviceschooseCardText'>Use of <br></br>Latest  Technologies</p>
 
                     </div>
                     <div className='bcserviceschooseCard4'>
-                    <p id='bcserviceschooseCardText'>360° <br></br>Holistic Approach</p>
+                        <p id='bcserviceschooseCardText'>360° <br></br>Holistic Approach</p>
 
                     </div>
                 </div>
             </div>
         </div>
-        
+
     )
 }
 
