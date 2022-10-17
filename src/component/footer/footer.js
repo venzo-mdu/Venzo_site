@@ -38,14 +38,16 @@ function Footer() {
 
                 <h5>Services</h5>
                 <hr  className='titleHr'></hr>
-                <p> Product Development<br></br>
-                  Blockchain Development<br></br>
-                  Data Engineering<br></br>
-                  Banking Solutions<br></br>
-                  Staff Augmentation<br></br>
-                  Data Engineering<br></br>
-                  Banking Solutions<br></br>
-                  Staff Augmentation<br></br></p>
+                <p>
+                  <Link to="/bankingQA">Banking QA</Link><br></br>
+                  <Link to="/">Quality Assurance</Link><br></br>
+                  <Link to="/">Banking Solutions</Link><br></br>
+                  <Link to="/staffaugmentation">Staff Augmentation</Link><br></br>
+                  <Link to="/appdevelopment"> App Development</Link><br></br>
+                  <Link to="/webDevelopment">Website Development</Link><br></br>
+                  <Link to="/productdevelopment">Product Development</Link><br></br>
+                  <Link to="/blockchaindevelopment">Blockchain Development</Link><br></br>
+                  </p>
               </div>
             </div>
             <div className='laptopResponsive1'>
@@ -55,15 +57,15 @@ function Footer() {
                   <hr  className='titleHr'></hr>
                   <Link to="/aboutus">About us</Link>
                   <br></br>
-                  Careers<br></br>
-                  Blogs<br></br>
+                  <Link to="/careers">Careers</Link><br></br>
+                  <Link to="/blogs">Blogs</Link><br></br>
                   Reach Us<br></br>
-                  Privacy Policy<br></br>
+                  <Link to="/privacypolicy">Privacy Policy</Link><br></br>
 
                 </div>
                 <div className='careers'>
 
-                <h5><Link to="/careers">Careers</Link></h5>
+                <h5>Careers</h5>
                   <hr  className='titleHr'></hr>
                   <p>hrteam@venzotechnologies.com</p>
                 </div>

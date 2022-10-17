@@ -1,9 +1,8 @@
 import React from 'react'
-
+import { useState, useEffect } from 'react';
 
 import { Timeline, 
     TimelineConnector,
-     TimelineDot, 
     TimelineSeparator, 
     TimelineItem, TimelineContent, TimelineOppositeContent} from '@mui/lab';
     import Typography from '@mui/material/Typography';
@@ -15,14 +14,38 @@ import Bcd26 from '../../../images/blockchaindevelopment/bcd26.png'
 import Bcd27 from '../../../images/blockchaindevelopment/bcd27.png'
 import Bcd20 from '../../../images/blockchaindevelopment/bcd20.png'
 
+function GetWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height,
+  };
+}
+
+function UseWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState(GetWindowDimensions());
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(GetWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}
 
 function bcExecution() {
+  const { height, width } = UseWindowDimensions();
+
     return (
         <div className='bcExecution'>
             <p id='executionTitle1'>We have our unique way</p>
             <p id='executionTitle2'>Our Execution Process</p>
-
-    <Timeline position="alternate">
+            
+    <Timeline id='position'  position={width<=431?'right':'alternate'} >
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -31,7 +54,7 @@ function bcExecution() {
           color="text.secondary">
         </TimelineOppositeContent>
         <TimelineSeparator>
-              <img src={Bcd26} alt='timelineImage'></img>
+              <img src={Bcd25} alt='timelineImage'></img>
               <TimelineConnector></TimelineConnector>
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -49,7 +72,7 @@ function bcExecution() {
           color="text.secondary">
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector />
+          {/* <TimelineConnector /> */}
           <img src={Bcd27} alt='timelineImage'></img>
           <TimelineConnector />
         </TimelineSeparator>
@@ -63,8 +86,8 @@ function bcExecution() {
 
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineConnector />
-          <img src={Bcd20} alt='timelineImage'></img>
+          {/* <TimelineConnector /> */}
+          <img src={Bcd25} alt='timelineImage'></img>
           <TimelineConnector  />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -77,7 +100,7 @@ function bcExecution() {
 
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineConnector/>
+          {/* <TimelineConnector/> */}
           <img src={Bcd26} alt='timelineImage'></img>
           <TimelineConnector />
         </TimelineSeparator>
@@ -91,7 +114,7 @@ function bcExecution() {
 
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineConnector />
+          {/* <TimelineConnector /> */}
           <img src={Bcd12} alt='timelineImage'></img>
           <TimelineConnector />
         </TimelineSeparator>
@@ -105,7 +128,6 @@ function bcExecution() {
 
       <TimelineItem>
         <TimelineSeparator>
-            <TimelineConnector></TimelineConnector>
           <img src={Bcd11} alt='timelineImage'></img>
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
