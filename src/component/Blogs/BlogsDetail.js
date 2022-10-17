@@ -5,15 +5,9 @@ import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-import BlogDetails from './BlogsDetail'
-import { Link } from 'gatsby'
-import './blogs.css'
-import './laptop.css'
-import './tab.css'
-import './mobile.css'
-function blogs1() {
-    return (
-        <div>
+function BlogsDetail() {
+  return (
+    <div>
             <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
@@ -29,12 +23,13 @@ function blogs1() {
                 <div className='blogs_cardlist'>
                     {blogsList.map(item => {
                         return (
-      <Card style={{ width: '23rem' }} className="card11" >
+                            <Card style={{ width: '23rem' }} className="card12">
+                                <Card.Title className='blogsTitile'>{item.title1}</Card.Title>
+                                <Card.Subtitle className='blogsubtitile'>{item.subTitle}</Card.Subtitle>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
-                                    <Card.Subtitle className='blogsubtitile'>{item.subTitle}</Card.Subtitle>
-                                    <Link to='/blogsDetail'><Card.Title className='blogsTitile' >{item.title1}</Card.Title></Link>
-                                    <Card.Text className='blogsdesc'>{item.content1}</Card.Text>
+                                    <p>Introduction</p>
+                                    <Card.Text className='blogsdesc'>{item.content2}</Card.Text>
                                 </Card.Body>
                             </Card>
                         );
@@ -60,7 +55,7 @@ function blogs1() {
             </div>
             <Footer />
         </div>
-    )
+  )
 }
 
-export default blogs1
+export default BlogsDetail

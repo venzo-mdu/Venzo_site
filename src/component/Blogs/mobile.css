@@ -1,0 +1,375 @@
+
+@media screen and (max-width: 425px) and (min-width: 377px) {
+    .blogs_section1 {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/blogsPic/Rectangle\ 117.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 300px;
+    }
+    
+    .Blogs_title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    
+    .Blogs_desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .blogs_section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    
+    .searchBox {
+        padding: 0.5%;
+        background: #F6F6F6;
+        border-radius: 8px;
+        margin-left: 0%;
+        width: 95%;
+        padding-left: 3%;
+        margin-top: -90%;
+        margin-bottom: 5%;
+    }
+    
+    .categories {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+    
+    .sect2_hr {
+     display: none;
+    }
+    
+    .blogs_section3 {
+        display: block;
+        margin-bottom: 10%;
+        margin-left: -10%;
+    }
+    
+    .blogs_cardlist {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0%;
+        grid-column-gap: 3%;       
+        margin-right: 0%;
+        margin-top: 3%;
+        padding-right: 0%;
+    }
+    
+    .card11 {
+        margin-bottom: 2%;
+        margin-left: 16%;
+        z-index: -1;
+        margin-top: 5%;
+    }
+    
+    .blogsubtitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 200%;
+        color: #165EA0;
+        padding: 3% 0 0;
+    }
+    
+    .blogsTitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142.5%;
+        color: #000000;
+        padding: 5% 0;
+    
+    }
+    
+    .blogsdesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 151%;
+        text-align: justify;
+        color: #6C6C6C;
+        padding-bottom: 5%;
+    }
+    
+    .blogsRight {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        padding: 4%;
+        margin-top: 3%;
+        width: 80%;
+        display: block;
+        margin-left: 15%;
+        margin-bottom: 180%;
+    }
+            
+    .slide1 {
+        margin-bottom: 40%;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+    
+    .slide1 p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #A4A4A4;
+        width: 100vw;
+   
+    }
+    
+    .slide1 p:hover {
+        color: #000;
+        cursor: pointer;
+    }
+    
+    .slide2 {
+        margin-top: -13%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
+        border-radius: 12px;
+        margin-left: -5%;
+        padding-top: 10%;
+        display: block;
+        width: 85vw;
+        margin-bottom: 20%;
+    }
+    .slide2 p{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-left: 5%;
+    }
+    .slide2 img{
+        display: block;
+        margin: 6%;
+        padding-bottom: 5%;
+        width: 60vw;
+        margin-left: 10%;
+        padding-right: 3%;
+}
+    
+}
+
+
+@media screen and (max-width: 376px) {
+    .blogs_section1 {
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/blogsPic/Rectangle\ 117.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 270px;
+    }
+    
+    .Blogs_title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    
+    .Blogs_desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 85%;
+        margin-left: 7%;
+    }
+    
+    .blogs_section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    
+    .searchBox {
+        padding: 0.5%;
+        background: #F6F6F6;
+        border-radius: 8px;
+        margin-left: 0%;
+        width: 95%;
+        padding-left: 3%;
+        margin-top: -90%;
+        margin-bottom: 5%;
+    }
+    
+    .categories {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+    
+    .sect2_hr {
+     display: none;
+    }
+    
+    .blogs_section3 {
+        display: block;
+        margin-bottom: 10%;
+        margin-left: -10%;
+    }
+    
+    .blogs_cardlist {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0%;
+        grid-column-gap: 3%;       
+        margin-right: 0%;
+        margin-top: 3%;
+        padding-right: 0%;
+    }
+    
+    .card11 {
+        margin-bottom: 1%;
+        margin-left: 10%;
+        z-index: -1;
+        margin-top: 5%;
+    }
+    
+    .blogsubtitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 200%;
+        color: #165EA0;
+        padding: 3% 0 0;
+    }
+    
+    .blogsTitile {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 142.5%;
+        color: #000000;
+        padding: 5% 0;
+    
+    }
+    
+    .blogsdesc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 151%;
+        text-align: justify;
+        color: #6C6C6C;
+        padding-bottom: 5%;
+    }
+    
+    .blogsRight {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+        padding: 4%;
+        margin-top: 3%;
+        width: 80%;
+        display: block;
+        margin-left: 15%;
+        margin-bottom: 180%;
+    }
+            
+    .slide1 {
+        margin-bottom: 40%;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+    
+    .slide1 p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #A4A4A4;
+        width: 100vw;
+   
+    }
+    
+    .slide1 p:hover {
+        color: #000;
+        cursor: pointer;
+    }
+    
+    .slide2 {
+        margin-top: -13%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
+        border-radius: 12px;
+        margin-left: -5%;
+        padding-top: 10%;
+        display: block;
+        width: 85vw;
+        margin-bottom: 20%;
+    }
+    .slide2 p{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-left: 5%;
+    }
+    .slide2 img{
+        display: block;
+        margin: 6%;
+        padding-bottom: 5%;
+        width: 60vw;
+        margin-left: 10%;
+        padding-right: 3%;
+}
+    
+}
