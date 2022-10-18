@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvenzo_site=self.webpackChunkvenzo_site||[]).push([[495],{6807:function(e,n,t){t.r(n);var u=t(7294);n.default=function(){return u.createElement(u.Fragment,null)}}}]);
+//# sourceMappingURL=component---src-pages-qualityassurance-js-ce1fa767853b628990ae.js.map

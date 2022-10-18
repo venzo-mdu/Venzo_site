@@ -14,38 +14,46 @@ import Bcd26 from '../../../images/blockchaindevelopment/bcd26.png'
 import Bcd27 from '../../../images/blockchaindevelopment/bcd27.png'
 import Bcd20 from '../../../images/blockchaindevelopment/bcd20.png'
 
-function GetWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
-  return {
-    width,
-    height,
-  };
-}
+  // typeof window !== 'undefined'
+//   const { innerWidth: width, innerHeight: height } = window;
+//   return {
+//     width,
+//     height,
+//   };
+// }
 
-function UseWindowDimensions() {
-  const [windowDimensions, setWindowDimensions] = useState(GetWindowDimensions());
+// function UseWindowDimensions() {
+//   const [windowDimensions, setWindowDimensions] = useState(GetWindowDimensions());
+
+
+
+//   return windowDimensions;
+// }
+
 
   useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(GetWindowDimensions());
+    // function handleResize() {
+    //   setWindowDimensions(GetWindowDimensions());
+    // }
+
+    // window.addEventListener('resize', handleResize);
+    // return () => window.removeEventListener('resize', handleResize);
+    const isBrowser=typeof window !== 'undefined'
+    if (!isBrowser){
+      return 
     }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    console.log(isBrowser)
   }, []);
-
-  return windowDimensions;
-}
-
-function bcExecution() {
-  const { height, width } = UseWindowDimensions();
+const bcExecution=()=>{
+  // const { height, width } = UseWindowDimensions();
 
     return (
+      <>
         <div className='bcExecution'>
             <p id='executionTitle1'>We have our unique way</p>
             <p id='executionTitle2'>Our Execution Process</p>
             
-    <Timeline id='position'  position={width<=431?'right':'alternate'} >
+    <Timeline id='position' position={window.innerWidth<=431?'right':'alternate'}>
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -140,6 +148,7 @@ function bcExecution() {
 
     </Timeline>
         </div>
+        </>
     )
 }
 
