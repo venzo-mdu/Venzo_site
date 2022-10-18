@@ -5,13 +5,26 @@ import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-import BlogDetails from './BlogsDetail'
-import { Link } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import './blogs.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
+import { useNavigate } from "react-router-dom";
+
 function blogs1() {
+    // function Blogdetail(props){
+    // let navigate = useNavigate();
+    //     return (
+    //         navigate("/blogsDetails", { state: props })
+    //     )
+    // }
+    const Blogdetail = (data) =>{
+    let navigate = useNavigate();
+        
+        console.log("data", data)
+        navigate("/blogsDetails", { state: data })
+    }
     return (
         <div>
             <Header flag='header1' />
@@ -32,10 +45,9 @@ function blogs1() {
                     {blogsList.map((item,index)=> {
                         console.log(item.route);
                         return (
-                 <Card style={{ width: '23rem' }} className="card11" >
+                 <Card style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item)}>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
-                                <Link to="/blogsDetails"key={index}><p>Harish</p></Link> 
                                     <Card.Subtitle className='blogsubtitile'> {item.subTitle}</Card.Subtitle>
                                    <Card.Title className='blogsTitile' >{item.title1}</Card.Title>
                                     <Card.Text className='blogsdesc'>{item.content1}</Card.Text>

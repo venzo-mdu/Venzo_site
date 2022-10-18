@@ -1,0 +1,192 @@
+.quality_section1 {
+    padding: 15% 0 10% 0;
+    background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 610px;
+}
+
+.quality_Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-left: 12%;
+
+}
+
+.section2_Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    padding-top: 5%;
+
+}
+
+.roworder {
+    display: flex;
+    margin-left: 25%;
+}
+
+.colm {
+    padding-top: 5%;
+    padding-right: 4%;
+
+}
+
+.section2_desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    color: #000000;
+    width: 70%;
+    margin-left: 16%;
+    padding-top: 5%;
+}
+
+.Vline2 {
+    color: #D8D8D8;
+    padding-right: 4%;
+    padding-top: 4%;
+
+}
+
+.assurance_section3 {
+    background: #0A1020;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-image: url("../../images/quality/Group\ 81744.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 35%;
+}
+
+.assurance_section3_s1 {
+    width: 447px;
+    margin-left: 15%;
+    padding: 6% 0;
+}
+
+.ection3_s1Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.23);
+}
+
+.s1icon {
+padding: 1%;
+}
+
+.s1heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    padding: 1%;
+
+}
+
+.s1desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: rgba(224, 224, 224, 0.5);
+    padding: 1%;
+}
+
+.assurance_section3_s2 {
+    width: 447px;
+    margin-left: 7%;
+    padding: 6% 0;
+}
+
+
+.s2icon {
+padding: 1%;
+}
+
+.s2heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    padding: 1%;
+
+}
+
+.s2desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: rgba(224, 224, 224, 0.5);
+    padding: 1%;
+}
+.assurance_section4{
+    display: flex;
+}
+
+.assurance_section4_s1{
+    width: 577px;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.assurance_section3_s2{
+    display: block;
+}
+.section4_heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 39px;
+line-height: 120%;
+letter-spacing: -0.04em;
+}
+.s4_colortext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.s4_desc{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+color: #000000;
+}

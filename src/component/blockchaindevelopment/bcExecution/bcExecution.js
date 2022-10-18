@@ -14,46 +14,14 @@ import Bcd26 from '../../../images/blockchaindevelopment/bcd26.png'
 import Bcd27 from '../../../images/blockchaindevelopment/bcd27.png'
 import Bcd20 from '../../../images/blockchaindevelopment/bcd20.png'
 
-  // typeof window !== 'undefined'
-//   const { innerWidth: width, innerHeight: height } = window;
-//   return {
-//     width,
-//     height,
-//   };
-// }
-
-// function UseWindowDimensions() {
-//   const [windowDimensions, setWindowDimensions] = useState(GetWindowDimensions());
-
-
-
-//   return windowDimensions;
-// }
-
-
-  useEffect(() => {
-    // function handleResize() {
-    //   setWindowDimensions(GetWindowDimensions());
-    // }
-
-    // window.addEventListener('resize', handleResize);
-    // return () => window.removeEventListener('resize', handleResize);
-    const isBrowser=typeof window !== 'undefined'
-    if (!isBrowser){
-      return 
-    }
-    console.log(isBrowser)
-  }, []);
-const bcExecution=()=>{
-  // const { height, width } = UseWindowDimensions();
-
+const BcExecution=()=>{
     return (
       <>
         <div className='bcExecution'>
             <p id='executionTitle1'>We have our unique way</p>
             <p id='executionTitle2'>Our Execution Process</p>
             
-    <Timeline id='position' position={window.innerWidth<=431?'right':'alternate'}>
+    <Timeline id='position' position={typeof window !== 'undefined' ? window.innerWidth<=767?'right':'alternate':"alternate"} >
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -152,4 +120,4 @@ const bcExecution=()=>{
     )
 }
 
-export default bcExecution
+export default BcExecution

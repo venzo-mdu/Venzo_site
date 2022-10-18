@@ -5,10 +5,11 @@ import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-function BlogsDetail() {
-  return (
-    <div>
-            <Header flag='header1' />
+function BlogsDetail(props) {
+    
+    return (
+    <div>hello
+            {/* <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
                 <p className='Blogs_title'>Blogs</p>
@@ -53,7 +54,7 @@ function BlogsDetail() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer /> */}
         </div>
   )
 }
