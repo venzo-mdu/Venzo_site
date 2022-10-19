@@ -95,10 +95,10 @@ function qualityAssurance() {
                         <img src={gainimg} ></img>
                     </div>
                     <div className='assurance_section3_s2'>
-                        <p className='btn'><img src={checking}/> Functional Testing</p>
-                        <p className='btn'><img src={checking}/>Driven Development</p>
-                        <p className='btn'><img src={checking}/>Security Testing</p>
-                        <p className='btn'><img src={checking}/>Performance Engineering</p> 
+                        <div className=' testbtn'><p>Driven Development</p></div>
+                        <div className=' testbtn'><p>Security Testing</p></div>
+                        <div className=' testbtn'><p> Functional Testing</p></div>
+                        <div className=' testbtn'><p>Performance Engineering</p></div> 
                     </div>
                 </div>
             </div>
