@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../header/header'
 import './assurance.css'
+import './laptop.css'
 import vector from '../../images/quality/vector.png'
 import functiontesting from '../../images/quality/functiontesting.png'
 import manualtesting from '../../images/quality/manualtesting.png'
@@ -13,9 +14,101 @@ import group4 from '../../images/quality/group4.png'
 import group5 from '../../images/quality/group5.png'
 import group6 from '../../images/quality/group6.png'
 import gainimg from '../../images/quality/gainimg.png'
-import checking from '../../images/quality/check.png'
-
-function qualityAssurance() {
+import cardimg1 from '../../images/quality/cardimg1.png'
+import cardimg2 from '../../images/quality/cardimg2.png'
+import cardimg3 from '../../images/quality/cardimg3.png'
+import checkcolor from '../../images/quality/checkcolor.png'
+import Footer from '../footer/footer'
+function QualityAssurance() {
+    const [active, setActive] = useState('');
+    const dated = (value) => {
+        let container = document.querySelector('.quality_card1')
+        setActive(value)
+        if (value == 'Automation') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Defect') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Devops') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Mobile') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Web') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Security') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+        else if (value === 'Performance') {
+            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg2 + "' />\
+            <br>\
+            <br>\
+            <hr/>\
+            <img src='" + cardimg3 + "' />\
+    ";
+        }
+    }
     return (
         <div>
             <Header flag='header1' />
@@ -94,16 +187,67 @@ function qualityAssurance() {
                         <p className='s4_desc'>Venzo offers end-to-end quality assurance and testing services to assist businesses in managing an increasingly complex technological landscape.</p>
                         <img src={gainimg} ></img>
                     </div>
-                    <div className='assurance_section3_s2'>
+                    <div className='assurance_section4_s2'>
                         <div className=' testbtn'><p>Driven Development</p></div>
                         <div className=' testbtn'><p>Security Testing</p></div>
                         <div className=' testbtn'><p> Functional Testing</p></div>
-                        <div className=' testbtn'><p>Performance Engineering</p></div> 
+                        <div className=' testbtn'><p>Performance Engineering</p></div>
+                    </div>
+                </div>
+                <div className='quality_section5'>
+                    <p className="quality_section5_titlte">Software QA And Technology Stack & Tools</p>
+                    <div className='quality_cardList'>
+                        <ul className='quality_cardTitle'>
+                            <li className={active === 'Automation' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Automation')}>Automation Testing</li>
+                            <hr />
+                            <li className={active === 'Defect' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Defect')}>Test & Defect</li>
+                            <hr />
+                            <li className={active === 'Devops' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Devops')}>Devops Integration</li>
+                            <hr />
+                            <li className={active === 'Mobile' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('Mobile')}>Mobile Testing</li>
+                            <hr />
+                            <li className={active === 'Web' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('Web')}>Web Tesing</li>
+                            <hr />
+                            <li className={active === 'Security' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Security')}>Security Testing</li>
+                            <hr />
+                            <li className={active === 'Performance' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Performance')}>Performance Tesing</li>
+                        </ul>
+                        <div className='quality_card1'>
+                        </div>
+                    </div>
+                </div>
+                <div className='quality_section6'>
+                    <p className='quality_section6_title'>Venzo’s Stages of <span className='s4_colortext'> QA Process </span></p>
+                    <p className='quality_section6_desc'>Venzo is about providing an impeccable customer experience. We focus on robust quality testing mechanisms and practices tailored to your specific business goals by leveraging our expertise in various industries.</p>
+                    <div className='qaprocess'>
+                        <div >
+                            <img src={checkcolor}></img>
+                            <p>Analyze Requirements</p>
+                        </div>
+                        <div>
+                            <img src={checkcolor}></img>
+                            <p>Test Planning</p>
+                        </div>
+                        <div>
+                            <img src={checkcolor}></img>
+                            <p>Sprint QA Activities</p>
+                        </div>
+                        <div>
+                            <img src={checkcolor}></img>
+                            <p>Hardening Sprint</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className='quality_section7'>
+                        <p className='qulaityend'><span className=' textColor'>End-To-End Quality</span><br/>Engineering Services </p>
+                        <button className=' btn qualitybtn'>Get Quote</button>
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
 
-export default qualityAssurance
+export default QualityAssurance
