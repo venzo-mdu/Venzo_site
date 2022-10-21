@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from '../header/header'
 import './assurance.css'
 import './laptop.css'
+import './tab.css'
 import vector from '../../images/quality/vector.png'
 import functiontesting from '../../images/quality/functiontesting.png'
 import manualtesting from '../../images/quality/manualtesting.png'
@@ -125,18 +126,20 @@ function QualityAssurance() {
                             <h2 className="heading">Performance <br />Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
-
+                        <hr className='qualityres'/>
                         <div className='colm'>
                             <img className="icon" src={manualtesting} alt='icon' />
                             <h2 className="heading">Manual and <br />Automation Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
+                        <hr className='qualityres'/>
 
                         <div className='colm'>
                             <img className="icon" src={functiontesting} alt='icon' />
                             <h2 className="heading">Functional <br />Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
+                        <hr className='qualityres'/>
                         <div className='colm'>
                             <img className="icon" src={vector} alt='icon' />
                             <h2 className="heading">Usability <br />Testing</h2>

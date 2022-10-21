@@ -1,4 +1,4 @@
-@media screen and (max-width:1025px) and (min-width:768px) {
+@media screen and (max-width:1025px) and (min-width:769px) {
     .quality_section1 {
     padding: 15% 0 10% 0;
     background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
@@ -62,6 +62,9 @@
     padding-right: 4%;
     padding-top: 4%;
 
+}
+.qualityres{
+    display: none;
 }
 
 .assurance_section3 {
