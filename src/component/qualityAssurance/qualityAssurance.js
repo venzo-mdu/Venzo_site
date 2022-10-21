@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import Accordion from 'react-bootstrap/Accordion';
 import Header from '../header/header'
 import './assurance.css'
 import './laptop.css'
 import './tab.css'
-import vector from '../../images/quality/vector.png'
+import './mobile.css'
+import vector from '../../images/quality/Vector.png'
 import functiontesting from '../../images/quality/functiontesting.png'
 import manualtesting from '../../images/quality/manualtesting.png'
 import performancetesting from '../../images/quality/performancetesting.png'
@@ -126,20 +128,20 @@ function QualityAssurance() {
                             <h2 className="heading">Performance <br />Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
-                        <hr className='qualityres'/>
+                        <hr className='qualityres' />
                         <div className='colm'>
                             <img className="icon" src={manualtesting} alt='icon' />
                             <h2 className="heading">Manual and <br />Automation Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
-                        <hr className='qualityres'/>
+                        <hr className='qualityres' />
 
                         <div className='colm'>
                             <img className="icon" src={functiontesting} alt='icon' />
                             <h2 className="heading">Functional <br />Testing</h2>
                         </div>
                         <img className='Vline2' src={line} ></img>
-                        <hr className='qualityres'/>
+                        <hr className='qualityres' />
                         <div className='colm'>
                             <img className="icon" src={vector} alt='icon' />
                             <h2 className="heading">Usability <br />Testing</h2>
@@ -155,11 +157,13 @@ function QualityAssurance() {
                             <h2 className="s1heading">Performance Evaluation</h2>
                             <p className='s1desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
+                        <hr />
                         <div>
                             <img className="s1icon" src={group2} alt='icon' />
                             <h2 className="s1heading">Quality and UX audit</h2>
                             <p className='s1desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
+                        <hr />
                         <div>
                             <img className="s1icon" src={group3} alt='icon' />
                             <h2 className="s1heading">Integration Testing</h2>
@@ -172,11 +176,13 @@ function QualityAssurance() {
                             <h2 className="s2heading">Performance Evaluation</h2>
                             <p className='s2desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
+                        <hr />
                         <div>
                             <img className="s2icon" src={group5} alt='icon' />
                             <h2 className="s2heading">Quality and UX audit</h2>
                             <p className='s2desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
+                        <hr />
                         <div>
                             <img className="s2icon" src={group6} alt='icon' />
                             <h2 className="s2heading">Integration Testing</h2>
@@ -218,24 +224,115 @@ function QualityAssurance() {
                         <div className='quality_card1'>
                         </div>
                     </div>
+
+                    <div className='quality_section52'>
+                        <Accordion defaultActiveKey="0" flush>
+                            <Accordion.Item eventKey="0">
+                                <Accordion.Header>Automation Testing </Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                    <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                                <Accordion.Header>Test & Defect</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3">
+                                <Accordion.Header>Devops Integration</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="4">
+                                <Accordion.Header>Mobile Testing</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="5">
+                                <Accordion.Header>Web Tesing</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="6">
+                                <Accordion.Header>Security Testing</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="7">
+                                <Accordion.Header>Performance Tesing</Accordion.Header>
+                                <Accordion.Body className=' quality_card2'>
+                                <div>
+                                        <img src={cardimg1} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg2} />
+                                        <br /><br /><hr />
+                                        <img src={cardimg3} />
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
+
+                    </div>
+
                 </div>
                 <div className='quality_section6'>
                     <p className='quality_section6_title'>Venzo’s Stages of <span className='s4_colortext'> QA Process </span></p>
                     <p className='quality_section6_desc'>Venzo is about providing an impeccable customer experience. We focus on robust quality testing mechanisms and practices tailored to your specific business goals by leveraging our expertise in various industries.</p>
                     <div className='qaprocess'>
-                        <div >
+                        <div className='qaSec6Res'>
                             <img src={checkcolor}></img>
                             <p>Analyze Requirements</p>
                         </div>
-                        <div>
+                        <div className='qaSec6Res'>
                             <img src={checkcolor}></img>
                             <p>Test Planning</p>
                         </div>
-                        <div>
+                        <div className='qaSec6Res'>
                             <img src={checkcolor}></img>
                             <p>Sprint QA Activities</p>
                         </div>
-                        <div>
+                        <div className='qaSec6Res'>
                             <img src={checkcolor}></img>
                             <p>Hardening Sprint</p>
                         </div>
@@ -243,7 +340,7 @@ function QualityAssurance() {
                 </div>
                 <div>
                     <div className='quality_section7'>
-                        <p className='qulaityend'><span className=' textColor'>End-To-End Quality</span><br/>Engineering Services </p>
+                        <p className='qulaityend'><span className=' textColor'>End-To-End Quality</span><br />Engineering Services </p>
                         <button className=' btn qualitybtn'>Get Quote</button>
                     </div>
                 </div>
