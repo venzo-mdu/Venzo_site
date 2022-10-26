@@ -8,8 +8,8 @@ import tweet2 from '../../images/blogsPic/tweet2.png'
 function BlogsDetail(props) {
     
     return (
-    <div>hello
-            {/* <Header flag='header1' />
+    <div>
+            <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
                 <p className='Blogs_title'>Blogs</p>
@@ -54,7 +54,7 @@ function BlogsDetail(props) {
                     </div>
                 </div>
             </div>
-            <Footer /> */}
+            <Footer />
         </div>
   )
 }
