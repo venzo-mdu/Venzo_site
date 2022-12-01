@@ -1,8 +1,7 @@
 [   
     {
         "navLink":"Home",
-        "routeLink":"/",
-        "activeLink":"home"
+        "routeLink":"/"
     },
     {
         "navLink":"Product Development",

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../header/header.css"
-import Venzologo1 from "../../images/venzoWhite.svg"
+import Venzologo1 from "../../images/venzoWhite.png"
 import HeaderData from "../../content/headerData.json"
 import ToggleIcon from "../../images/toggleIcon.png"
 import { Link } from 'gatsby'
@@ -12,7 +12,7 @@ function header(props) {
    <header>
         <div id={props.flag == 'header2'?'headerSection':' '} className='header'>
        <div className='logo'>
-           <img src={Venzologo1} alt='logoIcon'></img>
+           <img className='venzohome' src={Venzologo1} alt='logoIcon'></img>
        </div>
            <div className='links'>
            {/* <ul>
@@ -25,7 +25,7 @@ function header(props) {
            {
                HeaderData.map(item=>{
                 console.log(HeaderData);
-                return <li><Link to={item.routeLink} className={item?item.activeLink:" "}>{item.navLink}</Link></li>
+                return <li><Link to={item.routeLink} activeClassName="active-link" className={item?item.activeLink:" "}>{item.navLink}</Link></li>
                })
            }
                   </ul>

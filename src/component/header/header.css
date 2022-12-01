@@ -10,220 +10,175 @@ body {
 
 .header {
     position: fixed;
-    /* background-color: #0A1020; */
     width: 100%;
     color: white;
     margin: 0% 0 0% 0;
-    padding: 2% 12% 2%;
+    padding: 2% 5%;
     z-index: 3;
     height: 10%;
+    display: flex;
 }
 
 a {
-    color: unset;
-    text-decoration: none;
+    color: unset!important;
+    text-decoration: none!important;
 }
+.venzohome{
+    margin:-5% 0 0 0;
 
+}
 .header .logo {
-    width: 20%;
+    width: 10%;
 }
 
 .toggleIcon {
     display: none;
 }
-
-
-.header .links ul {
-    margin: -1.5% 43%;
-    width: 80%;
-
+.header .links{
+    width: 90%;
 }
 
-.header .links .home {
-    opacity: 0.5;
+.header .links ul {
+    margin: 0% 30%;
+    width: 100%;
+
 }
 
 .header .links li {
     display: inline;
-    font-size: 18px;
-    font-family: 'poppins-medium';
-    margin: 0% 1%;
+    margin: 0% 2%;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
     font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 #headerSection {
     background-color: #0a1020;
     z-index: 0 !important;
+    height: 90px;
+}
+.active-link{
+    color:  rgba(255, 255, 255, 0.5)!important;
 }
 
-
-
-
-
-
-
-@media screen and (max-width:1440px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .header {
-        position: fixed;
-        z-index: 3;
         height: 10%;
-    }
+        padding: 2% 7% 2%;
 
-    .header .logo {
-        width: 200%;
-        margin-top: -2%;
     }
-
+    .header .links ul {
+        margin: 0% 25%;
+        width: 90%;
+    
+    }
+    
+    .venzohome{
+        margin:-1% 0 0 0;
+    }
     .toggleIcon {
         display: none;
     }
 
-
-    .header .links {
-        margin: -2% 0% 0 5%;
-        width: 90%;
-    }
-
     .header .links li {
-        font-size: 16px;
+        margin: 0% 3%;
+        font-weight: 500;
     }
-
-    .header .logo {
-        width: 300%;
-    }
+   
 }
 
-@media screen and (max-width:1024px) and (min-width:769px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
 
     .header {
-        position: fixed;
-        z-index: 3;
+        padding: 3% 5%;
     }
 
+    .venzohome{
+        margin:0% 0 0 0;
+    }
 
-    /* .header .toggleIcon{
-        display: block;
-        height: 25px;
-        width: 28px;
-        position: absolute;
-        top: -10px;
-        right: 35px;
-    } */
     .header .links ul {
-        width: 100%;
-        margin-left: 30%;
-        margin-top: -3%;
+        margin: 0% 0 0 22%;
     }
 
     .header .links li {
         font-size: 14px;
-    }
-
-    .header .logo {
-        width: 270vw;
-        margin-top: -2%;
+        margin: 0% 2.5%;
     }
 }
 
-@media screen and (max-width:768px) and (min-width:426px) {
-    #headerSection {
-        background-color: #0a1020;
-        z-index: 0 !important;
-        margin: -8% 0 0 0;
-        height: 12vh;
-        top: 10px;
-    }
+@media screen and (max-width:768px) and (min-width:430px) {
 
+    .venzohome{
+        margin:15% 0 0 0;
+    }
     .header .toggleIcon {
         display: block;
-        height: 25px;
-        width: 28px;
+        height: 20px;
+        width: 24px;
         position: absolute;
-        top: 20px;
-        left: 86%;
+        top: 30px;
+        right: 30px;
     }
-
+   
     .header .links li {
         display: none;
-
     }
 
     .header {
-        position: sticky;
         margin: 0;
-        padding: 0;
-        padding-left: 10%;
+        padding: 1% 3%;
     }
-
-    .header .logo {
-        width: 270vw;
-        padding-top: 1%;
-        padding-bottom: 3%;
-    }
-
-
 
 }
-
-@media screen and (max-width:425px) and (min-width:376px) {
-    #headerSection {
-        background-color: #0a1020;
-        z-index: 0 !important;
-        margin: -8% 0 0 0;
-        height: 12vh;
-        top: 10px;
+@media screen and (max-width:430px) and (min-width:375px) {
+    .header {
+        margin: 0;
+        padding: 5% 3%;
     }
-
+    .venzohome{
+        margin:25% 0 0 0;
+        width: 100px;
+    }
     .header .toggleIcon {
         display: block;
-        height: 25px;
-        width: 28px;
+        height: 20px;
+        width: 24px;
         position: absolute;
-        top: 20px;
-        left: 86%;
+        top: 30px;
+        right: 20px;
     }
-
+   
     .header .links li {
         display: none;
-
-    }
-
-    .header {
-        position: sticky;
-        margin: 0;
-        padding: 0;
-        padding-left: 10%;
     }
 
 }
 
 @media screen and (max-width:375px) {
     .header {
-        background-color: #0a1020;
-        z-index: 0 !important;
-        margin: 0 0 3% 0;
-        height: 10vh;
-        position: sticky;
+        margin: 0;
+        padding: 5% 3%;
     }
-
+    .venzohome{
+        margin:25% 0 0 0;
+        width: 100px;
+    }
     .header .toggleIcon {
         display: block;
-        height: 22px;
-        width: 30px;
+        height: 20px;
+        width: 24px;
         position: absolute;
-        top: 21px;
-        left: 86%;
+        top: 30px;
+        right: 20px;
     }
-
-    header {
-        margin: -10% 0% -8% 0;
-    }
-
-    .header .logo {
-        margin: 0% 0 0 0;
-    }
-
-
+   
     .header .links li {
         display: none;
     }
