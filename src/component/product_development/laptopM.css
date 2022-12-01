@@ -2,7 +2,7 @@
 
 
 .product_Title {
-    margin: 8% 15%;
+    margin: 3% 4%;
 }
     .expert_flex {
         margin: 0 5% 5% 3%;
@@ -34,4 +34,15 @@
    .ourProducts .productImage{
     margin-left: 4%;
  }
+ .helpDesc {
+    width: 81%;
+    margin-left: 10%;
+}
+.saas_consulting, .saas_Development {
+    display: block;
+}
+.cons_right {
+    padding-left: 0%;
+    padding-top: 2%;
+}
 }

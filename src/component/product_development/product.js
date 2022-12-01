@@ -94,18 +94,18 @@ function product() {
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Technical consultation </p>
+                                    <p className='cons_subTitle'>Technical<br></br>consultation </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
 
                                 <div className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  & Conceptualization </p>
+                                    <p className='cons_subTitle'>Ideas  &<br></br>Conceptualization </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy Development </p>
+                                    <p className='cons_subTitle'>Strategy<br></br>Development </p>
                                 </div>
                             </div>
                         </div>
@@ -121,24 +121,24 @@ function product() {
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Technical consultation </p>
+                                    <p className='cons_subTitle'> Multi-tenant<br></br>architecture development</p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
                                 <div  className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  &  Conceptualization </p>
+                                    <p className='cons_subTitle'>Service Oriented<br></br>Architecture (SOA) development</p>
                                 </div>
                                 </div>
                                 <div className='dev_list-Block'>
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy Development </p>
+                                    <p className='cons_subTitle'>Cloud<br></br>Computing Deployments </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>04</p>
-                                    <p className='cons_subTitle'>Strategy Development </p>
+                                    <p className='cons_subTitle'>API<br></br>Development and Integration </p>
                                 </div>
                                 </div>
                             </div>
@@ -155,12 +155,12 @@ function product() {
                             <img className='linev' src={line} alt='line' />
                                 <div className='linevText'> 
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Flexible team & 24/7 Service </p>
+                                    <p className='cons_subTitle'>Flexible team<br></br>& 24/7 Service </p>
                                 </div>
                                 <img className='linev' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ongoing  support & maintenance </p>
+                                    <p className='cons_subTitle'>Ongoing<br></br>support & maintenance </p>
                                 </div> 
                             </div>
                         </div>
