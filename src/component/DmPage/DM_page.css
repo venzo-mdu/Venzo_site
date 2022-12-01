@@ -67,42 +67,6 @@ body{
     height: 251px;
 }
 
-.Serv_left {
-    width: 25%;
-    margin: 3% 0 0 13%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 120%;
-}
-
-.Serv_right {
-    width: 40%;
-    margin: 3% 0 0 10%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 175%;
-}
-
-.DM_icons {
-    margin-right: 5%;
-    margin-top: 6%;
-    width: 50px;
-    height: 50px;
-    font-size: 12px;
-}
-
-.serv_hr {
-    border: 1 solid black;
-    display: inline;
-    margin-left: 10%;
-    width: 80%;
-
-}
-
 .Dm_heading {
     font-family: "Poppins", Sans-serif;
     font-size: 140px;
@@ -131,9 +95,44 @@ body{
     font-size: 22px;
     line-height: 175%;
     color: #000000;
+}
+.Serv_left {
+    width: 25%;
+    margin: 3% 0 0 13%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+}
 
+.Serv_right {
+    width: 40%;
+    margin: 3% 0 0 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.DM_icons {
+    margin-right: 5%;
+    margin-top: 6%;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.serv_hr {
+    border: 1 solid black;
+    display: inline;
+    margin-left: 10%;
+    width: 80%;
 
 }
+
 
 .section4 {
     margin-top: 3%;
@@ -186,7 +185,7 @@ body{
     text-align: center;
     color: #FFFFFF;
     font-family: "Poppins", Sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-style: normal;
     line-height: 24.5px;
@@ -259,9 +258,8 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 22px; 
-    line-height: 2.3;
-    text-align: right;
-
+    line-height: 120%;
+    text-align-last: end;
 }
 
 .sliderDesk {
@@ -277,7 +275,9 @@ body{
 }
 .DM_cardTitle>li {
     color: #BCBCBC;
-    font-size: 22px     ;
+    font-size: 22px;
+    padding-bottom: 7%;
+    margin-top: 1%;
 }
 
 .DM_cardTitle>li:hover {
@@ -285,7 +285,7 @@ body{
 }
 .subTitle{
     color: #BCBCBC;
-    font-size: 18px;
+    font-size: 14px;
 }
 .cardtitle01{
     color: #000 !important;
@@ -311,7 +311,7 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin-left: 3%;
+    margin-left: 0%;
     padding: 1%;
     font-family: 'Poppins';
     font-style: normal;
@@ -362,7 +362,7 @@ button:focus:not(:focus-visible) {
 }
 .sect6_title {
     font-family: "Poppins", Sans-serif;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 600;
     font-style: normal;
     line-height: 120px;
@@ -382,7 +382,7 @@ button:focus:not(:focus-visible) {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 175%;
     color: #000000;
     padding-bottom: 3%;
@@ -430,6 +430,8 @@ button:focus:not(:focus-visible) {
 }
 .containor11{
     background: #F7F7F7;
+    display: flex;
+    padding: 8% 0 3%;
 }
 .auidt {
     margin-left: 75%;
