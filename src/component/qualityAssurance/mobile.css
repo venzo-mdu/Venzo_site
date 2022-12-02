@@ -272,13 +272,13 @@ color: #424753;
 .quality_cardList{
     display: none;
 }
-.quality_section52 , .accordion-item{
+.quality_section52 , .quality_section52 .accordion-item{
     display: block;
     background: #0A1020;
     width: 80%;
     margin-left: 10%;
 }
-.quality_section52 , .accordion-header{
+.quality_section52  .accordion-header{
     background: #0A1020;
     color: #7E7E7E;
 }
@@ -685,13 +685,13 @@ color: #424753;
 .quality_cardList{
     display: none;
 }
-.quality_section52 , .accordion-item{
+.quality_section52 ,.quality_section52 .accordion-item{
     display: block;
     background: #0A1020;
     width: 80%;
     margin-left: 10%;
 }
-.quality_section52 , .accordion-header{
+.quality_section52  .accordion-header{
     background: #0A1020;
     color: #7E7E7E;
 }
