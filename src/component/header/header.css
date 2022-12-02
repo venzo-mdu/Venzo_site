@@ -15,7 +15,7 @@ body {
     margin: 0% 0 0% 0;
     padding: 2% 5%;
     z-index: 3;
-    height: 10%;
+    height: 125px;
     display: flex;
 }
 
@@ -24,7 +24,7 @@ a {
     text-decoration: none!important;
 }
 .venzohome{
-    margin:-5% 0 0 0;
+    margin:-10% 0 0 15%;
 
 }
 .header .logo {
@@ -80,7 +80,7 @@ a {
     }
     
     .venzohome{
-        margin:-1% 0 0 0;
+        margin:-7% 0 0 0;
     }
     .toggleIcon {
         display: none;
@@ -100,7 +100,7 @@ a {
     }
 
     .venzohome{
-        margin:0% 0 0 0;
+        margin:-8% 0 0 0;
     }
 
     .header .links ul {
@@ -116,7 +116,7 @@ a {
 @media screen and (max-width:768px) and (min-width:430px) {
 
     .venzohome{
-        margin:15% 0 0 0;
+        margin:18% 0 0 0;
     }
     .header .toggleIcon {
         display: block;

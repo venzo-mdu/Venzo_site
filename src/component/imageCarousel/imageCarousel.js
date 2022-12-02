@@ -1,10 +1,10 @@
 import React from 'react'
 import "../imageCarousel/imageCarousel.css"
-import whiteArrow from "../../images/arrow.png"
-import blackArrow from "../../images/arrow-black.svg"
+import whiteArrow from "../../images/whiteArrow.svg"
+import blackArrow from "../../images/blackArrow.svg"
 import FbIcon from "../../images/Fb.svg"
-import TwitterIcon from "../../images/Twitter.svg"
-import LinkedinIcon from "../../images/Linkedin.svg"
+import TwitterIcon from "../../images/twitter.svg"
+import LinkedinIcon from "../../images/linkedin.svg"
 import InstaIcon from "../../images/insta.svg"
 import Header from '../header/header.js'
 import blog1 from '../../images/Blockchain-1.png'
@@ -17,9 +17,9 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 function imageCarousel() {
     const items = [
-        <img src={blog1} role="presentation" />,
-        <img src={blog2} role="presentation" />,
-        <img src={blog3} role="presentation" />,
+        <img className='carouselImage' src={blog1} role="presentation" />,
+        <img className='carouselImage' src={blog2} role="presentation" />,
+        <img className='carouselImage' src={blog3} role="presentation" />,
     ];
     return (
         <>
@@ -31,7 +31,7 @@ function imageCarousel() {
                 mouseTrackingEnabled
                 autoPlay={true}
                 playButtonEnabled={false}
-                autoPlayInterval={3000}
+                autoPlayInterval={10000}
             >
                 <div>
                     <img
@@ -46,12 +46,10 @@ function imageCarousel() {
                         alt="blockchainBl "
                     />
                     <div className='item1'>
-                        <p id='blockchain'>Decentralization<br></br>
-                            and cryptographic<br></br>
-                            hashing</p>
+                        <p id='blockchain'>Decentralization<br></br> and cryptographic<br></br> hashing</p>
                         <p id="blockchainDev">We build Blockchain Development<br></br>
                             that people trust</p>
-                        <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
                 <div>
@@ -67,12 +65,11 @@ function imageCarousel() {
                         alt="productDevelopmentBl "
                     />
                     <div className='item3'>
-                        <p id='productDevelopment'>Development and<br></br>
-                            Growth</p>
+                        <p id='productDevelopment'>Development and<br></br> Growth</p>
                         <p id="productDev">
                             We build Product Development<br></br>
                             that people trust</p>
-                        <p id="knowMore">Know More <img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
                 <div>
@@ -88,12 +85,11 @@ function imageCarousel() {
                         alt="dataEngineeringBl "
                     />
                     <div className='item2'>
-                        <p id='dataEngineering'>Crafting Tech into<br></br>
-                            your ideas</p>
+                        <p id='dataEngineering'>Crafting Tech into<br></br> your ideas</p>
                         <p id="dataEnggDev">
                             We build Product Development<br></br>
                             that people trust</p>
-                        <p id="knowMore1">Know More <img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
+                        <p id="knowMore1">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
                     </div>
                 </div>
             </AliceCarousel>
@@ -103,7 +99,6 @@ function imageCarousel() {
                 <img id='twittericon' src={TwitterIcon} alt='twitterIcon'></img>
                 <img id='linkedinicon' src={LinkedinIcon} alt='linkedIcon'></img>
                 <img id='instaicon' src={InstaIcon} alt='instaIcon'></img>
-
             </div>
 
         </>
