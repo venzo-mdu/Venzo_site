@@ -8,7 +8,7 @@ function devCarousel() {
   
     return (
         <div className='devCaros'> 
-         <Carousel >
+         <Carousel slide={false}>
             <Carousel.Item >
 
                 <div className='item1'>
@@ -35,7 +35,7 @@ function devCarousel() {
                     <div>
                     <img className='mango'  src={mango}></img>
 
-                        <p className="blockchainDev">WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
+                        <p className="blockchainDev">1 WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
                     </div>
                     <div>
                         <img
@@ -53,7 +53,7 @@ function devCarousel() {
                     <div>
                     <img className='mango'  src={mango}></img>
 
-                        <p className="blockchainDev">WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
+                        <p className="blockchainDev">2 WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
                     </div>
                     <div>
                         <img

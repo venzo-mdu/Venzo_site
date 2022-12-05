@@ -53,8 +53,7 @@ function Development() {
             <DevCarousel />
             <div>
                 <div className='containor12'>
-                    <p className='anyIdea12'>Build your website <br /><span className=' textColor'>to grow your business
-                    </span> </p>
+                    <p className='anyIdea12'>Build your website <br /><span className=' textColor'>to grow your business  </span> </p>
                     <button className=' btn talk12'>Let's Talk</button>
                 </div>
             </div>
