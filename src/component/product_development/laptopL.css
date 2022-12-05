@@ -1,4 +1,4 @@
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1440px) and (min-width:1025px) {
     .saas{
       
     margin:0 0 5% -10%;
@@ -6,8 +6,8 @@
     }
     .animation #animationText{
         position:absolute;
-        left:390px;
-        top:300px;
+        left:335px;
+        top:288px;
     }
     .cardlist {
         grid-row-gap: 11%;
@@ -43,12 +43,35 @@
         padding-right: 1%;
         padding-top: 4%;
         padding-left: 3%;
+        margin-left: -1%;
+        margin-right: -10%;
+    }
+    .expert_flex>div {
+        padding-right: 5%;
+        padding-left: 1%;
+        padding-top: 3%;
+        margin-left: 0%;
+    }
+    .expert_flex {
+        margin: 0 5% 5% 12%;
+    }
+    .cons_left {
+        padding-right: 0%;
+    padding-top: 0%;
+    margin-right: -5%;
     }
     .cons_subTitle {
         width: 256px;
     }
     .cons_desc {
-        width: 72%;
+        width: 80%;
+    }
+    .saasImg1{
+        width: 35%;
+    }
+    .whyVenzo {
+        padding: 3% 0%;
+        margin-left: -3%;
     }
     .dev_list>div>div {
         padding-left: 3%;
@@ -60,9 +83,14 @@
         margin-top: 59%;
     }
     .awesomeProducts .awesomeTitle {
-        margin-top: -3%;
+        margin-top: -5%;
     }
     .carousel-indicators {
-        margin-bottom: -1%;
+        margin-bottom: -6%;
+    }
+    .awesomeProducts {
+            height: auto;
+            padding: 8%;
+        
     }
 }
