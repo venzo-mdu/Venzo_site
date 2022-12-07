@@ -20,11 +20,17 @@
         height: 610px;
     } */
     .product_Title {
-        margin: 8% 10%;
+        margin: 28% 6%;
+        width: 51%;
+        font-size: 32px;
     }
     .expert_flex{
         display: block;
         text-align: center;
+        margin-left: 4%;
+    }
+    .expert_flex>div {
+        padding-bottom: 4%;
     }
     .expert_flex p{
         margin: -5% 0 0 0;
@@ -34,7 +40,7 @@
     }
     .saasImg{
         width: 85%;
-        margin: 5% 0 0 1%;
+        margin: 5% 0 0 5%;
 
     }
     .saasImg1{
@@ -54,11 +60,12 @@
         text-align: left;
         width: 100%;
         font-size: 28px;
+        margin-left: 3%;
     }
     .cons_subTitle{
        width:90%;
        text-align: left;
-       margin: 2% 0 0 10%;
+       margin: 0% 0 0 10%;
 
     }
     .linevText{
@@ -67,6 +74,25 @@
     }
     .cons_desc{
         text-align: left;
+        margin-left: -17%;
+        width: 385px;
+    }
+    .SAASDev{
+        text-align: left;
+        margin-left: -1%;
+        width: 401px;
+    }
+    .SaasDevTit2{
+        margin-left: 13%;
+    }
+    .dev_list {
+        display: block;
+        margin-left: 6%;
+    }
+    .ConsTitl{
+        width: 100%;
+    font-size: 28px;
+    margin-left: 11%;
     }
     .cards1,.cards2,.cards3{
         width:300px;
@@ -137,7 +163,7 @@
         
     }
     .awesomeProducts{
-        height: 100vh;
+        height: 844px;
    }
    .ourProducts{
        padding:5% 5%;
@@ -158,12 +184,13 @@
   }
   .whyVenzo #whyVenzoTitle{
       text-align: center;
+      margin-left: 10%;
   }
 
   .buildProduct{
       display: block;
       height: 30vh;
-      padding: 10% 10%;
+      padding: 4% 10%;
   }
   .buildText{
     font-family: Poppins;
@@ -274,5 +301,8 @@
 }
 .carousel-indicators {
     display: flex;
+}
+.carousel-inner {
+    height:  138vh !important;
 }
 }

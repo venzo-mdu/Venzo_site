@@ -26,6 +26,7 @@
     }
     .carousel-indicators {
         display: flex;
+        margin-bottom: -10%;
     }
    .ourProducts{
        padding:5% 5%;
@@ -38,11 +39,65 @@
     width: 81%;
     margin-left: 10%;
 }
-.saas_consulting, .saas_Development {
+/* .saas_consulting, .saas_Development {
     display: block;
-}
+} */
 .cons_right {
-    padding-left: 0%;
+    padding-left: 2%;
     padding-top: 2%;
+}
+.linev {
+    margin-left: 0%;
+    margin-right: 13px;
+    margin-top: 32px;
+}
+.expert_flex>div {
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 3%;
+    
+}
+.cons_list>div {
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 26%;
+}
+.saas_consulting, .saas_Development {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.cons_desc {
+    width: 78%;
+}
+.SAASDev{
+    width: 98%;
+}
+.dev_list {
+    width: 10%;
+}
+.saasHr{
+    margin-top: 8px;
+}
+.dev_list>div>div {
+    padding-left: 4%;
+    padding-right: 0%;
+}
+.saasImg1{
+    width: 44%;
+    margin-left: -3%;
+}
+.ImpactTitle {
+    width: 67%;
+    margin-left: 18%;
+}
+.cards1, .cards2, .cards3 {
+    width: 286px;
+}
+.cardlist {
+    margin-left: -2%;
+}
+.awesomeProducts {
+    height: 647px;
 }
 }
