@@ -1,0 +1,30 @@
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.powerrightImage #powerrightText {
+    width: 532px;
+}
+.unleashing #unleashingTitle {
+    margin: 0 0 0 5%;
+}
+.powerOfvenzo {
+     padding-left:5%;
+}
+.powerOfvenzo .powerrightImage {
+    margin: 0 0 0 5%;
+}
+.commitments {
+    padding: 5% 5%;
+}
+.rightCommit {
+    width: 70%;
+    margin-left: 8%;
+}
+.rightCommit #rightCommitText {
+    width: 733px;
+}
+}

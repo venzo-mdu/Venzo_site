@@ -1,5 +1,6 @@
 import React from 'react'
 import '../unleashing/unleashing.css'
+import '../unleashing/Laptop.css'
 
 
 import powerImage from '../../../images/aboutus/aboutus4.png'
