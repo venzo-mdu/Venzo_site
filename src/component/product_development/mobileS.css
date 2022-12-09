@@ -9,8 +9,25 @@
         width: 70%;
         margin: 2% 0 10% 15%;
     }
-
-   
+    .product_Title {
+        margin: 27% 6%;
+        width: 40%;
+        font-size: 28px;
+    }
+   .SAASDev{
+    width: 354px;
+    margin-left: 1%;
+   }
+   .SupportMain{
+    width: 351px;
+    margin-left: -17%;
+   }
+   .SupportLine{
+    margin-left: -14%;
+   }
+   .buildProduct {
+    height: auto;
+}
     .cards1,.cards2,.cards3{
         width:300px;
         margin: 0 0 15% 1%;

@@ -1,4 +1,4 @@
-@media screen and (max-width:545px) and (min-width:430px) {
+@media screen and (max-width:430px) and (min-width:375px) {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -19,23 +19,23 @@ body {
     height: 509px;
 }
 
-.helpTitle {
+.helpTitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 34px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.04em;
     color: #FFFFFF;
-    margin-top: 5%;
+    margin-top: 17%;
 }
 
-.helpDesc {
+.helpDesc1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 27px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -93,7 +93,7 @@ body {
     line-height: 8%;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    margin-right: 5%;
+    margin-right: 11%;
     color: #FFFFFF;
     margin-top: 2%;
 }

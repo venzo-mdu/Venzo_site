@@ -150,8 +150,8 @@ function product() {
                         <img className='saasImg' src={saas3} />
                         <div className='cons_right'>
                             <p className='cons_title ConsTitl'>Support and Maintanence</p>
-                            <p className='cons_desc'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
-                            <div className='cons_list'>
+                            <p className='cons_desc SupportMain'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
+                            <div className='cons_list SupportLine'>
                             <img className='linev consultHr' src={line} alt='line' />
                                 <div className='linevText'> 
                                     <p className='cons_number'>01</p>

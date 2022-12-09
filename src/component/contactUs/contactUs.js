@@ -21,8 +21,8 @@ function contactUs() {
             <Header flag='header1' />
             <Header flag='header2' />
             <div className='help'>
-                <p className='helpTitle'>We are here to Help!</p>
-                <p className='helpDesc'>Get your business raised with the latest tech from our app specialists from Venzo.</p>
+                <p className='helpTitle1'>We are here to Help!</p>
+                <p className='helpDesc1'>Get your business raised with the latest tech from our app specialists from Venzo.</p>
             </div>
             <div className='contactUs1'>
                 <div className='contact1'>
@@ -30,18 +30,19 @@ function contactUs() {
                     <img src={Rectangle} />
                     <div className='lin1'>
                         <img className='ph_icon' src={phone} alt='ph_icon'/>
-                        <h5 className='country1'>INDIA<br /> <span className='phn'>+91 9840594865</span></h5>
-                        <p className='country1'>USA<br /> <span className='phn'>+1 325 271 4695 </span></p>
+                        <h5 className='country1'><u>INDIA</u><br /><span className='phn'>+91 9840594865</span></h5>
+                        <p className='country1'><u>USA</u><br /><span className='phn'>+1 325 271 4695 </span></p>
                     </div>
                     <div className='lin2'>
                         <img className='ph_icon' src={mail} alt='mail_icon'/>
-                        <p className='careers1'>Business<br /> <span className='phn'>bd@venzotechnologies.com </span></p>
-                        <p className='careers1'>Careers<br /> <span className='phn'>hrteam@venzotechnologies.com </span></p>
+                        <p className='careers1'><u>Business</u><br /> <span className='phn'>bd@venzotechnologies.com </span></p>
+                        <p className='careers1'><u>Careers</u><br /> <span className='phn'>hrteam@venzotechnologies.com </span></p>
                     </div>
                     <div className='lin3'>
                         <img className='ph_icon' src={location} alt='location_icon'/>
-                        <p className='address1'>CHENNAI<br /> <span className='addrs'>Purva Primus, 8th Floor, No.236,<br />Old Mahabalipuram Rd, Thoraipakkam,<br />Chennai-600097,Tamil Nadu, India.</span></p>
-                        <p className='address1'> MADURAI<br /> <span className='addrs'>Plot No: 16,5/244,<br />Maruthupandiar 1st Cross street,<br />JJ Nagar, Madurai – 625020,Tamil Nadu, India.</span></p>
+                        <p className='address1'><u>CHENNAI</u><br /> <span className='addrs'>Purva Primus, 8th Floor, No.236,<br />Old Mahabalipuram Rd, Thoraipakkam,<br />Chennai-600097,Tamil Nadu, India.</span></p>
+                        <br></br>
+                        <p className='address1'><u>MADURAI</u><br /> <span className='addrs'>Plot No: 16,5/244,<br />Maruthupandiar 1st Cross street,<br />JJ Nagar, Madurai – 625020,Tamil Nadu, India.</span></p>
                     </div>
                 </div>
                 <div className='contactform'>
@@ -62,7 +63,6 @@ function contactUs() {
                     <img className='icons1' src={LinkedinIcon} alt='linkedIcon'></img>
                     <img className='icons1' src={InstaIcon} alt='instaIcon'></img>  
                     <img className='icons1' src={youtube} alt='youtube'></img>
-
                 </div>
             </div>
             <Footer />

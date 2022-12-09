@@ -19,29 +19,28 @@ body {
     height: 659px;
 }
 
-.helpTitle {
+.helpTitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 64px;
     line-height: 120%;
     text-align: center;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
     color: #FFFFFF;
 
 }
 
-.helpDesc {
+.helpDesc1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+    width: 34%;
     color: rgba(255, 255, 255, 0.5);
-    width: 35%;
-    text-align: center;
-    margin-left: 33%;
+    margin-left: 457px;
 }
 
 .contactUs1 {
@@ -92,7 +91,7 @@ body {
     line-height: 8%;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    margin-right: 5%;
+    margin-right: 23%;
     color: #FFFFFF;
 
 }
@@ -118,7 +117,7 @@ body {
     color: #FFFFFF;
     margin-left: 9%;
     margin-bottom: 3%;
-    margin-top: -2.4%;
+    margin-top: -4.1%;
 }
 
 .lin3 {
@@ -135,12 +134,11 @@ body {
     font-size: 15px;
     line-height: 2;
     letter-spacing: -0.03em;
-    text-transform: uppercase;
     margin-right: 5%;
     color: #FFFFFF;
     margin-left: 10%;
     margin-bottom: 2%;
-    margin-top: -1.4%;
+    margin-top: -3.3%;
 }
 
 .addrs {
