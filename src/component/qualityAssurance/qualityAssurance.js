@@ -317,7 +317,7 @@ function QualityAssurance() {
 
                 </div>
                 <div className='quality_section6'>
-                    <p className='quality_section6_title'>Venzo’s Stages of <span className='s4_colortext'> QA Process </span></p>
+                    <p className='quality_section6_title'>Venzo’s Stages of <span className='s6_colortext'> QA Process </span></p>
                     <p className='quality_section6_desc'>Venzo is about providing an impeccable customer experience. We focus on robust quality testing mechanisms and practices tailored to your specific business goals by leveraging our expertise in various industries.</p>
                     <div className='qaprocess'>
                         <div className='qaSec6Res'>

@@ -822,3 +822,167 @@ margin-left: 5%;
     -webkit-text-fill-color: transparent;
 }
 }
+
+
+
+@media screen and (max-width: 280px){
+.quality_Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-top: 30%;
+}
+.section2_Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    padding-top: 5%;
+}
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin: 5% 0 5% 0;
+}
+.section2_desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    color: #000000;
+    width: 90%;
+    margin-left: 4%;
+    padding-top: 5%;
+}
+.section3_s1Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.23);
+    padding-bottom: 5%;
+    margin-left: -2%;
+    text-align: left;
+}
+.s1heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    padding: 1%;
+}
+
+.assurance_section3_s1 {
+    margin-left: 4%;
+    padding: 6% 0;
+    width: 100%;
+}
+.assurance_section3_s2 {
+    margin-left: 5%;
+    padding: 0% 0 16%;
+    width: 100%;
+}
+.s1desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: rgba(224, 224, 224, 0.5);
+    padding: 1%;
+    width: 94%;
+}
+
+.s2desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: rgba(224, 224, 224, 0.5);
+    padding: 1%;
+    width: 92%;
+}
+.assurance_section4_s1 {
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.s4_desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000000;
+    width: 100%;
+}
+.s4_colortext,.section4_heading {
+    font-size: 22px;
+}
+.assurance_section4_s1 img {
+    height: 300px;
+    width: 92vw;
+    padding: 5% 0;
+}
+.testbtn p {
+    padding-left: 15%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+}
+.testbtn {
+    background-color: #d9d9d999;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 85vw;
+    display: flex;
+    padding: 13% 3% 0;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-left: 1%;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 3%;
+}
+.quality_section5_titlte {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #424753;
+}
+
+.quality_card2 {
+    width: 72vw;
+    margin-left: -15%;
+    padding-top: 15%;
+}
+}
