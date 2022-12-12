@@ -269,7 +269,7 @@ color: #424753;
 }
 .quality_cardList {
     display: flex;
-    height: 50vh;
+    height: 500px;
     padding-top: 5%;
     background-repeat: no-repeat;
     background-position-x: 24vw;
@@ -280,21 +280,20 @@ color: #424753;
     color: #FFFFFF  !important;
 }
 .quality_card1{
-    width: 30%;
-    height: 350px;
+    width: 40%;
+    height: 400px;
     background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);;
     border-radius: 15px;
-    margin-left: 3%;
-    padding: 1%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 175%;
     color: #0A1020;
-    padding: 1% 0 6% 10%;
-    margin-top: 2%;
-    margin-left: 5%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #AD00FF;
 }
 
 
@@ -336,11 +335,11 @@ transform: rotate(-90deg);
 .accordion-button::after, .accordion-button::before {
     display: none;
 }
-.quality_card1 hr{
-    width: 100%;
+.quality_card1 hr {
+    width: 56%;
     opacity: 0.3;
     border: 1px dashed #D8D8D8;
-    margin-left: -25%;
+    margin-left: 100px;
 }
 
 .quality_card1 img{

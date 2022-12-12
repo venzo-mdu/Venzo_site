@@ -20,6 +20,24 @@ import gainimg from '../../images/quality/gainimg.png'
 import cardimg1 from '../../images/quality/cardimg1.png'
 import cardimg2 from '../../images/quality/cardimg2.png'
 import cardimg3 from '../../images/quality/cardimg3.png'
+import autoimg1 from "../../images/quality/autoimg1.png"
+import autoimg2 from "../../images/quality/autoimg2.png"
+import autoimg3 from "../../images/quality/autoimg3.png"
+import testimg1 from "../../images/quality/testimg1.png"
+import testimg2 from "../../images/quality/testimg2.png"
+import testimg3 from "../../images/quality/testimg3.png"
+import developimg1 from "../../images/quality/developimg1.png"
+import developimg2 from "../../images/quality/developimg2.png"
+import webimg1 from "../../images/quality/webimg1.png"
+import webimg2 from "../../images/quality/webimg2.png"
+import webimg3 from "../../images/quality/webimg3.png"
+import securityimg1 from "../../images/quality/securityimg1.png"
+import securityimg2 from "../../images/quality/securityimg2.png"
+import securityimg3 from "../../images/quality/securityimg3.png"
+import performimg1 from "../../images/quality/performimg1.png"
+import performimg2 from "../../images/quality/performimg2.png"
+import performimg3 from "../../images/quality/performimg3.png"
+
 import checkcolor from '../../images/quality/checkcolor.png'
 import Footer from '../footer/footer'
 function QualityAssurance() {
@@ -28,39 +46,37 @@ function QualityAssurance() {
         let container = document.querySelector('.quality_card1')
         setActive(value)
         if (value == 'Automation') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<img src='" + autoimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
+            <img src='" + autoimg2 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + autoimg3 + "' />\
     ";
         }
         else if (value === 'Defect') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<img src='" + testimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
+            <img src='" + testimg2 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + testimg3 + "' />\
     ";
         }
         else if (value === 'Devops') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<br>\
+            <br>\
+            <img src='" + developimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
-            <br>\
-            <br>\
-            <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + developimg2 + "' />\
     ";
         }
         else if (value === 'Mobile') {
@@ -76,39 +92,39 @@ function QualityAssurance() {
     ";
         }
         else if (value === 'Web') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<img src='" + webimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
+            <img src='" + webimg2 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + webimg3 + "' />\
     ";
         }
         else if (value === 'Security') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<img src='" + securityimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
+            <img src='" + securityimg2 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + securityimg3 + "' />\
     ";
         }
         else if (value === 'Performance') {
-            container.innerHTML = "<img src='" + cardimg1 + "' />\
+            container.innerHTML = "<img src='" + performimg1 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg2 + "' />\
+            <img src='" + performimg2 + "' />\
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + performimg3 + "' />\
     ";
         }
     }
@@ -228,43 +244,42 @@ function QualityAssurance() {
                     <div className='quality_section52'>
                         <Accordion defaultActiveKey="0" flush>
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Automation Testing </Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Automation Testing </Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={cardimg1} />
+                                        <img src={autoimg1} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={autoimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={autoimg3} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header>Test & Defect</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Test & Defect</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
-                                        <img src={cardimg1} />
+                                        <img src={testimg1} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={testimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={testimg3} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header>Devops Integration</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Devops Integration</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
-                                        <img src={cardimg1} />
+                                        <br /><br />
+                                        <img src={developimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
-                                        <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={developimg1} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="4">
-                                <Accordion.Header>Mobile Testing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Mobile Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
                                         <img src={cardimg1} />
@@ -276,38 +291,38 @@ function QualityAssurance() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="5">
-                                <Accordion.Header>Web Tesing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Web Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
-                                        <img src={cardimg1} />
+                                        <img src={webimg1} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={webimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={webimg3} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="6">
-                                <Accordion.Header>Security Testing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Security Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
-                                        <img src={cardimg1} />
+                                        <img src={securityimg1} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={securityimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={securityimg3} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="7">
-                                <Accordion.Header>Performance Tesing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Performance Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                 <div>
-                                        <img src={cardimg1} />
+                                        <img src={performimg1} />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={performimg2} />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={performimg3} />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>

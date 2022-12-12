@@ -251,7 +251,7 @@ body {
     text-align: center;
     background-color: #FFF;
     margin-top: 90%;
-    bottom: -100px;
+    bottom: 20px;
 }
 .devCaros .carousel-indicators button {
     border-radius: 50%;

@@ -239,6 +239,13 @@
         width: 100%;
         height: 70%;
     }
+    .devCaros .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        height: 400px !important;
+    }
     .devCaros .carousel .carousel-item{
         width: 85%;
         margin: 0% 8%;
@@ -259,8 +266,8 @@
         display:flex;
         text-align: center;
         background-color: #FFF;
-        margin-top: 90%;
-        bottom: -50px;
+        margin-top: 0%;
+        bottom: -150px;
     }
     .devCaros .carousel-indicators button {
         border-radius: 50%;

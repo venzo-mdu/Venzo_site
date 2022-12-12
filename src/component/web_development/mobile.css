@@ -266,12 +266,12 @@
         display: flex;
         z-index: -1;
     }
-    .carousel-inner {
+    .devCaros .carousel-inner {
         position: relative;
         width: 100%;
         overflow: hidden;
         display: flex;
-        height: 90vh;
+        height: 500px !important;
     }
     .devCaros .carousel .carousel-item {
         width: 85%;
@@ -662,12 +662,12 @@
         display: flex;
         z-index: -1;
     }
-    .carousel-inner {
+    .devCaros .carousel-inner {
         position: relative;
         width: 100%;
         overflow: hidden;
         display: flex;
-        height: 90vh;
+        height: 500px !important;
     }
     .devCaros .carousel .carousel-item {
         width: 85%;
@@ -1056,12 +1056,12 @@
         display: flex;
         z-index: -1;
     }
-    .carousel-inner {
+    .devCaros .carousel-inner {
         position: relative;
         width: 100%;
         overflow: hidden;
         display: flex;
-        height: 90vh;
+        height: 500px !important;
     }
     .devCaros .carousel .carousel-item {
         width: 85%;
