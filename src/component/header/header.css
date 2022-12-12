@@ -46,7 +46,7 @@ a {
 
 .header .links li {
     display: inline;
-    margin: 0% 2%;
+    margin: 0% 4%;
     width: 100%;
     color: #FFFFFF;
     font-family: Poppins;
@@ -104,12 +104,12 @@ a {
     }
 
     .header .links ul {
-        margin: 0% 0 0 22%;
+        margin: 0% 0 0 18%;
     }
 
     .header .links li {
         font-size: 14px;
-        margin: 0% 2.5%;
+        margin: 0% 3%;
     }
 }
 
@@ -140,7 +140,7 @@ a {
 @media screen and (max-width:430px) and (min-width:375px) {
     .header {
         margin: 0;
-        padding: 5% 3%;
+        padding: 5% 7%;
     }
     .venzohome{
         margin:25% 0 0 0;
@@ -164,7 +164,7 @@ a {
 @media screen and (max-width:375px) {
     .header {
         margin: 0;
-        padding: 5% 3%;
+        padding: 5% 7%;
     }
     .venzohome{
         margin:25% 0 0 0;

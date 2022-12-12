@@ -46,8 +46,8 @@ function imageCarousel() {
                         alt="blockchainBl "
                     />
                     <div className='item1'>
-                        <p id='blockchain'>Decentralization<br></br> and cryptographic<br></br> hashing</p>
-                        <p id="blockchainDev">We build Blockchain Development<br></br>
+                        <p id='blockchain'>Decentralization<br id='brtag'></br> and cryptographic<br></br> hashing</p>
+                        <p id="blockchainDev">We build Blockchain Development<br id='brtag'></br>
                             that people trust</p>
                         <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
@@ -65,9 +65,9 @@ function imageCarousel() {
                         alt="productDevelopmentBl "
                     />
                     <div className='item3'>
-                        <p id='productDevelopment'>Development and<br></br> Growth</p>
+                        <p id='productDevelopment'>Development and<br id='brtag'></br> Growth</p>
                         <p id="productDev">
-                            We build Product Development<br></br>
+                            We build Product Development<br id='brtag'></br>
                             that people trust</p>
                         <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
@@ -85,9 +85,9 @@ function imageCarousel() {
                         alt="dataEngineeringBl "
                     />
                     <div className='item2'>
-                        <p id='dataEngineering'>Crafting Tech into<br></br> your ideas</p>
+                        <p id='dataEngineering'>Crafting Tech into<br id='brtag'></br> your ideas</p>
                         <p id="dataEnggDev">
-                            We build Product Development<br></br>
+                            We build Product Development<br id='brtag'></br>
                             that people trust</p>
                         <p id="knowMore1">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
                     </div>

@@ -6,6 +6,7 @@
 #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
     display: block;
     width: 100vw;
+    height: 80vh;
     position: relative;
 }
 .alice-carousel__prev-btn,.alice-carousel__next-btn{
@@ -125,6 +126,18 @@
     margin:0 0 50% 0;
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
+    #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
+        height: 90vh;
+    }
+    .item1 {
+        top:180px;
+        }
+        .item2{
+            top:180px;
+        }
+        .item3{
+            top:180px;
+        }
     #dataEngineering{
         font-family: Poppins;
         font-size: 60px;
@@ -206,29 +219,28 @@
 
 @media screen and (max-width:1024px) and (min-width:768px) {
     .item1 {
-        padding: 2% 7%;
+        padding: 2% 5%;
         position: absolute;
-        top:150px;
+        top:200px;
         }
         
     .item2{
-        padding: 2% 7%;
+        padding: 2% 5%;
         position: absolute;
-        top:150px;
+        top:200px;
     }
         
     .item3 {
-        padding: 2% 7%;
+        padding: 2% 5%;
         position: absolute;
-        top:150px;
-
+        top:200px;
     }
     #blockchain{
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 45px;
-        line-height: 60px;
+        line-height: 45px;
         letter-spacing: -0.04em;
         color: #FFFFFF;
     }
@@ -240,7 +252,7 @@
         font-style: normal;
         font-weight: 600;
         font-size: 45px;
-        line-height: 60px;
+        line-height: 45px;
         letter-spacing: -0.04em;
         color: #0E276A;
     }
@@ -249,7 +261,7 @@
         font-style: normal;
         font-weight: 600;
         font-size: 45px;
-        line-height: 60px;
+        line-height: 45px;
         letter-spacing: -0.04em;
         color: #FFFFFF;
     }
@@ -314,7 +326,7 @@
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
         display: none !important;
     }
-    br{
+    #brtag{
         display: none;
     }
     .item1 {

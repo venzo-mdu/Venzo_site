@@ -33,29 +33,34 @@ footer {
 .footer {
     display: flex;
     line-height: 2;
-    margin: 0 0 0 20%;
-    padding-top: 3%;
+    padding: 5% 11%;
+    width: 100%;
+}
+.laptopResponsive {
+    display: flex;
+    width: 50%;
 }
 
+.laptopResponsive1 {
+    display: flex;
+    width: 50%;
+}
 .footer h5 {
     font-family: poppins-medium;
     margin-top: 2%;
     font-size: 18px;
 }
 
-.footerDetails {
-    margin: -2%;
-}
 
 .address {
     display: block;
-    margin: 0 -10% 0 -8%;
+    margin: 0 0% 0 -8%;
     color: #FFFFFF;
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
-    width: 30vw;
     line-height: 2;
+    width: 50%;
 }
 
 .services {
@@ -64,8 +69,7 @@ footer {
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
-    margin: 0 22% 0 -8%;
-    width: 20vw;
+    width: 50%;
 
 }
 
@@ -75,18 +79,19 @@ footer {
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
-    margin: 0 9% 0 -70%;
+    width: 50%;
 
 }
-
+.careers{
+    margin: 11% 0 0 0;
+}
 .contactUs {
     display: block;
     color: #FFFFFF;
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
-    margin: 0 2%;
-
+    width: 50%;
 }
 
 .business {
@@ -99,7 +104,7 @@ footer {
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
-    margin: 2% 10%;
+    margin: 2% -0.4%;
     display: block;
 }
 
@@ -122,7 +127,7 @@ footer {
 }
 
 #paraHR {
-    width: 80%;
+    width: 75%;
     margin: 0 0 0 8%;
 
 }
@@ -133,30 +138,19 @@ footer {
     margin: -10% 0% 0% 85%;
 }
 
-.laptopResponsive {
-    display: flex;
-}
 
-.laptopResponsive1 {
-    display: flex;
-
-
-}
 
 @media screen and (max-width:1440px) and (min-width:1030px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
         width: 100%;
     }
 
-    .footer {
-        display: flex;
-        line-height: 1.5;
-        padding: 3% 10%;
-        margin: 2% 0 0 0%;
-    }
+   .footer{
+    padding: 3% 12%;
+   }
 
+   
     .footer h5 {
         font-family: 'poppins-medium';
     }
@@ -165,49 +159,6 @@ footer {
         margin: -2%;
     }
 
-    .address {
-        display: block;
-        margin: 0 12% 0 11%;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .services {
-        display: block;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0 19% 0 -10%;
-
-    }
-
-    .services p {
-        width: 20vw;
-
-    }
-
-    .headOffice {
-        width: 20vw;
-    }
-
-    .aboutUs {
-        display: block;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0 17% 0 -21%;
-
-    }
-
-    .contactUs {
-        display: block;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0 10% 0 -12%;
-
-    }
 
     .copyRight {
         color: #FFFFFF;
@@ -234,13 +185,6 @@ footer {
         margin: -8% 0% 0% 90%;
     }
 
-    .laptopResponsive {
-        display: flex;
-    }
-
-    .laptopResponsive1 {
-        display: flex;
-    }
 
 }
 

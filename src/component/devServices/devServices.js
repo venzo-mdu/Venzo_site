@@ -10,20 +10,20 @@ function devServices() {
     <div className='developmentServices'>
         <p>Full cycle of development services</p>
             <div className='technologies1'>
-                    <li>iOS Development <img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>Android Development<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/webDevelopment">Web App Development<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
-                    <li><Link to="/UIUX">UI/UX Design <img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/bankingQA">QA Engineering <img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/dm_page">Digital Marketing <img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li>iOS Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>Android Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/webDevelopment">Web App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/UIUX">UI/UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/bankingQA">QA Engineering&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/dm_page">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
             <div className='technologies2'>
-                    <li>iOS Development <img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>Android Development<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Web App Development<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>UI/UX Design <img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>QA Engineering <img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/staffaugmentation">Staff Augmentation <img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li>iOS Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>Android Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li>Web App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>UI/UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li>QA Engineering&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/staffaugmentation">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
     </div>
     <div className='venzoMantra'>
