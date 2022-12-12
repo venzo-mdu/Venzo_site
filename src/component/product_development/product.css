@@ -29,7 +29,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.titleHead{
+    font-size: 18px;
+}
 .experts_title {
     text-align: center;
     font-family: 'Poppins';
@@ -45,12 +47,12 @@
 
 .expert_flex {
     display: flex;
-    margin: 0 5% 5% 11%;
+    margin: 0 5% 5% 3%;
 }
 
 .expert_flex>div {
     padding-right: 5%;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-top: 3%;
 }
 
@@ -63,7 +65,7 @@
 .linev {
     background: rgba(216, 216, 216, 1);
     margin-top: 2%;
-    height: 97px;
+    height: 118px;
 }
 
 .helpTitle {
@@ -85,18 +87,18 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 200%;
     text-align: center;
     color: rgba(77, 77, 77, 0.75);
     width: 46%;
-    margin-left: 25%;
+    margin-left: 29%;
 }
 
 .saas_consulting,
 .saas_Development {
     display: flex;
-    margin-left: 15%;
+    margin-left: 8%;
     margin-top: 5%;
 
 }
@@ -134,7 +136,7 @@
 }
 
 .cons_right {
-    padding-left: 16%;
+    padding-left: 6%;
     padding-top: 2%;
 
 }
@@ -149,10 +151,10 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 175%;
     color: #9E9E9E;
-    width:67%;
+    width: 85%;
 }
 
 .cons_number {
@@ -187,8 +189,8 @@
 }
 
 .dev_list>div>div {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 6%;
+    padding-right: 20%;
     padding-top: 5%;
 }
 
@@ -281,6 +283,7 @@
 .animationBG{
     display: block;
     width:100%;
+    height: 806px;
 }
 .animationBGRes{
     display: none;
@@ -294,7 +297,7 @@
     height: 140px;
     width: 668px;
     position: absolute;
-    top:400px;
+    top: 302px;
     left:600px;
     text-align: center;
 }
@@ -319,7 +322,7 @@
 }
 .whyVenzo #whyVenzoText{
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
@@ -359,7 +362,7 @@
 }
 .awesomeProducts{
     background-color:#0A1020;
-    height: 750px;
+    height: 769px;
     width:100vw;
     padding: 5%;
 }
@@ -403,7 +406,7 @@
 }
 .productDesc #productText{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
@@ -473,7 +476,7 @@ width:20%;
     justify-content: center;
     padding: 0;
     margin-right: 15%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     margin-left: 15%;
     list-style: none;
 }

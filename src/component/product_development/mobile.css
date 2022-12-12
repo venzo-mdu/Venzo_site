@@ -1,4 +1,4 @@
-@media screen and (max-width:430px) {
+@media screen and (max-width:425px)  {
     .expertsBottomline{
         height: 133.22825622558594px;
         width: 0px;
@@ -7,10 +7,8 @@
         border-radius: 0px;
 
     }
-    /* .product_section1 {
-        display: none;
-    }
-    .product_section2{
+   
+    /* .product_section2{
         background-image: url("../../images/productDevelopmentbg.png");
         padding: 15% 0 10% 0;
         background-image: url("../../images/productBgm.png");
@@ -19,28 +17,51 @@
         width: 100vw;
         height: 610px;
     } */
+    .product_section1 {
+        padding: 15% 0 10% 0;
+        background-image: url(../../images/ProductMobBG.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 765px;
+    }
     .product_Title {
-        margin: 28% 6%;
-        width: 51%;
-        font-size: 32px;
+        margin: 18% 6%;
+        width: 85%;
+        font-size: 42px;
+    }
+    .experts_title {
+        margin-bottom: 6%;
+        margin-top: 12%;
+    }
+    .LinevHoriz {
+        display: block !important;
+        margin-left: 52%;
+        border: -0.88043px solid #D8D8D8;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        margin-left: 49%;
+        height: 140px;
+        margin-top: -14%;
     }
     .expert_flex{
         display: block;
         text-align: center;
         margin-left: 4%;
+        margin-top: 15%;
+        margin-bottom: 14%;
     }
     .expert_flex>div {
-        padding-bottom: 4%;
+        margin-top: -12%;
     }
     .expert_flex p{
-        margin: -5% 0 0 0;
+        margin: 0% 0 0 0;
     }
     .saas{
         margin: 0 0 0 5%;
     }
     .saasImg{
-        width: 85%;
-        margin: 5% 0 0 5%;
+        width: 96%;
+    margin-left: 5% -11px 0px 0%;
 
     }
     .saasImg1{
@@ -60,39 +81,75 @@
         text-align: left;
         width: 100%;
         font-size: 28px;
-        margin-left: 3%;
-    }
-    .cons_subTitle{
-       width:90%;
-       text-align: left;
-       margin: 0% 0 0 10%;
-
+        margin-left: -19%;
+    margin-top: 4%;
     }
     .linevText{
         display: flex;
         text-align: left;
     }
-    .cons_desc{
-        text-align: left;
-        margin-left: -17%;
-        width: 385px;
+    .SaasDevTit2 {
+        margin-left: 0%;
+    }
+    .SaasPara{
+        width: 383px;
+    text-align: justify;
+    margin-left: -19%;
+    }
+    .linev{
+        display: none;
     }
     .SAASDev{
-        text-align: left;
-        margin-left: -1%;
-        width: 401px;
+        text-align: justify;
+    margin-left: 0% !important;
+    width: 376px;
+    font-size: 14px;
     }
-    .SaasDevTit2{
-        margin-left: 13%;
-    }
+   
     .dev_list {
         display: block;
-        margin-left: 6%;
+        margin-left: -8%;
     }
     .ConsTitl{
         width: 100%;
-    font-size: 28px;
-    margin-left: 11%;
+    font-size: 25px;
+    margin-left: -18%;
+    }
+    .cons_right {
+        padding-left: 16%;
+        padding-top: 2%;
+    }
+    .dev_list>div>div {
+        padding-left: 10%;
+        padding-right: 0%;
+        padding-top: 5%;
+    }
+    .cons_desc {
+        text-align: justify;
+        margin-left: -18%;
+    }
+    .SaasConsList{
+        margin-top: -5%;
+    }
+    .SupportMain{
+        text-align: justify;
+        margin-left: -17%;
+        width: 381px;
+        margin-bottom: 14%;
+    }
+    .cardTitle {
+        font-size: 18px;
+        margin-top: 6%;
+    }
+    .cons_number {
+        font-size: 22.8118px;
+    }
+    .cardDesc {
+        font-size: 12px;
+         width: 93%;
+    }
+    .cardDescList {
+        font-size: 14px;
     }
     .cards1,.cards2,.cards3{
         width:300px;
@@ -115,13 +172,11 @@
     } */
     .animation #animationText{
         left:190px;
-        top:150px;
+        top:227px;
         font-size: 16px;
         width: 50%;
     }
-    .linev{
-        display: none;
-    }
+
     
     .helpTitle{
         font-size: 38px;
@@ -136,12 +191,16 @@
         text-align: center;
         height: 128px;
         width: 361px;
-        margin: 0 0 0 8%;
+        margin: 0 0 24px 8%;
         
     }
     .cons_list{
         display: block;
         text-align: left;
+        margin-left: -26%;
+    }
+    .ConsultBr {
+        display: none;
     }
     .dev_list-Block{
         display: block;
@@ -155,12 +214,18 @@
     .cardlist{
         display: block;
         text-align: center;
-
+        
     }
     .saas_consulting, .saas_Development {
         display: block;
         margin: 1% 0 10% 0;
         
+    }
+    .cons_subTitle {
+        width: 90%;
+        text-align: left;
+        margin: 1% 0px 0px 5%;
+        font-size: 15px
     }
     .awesomeProducts{
         height: 844px;
@@ -189,12 +254,14 @@
 
   .buildProduct{
       display: block;
-      height: 30vh;
+      height: auto;
       padding: 4% 10%;
+      padding-top: 8%;
+    padding-bottom: 13%;
   }
   .buildText{
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 29px;
     font-weight: 600;
     line-height: 38px;
     letter-spacing: -0.03em;
@@ -202,8 +269,8 @@
     
   }
   .buildtalk{
-    height: 40px;
-    width: 150px;
+    height: 31px;
+    width: 114px;
     left: 20px;
     top: 8236px;
     border-radius: 8px;
@@ -218,7 +285,7 @@
     text-align: center;
     width: 60%;
     left: 85px;
-    top: 210px;
+    top: 229px;
     
   }
   .whyVenzo{
@@ -243,7 +310,7 @@
     
   }
   .venzoCards{
-      padding: 2% 5%;
+      padding: 13% 5%;
       margin-bottom: 10%;
   }
   .venzoCards .subCards{
@@ -268,8 +335,11 @@
     line-height: 20px;
     letter-spacing: -0.03em;
     text-align: left;
-    
+    width: 40%;
   }
+  .awesomeProducts .awesomeTitle {
+    margin-top: 8%;
+}
 .productDesc #productTitle{
     font-family: Poppins;
     font-size: 24px;
@@ -287,11 +357,14 @@
         font-weight: 400;
         line-height: 21px;
         letter-spacing: 0em;
-        text-align: justified;
+        text-align: justify;
         width: 330px;
     }
 .ourProducts .productImage{
     margin: 5% 0 0 -2%;
+}
+.awesomeProducts {
+    height: 921px;
 }
 .animationBG{
     display: none;
@@ -304,5 +377,8 @@
 }
 .carousel-inner {
     height:  138vh !important;
+}
+.carousel-indicators {
+    margin-bottom: -3rem;
 }
 }

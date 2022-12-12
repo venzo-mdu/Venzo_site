@@ -3,26 +3,60 @@
         margin: 6% 6%;
         font-size: 44px;
     }
+    /* .product_section1 {
+        padding: 15% 0 10% 0;
+        background-image: url(../../images/ProductMobBG.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 610px;
+    } */
     .expert_flex{
         display: block;
         text-align: center;
+    }
+    .LinevHoriz {
+        display: block !important;
+        margin-left: 52%;
+        border: -0.88043px solid #D8D8D8;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        margin-left: 49%;
+        height: 140px;
+        margin-top: -7%;
     }
     .expert_flex p {
         margin: -1% 0 0 0;
     }
     .cons_list>div {
-        width: 35%;
+        width: 95%;
+    }
+    .experts_title {
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+    .ConsultBr {
+        display: none;
     }
     .saas{
         text-align: center;
     }
     .cons_desc{
         margin: 0 0 0 14%;
+        text-align: justify;
+    }
+    .expert_flex>div {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-top: 0%;
+        margin-top: -6% !important;
     }
     .cards1,.cards2,.cards3{
         width:371px;
         margin: 0 0 10% 25%;
         text-align: left;
+    }
+    .awesomeProducts {
+        height: 180vh !important;
     }
     /* .cards3{
         margin-left: -10%;
@@ -33,6 +67,10 @@
     font-size: 16px;
     width: 61%;
     }
+    .buildText {
+        font-size: 35px;
+    }
+    
     .linev{
         display: none;
     }
@@ -40,18 +78,37 @@
         display: flex;
     }
     .dev_list {
-        width: 80%;
+        width: 100%;
         display: block;
-        margin-left: 15%;
+        margin-left: 7%;
+    }
+    .animationBG {
+        display: block;
+        width: 100%;
+        height: 450px;
     }
     .cons_list {
         display: block;
-        margin: 0 0 0 38%;
+        margin: 0 0 0 36%;
+    }
+    .SaasConsList{
+        margin-left: 17%;
+        margin-top: -7%;
+    }
+    .SupportMain{
+        margin-bottom: 9%;
     }
     .saasImg1 {
         width: 67%;
         margin-left: 8%;
         margin-top: 3%;
+    }
+    .whyVenzo {
+        margin: 4% 3px 32px -21.5%;
+    }
+    .awesomeProducts .awesomeTitle {
+        padding-top: 3%;
+        margin-bottom: -4%;
     }
     .saasImg{
         margin-left: 8%;
@@ -64,7 +121,7 @@
         margin: 0% 0 0 25%;
     }
     .cons_subTitle{
-        margin: 1% 0 0 11%;
+        margin: 1% 0 0 6%;
     width: 70%;
     text-align: left;
     }
@@ -81,8 +138,10 @@
         margin-left: 14%;
     }
     .SAASDev{
-        width: 86%;
-        margin-left: 72px;
+        width: 88%;
+    margin-left: 84px;
+    text-align: justify;
+    font-size: 16px;
     }
     .saas_consulting, .saas_Development {
         display: block;
@@ -123,8 +182,9 @@
     margin: 0 0 0 26%;
   }
   .productDesc #productText {
-    width: 645px;
+    width: 623px;
     margin-top: 5%;
+    text-align: justify;
 }
 .carousel-inner {
     height: 729px !important;

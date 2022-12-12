@@ -26,6 +26,7 @@ import whyVenzoIcon3 from '../../images/whyVenzoicon3.png'
 import whyVenzoIcon4 from '../../images/whyVenzoicon4.png'
 import productImage from '../../images/productImage.png'
 import borderLine from '../../images/borderLine.png'
+import VerticlLine from '../../images/ProductHorizLine.png'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
@@ -53,31 +54,33 @@ function product() {
                 <div className='expert_flex'>
                     <div>
                         <img src={quality} />
-                        <p>Enterprise<br /> Application Development</p>
+                        <p className='titleHead'>Enterprise<br /> Application Development</p>
                     </div>
-                    <img className='linev' src={line} alt='line' />
+                    {/* <img className='VerticlLine' src={VerticlLine} alt ='VerticlLine' /> */}
+                    <img className='linev LinevHoriz' src={line} alt='line' />
 
                     <div>
                         <img src={mvp} />
-                        <p>MVP<br /> Development</p>
+                        <p className='titleHead'>MVP<br /> Development</p>
                     </div>
-                    <img className='linev' src={line} alt='line' />
+                    
+                    <img className='linev LinevHoriz' src={line} alt='line' />
 
                     <div>
                         <img src={domin} />
-                        <p>Domain<br /> Specific Development</p>
+                        <p className='titleHead'>Domain<br /> Specific Development</p>
                     </div>
-                    <img className='linev' src={line} alt='line' />
+                    <img className='linev LinevHoriz' src={line} alt='line' />
 
                     <div>
                         <img src={consulting} />
-                        <p>Business<br /> Consulting</p>
+                        <p className='titleHead'>Business<br /> Consulting</p>
                     </div>
-                    <img className='linev' src={line} alt='line' />
+                    <img className='linev LinevHoriz' src={line} alt='line' />
            
                     <div>
                         <img src={sme} />
-                        <p>SME<br /> Product Development</p>
+                        <p className='titleHead'>SME<br /> Product Development</p>
                     </div>
                 </div>
                 <div className='helpYou'>
@@ -89,23 +92,23 @@ function product() {
                         <img className='saasImg' src={saas1} />
                         <div className='cons_right'>
                             <p className='cons_title'>Saas Consulting</p>
-                            <p className='cons_desc'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
+                            <p className='cons_desc SaasPara'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
                             <div className='cons_list'>
                                 <img className='linev HrLine' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Technical<br></br>consultation </p>
+                                    <p className='cons_subTitle'> Technical<br className='ConsultBr'></br>consultation </p>
                                 </div>
                                 <img className='linev HrLine' src={line} alt='line' />
 
                                 <div className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  &<br></br>Conceptualization </p>
+                                    <p className='cons_subTitle'>Ideas  &<br className='ConsultBr'></br>Conceptualization </p>
                                 </div>
                                 <img className='linev HrLine' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy<br></br>Development </p>
+                                    <p className='cons_subTitle'>Strategy<br className='ConsultBr'></br>Development </p>
                                 </div>
                             </div>
                         </div>
@@ -115,30 +118,30 @@ function product() {
                         <div className='cons_left'>
                             <p className='cons_title SaasDevTit2'>Saas Development</p>
                             <p className='cons_desc SAASDev'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
-                            <div className='dev_list'>
+                            <div className='dev_list '>
                                 <div className='dev_list-Block'>
 
                                 <img className='linev saasHr' src={line} alt='line' />
                                 <div className='linevText'>
-                                    <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'> Multi-tenant<br></br>architecture development</p>
+                                    <p className='cons_number'>01 </p>
+                                    <p className='cons_subTitle'>  Multi-tenant<br className='ConsultBr'></br>architecture development</p>
                                 </div>
                                 <img className='linev saasHr' src={line} alt='line' />
                                 <div  className='linevText'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Service Oriented<br></br>Architecture (SOA) development</p>
+                                    <p className='cons_subTitle'>Service Oriented<br className='ConsultBr'></br>Architecture (SOA) development</p>
                                 </div>
                                 </div>
                                 <div className='dev_list-Block'>
                                 <img className='linev saasHr' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Cloud<br></br>Computing Deployments </p>
+                                    <p className='cons_subTitle'>Cloud<br className='ConsultBr'></br>Computing Deployments </p>
                                 </div>
                                 <img className='linev saasHr' src={line} alt='line' />
                                 <div className='linevText'>
                                     <p className='cons_number'>04</p>
-                                    <p className='cons_subTitle'>API<br></br>Development and Integration </p>
+                                    <p className='cons_subTitle'>API<br className='ConsultBr'></br>Development and Integration </p>
                                 </div>
                                 </div>
                             </div>
@@ -151,16 +154,16 @@ function product() {
                         <div className='cons_right'>
                             <p className='cons_title ConsTitl'>Support and Maintanence</p>
                             <p className='cons_desc SupportMain'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
-                            <div className='cons_list SupportLine'>
-                            <img className='linev consultHr' src={line} alt='line' />
-                                <div className='linevText'> 
+                            <div className='cons_list SupportLine SaasConsList'>
+                                <img className='linev consultHr' src={line} alt='line' />
+                                <div className='linevText SaasConsList'> 
                                     <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Flexible team<br></br>& 24/7 Service </p>
+                                    <p className='cons_subTitle'>Flexible team<br className='ConsultBr'></br>& 24/7 Service </p>
                                 </div>
                                 <img className='linev consultHr' src={line} alt='line' />
-                                <div className='linevText'>
+                                <div className='linevText SaasConsList'>
                                     <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ongoing<br></br>support & maintenance </p>
+                                    <p className='cons_subTitle'>Ongoing<br className='ConsultBr'></br>support & maintenance </p>
                                 </div> 
                             </div>
                         </div>
