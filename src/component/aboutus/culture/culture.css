@@ -5,7 +5,7 @@
 }
 .culture #cultureTitle{
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: -0.02em;
@@ -14,27 +14,82 @@
 }
 .culture #cultureText{
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
     color: #D9D9D9;
-    width:80%;
-    margin: 0 0 0 15%;
+    width: 81%;
+    margin: 33px 7px 18px 15%;
 }
 .cultures{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
-    margin:5% 0 0 0;
+    margin:5% 0 0 5%;
 }
 .marqueeinCulture{
     width: 100%;
 }
 .marqueeinCulture img{
     margin: 0 0 0 10%;
+}
+@media screen and (max-width:1440px) and (min-width:1024px){
+    .culture #cultureText {
+        width: 88%;
+        margin: 33px 7px 18px 76px;
+        font-size: 18px;
+    }
+    .cultures {
+        grid-column-gap: 4%;
+        margin: 7% 0px 5% -37px;
+    }
+    .communityImage {
+        width: 60%;
+        height: 59vh;
+        margin: 1px 0 0 100px;
+    }
+    .cultureImage {
+        width: 100%;
+        height: 355px;
+    }
+   
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+    .cultureImage {
+        width: 100%;
+        height: 300px;
+    }
+    .cultures {
+        grid-column-gap: 3%;
+        margin: 7% 0px 5% -6px;
+    }
+    .culture #cultureTitle {
+        margin-top: 4%;
+    }
+    .culture #cultureText {
+        font-size: 15px;
+        width: 100%;
+    margin: 33px 7px 18px 0%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:430px){
+    .culture #cultureTitle {
+        font-size: 25px;
+    }
+    .culture #cultureText {
+        font-size: 14px;
+        width: 100%;
+        margin: 33px 7px 18px 0%;
+        
+    }
+    .cultures {
+        grid-column-gap: 2%;
+        margin: 7% 0px 5% -2px;
+        margin-bottom: 7%;
+    }
 }
 @media screen and (max-width:430px) {
 .culture #cultureTitle{
@@ -44,6 +99,8 @@
     line-height: 26px;
     letter-spacing: -0.02em;
     text-align: center;
+    margin-top: 7%;
+    padding-top: 10%;
 }
 .culture #cultureText{
     font-family: Poppins;
@@ -55,4 +112,43 @@
     width: 100%;
     margin: 0 0 0 0%;
 }
+
+.cultures{
+    display: none;
+}
+.Carousel{
+    display: block;
+}
+.cultureImage{
+    width: 100%;
+    margin-left: 10%;
+    height: 435px;
+}
+.culture {
+    background-color: #0A1020;
+    width: 100%;
+    padding: 0% 2%;
+    height: 750px;
+}
+}
+@media screen and (max-width:375px){
+    .cultures{
+        display: none;
+    }
+    .Carousel{
+        display: block;
+    }
+    .cultureImage {
+        width: 100%;
+        margin-left: 2%;
+        height: 445px;
+    }
+    .culture #cultureTitle {
+        padding-top: 12%;
+        font-size: 20px;
+    }
+    .culture #cultureText {
+        font-family: Poppins;
+        font-size: 14px;
+    }
 }

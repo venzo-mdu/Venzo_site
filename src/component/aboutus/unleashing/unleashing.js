@@ -17,7 +17,7 @@ import TickIcon from '../../../images/aboutus/aboutus17.png'
 function unleashing() {
   return (
     <div className='unleashing'>
-      <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the transformative power </span>in Technology platforms</p>
+      <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'> transformative power</span> in Technology platforms</p>
       <div className='powerOfvenzo'>
         <div className='powerleftImage'>
           <img className='powerImage' alt='venzopower' src={powerImage}></img>
@@ -79,7 +79,7 @@ function unleashing() {
           <div className='rightCommitIcons'>
             <div className='rightCommitblocks'>
               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
-              <p id='tickiconText'>Accelerated Work</p>
+              <p id='tickiconText'>Accelerated <br className='Accele'></br> Work</p>
             </div>
             <div className='rightCommitblocks'>
               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>

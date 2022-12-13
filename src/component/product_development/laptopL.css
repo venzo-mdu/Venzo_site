@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .saas{
       
     margin:0 0 5% -10%;
@@ -6,7 +6,7 @@
     }
     .animation #animationText{
         position: absolute;
-    left: 414px;
+    left: 340px;
     top: 242px;
     }
     .cardlist {
@@ -19,6 +19,7 @@
     }       
     .carousel-indicators {
         display: flex;
+        margin-bottom: -6% !important;
     }
     .linev {
         background: rgba(216, 216, 216, 1);
@@ -81,6 +82,22 @@
     }
     .cons_subTitle {
         width: 256px;
+    }
+    .venzoCards:hover .subCards1{
+        margin-top: -13%;
+        transition: 0.7s;
+    }
+    .venzoCards:hover .subCards2{
+        margin-top: 13%;
+        transition: 0.7s;
+    }
+    .venzoCards:hover .subCards3{
+        margin-top: -13%;
+        transition: 0.7s;
+    }
+    .venzoCards:hover .subCards4{
+        margin-top: 13%;
+        transition: 0.7s;
     }
     .cons_desc {
         width: 80%;

@@ -12,7 +12,7 @@ function leadership() {
     <>
     <div className='leadership'>
         <p id='leadershipTitle'>Meet Our Leadership Team</p>
-        <p id='leadershipText'>With over 15 years of combined experience, we’ve <span id='hiringGradient'>got a well-seasoned team of experts</span> at Venzo Technologies.</p>
+        <p id='leadershipText'>With over 15 years of combined experience, we’ve <span id='hiringGradient1'>got a well-seasoned team of experts</span> at Venzo Technologies.</p>
        
        
         <div className='ourLeaders'>
@@ -38,7 +38,7 @@ function leadership() {
             </div>
             </div>
             <p id='aboutLeaders'>Trade Finance professional with experience of more than 18 years in all facets of trade finance operations and handling projects of different natures like in-sourcing, core banking, online banking & merger of banks.</p>
-            <img className='linkedinIcon' src={linkedIcon} alt='linkedicon'></img>
+            <img className='linkedinIcon IconCoFounder' src={linkedIcon} alt='linkedicon'></img>
           </div>
          
           <div className='leaders'>

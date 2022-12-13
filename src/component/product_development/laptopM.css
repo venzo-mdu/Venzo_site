@@ -1,4 +1,4 @@
-@media screen and (max-width:1025px) and (min-width:768px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
 
 
 .product_Title {
@@ -56,12 +56,12 @@
     margin-left: 0%;
     margin-right: 13px;
     margin-top: 32px;
+    height: 100px;
 }
 .expert_flex>div {
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
     padding-top: 3%;
-    
 }
 .cons_list>div {
     padding-right: 0%;
@@ -73,8 +73,25 @@
     margin-left: 10%;
     margin-top: 5%;
 }
+.venzoCards:hover .subCards1{
+    margin-top: -13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards2{
+    margin-top: 13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards3{
+    margin-top: -13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards4{
+    margin-top: 13%;
+    transition: 0.7s;
+}
 .cons_desc {
     width: 78%;
+    
 }
 .SAASDev{
     width: 98%;

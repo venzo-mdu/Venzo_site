@@ -25,7 +25,7 @@
 }
 
 .colorname {
-    background: linear-gradient(272.33deg, #AD00FF 21.7%, #C422B7 103.44%);
+    background: linear-gradient(233.68deg, #F97112 21.18%, #C421B9 78.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -47,7 +47,7 @@
 
 .expert_flex {
     display: flex;
-    margin: 0 5% 5% 3%;
+    margin: 0 5% 5% 10%;
 }
 
 .expert_flex>div {
@@ -339,6 +339,23 @@
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards1{
+    margin-top: -13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards2{
+    margin-top: 13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards3{
+    margin-top: -13%;
+    transition: 0.7s;
+}
+.venzoCards:hover .subCards4{
+    margin-top: 13%;
+    transition: 0.7s;
 }
 .venzoCards .subCards{
     padding: 10% 15%;

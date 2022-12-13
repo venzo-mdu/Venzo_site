@@ -14,12 +14,12 @@
 }
 #leadershipText{
     font-family: Poppins;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: -0.04em;
     text-align: center;
-    color:#0A1020;
+    color: #0A1020;
 }
 .ourLeaders{
     padding: 3% 5%;
@@ -27,11 +27,12 @@
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
 }
 .leaders{
     width:100%;
 }
+
 .imagewithText{
     display: inline-flex;
     position: relative;
@@ -63,19 +64,27 @@
 }
 #aboutLeaders{
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: justified;
     color: #636363;
-    width:75%;
+    width: 75%;
     margin: 5% 0 0 0;
 }
 .linkedinIcon{
     margin: 5% 0 0 0;
 }
-@media screen and (max-width:1445px) and (min-width:1024px) {
+.IconCoFounder{
+    margin: 14% 0 0 0;
+}
+#hiringGradient1 {
+    background: -webkit-linear-gradient(60deg, #d1368f, #ae01ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:1705px) and (min-width:1024px) {
 .ourLeaders{
     margin: 0 0 0 5%;
     padding: 3% 1%;
@@ -83,6 +92,86 @@
 #aboutLeaders{
     width: 85%;
 }
+.aboutVenzo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 2%;
+}
+.rightCommitIcons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 1%;
+}
+.IconCoFounder {
+    margin: 19% 0 0 0;
+}
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+    .rightCommitIcons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 4%;
+    }
+    #leadershipText {
+        font-family: Poppins;
+        font-size: 18px;
+    }
+    .ourLeaders {
+        margin: 0 0 0 3%;
+        padding: 2% 0%;
+    }
+    .leaderImage{
+        width: 80%;
+    }
+    .aboutLeader {
+        position: absolute;
+        top: 37px;
+        left: 147px;
+    }
+    #aboutLeaders {
+        width: 84%;
+        font-size: 15px;
+    }
+    .IconCoFounder {
+        margin-top: 19%;
+    }
+    #leadershipTitle {
+        font-family: Poppins;
+        font-size: 52px;
+    }
+    #leadershipText {
+        font-family: Poppins;
+        font-size: 16px;
+    }
+    .leaderImage {
+        width: 84%;
+    }
+    .aboutLeader {
+        position: absolute;
+        top: 15px;
+        left: 117px;
+    }
+    #nameText {
+        font-family: Poppins;
+        font-size: 21px;
+    }
+    #positionText {
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    #aboutLeaders {
+        width: 84%;
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:768px) and (min-width:430px){
+    .IconCoFounder {
+        margin-top: 41%;
+    }
 }
 @media screen and (max-width:430px) {
     .ourLeaders{
@@ -101,26 +190,46 @@
     }
     #leadershipText{
         font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 22px;
-        letter-spacing: -0.04em;
-        text-align: center;
-        width: 90%;
-        margin: 0 0 0 5%;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    width: 88%;
+    margin: 0 0 0 5%;
     }
     #aboutLeaders{
         font-family: Poppins;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 21px;
-        letter-spacing: 0em;
-        text-align: justified;
-        width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    width: 94%;
+    text-align: justify;
+    }
+    .linkedinIcon {
+        margin: 4% 0px 10% 0px;
+    }
+    .IconCoFounder {
+        margin-bottom: 10% !important;
+    }
+    .aboutLeader {
+        position: absolute;
+        top: 80px;
+        left: 240px;
     }
 }
 @media screen and (max-width:375px) {
     .ourLeaders{
         margin: 0 0 0 3%;
+    }
+    .leaderImage{
+        width: 97%;
+    }
+    .aboutLeader {
+        position: absolute;
+        top: 66px;
+        left: 222px;
     }
 }

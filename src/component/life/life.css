@@ -2,30 +2,29 @@
     padding: 5% 10%;
 
 }
-.lifeAtvenzo #lifeAtvenzotitle{
+.lifeAtvenzo #lifeAtvenzotitle {
     font-size: 55px;
     font-family: poppins;
     font-weight: 600;
     color: #0A1020;
     padding: 0 0 0 5%;
-    border-left:5px solid #EC3939;
-
-
+    /* border-left: 5px solid #EC3939; */
 }
 .lifeAtvenzo #lifeAtvenzoText{
     color: #929292;
-    font-size: 18px;
+    font-size: 22px;
     font-family: poppins;
     font-weight: 400;
     line-height: 31.5px;
-    width:80%
+    width: 84%;
+    padding-left: 5%;
 
 }
 .youtubeVideo{
     display: inline-flex;
     padding: 1% 3%;
     width: 100%;
-} 
+}
 .youtubeVideo .link1{
     width:50%
 }
@@ -37,6 +36,13 @@
 .youtubeVideo .link2{
     margin-left:10%;
 }
+.lifeAtvenzo {
+    padding: 5% 4%;
+}
+.youtubeVideo{
+    padding: 1% 6%;
+    margin-bottom: 1%;
+}
 }
 @media screen and (max-width:1025px) and (min-width:768px) {
 
@@ -46,6 +52,7 @@
 .youtubeVideo{
     display: block;
     padding: 1% 6%;
+    margin-bottom: 5%;
 }
 
 .youtubeVideo .link1{
@@ -57,14 +64,35 @@
     margin-top:5%;
     width:20%
 }
+.lifeAtvenzo #lifeAtvenzoText {
+    color: #929292;
+    font-size: 21px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 31.5px;
+    width: 95%;
+    padding-left: 5%;
+}
+.lifeAtvenzo #lifeAtvenzotitle {
+    font-size: 43px;
+}
+
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .youtubeVideo {
         padding: 1% 0%;
+        margin-bottom: 5%;
+    }
+    .lifeAtvenzo #lifeAtvenzoText {
+        color: #929292;
+        font-size: 17px;
+    }
+    .lifeAtvenzo {
+        padding: 5% 6%;
     }
 }
 
-@media screen and (max-width:431px) {
+@media screen and (max-width:425px) {
     .lifeAtvenzo{
         padding: 5% 10%;
     
@@ -72,26 +100,41 @@
 .lifeAtvenzo #lifeAtvenzotitle{
     font-size: 32px;
     font-weight:600;
-    border-left:3px solid #EC3939;
+    /* border-left:3px solid #EC3939; */
+}
+.lifeAtvenzo {
+    padding: 5% 1%;
 }
 .lifeAtvenzo #lifeAtvenzoText{
     font-size: 14px;
     font-weight:400;
-    width:100%;
+    width: 97%;
 }
 .youtubeVideo{
     display: block;
+    margin-bottom: 5%;
 }
 .youtubeVideo .link1{
     width:100%;
 }
 .youtubeVideo .link1 img{
     width: 100%;
+    margin-left: 2%;
 }
 .youtubeVideo .link2{
     width:100%;
 }
 .youtubeVideo .link2 img{
     width: 100%;
+    margin-left: 7%;
 }
+}
+
+@media screen and (max-width:375px){
+    .lifeAtvenzo {
+        padding: 5% 1%;
+    }
+    .youtubeVideo {
+        margin-bottom: 5%;
+    }
 }

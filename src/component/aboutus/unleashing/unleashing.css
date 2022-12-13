@@ -9,7 +9,7 @@
     line-height: 52px;
     letter-spacing: -0.04em;
     text-align: left;
-    width: 45%;
+    width: 43%;
     margin: 0 0 0 10%;
 }
 
@@ -29,13 +29,13 @@
 
 .powerrightImage #powerrightText {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
     text-align: justified;
     color: #A4A4A4;
-    width: 76%;
+    width: 97%;
 }
 
 .aboutVenzo {
@@ -50,7 +50,13 @@
     margin: 10% 0 0 0;
 }
 #unleashingGradient{
-    background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
+    background: linear-gradient(233.68deg, #BF1BC6 21.18%, #E45155 78.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.unleashingGradient1{
+    background: linear-gradient(233.68deg, #C421B9 21.18%, #F97112 78.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -67,7 +73,7 @@
 
 .aboutInner #aboutinnerText {
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0em;
@@ -93,6 +99,7 @@
     letter-spacing: -0.02em;
     text-align: left;
     color: #000000;
+    margin-bottom: 10%;
 }
 
 .leftCommit .whatCommits1 {
@@ -141,13 +148,13 @@
 
 .rightCommit #rightCommitText {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 31px;
     letter-spacing: 0em;
     text-align: justified;
     color: #A4A4A4;
-    width: 90%;
+    width: 98%;
 }
 
 .rightCommitIcons {
@@ -163,48 +170,102 @@
 
 #tickiconText {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: justified;
     color: #000000;
     margin: 10% 0 0 0;
-    width: 65%;
+    width: 72%;
 
 }
 
-@media screen and (max-width:1445px) and (min-width:1024px) {
+
+@media screen and (max-width:1440px) and (min-width:1024px) {
     .powerOfvenzo .powerrightImage {
         margin: 0 0 0 10%;
     }
 
     .powerrightImage #powerrightText {
-        width: 100%;
+        width: 599px !important;
+        font-size: 18px !important;
     }
     .unleashing #unleashingTitle {
         width:60%;
+        font-size: 45px;
     }
+    #tickiconText {
+        width: 87%;
+    }
+    
 }
 
 @media screen and (max-width:1024px) and (min-width:768px) {
     .powerImage {
-        width: 100%;
-        height: 500px;
+        width: 433px;
+        height: 470px;
     }
+    .unleashing #unleashingTitle {
+        width: 81%;
+        font-size: 41px;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    .powerOfvenzo {
+        padding: 5% 5%;
+        margin-left: -2%;
+    }
+    .powerrightImage #powerrightText {
+        width: 452px !important;
+        font-size: 18px !important;
+    }
+    .powerOfvenzo .powerrightImage {
+        margin: 0 0 0 5%;
+    }
+    .aboutVenzo {
+        grid-row-gap: 1%;
+        grid-column-gap: 3%;
+    }
+    .aboutInner #aboutinnerText {
+        font-size: 17px;
+        width: 53%;
+    }
+    .commitments {
+        padding: 5% 5%;
+        margin-left: -1%;
+    }
+    .rightCommit {
+        width: 98%;
+        margin-left: 6%;
+    }
+    #tickiconText {
+        width: 100%;
+        font-size: 14px;
+    }
+    .rightCommit #rightCommitText {
+        width: 99%;
+    }
+    
 }
 
-@media screen and (max-width:768px) and (min-width:431px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     .powerOfvenzo {
         display: block;
     }
 
     .powerImage {
-        width: 100%;
+        width: 433px;
+        height: 356px;
+        width: 662px;
     }
 
     .unleashing #unleashingTitle {
-        width: 100%;
+        width: 95%;
+    margin-left: 3%;
+    margin-top: 9%;
+    font-size: 37px;
+    text-align: center;
     }
 
     .powerOfvenzo .powerrightImage {
@@ -215,7 +276,17 @@
         width: 100%;
         margin: 5% 0 0 0;
     }
-
+    .powerOfvenzo .powerrightImage {
+        margin: 0 0 0 0%;
+    }
+    .powerrightImage #powerrightText {
+        width: 674px !important;
+        font-size: 18px !important;
+    }
+    .aboutVenzo {
+        grid-row-gap: 0%;
+        grid-column-gap: 20%;
+    }
     .commitments {
         display: block;
         width: 100%;
@@ -226,15 +297,21 @@
     }
 
     .rightCommit {
-        width: 100%;
+        width: 98%;
+        margin-left: 0%;
+        margin-top: 7%;
     }
 
     .rightCommit #rightCommitTitle {
         width: 100%;
     }
+    .Accele{
+        display: none
+    }
 
     .rightCommit #rightCommitText {
-        width: 100%;
+        text-align: justify;
+        width: 668px !important;
     }
 
     .leftCommit #leftCommitTitle {
@@ -245,35 +322,46 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 11%;
-        grid-column-gap: 3%;
+        grid-column-gap: 13%;
+    }
+    #tickiconText {
+        width: 99%;
+        font-size: 14px;
+    }
+    .Accele{
+        display: block;
     }
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px) and (min-width:375px){
     .powerOfvenzo {
         padding: 5% 5%;
     }
 
     .unleashing #unleashingTitle {
-        font-family: Poppins;
-        font-size: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 600;
-        line-height: 34px;
+        font-size: 28px;
+        line-height: 120%;
+        /* or 34px */
         letter-spacing: -0.04em;
         text-align: left;
         width: 100%;
-        margin: 0 0 0 4%;
-
+        margin: 75px 0px 16px 3%;
     }
 
     .aboutVenzo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 11%;
-        grid-column-gap: 3%;
+        grid-row-gap: 6%;
+        grid-column-gap: 4%;
     }
-
+    .aboutInner #aboutinnerText {
+        font-family: Poppins;
+        font-size: 15px;
+    }
     .aboutInner {
         width: 100%;
         margin: 10% 0 0 0;
@@ -281,8 +369,9 @@
     .powerOfvenzo .powerleftImage{
         width: 100%;
     }
-    .powerImage{
-        width: 100%;
+    .powerImage {
+        width: 370px;
+        margin-left: -4px;
     }
     .powerOfvenzo {
         display: block;
@@ -300,6 +389,8 @@
         letter-spacing: 0em;
         text-align: left;
         width: 100%;
+        text-align: justify;
+        margin-top: 7%;
     }
 
     .commitments {
@@ -321,6 +412,7 @@
     }
     .whatCommits1 #whatCommitsText1{
         margin:  0 0 0 0%;
+        font-size: 21px;
     }
     .whatCommits #whatCommitsText {
         display: none;
@@ -346,13 +438,14 @@
         font-weight: 500;
         line-height: 27px;
         letter-spacing: 0em;
-        text-align: left;
-        width: 100%;
+        text-align: justify;
+        width: 99%;
+        margin-top: 4%;
     }
 
     .leftCommit #leftCommitTitle {
         font-family: Poppins;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 600;
         line-height: 19px;
         letter-spacing: -0.02em;
@@ -364,11 +457,31 @@
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 11%;
         grid-column-gap: 3%;
+        margin-bottom: 12%;
     }
+    #tickiconText {
+        width: 87% !important;
+    }
+    
 }
 @media screen and (max-width:375px) {
     .powerOfvenzo .powerrightImage {
         width: 100%;
+    }
+    .powerImage {
+        width: 322px;
+        margin-left: -4px;
+    }
+    .powerrightImage #powerrightText {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0em;
+        width: 100%;
+        text-align: justify;
+        margin-top: 7%;
+        margin-bottom: 15%;
     }
     .rightCommit {
         width: 100%;
@@ -380,6 +493,30 @@
         line-height: 19px;
         letter-spacing: -0.02em;
         text-align: left;
-
+        margin-top: 6%;
+    }
+    .leftCommit #leftCommitTitle {
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-top: 9%;
+    }
+    .whatCommits1 #whatCommitsText1 {
+        margin: 0 0 0 0%;
+        font-size: 24px;
+    }
+    #tickiconText {
+        width: 93% !important;
+        font-size: 13px;
+    }
+    .rightCommitIcons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 20%;
+        margin-bottom: 12%;
     }
 }

@@ -209,21 +209,21 @@ function product() {
                      <p id='whyVenzoTitle'>Why <span id='colorVenzoText'>Venzo?</span></p>
                      <p id='whyVenzoText'>Venzo’s product engineering solutions team uses cutting-edge technologies, solid frameworks, and efficient workflows to provide stage-wise delivery for improved product control and visibility.</p>
                      <div className='venzoCards'>
-                         <div className='subCards'>
+                         <div className='subCards subCards1'>
                              <img src={whyVenzoIcon1} alt='whyVenzoIcon'></img>
                           <p id='subCardsText'>Product engineering experts</p>
                          </div>
-                         <div className='subCards'>
+                         <div className='subCards subCards2'>
                          <img src={whyVenzoIcon2} alt='whyVenzoIcon'></img>
                           <p id='subCardsText'>Quality driven</p>
                              
                          </div>
-                         <div className='subCards'>
+                         <div className='subCards subCards3'>
                          <img src={whyVenzoIcon3} alt='whyVenzoIcon'></img>
                           <p id='subCardsText'>Diverse technology</p>
                              
                          </div>
-                         <div className='subCards'>
+                         <div className='subCards subCards4'>
                          <img src={whyVenzoIcon4} alt='whyVenzoIcon'></img>
                           <p id='subCardsText'>Information Security</p>
                              

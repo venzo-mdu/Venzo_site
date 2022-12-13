@@ -5,12 +5,22 @@
     padding: 5% 5%;
     display: flex;
 }
-.communityLeft{
+.communityLeft {
     width: 50%;
+    margin-left: 6%;
 }
-.communityRight{
+.communityRight {
     width: 50%;
     display: flex;
+    margin-left: -13%;
+}
+.communityImage {
+    width: 46%;
+    height: 50vh;
+    margin: 0 0 0 5%;
+}
+.Carousel{
+    display: none;
 }
 #communityLeftText{
     font-family: Poppins;
@@ -57,11 +67,7 @@ margin: 0% 0 2% 10%;
 
 }
 
-.communityImage{
-    width: 40%;
-    height: 50vh;
-    margin: 0 0 0 5%;
-}
+
 @media screen and (max-width:1440px) and (min-width:1025px) {
 #communityLeftText{
     width: 100%;
@@ -69,27 +75,65 @@ margin: 0% 0 2% 10%;
 #belowLeftText{
     width: 90%;
 }
+.communityLeft {
+    width: 50%;
+    margin-left: -1%;
 }
-@media screen and (max-width:1025px) and (min-width:768px) {
-    .community{
-        height: 65vh;
+.community {
+    padding: 7% 5%;
+    height: auto;
+}
+.communityImage {
+    width: 65%;
+    height: 66vh;
+    margin: 1px 0 0 100px;
+}
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .community {
+        height: auto;
+        padding-left: 0%;
+        padding-right: 0%;
     }
-    #communityLeftText{
-        width: 100%;
-    }
-    #belowLeftText{
-        width: 90%;
-    }
-    .communityImage{
+    .communityLeft {
         width: 50%;
-        height: 50vh;
-        margin: 0 0 0 2%;
+        margin-left: 4%;
+    }
+    #communityLeftText {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 60%;
+    }
+    #betterText {
+        font-family: Poppins;
+        font-size: 15px;
+    }
+    #belowLeftText {
+        font-family: Poppins;
+        font-size: 14px;
+    }
+    .communityRight {
+        width: 50%;
+    display: flex;
+    margin-left: -27%;
+    }
+    .communityImage {
+        width: 58%;
+        height: 64vh;
+        margin: 0 0 0 5%;
     }
 }
-@media screen and (max-width:768px) and (min-width:431px) {
+
+
+@media screen and (max-width:768px) and (min-width:430px) {
 .community{
     display: block;
-    height: 95vh;
+    height: auto;
 }
 .communityLeft{
     width: 100%;
@@ -102,23 +146,31 @@ margin: 0% 0 2% 10%;
 }
 .communityImage{
     width: 80%;
-    height: 30vh;
+    height: 48vh;
     margin: 10% 0 0 10%;
+    margin-bottom: 3%;
+}
+.communityRight {
+    width: 95%;
+    display: flex;
+    margin-left: -2%;
 }
 }
-@media screen and (max-width:430px)  {
+@media screen and (max-width:430px) and (min-width:375px)  {
  
     .community{
         display: block;
-        height: 80vh;
-        padding: 5% 2%;
-
+        height: auto;
+        padding-bottom: 13%;
+        margin-bottom: 5%;
     }
     .communityLeft{
         width: 100%;
     }
     .communityRight{
         width: 100%;
+        margin-left: -1%;
+
     }
     #communityLeftText{
         font-family: Poppins;
@@ -128,13 +180,14 @@ margin: 0% 0 2% 10%;
         letter-spacing: -0.02em;
         text-align: left;
         width: 100%;
+        margin-top: 7%;
     }
     /* .betterImage{
         width: 10%;
     } */
-    .betterment{
+    .betterment {
         display: grid;
-        margin: 5% 0 0 0;
+        margin: 9% 0 0 0;
     }
     .betterCommunity{
     display:flex;
@@ -152,7 +205,7 @@ margin: 0% 0 2% 10%;
     
     #betterText{
         font-family: Poppins;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 31px;
         letter-spacing: 0em;
@@ -168,7 +221,27 @@ margin: 0% 0 2% 10%;
     #tickiconText {
         width: 85%;
     }
+    .betterImage{
+        width: 90%;
+    }
 }
 @media screen and (max-width:375px) {
-    
+    #communityLeftText {
+        font-family: Poppins;
+        font-size: 20px;
+    }
+    #belowLeftText {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: justify;
+        width: 91%;
+    }
+    .communityImage {
+        width: 43%;
+        height: 30vh;
+        margin: 10% 0 0 5%;
+    }
 }
