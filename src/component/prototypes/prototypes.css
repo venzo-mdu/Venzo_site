@@ -26,7 +26,12 @@ body{
 }
 .prototypes h1{
     font-family:poppins-semibold;
-    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #000000;
 }
 .prototypes #days{
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -36,8 +41,7 @@ body{
 }
 .prototypes .design{
         height: 1%;
-        padding: 0.5% 0;
-        width: 13vw;
+        padding: 1% ;
         color: white;
         background-color: #000000;
         border-radius: 10px 10px 10px 10px;
@@ -59,7 +63,12 @@ body{
     }
     .prototypes h1{
         font-family:poppins-semibold;
-        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        color: #000000;
     }
     .prototypes #days{
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -69,8 +78,7 @@ body{
     }
     .prototypes .design{
             height: 1%;
-            padding: 0.5% 0;
-            width: 13vw;
+            padding: 1%;
             color: white;
             background-color: #000000;
             border-radius: 10px 10px 10px 10px;
@@ -87,16 +95,16 @@ body{
 @media screen and (max-width:1024px) and (min-width:771px) {
     .prototypes h1{
         font-family:poppins-semibold;
-        font-size: 40px;
+        font-size: 45px;
     }
     .prototypes .design{
-        margin: 5% 0 0 5%;
+        margin: 5% 0 0 10%;
         width: 30%;
     }
 }
 @media screen and (max-width:770px) and (min-width:501px) {
     .prototypes h1{
-        font-size: 20px !important;
+        font-size: 45px !important;
     }
     .prototypes{
         display: block;
@@ -108,7 +116,8 @@ body{
 }
 @media screen and (max-width:500px) and (min-width:426px) {
     .prototypes h1{
-        font-size: 20px !important;
+        font-size: 35px !important;
+        width: 100%;
     }
     .prototypes{
         display: block;
@@ -121,23 +130,28 @@ body{
 }
 @media screen and (max-width:425px) and (min-width:376px) {
     .prototypes h1{
-        font-size: 20px !important;
+        font-size: 35px !important;
+
     }
     .prototypes{
         display: block;
+        padding: 4% 4%;
+
     }
     .prototypes .design{
         margin: 5% 0 5% 0%;
         width: 60%;
         padding: 1%;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:375px) {
     .prototypes{
         display: block;
+        padding: 4% 2%;
     }
     .prototypes h1{
-        font-size: 24px;
+        font-size: 35px;
         width: 100%;
         margin:10% 0 0 -1.5%;
      }
@@ -145,5 +159,7 @@ body{
          width: 60%;
          margin: 5% 0 5% -2%;
          padding: 1%;
+        font-size: 14px;
+
      }
 }

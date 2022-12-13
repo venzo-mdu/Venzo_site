@@ -24,21 +24,33 @@ body {
 }
 
 .whatwedoText h3 {
-    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;    
     font-family: poppins-semibold;
-    margin: 12% 0 0 15%;
+    margin: 55% 0 0 15%;
 }
 
 .whatwedoText p {
-    width: 20%;
+    /* width: 20%;
     color: black;
     opacity: 0.4;
     font-family: poppins-medium;
     margin: 2% 0 0 5%;
     position: absolute;
     font-size: 20px;
-    line-height: 1.8;
-
+    line-height: 1.8; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #929292;
+    margin: 5% 0 0 15%;
+    font-family: poppins-medium;
+    width: 63%;
 }
 
 .whatwedoCard {
@@ -46,8 +58,8 @@ body {
     justify-content: center;
     width: 70%;
     margin-bottom: 3%;
-
-}
+    height: 750px;
+}   
 
 .whatwedoCard div {
     padding: 4% 1%;
@@ -58,24 +70,29 @@ body {
 }
 
 .whatwedoCard p {
-    width: 105%;
-    font-size: 18px;
-    font-family: poppins-regular;
-    margin: 30% 0 160% 0;
+    width:80%;
+    margin: 10% 0 160% 0;
     padding: 2%;
-
+    font-family: poppins-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156%;
 }
 
 .whatwedoCard .uxResearch {
     background-image: url('../../images/uxResearch_No1.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 10% 0 0 3%;
+
 }
 
 .whatwedoCard .uiuxDesign {
     background-image: url('../../images/uiux_Design_No2.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 10% 0 0 3%;
 
 }
 
@@ -83,6 +100,7 @@ body {
     background-image: url('../../images/digitalPrototyping_No3.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 10% 0 0 3%;
 
 }
 
@@ -90,27 +108,32 @@ body {
     background-image: url('../../images/digitalBranding_No4.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 10% 0 0 3%;
 
 }
 
 .whatwedoCard .uxResearch:hover {
     background-image: url('../../images/bguiux1.png');
     color: white;
+    padding: 10% 0 0 3%;
 }
 
 .whatwedoCard .uiuxDesign:hover {
     background-image: url('../../images/bguiux2.png');
     color: white;
+    padding: 10% 0 0 3%;
 }
 
 .whatwedoCard .digitalPrototyping:hover {
     background-image: url('../../images/bguiux3.png');
     color: white;
+    padding: 10% 0 0 3%;
 }
 
 .whatwedoCard .digitalBranding:hover {
     background-image: url('../../images/bguiux4.png');
     color: white;
+    padding: 10% 0 0 3%;
 }
 
 .whatwedoCardResponsive {
@@ -137,20 +160,25 @@ body {
     }
 
     .whatwedoText h3 {
-        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #000000;            
         font-family: poppins-semibold;
-        margin: 12% 0 0 15%;
+        margin: 60% 0 0 15%;
     }
 
     .whatwedoText p {
-        width: 20%;
-        color: black;
-        opacity: 0.4;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        color: #929292;
+        margin: 5% 0 0 15%;
         font-family: poppins-medium;
-        margin: 2% 0 0 5%;
-        position: absolute;
-        font-size: 20px;
-        line-height: 1.8;
+        width: 75%;
 
     }
 
@@ -170,10 +198,13 @@ body {
     }
 
     .whatwedoCard p {
-        width: 105%;
-        font-size: 18px;
+        width:90%;
+        padding: 2%;
         font-family: poppins-regular;
-        margin: 30% 0 140% 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 156%;
     }
 
     .whatwedoCard .uxResearch {
@@ -230,12 +261,12 @@ body {
 
 }
 
-@media screen and (max-width:1024px) and (min-width:775px) {
+@media screen and (max-width:1024px) and (min-width:771px) {
 
     .whatwedo {
         background-color: white;
         height: 90%;
-        padding: 0 0 0 5%;
+        padding: 0 0 0 0%;
     }
 
     .whatwedoflex {
@@ -248,21 +279,20 @@ body {
     }
 
     .whatwedoText h3 {
-        font-size: 30px;
+        font-size: 40px;
         font-family: poppins-semibold;
-        margin: 12% 0 0 15%;
+        margin: 50% 0 0 15%;
     }
 
     .whatwedoText p {
-        width: 20%;
-        color: black;
-        opacity: 0.4;
-        font-family: poppins-medium;
-        margin: 2% 0 0 5%;
-        position: absolute;
+        font-style: normal;
+        font-weight: 400;
         font-size: 15px;
-        line-height: 1.8;
-
+        line-height: 175%;
+        color: #929292;
+        margin: 5% 0 0 15%;
+        font-family: poppins-medium;
+        width: 85%;
     }
 
     .whatwedoCard {
@@ -281,10 +311,13 @@ body {
     }
 
     .whatwedoCard p {
-        width: 105%;
-        font-size: 16px;
+        width:100%;
+        padding: 2%;
         font-family: poppins-regular;
-        margin: 30% 0 100% 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 156%;
     }
 
     .whatwedoCard .uxResearch {
@@ -364,7 +397,8 @@ body {
     .whatwedoText p {
         width: 80%;
         font-size: 18px;
-        margin: 4% 0 0 10%;
+        margin: 4% 0 0 5%;
+        text-align: center;
     }
 
     .whatwedoCard {
@@ -375,7 +409,7 @@ body {
     .whatwedoCardResponsive {
         display: block;
         width: 100vw;
-        margin: 35% 0 0 0;
+        margin: 5% 0  0;
     }
 
     .whatwedoCardResponsive div {
@@ -609,7 +643,7 @@ body {
     .whatwedoCardResponsive {
         display: block;
         width: 100vw;
-        margin: 50% 0 0 0;
+        margin: 20% 0 0 0;
     }
 
     .whatwedoCardResponsive div {
@@ -619,11 +653,17 @@ body {
         /* background-color: #d9d7d7; */
         margin: 0 0 0 -5%;
     }
+    .whatwedoCardResponsive div h4 {
+        font-size: 24px;
+    }
 
     .whatwedoCardResponsive div p {
         margin: 5% 0 5% 0;
         width: 100%;
-
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 156%;
     }
 
     .whatwedoCardResponsive .uxResearch1 {
@@ -697,7 +737,7 @@ body {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 34px;
+        font-size: 35px;
         line-height: 120%;
         text-align: center;
         letter-spacing: -0.04em;

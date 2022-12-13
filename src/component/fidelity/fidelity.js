@@ -20,7 +20,7 @@ function fidelity() {
               </div>
               <div className='highFidelity'>
               <h3>High-Fidelity Prototypes</h3>
-              <p>This looks  like a finished product with pixel-perfect application</p>
+              <p>This looks like a finished product with pixel-perfect elements.</p>
               <img src={Highfidelity} alt='high-fidelity-images'></img>
               </div>
           </div>

@@ -300,7 +300,6 @@ color: #424753;
 } 
 .quality_card2{
     width: 100%;
-    height: 400px;
     background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);;
     border-radius: 15px;
     font-family: 'Poppins';
@@ -312,12 +311,17 @@ color: #424753;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid #AD00FF;
+    background-image: url("../../images/quality/cardbgimg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    padding:5% 0 10%;
 }
 .quality_card2 div img{
-    width: 80%;
-    height: 50px;
-    margin-top: 10%;
+    width:50%;
+    height: 30px;
+    margin-top: 0%;
 }
 .quality_section6{
     margin-top: 5%;
@@ -359,6 +363,7 @@ margin-left: 7%;
 }
 .qaprocess div{
     padding: 5%;
+    width: 100%;
 }
 .qaSec6Res{
     display: flex;
@@ -407,12 +412,14 @@ margin-left: 5%;
     font-size: 14px;
     line-height: 120%;
     padding: 3%;
-    border: 1px solid #AD00FF;
 }
 .qualitybtn:hover{
     color: #FFFFFF;
     background-color: transparent;
     background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    width: 45%;
+    padding: 3%;
+
 }
 
 .textColor{
@@ -726,7 +733,6 @@ color: #424753;
 } 
 .quality_card2{
     width: 100%;
-    height: 400px;
     background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);;
     border-radius: 15px;
     font-family: 'Poppins';
@@ -738,12 +744,17 @@ color: #424753;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid #AD00FF;
+    background-image: url("../../images/quality/cardbgimg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    padding:5% 0; 
 }
 
 .quality_card2 div img{
-    width: 80%;
-    height: 50px;
+    width: 40%;
+    height: 40px;
 }
 
 
@@ -782,11 +793,12 @@ margin-left: 3%;
     background-image: url('../../images/quality/Vector\ 349.png');
     background-repeat: no-repeat;
     background-position-y: 28%;
-    background-position-x: 12%;
+    background-position-x: 13%;
     background-size: auto;
 }
 .qaprocess div{
     padding: 5%;
+    width: 100%;
 }
 .qaSec6Res{
     display: flex;
@@ -797,7 +809,7 @@ margin-left: 3%;
     margin-left: 5%;
 }
 .qaSec6Res p{
-    padding-top: 3%;
+    padding-top: 0%;
     padding-left: 5%;
     margin-left: 0;
     font-size: 18px;

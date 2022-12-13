@@ -265,7 +265,7 @@
         text-align: center;
         background-color: #FFF;
         margin-top: 90%;
-        bottom: -170px;
+        bottom: -120px;
         padding-top: 5%;
         width: 100%;
         margin-left: 0%;
@@ -282,7 +282,7 @@
 
     .devCaros .item1 {
         text-align: left;
-        margin-top: -15%;
+        margin-top: -7%;
         margin-left: 5%;
         display: flex;
     }

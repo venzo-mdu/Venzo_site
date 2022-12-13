@@ -236,7 +236,7 @@ body {
     padding: 5% 0;
     background-color: #F8F8F8;
     border-radius: 7px 7px 7px 7px;
-    height: 100% !important;
+    height: 400px;
 
 }
 
@@ -250,8 +250,8 @@ body {
     display:flex;
     text-align: center;
     background-color: #FFF;
-    margin-top: 90%;
-    bottom: 20px;
+    margin-top: 0%;
+    bottom: -125px;
 }
 .devCaros .carousel-indicators button {
     border-radius: 50%;
@@ -263,7 +263,7 @@ body {
 
 .devCaros .item1 {
     text-align: left;
-    margin-top: -20%;
+    margin-top: -10%;
     margin-left: 5%;
     display: flex;
 }

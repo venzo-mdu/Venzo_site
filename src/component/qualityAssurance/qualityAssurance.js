@@ -173,13 +173,13 @@ function QualityAssurance() {
                             <h2 className="s1heading">Performance Evaluation</h2>
                             <p className='s1desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
-                        <hr />
+                        <hr className='quality_cardTitleHr'/>
                         <div>
                             <img className="s1icon" src={group2} alt='icon' />
                             <h2 className="s1heading">Quality and UX audit</h2>
                             <p className='s1desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
-                        <hr />
+                        <hr className='quality_cardTitleHr'/>
                         <div>
                             <img className="s1icon" src={group3} alt='icon' />
                             <h2 className="s1heading">Integration Testing</h2>
@@ -192,13 +192,13 @@ function QualityAssurance() {
                             <h2 className="s2heading">Performance Evaluation</h2>
                             <p className='s2desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
-                        <hr />
+                        <hr className='quality_cardTitleHr'/>
                         <div>
                             <img className="s2icon" src={group5} alt='icon' />
                             <h2 className="s2heading">Quality and UX audit</h2>
                             <p className='s2desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
-                        <hr />
+                        <hr className='quality_cardTitleHr'/>
                         <div>
                             <img className="s2icon" src={group6} alt='icon' />
                             <h2 className="s2heading">Integration Testing</h2>
@@ -224,20 +224,27 @@ function QualityAssurance() {
                     <div className='quality_cardList'>
                         <ul className='quality_cardTitle'>
                             <li className={active === 'Automation' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Automation')}>Automation Testing</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Defect' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Defect')}>Test & Defect</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Devops' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Devops')}>Devops Integration</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Mobile' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('Mobile')}>Mobile Testing</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Web' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('Web')}>Web Tesing</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Security' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Security')}>Security Testing</li>
-                            <hr />
+                            <hr className='quality_cardTitleHr'/>
                             <li className={active === 'Performance' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Performance')}>Performance Tesing</li>
                         </ul>
                         <div className='quality_card1'>
+                            <div>
+                                <img src={autoimg1} />
+                                <br /><br /><hr />
+                                <img src={autoimg2} />
+                                <br /><br /><hr />
+                                <img src={autoimg3} />
+                            </div>
                         </div>
                     </div>
 
@@ -258,7 +265,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header className='qacardtitle' >Test & Defect</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <img src={testimg1} />
                                         <br /><br /><hr />
                                         <img src={testimg2} />
@@ -270,7 +277,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header className='qacardtitle' >Devops Integration</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <br /><br />
                                         <img src={developimg2} />
                                         <br /><br /><hr />
@@ -281,7 +288,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="4">
                                 <Accordion.Header className='qacardtitle' >Mobile Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <img src={cardimg1} />
                                         <br /><br /><hr />
                                         <img src={cardimg2} />
@@ -293,7 +300,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="5">
                                 <Accordion.Header className='qacardtitle' >Web Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <img src={webimg1} />
                                         <br /><br /><hr />
                                         <img src={webimg2} />
@@ -305,7 +312,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="6">
                                 <Accordion.Header className='qacardtitle' >Security Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <img src={securityimg1} />
                                         <br /><br /><hr />
                                         <img src={securityimg2} />
@@ -317,7 +324,7 @@ function QualityAssurance() {
                             <Accordion.Item eventKey="7">
                                 <Accordion.Header className='qacardtitle' >Performance Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
-                                <div>
+                                    <div>
                                         <img src={performimg1} />
                                         <br /><br /><hr />
                                         <img src={performimg2} />

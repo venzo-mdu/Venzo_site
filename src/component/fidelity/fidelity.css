@@ -27,6 +27,12 @@ body{
 }
 .fidelity h3{
     font-family: poppins-semibold;
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+letter-spacing: -0.02em;
+color: #000000;
 }
 .fidelity .lowFidelity{
     margin: 0% 0% 0 10%;
@@ -36,15 +42,21 @@ body{
 }
 .fidelity .lowFidelity p{
     width:100%;
-    color: black;
-    opacity: 0.4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #6C6C6C;
     font-family: poppins-medium;
     margin: 10% 0 0 0%;
 }
 .fidelity .highFidelity p{
     width:90%;
-    color: black;
-    opacity: 0.4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #6C6C6C;
     font-family: poppins-medium;
     margin: 9% 0 0 0%;
 }
@@ -71,7 +83,11 @@ body{
     margin: 4% 0 0 10%;
     width: 100%;
     font-family: poppins-medium;
-}
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 175%;
+    color: #0A1020;}
 
 
 @media screen and (max-width:1440px) and (min-width:1030px)    {
@@ -147,7 +163,7 @@ body{
         margin: 0% 0% 0 0%;
     }
     .fidelity .highFidelity{
-        margin: 0% 0 0 10%;
+        margin: 0% 0 0 0%;
     }
     .fidelity .lowFidelity p{
         width:100%;
@@ -157,7 +173,7 @@ body{
         margin: 10% 0 0 0%;
     }
     .fidelity .highFidelity p{
-        width:90%;
+        width:100%;
         color: black;
         opacity: 0.4;
         font-family: poppins-medium;
@@ -167,7 +183,7 @@ body{
         margin: 5% 0 0 -10%;
     }
     .fidelity .highFidelity img{
-        margin: 5% 0 0 0%;
+        margin: 20% 0 0 0%;
     }
     .ourInsights{
         display: flex;
@@ -194,7 +210,7 @@ body{
 }
 @media screen and (max-width:770px) and (min-width:426px) {
     .fidelityPrototypes{
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
     .fidelity{
         display: block;
@@ -207,11 +223,13 @@ body{
     }
     .ourInsights{
         display: block;
-        width:175%;
+    }
+    .ourInsights .idea{
+        width: 100%;
     }
     .ourInsights div h4{
         font-size: 18px;
-        margin: 11% 0 0 10%;
+        margin: 7% 0 0 10%;
     }
     .ourInsights img{
         margin: 8% 0 0 0;
@@ -225,23 +243,26 @@ body{
     .fidelity{
         display: block;
     }
+    .fidelity br{
+        display: none;
+    }
     .fidelity .lowFidelity{
         margin: 0 0 0 0%;
     }
     .fidelity .lowFidelity p{
-        font-size: 14px;
-        width: 115%;
+        font-size: 16px;
+        width: 100%;
     }
     .fidelity .highFidelity p{
-        font-size: 14px;
-        width: 115%;
+        font-size: 16px;
+        width: 100%;
     }
     .fidelity .highFidelity{
         margin: 0 0 0 0%;
     }
     .fidelity .lowFidelity img {
     margin: 5% 0 0 -10%;
-    width:120%;
+    width:100%;
     }
     .fidelity .highFidelity img {
         margin: 10% 0 0 -7%;
@@ -249,12 +270,14 @@ body{
         }
     .ourInsights{
         display: block;
-        width:175%;
+    }
+    .ourInsights .idea{
+        width: 100%;
     }
     .ourInsights div h4{
-        font-size: 13px;
-        margin: 13% -74% 0 15%;
-        width: 120%;
+        font-size: 16px;
+        margin: 7% 4% 0 7%;
+        width: 100%;
     }
     
     .ourInsights img{
@@ -270,35 +293,36 @@ body{
     .fidelity{
         display: block;
     }
+    .fidelity br{
+        display: none;
+    }
     .fidelity .lowFidelity{
         margin: 0 0 0 0%;
     }
     .fidelity .lowFidelity p{
-        font-size: 14px;
-        width: 115%;
+        font-size: 16px;
     }
     .fidelity .highFidelity p{
-        font-size: 14px;
-        width: 115%;
+        font-size: 16px;
     }
     .fidelity .highFidelity{
         margin: 0 0 0 0%;
     }
     .fidelity .lowFidelity img {
     margin: 5% 0 0 -10%;
-    width:120%;
     }
     .fidelity .highFidelity img {
         margin: 10% 0 0 -7%;
-        width:100%;
         }
     .ourInsights{
         display: block;
-        width:175%;
+    }
+    .ourInsights .idea{
+        width: 100%;
     }
     .ourInsights div h4{
-        font-size: 13px;
-        margin: 13% -74% 0 15%;
+        font-size: 16px;
+        margin: 7% -74% 0 7%;
         width: 120%;
     }
     

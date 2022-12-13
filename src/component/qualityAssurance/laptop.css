@@ -286,11 +286,16 @@ color: #424753;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid #AD00FF;
+    background-image: url("../../images/quality/cardbgimg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    padding: 0%;
     margin-top: -2%;
 }
 .quality_card1  img{
-    width: 60%;
+    width: 20%;
     height: 60px;
     margin-top: 5%;
 }
@@ -305,11 +310,9 @@ color: #424753;
     color: #7E7E7E;
 }
 
-.quality_cardTitle>li hr {
-
+.quality_cardTitleHr {
     opacity: 0.3;
-border: 1px solid #D8D8D8;
-transform: rotate(-90deg);
+    border: 1px solid #D8D8D8;
 }
 .quality_cardTitle>li:hover {
     color: #FFFFFF;
@@ -369,7 +372,7 @@ line-height: 200%;
 text-align: center;
 color: #000000;
 width: 65%;
-margin-left: 20%;
+margin-left: 15%;
 }
 
 .qaprocess{
@@ -377,16 +380,22 @@ margin-left: 20%;
     margin-left: 10%;    
     background-image: url('../../images/quality/horzline.png');
     background-repeat: no-repeat;
-    background-position-y: 31%;
+    background-position-y: 33%;
     background-position-x: 22%;
-    background-size: 80%;
+    background-size: 75%;
+    
 }
 .qaprocess div{
-    padding: 5%;
+    padding: 4%;
+    width: 30%;
+    margin-left: -2%;
+
 }
 
-.qaprocess p{
-    padding-top: 15%;
+.qaprocess p {
+    padding-top: 10%;
+    margin-left: -48%;
+    padding-left: 19%;
 }
 
 .quality_section7{
@@ -414,10 +423,10 @@ margin-left: 20%;
     margin-left: 5%;
 } 
 .qualitybtn{
-    margin-left: 5%;
-    height: 45%;
+    margin-left: 2%;
+    height: 0%;
     margin-top: 2%;
-    width: 15%;
+    width: 25%;
     color: white;
     background-color: #0A1020;
     border-radius: 7px 7px 7px 7px;
@@ -426,13 +435,15 @@ margin-left: 20%;
     font-weight: 500;
     font-size: 18px;
     line-height: 120%;
-    padding: 0.6%;
-    border: 1px solid #AD00FF;
+    padding: 1%;
 }
 .qualitybtn:hover{
     color: #FFFFFF;
     background-color: transparent;
     background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    width: 20%;
+    margin-left: 5%;
+
 }
 
 .textColor{
