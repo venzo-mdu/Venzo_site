@@ -1,0 +1,93 @@
+.hamburger{
+    background-color: #0A1020;
+    height: 380px;
+    width: 125px;
+    padding: 1.5% 3%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+    #cardText{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;           
+        margin: 8% 0 0 0;
+
+    }
+    #hrincard{
+        height: 0px;
+        width: 315px;
+        border: 1px solid #FFFFFF4D;
+    }
+    .closeBtn{
+        float:right;
+    }
+  
+    @media screen and (max-width:768px) and (min-width:430px) {
+        .hamburger{
+            height: 225px;
+            width: 380px;
+            padding: 1.5% 3%;
+            right: 0px;
+        }
+        #cardText{
+            font-size: 16px;
+            line-height: 2px;
+        }
+    }
+    @media screen and (max-width:430px) and (min-width:375px) {
+        .hamburger{
+            height: 400px;
+            width: 430px;
+            padding: 1.5% 5%;
+            right: 0px;
+        }
+        .closeBtn{
+            position: absolute;
+            top:10px;
+            right: 25px;
+        }
+    
+    }
+    @media screen and (max-width:376px) {
+        .hamburger{
+            height: 400px;
+            width: 380px;
+            padding: 1.5% 5%;
+            right: 0px;
+        }
+    }
+    /* @media screen and (max-width:365px){
+        .hamburger{
+            height: 800px;
+            padding: 3% 10%;
+            width: 375px;
+        }
+        .closeBtn{
+            position: absolute;
+            top:5px;
+            right: 25px;
+        }
+    }
+    @media screen and (max-width:280px) {
+        .hamburger{
+            height: 725px;
+            padding: 3% 10%;
+            width: 285px;
+        }
+        .closeBtn{
+            position: absolute;
+            top:5px;
+            right: 25px;
+        }
+        #hrincard{
+            height: 0px;
+            width: 230px;
+            border: 1px solid #00CD78;
+        }
+    }
+     */

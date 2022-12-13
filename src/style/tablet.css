@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@media screen  and (max-width:770px) and (min-width:580px) {
+@media screen  and (max-width:768px) and (min-width:500px) {
     .containor1 {
         display: block;
-        margin-top: 4%
+        margin-top: 4%;
+        width:100;
     }
 
     .build {
-        height: 12%;
         width: 80%;
-        margin-left: 9%;
+        text-align: center;
     }
 
     .title {
@@ -17,25 +17,23 @@
         font-style: normal;
         font-weight: 600;
         font-size: 50px;
-        line-height: 120%;
         color: #000000;
-        text-align: center;
+        margin: 0 0 0 18%;
     }
-
+ 
     .desc {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         text-align: center;
         width: 80%;
-        margin-left: 10%;
+        margin-left: 18%;
     }
 
     .images {
-        margin-left :15%;
+        margin-left :14%;
         margin-top: 5%;
         margin-bottom: 5%;
         width: 70%;
@@ -62,7 +60,6 @@
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
         color: #000000;
         margin: 5% 0 5% 0;
 
@@ -74,7 +71,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         margin: 0 0 10% 0;
 
@@ -88,7 +84,7 @@
 
     .customer {
         padding-left: 0%;
-        padding-top: 4%;
+        padding-top: 5%;
         background-color: #f6f6f6;
         color: #0A1020;
         padding-bottom: 7%;
@@ -97,8 +93,8 @@
 
     .row2 {
         display: block;
-        margin-top: 50%;
         margin-left: 15%;
+        margin-top: 10%;
     }
 
     .webBr{
@@ -106,7 +102,7 @@
 
     }
     .mobileBr {
-        display: block;
+        display: none;
     }
 
     .cus-title {
@@ -114,14 +110,15 @@
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 175%;
         color: #000000;
+        line-height: 25px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 45%;
-        background-position-y: 85%;
+        background-position-x: 40%;
+        background-position-y: 50px;
         background-size: 43%;
         text-align: center;
+        height: 75px;
     }
 
     .des1 {
@@ -130,11 +127,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: #000000;
-        margin-top: 50%;
         text-align: center;
-        margin-left: 0%;
     }
 
     .arrow {
@@ -143,8 +137,8 @@
     }
 
     .videoImg {
-        margin-top: -130%;
         width: 70%;
+        margin: 0 0 0 10%;
     }
 
     .readMore1 {
@@ -153,7 +147,6 @@
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
-        line-height: 120%;
         color: #000000;
         margin-top: 10%;
         margin-left: 32%;
@@ -181,37 +174,35 @@
 
     .containor3 {
         margin: 0 9px 0 0;
-        padding: 10% 0;
+        padding: 10% 5%;
         width: 100%;
         display: block;
         background-color: #f6f6f6;
     }
 
     .anyIdea {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
+        font-family: Poppins;
         font-size: 45px;
-        line-height: 120%;
+        font-weight: 600;
+        line-height: 54px;
         letter-spacing: -0.03em;
+        text-align: left;
+        width: 70%;
         color: #000000;
-        margin-left: 10%;
     }
 
     .talk {
-        margin-left: 10%;
-        height: 45%;
-        margin-top: 2%;
-        width: 25%;
-        color: white;
-        background-color: #000000;
-        border-radius: 7px 7px 7px 7px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
+        font-family: Poppins;
         font-size: 18px;
-        line-height: 120%;
-        padding: 2%;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        height: 50px;
+        width: 160px;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #0A1020;
+        margin: 2% 0 0 0%;
     }
 
     .talk:hover {

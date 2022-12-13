@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../header/header.css"
+import Hamburger from '../hamburger/hamburger'
 import Venzologo1 from "../../images/venzoWhite.png"
 import HeaderData from "../../content/headerData.json"
 import ToggleIcon from "../../images/toggleIcon.png"
 import { Link } from 'gatsby'
 
-function header(props) {
+function Header(props) {
     console.log("props",props.flag)
+    const[open,setOpen]=useState(false);
+    const openmodal=()=>{
+        setOpen(true)
+    }
+    const closemodal = (data) => {
+        console.log("data", data)
+        setOpen(data)
+      }
   return (
       
    <header>
@@ -29,7 +38,12 @@ function header(props) {
                })
            }
                   </ul>
-                  <img className='toggleIcon'  src={ToggleIcon} alt="toggleicon"></img>
+                  <img className='toggleIcon' onClick={openmodal}  src={ToggleIcon} alt="toggleicon"></img>
+
+          {
+            open === true ? <Hamburger closemodal={closemodal} />
+              : ""
+          }
        </div>
      
 
@@ -38,4 +52,4 @@ function header(props) {
   )
 }
 
-export default header
+export default Header

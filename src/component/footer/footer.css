@@ -29,13 +29,13 @@ footer {
     width: 100%;
 }
 
-
 .footer {
     display: flex;
     line-height: 2;
-    padding: 5% 11%;
+    padding: 5% 11% 1%;
     width: 100%;
 }
+
 .laptopResponsive {
     display: flex;
     width: 50%;
@@ -45,17 +45,19 @@ footer {
     display: flex;
     width: 50%;
 }
+
 .footer h5 {
     font-family: poppins-medium;
     margin-top: 2%;
     font-size: 18px;
+    color: #FFFFFF;
 }
 
 
 .address {
     display: block;
     margin: 0 0% 0 -8%;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
@@ -63,44 +65,54 @@ footer {
     width: 50%;
 }
 
+.branchOffice {
+    margin: 5% 0 0 0;
+}
+
 .services {
     display: block;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
     width: 50%;
-
+    margin: 0 0 0 5%;
 }
 
 .aboutUs {
     display: block;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
     width: 50%;
 
 }
-.careers{
-    margin: 11% 0 0 0;
+
+.careers {
+    margin: 5% 0 0 0;
 }
+
 .contactUs {
     display: block;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
     width: 50%;
+}
+
+.contact p {
+    margin: unset !important;
 }
 
 .business {
-    margin: 5% 0 0 0;
+    margin: 12% 0 0 0;
 
 }
 
 .copyRight {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
     font-family: poppins-regular;
     font-size: 14px;
     font-weight: 400;
@@ -112,12 +124,7 @@ footer {
     margin: 1% 8%;
 }
 
-.copyRightHr {
-    color: #FFFFFF;
-    width: 85%;
-    margin: 1% 0% 0 8%;
-    opacity: 0.5;
-}
+
 
 .titleHr {
     border: 1px solid white;
@@ -126,10 +133,14 @@ footer {
     opacity: 5;
 }
 
+.business {
+    margin: 14% 0 0 0;
+
+}
+
 #paraHR {
     width: 75%;
     margin: 0 0 0 8%;
-
 }
 
 .logoIcon {
@@ -140,17 +151,17 @@ footer {
 
 
 
-@media screen and (max-width:1440px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1030px) {
     footer {
         background-color: #0A1020;
         width: 100%;
     }
 
-   .footer{
-    padding: 3% 12%;
-   }
+    .footer {
+        padding: 3% 12% 1%;
+    }
 
-   
+
     .footer h5 {
         font-family: 'poppins-medium';
     }
@@ -159,110 +170,55 @@ footer {
         margin: -2%;
     }
 
+    .branchOffice {
+        margin: 7% 0 0 0;
+    }
 
-    .copyRight {
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        margin: -1% 3%;
-        display: block;
+    #paraHR {
+        width: 70%;
+        margin: 0 0 0 9.2%;
     }
 
     .copyRight p {
-        margin: 1% 13%;
+        margin: 1% 9.2%;
     }
-
-    .copyRight hr {
-        color: #FFFFFF;
-        width: 75%;
-        margin: 1% 0% 0 12.5%;
-        opacity: 0.5;
-    }
-
-    .logoIcon {
-        width: 70px;
-        height: 70px;
-        margin: -8% 0% 0% 90%;
-    }
-
 
 }
 
 
-@media screen and (max-width:1030px) and (min-width:775px) {
+@media screen and (max-width:1030px) and (min-width:768px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
-        width: 100vw;
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+        padding: 3% 15%;
+
     }
 
     .laptopResponsive {
-        margin: 5% 0 0 0;
+        margin: 5% 0 0 8%;
         width: 100%;
-    }
-
-    .address {
-        display: block;
-        margin: 0 -4% 0 -7%;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        width: 50%;
-    }
-
-    .address .headOffice {
-        width: 200%;
-    }
-
-    .address .branchOffice {
-        width: 210%;
-    }
-
-    .services {
-        margin: 0 0 0 69%;
-        width: 50%;
-        font-size: 16px;
-    }
-
-    .services p {
-        width: 200%;
     }
 
     .laptopResponsive1 {
-        margin: 45% 0% 0 -23.2%;
+        margin: 5% 0 0 0%;
         width: 100%;
-
     }
 
     .contactUs {
-        margin: 0 0% 0 30%;
-        width: 50%;
-        font-size: 16px;
-
-
+        margin: 0 0 0 10%;
     }
 
-    .aboutUs {
-
-        width: 50%;
-        font-size: 16px;
-
-
+    #paraHR {
+        width: 70%;
+        margin: 0 0 0 15%;
     }
 
-    .copyRight {
-        color: #FFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 2% 10%;
-        display: block;
-    }
-
-    .copyRightHr {
-        color: #FFFFFF;
-        width: 47%;
-        margin: 1% 0% 0 26%;
-        opacity: 0.5;
+    .copyRight p {
+        margin: 1% 15%;
     }
 
     .logoIcon {
@@ -272,263 +228,222 @@ footer {
     }
 }
 
-@media screen and (max-width:770px) and (min-width:501px) {
+@media screen and (max-width:768px) and (min-width:501px) {
     footer {
         background-color: #0A1020;
-        width: 100vw;
-        padding-bottom: 15%;
+        width: 100%;
+    }
+
+    .footer {
+        display: block;
+        padding: 3% 12%;
+
     }
 
     .laptopResponsive {
-        margin: 2% 0 0 -10%;
+        margin: 5% 0 0 8%;
         width: 100%;
-
-    }
-
-    .address {
-        width: 50%;
-    }
-
-    .address .headOffice {
-        width: 200%;
-    }
-
-    .address .branchOffice {
-        width: 210%;
-    }
-
-    .services {
-        margin: 0 0 0 70%;
-        width: 50%;
-    }
-
-    .services p {
-        width: 200%;
-    }
-
-
-    .aboutUs {
-
-        margin: 2% 0% 0 -90%;
-        width: 50%;
-
     }
 
     .laptopResponsive1 {
-        margin: 48% 0% 0 -10%;
+        margin: 5% 0 0 0%;
         width: 100%;
     }
 
     .contactUs {
-        margin: 4% 0% 0 40%;
-        width: 50%;
+        margin: 0 0 0 10%;
     }
 
-    .business {
-        margin: 12% 0 0 0;
-
+    #paraHR {
+        width: 70%;
+        margin: 0 0 0 12%;
     }
 
     .copyRight p {
-        width: 80%;
-        margin: 2% 0 0 -2%;
-    }
-
-    .copyRightHr {
-        width: 90%;
-        margin: 0 0 0 -2%
+        margin: 2% 12%;
     }
 
     .logoIcon {
-        width: 60px;
-        height: 60px;
-        margin: -20% 0% 0% 80%;
+        width: 70px;
+        height: 70px;
+        margin: -15% 0% 0% 87%;
     }
 
 }
 
-@media screen and (max-width:500px) and (min-width:426px) {
+@media screen and (max-width:500px) and (min-width:430px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
-        width: 100vw;
+        width: 100%;
     }
 
-    .footer p {
-        font-size: 12px;
+    .footer {
+        display: block;
+        padding: 3% 10%;
+
     }
 
     .laptopResponsive {
-        margin: 5% 0 0 -10%;
+        margin: 5% 0 0 8%;
         width: 100%;
-
-    }
-
-    .address {
-        width: 50%;
-    }
-
-    .address .headOffice {
-        font-size: 11px;
-        margin-top: 10%;
-        width: 200%;
-    }
-
-    .address .branchOffice {
-        font-size: 11px;
-        width: 210%;
-
-    }
-
-    .aboutUs {
-
-        margin: 2% 0% 0 -86%;
-
-    }
-
-    .services {
-        margin: 2% 0 0 95%;
-    }
-
-    .services p {
-        width: 200%;
     }
 
     .laptopResponsive1 {
-        margin: 65% 0% 0 7%;
+        margin: 5% 0 0 0%;
         width: 100%;
     }
 
-    .aboutUs {
-        width: 50%;
-    }
-
-    .company {
-        font-size: 12px;
-    }
-
     .contactUs {
-        margin: 5% 0% 0 40%;
-        width: 50%;
+        margin: 0 0 0 10%;
     }
 
-    .careers {
-        margin: 26% 0 0 0;
-    }
-
-    .business {
-        margin: 31% 0 0 0;
-
+    #paraHR {
+        width: 70%;
+        margin: 0 0 0 15%;
     }
 
     .copyRight p {
-        width: 80%;
-        margin: 2% 0 0 -2%;
-        font-size: 12px;
-    }
-
-    .copyRightHr {
-        width: 85%;
-        margin: 0 0 0 -2%
+        margin: 1% 15%;
     }
 
     .logoIcon {
-        width: 50px;
-        height: 50px;
-        margin: -20% 0% 0% 80%;
+        width: 70px;
+        height: 70px;
+        margin: -15% 0% 0% 87%;
     }
 
 }
 
-@media screen and (max-width:425px) and (min-width:376px) {
+@media screen and (max-width:430px) and (min-width:376px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
-        width: 100vw;
+        width: 100%;
     }
 
-    .footer p {
-        font-size: 12px;
+    .footer {
+        display: block;
+        padding: 3% 5%;
+
     }
 
     .laptopResponsive {
-        margin: 5% 0 0 -10%;
+        margin: 5% 0 0 8%;
         width: 100%;
-
-    }
-
-    .address {
-        width: 50%;
-    }
-
-    .address .headOffice {
-        font-size: 11px;
-        margin-top: 10%;
-        width: 200%;
-    }
-
-    .address .branchOffice {
-        font-size: 11px;
-        width: 210%;
-
-    }
-
-    .aboutUs {
-
-        margin: 2% 0% 0 -86%;
-
-    }
-
-    .services {
-        margin: 2% 0 0 70%;
-    }
-
-    .services p {
-        width: 200%;
     }
 
     .laptopResponsive1 {
-        margin: 85% 0% 0 13%;
+        margin: 5% 0 0 0%;
         width: 100%;
     }
 
-    .aboutUs {
-        width: 50%;
+
+    .footer h5 {
+        font-family: poppins-medium;
+        font-size: 14px;
+        color: #FFFFFF;
     }
 
-    .company {
+    .address {
+        display: block;
+        margin: 0 0% 0 -8%;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
         font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        width: 50%;
     }
 
-    .contactUs {
-        margin: 5% 0% 0 20%;
+    #addressBr {
+        display: none;
+    }
+
+    .branchOffice {
+        margin: 5% 0 0 0;
+    }
+
+    .services {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 12px;
+        font-weight: 400;
         width: 50%;
+        margin: 0 0 0 5%;
+    }
+
+    .aboutUs {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 12px;
+        font-weight: 400;
+        width: 50%;
+
     }
 
     .careers {
-        margin: 26% 0 0 0;
+        margin: 5% 0 0 0;
+    }
+
+    .contactUs {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 12px;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 0 0 3%;
+    }
+
+    .contact {
+        margin: 0 0 0 5%;
+    }
+
+    .contact p {
+        margin: unset !important;
     }
 
     .business {
-        margin: 31% 0 0 0;
+        margin: 19% 0 0 5%;
 
+    }
+
+    .copyRight {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 2% -0.4%;
+        display: block;
     }
 
     .copyRight p {
-        width: 80%;
-        margin: 2% 0 0 -2%;
-        font-size: 12px;
+        margin: 5% 5%;
     }
 
-    .copyRightHr {
-        width: 85%;
-        margin: 0 0 0 -2%
+
+
+    .titleHr {
+        border: 1px solid white;
+        width: 75%;
+        margin: 1% 0% 2% 0;
+        opacity: 5;
     }
+
+
+
+    #paraHR {
+        width: 75%;
+        margin: 0 0 0 5%;
+    }
+
+
 
     .logoIcon {
         width: 50px;
         height: 50px;
-        margin: -20% 0% 0% 80%;
+        margin: -20% 0% 0% 85%;
     }
 
 }
@@ -536,85 +451,122 @@ footer {
 @media screen and (max-width:375px) {
     footer {
         background-color: #0A1020;
-        height: 100%;
-        width: 100vw;
+        width: 100%;
     }
 
-    .footer p {
-        font-size: 11px;
+    .footer {
+        display: block;
+        padding: 3% 5%;
+
     }
 
     .laptopResponsive {
-        margin: 5% 0 0 -10%;
+        margin: 5% 0 0 8%;
         width: 100%;
-    }
-
-    .address {
-        width: 50%;
-    }
-
-    .address .headOffice {
-        width: 200%;
-        font-size: 11px;
-    }
-
-    .address .branchOffice {
-        width: 210%;
-        font-size: 11px;
-    }
-
-    .services {
-        width: 50%;
-        margin-top: 4%;
-        margin-left: 75%;
-    }
-
-    .services p {
-        width: 200%;
     }
 
     .laptopResponsive1 {
-        margin: 100% 0% 0 17.5%;
+        margin: 5% 0 0 0%;
         width: 100%;
+    }
 
+
+    .footer h5 {
+        font-family: poppins-medium;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .address {
+        display: block;
+        margin: 0 0% 0 -8%;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 2;
+        width: 50%;
+    }
+
+    #addressBr {
+        display: none;
+    }
+
+    .branchOffice {
+        margin: 5% 0 0 0;
+    }
+
+    .services {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 11px;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 0 0 5%;
     }
 
     .aboutUs {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
+        font-size: 11px;
+        font-weight: 400;
         width: 50%;
-        margin-left: -92%;
+
+    }
+
+    .careers {
+        margin: 5% 0 0 0;
     }
 
     .contactUs {
-        width: 50%;
-        margin: 0 0 0 20%;
-    }
-    .company {
+        display: block;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: poppins-regular;
         font-size: 11px;
+        font-weight: 400;
+        width: 50%;
+        margin: 0 0 0 3%;
     }
-    .careers {
-        margin: 15% 0 0 0;
 
+    .contact {
+        margin: 0 0 0 5%;
+    }
+
+    .contact p {
+        margin: unset !important;
     }
 
     .business {
-        margin: 10% 0 0 -2%;
+        margin: 19% 0 0 5%;
 
     }
 
     .copyRight p {
-        width: 80%;
-        margin: 2% 0 0 -2%;
+        margin: 5% 5%;
         font-size: 12px;
     }
 
-    .copyRightHr {
-        width: 90%;
-        margin: 0 0 0 0%
+
+
+    .titleHr {
+        border: 1px solid white;
+        width: 75%;
+        margin: 1% 0% 2% 0;
+        opacity: 5;
     }
+
+    #paraHR {
+        width: 75%;
+        margin: 0 0 0 5%;
+    }
+
+
 
     .logoIcon {
         width: 50px;
         height: 50px;
-        margin: -20% 0% 0% 80%;
+        margin: -20% 0% 0% 85%;
     }
 }

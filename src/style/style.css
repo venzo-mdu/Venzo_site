@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@media screen  and (min-width:1441px) 
-{
 body{
     padding: 0;
     margin: 0;
@@ -15,16 +13,14 @@ body{
     width: 100%;
 }
 .build{
-    height:12%;
-    width:40%;
-    padding: 1% 0 0 8%;
+    width:50%;
+    padding: 1% 0 0 3%;
 }
 .title{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
-    line-height: 120%;
     color: #000000;
 }
 .desc{
@@ -32,61 +28,51 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 175%;
+line-height: 32px;
 color: rgba(0, 0, 0, 0.5);
+width: 65%;
 }
 .images{
     height: auto;
     width: 35%;
-    margin-left: 15%;
 }
 .row{
-    display:flex;
-    margin-left: 12%;
-    margin-top: 2%;
-    font-size: 20px;
+    padding: 0% 7% 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 2%;
+    grid-column-gap: 8%;
+    width:100%;
 }
 
-.col1{
-    width: 27%;
-    margin-right: 2%;
-    justify-content:space-evenly;
-}
-.col2{
-    width: 27%;
-    margin-right: 2%;
-}
 .heading{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
     color: #000000; 
     margin: 5% 0 5% 0;
 
 }
-.col3{
-    width: 25%;
-}
+
 .desc1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 175%;
     color: rgba(0, 0, 0, 0.5);
     margin:  0 0 20% 0;
+    width: 90%;
 
 }
 
 .hr_line{
-    width: 65%;
-    margin-left: 16%;
+    width: 85%;
+    margin-left: 7%;
     margin-top: 0;
 }
 .customer{
-    padding-left: 17%;
+    padding-left: 7%;
     padding-top: 4%;
     background-color: #f6f6f6;
     color: #0A1020;
@@ -105,11 +91,11 @@ color: rgba(0, 0, 0, 0.5);
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 175%;
     color: #000000;
+    line-height: 45px;
     background-image: url('../images/Vector-61.png');
     background-repeat: no-repeat;
-    background-position-x: 37%;
+    background-position-x: 28%;
     background-position-y: 75%;
 }
 .des1{
@@ -118,26 +104,22 @@ color: rgba(0, 0, 0, 0.5);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 175%;
     color: #000000;
-
+    line-height: 32px;
 }
 .arrow{
     margin-left: 2%;
     margin-top: -1%;
 }
 .videoImg{
-    margin-right: 2%;
-    margin-top: -5%;
+   margin:-5% 0 0 25%;
 
 }
 .readMore1{
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 120%;
     color: #000000;
     margin-top: 7%;
 }
@@ -147,46 +129,45 @@ color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 .col4{
-    width: 41%;
+    width: 40%;
     margin-top: 0%;
 
 }
 .col5{
-    width: 36%;
+    width: 35%;
 }
 
 .containor3{
-    margin: 0 9px 0  0;
-    padding: 4% 0;
+    padding: 4% 10%;
     width: 100%;
     display: flex;
     background-color: #f6f6f6;
+    width: 100%;
 }
 
 .anyIdea{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
+    font-family: Poppins;
     font-size: 45px;
-    line-height: 120%;
+    font-weight: 600;
+    line-height: 54px;
     letter-spacing: -0.03em;
+    text-align: left;
+    width: 70%;
     color: #000000;
-    margin-left: 14%;
 }
 .talk{
-    margin-left: 35%;
-    height: 45%;
-    margin-top: 2%;
-    width: 11%;
-    color: white;
-    background-color: #000000;
-    border-radius: 7px 7px 7px 7px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
+    font-family: Poppins;
     font-size: 18px;
-    line-height: 120%;
-    padding: 0.6%;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #0A1020;
+    margin: 2% 0 0 10%;
+
 }
 .talk:hover{
     color: #FFFFFF;
@@ -198,5 +179,4 @@ color: rgba(0, 0, 0, 0.5);
     background: -webkit-linear-gradient(60deg, #e66521,#d1368f, #ae01ff);
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
-}
 }

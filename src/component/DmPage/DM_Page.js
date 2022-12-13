@@ -4,7 +4,7 @@ import Footer from "../footer/footer"
 import block from '../../images/Blockchain.png'
 import block1 from '../../DMpage/blockLogo1.png';
 import './DM_page.css'
-import colorArrow from '../../images/Read more arrow-gradient.svg'
+import colorArrow from '../../images/devArrow.svg'
 import line from '../../images/Vector 76.svg'
 import line1 from '../../DMpage/Vector 82.png'
 import ImageGallery from "react-image-gallery";

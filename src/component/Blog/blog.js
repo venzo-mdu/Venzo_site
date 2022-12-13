@@ -29,8 +29,8 @@ function Blog() {
         <div className='Blogs'>
            <h2 className='blurTitle'> {item.title1}</h2>
              <p className='bloghead'> {item.decs1} <br/> <span className='date'>{item.date1}</span>   </p><img className='arrows' src={item.arrow} alt ='arrows'/> 
-             <hr className='blogHr'/><p className='bloghead'> {item.decs2} <br/> <span className='date'>{item.date1}</span>  </p><img className='arrows2' src={item.arrow} alt ='arrows'/> 
-            <hr className='blogHr'/><p className='bloghead'> {item.decs3} <br/> <span className='date'>{item.date1}</span>  </p><img className='arrows2' src={item.arrow} alt ='arrows'/> 
+             <hr className='blogHr'/><p className='bloghead'> {item.decs2} <br/> <span className='date'>{item.date1}</span>  </p><img className='arrows' src={item.arrow} alt ='arrows'/> 
+            <hr className='blogHr'/><p className='bloghead'> {item.decs3} <br/> <span className='date'>{item.date1}</span>  </p><img className='arrows' src={item.arrow} alt ='arrows'/> 
         </div>
         <div className='Careers'>
           <h2 className='blurTitle1'> {item.title2}</h2>

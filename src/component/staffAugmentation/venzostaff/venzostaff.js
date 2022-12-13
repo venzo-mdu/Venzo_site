@@ -2,7 +2,7 @@ import React from 'react'
 import '../venzostaff/venzostaff.css'
 
 import Bannerimage from '../../../images/bannerSA.png'
-import RightArrow from '../../../images/Read more arrow-gradient.svg'
+import RightArrow from '../../../images/devArrow.svg'
 
 function venzostaff() {
   return (

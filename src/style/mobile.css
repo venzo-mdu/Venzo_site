@@ -6,16 +6,16 @@ body{
     overflow-x: hidden;
 }
 
-@media screen  and (max-width:578px) and (min-width:430px){
+@media screen  and (max-width:500px) and (min-width:430px){
     .containor1 {
         display: block;
-        margin-top: 4%
+        margin-top: 4%;
+        width: 100%;
     }
 
     .build {
         height: 12%;
         width: 80%;
-        margin-left: 9%;
     }
 
     .title {
@@ -23,7 +23,6 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
-        line-height: 120%;
         color: #000000;
         text-align: center;
     }
@@ -33,7 +32,6 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         text-align: center;
         width: 80%;
@@ -68,7 +66,6 @@ body{
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 120%;
         color: #000000;
         margin: 5% 0 5% 0;
 
@@ -80,7 +77,6 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         margin: 0 0 10% 0;
 
@@ -94,7 +90,7 @@ body{
 
     .customer {
         padding-left: 0%;
-        padding-top: 4%;
+        padding-top: 5%;
         background-color: #f6f6f6;
         color: #0A1020;
         padding-bottom: 7%;
@@ -103,8 +99,8 @@ body{
 
     .row2 {
         display: block;
-        margin-top: 53%;
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-top: 10%;
     }
 
     .webBr{
@@ -112,7 +108,7 @@ body{
 
     }
     .mobileBr {
-        display: block;
+        display: none;
     }
 
     .cus-title {
@@ -120,14 +116,15 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 175%;
         color: #000000;
+        line-height: 25px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 45%;
-        background-position-y: 85%;
+        background-position-x: 40%;
+        background-position-y: 50px;
         background-size: 43%;
         text-align: center;
+        height: 75px;
     }
 
     .des1 {
@@ -136,11 +133,8 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: #000000;
-        margin-top: 60%;
         text-align: center;
-        margin-left: 0%;
     }
 
     .arrow {
@@ -149,8 +143,8 @@ body{
     }
 
     .videoImg {
-        margin-top: -150%;
         width: 70%;
+        margin: 0 0 0 10%;
     }
 
     .readMore1 {
@@ -159,10 +153,9 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
-        line-height: 120%;
         color: #000000;
-        margin-top: 5%;
-        margin-left: 30%;
+        margin-top: 10%;
+        margin-left: 32%;
         width: 100%;
     }
 
@@ -187,18 +180,18 @@ body{
 
     .containor3 {
         margin: 0 9px 0 0;
-        padding: 10% 0;
+        padding: 10% 5%;
         width: 100%;
         display: block;
         background-color: #f6f6f6;
     }
+
 
     .anyIdea {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
-        line-height: 120%;
         letter-spacing: -0.03em;
         color: #000000;
         margin-left: 10%;
@@ -216,7 +209,6 @@ body{
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 120%;
         padding: 2%;
     }
 
@@ -233,16 +225,16 @@ body{
     }
 }
 
-@media screen  and (max-width:428px) and (min-width:380px){
+@media screen  and (max-width:430px) and (min-width:375px){
     .containor1 {
         display: block;
-        margin-top: 4%
+        margin-top: 4%;
+        width: 100%;
     }
 
     .build {
         height: 12%;
         width: 80%;
-        margin-left: 9%;
     }
 
     .title {
@@ -250,9 +242,9 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
-        line-height: 120%;
         color: #000000;
         text-align: center;
+        margin: 0 0 0 15%;
     }
 
     .desc {
@@ -260,15 +252,14 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         text-align: center;
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        margin-left: 6%;
     }
 
     .images {
-        margin-left :15%;
+        margin-left :12%;
         margin-top: 5%;
         margin-bottom: 5%;
         width: 70%;
@@ -277,25 +268,18 @@ body{
 
     .row {
         display: block;
-        margin-left: 10%;
-        margin-top: 2%;
-        font-size: 20px;
+        padding: 5% 10%;
     }
 
     .col1 {
-        width: 81%;
-        margin-right: 2%;
-        justify-content: space-evenly;
+        width: 100%;
     }
-
-    
 
     .heading {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 120%;
         color: #000000;
         margin: 5% 0 5% 0;
 
@@ -307,9 +291,10 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
         color: rgba(0, 0, 0, 0.5);
         margin: 0 0 10% 0;
+        text-align: left!important;
+        width: 100%;
 
     }
 
@@ -330,8 +315,9 @@ body{
 
     .row2 {
         display: block;
-        margin-top: 63%;
-        margin-left: 10%;
+        margin-left: 3%;
+        margin-top: 15%;
+
     }
 
     .webBr{
@@ -339,7 +325,7 @@ body{
 
     }
     .mobileBr {
-        display: block;
+        display: none;
     }
 
     .cus-title {
@@ -347,23 +333,24 @@ body{
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 175%;
+        line-height: 35px;
         color: #000000;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 45%;
+        background-position-x: 35%;
         background-position-y: 85%;
         background-size: 43%;
         text-align: center;
+        height: 130px;
     }
 
     .des1 {
-        width: 80%;
+        width: 100%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 175%;
+        line-height: 20px;
         color: #000000;
         margin-top: 10%;
         text-align: center;
@@ -376,8 +363,8 @@ body{
     }
 
     .videoImg {
-        margin-top: -200%;
         width: 80%;
+        margin: 0 0 0 10%;
     }
 
     .readMore1 {
@@ -386,7 +373,6 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
-        line-height: 120%;
         color: #000000;
         margin-top: 5%;
         margin-left: 30%;
@@ -425,10 +411,11 @@ body{
         font-style: normal;
         font-weight: 600;
         font-size: 30px;
-        line-height: 120%;
+        line-height: 40px;
         letter-spacing: -0.03em;
         color: #000000;
         margin-left: 10%;
+        width: 100%;
     }
 
     .talk {
@@ -443,7 +430,6 @@ body{
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 120%;
         padding: 2%;
     }
 
@@ -462,227 +448,29 @@ body{
 
 
 @media screen  and (max-width:375px){
-    .containor1 {
-        display: block;
-        margin-top: 4%
-    }
 
-    .build {
-        height: 12%;
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .title {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 120%;
-        color: #000000;
-        text-align: center;
-    }
-
-    .desc {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 175%;
-        color: rgba(0, 0, 0, 0.5);
-        text-align: center;
-        width: 90%;
-        margin-left: 4%;
-    }
-
-    .images {
-        margin-left :15%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 70%;
-        height: auto;
-    }
-
-    .row {
-        display: block;
-        margin-left: 10%;
-        margin-top: 2%;
-        font-size: 20px;
-    }
-
-    .col1 {
-        width: 81%;
-        margin-right: 2%;
-        justify-content: space-evenly;
-    }
-
-    
-
-    .heading {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        color: #000000;
-        margin: 5% 0 5% 0;
-
-    }
-
-
-    .desc1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 175%;
-        color: rgba(0, 0, 0, 0.5);
-        margin: 0 0 10% 0;
-    }
-
-    .hr_line {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 0;
-    }
-
-    .customer {
-        padding-left: 0%;
-        padding-top: 4%;
-        background-color: #f6f6f6;
-        color: #0A1020;
-        padding-bottom: 7%;
-        margin-top: -1%;
-    }
-
-    .row2 {
-        display: block;
-        margin-top: 73%;
-        margin-left: 10%;
-    }
-
+   
     .webBr{
         display: none;
 
     }
     .mobileBr {
-        display: block;
+        display: none;
     }
-
     .cus-title {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 175%;
+        font-size: 17px;
         color: #000000;
+        line-height: 28px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
         background-position-x: 45%;
-        background-position-y: 85%;
+        background-position-y: 80px;
         background-size: 43%;
         text-align: center;
-    }
-
-    .des1 {
-        width: 95%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 175%;
-        color: #000000;
-        margin-top: 10%;
-        text-align: center;
-        margin-left: -4%;
-    }
-
-    .arrow {
-        margin-left: 2%;
-        margin-top: -1%;
-    }
-
-    .videoImg {
-        margin-top: -225%;
-        width: 90%;
-    }
-
-    .readMore1 {
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 120%;
-        color: #000000;
-        margin-top: 5%;
-        margin-left: 30%;
+        height: 110px;
         width: 100%;
-    }
-
-    .readMore1:hover {
-        color: #000000;
-        opacity: 100%;
-        cursor: pointer;
-    }
-
-    .col4 {
-        width: 100%;
-        margin-top: 0%;
-        align-items:center;
-
-    }
-
-    .col5 {
-        width: 100%;
-        align-items:center;
-
-    }
-
-    .containor3 {
-        margin: 0 9px 0 0;
-        padding: 10% 0;
-        width: 100%;
-        display: block;
-        background-color: #f6f6f6;
-    }
-
-    .anyIdea {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 120%;
-        letter-spacing: -0.03em;
-        color: #000000;
-        margin-left: 10%;
-    }
-
-    .talk {
-        margin-left: 10%;
-        height: 45%;
-        margin-top: 2%;
-        width: 35%;
-        color: white;
-        background-color: #000000;
-        border-radius: 7px 7px 7px 7px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        padding: 2%;
-    }
-
-    .talk:hover {
-        color: #FFFFFF;
-        background-color: transparent;
-        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
-    }
-
-    .textColor {
-        background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 }

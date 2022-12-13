@@ -1,7 +1,7 @@
 import React from 'react'
 import '../hiring/hiring.css'
 
-import ArrowHiring from '../../../images/Read more arrow-gradient.svg'
+import ArrowHiring from '../../../images/devArrow.svg'
 import VenzoSAImage from '../../../images/venzoSAImage5.png'
 import VenzoSAIcon1 from '../../../images/venzoSAIcon2.png'
 import VenzoSAIcon2 from '../../../images/venzoSAIcon8.png'

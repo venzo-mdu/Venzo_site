@@ -200,15 +200,13 @@
     }
     
     .desc1{
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 24.5px;
         color: #000000;
         opacity: 52%;
         text-align:justify ;  
     }
-    
-    
     .hr_line1{
         width: 100%;
         margin-left: -3%;

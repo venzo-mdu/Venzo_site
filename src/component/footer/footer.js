@@ -20,7 +20,7 @@ function Footer() {
                   <h5>Chennai</h5>
                   <hr className='titleHr'></hr>
                   8th Floor, Purva Primus,<br></br>
-                  No.236, Old Mahabalipuram Rd, &nbsp;<br></br>
+                  No.236, Old Mahabalipuram Rd, &nbsp;<br id='addressBr'></br>
                   Thoraipakkam – 600097.
 
                 </div>
@@ -40,7 +40,7 @@ function Footer() {
                 <hr  className='titleHr'></hr>
                 <p>
                   <Link to="/bankingQA">Banking QA</Link><br></br>
-                  <Link to="/">Quality Assurance</Link><br></br>
+                  <Link to="/qualityassurance">Quality Assurance</Link><br></br>
                   <Link to="/">Banking Solutions</Link><br></br>
                   <Link to="/staffaugmentation">Staff Augmentation</Link><br></br>
                   <Link to="/appdevelopment"> App Development</Link><br></br>
@@ -93,7 +93,7 @@ function Footer() {
           </div>
           <div className='copyRight'>
             <hr id='paraHR'></hr>
-            <p >Copyright 2022 Venzo.All Rights Reserved</p>
+            <p >Copyright 2022 Venzo. All Rights Reserved</p>
 
           </div>
           <img className='logoIcon' src={footerIcon} alt="footerIcon"></img>

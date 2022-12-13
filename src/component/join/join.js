@@ -2,7 +2,7 @@ import React from 'react'
 import '../join/join.css'
 import JoinusImg from '../../images/joinUs.png'
 import JoinusImgRes from '../../images/joinRes.png'
-import rightArrow from '../../images/Read more arrow-gradient.svg'
+import rightArrow from '../../images/devArrow.svg'
 
 function join() {
   return (

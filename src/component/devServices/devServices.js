@@ -1,6 +1,6 @@
 import React from 'react'
 import "./devServices .css"
-import rightArrow from "../../images/Read more arrow-gradient.svg"
+import rightArrow from "../../images/devArrow.svg"
 import roundimage  from "../../images/round.png"
 import { Link } from 'gatsby'
  
