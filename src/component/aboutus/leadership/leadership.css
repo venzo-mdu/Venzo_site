@@ -105,7 +105,11 @@
     grid-column-gap: 1%;
 }
 .IconCoFounder {
-    margin: 19% 0 0 0;
+    margin: 16% 0 0 0;
+}
+.unleashing #unleashingTitle {
+    width: 63%;
+    font-size: 45px;
 }
 }
 @media screen and (max-width:1024px) and (min-width:768px){

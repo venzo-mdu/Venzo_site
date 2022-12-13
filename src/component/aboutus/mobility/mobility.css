@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) and (min-width: 768px)
+{
+.buildText {
+    font-size: 35px !important;
+}
+.buildtalk{
+    font-size: 14px !important;
+    height: 42px !important;
+    width: 140px !important;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 431px)
+{
+.buildText {
+    font-size: 29px !important;
+}
+.buildtalk{
+    font-size: 14px !important;
+    height: 32px !important;
+    width: 117px !important;
+}
+}
+@media screen and (max-width: 425px){
+.buildText {
+    font-family: Poppins;
+    font-size: 22px !important;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 297px !important;
+}
+.buildtalk{
+    font-size: 14px !important;
+    height: 27px !important;
+    width: 96px !important;
+}
+}

@@ -6,8 +6,8 @@ function mobility() {
     <>
     <div className='mobility'>
     <div className='buildProduct'>
-                    <p className='buildText'>How to build an end-to-end <span className=' textColor'> <br/>mobility solution for your business? </span></p>
-                    <button className=' btn buildtalk'>Reach us</button>
+                    <p className='buildText'>How to build an end-to-end <span className=' textColor'> <br/>secured Web Applications? </span></p>
+                    <button className=' btn buildtalk'>Lets Talk</button>
          </div>
     </div>
     </>
