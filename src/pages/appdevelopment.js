@@ -82,9 +82,9 @@ function appdevelopment() {
         </Carousel>
 
       </div>
-      <div className='buildProduct'>
-                    <p className='buildText'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                    <button className=' btn buildtalk'>Let's talk</button>
+      <div className='containor3'>
+                    <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
+                    <button className=' btn talk'>Let's talk</button>
                 </div>
       <Footer />
     </>

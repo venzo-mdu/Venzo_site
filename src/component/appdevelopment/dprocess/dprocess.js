@@ -56,7 +56,6 @@ function dprocess() {
                     <div className='rightdevprocessText'>
                         <p id='rightdevprocessTitle'>Launch</p>
                         <p id='rightdevprocessDesc'>We execute end-to-end testing to ensure the reliability of your project and to save money by detecting issues before the product is released to the public.</p>
-                        <hr className='hrIndprocess'></hr>
 
                     </div>
                 </div>

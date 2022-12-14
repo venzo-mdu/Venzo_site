@@ -154,6 +154,9 @@
     width: 75%;
     margin-left: 15%;
 }
+.awesomeProducts{
+    height: 1000px!important;
+}
    .ourProducts{
        padding:5% 5%;
        margin: 10% 0 0 0;

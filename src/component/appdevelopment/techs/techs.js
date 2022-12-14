@@ -25,7 +25,7 @@ function techs() {
     <div className='tech'>
     <div className='techsweUse'>
       <div className='techsText'>
-        <p id='techsTitle'><span id='gradienttechsText'>Techs</span><br></br> we use in Venzo</p>
+        <p id='techsTitle'><span id='gradienttechsText'>Techs</span><br id='brinTech'></br> we use in Venzo</p>
         <p id='techsrightText'>We fully understand that developing successful products is not a straight line, so we provide a flexible, scalable approach that keeps you moving forward.</p>
 
       

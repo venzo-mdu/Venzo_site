@@ -17,7 +17,7 @@ function hiredevelopers() {
         <div className='rightHire'>
           <img className='rightHireIcon' src={hireIcon1} alt='hireicons'></img><p id='imageText'>Dedicated On-Demand Team</p>
           <img className='dashedArrow' src={dashedarrow} alt='dashedicons'></img>
-          <img className='rightHireIcon' src={hireIcon2} alt='hireicons'></img><p id='imageText1'>Flexible Resource Contract</p>
+          <img className='rightHireIcon' src={hireIcon2} alt='hireicons'></img><p id='imageText'>Flexible Resource Contract</p>
           <img className='dashedArrow' src={dashedarrow} alt='dashedicons'></img>
           <img className='rightHireIcon' src={hireIcon3} alt='hireicons'></img><p id='imageText'>Fixed Cost Project</p>
           <img className='dashedArrow' src={dashedarrow} alt='dashedicons'></img>

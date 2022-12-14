@@ -8,7 +8,6 @@ import './productTab.css';
 import './mobile.css';
 import './mobileS.css';
 import line from '../../images/Vector 76.svg';
-import expertsBottomline from '../../images/expertsBottomline.png';
 import quality from '../../images/enterpise.png'
 import mvp from '../../images/mvp.png'
 import domin from '../../images/domin.png'
@@ -26,8 +25,6 @@ import whyVenzoIcon3 from '../../images/whyVenzoicon3.png'
 import whyVenzoIcon4 from '../../images/whyVenzoicon4.png'
 import productImage from '../../images/productImage.png'
 import borderLine from '../../images/borderLine.png'
-import VerticlLine from '../../images/ProductHorizLine.png'
-import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -293,10 +290,9 @@ function product() {
            </div>
 
             <div>
-
-                <div className='buildProduct'>
-                    <p className='buildText'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                    <button className=' btn buildtalk'>Let's talk</button>
+                <div className='containor3'>
+                    <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
+                    <button className=' btn talk'>Let's talk</button>
                 </div>
             </div>
             <Footer />

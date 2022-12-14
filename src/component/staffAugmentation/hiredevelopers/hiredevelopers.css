@@ -48,17 +48,19 @@
     letter-spacing: -0.025em;
     text-align: left; 
     color: #757575;
-    margin: -4% 0 0 8%;
+    margin: -5% 0 3% 8%;
 }
-#imageText1{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: -0.025em;
-    text-align: left; 
+#imageText:hover{
     color: #FFFFFF;
-    margin: -3% 0 0 8%;
+}
+@media screen and (max-width:1440px) and (min-width:1024px) {
+    .hireDevelopers{
+        padding: 7% 10%;
+    }
+    .rightHire {
+        margin: 0% 0 0 20%;
+    }
+    
 }
 @media screen and (max-width:1025px) and (min-width:775px) {
     .hireDevelopers{
@@ -77,11 +79,11 @@
     
 }
 @media screen and (max-width:768px) and (min-width:431px){
-    .hireDevelopers{
+    .hireDevelopers {
         display: block;
-        height: 80vh;
+        height: 550px;
         padding: 5% 5%;
-        width:100%;
+        width: 100%;
     }
     .leftHire{
         width: 100%;
@@ -93,7 +95,7 @@
         width: 100%;
     }
     .rightHire{
-        margin: 10% 0 0 10%;
+        margin: 10% 0 0 20%;
     }
     #imageText{
       margin: -7% 0 0 15%;
@@ -105,7 +107,7 @@
 @media screen and (max-width:430px) {
     .hireDevelopers{
         display: block;
-        height: 75vh;
+        height: 650px;
         padding: 10% 5%;
         width:100%;
     }

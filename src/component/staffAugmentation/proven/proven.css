@@ -1,9 +1,10 @@
-.provenDev{
-    height: 60vh;
-    padding: 5% 5%;
+.provenDev {
+    height: 600px;
+    padding: 5% 5% 20%;
     text-align: center;
 }
-.provenDev #provenDevTitle{
+
+.provenDev #provenDevTitle {
     font-family: Poppins;
     font-size: 28px;
     font-weight: 600;
@@ -11,7 +12,8 @@
     letter-spacing: -0.04em;
     color: #000000;
 }
-.provenDev #provenDevText{
+
+.provenDev #provenDevText {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -22,20 +24,27 @@
     text-align: center;
     margin: 1% 0 0 42%;
 }
-.processSA{
+
+.processSA {
     display: inline-flex;
     position: relative;
     margin: 1% 0 0 0;
     justify-content: center;
     align-items: center;
+    z-index: -1;
+
 }
-.arrowImg1,.arrowImg2{
+
+.arrowImg1,
+.arrowImg2 {
     height: 100%;
 }
-.arrowImg2{
+
+.arrowImg2 {
     margin: 0 0 0 0.5%;
 }
-.processSA #iconbelowText{
+
+.processSA #iconbelowText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -43,18 +52,20 @@
     letter-spacing: -0.04em;
     text-align: center;
     color: #4A4A4A;
-    margin:15% 0% 0 -12%;
+    margin: 15% 0% 0 -12%;
 }
-.processSA #iconbelowText1{
+
+.processSA #iconbelowText1 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: -0.04em;
     text-align: center;
-    margin:12% 0% 0 -8%;
+    margin: 12% 0% 0 -8%;
 }
-.processSA .iconbelowText2{
+
+.processSA .iconbelowText2 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -62,76 +73,108 @@
     letter-spacing: -0.04em;
     text-align: center;
     color: #4A4A4A;
-    margin:12% 0% 0 -15%;
+    margin: 12% 0% 0 -15%;
 
 }
-@media screen and (max-width:1025px) and (min-width:775px) {
-    .processSA{
+
+@media screen and (max-width:1440px) and (min-width:1026px) {
+    .processSA #iconbelowText {
+        margin: 14% 0% 0 -12%;
+    }
+
+    .processSA {
+        margin: 0 0 0 0%;
+    }
+
+    .provenDev #provenDevText {
+        width: 25%;
+        margin: 1% 0 0 38%;
+    }
+
+}
+
+@media screen and (max-width:1025px) and (min-width:769px) {
+    .processSA {
         margin: 0 0 0 -5%;
     }
-    .provenDev #provenDevText{
-          width:30%;
-          margin: 1% 0 0 35%;
 
+    .provenDev #provenDevText {
+        width: 30%;
+        margin: 1% 0 0 35%;
     }
 }
-@media screen and (max-width:768px) and (min-width:431px){
-    .provenDev{
-        height:90vh;
+
+
+@media screen and (max-width:768px) and (min-width:431px) {
+    .provenDev {
+        height: 800px;
         position: relative;
     }
-    .processSA{
+
+    .processSA {
         display: block;
-        }
-    
-    .arrowImg1,.arrowImg2{
+    }
+
+    .arrowImg1,
+    .arrowImg2 {
         display: none;
     }
-    .processSA #iconbelowText{
+
+    .processSA #iconbelowText {
         margin: 2% 0 10% 2%;
     }
-    .processSA #iconbelowText1{
+
+    .processSA #iconbelowText1 {
         margin: 2% 0 30% 3%;
 
     }
-    .provenDev #provenDevText{
+
+    .provenDev #provenDevText {
         position: absolute;
         width: 40%;
         top: 400px;
         left: -85px;
     }
 }
+
 @media screen and (max-width:430px) {
-    .provenDev{
-        height:90vh;
+    .provenDev {
+        height: 850px;
         position: relative;
         padding: 10% 5%;
     }
-    .processSA{
+
+    .processSA {
         display: block;
-        }
-    
-    .arrowImg1,.arrowImg2{
+    }
+
+    .arrowImg1,
+    .arrowImg2 {
         display: none;
     }
-    .processSA #iconbelowText{
+
+    .processSA #iconbelowText {
         margin: 2% 0 20% 2%;
     }
-    .processSA #iconbelowText1{
+
+    .processSA #iconbelowText1 {
         margin: 2% 0 50% 3%;
     }
-    .provenDev #provenDevText{
+
+    .provenDev #provenDevText {
         position: absolute;
         width: 60%;
         top: 430px;
         left: -85px;
     }
 }
+
 @media screen and (max-width:375px) {
-    .processSA #iconbelowText1{
+    .processSA #iconbelowText1 {
         margin: 2% 0 60% 3%;
     }
-    .provenDev #provenDevText{
+
+    .provenDev #provenDevText {
         top: 410px;
         left: -80px;
     }

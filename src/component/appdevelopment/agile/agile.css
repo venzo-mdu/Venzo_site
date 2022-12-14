@@ -56,18 +56,28 @@
 }
 
 #agileDevbutton{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
     background: #0A1020;
     width: 30%;
-    text-align: center;
     margin: 2% 0 0 0%;
     color: #FFFFFF;
     border: 1px solid ;
     border-image-slice: 1;
     border-width: 1px;
     border-radius: 8px !important;
+    border-image:linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    border-width: 1px;
+    border-style: solid;
 }
-.offerButton {
-    width: 90%;
+.agileDevbutton {
+    height: 40px;
+    width: 162px;
+    border-radius: 8px;
     text-align: center;
     background: transparent;
     color: #FFFFFF;
@@ -77,12 +87,12 @@
     border: 1px solid;
     border-image-slice: 1;
     border-width: 1px;
-    border-radius: 8px !important;
+    margin: 5% 0 0 0;
 
 }
 .border-gradient-purple {
     border-image-source: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
-    
+
 }
 @media screen and (max-width:1440px) and (min-width:1025px) {
 .agileCards{
