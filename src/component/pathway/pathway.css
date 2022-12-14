@@ -51,14 +51,14 @@
         font-size: 32px;
         font-family: poppins;
         font-weight: 600;
-        width: 55%;
+        width: 56%;
         margin-left: 4%;
     }
 }
 @media screen and (max-width:1024px)and (min-width:768px){
     .pathway #pathwayText {
-        font-size: 30px;
-        width: 69%;
+        font-size: 29px;
+        width: 75%;
     }
 .pathway .pathwayButton{
     height: 25%;
@@ -79,16 +79,21 @@
     height: auto;
     padding-top: 10%;
 }
-.pathway #pathwayText{
-    font-size: 32px;
+.pathway #pathwayText {
+    font-size: 24px;
     font-weight: 600;
     line-height: 38.4px;
-    width:100%;
+    width: 69%;
 }
 .pathway .pathwayButton {
     width: 30%;
     height: 13%;
     margin: 5% 0 0 0%;
+}
+.pathway .pathwayButton {
+    margin-left: 6%;
+    margin-top: 0%;
+    font-size: 16px;
 }
 }
 
@@ -96,6 +101,11 @@
     .pathway .pathwayButton {
         width: 30%;
         height: 12%;
-        margin: 5% 0 0 0%;
+        margin: 1% 0 0 6%;
+        font-size: 16px;
+    }
+    .pathway #pathwayText {
+        font-size: 24px;
+        width: 78%;
     }
 }

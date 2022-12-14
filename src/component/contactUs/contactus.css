@@ -1,4 +1,4 @@
-@media screen and (min-width:1445px) {
+@media screen and (min-width:1705px)  {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     * {
@@ -51,11 +51,10 @@
         border-radius: 8px;
         width: 90%;
         height: 705px;
-        margin-top: -13%;
+        margin-top: -23%;
         margin-left: 5%;
         display: flex;
         margin-bottom: 10%;
-
     }
 
     .contact1 {
@@ -258,5 +257,22 @@
         height: 28.97px;
         margin-left: 10%;
 
+    }
+}
+
+@media screen and (max-width:1705px) and (min-width:1024px)
+{
+    .contactUs1 {
+        background: #0A1020;
+        border-radius: 8px;
+        width: 90%;
+        height: 705px;
+        margin-top: -23% !important;
+        margin-left: 5%;
+        display: flex;
+        margin-bottom: 10%;
+    }
+    .contactform {
+        width: 52% !important;
     }
 }
