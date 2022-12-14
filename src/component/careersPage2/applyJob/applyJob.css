@@ -5,7 +5,7 @@
 .applyJob .job{
   background-color: #F8F8F8;
   border-radius: 12px;
-  height: 155px;
+  height: auto;
   width: 100%;
   display: inline-flex;
   margin: 10% 0 0 0;
@@ -51,14 +51,19 @@
 
 }
 .applyJob .applyNowButton{
-    height: 35%;
-    padding: 0.5% 0;
-    width: 12vw;
+    height: 40px;
+width: 225px;
+border-radius: 7px;
     color: white;
     background: #0A1020;
     border-radius: 10px 10px 10px 10px;
-    font-size: 18px;
     margin: 1.5% 0 0 40%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 .applyNow #shareitOn{
     font-family: Poppins;
@@ -93,6 +98,10 @@
 
 }
 .skillsRequired ul li img{
+    /* display: none; */
+    margin-right: 1%;
+}
+.jobDescripition ul li img{
     display: none;
 }
 .skillsRequired #skillsRequiredTitle{
@@ -104,19 +113,15 @@
     text-align: left;
     color:#0A1020;
 }
-.descripition .applyNowButton{
-    height: 10%;
-    padding: 0.5% 0;
-    width: 13vw;
-    color: white;
-    background: #0A1020;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 18px;
-    margin: 1.5% 0 0 0%;
-}
+
 .descripition ul{
    list-style-type: none;
+   
 }
+.jobDescripition ul{
+    list-style-type: none;
+    margin-left: -2%;
+ }
 ul li{
     font-family: Poppins;
     font-size: 16px;
@@ -127,6 +132,47 @@ ul li{
     color:#929292;
 
 }
+.applyNowButton1{
+    height: 8%;
+    padding: -0.5% 0;
+    width: 158px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 18px;
+    margin-left: 0% !important;
+    background: #0A1020;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media screen and (max-width:1705px) and (min-width:1024px) {
+
+
+
+.socialmediaIconsCareers {
+    margin-top: 3%;
+}
+.gotanIdea #gotanIdeaText {
+    font-size: 16px;
+    width: 61% !important;
+}
+}
+
+@media screen and (max-width:1204px) and (min-width:768px){
+.applyJob .descripition {
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    height: 543px;
+    width: 100%;
+    margin: 3% 0 0 0;
+    padding: 2% 2%;
+}
+}
+
 @media screen and (max-width:768px) and (min-width:431px) {
 .applyJob .applyNowButton{
     height: 25%;

@@ -1,7 +1,7 @@
 .perks{
     background-color: #0A1020;;
     width: 100%;
-    height: 421px;
+    height: auto;
     padding: 5% 15%;
     display: flex;
     width: 100%;
@@ -67,19 +67,44 @@
 .perks .perksRightsection .perksRighticon p{
     margin: 0 0 16% 0;
 }
-@media screen and (max-width:1445px)and (min-width:1024px){
+
+
+@media screen and (max-width:1705px)and (min-width:1024px){
 .perks .perksRightsection {
     margin: 5% 0 0 0;
 }
+.perks .perksLeftsection {
+    width: 50%;
+    margin-left: -5%;
 }
+.perks .perksLeftsection #perksLeftText {
+    font-size: 16px;
+    width: 431px;
+    text-align: justify;
+}
+.perks .perksRightsection {
+    margin-left: 16%;
+    padding-left: 0%;
+    margin-right: -15%;
+}
+}
+
+
+
 @media screen and (max-width:1025px) and (min-width:768px) {
-.perks .perksLeftsection #perksLeftText{
-    width:82%;
-}
+    .perks .perksLeftsection #perksLeftText {
+        width: 376px;
+    }
 .perks .perksRightsection  p{
     margin: 15% 0 0 0;
 }
+.perks .perksLeftsection #perksLeftTitle {
+    font-size: 44px;
 }
+}
+
+
+
 @media screen and (max-width:768px) and (min-width:431px) {
 .perks{
     height: 350px;
@@ -87,12 +112,35 @@
 .perks .perksLeftsection #perksLeftTitle{
     font-size:35px;
 }
-.perks .perksRightsection  {
-    margin: 5% 0 0 0;
+.perks .perksLeftsection #perksLeftText {
+    font-size: 14px;
+    width: 322px;
+    text-align: justify;
+}
+.perks .perksRightsection {
+    display: flex;
+    width: 100%;
+    margin: 6% 0 0 21%;
+}
+.perks .perksLeftsection {
+    width: 50%;
+    margin-left: -14%;
+}
+.perks .perksRightsection .perksLefticon #exploreTalents {
+    margin-bottom: 24%;
+    width: 300px;
+    font-size: 16px !important;
+}
+.perks .perksRightsection .perksLefticon p {
+    font-size: 16px;
+}
+.perks .perksRightsection .perksRighticon p {
+    font-size: 16px;
+}
 }
 
-}
-@media  screen and (max-width:430px) {
+
+@media  screen and (max-width:430px) and (min-width:375px){
     .perks{
         display: block;
         height: 550px;
@@ -103,10 +151,11 @@
     width:100%
 }
 .perks .perksRightsection{
-    width:100%
+    width:100%;
+    margin-top: 14%;
 }
 .perks .perksLeftsection #perksLeftTitle{
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 600;
     }
 .perks .perksLeftsection #perksLeftText{
@@ -114,14 +163,20 @@
     font-weight: 500;
     line-height: 28px;
     text-align: justify;
-    width:80%
+    width: 99%;
 }
 
 .perks .perksRightsection .perksLefticon{
-    margin: 5% 0 0 0;
-   width:50%
 
-}
+        margin: 4% 53px 0 0;
+        width: 50%;
+    }
+    .perks .perksRightsection .perksLefticon p {
+        font-size: 15px;
+    }
+    .perks .perksRightsection .perksRighticon p {
+        font-size: 15px;
+    }
 
 .perks .perksRightsection .perksRighticon{
     margin: 5% 0 0 0;
@@ -129,4 +184,24 @@
     width:50%
 
 }
+}
+
+@media  screen and (max-width:430px) and (min-width:375px){
+    .perks .perksLeftsection #perksLeftText {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: justify;
+        width:98%;
+    }
+}
+
+@media  screen and  (max-width:375px){
+    .perks .perksLeftsection #perksLeftText {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: justify;
+        width:85%;
+    }
 }

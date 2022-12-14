@@ -11,35 +11,66 @@
     font-weight: 600;
     text-align: center;
 }
-.colleagues #gradientText{
-    color: #AD00FF;
+ #gradientText{
+    background: linear-gradient(90deg, #D84176 0%, #B811DA 97.04%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .colleagues #candidateText{
     color: #929292;
     font-family: poppins;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin: 0 0 0 30%;
-    width:37%;
+    margin: 0 0 0 26%;
+    width: 47%;
 }
 .colleagues img{
     margin: 5% 0 0 0;
+}
+@media screen and (max-width:1705px) and (min-width:1025px){
+    .colleagues #candidateText {
+        color: #929292;
+        font-family: poppins;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 0 0 22%;
+        width: 55%;
+    }
+    .colleagues{
+        margin-bottom: 14% !important;
+    }
 }
 
 @media screen and (max-width:1025px) and (min-width:768px) {
 .colleagues{
     padding: 15% 0 0 0;
+    margin-bottom: 25% !important;
 }
 .colleagues img{
     width:80%;
 }
+.colleagues #candidateText {
+    color: #929292;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 0 0 15%;
+    width: 68%;
+}
 }
 @media screen and (max-width:768px) and (min-width:431px) {
     .colleagues{
-        height: 80vh;
+        height: auto;
         padding: 20% 0 0 0;
+        margin-bottom: 0% !important;
     }
     .colleagues #candidateTitle{
     font-size: 40px;
@@ -54,19 +85,42 @@
     }
    
 }
-@media  screen and (max-width:430px) {
+@media  screen and (max-width:430px) and (min-width:375px) {
     .colleagues{
         height: 60vh;
+        margin-bottom: 47%;
     }
     .colleagues #candidateTitle{
        font-size: 30px;
+       margin-top: 18%;
+       font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+text-align: center;
+letter-spacing: -0.04em;
+       
     }
     .colleagues #candidateText{
       width:90%;
-      margin: 0 0 0 5%;
+      margin: 0 0 0 3%;
+      font-size: 14px;
     }
     .colleagues img{
         width:100%;
         border-radius:0px!important;
     }
+}
+@media  screen and (max-width:430px) and (min-width:375px) {
+.colleagues #candidateTitle {
+    font-size: 30px;
+    margin-top: 23%;
+}
+.colleagues {
+    height: 60vh;
+    margin-bottom: 55%;
+}
 }

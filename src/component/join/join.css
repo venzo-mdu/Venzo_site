@@ -40,19 +40,46 @@ margin: 0 0 0 2%;
 .joinus .innerJoin{
     width: 950px;
 }
+.joinus .innerJoin {
+    background-color: #0A1020;
+    height: auto;
+    display: inline-flex;
+    padding: 5% 5%;
+    border-radius: 12px 12px 12px 12px;
+    width: 1186px !important;
+    margin-left: -22%;
 }
+.innerJoin .innerText #applyNow {
+    margin-top: 9%;
+}
+}
+
+
 @media screen and (max-width:1024px)and (min-width:768px){
 .joinus{
     padding: 10% 3.5%;
 }
-
+.joinus .innerJoin {
+    margin-left: 0%;
+    width: 949px !important;
+}
 }
 @media screen and (max-width:768px)and (min-width:431px){
-    .innerJoin .joinImg{
-        width:55%;
+    .innerJoin .joinImg {
+        width: 48%;
+        margin-left: -1%;
+    }
+    .joinus .innerJoin {
+        margin-left: 0%;
+        width: 715px !important;
+    }
+    .innerJoin .innerText #applyNow {
+        margin-top: 16%;
     }
 }
-@media screen and (max-width:430px) {
+
+
+@media screen and (max-width:430px) and (min-width:375px) {
 .joinus{
     padding: 0;
 }
@@ -64,9 +91,10 @@ margin: 0 0 0 2%;
     padding-top: 10%;
 
 }
-.innerJoin .joinImg{
+.innerJoin .joinImg {
     width: 100%;
-    margin: 0;
+    margin-top: 5%;
+    margin-left: -1%;
 }
 .joinus .innerJoin .joinImgRes{
     display: block;
@@ -80,13 +108,13 @@ margin: 0 0 0 2%;
     text-align: center;
     margin: 10% 0 0 -10%;
 }
-.innerJoin .innerText #innerTextPara{
+.innerJoin .innerText #innerTextPara {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     text-align: center;
-    margin: 5% 0 0 -12%;
-
+    margin: 8% 0 0 -3%;
+    width: 95%;
 }
 .innerJoin .innerText #applyNow{
     text-align: center;
@@ -99,9 +127,11 @@ margin: 0 0 0 2%;
 .joinus .innerJoin{
     height:550px
 }
-    .innerJoin .joinImg{
-        width: 85%;
-    }
+.innerJoin .joinImg {
+    width: 89%;
+    margin-top: 5%;
+    margin-left: -1%;
+}
     .innerJoin .innerText #innerTextTitle{
         font-size: 35px;
         font-weight: 600;

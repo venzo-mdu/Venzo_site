@@ -22,6 +22,25 @@
     left: 40%;
 
 }
+
+@media screen and (max-width:1705px) and (min-width:1024px) {
+.careers2bg {
+    display: block;
+    width: 100%;
+    height: 63vh;
+}
+.applyJob .job {
+    margin: 5% 0 0 0;
+    padding: 1% 3%;
+    width: 100%;
+}
+}
+
+@media screen and (max-width:1204px) and (min-width:768px){
+
+}
+
+
 @media screen and (max-width:768px) and (min-width:431px) {
 .jobDetails #jobDetailsText{
     position: absolute;
@@ -35,9 +54,9 @@
         background-repeat:no-repeat;
     }
     .careers2bgRes{
-      display: block;
-      height: 170px;
-      width: 758px;
+        display: block;
+        height: 310px;
+        width: 513px;
         
     }
     .careers2bg{
@@ -49,9 +68,39 @@
     line-height: 38px;
     letter-spacing: -0.04em;
     text-align: center;
-    top: 85px;
+    top: 184px;
     left: 130px;
 
+}
+.applyJob .job {
+    margin: 4% 0 0 0;
+    padding: 1% 3%;
+    width: 100%;
+}
+#SkillPara{
+    margin-top: -7%;
+    margin-left: 5%;
+}
+.applyNowButton1 {
+    height: 5% !important;
+    padding: -0.5% 0;
+    width: 345px !important;
+}
+.applyJob .descripition {
+    height: 631px !important;
+}
+.enquiryinDiscussion .Fname {
+    width: 96% !important;
+}
+.enquiryinDiscussion .Femail{
+    width: 96% !important;
+}
+.discussion {
+    display: block;
+    height: auto !important;
+}
+.enquiryinDiscussion {
+    height: 470px !important;
 }
 }
 @media screen and (max-width:380px) {
@@ -59,4 +108,12 @@
     left: 110px;
 
 }
+    .applyNowButton1 {
+        height: 5% !important;
+        padding: -0.5% 0;
+        width: 301px !important;
+    }
+    .enquiryinDiscussion {
+        height: 440px !important;
+    }
 }

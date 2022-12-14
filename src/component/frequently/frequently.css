@@ -13,17 +13,76 @@
 .collapseData{
     text-align: left;
 }
-@media screen and (max-width:430px){
-.frequently #frequentlyTitle{
-    font-size: 45px;
-    font-weight: 600;
+.freqQus.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-image: url(../../DMpage/pluse.png) !important;
+    background-position-y: center;
+
 }
+.freqQus .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed::after {
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-image: url(../../DMpage/minus.png);
 }
-@media screen and (max-width:376px) {
+
+@media screen and (max-width:1705px) and (min-width:1024px){
+    .frequently #frequentlyTitle {
+        font-size: 56px;
+        margin-top: -6%;
+    }
+    .accordion accordion-flush{
+        margin-left: -8%;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px){
+    .frequently #frequentlyTitle {
+        font-size: 56px;
+        margin-top: -6%;
+    }
+    .accordion accordion-flush{
+        margin-left: -4%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:430px){
+    .frequently #frequentlyTitle {
+        font-size: 45px;
+        margin-top: -6%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:425px) and (min-width:375px){
+    .frequently #frequentlyTitle {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .accordion accordion-flush{
+        border-top: 0;
+        width: 98% !important;
+    }
+    .freqQus {
+        width: 88% !important;
+    }
+}
+
+@media screen and (max-width:375px) {
 
 .frequently #frequentlyTitle{
     font-size: 30px;
     width:80%;
     margin:0 0 0 10%;
+}
+.accordion accordion-flush{
+    border-top: 0;
+    width: 98% !important;
+}
+.freqQus {
+    width: 88% !important;
 }
 }

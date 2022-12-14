@@ -31,7 +31,7 @@
 .youtubeVideo .link2{
     width:50%
 }
-@media screen and (max-width:1440px) and (min-width:1024px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
 
 .youtubeVideo .link2{
     margin-left:10%;
@@ -42,6 +42,26 @@
 .youtubeVideo{
     padding: 1% 6%;
     margin-bottom: 1%;
+}
+.lifeAtvenzo #lifeAtvenzotitle {
+    font-size: 55px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #0A1020;
+    padding: 0 0 0 2%;
+    border-left: 5px solid #EC3939;
+    height: 133px;
+    margin-left: 6%;
+}
+.lifeAtvenzo #lifeAtvenzoText {
+    color: #929292;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 31.5px;
+    width: 84%;
+    padding-left: 9%;
+    margin-top: -5%;
 }
 }
 @media screen and (max-width:1025px) and (min-width:768px) {
@@ -66,12 +86,13 @@
 }
 .lifeAtvenzo #lifeAtvenzoText {
     color: #929292;
-    font-size: 21px;
+    font-size: 20px;
     font-family: poppins;
     font-weight: 400;
     line-height: 31.5px;
     width: 95%;
-    padding-left: 5%;
+    padding-left: 9%;
+    margin-top: -8%;
 }
 .lifeAtvenzo #lifeAtvenzotitle {
     font-size: 43px;
@@ -86,6 +107,9 @@
     .lifeAtvenzo #lifeAtvenzoText {
         color: #929292;
         font-size: 17px;
+        margin-left: -4%;
+        margin-top: -2%;
+        width: 97%;
     }
     .lifeAtvenzo {
         padding: 5% 6%;

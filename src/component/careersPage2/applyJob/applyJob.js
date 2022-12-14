@@ -72,14 +72,14 @@ function ApplyJob() {
             <div className='skillsRequired'>
              <p id='skillsRequiredTitle'>skills Required</p>
              <ul>
-               <li><img src={TickImg} alt='tickImg'></img> Must have HP ALM or XRAY Test management tool experience</li>
-               <li><img src={TickImg} alt='tickImg'></img>Good to have Selenium (Java, Python), Opkey or Any Automation testing experience, at least basics.</li>
-               <li><img src={TickImg} alt='tickImg'></img>Good to have Lifescience domain experience</li>
+               <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Must have HP ALM or XRAY Test management tool experience</p></li>
+               <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Good to have Selenium (Java, Python), Opkey or Any Automation testing experience, at least basics.</p></li>
+               <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Good to have Lifescience domain experience </p></li>
              </ul>
 
               
             </div>
-            <button className='applyNowButton' onClick={() => setButtonPopup(true)}>Apply Now</button>
+            <button className='applyNowButton1' onClick={() => setButtonPopup(true)}>Apply Now</button>
         </div>
       </div>
 

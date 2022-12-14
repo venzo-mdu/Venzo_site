@@ -23,10 +23,41 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    padding:10px
+    padding: 10px;
+    border: none;
+    background: transparent;
 }
 
 .popup-inner input{
     width: 46%;
 
+}
+@media screen and (max-width:430px){
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 83%;
+    background-color: #fff;
+    height: 67%;
+} 
+.popup-inner .close-btn {
+    border: 0px;
+    background: transparent;
+}
+.popup-inner input {
+    width: 98%;
+    background: #F8F8F8;
+    border-radius: 4px;
+    border: none;
+}  
+.popup-inner {
+    height: auto;
+}
+.Fmessage {
+    height: 100px !important;
+    margin-top: 3%;
+    background: #F8F8F8;
+    border-radius: 4px;
+    border: none;
+}
 }
