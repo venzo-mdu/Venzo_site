@@ -406,10 +406,9 @@ button:focus:not(:focus-visible) {
     color: #FFFFFF;
 }
 
-.accordion-button::after {
+/* .accordion-button::after {
     background-image: url("../../DMpage/pluse.png");
     transform: scale(.7) !important;
-
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -420,6 +419,21 @@ button:focus:not(:focus-visible) {
     color: black;
     background-color: white;
     box-shadow: none
+} */
+
+.freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-image: url(../../DMpage/pluse.png);
+}
+.freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed::after {
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-image: url(../../DMpage/minus.png);
 }
 
 .accordion-button:focus .accordion-button:hover {

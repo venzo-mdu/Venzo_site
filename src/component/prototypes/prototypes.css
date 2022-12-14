@@ -57,7 +57,7 @@ body{
     
     .prototypes{
         background-color: whitesmoke;
-        padding: 4% 10%;
+        padding: 4% 0 4% 10%;
         display: inline-flex;
         width: 100vw;
     }

@@ -1,13 +1,10 @@
-.staffBanner{
-    height: 75vh;
-    width:100%;
-    position: relative;
-    z-index: -1;
+.venzoSA{
+    background-image: url(../../../images/bannerSA.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .bannerText{
-    position: absolute;
-    left:100px;
-    top:200px;
+    padding: 10% 7% 10%;
 }
 .venzoSA #venzoSATitle{
     font-family: Poppins;
@@ -17,7 +14,6 @@
     letter-spacing: -0.04em;
     text-align: left;
     color: #FFFFFF;
-    width:10%;
 }
 .venzoSA #venzoSAText{
     font-family: Poppins;
@@ -38,27 +34,47 @@
     text-align: left;
     color: #FFFFFF;
 }
-@media screen and (max-width:768px) and (min-width:431px) {
-.bannerText{
-    left:100px
+.venzoSA #venzoSATalk img{
+    margin-left: 1%;
 }
+
+@media screen and (max-width:1440px) and (min-width:1026px) {
+
+    .venzoSA #venzoSAText{
+        width:65%;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:769px) {
+    .bannerText{
+        padding: 15% 7% 10%;
+    }
+    .venzoSA #venzoSAText{
+        width:88%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:431px) {
+    .bannerText{
+        padding: 15% 3% 10%;
+    }
 .venzoSA #venzoSAText{
     width:90%;
 }
 }
 @media screen and (max-width:430px) {
-    .bannerText{
-        left:30px;
-        top:200px;
+    .bannerText {
+        padding: 30% 2% 9%;
+    }
+    .bannerText br{
+        display: none;
     }
     .venzoSA #venzoSATitle{
-        font-size: 35px;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 600;
-        line-height: 49px;
+        font-size: 41px;
+        line-height: 120%;
         letter-spacing: -0.04em;
-        text-align: left;
-        color: #FFFFFF;
-        width:10%;
+        color: #FFFFFF
     }
     .venzoSA #venzoSAText{
         font-size: 16px;
