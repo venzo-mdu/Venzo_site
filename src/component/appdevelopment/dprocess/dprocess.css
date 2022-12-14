@@ -1,15 +1,15 @@
 .devProcess{
-    padding: 5% 5%;
+    padding: 5% 6%;
     width: 100%;
     display: flex;
     width: 100%;
-    margin: 0 0 5% 10%;
 }
 .leftDevprocess{
   width: 40%;
 }
 .rightDevprocess{
     width: 60%;
+    margin: 0 0 0 10%;
 }
 #leftdevTitle{
     font-family: Poppins;
@@ -29,13 +29,11 @@
     letter-spacing: 0em;
     text-align: left;
     color: #4D4D4DBF;
-    width: 60%;
+    width: 85%;
 }
 .rightdevText{
     display: flex;
-}
-.rightdevprocessText{
-    display: block;
+
 }
 .devprocessIcon{
     width: 3%;
@@ -48,6 +46,8 @@
 } */
 .rightdevprocessText{
     margin: 0 0 0 5%;
+    display: block;
+
 }
 #rightdevprocessTitle{
     font-family: Poppins;
@@ -73,31 +73,59 @@
     letter-spacing: -0.025em;
     text-align: left;
     color: #929292;
-    width: 60%;
+    width: 85%;
 }
 .hrIndprocess{
-    width: 60%;
+    width: 85%;
+}
+@media screen and (max-width:1705px) and (min-width:1024px) {
+    .devProcess{
+        padding: 5% 7%;
+        width: 100%;
+        display: flex;
+        width: 100%;
+    }
+    #leftdevTitle{
+        width: 90%;
+    }
+    #rightdevprocessTitle{
+       width: 100%;  
+    }
+    .rightdevprocessText{
+        margin: 0 0 0 10%;
+    }
+    #rightdevprocessDesc{
+         width: 95%;  
+    }
+    .devprocessIcon{
+        width: 4%;
+        height: 3%;
+        margin: 0 0 0 -10%;
+    }
 }
 @media screen and (max-width:1024px) and  (min-width:768px) {
 .devProcess{
-    margin: 0 0 0 5%;
-    padding: 5% 2%;
+    margin: 0 0 0 0%;
+    padding: 5% 5%;
 }
 .leftDevprocess{
     width: 50%;
   }
+  #leftdevTitle{
+    width: 100%;
+  }
 #leftdevText1{
-    width: 75%;
+    width: 100%;
 }
 #rightdevprocessDesc{
-    width: 90%;
+    width: 100%;
 }
 .devprocessIcon{
-    width: 5%;
+    width: 8%;
     height: 3%;
 }
 .hrIndprocess{
-    width: 80%;
+    width: 100%;
 }
 }
 @media screen and (max-width:768px) and (min-width:430px){
@@ -112,16 +140,16 @@
       margin: 5% 0 0 10%;
   }
 #leftdevTitle{
-    width: 70%;
+    width: 100%;
 }
 #leftdevText1{
-    width: 80%;
+    width: 100%;
 }
 .hrIndprocess{
-    width: 80%;
+    width:100%;
 }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px) and (min-width:375px){
     .devProcess{
         display: block;
         padding: 2% 0;
@@ -177,5 +205,8 @@
     .devprocessIcon{
         width: 8%;
         height: 3%;
+    }
+    .hrIndprocess{
+        width:80%;
     }
 }

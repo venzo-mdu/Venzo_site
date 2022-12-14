@@ -22,7 +22,7 @@
     margin: 0 0 0 15%;
 }
 .candoCards{
-    padding: 4% 8%;
+    padding: 4% 10%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 11%;
@@ -79,7 +79,7 @@
 .canDocards1Img{
     display: none;
 }
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
 .candoCards{
     padding: 4% 1%;
 }
@@ -107,7 +107,11 @@
 
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px)and (min-width:375px){
+    .canDo{
+        padding: 3% 2%!important;
+    }
+    
     #canDotitle{
         font-family: Poppins;
         font-size: 26px;
@@ -172,8 +176,8 @@
     }
 }
 @media screen and (max-width:375px) {
-    #cardsTitle{
      
+    #cardsTitle{
         top: 110px;
         left: 35px;
         width: 55%;
@@ -182,16 +186,19 @@
         left:50px;
         top:40px;
     }
+    #cardsTitle{
+        font-size: 16px;
+    }
     #cardsTitle1{
         width: 90%;
         top:50px;
         left:20px;
     }
     .candoCards{
-        padding: 4% 0;
+        padding: 4% 5%;
     }
     .canDocards1Img{
-        margin: 0 0 5% 1%;
+        margin: 0 0 5% 0%;
         width: 100%;
     }
     #cardsTitle{
