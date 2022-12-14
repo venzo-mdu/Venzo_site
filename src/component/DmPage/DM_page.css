@@ -419,7 +419,7 @@ button:focus:not(:focus-visible) {
     background-image: url("../../DMpage/minus.png") !important;
 } */
 
-.freqQus.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+.freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed {
 
     border-radius: 0;
     background-repeat: no-repeat;
@@ -428,7 +428,7 @@ button:focus:not(:focus-visible) {
     background-position-y: center;
 
 }
-.freqQus .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed::after {
+.freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed::after {
     border-radius: 0;
     background-repeat: no-repeat;
     background-position-y: center;
