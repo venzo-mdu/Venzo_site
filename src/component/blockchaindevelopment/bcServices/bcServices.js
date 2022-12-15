@@ -23,7 +23,7 @@ function bcServices() {
 
 
                 <div className='bctalkServices'>
-                    <div className='bcservicesCards'>
+                    <div className='bcservicesCards' id='smartcontarcts'>
                         <img className='bcservicescardIcon' src={bcd33} alt='icon'></img>
                         <p id='bcCardtitle'>Smart Contracts Development</p>
                         <p id='bcCardtext'>Empowering businesses to automate the execution of activities while ensuring the integrity of multi-party agreements.</p>

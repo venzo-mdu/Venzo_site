@@ -76,6 +76,25 @@
     grid-column-gap: 3%;
 
 }
+/* #smartcontarcts:hover{
+    border: 0.46px solid !important;
+    padding: 8% 5% 28%;
+    border-radius: 15px !important;
+    background-size: 100% 100% !important;
+    background-image: url("../../../images/blockchaindevelopment/cardbgHover.png") !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+} */
+
+.bcservicesCards:hover {
+    border: 0.46px solid !important;
+    padding: 8% 5% 28%;
+    border-radius: 15px !important;
+    background-size: 100% 100% !important;
+    background-image: url("../../../images/blockchaindevelopment/cardbgHover.png") !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+}
 
 .bcservicesCards {
     border: 0.46px solid;
@@ -86,14 +105,6 @@
     background-size: 100% 100%;
 }
 
-.bcservicesCards:hover {
-    border: 0.46px solid;
-    padding: 8% 5% 28%;
-    border-radius: 15px;
-    background-size: 100% 100%;
-    background-image: url("../../../images/blockchaindevelopment/cardbgHover.png");
-    background-repeat: no-repeat;
-}
 #bcCardtitle {
     font-family: Poppins;
     font-size: 18px;
