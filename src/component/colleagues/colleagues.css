@@ -32,6 +32,7 @@ text-fill-color: transparent;
     margin: 5% 0 0 0;
 }
 @media screen and (max-width:1705px) and (min-width:1025px){
+    
     .colleagues #candidateText {
         color: #929292;
         font-family: poppins;
@@ -39,11 +40,18 @@ text-fill-color: transparent;
         font-weight: 400;
         line-height: 24px;
         text-align: center;
-        margin: 0 0 0 22%;
-        width: 55%;
+        margin: 0 0 0 21%;
+        width: 57%;
     }
     .colleagues{
         margin-bottom: 14% !important;
+    }
+    .posCard .cards #cardText {
+        font-size: 16px !important;
+    }
+    .posCard .cards #viewJob {
+        font-size: 16px !important;
+        margin-top: 6% !important;
     }
 }
 
@@ -58,12 +66,12 @@ text-fill-color: transparent;
 .colleagues #candidateText {
     color: #929292;
     font-family: poppins;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin: 0 0 0 15%;
-    width: 68%;
+    margin: 0 0 0 11%;
+    width: 80%;
 }
 }
 @media screen and (max-width:768px) and (min-width:431px) {

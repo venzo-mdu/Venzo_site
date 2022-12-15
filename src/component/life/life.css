@@ -69,10 +69,11 @@
 .lifeAtvenzo #lifeAtvenzoText{
     width: 100%;
 }
-.youtubeVideo{
+.youtubeVideo {
     display: block;
     padding: 1% 6%;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .youtubeVideo .link1{
@@ -113,6 +114,9 @@
     }
     .lifeAtvenzo {
         padding: 5% 6%;
+    }
+    .youtubeVideo {
+        margin-left: 2% !important;
     }
 }
 
