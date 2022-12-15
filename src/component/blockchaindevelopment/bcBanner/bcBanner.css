@@ -1,7 +1,7 @@
 .bcBanner{
     background-image: url('../../../images/blockchaindevelopment/bcd28.png');
     background-size: 100% 100%;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     padding: 5% 8%;
     display: block;
@@ -38,6 +38,20 @@
     text-align: left;
     color: #FFFFFF;    
 }
+.bcdemoButton{
+    background-image: url("../../../images/blockchaindevelopment/demobtn.png");
+    background-repeat: no-repeat;
+    background-size:10% 100%;
+    padding: 1%;
+    color: #FFFFFF;
+    padding-left: 2%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+}
+
 @media screen and (max-width:1440px) and (min-width:1025px) {
     #bcbannerTitle{
         width: 50%;
@@ -45,21 +59,27 @@
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
     .bcBanner{
-        padding: 10% 8%;
+        padding: 5% 8%;
     }
     #bcbannerTitle{
         width: 70%;
     }
+    .bcdemoButton {
+        background-size: 13% 100%;
+    }
 }
 @media screen and  (max-width:768px) and (min-width:431px) {
     .bcBanner{
-        padding: 10% 8%;
+        padding: 5% 8%;
     }
     .innerbcBanner{
-        margin: 20% 0 0 0;
+        margin: 15% 0 0 0;
     }
     #bcbannerTitle{
         width: 85%;
+    }
+    .bcdemoButton {
+        background-size: 15% 100%;
     }
 }
 @media screen and (max-width:430px) {
@@ -69,11 +89,11 @@
     .bcBannerRes{
         display:block;
         background-image: url('../../../images/blockchaindevelopment/bcd29.png');
-        height: 80vh;
+        height: 100vh;
         padding: 10% 5% ;
     }
     .innerbcBannerRes{
-        margin: 15% 0 0 0;
+        margin: 15% 0 10% 0;
     }
     #bcbannerTitleRes{
         font-family: Poppins;
@@ -94,5 +114,24 @@
         letter-spacing: 0em;
         text-align: left;
         color:#FFFFFF;
+    }
+    .bcdemoButton{
+        background-image: url("../../../images/blockchaindevelopment/demobtn.png");
+        background-repeat: no-repeat;
+        background-size:30% 100%;
+        padding: 2%;
+        color: #FFFFFF;
+        padding-left: 5%;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .innerbcBannerRes {
+        margin: 15% 0 10% -11px;
     }
 }

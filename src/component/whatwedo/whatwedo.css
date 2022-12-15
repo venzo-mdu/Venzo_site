@@ -659,13 +659,12 @@ body {
 
     .whatwedoCardResponsive div p {
         margin: 5% 0 5% 0;
-        width: 100%;
+        width: 85%;
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 156%;
     }
-
     .whatwedoCardResponsive .uxResearch1 {
         background-image: url('../../images/mobres5.svg');
         background-repeat: no-repeat;
