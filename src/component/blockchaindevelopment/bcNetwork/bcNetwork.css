@@ -85,6 +85,17 @@
    }
 }
 @media screen and (max-width:430px) {
+    #bcnetworkgradient{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        background: linear-gradient(272.57deg, #AD00FF 21.61%, #FF7A00 133.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     #bcnetworkTitle{
         font-family: Poppins;
         font-size: 24px;

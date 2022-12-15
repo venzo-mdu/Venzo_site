@@ -97,8 +97,8 @@ function DM_Page() {
                     {/* <img className='blockLogo w-100 ' src={block} ></img>
                     <img className='blockLogo1 w-100 ' src={block1} ></img> */}
                     <div className='section1'>
-                        <p className='Dm_Title'>We grow Business <br />online</p>
-                        <p className="blockchainDesc">We’re your data-driven brand growth engine</p>
+                        <p className='Dm_Title'>We create robust strategies for <br />online businesses.  </p>
+                        <p className="blockchainDesc">Crafting data-driven, automated, and personalized solutions for businesses.</p>
                         <p className="GetQuote">GET QUOTE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -113,21 +113,21 @@ function DM_Page() {
                     <div className='sect4-desc'>
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2B</p>
-                            <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
+                            <p className='desc-detail'>Try our customized B2B marketing strategies to attract the audience.</p>
                             <img className="lineM" src={line1} alt='line' />
 
                         </div>
 
                         <div className='desc-p'>
                             <p className='desc-titlte'>B2C</p>
-                            <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
+                            <p className='desc-detail'>We guide B2C businesses to reach their targeted customers through customized apps.</p>
                             <img className='line' src={line} alt='line'></img>
                             <img className="lineM" src={line1} alt='line' />
 
                         </div>
                         <div className='desc-p'>
                             <p className='desc-titlte'>Ecommerce</p>
-                            <p className='desc-detail'>We offer refined customized applications that streamline your.</p>
+                            <p className='desc-detail'>We offer multiple strategies to develop your e-commerce to new heights.</p>
                             <img className='line' src={line} alt='line'></img>
 
                         </div>

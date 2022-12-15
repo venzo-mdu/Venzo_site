@@ -41,15 +41,27 @@ body {
     color: rgba(255, 255, 255, 0.5);
     width: 45%;
     text-align: center;
-    margin-left: 27%;
+    margin-left: 20%;
+}
+.helDes{
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    width: 42%;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 303px;
 }
 
 .contactUs1 {
     background: #0A1020;
     border-radius: 8px;
     width: 90%;
-    height: 705px;
-    margin-top: -30%;
+    height: auto;
+    margin-top: -38% !important;
     margin-left: 5%;
     display: flex;
     margin-bottom: 10%;
@@ -139,7 +151,7 @@ body {
     color: #FFFFFF;
     margin-left: 10%;
     margin-bottom: 2%;
-    margin-top: -1.4%;
+    margin-top: -6.4%;
 }
 
 .addrs {
@@ -183,6 +195,7 @@ input {
     line-height: 21px;
     color: #929292;
     margin: 2% 2% 4% 0;
+    width: 47%;
 }
 
 .Femail {
@@ -192,6 +205,7 @@ input {
     font-size: 12px;
     line-height: 21px;
     color: #929292;
+    width: 47%;
 }
 
 .Fphone {

@@ -1,4 +1,4 @@
-@media screen and (max-width:770px) and (min-width:430px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -30,7 +30,18 @@ body {
     color: #FFFFFF;
 
 }
-
+.helDes {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px !important;
+    line-height: 27px;
+    text-align: center;
+    width: 55%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 23.5%;
+}
 .helpDesc1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -157,7 +168,7 @@ body {
     background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
     border-radius: 10.8395px;
     padding: 3%;
-
+    border: 1px solid gray !important;
 }
 
 .formTitle {
@@ -173,7 +184,7 @@ body {
 input {
     padding: 2%;
     border-radius: 7px;
-    width: 47%;
+    width: 96% !important;
 }
 
 .Fname {
@@ -184,6 +195,7 @@ input {
     line-height: 21px;
     color: #929292;
     margin: 2% 2% 4% 0;
+    margin-bottom: 8%;
 }
 
 .Femail {
@@ -193,6 +205,7 @@ input {
     font-size: 12px;
     line-height: 21px;
     color: #929292;
+    margin-bottom: 8%;
 }
 
 .Fphone {
@@ -216,6 +229,7 @@ input {
     padding: 2%;
     width: 97%;
     height: 30%;
+    margin-top: 4%;
 }
 
 .Fbutton {
