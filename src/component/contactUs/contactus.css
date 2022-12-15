@@ -1,4 +1,3 @@
-@media screen and (min-width:1705px)  {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     * {
@@ -33,11 +32,11 @@
 
     }
 
-    .helpDesc1 {
+    .helDes {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 20px !important;
         line-height: 27px;
         text-align: center;
         width: 29%;
@@ -50,16 +49,19 @@
         background: #0A1020;
         border-radius: 8px;
         width: 90%;
-        height: 705px;
+        height: auto;
         margin-top: -23%;
         margin-left: 5%;
         display: flex;
-        margin-bottom: 10%;
+        margin-bottom: 8%;
+        margin-top: -15%;
+
     }
 
-    .contact1 {
+    .cont {
         width: 50%;
         padding: 3%;
+        padding-left: 9%;
     }
 
     .contactTitle {
@@ -78,7 +80,7 @@
         margin-bottom: 2%;
     }
 
-    .ph_icon {
+    .ph_icon1 {
         color: #FFFFFF;
         Width: 16.43px;
         Height: 21px;
@@ -115,7 +117,7 @@
         margin-right: 2%;
         color: #FFFFFF;
         margin-left: 5%;
-        margin-bottom: 3%;
+        margin-bottom: 7%;
         margin-top: -2.4%;
     }
 
@@ -137,7 +139,7 @@
         color: #FFFFFF;
         margin-left: 5%;
         margin-bottom: 2%;
-        margin-top: -1.4%;
+        margin-top: -3.3%;
     }
 
     .addrs {
@@ -145,15 +147,21 @@
         color: #909090;
 
     }
+    #careBreak
+    {
+        display: none;
+        
+    }
 
-    .contactform {
+    .ContForm {
         width: 50%;
         height: 84%;
-        margin-left: -4%;
+        margin-left: -8%;
         margin-top: 3%;
         background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
         border-radius: 10.8395px;
         padding: 4%;
+        border: 1px solid gray;
 
     }
 
@@ -258,7 +266,6 @@
         margin-left: 10%;
 
     }
-}
 
 @media screen and (max-width:1705px) and (min-width:1024px)
 {
@@ -272,7 +279,41 @@
         display: flex;
         margin-bottom: 10%;
     }
-    .contactform {
-        width: 52% !important;
+    .cont {
+        width: 50%;
+        padding: 3%;
+        margin-top: 4%;
+        margin-left: 2%;
     }
+    .helDes {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        width: 34%;
+        color: rgba(255, 255, 255, 0.5);
+        margin-left: 457px;
+        border: 1px solid gray;
+
+    }
+    
+    .ContForm {
+        width: 50%;
+    height: 84%;
+    margin-left: -6%;
+    margin-top: 3%;
+    background: linear-gradient(137.06deg, rgba(31, 26, 26, 0.25) -38.45%, rgba(217, 217, 217, 0) 149.05%);
+    border-radius: 10.8395px;
+    padding: 4%;
+    border: 1px solid grey;
+    margin-top: 89px;
+}
+.ph_icon1 {
+    color: #FFFFFF;
+    Width: 16.43px;
+    Height: 18px;
+    margin-right: 5%;
+}
 }
