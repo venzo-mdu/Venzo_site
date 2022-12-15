@@ -80,7 +80,7 @@
 .bcservicesCards {
     border: 0.46px solid;
     padding: 8% 5% 28%;
-    border-radius: 13px;
+    border-radius: 15px;
     background-image: url("../../../images/blockchaindevelopment/cardbg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -89,7 +89,7 @@
 .bcservicesCards:hover {
     border: 0.46px solid;
     padding: 8% 5% 28%;
-    border-radius: 13px;
+    border-radius: 15px;
     background-size: 100% 100%;
     background-image: url("../../../images/blockchaindevelopment/cardbgHover.png");
     background-repeat: no-repeat;
