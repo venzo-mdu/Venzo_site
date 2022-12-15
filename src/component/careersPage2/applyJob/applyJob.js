@@ -85,7 +85,7 @@ function ApplyJob() {
 
     </section>
     <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
-        <p>Join our team</p>
+        <p id='joinourteamText'>Join our team</p>
         <input className='Fname' type="text" placeholder='Name*'></input>
         <input className='Femail' type="text" placeholder='Email*'></input>
         <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
