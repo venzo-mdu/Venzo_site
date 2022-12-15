@@ -1,6 +1,6 @@
 @media screen and (max-width:770px) and (min-width:501px) {
     .section1 {
-        margin: 0% 0 0 7%;
+        margin: 0% 0 0 3%;
     }
 
     .starting {
@@ -10,7 +10,9 @@
         background-repeat: no-repeat;
         width: 100vw;
     }
-
+    .Dm_Title br{
+        display: none;
+    }
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -999,8 +1001,8 @@
     }
 
     .freqQus {
-        width: 85%;
-        margin-left: 7%;
+        width: 95% !important;
+        margin-left: 0%;
         margin-bottom: 5%;
     }
 

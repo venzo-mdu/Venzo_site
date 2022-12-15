@@ -13,15 +13,15 @@ function approach() {
                   <div className='approach'>
                     <div className='research'>
                        <h2>Research &Discover</h2>
-                       <p>We do the user research and the discover the target audience & the ux problems.</p>
+                       <p>With insights rooted in the voices of our users, we solve customer-oriented problems while satisfying company goals. </p>
                     </div>
                     <div className='ideate'>
                     <h2>Definite &Ideate</h2>
-                    <p>Defining the problems clearly and ideating different ux solutions for those problems.</p>
+                    <p>Our UX-UI designers love creating intuitive, scalable, and user-friendly designs. </p>
                     </div>
                     <div className='prototype'>
                     <h2>Design &Prototype</h2>
-                    <p>We do the user research and define the target audience & the problems.</p>
+                    <p>With us, any design can be adapted into any company's pixel-perfect and scalable digital products. </p>
                     </div>
                   </div>
                   </div>
