@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "../imageCarousel/imageCarousel.css"
 import whiteArrow from "../../images/whiteArrow.svg"
 import blackArrow from "../../images/blackArrow.svg"
@@ -6,6 +6,10 @@ import FbIcon from "../../images/Fb.svg"
 import TwitterIcon from "../../images/twitter.svg"
 import LinkedinIcon from "../../images/linkedin.svg"
 import InstaIcon from "../../images/insta.svg"
+import FbIcon2 from "../../images/fbIcon2.svg"
+import TwitterIcon2 from "../../images/twitterIcon2.svg"
+import LinkedinIcon2 from "../../images/linkedIn2.svg"
+import InstaIcon2 from "../../images/instaIcon2.svg"
 import Header from '../header/header.js'
 import blog1 from '../../images/Blockchain-1.png'
 import blog2 from '../../images/Data-Engineering-Banner.png'
@@ -15,7 +19,33 @@ import blogBl2 from '../../images/blogBl2.png'
 import blogBl3 from '../../images/blogBl3.png'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-function imageCarousel() {
+function ImageCarousel() {
+
+    const [fbIcon,setfbIconlogo] = useState(FbIcon);
+    const [twitterIcon, settwitterIconlogo] = useState(TwitterIcon);
+    const [linkedIcon, setlinkedinIconlogo] = useState(LinkedinIcon);
+    const [instaIcon, setinstaIconlogo] = useState(InstaIcon);
+
+    const changeIcon = () => {
+        if (window.scrollY >= 350) {
+            setfbIconlogo(FbIcon2)
+            settwitterIconlogo(TwitterIcon2)
+            setlinkedinIconlogo(LinkedinIcon2)
+            setinstaIconlogo(InstaIcon2)
+
+        } else {
+            setfbIconlogo(FbIcon)
+            settwitterIconlogo(TwitterIcon)
+            setlinkedinIconlogo(LinkedinIcon)
+            setinstaIconlogo(InstaIcon)
+        }
+      }
+    
+      useEffect(() => {
+        changeIcon()
+        window.addEventListener("scroll", changeIcon)
+      })
+
     const items = [
         <img className='carouselImage' src={blog1} role="presentation" />,
         <img className='carouselImage' src={blog2} role="presentation" />,
@@ -45,10 +75,11 @@ function imageCarousel() {
                         src={blogBl1}
                         alt="blockchainBl "
                     />
+                   
                     <div className='item1'>
-                        <p id='blockchain'>Decentralization<br id='brtag'></br> and cryptographic<br></br> hashing</p>
-                        <p id="blockchainDev">We build Blockchain Development<br id='brtag'></br>
-                            that people trust</p>
+                        <p id='blockchain'>Immutable Blockchain<br id='brtag'></br> Solutions</p>
+                        <p id="blockchainDev"> Fabricate Smarter Supply Chains with <br id='brtag'></br>
+                        Blockchain Technology Solutions</p>
                         <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -64,11 +95,13 @@ function imageCarousel() {
                         src={blogBl3}
                         alt="productDevelopmentBl "
                     />
+                   
+
                     <div className='item3'>
-                        <p id='productDevelopment'>Development and<br id='brtag'></br> Growth</p>
+                        <p id='productDevelopment'>Innovation That<br id='brtag'></br> Delivers </p>
                         <p id="productDev">
-                            We build Product Development<br id='brtag'></br>
-                            that people trust</p>
+                        Designing & delivering Positive Products <br id='brtag'></br>
+                        for progressive change-makers.</p>
                         <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -84,25 +117,27 @@ function imageCarousel() {
                         src={blogBl2}
                         alt="dataEngineeringBl "
                     />
+                    
+
                     <div className='item2'>
-                        <p id='dataEngineering'>Crafting Tech into<br id='brtag'></br> your ideas</p>
+                        <p id='dataEngineering'>  Building you Smart<br id='brtag'></br> Data Management Systems </p>
                         <p id="dataEnggDev">
-                            We build Product Development<br id='brtag'></br>
-                            that people trust</p>
+                        Extending the boundaries of excellence through <br id='brtag'></br>
+                        data-driven transformation</p>
                         <p id="knowMore1">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
                     </div>
                 </div>
             </AliceCarousel>
 
             <div className='socialMediaIcon'>
-                <img id='fbicon' src={FbIcon} alt='fbIcon'></img>
-                <img id='twittericon' src={TwitterIcon} alt='twitterIcon'></img>
-                <img id='linkedinicon' src={LinkedinIcon} alt='linkedIcon'></img>
-                <img id='instaicon' src={InstaIcon} alt='instaIcon'></img>
+                <img id='fbicon' src={fbIcon} alt='fbIcon'></img>
+                <img id='twittericon' src={twitterIcon} alt='twitterIcon'></img>
+                <img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img>
+                <img id='instaicon' src={instaIcon} alt='instaIcon'></img>
             </div>
 
         </>
     )
 }
 
-export default imageCarousel;
+export default ImageCarousel;

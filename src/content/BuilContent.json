@@ -1,25 +1,26 @@
+
 [
     {
         "title": "Build",
-        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+        "content": "Building custom apps necessitates collaboration, we work closely with you to include quality, value, and service into your applications. ",
         "images": "../images/Build.svg",
         "SubContent": [
             {
                 "icon": "../images/Web development-gradient.svg",
                 "title1": "Web Development",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "content1": "Our process assures round-the-clock assistance and high-quality maintenance. We'll take care of the backend and frontend development, as well as testing and maintenance.",
                 "className": "Web"
             },
             {
                 "icon": "../images/Android Development-gradient.svg",
-                "title1": "Android Development",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "Mobile App Development",
+                "content1": "We'll build a beautiful mobile app that's suited precisely to your industry needs, no matter how big or little your requirement is.",
                 "className": "Android"
             },
             {
                 "icon": "../images/iOS Development-gradient.svg",
-                "title1": "ios Development",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "Product Development",
+                "content1": "We manage the interaction, carry out the plan, construct what is required, and stay laser-focused on your goal.",
                 "className": "IOS",
                 "readMore": "Read More",
                 "arrow": "../images/Read more arrow-gradient.svg"
@@ -28,26 +29,26 @@
         "hrLine":"line"
     },
     {
-        "title": "Innovate",
-        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+        "title": "Modernize",
+        "content": "Modernize, as we power your data structures to take full advantage of the optimum decentralized computing technologies, powered analysis platforms to increase quality, speed, flexibility & security.",
         "images": "../images/Innovate.svg",
         "SubContent": [
             {
                 "icon": "../images/Blockchain Development-gradient.svg",
                 "title1": "Blockchain Development",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "content1": "With a transparent, decentralized technology and specialists who can make it work for you, you can support your vision for your product and business.",
                 "className": "Blockchain"
             },
             {
                 "icon": "../images/UI Design-gradient.svg",
-                "title1": "UX/UI Design",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "Data Analytics",
+                "content1": "We assist you in analyzing your present situation and establishing a solid data foundation to improve your business performance and capitalize on data prospects.",
                 "className": "UX/UI"
             },
             {
                 "icon": "../images/Banking Solutions-gradient.svg",
-                "title1": "Banking Solutions",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "IOT Solutions",
+                "content1": "Our expertise in building IoT platforms provides businesses with quickly deployable solutions that collect data from sensors to deliver useful business insights.",
                 "className": "Banking",
                 "readMore": "Read More",
                 "arrow": "../images/Read more arrow-gradient.svg"
@@ -57,26 +58,26 @@
 
     },
     {
-        "title": "Grow",
-        "content": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+        "title": "Upscale",
+        "content": "Upscale, since we work with your company to use web development techniques and strategies to grow your customer base, generate sales, and keep delighted customers for a long time.",
         "images": "../images/Grow.svg",
         "SubContent": [
             {
                 "icon": "../images/Bespoke Solutions-gradient.svg",
-                "title1": "Bespoke Solutions",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "Digital Marketing",
+                "content1": "With a single team of digital marketing experts, you can cross everything off your digital marketing to-do list, break through your growth plateau, and achieve significant ROI.",
                 "className": "Bespoke"
             },
             {
                 "icon": "../images/Data Engineering-gradient.svg",
-                "title1": "Data Engineering",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "E-commerce",
+                "content1": "With our custom eCommerce development services, you can harness the true potential of your brand. We prepare businesses for the future.",
                 "className": "Data"
             },
             {
                 "icon": "../images/Staff Agumentation-gradient.svg",
-                "title1": "Staff Augmentation",
-                "content1": "We offer refined customized applications that streamline your business needs and enhance customer experience for diversified sectors.",
+                "title1": "Web Development",
+                "content1": "Our design experts create beautiful websites that help you stand out in a crowded market, reflect your brand, and improve the customer experience.",
                 "className": "Staff",
                 "readMore": "Read More",
                 "arrow": "../images/Read more arrow-gradient.svg"

@@ -10,28 +10,28 @@ function devServices() {
     <div className='developmentServices'>
         <p>Full cycle of development services</p>
             <div className='technologies1'>
-                    <li>iOS Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>Android Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/webDevelopment">Web App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
-                    <li><Link to="/UIUX">UI/UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/bankingQA">QA Engineering&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/dm_page">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li>Apps Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>Product Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/webDevelopment">QA Engineering &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/UIUX">Blockchain Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/bankingQA">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/dm_page">Banking QA Testing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
             <div className='technologies2'>
-                    <li>iOS Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>Android Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Web App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>UI/UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>QA Engineering&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/staffaugmentation">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li>Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li>Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li>E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li>Enterprise App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+                    <li><Link to="/staffaugmentation">Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
     </div>
     <div className='venzoMantra'>
       <div className='venzoexperts'>
       <p id='reach'>Make your reach with<br/><span id='mantra'>VENZO MANTRA</span></p>
      
-     <p id='venzoExpertise'>Venzo’s expertise have delivered successful applications that accelerate digital transformation with our unique blend of business expertise and streamlined process.</p>
-     <p id='Motto'>Build.&nbsp;&nbsp;Innovate.&nbsp;&nbsp;Grow.</p>
+     <p id='venzoExpertise'>With our unique blend of business experience and efficient approach, Venzo has developed successful apps that speed digital transformation. Venzoians have expertly crafted IT solutions & developed applications from the ground-up with our fully equipped talent team & BCs on board. We design, implement, and monitor your unique digital business requirements for greater expansion.</p>
+     <p id='Motto'>Build.&nbsp;&nbsp;Modernize.&nbsp;&nbsp;Upscale.</p>
       </div>
       <div className='venzoexpertImg'>
         <img src={roundimage} alt='venzoexpertimg'></img>
