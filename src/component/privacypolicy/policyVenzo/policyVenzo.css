@@ -169,7 +169,7 @@
     }
     .policy #attention {
         margin-left: 2%;
-        width: 18%;
+        width: 253px;
     }
     .policy #personalTitle1 {
         font-family: Poppins;
@@ -187,21 +187,37 @@
 @media screen and (max-width:1024px) and (min-width:775px){
     .policyVenzo{
         padding: 1% 2.1%;
-        margin: -35% 0 0 0;
+    margin: -20% 0 0 0;
     }
     .policies{
     background-color: #F8F8F8;
-    height: 1450px;
+    height: auto;
     width: 900px;
    }
 .policy #attention{
     width:35%
 }
+.privacyVenzo #privacyText {
+    left: 133px;
+    top: 132px;
+}
+.policy #firstPara {
+    text-align: justify;
+}
+.policy #personalTitle {
+    margin-top: 6%;
+}
+.policy #personalText {
+    margin-top: 4%;
+}
+.policy #personalTitle1 {
+    margin-top: 6%;
+}
 }
 @media screen and (max-width:770px) and (min-width:431px){
-    .policyVenzo{
+    .policyVenzo {
         padding: 1% 2.3%;
-        margin: -45% 0 0 0;
+        margin: -24% 0 0 0;
     }
     .policies{
     background-color: #F8F8F8;
@@ -211,6 +227,25 @@
    .policy #attention{
     width:40%
 }
+.privacyVenzo #privacyText {
+    left: 83px;
+    top: 145px;
+    font-size: 38px;
+}
+.policy #firstPara {
+    text-align: justify;
+}
+.policy #personalTitle {
+    margin-top: 7%;
+}
+.policy #personalTitle1 {
+    margin-top: 7%;
+}
+.connectwithUs .ppicons {
+    margin: 0 0 0 3%;
+    width: 22px;
+    height: 21px;
+}
 }
 @media screen and (max-width:430px) {
     .policyVenzo{
@@ -219,28 +254,32 @@
     }
     .policies{
         background-color: #F8F8F8;
-        height: 2100px;
+        height: auto;
         width: 735px;
         border-radius: 0px;
        }
        .policy{
            padding: 3% 3%;
        }
-    .policy #firstPara{   
+       .privacyVenzo .privacyBG {
+        height: auto;
+        margin-top: 20%;
+    }
+    .policy #firstPara {
         font-size: 16px;
         font-weight: 500;
         line-height: 32px;
         letter-spacing: -0.03em;
-        text-align: justified;
-        width: 388px;
-        }
-    .policy #personalTitle{
+        width: 379px;
+        text-align: justify;
+    }
+    .policy #personalTitle {
         font-size: 18px;
         font-weight: 600;
         line-height: 36px;
         letter-spacing: 0em;
         text-align: left;
-
+        margin-top: 5%;
     }
     .policyList #policyListText{
         font-size: 16px;
@@ -266,13 +305,14 @@
         text-align: justified;
         width:388px;
     }
-    .policy #personalTitle1{
+    .policy #personalTitle1 {
         font-size: 18px;
         font-weight: 600;
         line-height: 36px;
         letter-spacing: 0em;
         text-align: left;
-        width:388px;
+        width: 388px;
+        margin-top: 6%;
     }
     .policy #emailText{
         font-size: 16px;
@@ -285,11 +325,25 @@
     .policy #attention{
         width: 388px;
     }
+    .privacyVenzo #privacyText {
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        left: 0px;
+        top: 125px;
+    }
 } 
 @media screen and (max-width:376px) {
     .policy #firstPara{  
         width: 330px;
         font-size: 14px;
+    }
+    .privacyVenzo .privacyBG {
+        height: auto;
+        margin-top: 24%;
     }
     .policy #personalTitle{
         width: 330px;

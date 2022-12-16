@@ -41,7 +41,7 @@ function policyVenzo() {
                   Privacy Officer
                   <br/>Venzo Technologies<br></br>
                   No.236, 8th Floor, Purva Primus,<br></br>
-                  Thoraipakkam, Chennai 600 097.
+                  Thoraipakkam,Chennai 600 097.
                  </p>
             
              </div>

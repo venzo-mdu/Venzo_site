@@ -92,6 +92,10 @@ body{
         height: 100vh;
         display: block;
     }
+    .improveSoftware {
+        padding: 34% 10%;
+        margin-top: 0%;
+    }
 }
 @media screen and (max-width:380px){
     .improve{
@@ -106,8 +110,9 @@ body{
     .improveSoftware{
         padding: 20% 10%;
     }
-    #improveSoftwareLine1{
-        font-size: 32px;
+    #improveSoftwareLine1 {
+        font-size: 22px;
+        margin-top: 12%;
     }
     #improveSoftwareLine2{
         margin: 10% 0 0 0;

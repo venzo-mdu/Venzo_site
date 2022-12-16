@@ -75,8 +75,8 @@ marquee {
 
 .toolTypes .jira {
     color: white;
-    font-size: 16px;
-    margin: 0 0 0 5%;
+    font-size: 30px;
+    margin: 0% 0 0 5%;
     font-family: poppins-medium;
 }
 
@@ -93,6 +93,12 @@ marquee {
         font-size: 70px;
         margin: 2% 0 0 0;
         width: 185%;
+    }
+    .testingCard .types .types1 {
+        color: #FFFFFF;
+        font-family: poppins-medium;
+        line-height: 2.5;
+        margin: 0 0 0 5%;
     }
 }
 

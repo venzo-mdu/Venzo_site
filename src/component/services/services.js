@@ -7,8 +7,8 @@ function services() {
         <div>
 
                 <div className='section2'>
-                    <p className='Dm_heading'>Services</p>
-                    <p className='Dm_subheading'>We built the best-in-class software solutions that bring <strong >enhanced growth to your business</strong></p>
+                    <p className='Dm_heading dmheading'>Services</p>
+                    <p className='Dm_subheading'>Ready to test any custom software for Corporates, Retail Banks,<strong> Trade Finance & Investment Banking companies. </strong></p>
                 </div>
             {servicesData.map(item => {
                 return <div >
