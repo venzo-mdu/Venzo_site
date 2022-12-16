@@ -9,140 +9,141 @@ function Endtoend() {
         setActive(va)
         if (va == 'brand') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your  1.\
+            Automated Testing 1.\
             </font>\
             <br>\
             <br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Our end-to-end automated testing services enable you to automate test cases and release your bug-free products to the market faster. \
             </font>\
     ";
         }
         else if (va === 'sales') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 2.\
+            Security Testing 2.\
             </font>\
             <br>\
             <br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            QA engineers at Venzo conduct comprehensive security assessments of your products to identify and eliminate security vulnerabilities.\
             </font>\
     ";
         }
         else if (va === 'lead') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 3.\
+            Mobile Testing 3.\
             </font>\
             <br>\
             <br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Our QA specialists test and optimize your application to run smoothly on all mobile devices, resolution displays, and platforms.\
             </font>\
     ";
         }
         else if (va === 'se') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 4.\
+            Performance Testing 4.\
             </font>\
             <br>\
             <br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Never worry about scalability again, as Venzo’s performance testing services ensure that your application consistently delivers top-notch performance.\
             </font>\
     ";
         }
         else if (va === 'online') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 5.\
+            Accessibility Testing 5.\
             </font>\
             <br>\
             <br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Our accessibility testing services focus on making your application available to users across multiple devices and platforms, thereby providing greater reach.\
             </font>\
     ";
         }
-        else if (va === 'social') {
-            container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 6.\
-            </font>\
-            <br>\
-            <br>\
-            <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
-            </font>\
-    ";
-        }
+    //     else if (va === 'social') {
+    //         container.innerHTML = "<font size=4 color=black>\
+    //         We offer refined customized applications that streamline your 6.\
+    //         </font>\
+    //         <br>\
+    //         <br>\
+    //         <font size=3 color=gray>\
+    //         Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+    //         </font>\
+    // ";
+    //     }
     }
   return (
       <section>
           <div className='endtoendSolutions'>
           <div className='section5'>
-                    <p className='sect51_title'> End to End Banking solutions</p> 
+                    <p className='sect51_title'> End to End Bank Testing Services </p> 
+                    <p id='endtoendpara'>Our QA & Software Testing Services are designed to take down all obstacles in Corporate Financing, Consumer Finance, Investments, and Commercial Banking.  </p>
                 </div>
 
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
-                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Brand Promotion</li>
-                        <li className={active === 'sales' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('sales')}>Increase Sales</li>
-                        <li className={active === 'lead' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('lead')}>Lead Generation</li>
-                        <li className={active === 'se' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('se')}>SE ranking</li>
-                        <li className={active === 'online' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('online')}>Online Reputation</li>
-                        <li className={active === 'social' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('social')}>Social media engagement</li>
+                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Automated Testinging</li>
+                        <li className={active === 'sales' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('sales')}>Security Testing </li>
+                        <li className={active === 'lead' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('lead')}>Mobile Testing </li>
+                        <li className={active === 'se' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('se')}>Performance Testing </li>
+                        <li className={active === 'online' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('online')}>Accessibility Testing </li>
+                        {/* <li className={active === 'social' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('social')}>Social media engagement</li> */}
                     </ul>
                     <div className='card1'>
-                        <p> We offer refined customized applications that streamline your. </p>
-                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p>Automated Testing </p>
+                        <p className='subTitle'>Our end-to-end automated testing services enable you to automate test cases and release your bug-free products to the market faster. </p>
                     </div>
                 </div>
                 <div className='section51'>
                 <Accordion defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
-                        <Accordion.Header>Business consulting</Accordion.Header>
+                        <Accordion.Header>Automated Testing </Accordion.Header>
                         <Accordion.Body className=' cardbox'>
-                            <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                            <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                            <p className='cardtitle'>Automated Testing</p>
+                            <p className='carddesc'>Our end-to-end automated testing services enable you to automate test cases and release your bug-free products to the market faster.  </p>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header>Production Designing</Accordion.Header>
+                        <Accordion.Header>Security Testing </Accordion.Header>
                         <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p className='cardtitle'>Security Testing</p>
+                        <p className='carddesc'>QA engineers at Venzo conduct comprehensive security assessments of your products to identify and eliminate security vulnerabilities.</p>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
-                        <Accordion.Header>Product Development</Accordion.Header>
+                        <Accordion.Header>Mobile Testing </Accordion.Header>
                         <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p className='cardtitle'>Mobile Testing</p>
+                        <p className='carddesc'>Our QA specialists test and optimize your application to run smoothly on all mobile devices, resolution displays, and platforms.</p>
 
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
-                        <Accordion.Header>Tools Developmen</Accordion.Header>
+                        <Accordion.Header>Performance Testing </Accordion.Header>
                         <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p className='cardtitle'>Performance Testing.</p>
+                        <p className='carddesc'>Never worry about scalability again, as Venzo’s performance testing services ensure that your application consistently delivers top-notch performance.</p>
 
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5">
-                        <Accordion.Header>QA Engineering</Accordion.Header>
+                        <Accordion.Header>Accessibility Testing</Accordion.Header>
                         <Accordion.Body className=' cardbox'>
-                        <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                        <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p className='cardtitle'>Accessibility Testing </p>
+                        <p className='carddesc'>Our accessibility testing services focus on making your application available to users across multiple devices and platforms, thereby providing greater reach.</p>
 
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="6">
+                    {/* <Accordion.Item eventKey="6">
                         <Accordion.Header>Support Services</Accordion.Header>
                         <Accordion.Body className=' cardbox'>
                         <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
                         <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
 
                         </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
                 </Accordion>
 
                 </div>

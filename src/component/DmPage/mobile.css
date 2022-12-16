@@ -798,16 +798,17 @@
 
     .Dm_heading {
         font-family: "Poppins", Sans-serif;
-        font-size: 45px;
-        font-weight: 600;
-        font-style: normal;
-        line-height: 45px;
-        text-align: center;
-        margin-top: 25%;
-        background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding-bottom: 2%;
+    font-size: 50px !important;
+    font-weight: 600;
+    padding-top: 11%;
+    font-style: normal;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 25%;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 2%;
     }
 
     .Dm_subheading {

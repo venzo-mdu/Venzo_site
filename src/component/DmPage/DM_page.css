@@ -439,7 +439,7 @@ button:focus:not(:focus-visible) {
     color: black;
     background-color: white;
     box-shadow: none
-} */
+} 
 
 .freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;
