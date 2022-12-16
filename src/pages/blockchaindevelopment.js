@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Carousel from 'react-bootstrap/Carousel';
-import productImage from '../images/blockchaindevelopment/nftImg.png'
+import productImage from '../images/blockchaindevelopment/nftimg.png'
 import borderLine from '../images/borderLine.png'
 
 
