@@ -164,6 +164,13 @@
         margin-top: 5%;
         margin-bottom: 4%;
     }
+    .policy #emailText {
+        margin-left: 2%;
+    }
+    .policy #attention {
+        margin-left: 2%;
+        width: 18%;
+    }
     .policy #personalTitle1 {
         font-family: Poppins;
         font-size: 18px;

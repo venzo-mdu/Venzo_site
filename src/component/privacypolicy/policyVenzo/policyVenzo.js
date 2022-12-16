@@ -39,8 +39,8 @@ function policyVenzo() {
                  <p id='attention'>
                  <span id='attentionText'>Attention: <br/></span>
                   Privacy Officer
-                  <br/>Venzo Technologies
-                  No.236, 8th Floor, Purva Primus,
+                  <br/>Venzo Technologies<br></br>
+                  No.236, 8th Floor, Purva Primus,<br></br>
                   Thoraipakkam, Chennai 600 097.
                  </p>
             
