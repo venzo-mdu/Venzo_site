@@ -10,21 +10,16 @@ import './blogs.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
-import { useNavigate } from "react-router-dom";
 
-function blogs1() {
-    // function Blogdetail(props){
-    // let navigate = useNavigate();
-    //     return (
-    //         navigate("/blogsDetails", { state: props })
-    //     )
-    // }
+
+
+const Blogs1=() => {
+    
     const Blogdetail = (data) =>{
-    let navigate = useNavigate();
-        
         console.log("data", data)
-        navigate("/blogsDetails", { state: data })
-    }
+            navigate("/blogsDetails", { state:{data:data} })
+            
+  }
     return (
         <div>
             <Header flag='header1' />
@@ -38,31 +33,27 @@ function blogs1() {
                 <p className='categories'>All Categories</p>
                 <input placeholder='search' className='searchBox'></input>
             </div>
-
             <hr className='sect2_hr'></hr>
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
+
                     {blogsList.map((item,index)=> {
-                        console.log(item.route);
-                        return (
-                 <Card style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item)}>
+                        return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={()=> Blogdetail(item)}>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
                                     <Card.Subtitle className='blogsubtitile'> {item.subTitle}</Card.Subtitle>
-                                   <Card.Title className='blogsTitile' >{item.title1}</Card.Title>
+                                    <Card.Title   className='blogsTitile' >{item.title1}</Card.Title>
                                     <Card.Text className='blogsdesc'>{item.content1}</Card.Text>
                                 </Card.Body>
                             </Card>
-                        );
-                    })
-                    }
+                    })}
                 </div>
                 <div className='blogsRight'>
                     <div className='slide1'>
                         <p>All Categories</p> <hr />
                         <p>Automated Testing</p><hr />
                         <p>Mobile App Development</p><hr />
-                        <p>Mobile App Development</p><hr />
+                        <p>Product Development</p><hr />
                         <p>Staff Augmentation</p><hr />
                         <p>Technology</p><hr />
                         <p>Web App Development</p>
@@ -79,4 +70,7 @@ function blogs1() {
     )
 }
 
-export default blogs1
+export default Blogs1
+
+
+

@@ -407,11 +407,7 @@ button:focus:not(:focus-visible) {
 }
 
 /* .accordion-button::after {
-<<<<<<< HEAD
     background-image: url("../../DMpage/pluse.png") !important;
-=======
-    background-image: url("../../DMpage/pluse.png");
->>>>>>> a6db08e89813979480e4308683e28742faa57c3f
     transform: scale(.7) !important;
 }
 
@@ -439,7 +435,7 @@ button:focus:not(:focus-visible) {
     color: black;
     background-color: white;
     box-shadow: none
-} */
+} 
 
 .freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;

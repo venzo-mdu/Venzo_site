@@ -1,8 +1,8 @@
 
 @media screen and (max-width: 425px) and (min-width: 377px) {
     .blogs_section1 {
-        padding: 15% 0 10% 0;
-        background-image: url("../../images/blogsPic/Rectangle\ 117.png");
+        padding: 25% 0 10% 0;
+        background-image: url("../../images/blogsPic/Rectangle117.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100vw;
@@ -190,7 +190,7 @@
 @media screen and (max-width: 376px) {
     .blogs_section1 {
         padding: 15% 0 10% 0;
-        background-image: url("../../images/blogsPic/Rectangle\ 117.png");
+        background-image: url("../../images/blogsPic/Rectangle117.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100vw;

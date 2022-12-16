@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../footer/footer'
 import Header from '../header/header'
-import Rectangle from '../../images/Rectangle 118.png'
+import Rectangle from '../../images/colorLine.png'
 import phone from '../../images/phone.png'
 import mail from '../../images/mail.png'
 import location from '../../images/location.png'

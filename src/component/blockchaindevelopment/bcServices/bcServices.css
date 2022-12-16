@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 1250px;
-    z-index: -1;
 }
 
 .innerbcServices {
@@ -76,15 +75,7 @@
     grid-column-gap: 3%;
 
 }
-/* #smartcontarcts:hover{
-    border: 0.46px solid !important;
-    padding: 8% 5% 28%;
-    border-radius: 15px !important;
-    background-size: 100% 100% !important;
-    background-image: url("../../../images/blockchaindevelopment/cardbgHover.png") !important;
-    background-repeat: no-repeat !important;
-    cursor: pointer;
-} */
+
 
 .bcservicesCards:hover {
     border: 0.46px solid !important;

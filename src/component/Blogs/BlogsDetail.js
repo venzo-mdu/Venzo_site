@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
 import Header from '../header/header'
 import Footer from '../footer/footer'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-function BlogsDetail(props) {
+
+const BlogsDetail=({location}) =>{
     
+    console.log({location})
     return (
-    <div>
+       <div>
             <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
@@ -22,9 +24,9 @@ function BlogsDetail(props) {
             <hr className='sect2_hr'></hr>
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
-                    {blogsList.map(item => {
+                    {blogsList.map((item,index )=> {
                         return (
-                            <Card style={{ width: '23rem' }} className="card12">
+                            <Card key={index} style={{ width: '23rem' }} className="card12">
                                 <Card.Title className='blogsTitile'>{item.title1}</Card.Title>
                                 <Card.Subtitle className='blogsubtitile'>{item.subTitle}</Card.Subtitle>
                                 <Card.Img variant="top" src={item.images} />

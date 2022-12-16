@@ -12,7 +12,8 @@ body {
     overflow-x: hidden;
     cursor: default;
 }.help {
-    background: url('../../images/Rectangle\ 117.png'), #0A1020;
+    background: url('../../images/blogsbgImg.png');
+    color:  #0A1020;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10%;

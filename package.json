@@ -44,5 +44,15 @@
   },
   "devDependencies": {
     "gatsby-plugin-material-ui": "^4.1.0"
-  }
+  },
+  "main": "gatsby-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venzo-mdu/Venzo_site.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venzo-mdu/Venzo_site/issues"
+  },
+  "homepage": "https://github.com/venzo-mdu/Venzo_site#readme"
 }
