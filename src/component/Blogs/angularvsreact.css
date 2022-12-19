@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.angularBlog{
+    display: flex;
+    margin-left: 6%;
+   
+}
+.angularLef{
+    width: 70%;
+    margin-bottom: 6%;
+    padding-top: 7%;
+   
+}
+.blogsRight1{
+    width: 20%;
+    margin-left: 0%;
+    padding-top: 7%;
+}
+.angulatTitle1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 142.5%;
+    /* identical to box height, or 46px */
+    color: #000000;
+    width: 74%;
+}
+.angulatTitle1flex{
+    display: flex;
+}
+.AngularDate{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142.5%;
+    color: #6C6C6C;
+}
+.AnguarPrd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 200%;
+    color: #165EA0;
+    margin-top: -7px;
+    margin-left: 2%;
+
+}
+.angularvsreact{
+    width: 1049px;
+}
+.angularCont{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    width: 1036px;
+    margin-top: 3%;
+
+}
+.Significance{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 142.5%;
+    width: 1054px;
+    color: #000000;
+}
+.angularCont strong{
+    font-weight: 600;
+}

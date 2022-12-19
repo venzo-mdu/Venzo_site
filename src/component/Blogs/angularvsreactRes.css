@@ -1,0 +1,205 @@
+@media screen and (max-width:1705px) and (min-width:1024px) {
+    
+body{
+    margin: 0;
+    padding: 0;
+}
+.angularBlog{
+    display: flex;
+    margin-left: 6%;
+   
+}
+.angularLef{
+    width: 70%;
+    margin-bottom: 6%;
+    padding-top: 3%;
+}
+.blogsRight1{
+    width: 20%;
+    margin-left: 0%;
+    padding-top: 10%;
+}
+.angulatTitle1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 142.5%;
+    /* identical to box height, or 46px */
+    color: #000000;
+    width: 74%;
+    padding-top: 10%;
+}
+.angulatTitle1flex{
+    display: flex;
+}
+.AngularDate{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142.5%;
+    color: #6C6C6C;
+}
+.AnguarPrd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 200%;
+    color: #165EA0;
+    padding-top: 2px;
+    margin-left: 2%;
+
+}
+.angularvsreact{
+    width: 790px;
+}
+.angularCont{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    width: 787px;
+    margin-top: 3%;
+
+}
+.Significance{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 142.5%;
+/* identical to box height, or 26px */
+
+width: 816px;
+color: #000000;
+}
+.angularCont strong{
+    font-weight: 600;
+}
+}
+
+
+@media screen and (max-width:1024px) and (min-width:768px)
+{
+    .angularLef {
+        margin-top: 0%;
+    }
+    .blogsRight1 {
+        margin-top: 13%;
+    }
+    .angularvsreact {
+        width: 913px;
+    }
+    .angularCont {
+        font-size: 16px;
+        width: 910px;
+    }
+    .Significance {
+        font-size: 23px;
+        width: 929px;
+    }
+    .angularBlog {
+        display: block;
+        margin-left: 5%;
+    }
+    .angulatTitle1 {
+        padding-top: 19%;
+        width: 768px;
+    }
+    .angularCont1{
+        width: 872px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:425px)
+{
+    .angularBlog {
+        display: block;
+        margin-left: 5%;
+    }
+    .blogsRight1 {
+        margin-top: 17%;
+    }
+    .angulatTitle1 {
+        padding-top: 23%;
+        width: 677px;
+    }
+    .angularvsreact {
+        width: 687px;
+    }
+    .angularCont {
+        font-size: 15px;
+        width: 685px;
+    }
+    .Significance {
+        font-size: 19px;
+        width: 689px;
+    }
+    .angularCont1 {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width:425px) and (min-width:375px)
+{
+    .angularBlog {
+        display: block;
+        margin-left: 5%;
+    }
+    .angulatTitle1 {
+        padding-top: 29%;
+        width: 405px;
+        font-size: 23px;
+    }
+    .angulatTitle1flex {
+        display: flex;
+        width: 300px;
+    }
+    .angularvsreact {
+        width: 380px;
+    }
+    .angularCont {
+        font-size: 15px;
+        width: 376px;
+    }
+    .Significance {
+        font-size: 18px;
+        width: 393px;
+    }
+    .angularCont1 {
+        width: 347px;
+    }
+
+}
+
+@media screen and (max-width:375px)
+{
+    .angularBlog {
+        display: block;
+        margin-left: 5%;
+    }
+    .angulatTitle1 {
+        padding-top: 34%;
+        width: 305px;
+        font-size: 22px;
+    }
+    .angularvsreact {
+        width: 334px;
+    }
+    .angularCont {
+        font-size: 14px;
+        width: 335px;
+    }
+    .Significance {
+        font-size: 17px;
+        width: 352px;
+    }
+    .angularCont1 {
+        width: 299px;
+    }
+}

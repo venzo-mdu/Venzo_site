@@ -60,7 +60,7 @@ a {
 
 #headerSection {
     background-color: #0a1020;
-    z-index: 0 !important;
+    z-index: 1 !important;
     height: 90px;
 }
 .active-link{
