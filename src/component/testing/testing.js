@@ -21,10 +21,9 @@ function testing() {
                        <div className='types2'>
                            <ul>
                                <li>Usability Testing</li>
-                               <li>Performance Testing</li>
+                               <li>Penetration Testing </li>
                                <li>UI Testing</li>
                                <li>API Testing</li>
-                               <li>Transaction Testing</li>
                            </ul>
                        </div>
                    </div>

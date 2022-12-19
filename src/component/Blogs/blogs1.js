@@ -11,22 +11,33 @@ import './laptop.css'
 import './tab.css'
 import './mobile.css'
 
+// const Blogs1=() => {
+function Blogs1(){    
 
-
-const Blogs1=() => {
-    
-    const Blogdetail = (data) =>{
-        console.log("data", data)
-            navigate("/blogsDetails", { state:{data:data} })
-            
+    const Blogdetail = (blog) =>{
+        console.log("data", blog)
+        navigate('/blog/${blog}')
   }
+
+
+//  const Blogdetail = ({ actions }) => {
+//     const { createPage } = actions;
+  
+//     createPage({
+//       path: '/projects/hello-world',
+//       component: SingleProject,
+//       context: {
+//         id: 'hello-world',
+//       },
+//     });
+//   };
+
     return (
         <div>
             <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
                 <p className='Blogs_title'>Blogs</p>
-
                 <p className='Blogs_desc'>Explore our vast library of fascinating IT technology resources. Subject matter experts create our blogs to help you learn about and understand essential digital innovations.</p>
             </div>
             <div className='blogs_section2'>
@@ -38,7 +49,7 @@ const Blogs1=() => {
                 <div className='blogs_cardlist'>
 
                     {blogsList.map((item,index)=> {
-                        return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={()=> Blogdetail(item)}>
+                        return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={()=> Blogdetail(item.route)}>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
                                     <Card.Subtitle className='blogsubtitile'> {item.subTitle}</Card.Subtitle>

@@ -18,7 +18,6 @@ import youtube from '../../images/youtube.png'
 function contactUs() {
     return (
         <div>
-            <Header flag='header1' />
             <Header flag='header2' />
             <div className='help'>
                 <p className='helpTitle1'>We are here to Help!</p>

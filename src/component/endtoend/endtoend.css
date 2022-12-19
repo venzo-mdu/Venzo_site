@@ -9,6 +9,66 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width:1705px) and (min-width:1024px)
+{
+    #endtoendpara{
+        margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 775px)
+{
+    #improveSoftwareLine1 {
+        font-size: 35px;
+        margin-top: -4%;
+        width: 58%;
+    }
+.improveSoftware {
+    padding: 23% 5% 0;
+}
+.Dm_heading {
+    font-family: "Poppins", Sans-serif;
+    font-size: 99px !important;
+}
+.Dm_subheading {
+    width: 71%;
+    margin-left: 15%;
+}
+.ourapproachQA h1 {
+    font-size: 54px;
+    margin: 6% 0 0 0;
+}
+.cardList {
+    display: flex;
+    height: auto !important;
+    padding-top: 7%;
+    background-image: url(/static/Background-1-2aae4f5….jpg);
+    background-repeat: no-repeat;
+    background-position-x: 2vw;
+    background-position-y: -4vh;
+}
+}
+@media screen and (max-width: 770px) and (min-width: 380px){
+    #improveSoftwareLine1 {
+        font-size: 24px;
+        margin-top: -6%;
+    }
+    
+    .Dm_heading {
+        font-family: "Poppins", Sans-serif;
+        font-size: 80px !important;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 168px;
+        text-align: center;
+        margin-top: -1% !important;
+        margin-left: 6%;
+        background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
 
 @media screen and (max-width:425px){
     .sect51_title {
@@ -23,4 +83,23 @@
         -webkit-text-fill-color: transparent;
     }
     
+}
+@media screen and (max-width:375px){
+.sect51_title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 45px;
+    text-align: center;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.customerExperiance {
+    display: block;
+    padding-top: 15%;
+    height: auto !important;
+    padding-bottom: 16% !important;
+}
 }

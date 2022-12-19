@@ -39,7 +39,7 @@ a {
 }
 
 .header .links ul {
-    margin: 0% 30%;
+    margin: -.5% 30%;
     width: 100%;
 
 }
@@ -60,7 +60,7 @@ a {
 
 #headerSection {
     background-color: #0a1020;
-    z-index: 1 !important;
+    z-index: 0 !important;
     height: 90px;
 }
 .active-link{

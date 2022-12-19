@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import "../header/header.css"
 import Hamburger from '../hamburger/hamburger'
 import Venzologo1 from "../../images/venzoWhite.png"
+import Venzologo2 from "../../images/Venzo Color logo.svg"
 import HeaderData from "../../content/headerData.json"
 import ToggleIcon from "../../images/toggleIcon.png"
 import { Link } from 'gatsby'
@@ -9,6 +10,26 @@ import { Link } from 'gatsby'
 function Header(props) {
     console.log("props",props.flag)
     const[open,setOpen]=useState(false);
+    const[navbarLogo,setnavbarLogo]=useState(Venzologo1);
+
+    const changeLogo = () => {
+        if (window.scrollY >= 790) {
+            setnavbarLogo(Venzologo2)
+        } else {
+            setnavbarLogo(Venzologo1)
+        }
+      }
+    
+      useEffect(() => {
+        if(props.flag!=='header2'){
+          changeLogo()
+          window.addEventListener("scroll", changeLogo)
+        }else{
+          setnavbarLogo(Venzologo2)
+        }
+       
+      })
+
     const openmodal=()=>{
         setOpen(true)
     }
@@ -21,7 +42,7 @@ function Header(props) {
    <header>
         <div id={props.flag == 'header2'?'headerSection':' '} className='header'>
        <div className='logo'>
-           <img className='venzohome' src={Venzologo1} alt='logoIcon'></img>
+         <Link to='/'><img className='venzohome' src={navbarLogo} alt='logoIcon'></img></Link>  
        </div>
            <div className='links'>
            {/* <ul>

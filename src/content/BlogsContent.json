@@ -3,14 +3,13 @@
         "images": "../images/blogsPic/blog0.png",
         "title1": "New Product Development; Winner’s Guide",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …",
-        "subTitle":"Automated Testing   |   May 26, 2022",
-        "route":"/blogsDetails"
-        
+        "subTitle":"Product Development   |   May 26, 2022",
+        "route":"newproduct"
        },
     {
         "images": "../images/blogsPic/blog1.png",
         "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
-        "subTitle":" Product Development   |   February 16, 2022",
+        "subTitle":"Automated Testing   |   February 16, 2022",
         "route":"/blogsDetails",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
     },

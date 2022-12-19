@@ -42,7 +42,12 @@
     margin: 0 0 0 5%;
 
 }
-
+.types1 ul li{
+    color: white;
+}
+.types2 ul li{
+    color: white;
+}
 .testingCard .types .types2 {
     color: white;
     font-family: poppins-medium;
@@ -172,11 +177,10 @@
 
     .testing .typesTesting h1 {
         font-size: 35px;
-        width: 75%;
+        width: 93%;
         text-align: center;
-        margin: 0 0 0 12%;
+        margin: 0 0 0 3%;
     }
-
     .testing .typesTesting .testingCard {
         height: 75vh;
         width: 90%;
@@ -194,6 +198,12 @@
     .testingCard .types .types2 {
         margin: 0 0 0 10%;
     }
+    .customerExperiance {
+        display: block;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        height: 224px;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -206,7 +216,7 @@
     }
 
     .testing .typesTesting h1 {
-        font-size: 50px;
+        font-size: 29px;
         width: 75%;
         text-align: center;
         margin: 0 0 0 12%;
@@ -229,4 +239,5 @@
     .testingCard .types .types2 {
         margin: 0 0 0 10%;
     }
+
 }
