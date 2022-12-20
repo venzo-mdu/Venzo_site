@@ -10,36 +10,44 @@
         "images": "../images/blogsPic/blog1.png",
         "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
         "subTitle":"Automated Testing   |   February 16, 2022",
-        "route":"/blogsDetails",
+        "route":"topmobile",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
     },
     {
         "images": "../images/blogsPic/blog2.png",
-        "title1": "New Product Development; Winner’s Guide",
-        "subTitle":"Automated Testing   |   May 26, 2022",
-        "route":"/blogsDetails",
-        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+        "title1": "How To Choose Between React Native And Ionic For Your App",
+        "subTitle":"Technology   |   December 20, 2021",
+        "route":"topmobile",
+        "content1": "React Native and Ionic are two such technologies for creating user interfaces that are extensively used by developers..."
     },
     {
         "images": "../images/blogsPic/blog3.png",
-        "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
-        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …",
-        "subTitle":" Product Development   |   February 16, 2022",
-        "route":"/blogsDetails"
+        "title1": "Top-15 Mobile App Ideas that Will Drive Your Start-Up Ahead",
+        "content1": "Introduction A terrific app idea is what drives your start-up business ahead and enables you to spin money. It is an online …",
+        "subTitle":" Mobile APP Development    |   November 29, 2021 ",
+        "route":"topmobile"
 
     },
     {
         "images": "../images/blogsPic/blog4.png",
-        "title1": "New Product Development; Winner’s Guide",
-        "subTitle":"Automated Testing   |   May 26, 2022",
-        "route":"/blogsDetails",
-        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+        "title1": "Significant Benefits and Why Your Company Requires IT Staff Augmentation Services",
+        "subTitle":"Staff Augmentation   |   November 29, 2021",
+        "route":"staffblog",
+        "content1": "Let’s explore benefits and why your company needs IT Staff Augmentation Services for swifter business success.  …"
     },
     {
-        "images": "../images/blogsPic/blog5.png",
-        "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
-        "subTitle":" Product Development   |   February 16, 2022",
-        "route":"/blogsDetails",
-        "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
+        "images": "../images/blogsPic/autotestingimg1.webp",
+        "title1": "Why should banks invest in automated testing for their software?",
+        "subTitle":"Automated Testing | November 29th, 2021",
+        "route":"autotesting",
+        "content1": "Introduction Banking business priorities have shifted towards optimizing internal cost structures and identifying  …"
+    },
+    {
+        "images": "../images/blogsPic/AngularVSReact.webp",
+        "title1": "Angular JS vs React Js: Which is Better for You?",
+        "subTitle":"Technology | November 29, 2021",
+        "route":"angularvsreact",
+        "content1": "The ability to develop robust and reliable web applications in a shorter time using a high functionality framework is the common requirement  …"
     }
+
 ]

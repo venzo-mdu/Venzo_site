@@ -46,7 +46,7 @@ function topmobile() {
                 <p className='newproductIntro'>Conclusion</p>
                 <p className='newproductIntroDesc'>As we have seen in several modern global businesses, the success of a modern start-up relies largely on a unique idea. It is the innovative, useful mobile app idea that can resolve people’s needs while attracting the masses that propels your business ahead of the competition today.</p>
             </div>
-            <div className='blogsRight1'>
+            <div className='blogsRight blogsRight1'>
                 <div className='slide1'>
                     <p>All Categories</p> <hr />
                     <p>Automated Testing</p><hr />

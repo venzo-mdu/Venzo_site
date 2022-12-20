@@ -7,7 +7,7 @@
         width: 100vw;
         height: 450px;
     }
-    
+
     .Blogs_title {
         font-family: 'Poppins';
         font-style: normal;
@@ -18,7 +18,7 @@
         letter-spacing: -0.04em;
         color: #FFFFFF;
     }
-    
+
     .Blogs_desc {
         font-family: 'Poppins';
         font-style: normal;
@@ -30,22 +30,22 @@
         width: 55%;
         margin-left: 23%;
     }
-    
+
     .blogs_section2 {
         display: flex;
         margin-top: 2%;
         margin-left: 10%;
     }
-    
+
     .searchBox {
         padding: 0.5%;
         background: #F6F6F6;
         border-radius: 8px;
-        margin-left: 40%;
+        margin-left: 65%;
         width: 27%;
-        padding-left: 3%;
+        padding-left:3%;
     }
-    
+
     .categories {
         font-family: 'Poppins';
         font-style: normal;
@@ -55,31 +55,31 @@
         letter-spacing: -0.04em;
         color: #000000;
     }
-    
+
     .sect2_hr {
         width: 84%;
         margin-left: 8%;
         margin-top: 2%;
     }
-    
+
     .blogs_section3 {
         display: block;
         margin-bottom: 10%;
     }
-    
+
     .blogs_cardlist {
         display: grid;
         grid-template-columns: 60% 1fr;
         margin-right: 20%;
         margin-top: 3%;
     }
-    
+
     .card11 {
         margin-bottom: 5%;
         margin-left: 25%;
         z-index: -1;
     }
-    
+
     .blogsubtitile {
         font-family: 'Poppins';
         font-style: normal;
@@ -89,7 +89,7 @@
         color: #165EA0;
         padding: 3% 0 0;
     }
-    
+
     .blogsTitile {
         font-family: 'Poppins';
         font-style: normal;
@@ -98,9 +98,9 @@
         line-height: 142.5%;
         color: #000000;
         padding: 5% 0;
-    
+
     }
-    
+
     .blogsdesc {
         font-family: 'Poppins';
         font-style: normal;
@@ -111,23 +111,23 @@
         color: #6C6C6C;
         padding-bottom: 5%;
     }
-    
+
     .blogsRight {
+        margin-top: 3%;
+        display: flex;
+        margin-left: 11%;
+        width: 100%;
+    }
+
+    .slide1 {
+        margin-right: 10%;
         background: #FFFFFF;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
         border-radius: 12px;
-        padding: 3%;
-        margin-top: 3%;
-        width: 25%;
-        display: flex;
-        margin-left: 11%;
+        padding:2%;
+        height: 410px;
     }
-    
-    .slide1 {
-        margin-bottom: 50%;
-        margin-right: 45%;
-    }
-    
+
     .slide1 p {
         font-family: 'Poppins';
         font-style: normal;
@@ -136,41 +136,44 @@
         line-height: 120%;
         letter-spacing: -0.02em;
         color: #A4A4A4;
-        width: 17vw;
 
     }
-    
+
     .slide1 p:hover {
         color: #000;
         cursor: pointer;
     }
-    
+
     .slide2 {
-        margin-top: -16%;
+        margin-top: 0%;
         background: #FFFFFF;
         box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
         border-radius: 12px;
-        margin-left: 5%;
-        padding-top: 19%;
+        padding-top: 4%;
         display: flex;
-        width: 55vw;
+        margin-left: -5%;
+        height: 450px;
+
     }
-    .slide2 p{
+
+    .slide2 p {
         font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 120%;
-    letter-spacing: -0.02em;
-    color: #000000;
-    padding-left: 5%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: #000000;
+        padding-left: 5%;
+
     }
-    .slide2 img{
+
+    .slide2 img {
         margin: 6%;
         padding-bottom: 5%;
         width: 26vw;
         margin-left: -6%;
         padding-right: 3%;
-}
-    
+    }
+
 }

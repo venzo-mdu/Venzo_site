@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Header from '../header/header'
 import Footer from '../footer/footer'
 import blogsList from '../../content/BlogsContent.json'
@@ -13,6 +13,17 @@ import './mobile.css'
 
 // const Blogs1=() => {
 function Blogs1(){    
+
+    const [search, setSearch] =useState('')
+
+
+    const searchresult =()=>{
+        if(search.length >0){
+            return blogsList.filter(obj =>obj.subTitle.toLowerCase().includes(search.toLowerCase()))
+        }
+        return blogsList
+    }
+
 
     const Blogdetail = (blog) =>{
         console.log("data", blog)
@@ -33,7 +44,7 @@ function Blogs1(){
 //   };
 
     return (
-        <div>
+        <div className='blogbody'>
             <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
@@ -41,14 +52,14 @@ function Blogs1(){
                 <p className='Blogs_desc'>Explore our vast library of fascinating IT technology resources. Subject matter experts create our blogs to help you learn about and understand essential digital innovations.</p>
             </div>
             <div className='blogs_section2'>
-                <p className='categories'>All Categories</p>
-                <input placeholder='search' className='searchBox'></input>
+                <p className='categories'></p>
+                <input placeholder='search' className='searchBox' onChange={(e) => setSearch(e.target.value)}></input>
             </div>
             <hr className='sect2_hr'></hr>
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
 
-                    {blogsList.map((item,index)=> {
+                    {searchresult().map((item,index)=> {
                         return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={()=> Blogdetail(item.route)}>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
@@ -76,7 +87,6 @@ function Blogs1(){
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

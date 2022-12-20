@@ -16,7 +16,7 @@ import Footer from '../component/footer/footer'
 
 function blockchaindevelopment() {
   return (
-    <>
+    <div className='blockchainbody'>
       <Header flag='header2' />
       <BCBanner />
       <BCNetwork />
@@ -86,7 +86,7 @@ function blockchaindevelopment() {
         <button className=' btn buildtalk'>Let's talk</button>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

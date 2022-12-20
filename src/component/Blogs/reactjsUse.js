@@ -34,7 +34,7 @@ function reactjsUse() {
                 <p className='reactuseIntro'>Conclusion</p>
                 <p className='reactuseIntroDesc'>The popularity of ReactJS will inevitably continue to grow. With the increasing competition to take the best out of the framework, the need for skilled and experienced ReactJS developers is also expected to escalate. <br/><strong>Venzo</strong> provides world-class ReactJS developers and experts for your web app Development. Their end-to-end management of your requirements will help you stand out and attract more audiences with top-notch quality applications and websites.</p>
             </div>
-            <div className='blogsRight1'>
+            <div className='blogsRight blogsRight1'>
                 <div className='slide1'>
                     <p>All Categories</p> <hr />
                     <p>Automated Testing</p><hr />

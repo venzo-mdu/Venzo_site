@@ -31,7 +31,7 @@ function staffblog() {
                 <p className='staffintro'>Conclusion</p>
                 <p className='staffintroDesc'>So, <strong>IT staff augmentation companies </strong> offer several benefits when used precisely. Lower operational and software development costs, less legal or documentation work, lesser hiring pains, improved productivity, performance, and team size are the gains you will get with IT staff augmentation. <br/> <strong>Venzo </strong>is a leading custom software development, product Development, and enterprise application development company with highly skilled and proficient IT professionals. If you are exploring credible IT staff augmentation companies for your precise software project requirements, get in touch with us today!</p>
             </div>
-            <div className='blogsRight1'>  
+            <div className='blogsRight blogsRight1'>  
                 <div className='slide1'>
                     <p>All Categories</p> <hr />
                     <p>Automated Testing</p><hr />

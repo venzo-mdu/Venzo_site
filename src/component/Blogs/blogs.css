@@ -1,3 +1,8 @@
+.blogbody #headerSection{
+    z-index: 1 !important;
+}
+
+
 .blogs_section1 {
     padding: 15% 0 10% 0;
     background-image: url("../../images/blogsPic/Rectangle117.png");
@@ -40,7 +45,7 @@
     padding: 0.5%;
     background: #F6F6F6;
     border-radius: 8px;
-    margin-left: 55%;
+    margin-left: 75%;
 }
 
 .categories {
@@ -75,6 +80,7 @@
 .card11 {
     margin-bottom: 5%;
     margin-left: 25%;
+    height: 450px;
 }
 
 .blogsubtitile {
@@ -110,17 +116,16 @@
 }
 
 .blogsRight {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 12px;
-    padding: 3%;
-    height: 400px;
     margin-top: 3%;
     width: 20%;
 }
 
 .slide1 {
-    margin-bottom: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 3%;
+    padding-top: 10%;
 }
 
 .slide1 p {
@@ -131,6 +136,8 @@
     line-height: 120%;
     letter-spacing: -0.02em;
     color: #A4A4A4;
+    padding-left: 8%;
+
 }
 
 .slide1 p:hover {
@@ -139,13 +146,12 @@
 }
 
 .slide2 {
-    margin-top: 5%;
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
-    margin-left: -20%;
-    width: 145%;
-    padding-top: 5%;
+    padding-top: 15%;
+    margin-top: 10%;
+
 }
 .slide2 p{
     font-family: 'Poppins';
