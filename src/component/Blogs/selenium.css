@@ -138,7 +138,7 @@
         font-size: 30px;
         line-height: 142.5%;
         color: #000000;
-        width: 801px;
+        width: 767px;
     }
     .seleniumTtiel {
         font-size: 25px;
@@ -146,11 +146,14 @@
     }
     .seleniumCont {
         font-size: 18px;
-        width: 787px;
+        width: 856px;
         margin-top: 3%;
     }
     .seleinumList {
         font-size: 18px;
+    }
+    .selenium1 {
+        width: 856px;
     }
 }
 @media screen and (max-width : 768px) and (min-width:425px) 

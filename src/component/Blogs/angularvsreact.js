@@ -10,11 +10,14 @@ function angularvsreact() {
     return (
         <div>
             <div className='productflex'>
-                <div className='newproductLeft'>
-                    <p className='newproductTitle'>Angular JS vs React Js: Which is Better for You?</p>
-                    <p className='newproductsubtitle'>May 26th, 2022 | Product Development</p>
+                <div className='angularLef'>
+                    <p className='angulatTitle1'>Angular JS vs React Js: Which is Better for You?</p>
+                    <div className='angulatTitle1flex'>
+                        <p className='AngularDate'>May 26th, 2022    |</p>
+                        <p className='AnguarPrd'>Product Development</p>
+                    </div>
                     <img src={angularreact} className='angularvsreact' />
-                    <p className='newproductIntro'>Introduction</p>
+                    <p className='Significance'>Introduction</p>
                     <p className='angularCont'>The ability to develop robust and reliable web applications in a shorter time using a high functionality framework is the common requirement among modern business enterprises, regardless of their size and type. The two major frameworks that are being used extensively in the contemporary tech world are Angular JS and React JS.</p>
                     <p className='Significance '>The Significance of Choosing Between Angular JS and React JS</p>
                     <p className='angularCont'>Both Angular JS and React JS contribute to the tech-driven business ecosystem. These two are the most popular app development frameworks that facilitate businesses to achieve their unique objectives. To be able to identify which one suits you better, it is essential to understand the advantages and unique characteristics of each. Each business has its own unique development requirements. There is no ‘one bill fits all’ solution for powerful web development solutions. These necessitate a detailed analysis of Angular JS web development and React JS web development. A comparative study enables selecting the framework that works best for your business.</p>
@@ -63,7 +66,7 @@ function angularvsreact() {
                     <p className='Significance'>Conclusion</p>
                     <p className='angularCont'>Both Angular JS and React JS have their benefits and unique characteristics. Developers who look for simplicity and flexibility may go in for React JS, while those who need the best way of organizing and boosting their applications with a comprehensive tool might want to choose Angular JS. Venzo is a leading web application development service provider having skilled and experienced Angular JS and React JS professionals.</p>
                 </div>
-                <div className='blogsRight1'>
+                <div className='blogsRight'>
                     <div className='slide1'>
                         <p className='angularCont'>All Categories</p> <hr />
                         <p className='angularCont'>Automated Testing</p><hr />

@@ -2,21 +2,35 @@ body{
     margin: 0;
     padding: 0;
 }
-.angularBlog{
+/* .angularBlog{
     display: flex;
     margin-left: 6%;
    
+} */
+.productflex {
+    display: flex;
+    margin-bottom: 10%;
+    margin-top: 6;
+    padding-top: 11%;
+    margin-left: 6%;
 }
-.angularLef{
+.newproductLeft{
     width: 70%;
     margin-bottom: 6%;
-    padding-top: 7%;
-   
 }
 .blogsRight1{
     width: 20%;
     margin-left: 0%;
-    padding-top: 7%;
+}
+.newproductTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 142.5%;
+    /* identical to box height, or 46px */
+    color: #000000;
+    width: 74%;
 }
 .angulatTitle1{
     font-family: 'Poppins';
