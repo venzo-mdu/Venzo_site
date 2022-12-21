@@ -10,7 +10,7 @@
         "images": "../images/blogsPic/blog1.png",
         "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
         "subTitle":"Automated Testing   |   February 16, 2022",
-        "route":"topmobile",
+        "route":"selenium",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
     },
     {
@@ -19,6 +19,14 @@
         "subTitle":"Technology   |   December 20, 2021",
         "route":"topmobile",
         "content1": "React Native and Ionic are two such technologies for creating user interfaces that are extensively used by developers..."
+    },
+    {
+        "images": "../images/blogsPic/reactjs1.webp",
+        "title1": "ReactJS Framework Working Wonders For Modern Web Development Businesses",
+        "content1": "If we consider a current estimate, there are over 2,20,000 live websites that are built-in ReactJS, reflecting …",
+        "subTitle":"Technology, Web App Development | November 29th, 2021 ",
+        "route":"reactjsuse"
+
     },
     {
         "images": "../images/blogsPic/blog3.png",
