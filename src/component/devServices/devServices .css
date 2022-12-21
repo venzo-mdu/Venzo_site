@@ -767,8 +767,8 @@
     .venzoMantra {
         background-color: #0A1020;
         height: 75%;
-        width: 90%;
-        margin: -2% 0% 10% 5%;
+        width: 95%;
+        margin: -2% 0% 10% 3%;
         border-radius: 8px;
         padding: 3% 3%;
         display: block;
@@ -817,6 +817,7 @@
         font-size: 25px;
         color: #FFFFFF;
         margin-top: 10%;
+        margin-left: -6%;
     }
 
     .venzoexpertImg img {

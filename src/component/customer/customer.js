@@ -13,7 +13,7 @@ function customer() {
 
         
         <div  className='customer'>
-            <p className='cus-title'>  We Integrate Traditional Applications and Information Technology Systems <br className='mobileBr'/> with Innovative Customized Application to uphold <br className='webBr' /> your <br className='mobileBr'/> business needs and <br className='mobileBr'/>  <b>Future Growth & Thrive in Markets.</b>  </p>
+            <p className='cus-title'>  We Integrate Traditional Applications and Information Technology Systems <br className='mobileBr'/> with Innovative Customized Application to uphold  your <br className='mobileBr'/> business needs and <br className='mobileBr'/> <br className='webBr' /> <b>Future Growth & Thrive in Markets.</b>  </p>
             <div className='row2'>
                 <div className='col4'>
                     <p className=' des1'>We break down the custom-built complexities.   Our custom applications are powered by cutting-edge technologies and superior process agility. You benefit from next-generation applications that are tailored to your specific needs without the hassle. </p>
