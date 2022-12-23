@@ -13,11 +13,11 @@ import bankingQAPage from "./bankingQA";
 import careers from "./careers";
 import careers2 from "./careersdetails";
 
+
 const IndexPage = () => {
   return (
     <div>
       <title>Venzo Technologies</title>
-
       <ImageCarousel />
       <DevServices />
       <Build />
@@ -29,11 +29,9 @@ const IndexPage = () => {
       <Link to="/banking-QAPage"></Link>
       <Link to="/careers"></Link>
       <Link to="/careersdetails"></Link>
-      
-
     </div>
    
   )
 }
-export default IndexPage
+export default IndexPage  
 
