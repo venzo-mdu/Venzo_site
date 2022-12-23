@@ -100,7 +100,7 @@ function reactnativeandionic() {
             <p className='iconicCont1'><strong>Venzo Technologies</strong> designs and develops brilliant, economical, and user-friendly web, cloud, desktop, and mobile applications. Whether it’s react native or ionic we are leaders in providing deft and dependable custom software solutions that are devised for perfection.</p>
         </div>
 
-        <div className='blogsRight'>
+        <div className='blogsRight blogsRight1'>
             <div className='slide1'>
                 <p className='angularCont'>All Categories</p> <hr />
                 <p className='angularCont'>Automated Testing</p><hr />

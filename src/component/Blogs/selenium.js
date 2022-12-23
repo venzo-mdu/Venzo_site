@@ -89,7 +89,7 @@ We provide a tool-agnostic framework, reusable object library, QA automatic test
             <p className='seleniumTtiel'></p>
             <p className='seleniumCont'></p> 
         </div>
-        <div className='blogsRight'>
+        <div className='blogsRight blogsRight1'>
             <div className='slide1'>
                 <p className='angularCont'>All Categories</p> <hr />
                 <p className='angularCont'>Automated Testing</p><hr />
