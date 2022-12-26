@@ -25,7 +25,7 @@ function Blogs1() {
     const Blogdetail = (blog) => {
         console.log("data", blog)
         // navigate('/blog/${blog}')
-        // navigate('/blogs/newproduct')
+        // navigate(blog)
 
     }
 
@@ -56,14 +56,16 @@ function Blogs1() {
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
                     {searchresult().map((item, index) => {
-                        return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item.route)}>
-                            <Card.Img variant="top" src={item.images} />
-                            <Card.Body>
-                                <Card.Subtitle className='blogsubtitile'><Link to='/blogs/newproduct'> {item.subTitle} </Link></Card.Subtitle>
-                                <Card.Title className='blogsTitile' >{item.title1}</Card.Title>
-                                <Card.Text className='blogsdesc'>{item.content1}</Card.Text>
-                            </Card.Body>
-                        </Card>
+                        return <Link href={item.route}>
+                            <Card key={index} style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item.route)}>
+                                <Card.Img variant="top" src={item.images} />
+                                <Card.Body>
+                                    <Card.Subtitle className='blogsubtitile'> {item.subTitle}  </Card.Subtitle>
+                                    <Card.Title className='blogsTitile' >{item.title1}</Card.Title>
+                                    <Card.Text className='blogsdesc'>{item.content1}</Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Link>
                     })}
                 </div>
                 <div className='blogsRight'>

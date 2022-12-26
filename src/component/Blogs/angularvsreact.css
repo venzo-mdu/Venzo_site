@@ -14,24 +14,7 @@ body{
     padding-top: 11%;
     margin-left: 6%;
 }
-.newproductLeft{
-    width: 70%;
-    margin-bottom: 6%;
-}
-.blogsRight1{
-    width: 20%;
-    margin-left: 0%;
-}
-.newproductTitle{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 142.5%;
-    /* identical to box height, or 46px */
-    color: #000000;
-    width: 74%;
-}
+
 .angulatTitle1{
     font-family: 'Poppins';
     font-style: normal;
@@ -48,10 +31,10 @@ body{
 .AngularDate{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 142.5%;
-    color: #6C6C6C;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 200%;
+    color: #165EA0;
 }
 .AnguarPrd{
     font-family: 'Poppins';

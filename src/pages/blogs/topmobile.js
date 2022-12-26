@@ -1,7 +1,7 @@
 import React from 'react'
-import Topmobile from '../component/Blogs/topmobile'
-import Footer from '../component/footer/footer'
-import Header from '../component/header/header'
+import Topmobile from '../../component/Blogs/topmobile'
+import Footer from '../../component/footer/footer'
+import Header from '../../component/header/header'
 function topmobile() {
     return (
         <div>

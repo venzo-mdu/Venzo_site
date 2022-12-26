@@ -1,7 +1,7 @@
 import React from 'react'
-import Autotesting from '../component/Blogs/autotesting'
-import Header from '../component/header/header'
-import Footer from '../component/footer/footer'
+import Autotesting from '../../component/Blogs/autotesting'
+import Header from '../../component/header/header'
+import Footer from '../../component/footer/footer'
 function autotesting() {
   return (
     <div> 

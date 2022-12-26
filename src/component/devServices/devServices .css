@@ -137,22 +137,21 @@
     }
 
     .developmentServices p {
-        width: 30%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
         color: #000000;
-        width: 60%;
+        width: 50%;
     }
 
     .technologies1 {
-        margin: 7% 0 0 10%;
+        margin: 7% 0 0 6%;
         width: 40%;
     }
 
     .technologies2 {
-        margin: 7% 0 0 10%;
+        margin: 7% 0 0 0%;
         width: 40%;
     }
     .technologies1 li {

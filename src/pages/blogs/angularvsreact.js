@@ -1,7 +1,7 @@
 import React from 'react'
-import Angularvsreact from '../component/Blogs/angularvsreact'
-import Header from '../component/header/header'
-import Footer from '../component/footer/footer'
+import Angularvsreact from '../../component/Blogs/angularvsreact'
+import Header from '../../component/header/header'
+import Footer from '../../component/footer/footer'
 
 function angularvsreact() {
   return (

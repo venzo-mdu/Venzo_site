@@ -1,7 +1,7 @@
 import React from 'react'
-import Reactnativeandionic from '../component/Blogs/reactnativeandionic'
-import Header from '../component/header/header'
-import Footer from '../component/footer/footer'
+import Reactnativeandionic from '../../component/Blogs/reactnativeandionic'
+import Header from '../../component/header/header'
+import Footer from '../../component/footer/footer'
 
 function reactnativeandionic() {
   return (

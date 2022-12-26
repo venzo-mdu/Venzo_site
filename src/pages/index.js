@@ -8,10 +8,10 @@ import Idea from "../component/idea/idea"
 import Footer from '../component/footer/footer';
 import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
-import UIUXPage from "../pages/UIUX"
-import bankingQAPage from "./bankingQA";
-import careers from "./careers";
-import careers2 from "./careersdetails";
+// import UIUXPage from "../pages/UIUX"
+// import bankingQAPage from "./bankingQA";
+// import careers from "./careers";
+// import careers2 from "./careersdetails";
 
 
 const IndexPage = () => {
@@ -25,10 +25,10 @@ const IndexPage = () => {
       <Blog />
       <Idea />
       <Footer />
-      <Link to="/UIUX"></Link>
+      {/* <Link to="/UIUX"></Link>
       <Link to="/banking-QAPage"></Link>
       <Link to="/careers"></Link>
-      <Link to="/careersdetails"></Link>
+      <Link to="/careers/careersdetails"></Link> */}
     </div>
    
   )

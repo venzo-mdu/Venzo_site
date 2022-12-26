@@ -1,7 +1,7 @@
 import React from 'react'
-import Newproduct from '../component/Blogs/newproduct'
-import Footer from '../component/footer/footer'
-import Header from '../component/header/header'
+import Newproduct from '../../component/Blogs/newproduct'
+import Footer from '../../component/footer/footer'
+import Header from '../../component/header/header'
 
 function newproduct() {
   return (
