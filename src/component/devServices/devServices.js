@@ -10,20 +10,20 @@ function devServices() {
     <div className='developmentServices'>
         <p>Full cycle of development services</p>
             <div className='technologies1'>
-                    <li>Apps Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>Product Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/webDevelopment">QA Engineering &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
-                    <li><Link to="/UIUX">Blockchain Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/bankingQA">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/dm_page">Banking QA Testing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/appdevelopment"> Apps Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
+                    <li><Link to="/productdevelopment"> Product Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/qualityassurance">QA Engineering &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/blockchaindevelopment">Blockchain Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/staffaugmentation">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/bankingQA">Banking QA Testing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
             <div className='technologies2'>
-                    <li>Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
-                    <li>UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li>Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </li>
+                    <li><Link to="/dm_page">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/UIUX">UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/webDevelopment">Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
                     <li>E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
                     <li>Enterprise App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-                    <li><Link to="/staffaugmentation">Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li>Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
             </div>
     </div>
     <div className='venzoMantra'>

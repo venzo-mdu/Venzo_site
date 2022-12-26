@@ -44,7 +44,7 @@
     padding-top: 3%;
 }
 
-.reactuseIntroDesc {
+.reactuseIntroDesc,.reactuseIntroDesc li {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
