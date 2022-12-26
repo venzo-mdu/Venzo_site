@@ -5,7 +5,10 @@ import Accordion from 'react-bootstrap/Accordion';
 function Endtoend() {
     const [active, setActive] = useState('');
     const dated = (va) => {
-        let container = document.querySelector('.card1')
+        let container 
+        if( document.querySelector('.card1') !==null){
+            container = document.querySelector('.card1')
+        }
         setActive(va)
         if (va == 'brand') {
             container.innerHTML = "<font size=4 color=black>\

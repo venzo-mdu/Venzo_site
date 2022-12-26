@@ -5,7 +5,7 @@ import Footer from '../component/footer/footer'
 function Blogs() {
   return (
     <div>
-      <Router basepath='/blogs'>
+      {/* <Router basepath='/blogs'>
         <Routes>
           <Route path='newproduct' component={`../pages/blogs/newproduct`} />
           <Route path='autotesting' component={`../pages/blogs/autotesting`} />
@@ -17,7 +17,7 @@ function Blogs() {
           <Route path='angularvsreact' component={`../pages/blogs/angularvsreact`} />
 
         </Routes>
-      </Router>
+      </Router> */}
       <Blogs1 />
       <Footer />
     </div>
