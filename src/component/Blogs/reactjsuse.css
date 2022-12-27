@@ -28,7 +28,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 200%;
     color: #165EA0;
     padding: 3% 0 0;
@@ -37,8 +37,8 @@
 .reactuseIntro {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 142.5%;
     color: #000000;
     padding-top: 3%;
@@ -48,7 +48,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 200%;
     text-align: justify;
     color: #000000;

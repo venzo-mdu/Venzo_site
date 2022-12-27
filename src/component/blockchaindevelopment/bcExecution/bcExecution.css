@@ -99,7 +99,8 @@
     width: 69%;
 }
  .NFTImage {
-    margin-left: 6%;
+    margin-left: 3%;
+    width: 50%;
 }
 @media screen and (max-width:1440px) and (min-width:1025px) {
     #timelineText1{
@@ -110,7 +111,7 @@
         margin: 0 0 0 20%;
     }
 }
-@media screen and (max-width:1025px) and (min-width:768px) {
+@media screen and (max-width:1025px) and (min-width:769px) {
 
     #timelineText1{
         width: 90%;
@@ -120,12 +121,13 @@
             margin: 0 0 0 0%;
         }
 }
-@media screen and (max-width:767px) and (min-width:426px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .bcExecution{
         padding: 3% 2%;
     }
     .NFTImage {
         margin-left: 10% !important;
+        width: 500px  !important;
     }
     #executionTitle2{
         font-family: Poppins;

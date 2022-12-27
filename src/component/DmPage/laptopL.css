@@ -371,6 +371,8 @@
 @media screen and (max-width:1024px) and (min-width:775px) {
     .section1 {
         margin: 0% 0 0 7%;
+    width: 60%;
+
     }
 
     .starting {
@@ -470,10 +472,10 @@
         text-align: center;
         background-image: url('../../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 80%;
+        background-position-x: 85%;
         background-position-y: 60%;
         margin-top: -2%;
-        background-size: 32%;
+        background-size: 40%;
         padding-bottom: 3%;
         font-family: 'Poppins';
         font-style: normal;
@@ -481,8 +483,8 @@
         font-size: 22px;
         line-height: 175%;
         color: #000000;
-
-
+        margin-left: 5%;
+        width: 95%;
     }
 
     .section4 {

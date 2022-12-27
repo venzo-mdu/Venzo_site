@@ -330,7 +330,7 @@
     }
 
     .auidt {
-        margin-top: -2%;
+        margin-top: 5%;
         width: 22%;
         color: white;
         background-color: #000000;
@@ -377,7 +377,7 @@
         line-height: 1.2;
         letter-spacing: -4;
         padding-bottom: 7%;
-        padding-top: 20%;
+        padding-top: 17%;
     }
 
     .blockchainDesc {
@@ -387,7 +387,7 @@
         font-weight: 400;
         font-style: normal;
         line-height: 32px;
-        padding-bottom: 7%;
+        padding-bottom: 0%;
 
     }
 
@@ -681,13 +681,13 @@
 
     .auidt {
         height: 10%;
-        margin-top: 0%;
+        margin-top: 5%;
         width: 40%;
         color: white;
         background-color: #000000;
         border-radius: 7px 7px 7px 7px;
         font-size: 14px;
-        margin-left: 7%;
+        margin-left: -2%;
     }
 
     .auidt:hover {
@@ -700,7 +700,7 @@
     }
 
     .anyIdea1 {
-        margin-left: 7%;
+        margin-left: 2%;
         padding: 5% 0;
         font-size: 45px;
         font-size: 32px;
@@ -743,7 +743,7 @@
         font-weight: 400;
         font-style: normal;
         line-height: 32px;
-        padding-bottom: 7%;
+        padding-bottom: 0%;
 
     }
 
@@ -1067,7 +1067,7 @@
 
     .containor11 {
         margin-top: 5%;
-        display: block;
+        display: block !important;
     }
 }
 
@@ -1427,5 +1427,6 @@
 
     .containor11 {
         margin-top: 5%;
+        display: block;
     }
 }
