@@ -266,6 +266,7 @@ body {
     margin-top: -10%;
     margin-left: 5%;
     display: flex;
+    width: 100%;
 }
 .devCaros .mango{
     margin-top: 7%;
