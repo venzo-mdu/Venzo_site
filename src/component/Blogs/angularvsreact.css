@@ -2,18 +2,28 @@ body{
     margin: 0;
     padding: 0;
 }
-/* .angularBlog{
+.angularBlog{
     display: flex;
     margin-left: 6%;
    
-} */
+}
 .productflex {
     display: flex;
     margin-bottom: 10%;
     margin-top: 6;
-    padding-top: 11%;
+    padding-top: 8%;
     margin-left: 6%;
 }
+
+
+.angularLef{
+    width: 60%;
+}
+/* .blogsRight {
+    margin-top: 3%;
+    width: 40%;
+    padding-left: 11%;
+} */
 
 .angulatTitle1{
     font-family: 'Poppins';
