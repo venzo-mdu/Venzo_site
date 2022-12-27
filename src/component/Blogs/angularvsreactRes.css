@@ -38,16 +38,16 @@ body{
 .AngularDate{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 142.5%;
     color: #165EA0;
 }
 .AnguarPrd{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 200%;
     color: #165EA0;
     padding-top: 2px;
@@ -114,6 +114,10 @@ color: #000000;
     .angularCont1{
         width: 872px;
     }
+    .AnguarPrd {
+        margin-top: -7px;
+        margin-left: 2%;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:425px)
@@ -140,6 +144,18 @@ color: #000000;
     }
     .angularCont1 {
         width: 650px;
+    }
+    .AngularDate {
+        font-size: 13px;
+        line-height: 200%;
+        color: #165EA0;
+        font-weight: 500;
+    }
+    .AnguarPrd {
+        margin-top: 0px;
+        margin-left: 2%;
+        font-size: 13px;
+        font-weight: 500;
     }
 }
 
@@ -172,7 +188,19 @@ color: #000000;
     .angularCont1 {
         width: 347px;
     }
-
+    .AngularDate {
+        font-size: 13px;
+        line-height: 200%;
+        color: #165EA0;
+        font-weight: 500;
+    }
+    .AnguarPrd {
+        margin-top: 0px;
+        margin-left: 2%;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
 }
 
 @media screen and (max-width:375px)
@@ -199,5 +227,15 @@ color: #000000;
     }
     .angularCont1 {
         width: 299px;
+    }
+    .AnguarPrd {
+        margin-top: 0px;
+        margin-left: 2%;
+        font-size: 13px;
+    }
+    .AngularDate {
+        font-size: 13px;
+        line-height: 200%;
+        color: #165EA0;
     }
 }
