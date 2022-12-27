@@ -66,16 +66,15 @@ function angularvsreact() {
                     <p className='Significance'>Conclusion</p>
                     <p className='angularCont'>Both Angular JS and React JS have their benefits and unique characteristics. Developers who look for simplicity and flexibility may go in for React JS, while those who need the best way of organizing and boosting their applications with a comprehensive tool might want to choose Angular JS. Venzo is a leading web application development service provider having skilled and experienced Angular JS and React JS professionals.</p>
                 </div>
-                <div className='blogsRight'>
+                <div className='blogsRight blogsRight1'>
                     <div className='slide1'>
-                        <p className='angularCont'>All Categories</p> <hr />
-                        <p className='angularCont'>Automated Testing</p><hr />
-                        <p className='angularCont'>Mobile App Development</p><hr />
-                        <p className='angularCont'>Mobile App Development</p><hr />
-                        <p className='angularCont'>Mobile App Development</p><hr />
-                        <p className='angularCont'>Staff Augmentation</p><hr />
-                        <p className='angularCont'>Technology</p><hr />
-                        <p className='angularCont'>Web App Development</p>
+                        <p>All Categories</p> <hr />
+                        <p>Automated Testing</p><hr />
+                        <p>Mobile App Development</p><hr />
+                        <p>Product Development</p><hr />
+                        <p>Staff Augmentation</p><hr />
+                        <p>Technology</p><hr />
+                        <p>Web App Development</p>
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>

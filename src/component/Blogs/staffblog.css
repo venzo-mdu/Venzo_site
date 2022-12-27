@@ -4,9 +4,8 @@
 }
 
 .staffLeft {
-    width: 52%;
-    margin-left: 10%;
-    padding-top: 10%;
+    width: 62%;
+    margin-left: 2%;
 }
 
 .staffLeft strong {
@@ -71,26 +70,35 @@
     }
 
     .staffLeft {
-        width: 85%;
-        margin-left: 7%;
-        padding-top: 10%;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .blogsRight1{
+        margin-top: 10% !important;
+        margin-left: 0% !important;
     }
 
  
 }
 
-@media screen and (max-width:768px) and (min-width:501px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .productflex {
         display: block;
         margin-bottom: 10%;
     }
 
     .staffLeft {
-        width: 85%;
-        margin-left: 7%;
-        padding-top: 20%;
+        width: 90%;
+        margin-left: 0%;
+        padding-top: 10%;
     }
-
+    .blogsRight1{
+        margin-top: 10% !important;
+        margin-left: 0% !important;
+    }
+    .blogsRight1 .slide1{
+        margin-right: 25%;
+    }   
 }
 
 
@@ -103,9 +111,9 @@
     }
 
     .staffLeft {
-        width: 85%;
-        margin-left: 7%;
-        padding-top: 30%;
+        width: 90%;
+        margin-left: 0%;
+        padding-top: 20%;
     }
 
     .staffTitle {
@@ -134,7 +142,12 @@
         line-height: 142.5%;
         color: #000000;
     }
-
+    .blogsRight1{
+        margin-left: 6% !important;
+    }
+    .blogsRight1 .slide1{
+        margin-right: 25%;
+    }   
 
 }
 
@@ -177,5 +190,10 @@
         line-height: 142.5%;
         color: #000000;
     }
- 
+    .blogsRight1{
+        margin-left: 6% !important;
+    }
+    .blogsRight1 .slide1{
+        margin-right: 25%;
+    }   
 }

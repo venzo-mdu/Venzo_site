@@ -5,17 +5,17 @@
         "images": "../images/wordpress.png",
         "SubContent": [
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "WordPress CMS Installation & Configuration"
 
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Custom WordPress Web Development"
 
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Responsive WordPress Theme Development"
 
             }
@@ -23,17 +23,17 @@
         ],
         "SubContent1":[
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "WordPress Plugin Development"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "API Integration & Module Management"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "WordPress Migration And Maintenance Services"
 
             }
@@ -46,17 +46,17 @@
         "images": "../images/ecommerce.png",
         "SubContent": [
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Responsive Shopping Website"
 
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Payment Gateway Integration"
 
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "WordPress Theme Customisation"
 
             }
@@ -64,17 +64,17 @@
         ],
         "SubContent1":[
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "100% Customizable Design"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "Multiple Product Image"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "Manage Category"
 
             }
@@ -88,32 +88,32 @@
         "images": "../images/website.png",
         "SubContent": [
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Website Design"
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "CMS Development"
             },
             {
-                "icon1": "../images/secure.png",
+                "icon1": "../images/security.png",
                 "title1": "Website Maintenance"
             }
         ],
         "SubContent1":[
             
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "Website Redesign"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "Responsive Web Design"
 
             },
             {
-                "icon2": "../images/secure.png",
+                "icon2": "../images/security.png",
                 "title2": "Manage Category"
 
             }

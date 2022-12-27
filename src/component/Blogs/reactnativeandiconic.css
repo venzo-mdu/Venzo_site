@@ -16,11 +16,10 @@
     color: #000000;
     width: 90%;
 }
-.blogsRight{
-    width: 25%;
-}
-.iconic1 {
-    width: 1133px;
+
+
+.iconic1{
+    width: 800px;
 }
 .iconicTitle{
     font-family: 'Poppins';
@@ -110,9 +109,7 @@ table , th {
         color: #000000;
         width: 90%;
     }
-    .blogsRight{
-        width: 25%;
-    }
+
     .iconic1{
         width: 800px;
     }

@@ -305,7 +305,7 @@ body{
     }
 
     .customer {
-        padding-left: 0%;
+        padding-left: 5%;
         padding-top: 4%;
         background-color: #f6f6f6;
         color: #0A1020;
@@ -322,12 +322,13 @@ body{
 
     .webBr{
         display: none;
-
     }
     .mobileBr {
         display: none;
     }
-
+    .cus-title  .webBr{
+        display: block;
+    }
     .cus-title {
         font-family: 'Poppins';
         font-style: normal;
@@ -338,10 +339,9 @@ body{
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
         background-position-x: 35%;
-        background-position-y: 85%;
-        background-size: 43%;
+        background-position-y: 100%;
+        background-size: 80%;
         text-align: center;
-        height: 130px;
     }
 
     .des1 {
@@ -354,7 +354,7 @@ body{
         color: #000000;
         margin-top: 10%;
         text-align: center;
-        margin-left: 0%;
+        margin-left: -5%;
     }
 
     .arrow {
@@ -466,11 +466,10 @@ body{
         line-height: 28px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 45%;
-        background-position-y: 80px;
-        background-size: 43%;
+        background-position-x: 35%;
+        background-position-y: 100%;
+        background-size: 80%;
         text-align: center;
-        height: 110px;
         width: 100%;
     }
 }

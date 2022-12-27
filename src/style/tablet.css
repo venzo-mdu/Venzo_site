@@ -83,7 +83,7 @@
     }
 
     .customer {
-        padding-left: 0%;
+        padding-left: 5%;
         padding-top: 5%;
         background-color: #f6f6f6;
         color: #0A1020;
@@ -93,12 +93,12 @@
 
     .row2 {
         display: block;
-        margin-left: 15%;
-        margin-top: 10%;
+        margin-left: 8%;
+        margin-top: 5%;
     }
 
-    .webBr{
-        display: none;
+    .cus-title .webBr{
+        display: block;
 
     }
     .mobileBr {
@@ -114,11 +114,10 @@
         line-height: 25px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 40%;
-        background-position-y: 50px;
-        background-size: 43%;
+        background-position-x: 48%;
+        background-position-y: 98px;
+        background-size: 50%;
         text-align: center;
-        height: 75px;
     }
 
     .des1 {

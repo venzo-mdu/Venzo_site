@@ -89,23 +89,22 @@ We provide a tool-agnostic framework, reusable object library, QA automatic test
             <p className='seleniumTtiel'></p>
             <p className='seleniumCont'></p> 
         </div>
-        <div className='blogsRight'>
-            <div className='slide1'>
-                <p className='angularCont'>All Categories</p> <hr />
-                <p className='angularCont'>Automated Testing</p><hr />
-                <p className='angularCont'>Mobile App Development</p><hr />
-                <p className='angularCont'>Mobile App Development</p><hr />
-                <p className='angularCont'>Mobile App Development</p><hr />
-                <p className='angularCont'>Staff Augmentation</p><hr />
-                <p className='angularCont'>Technology</p><hr />
-                <p className='angularCont'>Web App Development</p>
-            </div>
-            <div className='slide2'>
-                <p>Tweets</p>
-                <img src={tweet1} />
-                <img src={tweet2} />
-            </div>
-        </div>
+        <div className='blogsRight blogsRight1'>
+                    <div className='slide1'>
+                        <p>All Categories</p> <hr />
+                        <p>Automated Testing</p><hr />
+                        <p>Mobile App Development</p><hr />
+                        <p>Product Development</p><hr />
+                        <p>Staff Augmentation</p><hr />
+                        <p>Technology</p><hr />
+                        <p>Web App Development</p>
+                    </div>
+                    <div className='slide2'>
+                        <p>Tweets</p>
+                        <img src={tweet1} />
+                        <img src={tweet2} />
+                    </div>
+                </div>
     </div>
 </div>
   )

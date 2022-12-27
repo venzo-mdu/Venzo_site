@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Header from '../header/header'
 import Footer from '../footer/footer'
 import blogsList from '../../content/BlogsContent.json'
@@ -11,37 +11,34 @@ import './laptop.css'
 import './tab.css'
 import './mobile.css'
 
-// const Blogs1=() => {
-function Blogs1(){    
+function Blogs1() {
 
-    const [search, setSearch] =useState('')
+    const [search, setSearch] = useState('')
 
-
-    const searchresult =()=>{
-        if(search.length >0){
-            return blogsList.filter(obj =>obj.subTitle.toLowerCase().includes(search.toLowerCase()))
+    const searchresult = () => {
+        if (search.length > 0) {
+            return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(search.toLowerCase()))
         }
         return blogsList
     }
 
-
-    const Blogdetail = (blog) =>{
+    const Blogdetail = (blog) => {
         console.log("data", blog)
-        navigate('/blog/${blog}')
-  }
+        // navigate('/blog/${blog}')
+        // navigate(blog)
 
+    }
 
-//  const Blogdetail = ({ actions }) => {
-//     const { createPage } = actions;
-  
-//     createPage({
-//       path: '/projects/hello-world',
-//       component: SingleProject,
-//       context: {
-//         id: 'hello-world',
-//       },
-//     });
-//   };
+    //  const Blogdetail = ({ actions }) => {
+    //     const { createPage } = actions;
+    //     createPage({
+    //       path: '/projects/hello-world',
+    //       component: SingleProject,
+    //       context: {
+    //         id: 'hello-world',
+    //       },
+    //     });
+    //   };
 
     return (
         <div className='blogbody'>
@@ -58,16 +55,17 @@ function Blogs1(){
             <hr className='sect2_hr'></hr>
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
-
-                    {searchresult().map((item,index)=> {
-                        return <Card key={index} style={{ width: '23rem' }} className="card11" onClick={()=> Blogdetail(item.route)}>
+                    {searchresult().map((item, index) => {
+                        return <Link href={item.route}>
+                            <Card key={index} style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item.route)}>
                                 <Card.Img variant="top" src={item.images} />
                                 <Card.Body>
-                                    <Card.Subtitle className='blogsubtitile'> {item.subTitle}</Card.Subtitle>
-                                    <Card.Title   className='blogsTitile' >{item.title1}</Card.Title>
+                                    <Card.Subtitle className='blogsubtitile'> {item.subTitle}  </Card.Subtitle>
+                                    <Card.Title className='blogsTitile' >{item.title1}</Card.Title>
                                     <Card.Text className='blogsdesc'>{item.content1}</Card.Text>
                                 </Card.Body>
                             </Card>
+                        </Link>
                     })}
                 </div>
                 <div className='blogsRight'>

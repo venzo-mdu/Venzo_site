@@ -137,22 +137,21 @@
     }
 
     .developmentServices p {
-        width: 30%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
         color: #000000;
-        width: 60%;
+        width: 50%;
     }
 
     .technologies1 {
-        margin: 7% 0 0 10%;
+        margin: 7% 0 0 6%;
         width: 40%;
     }
 
     .technologies2 {
-        margin: 7% 0 0 10%;
+        margin: 7% 0 0 0%;
         width: 40%;
     }
     .technologies1 li {
@@ -767,8 +766,8 @@
     .venzoMantra {
         background-color: #0A1020;
         height: 75%;
-        width: 90%;
-        margin: -2% 0% 10% 5%;
+        width: 95%;
+        margin: -2% 0% 10% 3%;
         border-radius: 8px;
         padding: 3% 3%;
         display: block;
@@ -817,6 +816,7 @@
         font-size: 25px;
         color: #FFFFFF;
         margin-top: 10%;
+        margin-left: -6%;
     }
 
     .venzoexpertImg img {

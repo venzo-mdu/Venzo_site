@@ -263,7 +263,7 @@
         text-align: center;
         background-color: #FFF;
         margin-top: 90%;
-        bottom: 40px;
+        bottom: 140px;
     }
     .devCaros .carousel-indicators button {
         border-radius: 50%;
@@ -278,6 +278,7 @@
         margin-top: -10%;
         margin-left: 2%;
         display: flex;
+        width: 100%;
     }
     .devCaros .mango{
         margin-top: 0%;

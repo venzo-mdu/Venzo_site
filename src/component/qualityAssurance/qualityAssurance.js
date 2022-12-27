@@ -43,7 +43,10 @@ import Footer from '../footer/footer'
 function QualityAssurance() {
     const [active, setActive] = useState('');
     const dated = (value) => {
-        let container = document.querySelector('.quality_card1')
+        let container 
+        if( document.querySelector('.quality_card1') !==null){
+            container = document.querySelector('.quality_card1')
+        }
         setActive(value)
         if (value == 'Automation') {
             container.innerHTML = "<img src='" + autoimg1 + "' />\
