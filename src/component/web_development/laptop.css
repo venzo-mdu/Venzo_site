@@ -273,10 +273,10 @@
         margin-top: 0%;
     }
     
-    .devCaros .item1 {
+    .devCaros .dev_item1 {
         text-align: left;
-        margin-top: -10%;
-        margin-left: 2%;
+        margin-top: 3%;
+        margin-left: 4%;
         display: flex;
         width: 100%;
     }
@@ -289,7 +289,7 @@
     }    
     
     .rightPic{
-        margin-left: -10%;
+        margin-left: -20%;
         width: 100%;
     }
     .devCaros .blockchainDev{

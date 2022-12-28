@@ -278,9 +278,9 @@
         
     }
     
-    .devCaros .item1 {
+    .devCaros .dev_item1 {
         text-align: left;
-        margin-top: -15%;
+        margin-top: 5%;
         margin-left: 3%;
         display: flex;
     }
