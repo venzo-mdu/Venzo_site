@@ -24,11 +24,7 @@ const IndexPage = () => {
       <Customer />
       <Blog />
       <Idea />
-      <Footer />
-      {/* <Link to="/UIUX"></Link>
-      <Link to="/banking-QAPage"></Link>
-      <Link to="/careers"></Link>
-      <Link to="/careers/careersdetails"></Link> */}
+      <Footer />      
     </div>
    
   )
