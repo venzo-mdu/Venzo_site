@@ -26,67 +26,54 @@ function DM_Page() {
         setActive(va)
         if (va == 'brand') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your  1.\
-            </font>\
-            <br>\
-            <br>\
+            Brand promotion\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Promoting your brand is essential for growing your business and reaching a wider audience. Our team of experts will work closely with you to understand your business's unique needs and goals, and customize our services to meet those needs. \
             </font>\
     ";
         }
         else if (va === 'sales') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 2.\
-            </font>\
-            <br>\
-            <br>\
+            Increase Sales\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Boosting sales is the primary goal of any business. We will achieve this by utilizing various tactics such as offering promotions, discounts, or improving product quality and customer service.\
             </font>\
     ";
         }
         else if (va === 'lead') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 3.\
-            </font>\
-            <br>\
-            <br>\
+           Lead Generation\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Lead generation is the process of attracting potential customers who are interested in your products or services. This can be done through Venzo’s various tactics such as email marketing, content marketing, or attending trade shows.\
             </font>\
     ";
         }
         else if (va === 'se') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 4.\
-            </font>\
-            <br>\
-            <br>\
+            Search Engine Ranking\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
-            </font>\
+            Improving your website's ranking on search engines like Google will help you reach a wider audience and drive more traffic to your site. We  achieved through search engine optimization (SEO) techniques such as keyword optimization and link building. \
     ";
         }
         else if (va === 'online') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 5.\
-            </font>\
-            <br>\
-            <br>\
+            Online Reputation\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Your online reputation is crucial to attracting new customers and retaining existing ones. Maintaining a positive image online can be done through various tactics such as responding to customer reviews, monitoring your brand's social media presence, and proactively addressing any negative feedback.\
             </font>\
     ";
         }
         else if (va === 'social') {
             container.innerHTML = "<font size=4 color=black>\
-            We offer refined customized applications that streamline your 6.\
-            </font>\
-            <br>\
-            <br>\
+           Social Media Engagement\</font>\
+            <br>\<br>\
             <font size=3 color=gray>\
-            Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+            Social media is a powerful tool for engaging with customers and building brand awareness. You can increase engagement by posting regularly, responding to customer comments, and using social media to promote promotions and events. \
             </font>\
     ";
         }
@@ -107,7 +94,7 @@ function DM_Page() {
                 </div>
                 <div className='section2'>
                     <p className='Dm_heading'>Services</p>
-                    <p className='Dm_subheading'>Engage Your Target Customers at the <strong>Right Time on the Right Platform</strong></p>
+                    <p className='Dm_subheading'>Leverage the power of omnichannel engagement<strong> platforms to reach out to your prospects.</strong></p>
                     <Service />
                 </div>
                 
@@ -148,9 +135,9 @@ function DM_Page() {
                         <li className={active === 'online' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('online')}>Online Reputation</li>
                         <li className={active === 'social' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('social')}>Social media engagement</li>
                     </ul>
-                    <div className='card1'>
-                        <p> We offer refined customized applications that streamline your. </p>
-                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                    <div className='card1'> 
+                        <p>Brand promotion:</p>
+                        <p className='subTitle'>Promoting your brand is essential for growing your business and reaching a wider audience. Our team of experts will work closely with you to understand your business's unique needs and goals, and customize our services to meet those needs. </p>
                     </div>
                 </div>
 
@@ -159,46 +146,46 @@ function DM_Page() {
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>Brand Promotion</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>Brand promotion:</p>
+                                <p className='carddesc'>Promoting your brand is essential for growing your business and reaching a wider audience. Our team of experts will work closely with you to understand your business's unique needs and goals, and customize our services to meet those needs.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>Increase Sales</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>Increase Sales:</p>
+                                <p className='carddesc'>Boosting sales is the primary goal of any business. We will achieve this by utilizing various tactics such as offering promotions, discounts, or improving product quality and customer service.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                             <Accordion.Header>Lead Generation</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>Lead Generatio:</p>
+                                <p className='carddesc'>Lead generation is the process of attracting potential customers who are interested in your products or services. This can be done through Venzo’s various tactics such as email marketing, content marketing, or attending trade shows. </p>
 
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
                             <Accordion.Header>SE ranking</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>SE ranking:</p>
+                                <p className='carddesc'>Improving your website's ranking on search engines like Google will help you reach a wider audience and drive more traffic to your site. We  achieved through search engine optimization (SEO) techniques such as keyword optimization and link building.</p>
 
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="5">
                             <Accordion.Header>Online Reputation</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>Online Reputation:</p>
+                                <p className='carddesc'>Your online reputation is crucial to attracting new customers and retaining existing ones. Maintaining a positive image online can be done through various tactics such as responding to customer reviews, monitoring your brand's social media presence, and proactively addressing any negative feedback. </p>
 
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="6">
                             <Accordion.Header>Social media engagement</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
-                                <p className='cardtitle'>We offer refined customized applications that streamline your.</p>
-                                <p className='carddesc'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                                <p className='cardtitle'>Social media engagement:</p>
+                                <p className='carddesc'>Social media is a powerful tool for engaging with customers and building brand awareness. You can increase engagement by posting regularly, responding to customer comments, and using social media to promote promotions and events.</p>
 
                             </Accordion.Body>
                         </Accordion.Item>
@@ -209,9 +196,9 @@ function DM_Page() {
             </div>
 
             <Dmcarousels />
-            <div className='section6'>
+            {/* <div className='section6'>
                 <DmFrequentQues />
-            </div>
+            </div> */}
 
 {/* 
 

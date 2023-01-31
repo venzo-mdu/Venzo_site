@@ -1,6 +1,6 @@
-import React from 'react'
 import '../unleashing/unleashing.css'
 import '../unleashing/Laptop.css'
+import React, { useState } from 'react';
 
 
 import powerImage from '../../../images/aboutus/aboutus4.png'
@@ -14,7 +14,48 @@ import TickIcon from '../../../images/aboutus/aboutus17.png'
 
 
 
-function unleashing() {
+function Unleashing() {
+//   const [active, setActive] = useState('');
+//   const dated = (va) => {
+//       let container
+//       if( document.querySelector('.card1') !==null){
+//           container = document.querySelector('.card1')
+//       }
+//       setActive(va)
+//       if (va == 'Values') {
+//           container.innerHTML = "<font size=4 color=black>\
+//           We offer solutions for Startups/SME/Entrepreneurs\
+//           </font>\
+//           <br>\
+//           <br>\
+//           <font size=3 color=gray>\
+//           We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.\
+//           </font>\
+//   ";
+//       }
+//       else if (va === 'Diversity') {
+//           container.innerHTML = "<font size=4 color=black>\
+//           We offer refined customized applications that streamline your 2.\
+//           </font>\
+//           <br>\
+//           <br>\
+//           <font size=3 color=gray>\
+//           Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+//           </font>\
+//   ";
+//       }
+//       else if (va === 'Society') {
+//         container.innerHTML = "<font size=4 color=black>\
+//         We offer refined customized applications that streamline your 2.\
+//         </font>\
+//         <br>\
+//         <br>\
+//         <font size=3 color=gray>\
+//         Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+//         </font>\
+// ";
+//     }
+//     }
   return (
     <div className='unleashing'>
       <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'> transformative power</span> in Technology platforms</p>
@@ -68,6 +109,7 @@ function unleashing() {
           <div className='whatCommits'>
             <p id='whatCommitsText'>Diversity & Equity</p>
           </div>
+          
           <div className='whatCommits'>
             <p id='whatCommitsText'>Society Impact</p>
           </div>
@@ -96,6 +138,18 @@ function unleashing() {
           </div>
 
         </div>
+                {/* <div className='leftCommit'>
+                    <ul className='leftCommit1'>
+                        <li className={active === 'Values' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
+                        <li className={active === 'Diversity' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
+                        <li className={active === 'Society' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
+                    </ul>
+                    <div className='card1'>
+                        <p> We offer refined customized applications that streamline your. </p>
+                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                    </div>
+                </div> */}
+
       </div>
 
 
@@ -177,4 +231,4 @@ function unleashing() {
     
 //   )
 // }
-export default unleashing
+export default Unleashing

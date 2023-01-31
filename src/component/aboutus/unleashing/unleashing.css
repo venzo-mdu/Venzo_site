@@ -3,12 +3,13 @@
 }
 
 .unleashing #unleashingTitle {
-    font-family: Poppins;
-    font-size: 43px;
-    font-weight: 600;
-    line-height: 52px;
-    letter-spacing: -0.04em;
-    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: justify;
+    color: #A4A4A4;
     width: 43%;
     margin: 0 0 0 10%;
 }

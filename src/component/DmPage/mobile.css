@@ -355,6 +355,9 @@
         margin-top: -1%;
         font-size: 35px;
     }
+    .cmpyLogo{
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (max-width:500px) and (min-width:426px) {
@@ -709,14 +712,23 @@
     .containor11 {
         margin-top: 5%;
     }
+    .cmpyLogo{
+        margin-bottom: 40%;
+    }
+
 }
 
 
 
-@media screen and (max-width:425px) and (min-width:376px) {
+@media screen and (max-width:425px) and (min-width:376px) 
+{
     .section1 {
         margin: 0% 0 0 7%;
     }
+    .cmpyLogo{
+        margin-bottom: 50%;
+    }
+
 
     .starting {
         padding: 15% 0 0 0;
@@ -1082,6 +1094,9 @@
         padding: 0% 0 0 0;
         background-image: url("../../DMpage/blockLogo1.png");
         height: 100vh;
+    }
+    .cmpyLogo{
+        margin-bottom: 50%;
     }
 
     .Dm_Title {

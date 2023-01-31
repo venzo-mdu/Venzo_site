@@ -355,3 +355,30 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }   
+
+    .webSlide1{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+
+    }
+    .webCard1{
+        height: 348px;
+        width: 100%;
+        border-radius: 0px;
+        border: 1px solid gray;
+        padding-top: 6%;
+        padding-left: 6%;
+    }
+    .cardWebTitle{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 120%;
+        /* identical to box height, or 29px */
+        letter-spacing: -0.02em;
+        color: #000000;
+    }

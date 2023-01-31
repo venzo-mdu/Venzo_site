@@ -22,12 +22,12 @@ function DmCarousel() {
 
     return (
        
-        <div>
+        <div className='cmpyLogo'>
         <div className='sliderDesk'>
             <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
                 {renderSlides()}
             </Slider>
-        </div>
+        </div> 
         <div className='sliderLap'>
             <Slider dots={false} slidesToShow={4} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
                 {renderSlides()}

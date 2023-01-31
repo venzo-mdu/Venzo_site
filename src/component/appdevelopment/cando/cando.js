@@ -37,7 +37,7 @@ function cando() {
           <img src={appCard14} className='canDocardsImg' alt='candocards'></img>
           <img src={appCard32} className='canDocards1Img' alt='candocards'></img>
           
-          <p id='cardsTitle1'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
+          <span id='cardsTitle1'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</span>
         </div>
         <div className='candocards3'>
           <img className='cardsIcon' src={appCard8} alt='cardsicon'></img>

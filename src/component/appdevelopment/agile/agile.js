@@ -15,7 +15,7 @@ function agile() {
         <div className='agilecardText'>
             <p id='agileTitle'>Android Development</p>
             <p id='agileText'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
-            <button className='agileDevbutton border-gradient-purple'>Let's Talk</button>
+            <div className='agileDevbutton border-gradient-purple'>Let's Talk</div>
         </div>
         </div>
 
@@ -24,7 +24,7 @@ function agile() {
         <div className='agilecardText'>
             <p id='agileTitle'>iOS Development</p>
             <p id='agileText'>Venzo Technologies goes far beyond software product development to assist its clients in identifying emerging trends, understanding.</p>
-            <button className='agileDevbutton border-gradient-purple' >Let's Talk</button>
+            <div className='agileDevbutton border-gradient-purple' >Let's Talk</div>
         </div>
         </div>
     </div>

@@ -58,7 +58,7 @@
     text-align: left;
     color: #FFFFFF;
     position: absolute;
-    top: 100px;
+    top: 350px;
     left: 55px;
     width: 55%;
 }
@@ -79,6 +79,7 @@
 .canDocards1Img{
     display: none;
 }
+
 @media screen and (max-width:1705px) and (min-width:1025px) {
 .candoCards{
     padding: 4% 1%;
@@ -204,4 +205,14 @@
     #cardsTitle{
         left:90px;
     }
+}
+
+.candocards2:hover #cardsTitle2{
+   top: 100px;
+}
+.candocards2 span{
+    display: none;
+}
+.candocards2:hover span{
+    display: block;
 }

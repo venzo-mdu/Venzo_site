@@ -12,7 +12,7 @@ function Endtoend() {
         setActive(va)
         if (va == 'brand') {
             container.innerHTML = "<font size=4 color=black>\
-            Automated Testing 1.\
+            Automated Testing\
             </font>\
             <br>\
             <br>\
@@ -23,7 +23,7 @@ function Endtoend() {
         }
         else if (va === 'sales') {
             container.innerHTML = "<font size=4 color=black>\
-            Security Testing 2.\
+            Security Testing \
             </font>\
             <br>\
             <br>\
@@ -34,7 +34,7 @@ function Endtoend() {
         }
         else if (va === 'lead') {
             container.innerHTML = "<font size=4 color=black>\
-            Mobile Testing 3.\
+            Mobile Testing\
             </font>\
             <br>\
             <br>\
@@ -45,7 +45,7 @@ function Endtoend() {
         }
         else if (va === 'se') {
             container.innerHTML = "<font size=4 color=black>\
-            Performance Testing 4.\
+            Performance Testing\
             </font>\
             <br>\
             <br>\
@@ -56,7 +56,7 @@ function Endtoend() {
         }
         else if (va === 'online') {
             container.innerHTML = "<font size=4 color=black>\
-            Accessibility Testing 5.\
+            Accessibility Testing\
             </font>\
             <br>\
             <br>\
@@ -87,7 +87,7 @@ function Endtoend() {
 
                 <div className='cardList'>
                     <ul className='DM_cardTitle'>
-                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Automated Testinging</li>
+                        <li className={active === 'brand' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('brand')}>Automated Testing</li>
                         <li className={active === 'sales' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('sales')}>Security Testing </li>
                         <li className={active === 'lead' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('lead')}>Mobile Testing </li>
                         <li className={active === 'se' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('se')}>Performance Testing </li>

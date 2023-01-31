@@ -8,23 +8,19 @@ function devCarousel() {
   
     return (
         <div className='devCaros'> 
-         <Carousel slide={false}>
+         {/* <Carousel slide={false}>
             <Carousel.Item >
 
                 <div className='item1'>
                     <div>
-                        <img className='mango' src={mango}></img>
-                        <p className="blockchainDev">WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its</p>
+                        
                     </div>
                     <div>
-                        <img
-                            className="rightPic"
-                            src={blog3}
-                            alt="blockchain "
-                        />
+
                     </div>
+                    <div>
 
-
+                    </div>
                 </div>
 
             </Carousel.Item>
@@ -65,7 +61,43 @@ function devCarousel() {
 
                 </div>
             </Carousel.Item>
-        </Carousel>
+        </Carousel> */}
+
+        
+        <div className='webSlide1'>
+<a href='https://www.google.co.in/'>
+            <div className='webCard1'>
+                <p className='cardWebTitle'>Mangopoint</p>
+            </div>
+</a>
+           
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Algoritmik</p>
+            </div>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Farmerica</p>
+            </div>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Chennai<br></br>Spine</p>
+            </div>
+        </div>
+        <div className='webSlide1'>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>RFL<br></br>Valves</p>
+            </div>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Sarra<br></br>Bricks</p>
+            </div>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Stronghold<br></br>Facades</p>
+            </div>
+            <div className='webCard1'>
+            <p className='cardWebTitle'>Freshara<br></br>Picklz</p>
+            </div>
+        </div>
+
+
+
         </div>
        
 
