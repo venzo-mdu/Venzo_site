@@ -1,4 +1,4 @@
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -14,7 +14,7 @@ body {
 }
 
 .sect1 {
-    margin: 0% 0 0 8%;
+    margin: 5% 0 0 8%;
 }
 
 .component {
@@ -23,7 +23,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 80vh;
+    height: 93vh;
 }
 
 .web_Title {

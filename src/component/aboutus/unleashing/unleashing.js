@@ -103,4 +103,78 @@ function unleashing() {
   )
 }
 
+
+// import aboutusData from '../../../content/aboutusData.json'
+// function unleashing() {
+//   return (
+//     <div>
+// {aboutusData.map((item) => {
+
+// return <div><div className='unleashing'>
+//       <p id='unleashingTitle'>{item.title1} <span id='unleashingGradient'> {item.title2} </span> <span className='unleashingGradient1'> {item.title3}</span> {item.title4}</p>
+//       <div className='powerOfvenzo'>
+//         <div className='powerleftImage'>
+//           <img className='powerImage' alt='venzopower' src={powerImage}></img>
+//         </div>
+//         <div className='powerrightImage'>
+//           <p id='powerrightText'>{item.powerCont}</p>
+//         <div className='aboutVenzo'>
+//              <div className='aboutInner'>
+//               <img className='aboutinnerImage' src={item.icon} alt=''></img>
+//               <p id='aboutinnerNumber'>90+</p>
+//               <p id='aboutinnerText'>Brilliant minds</p>
+//             </div>
+ 
+//           </div>
+      
+//         </div>
+//       </div>
+// </div>
+
+    
+//       <div className='commitments'>
+//         <div className='leftCommit'>
+//           <p id='leftCommitTitle'>{item.commit}</p>
+//           <div className='whatCommits1'>
+//             <p id='whatCommitsText1'>{item.commit1}</p>
+//           </div>
+//           <div className='whatCommits'>
+//             <p id='whatCommitsText'>{item.commit2}</p>
+//           </div>
+//           <div className='whatCommits'>
+//             <p id='whatCommitsText'>{item.commit3}</p>
+//           </div>
+//         </div>
+//         <div className='rightCommit'>
+//           <p id='rightCommitTitle'>{item.offer}</p>
+//           <p id='rightCommitText'>{item.offerCont}</p>
+
+//           <div className='rightCommitIcons'>
+//             <div className='rightCommitblocks'>
+//               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+//               <p id='tickiconText'>Accelerated <br className='Accele'></br> Work</p>
+//             </div>
+//             <div className='rightCommitblocks'>
+//               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+//               <p id='tickiconText'>Total Transparency</p>
+//             </div>
+//             <div className='rightCommitblocks'>
+//               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+//               <p id='tickiconText'>Customer Centred Experience</p>
+//             </div>
+//             <div className='rightCommitblocks'>
+//               <img className='rightTickIcon' src={TickIcon} alt='tickIcon'></img>
+//               <p id='tickiconText'>Revolutionary Testing</p>
+//             </div>
+//           </div>
+
+//         </div>
+//       </div>
+//     </div>
+//     })}
+//   </div>
+   
+    
+//   )
+// }
 export default unleashing

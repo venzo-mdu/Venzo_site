@@ -16,5 +16,22 @@ function colleagues() {
       </section>
   )
 }
+// import careeData from '../../content/careerData.json'
+// function colleagues() {
+//     return (
+//         <div>       
+//             {careeData.map((item) => {return <section>
+//             <div className='colleagues'>
+//                 <p id='candidateTitle'>{item.careerTitle}<span id="gradientText">{item.careerTitle1}</span></p>
+//                 <p id="candidateText">{item.careerCont}</p>
+//                 {/* <img classname="colleagueImgRes" src={ColleagueImgRes} alt="colleagueimageRes"></img> */}
+//                 <img classname="colleagueImg" src={item.careerImg} alt="colleagueimage"></img>
+//             </div>
+//         </section>
+//          })} 
+//         </div>
+
+//     )
+//   }
 
 export default colleagues

@@ -1,0 +1,15 @@
+[
+{
+"careerTitle" : "From candidate to",
+"careerTitle1":"colleague",
+"careerCont" : "We are an advanced, forward-thinking team of Software engineers & Business Analysts reshaping reality with fun and exciting ideas using cutting-edge technology. Explore new opportunities for career growth. Join our troop today.",
+"careerImg" : "../images/colleague.png",
+"careerSecnTitle" : "Perks you get",
+"careerSecCont" : "We care about each other’s well-being and success. We share common values that are part of everything we do within a culture of collaboration, respect, and integrity. Consider how much we can accomplish together.",
+"careeSubCont" : [
+    {
+        "icon" : ""
+    }
+]
+}
+]

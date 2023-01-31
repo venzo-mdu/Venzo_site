@@ -4,6 +4,9 @@
     margin:0 0 5% -10%;
 
     }
+    .product_section1{
+        height: 93vh;
+    }
     .animation #animationText{
         position: absolute;
     left: 340px;

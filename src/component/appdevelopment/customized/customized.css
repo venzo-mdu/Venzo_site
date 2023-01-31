@@ -1,6 +1,6 @@
 
 .customizedImages{
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -34,6 +34,9 @@
         top:100px;
         left:100px;
     }
+    .customizedImages{
+        height: 93vh;
+    }
     #customizeText{
         font-family: Poppins;
         font-size: 55px;
@@ -53,6 +56,9 @@
         top:150px;
         left:50px;
     }
+    .customizedImages{
+        height: 93vh;
+    }
     #customizeText{
         width: 75%;
     }
@@ -64,6 +70,9 @@
         position: absolute;
         top:150px;
         left:25px;
+    }
+    .customizedImages{
+        height: 100vh;
     }
     #customizeText{
         width: 90%;

@@ -6,7 +6,7 @@
 #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
     display: block;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     position: relative;
 }
 .alice-carousel__prev-btn,.alice-carousel__next-btn{
@@ -126,7 +126,7 @@
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
-        height: 100vh;
+        height: 93vh;
     }
     .item1 {
         top:180px;
@@ -217,6 +217,9 @@
 }
 
 @media screen and (max-width:1024px) and (min-width:768px) {
+    #blockchainweb, #dataEngineeringweb, #productDevelopmentweb {
+        height: 93vh;
+    }
     .item1 {
         padding: 2% 5%;
         position: absolute;
@@ -328,6 +331,7 @@
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
+        height: 100vh;
     }
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
         display: none !important;

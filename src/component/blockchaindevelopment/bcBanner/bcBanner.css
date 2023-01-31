@@ -52,14 +52,18 @@ font-size: 16px;
 line-height: 120%;
 }
 
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     #bcbannerTitle{
         width: 50%;
+    }
+    .bcBanner {
+        height: 93vh;
     }
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
     .bcBanner{
         padding: 5% 8%;
+        height: 93vh;
     }
     #bcbannerTitle{
         width: 70%;
@@ -71,6 +75,7 @@ line-height: 120%;
 @media screen and  (max-width:768px) and (min-width:431px) {
     .bcBanner{
         padding: 5% 8%;
+        height: 100vh;
     }
     .innerbcBanner{
         margin: 15% 0 0 0;

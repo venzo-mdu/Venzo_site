@@ -127,7 +127,9 @@ body{
         width: 100%;
         padding: 5% 10%;
     }
-    
+    .blogs_section1 {
+        height: 93vh !important;
+    }
     .arrows{
         margin-left: 90%;
         margin-top: -25%;
@@ -139,9 +141,6 @@ body{
     .blurTitle1{
         margin: 0 0 10% 0;
     }
-    
- 
-  
 }
 
 
@@ -151,6 +150,9 @@ body{
         display: flex;
         padding: 5% 5%;
         width: 100%;
+    }
+    .blogs_section1 {
+        height: 93vh !important;
     }
     .Blogs{
         width: 50%;
@@ -188,6 +190,9 @@ body{
         display: block;
         width: 100%;
         padding: 5% 10%;
+    }
+    .blogs_section1 {
+        height: 100vh !important;
     }
     .blogHr{
         color: white;

@@ -50,6 +50,55 @@ function community() {
         </>
     )
 }
+// import comunity from '../../../content/communityData.json'
+// function community() {
+//     return (
+        
+//         <>
+//         <div>
+//             {comunity.map((item) => 
+//             { return <div className='community'>
+//                 <div className='communityLeft'>
+//                     <p id='communityLeftText'>{item.communityTitle}</p>
+//                     <div className='betterment'>
+//                         <div className='betterCommunity'>
+//                             <div>
+//                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
+//                             </div>
+//                             <p id='betterText'>Work Life Balance</p>
+//                         </div>
+//                         <div className='betterCommunity'>
+//                             <div>
+//                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
+//                             </div>
+//                             <p id='betterText'>Flat Heirarchy</p>
+//                         </div>
+//                         <div className='betterCommunity'>
+//                             <div>
+//                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
+//                             </div>
+//                             <p id='betterText'>A Friendly Culture</p>
+//                         </div>
+//                         <div className='betterCommunity'>
+//                             <div>
+//                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
+//                             </div>
+//                             <p id='betterText'>Satisfied Salary</p>
+//                         </div>
+//                     </div>
+//                     <p id='belowLeftText'>{item.communityCont}</p>
+//                 </div>
+//                 <div className='communityRight'>
+//                     <img className='communityImage' src={item.communityimg1} alt='community'></img>
+//                     <img className='communityImage' src={item.communityimg2} alt='community'></img>
+//                 </div>
+//             </div>
+//              })}
+//             </div>
+//         </>
+//     )
+// }
+
 
 export default community
 

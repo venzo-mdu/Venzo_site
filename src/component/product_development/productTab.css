@@ -3,6 +3,9 @@
         margin: 6% 6%;
         font-size: 44px;
     }
+    .product_section1 {
+        height: 100vh;
+    }
     /* .product_section1 {
         padding: 15% 0 10% 0;
         background-image: url(../../images/ProductMobBG.svg);

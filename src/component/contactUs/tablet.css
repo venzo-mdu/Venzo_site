@@ -167,7 +167,9 @@
         color: #909090;
 
     }
-
+.ContForm{
+    margin-left: -3%;
+}
     .contactform {
         width: 60%;
         height: 80%;

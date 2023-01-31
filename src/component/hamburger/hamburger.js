@@ -19,7 +19,7 @@ function hamburger({closemodal}) {
                  <hr id='hrincard'></hr>
                  <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/blockchaindevelopment">Blockchain Development</Link></p>
                  <hr id='hrincard'></hr>
-                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/sagfsdgf">Data Engineering</Link></p>
+                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/webDevelopment">Data Engineering</Link></p>
                 
           </div>
         
