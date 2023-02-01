@@ -29,7 +29,7 @@
 
 #techsrightText {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
@@ -39,12 +39,14 @@
 }
 
 #techsName {
-    font-family: Manrope;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: -0.025em;
-    text-align: left;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16.2333px;
+line-height: 22px;
+letter-spacing: -0.025em;
+
+color: #000000;
 }
 
 .techsGrid {
@@ -125,7 +127,7 @@
     .techsGrid {
         padding: 2% 1%;
         width: 100%;
-        margin:0 0%;
+        margin:0 11%;
     }
     .techsText{
         margin: 0 0 0 10%;

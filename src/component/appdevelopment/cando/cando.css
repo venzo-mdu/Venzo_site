@@ -1,3 +1,6 @@
+.appdevbody #headerSection{
+    z-index: 1 !important;
+}
 .canDo{
     padding: 3% 5%;
 }
@@ -12,7 +15,7 @@
 }
 #canDotext{
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
@@ -64,7 +67,7 @@
 }
 #cardsTitle1{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
@@ -83,6 +86,7 @@
 @media screen and (max-width:1705px) and (min-width:1025px) {
 .candoCards{
     padding: 4% 1%;
+    margin-left: 2%;
 }
 }
 @media screen and (max-width:1025px) and (min-width:768px) {
@@ -159,7 +163,9 @@
         width: 55%;
     }
     #cardsTitle2{
-        display: none;
+        /* display: none; */
+        top:120px;
+        left: 2%;
     }
     #cardsTitle1{
         font-family: Poppins;
@@ -170,11 +176,54 @@
         text-align: left;
         width: 100%;
         top:50px;
-        left:30px;
+        left:60px;
+        width: 80%;
     }
     #rescardsIcon{
-        display: none;
+        /* display: none; */
     }
+    .candocards2:hover #cardsTitle2{
+        top: 100px;
+        display: none;
+     }
+     .candocards2 span{
+         display: none;
+     }
+     .candocards2:hover span{
+         display: block;
+     }
+     .candocards1:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards1 span{
+          display: none;
+          /* width: 50%; */
+      }
+      .candocards1:hover span{
+          display: block;
+      }
+      .candocards3:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards3 span{
+          display: none;
+      }
+      .candocards3:hover span{
+          display: block;
+      }
+      .candocards4:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards4 span{
+          display: none;
+      }
+      .candocards4:hover span{
+          display: block;
+      }
+     
 }
 @media screen and (max-width:375px) {
      
@@ -182,6 +231,10 @@
         top: 110px;
         left: 35px;
         width: 55%;
+    }
+    #cardsTitle2 {
+        top: 100px;
+        left: 45px;
     }
     .cardsIcon{
         left:50px;
@@ -191,9 +244,9 @@
         font-size: 16px;
     }
     #cardsTitle1{
-        width: 90%;
-        top:50px;
-        left:20px;
+        width: 80%;
+        top:80px;
+        left:50px;
     }
     .candoCards{
         padding: 4% 5%;
@@ -205,6 +258,47 @@
     #cardsTitle{
         left:90px;
     }
+    .candocards2:hover #cardsTitle2{
+        top: 100px;
+        display: none;
+     }
+     .candocards2 span{
+         display: none;
+     }
+     .candocards2:hover span{
+         display: block;
+     }
+     .candocards1:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards1 span{
+          display: none;
+          /* width: 50%; */
+      }
+      .candocards1:hover span{
+          display: block;
+      }
+      .candocards3:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards3 span{
+          display: none;
+      }
+      .candocards3:hover span{
+          display: block;
+      }
+      .candocards4:hover #cardsTitle2{
+         top: 100px;
+         display: none;
+      }
+      .candocards4 span{
+          display: none;
+      }
+      .candocards4:hover span{
+          display: block;
+      }
 }
 
 .candocards2:hover #cardsTitle2{
@@ -216,3 +310,30 @@
 .candocards2:hover span{
     display: block;
 }
+.candocards1:hover #cardsTitle2{
+    top: 100px;
+ }
+ .candocards1 span{
+     display: none;
+ }
+ .candocards1:hover span{
+     display: block;
+ }
+ .candocards3:hover #cardsTitle2{
+    top: 100px;
+ }
+ .candocards3 span{
+     display: none;
+ }
+ .candocards3:hover span{
+     display: block;
+ }
+ .candocards4:hover #cardsTitle2{
+    top: 100px;
+ }
+ .candocards4 span{
+     display: none;
+ }
+ .candocards4:hover span{
+     display: block;
+ }

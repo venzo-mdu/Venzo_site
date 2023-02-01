@@ -15,7 +15,7 @@ import Techs from '../component/appdevelopment/techs/techs'
 import Footer from '../component/footer/footer'
 function appdevelopment() {
   return (
-    <>
+    <div className='appdevbody'>
       <Header flag='header2' />
       <Customized />
       <Cando />
@@ -87,7 +87,7 @@ function appdevelopment() {
                     <button className=' btn talk'>Let's talk</button>
                 </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

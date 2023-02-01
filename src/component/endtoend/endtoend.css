@@ -9,6 +9,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.endtoendpara{
+    margin-left: 12px;
+}
 @media screen and (max-width:1705px) and (min-width:1024px)
 {
     #endtoendpara{

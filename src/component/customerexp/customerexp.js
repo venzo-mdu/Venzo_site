@@ -5,7 +5,7 @@ function customerexp() {
   return (
       <section>
           <div className='customerExperiance'>
-           <h3>Get a superior customer experiance<br></br>across your digital channels and platforms<br></br><span id='through'>through continuous quality</span></h3>
+           <h3>Contact us - Embrace transformation with confidence by leveraging<br></br><span id='through'>our customised quality engineering services. (Speak to us)</span></h3>
            <button className='reachus'>Reach us</button>
           </div>
       </section>

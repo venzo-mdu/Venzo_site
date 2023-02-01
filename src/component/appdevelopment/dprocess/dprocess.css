@@ -23,13 +23,13 @@
 }
 #leftdevText1{
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: left;
     color: #4D4D4DBF;
-    width: 85%;
+    width: 90%;
 }
 .rightdevText{
     display: flex;
@@ -67,7 +67,7 @@
 
 #rightdevprocessDesc{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 27px;
     letter-spacing: -0.025em;

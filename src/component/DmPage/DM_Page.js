@@ -196,9 +196,9 @@ function DM_Page() {
             </div>
 
             <Dmcarousels />
-            {/* <div className='section6'>
+            <div className='section6'>
                 <DmFrequentQues />
-            </div> */}
+            </div>
 
 {/* 
 

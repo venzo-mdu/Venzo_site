@@ -7,8 +7,8 @@ function services() {
         <div>
 
                 <div className='section2'>
-                    <p className='Dm_heading dmheading'>Services</p>
-                    <p className='Dm_subheading'>Ready to test any custom software for Corporates, Retail Banks,<strong> Trade Finance & Investment Banking companies. </strong></p>
+                    <p className='Dm_heading1 dmheading'>Services</p>
+                    <p className='Dm_subheading1'>Ready to test any custom software for Corporates, Retail Banks,<strong> Trade Finance & Investment Banking companies. </strong></p>
                 </div>
             {servicesData.map(item => {
                 return <div >
@@ -21,7 +21,7 @@ function services() {
                         </div>
                      
                     </div>
-                    <div className='Serv_right'>
+                    <div className='Serv_right1'>
                         <div className="serv_Desc">
                             {item.content}
                         </div>

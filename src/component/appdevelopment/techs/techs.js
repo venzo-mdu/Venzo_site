@@ -25,8 +25,8 @@ function techs() {
     <div className='tech'>
     <div className='techsweUse'>
       <div className='techsText'>
-        <p id='techsTitle'><span id='gradienttechsText'>Techs</span><br id='brinTech'></br> we use in Venzo</p>
-        <p id='techsrightText'>We fully understand that developing successful products is not a straight line, so we provide a flexible, scalable approach that keeps you moving forward.</p>
+        <p id='techsTitle'><span id='gradienttechsText'>Technologies</span><br id='brinTech'></br>we use</p>
+        <p id='techsrightText'>It's challenging to stay concurrent with all the new technologies appearing on various fronts. However, we ensure that our team employs state-of-the-art technologies to cater for your needs.  </p>
 
       
       </div>

@@ -10,9 +10,9 @@ function policyVenzo() {
    <div className='policyVenzo'>
            <div className='policies'>
              <div className='policy'>
-               <p id='firstPara'>Venzo Technologiesis concerned about online privacy issues and wants you to be familiar with how we collect, use and disclose any personal information that individually identifies you (e.g., your name, address, phone number, e-mail address). As used in this privacy policy (the ” Privacy Policy ”), personal information means any information about an identifiable individual but does not include the name or business contact information of an employee of an organization. This Privacy Policy explains our online information practices and the choices you, as a visitor to a Website, can make about the collection and use of your personal information. We will only collect, use and disclose your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and forms part of our terms and conditions of use of any website or web page operated or provided by Venzo Consulting Venzo Consulting Attention: Privacy Officer Venzo Consultancy Services LLP No.236, 8th Floor, Purva Primus, Thoraipakkam, Chennai 600 097.</p>
+               <p id='firstPara'>Venzo Technologies is concerned about online privacy issues and wants you to be familiar with how we collect, use and disclose any personal information that individually identifies you (e.g., your name, address, phone number, e-mail address). As used in this privacy policy (the ” Privacy Policy ”), personal information means any information about an identifiable individual but does not include the name or business contact information of an employee of an organization. This Privacy Policy explains our online information practices and the choices you, as a visitor to a Website, can make about the collection and use of your personal information. We will only collect, use and disclose your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and forms part of our terms and conditions of use of any website or web page operated or provided by Venzo Technologies</p>
                <p id='personalTitle'>What Personal Information Do We Collect?</p> 
-               <p id='personalText'>We may collect personal information from you when you voluntarily provide it to us through a number of features available on the Website.</p>
+               <p id='personalText'>We may collect personal information from you when you voluntarily provide it to us through a number of features available on the Website. </p>
                  <div className='policyList'>
                    <p id='policyListText'> For example, we may ask you to provide personal information if you:</p>
                    <ul>
@@ -28,7 +28,7 @@ function policyVenzo() {
                <p id='personalText'>Sometimes we use cookie technology, web beacons, and other similar devices on the Venzo Technologies Websites to enhance functionality and navigation for our visitors, and portions of the Venzo Technologies Websites may use statistical tools that may be operated by third party providers (collectively, the ” Analytical Tools ”).</p>
                  <div className='policyList'>
                    <ul>
-                     <li> Your IP address</li>
+                     <li>Your IP address</li>
                      <li>The type of web browser and operating system being used</li>
                      <li>The pages of the Websites a user visits</li>
                      <li>Other websites a user visited before visiting the Websites.</li>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../approachQA/approachQA.css"
-import BankingArrow from "../../images/bankingArrow.png"
+import BankingArrow from "../../images/assuranceModel.png"
 import BankingArrowstraight from '../../images/straightBankingQA.png'
 
 function approachQA() {
