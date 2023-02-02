@@ -56,16 +56,53 @@ body{
     #titleinQA {
         width: 59%;
     }
+
+    .Dm_subheading1 {
+        background-position-x: 91%;
+    background-position-y: 87%;
+    background-size: 37%;
+    width: 90%;
+    margin-left: 6%;
+    }
 }
 
-@media screen and (max-width:768px) and (min-width:425px)
+@media screen and (max-width:1204px) and (min-width:768px){
+.Dm_subheading1 {
+    background-position-x: 47%;
+    background-position-y: 89%;
+    background-size: 37%;
+    width: 74%;
+    margin-left: 14%;
+}
+}
+@media screen and (max-width:768px) and (min-width:429px)
 {
   #titleinQA{
     width:70%;
   }
+  .Dm_heading1 {
+    line-height: 168px;
+    margin-top: 1%;
+    font-size: 120px;
+}
+.Serv_right1 {
+    width: 84%;
+    margin: 7% 0px 0 8%;
+    font-size: 18px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Dm_subheading1 {
+    background-position-x: 47%;
+    background-position-y: 89%;
+    background-size: 55%;
+    width: 82%;
+    font-size: 19px;
+    margin-left: 10%;
+}
 }
 
-@media screen and (max-width:425px) and (min-width:376px) {
+@media screen and (max-width:425px) and (min-width:378px) {
     #titleinQA{
         width: 100%;
     }
@@ -74,8 +111,24 @@ body{
     }
     .dmheading {
         font-family: "Poppins", Sans-serif;
-        font-size: 41px !important;
-        margin-top: 9% !important;
+        font-size: 70px !important;
+        margin-top: 4% !important;
+}
+.Dm_subheading1 {
+    background-position-x: 46%;
+    background-position-y: 87%;
+    margin-top: -9%;
+    background-size: 75%;
+    padding-bottom: 6%;
+    font-size: 17px;
+    width: 73%;
+    margin-left: 11%;
+}
+.Serv_right1 {
+    width: 85%;
+    margin: 2% 0 0 7%;
+    font-size: 15px;
+    text-align: justify;
 }
 }
 @media screen and (max-width:375px) {
@@ -84,5 +137,26 @@ body{
     }
     #parainQA{
         margin: 0 0 -10% 0;
+    }
+    .Serv_right1 {
+        width: 83%;
+        margin: 3% 0 0 8%;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .Dm_subheading1 {
+        background-position-x: 46%;
+    background-position-y: 87%;
+    margin-top: -9%;
+    background-size: 75%;
+    padding-bottom: 10%;
+    font-size: 17px;
+    width: 80%;
+    margin-left: 11%;
+    }
+    .Dm_heading1 {
+        font-size: 70px;
+        text-align: center;
+        margin-top: 7%;
     }
 }

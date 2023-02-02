@@ -84,12 +84,16 @@
 .ourapproachQA .approachDesignQA #straightarrowQA{
     display: none;
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
+
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .ourapproachQA{
         background-color: white;
         margin: 5% 0 5% 0;
     } 
-    
+    .ourapproachQA h1 {
+        font-family: poppins-semibold;
+        font-size: 122px;
+    }
     .ourapproachQA h1 {
        font-family: poppins-semibold;
        font-size: 89px;
@@ -110,8 +114,9 @@
     
     .ourapproachQA .approachDesignQA img {
         position: absolute;
-        margin: 3.5% 0 0 31%;
-        height: 125vh;
+    margin: 3.5% 0 0 31%;
+    height: 700px;
+    width: 30%;
     }
     .ourapproachQA .approachQA div{
         display: inline-flex;
@@ -192,7 +197,21 @@
         margin-left: 15%;
         margin-top: 5%;
     }
+   
 }
+
+@media screen and (max-width: 1440px) and (min-width: 1025px)
+{
+    .ourapproachQA .approachDesignQA img {
+        position: absolute;
+        margin: 3.5% 0 0 31%;
+        height: 686px;
+        width: 28%;
+    }
+    
+}
+
+
 @media screen and (max-width:1024px) and (min-width:769px) {
         
         .ourapproachQA h1 {
@@ -203,8 +222,9 @@
             margin-top:12%
         }
         .ourapproachQA .approachDesignQA img {
-            margin: 3.5% 0 0 25%;
-            height: 100vh;
+            margin: 3.5% 0 0 29%;
+    height: 497px;
+    width: 26%;
         }
         .ourapproachQA .approachDesignQA #straightarrowQA{
             display: none;

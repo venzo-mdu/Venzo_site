@@ -12,7 +12,7 @@ import Footer from '../component/footer/footer.js'
 
 const bankingQAPage=()=>{
     return(
-        <>
+      <div className='bankbody'>
           <title>Venzo Technologies</title>
           <Header flag="header1"/>
           <Header flag="header2"/>
@@ -24,7 +24,7 @@ const bankingQAPage=()=>{
           <Endtoend/>
           <Customerexp/>
           <Footer/>
-        </>
+        </div>
     );
 }
 

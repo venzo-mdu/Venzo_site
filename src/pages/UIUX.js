@@ -9,7 +9,7 @@ import Footer from "../component/footer/footer"
 
 const uiuxPage=()=>{
   return(
-    <>
+    <div className='uiuxBody'>
       <title>Venzo Technologies</title>
           <Header flag="header1"/>
           <Header flag="header2"/>
@@ -19,7 +19,7 @@ const uiuxPage=()=>{
           <Prototypes/>
           <Fidelity/>
           <Footer/>
-    </>
+    </div>
   );
 }
 

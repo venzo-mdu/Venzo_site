@@ -208,7 +208,7 @@ color: #000000;
         width: 20%;
     }
 }
-@media screen and (max-width:770px) and (min-width:426px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .fidelityPrototypes{
         margin-bottom: 3%;
     }
@@ -243,6 +243,9 @@ color: #000000;
     }
     .ourInsights img{
         margin: 8% 0 0 0;
+    }
+    .fidelity .lowFidelity img {
+        margin: 5% 0 0 -5%;
     }
 
 }

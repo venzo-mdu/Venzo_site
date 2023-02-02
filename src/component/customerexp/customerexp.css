@@ -1,4 +1,4 @@
-.customerExperiance{
+.customerExperiance1{
     background-color: whitesmoke;
     height: 25vh;
     padding: 4% 10%;
@@ -7,18 +7,18 @@
     margin-top: 5%;
 
 }
-.customerExperiance h3{
+.customerExperiance1 h3{
     font-family: poppins-semibold;
     font-size: 39px;
     width: 98%;
 }
-.customerExperiance #through{
+.customerExperiance1 #through{
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.customerExperiance .reachus{
+.customerExperiance1 .reachus{
     height: 5vh;
     width: 10vw;
     color: white;
@@ -27,95 +27,103 @@
     font-size: 18px;
     margin: 1.5% 0 0 10%;
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
-    .customerExperiance{
+@media screen and (max-width:1705px) and (min-width:1025px) {
+    .customerExperiance1{
         background-color: whitesmoke;
         padding: 4% 10% 20%;
         display: inline-flex;
         width: 100vw;
     }
-    .customerExperiance h3{
+    .customerExperiance1 h3{
         font-family:poppins-semibold;
         font-size: 40px;
     }
-    .customerExperiance #through{
+    .customerExperiance1 #through{
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
-    .customerExperiance .reachus{
+    .customerExperiance1 .reachus{
         height: 5vh;
         width: 13vw;
         color: white;
         background-color: #000000;
         border-radius: 10px 10px 10px 10px;
         font-size: 18px;
-        margin: 8% 0 0 10%;
+        margin: 5% 0 0 10%;
     }
 }
     @media screen and (max-width:1024px) and (min-width:769px) {
-        .customerExperiance {
-            margin-top: 4%;
+        .customerExperiance1 {
+            margin-top: 3%;
+            padding-top: 0%;
+            height: 32vh;
         }
-        .customerExperiance h3{
+        .customerExperiance1 h3{
             font-size: 24px;
             width: 65%;
             margin-top: 4%;
         }
-        .customerExperiance .reachus{
+        .customerExperiance1 .reachus{
             height: 5vh;
             width: 13vw;
             color: white;
             background-color: #000000;
             border-radius: 10px 10px 10px 10px;
             font-size: 18px;
-            margin: 7% 0 0 10%;
+            margin: 9% 0 0 10%;
         }
 
 }
     
     @media screen and (max-width:768px) and (min-width:435px) {
-        .customerExperiance h3{
-            font-size: 27px;
-            width: 63%;
+        .customerExperiance1 h3{
+            font-size: 19px;
+    width: 66%;
+    margin-left: 4%;
+    padding-top: -8%;
+    margin-top: -1%;
         }
-        .customerExperiance .reachus{
+        .customerExperiance1 .reachus{
             width: 15vw;
+            margin-top: 5%;
         }
 }
     
     @media screen and (max-width: 425px) and (min-width:376px) {
-        .customerExperiance{
+        .customerExperiance1{
             display: block;
-            padding-top: 15%;
-            padding-bottom: 15%;
+    padding-top: 15%;
+    padding-bottom: 8%;
+    height: auto;
         }
-        .customerExperiance h3{
+        .customerExperiance1 h3{
             font-size: 20px;
             width: 110%;
             margin: -10% 0 0% 1%;
         }
-        .customerExperiance .reachus{
+        .customerExperiance1 .reachus{
             width: 30vw;
             margin: 5% 0 0 1%;
 
         }
     }
         @media screen and (max-width:375px)  {
-            .customerExperiance{
+            .customerExperiance1{
                 display: block;
-                padding-top: 15%;
+                padding-top: 4%;
+                height: auto;
             }
-            .customerExperiance h3{
-                font-size: 20px;
-                width: 110%;
-                margin: 0 0 0 2%;
-            }
-            .customerExperiance .reachus{
+            .customerExperiance1 .reachus{
                 width: 30vw;
-                margin: 5% 0 0 2%;
+                margin: 5% 0 0 0%;
     
+            }
+            .customerExperiance1 h3 {
+                font-family: poppins-semibold;
+                font-size: 18px;
+                width: 98%;
             }
         }
     

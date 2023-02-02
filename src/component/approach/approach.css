@@ -32,6 +32,7 @@
 
  .ourApproach .approachDesign img {
      margin: 3.5% 5% 0 24%;
+     height: 530px;
  }
  .approach .research {
      margin: -43% 0 0 -4%;
@@ -112,13 +113,13 @@
 
 
      .approach .research {
-         margin: -50% 0 0 -6%;
+         margin: -44% 0 0 -6%;
          position: absolute;
          display: inline-flex;
      }
 
      .approach .ideate {
-         margin: -30% 0 0 8%;
+         margin: -27% 0 0 8%;
          position: absolute;
          display: inline-flex;
      }
@@ -420,7 +421,7 @@
      }
 
      .approach .research {
-         margin: -140% 0 0 -8%;
+         margin: -133% 0 0 -8%;
          position: absolute;
          display: inline-flex;
      }

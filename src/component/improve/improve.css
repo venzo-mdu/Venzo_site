@@ -19,6 +19,9 @@ body{
     padding: 0;
     margin: 0;
 }
+.bankbody #headerSection{
+    z-index: 1 !important;
+}
 .improve{
     background-image: url("../../../src/images/improveBG.png");
     width: 100vw;

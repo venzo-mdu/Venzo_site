@@ -1,3 +1,7 @@
+.stafBody #headerSection{
+    z-index: 1 !important;
+}
+
 .hireDevelopers{
     width: 100%;
     height: 485px;
@@ -14,7 +18,7 @@
 .rightHire{
     width: 50%;
     display: block;
-    margin: -3% 0 0 20%;
+    margin:-2% 0 0 20%;
 }
 .rightHire img{
     display: block;
@@ -24,7 +28,7 @@
     font-family: Poppins;
     font-size: 34px;
     font-weight: 500;
-    line-height: 39px;
+    line-height: 45px;
     letter-spacing: -0.025em;
     text-align: left;
     color: #FFFFFF;
@@ -34,7 +38,7 @@
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 36px;
     letter-spacing: -0.04em;
     text-align: left;
     width: 475px;
@@ -49,14 +53,14 @@
     letter-spacing: -0.025em;
     text-align: left;
     color: #757575;
-    margin: -8% 0 3% 12%;
+    margin: -6% 0 3% 12%;
 }
 #imageText:hover{
     color: #FFFFFF;
 }
 @media screen and (max-width:1440px) and (min-width:1024px) {
     .hireDevelopers{
-        padding: 7% 10%;
+        padding: 4% 10%;
     }
     .rightHire {
         margin: 0% 0 0 20%;
@@ -65,7 +69,7 @@
 }
 @media screen and (max-width:1025px) and (min-width:775px) {
     .hireDevelopers{
-        padding: 10% 8%;
+        padding: 7% 8%;
     }
     .rightHire{
         margin: 2% 0 0 10%;
@@ -137,5 +141,10 @@
 @media screen and (max-width:375px) {
     .rightHire{
         margin: 10% 0 0 5%;
+
+    }
+    .leftHire #lefthireTitle {
+        font-family: Poppins;
+        font-size: 31px;
     }
 }

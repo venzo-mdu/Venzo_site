@@ -46,7 +46,8 @@
 @media screen and (max-width:1705px) and (min-width:1025px){
 .privacyVenzo #privacyText{
     left: 541px;
-    top: 145px;
+    top: 166px;
+    z-index: -1;
 }
 /* .policy #attention {
     width: 26% !important;
@@ -65,7 +66,7 @@
         font-size: 36px;
     }
 }
-@media screen and (max-width:430px) and (min-width:375px) {
+@media screen and (max-width:425px) and (min-width:375px) {
     .privacyVenzo .privacyBG{
         height:25vh
     }

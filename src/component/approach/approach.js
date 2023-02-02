@@ -12,7 +12,7 @@ function approach() {
                   <img id="straightarrow" src={straightArrow} alt="straightArrow"></img>
                   <div className='approach'>
                     <div className='research'>
-                       <h2>Research &Discover</h2>
+                       <h2>Research <br></br>&Discover</h2>
                        <p>With insights rooted in the voices of our users, we solve customer-oriented problems while satisfying company goals. </p>
                     </div>
                     <div className='ideate'>

@@ -59,7 +59,7 @@
     margin: 0 0 0 25%;
 }
 
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .testing {
         background-color: #0A1020;
         width: 100vw;
@@ -88,11 +88,8 @@
         padding-bottom: 12%;
         margin: 0% 0 0 0%;
         border-radius: 8px 8px 8px 8px;
-        border: 1px solid rgb(126, 123, 123)
-    }
-
-    .testingCard .types {
-        display: flex;
+        border: 1px solid rgb(126, 123, 123);
+        height: 44vh;
     }
 
     .testingCard .types .types1 {
@@ -108,6 +105,11 @@
         font-family: poppins-medium;
         line-height: 2.5;
         margin: 0 0 0 25%;
+    }
+    .testingCard .types {
+        display: flex;
+        margin-left: -1%;
+        margin-top: 2%;
     }
 }
 
@@ -135,6 +137,11 @@
         font-size: 14px;
         margin: 0 0 0 10%;
     }
+    .testingCard .types {
+        display: flex;
+        margin-left: -1%;
+        margin-top: -5%;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:426px) {
@@ -155,7 +162,7 @@
     }
 
     .testing .typesTesting .testingCard {
-        height: 58vh;
+        height: auto;
         width: 80%;
         margin: 10% 0 5% 10%;
     }
@@ -193,6 +200,7 @@
 
     .testingCard .types {
         display: block;
+        margin-top: 10%;
     }
 
     .testingCard .types .types1 {
@@ -212,7 +220,7 @@
 
 @media screen and (max-width:375px) {
     .testing {
-        height: 90vh;
+        height: auto;
     }
 
     .testing .typesTesting {
@@ -227,7 +235,7 @@
     }
 
     .testing .typesTesting .testingCard {
-        height: 55vh;
+        height: auto;
         width: 95%;
         margin: 10% 0 0 5%;
     }

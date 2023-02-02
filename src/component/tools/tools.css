@@ -172,7 +172,7 @@ margin-top: 40%;
 }
 
 
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .toolsweuse h1 {
         font-size: 70px;
         margin: 2% 0 0 0;
@@ -184,6 +184,26 @@ margin-top: 40%;
         line-height: 2.5;
         margin: 0 0 0 5%;
     }
+    .bankingToolsIcon {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 13%;
+        grid-column-gap: 24%;
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+    .toolsweuse {
+
+        height: auto;
+        margin-top: 5%;
+    }
+    .toolsweuse .toolsBlock .headingWeb {
+        display: block !important;
+        font-size: 90px;
+        margin: 6% 0 0 0;
+        width: 200%;
+    }
+    @media screen 
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
@@ -210,7 +230,7 @@ margin-top: 40%;
         text-align: left;
         width: 200%;
     }
-
+/* 
     .toolsweuse .marqueeTools {
         display: inline-flex !important;
         margin: 0 0 -47% 40%;
@@ -239,6 +259,19 @@ margin-top: 40%;
         margin: 20% 0 0 10%;
         border-radius: 8px 8px 8px 8px;
         border: 1px solid rgb(126, 123, 123)
+    } */
+    .bankingToolsIcon {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 0%;
+        grid-column-gap: 18%;
+        margin-top: 11%;
+        margin-left: -6%;
+    }
+    .toolsweuse .toolsBlock .headingWeb {
+        font-size: 90px;
+        margin: 5% 0 0 20%;
+        width: 100%;
     }
 
 }
@@ -249,14 +282,24 @@ margin-top: 40%;
         text-align: center;
         width: 100%;
     }
-
+    .toolsweuse .toolsBlock .headingWeb {
+        font-size: 71px;
+        margin: 4% 0 0 0;
+        width: 99%;
+    }.toolsweuse {
+        background-color: #0A1020;
+        width: 100%;
+        display: inline-flex;
+        padding: 3% 10% 10%;
+        height: auto;
+    }
     .toolsweuse h1 {
         font-size: 45px;
         text-align: center;
     }
 
     .toolsweuse .toolsBlock .headingWeb {
-        display: none !important;
+        /* display: none !important; */
     }
 
     .toolsweuse .toolsBlock .headingRes {
@@ -288,7 +331,7 @@ margin-top: 40%;
         margin: 0 0 30% 5%;
     }
 
-    .toolsweuse .marqueeTools {
+    /* .toolsweuse .marqueeTools {
         display: none !important;
     }
 
@@ -309,6 +352,14 @@ margin-top: 40%;
         margin: 0% 0 0 2%;
         border-radius: 8px 8px 8px 8px;
         border: 1px solid rgb(126, 123, 123)
+    } */
+    .bankingToolsIcon {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 0%;
+        grid-column-gap: 10%;
+        margin-top: 11%;
+        margin-left: -6%;
     }
 }
 
@@ -319,11 +370,15 @@ margin-top: 40%;
         width: 100%;
         display: block;
         text-align: center;
-        height: 90vh;
+        height:auto;
     }
 
     .toolsweuse .toolsBlock .headingWeb {
-        display: none !important;
+        /* display: none !important; */
+        font-size: 44px;
+       text-align: left;
+       margin-left: 5%;
+       margin-top: 5%;
     }
 
     .toolsweuse .toolsBlock {
@@ -368,7 +423,7 @@ margin-top: 40%;
         height: 45px;
         width: 45px;
     }
-
+/* 
     .toolsweuse .marqueeToolsRes .leftSidetools {
         display: inline-flex;
         background-color: #1d2331;
@@ -386,6 +441,34 @@ margin-top: 40%;
 
     marquee {
         width: 100%;
+    } */
+    .bankingToolsIcon {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 0%;
+        grid-column-gap: 15%;
+        margin-left: 0%;
+        margin-top: 8%;
+    }
+    .toolsTit2 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit1 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit3 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit4 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit5 {
+        margin-top: 5%;
+        margin-bottom: 9%;
     }
 
 }
@@ -397,20 +480,44 @@ margin-top: 40%;
         width: 100%;
         display: block;
         text-align: center;
-        height: 580px;
+        height: auto;
+    }
+    .toolsTit2 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit1 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit3 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit4 {
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+    .toolsTit5 {
+        margin-top: 5%;
+        margin-bottom: 9%;
     }
 
     .toolsweuse .toolsBlock .headingWeb {
-        display: none !important;
+        /* display: none !important; */
+        font-size: 44px;
+       text-align: left;
+       margin-left: 5%;
+       margin-top: 3%;
     }
 
     .toolsweuse .toolsBlock {
         width: 100%;
         text-align: center;
     }
-    .toolsweuse .marqueeToolsRes {
+    /* .toolsweuse .marqueeToolsRes {
         display: block;
-    }
+    } */
     .toolsweuse .toolTypes {
         width: 100%;
     }
@@ -447,7 +554,7 @@ margin-top: 40%;
         width: 45px;
     }
 
-    .toolsweuse .marqueeToolsRes .leftSidetools {
+    /* .toolsweuse .marqueeToolsRes .leftSidetools {
         display: inline-flex;
         background-color: #1d2331;
         height: 15vh;
@@ -464,6 +571,14 @@ margin-top: 40%;
 
     marquee {
         width: 100%;
-    }
+    } */
 
+    .bankingToolsIcon {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 0%;
+        grid-column-gap: 15%;
+        margin-left: 0%;
+        margin-top: 8%;
+    }
 }

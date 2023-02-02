@@ -98,9 +98,10 @@
 
 } */
 
-@media screen and (max-width:1440px) and (min-width:1026px) {
+@media screen and (max-width:1705px) and (min-width:1026px) {
     .processSA #iconbelowText {
         margin: 17% 0% 0 -10%;
+        
     }
 
     .processSA {
@@ -110,6 +111,7 @@
     .provenDev .provenDevText {
         width: 90%;
         margin: 1% 0 0 5%;
+       
     }
 
 }

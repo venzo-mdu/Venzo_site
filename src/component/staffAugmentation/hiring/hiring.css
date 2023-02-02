@@ -19,7 +19,7 @@
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 36px;
     letter-spacing: -0.04em;
     text-align: center;
     width: 60%;
@@ -179,7 +179,7 @@
 
 
 
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
 .hiringposCard{
     padding:5% 10%;
 }
@@ -324,7 +324,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width:430px){
+@media screen and (max-width:430px) and (min-width:380px){
     .hiring{
         padding: 5% 3% 5% 7%;
     }
@@ -465,27 +465,142 @@
 }
 }
 @media screen and (max-width:375px) {
-    .hireDemand{
-        padding:3% 3%;
-        width: 100%;
-        display: block;
-        margin: -10% 0 0 0;
+    .hiring{
+        padding: 5% 3% 5% 7%;
     }
-    .backgroundimagesSA{
-     margin:0 0 -15% 0;
-    }
-    .venzoSAImage{
-        border-radius: 0px 12px 0px 0px;
-        width:100%;
-    }
-    .leftImagehire{
-        width: 100%;
-    }
-    .rightTexthire {
-        border-radius: 0px 0px 12px 12px;
-        padding: 15% 5%;
-        margin: -15px 0 0 0;
-        width: 100%;
-        height: 500px;
-    }
+.hiring #hiringTitle{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 90%;
+}
+
+#hiringText{
+    display: none;
+}
+.hiringposCard {
+    padding: 3% 0%;
+    display: block;
+    margin-left: -10%;
+}
+.hiring .hireCards {
+    padding: 0% 10%;
+    width: 316px;
+    height: 180px;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+.hireCards #cardTitle {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #000000;
+}
+.hireCards #cardText {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    width: 300px;
+    color: #929292;
+}
+
+.bgImgSA1,.bgImgSA2{
+    display: none;
+}
+.hireDemand{
+    padding:3% 1%;
+    width: 100%;
+    display: block;
+}
+
+.backgroundimagesSA {
+    height: 927px;
+ margin:0 0 -15% 0;
+
+}
+.venzoSAImage{
+    border-radius: 0px 12px 0px 0px;
+    width:100%;
+}
+.leftImagehire{
+    width: 100%;
+}
+.rightTexthire {
+    border-radius: 0px 0px 12px 12px;
+    padding: 10% 3%;
+    margin: -15px 0 0 0;
+    width: 100%;
+    height: 450px;
+}
+
+.rightTexthire #rightTitlehire {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.rightTexthire #rightParathire {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #929292;
+    width: 95%;
+}
+
+.choose {
+    padding: 0%;
+}
+.choose #chooseTitle{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 100%;
+
+}
+.choose #chooseText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    width: 100%;
+
+}
+.whyChoose{
+    width:100%;
+    padding: 5% 0%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 15%;
+    grid-column-gap: 3%;
+    margin-bottom: 10%;
+}
+.choosingIdeas{
+    width:100;
+}
+.choosingIdeas #chooseimageText{
+    width:100%;
+    margin: 10% 0 0 0%;
+}
 }
