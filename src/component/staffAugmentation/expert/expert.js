@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './expert.css'
 function expert() {
   return (
     <div className='expert'>

@@ -1,0 +1,23 @@
+.expert .buildtalk {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #0A1020;
+    margin: 2% 0 0 0%;
+}
+
+@media screen and (max-width: 425px){
+    .expert .buildText {
+    font-family: Poppins;
+    font-size: 27px !important;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 400px !important;
+    margin-left: 1%;
+}}

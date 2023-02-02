@@ -422,6 +422,7 @@ button:focus:not(:focus-visible) {
     background-position-x: right;
     background-image: url("../../DMpage/pluse.png");
     background-position-y: center;
+    z-index: 0;
 
 }
 .freqQus .accordion-flush .accordion-item .accordion-button,.freqQus .accordion-flush .accordion-item .accordion-button.collapsed::after {

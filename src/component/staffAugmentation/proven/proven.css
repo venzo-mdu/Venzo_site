@@ -1,5 +1,5 @@
 .provenDev {
-    height: 600px;
+    height: 430px;
     padding: 5% 5% 20%;
     text-align: center;
 }
@@ -11,18 +11,20 @@
     line-height: 34px;
     letter-spacing: -0.04em;
     color: #000000;
+    margin-bottom: 3%;
 }
-
-.provenDev #provenDevText {
+.provenDev .provenDevdesc{
+    display: flex;
+}
+.provenDev .provenDevText {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     color: #00000080;
-    width: 18%;
     text-align: center;
-    margin: 1% 0 0 42%;
+    /* margin: 1% 0 0 42%; */
 }
 
 .processSA {
@@ -35,16 +37,35 @@
 
 }
 
-.arrowImg1,
+
+.arrowImg1{
+    margin-left: -75%;
+    width: 70%;
+    height: 1%;
+
+}
 .arrowImg2 {
-    height: 100%;
+    margin-left: -85%;
+    width: 80%;
+    height: 1%;
+    margin-top: 0%;
+}
+ .processSAIcon1 {
+    margin-top: 1%;
+
+}
+.processSAIcon3{
+    margin-top: 0%;
 }
 
-.arrowImg2 {
-    margin: 0 0 0 0.5%;
+.processSAIcon1, .processSAIcon2, .processSAIcon3{
+    width: 85px;
 }
 
-.processSA #iconbelowText {
+.processSAIcon1:hover , .processSAIcon2:hover, .processSAIcon3:hover{
+    width: 100px;
+}
+ .iconbelowText {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -52,10 +73,10 @@
     letter-spacing: -0.04em;
     text-align: center;
     color: #4A4A4A;
-    margin: 15% 0% 0 -12%;
+    margin: 5% 0% 0 -5%;
 }
 
-.processSA #iconbelowText1 {
+/* .processSA #iconbelowText1 {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -75,20 +96,20 @@
     color: #4A4A4A;
     margin: 12% 0% 0 -15%;
 
-}
+} */
 
 @media screen and (max-width:1440px) and (min-width:1026px) {
     .processSA #iconbelowText {
-        margin: 14% 0% 0 -12%;
+        margin: 17% 0% 0 -10%;
     }
 
     .processSA {
         margin: 0 0 0 0%;
     }
 
-    .provenDev #provenDevText {
-        width: 25%;
-        margin: 1% 0 0 38%;
+    .provenDev .provenDevText {
+        width: 90%;
+        margin: 1% 0 0 5%;
     }
 
 }
@@ -98,42 +119,33 @@
         margin: 0 0 0 -5%;
     }
 
-    .provenDev #provenDevText {
-        width: 30%;
-        margin: 1% 0 0 35%;
+    .provenDev .provenDevText {
+        width: 81%;
+        margin: 1% 0 0 8%;
     }
 }
 
 
 @media screen and (max-width:768px) and (min-width:431px) {
     .provenDev {
-        height: 800px;
+        height: 850px;
         position: relative;
     }
 
-    .processSA {
+    .provenDev .provenDevdesc{
         display: block;
     }
-
+    .provenDev .provenDevText {
+        width: 81%;
+        margin: 1% 0 6% 8%;
+    }
     .arrowImg1,
     .arrowImg2 {
         display: none;
     }
-
-    .processSA #iconbelowText {
-        margin: 2% 0 10% 2%;
-    }
-
-    .processSA #iconbelowText1 {
-        margin: 2% 0 30% 3%;
-
-    }
-
-    .provenDev #provenDevText {
-        position: absolute;
-        width: 40%;
-        top: 400px;
-        left: -85px;
+    .processSAIcon1, .processSAIcon2, .processSAIcon3{
+        margin-left: -4%;
+        z-index: -1;
     }
 }
 
@@ -144,8 +156,12 @@
         padding: 10% 5%;
     }
 
-    .processSA {
+    .provenDev .provenDevdesc{
         display: block;
+    }
+    .provenDev .provenDevText {
+        width: 81%;
+        margin: 1% 0 6% 8%;
     }
 
     .arrowImg1,
@@ -153,19 +169,9 @@
         display: none;
     }
 
-    .processSA #iconbelowText {
-        margin: 2% 0 20% 2%;
-    }
-
-    .processSA #iconbelowText1 {
-        margin: 2% 0 50% 3%;
-    }
-
-    .provenDev #provenDevText {
-        position: absolute;
-        width: 60%;
-        top: 430px;
-        left: -85px;
+    .processSAIcon1, .processSAIcon2, .processSAIcon3{
+        margin-left: -4%;
+        z-index: -1;
     }
 }
 
@@ -173,9 +179,9 @@
     .processSA #iconbelowText1 {
         margin: 2% 0 60% 3%;
     }
-
-    .provenDev #provenDevText {
-        top: 410px;
-        left: -80px;
+    .provenDev {
+        height: 900px;
+        position: relative;
+        padding: 10% 5%;
     }
 }

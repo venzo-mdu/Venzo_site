@@ -16,13 +16,13 @@ function hiring() {
    <div>
     <div className='hiring'>
       <p id='hiringTitle'>Scale Up Your Team with <span id='hiringGradient'>Venzo’s Staff Augmentation</span></p>
-      <p id='hiringText'>what you are looking for? Contact us so we can help.</p>
+      <p id='hiringText'>We bridge the IT talent demand-supply gap with an innovative, best-in-class recruiting engine and a client-centric service focus. </p>
       <div className='hiringCards'>
         <div className='hiringpositions'>
           <div className='hiringposCard'>
             <div className='hireCards'>
               <p id="cardTitle">Web Developer</p>
-              <p id="cardText">Agile engineering capabilities and full-service engineering capabilities.
+              <p id="cardText">Agile engineering capabilities and full-service engineering capabilities. 
               </p>
             </div>
             <div className='hireCards'>
@@ -66,7 +66,8 @@ function hiring() {
             </div>
             <div className='rightTexthire'>
               <p id='rightTitlehire'>Need to hire on-demand employees but don’t know where to start?</p>
-              <p id='rightParathire'>No worries, Get in touch if you’d like to add outside talent to your in-house team while avoiding the pitfalls of traditional recruiting. We accelerate development and reduce development costs for both IT and non-IT companies. Our programmers are skilled in Java, .NET, Python, Blockchain & PHP, and other technologies.</p>
+              <p id='rightParathire'>No worries, Get in touch if you’d like to add outside talent to your in-house team while avoiding the pitfalls of traditional recruiting. <br/><br/>
+We accelerate development and reduce development costs for both IT and non-IT companies. Our programmers are skilled in Java, .NET, Python, Blockchain & PHP, and other technologies. </p>
             </div>
           </div>
         </div>
@@ -84,19 +85,19 @@ function hiring() {
 
           <div className='choosingIdeas'>
             <img src={VenzoSAIcon1} alt='choosingimages'></img>
-            <p id='chooseimageText'>Highly Adaptive& Motivated Teams</p>
+            <p id='chooseimageText'>Highly Adaptive &<br/> Motivated Teams</p>
           </div>
           <div className='choosingIdeas'>
             <img src={VenzoSAIcon2} alt='choosingimages'></img>
-            <p id='chooseimageText'>Quality &Security Adherence</p>
+            <p id='chooseimageText'>Quality &Security <br/>Adherence</p>
           </div>
           <div className='choosingIdeas'>
             <img src={VenzoSAIcon3} alt='choosingimages'></img>
-            <p id='chooseimageText'>ROI Approach</p>
+            <p id='chooseimageText'>ROI <br/> Approach</p>
           </div>
           <div className='choosingIdeas'>
             <img src={VenzoSAIcon4} alt='choosingimages'></img>
-            <p id='chooseimageText'>Guaranteed Innovation</p>
+            <p id='chooseimageText'>Guaranteed <br/>Innovation</p>
           </div>
         </div>
       </div>
