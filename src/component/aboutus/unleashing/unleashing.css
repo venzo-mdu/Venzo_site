@@ -7,17 +7,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 31px;
+    line-height: 45px;
     text-align: justify;
     color: #A4A4A4;
     width: 43%;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
 }
 
 .powerOfvenzo {
     width: 100%;
     display: flex;
-    padding: 5% 10%;
+    padding: 5% 5%;
 }
 
 .powerOfvenzo .powerleftImage {
@@ -71,6 +71,30 @@
     text-align: justified;
     color: #000000;
 }
+/* @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  #aboutinnerNumber {
+    animation: counter 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+  }
+  #aboutinnerNumber::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  } */
 
 .aboutInner #aboutinnerText {
     font-family: Poppins;
@@ -520,4 +544,17 @@
         grid-column-gap: 20%;
         margin-bottom: 12%;
     }
+}
+.aboutLeftCommit{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 0%;
+    grid-column-gap: 0%;
+    margin-right: 0%;
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 4%;
+
+}
+.cardAboutUs{
 }

@@ -11,51 +11,56 @@ import gridIcon4 from '../../../images/aboutus/aboutus10.png'
 import gridIcon5 from '../../../images/aboutus/aboutus9.png'
 import gridIcon6 from '../../../images/aboutus/aboutus11.png'
 import TickIcon from '../../../images/aboutus/aboutus17.png'
-
+import Countup from 'react-countup'
+import { duration } from '@mui/material';
+import ScrollTrigger from 'react-scroll-trigger'
 
 
 function Unleashing() {
-//   const [active, setActive] = useState('');
-//   const dated = (va) => {
-//       let container
-//       if( document.querySelector('.card1') !==null){
-//           container = document.querySelector('.card1')
-//       }
-//       setActive(va)
-//       if (va == 'Values') {
-//           container.innerHTML = "<font size=4 color=black>\
-//           We offer solutions for Startups/SME/Entrepreneurs\
-//           </font>\
-//           <br>\
-//           <br>\
-//           <font size=3 color=gray>\
-//           We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.\
-//           </font>\
-//   ";
-//       }
-//       else if (va === 'Diversity') {
-//           container.innerHTML = "<font size=4 color=black>\
-//           We offer refined customized applications that streamline your 2.\
-//           </font>\
-//           <br>\
-//           <br>\
-//           <font size=3 color=gray>\
-//           Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
-//           </font>\
-//   ";
-//       }
-//       else if (va === 'Society') {
-//         container.innerHTML = "<font size=4 color=black>\
-//         We offer refined customized applications that streamline your 2.\
-//         </font>\
-//         <br>\
-//         <br>\
-//         <font size=3 color=gray>\
-//         Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
-//         </font>\
-// ";
-//     }
-//     }
+  const [counter, setCounter]=useState(false);
+  const [active, setActive] = useState('');
+  const dated = (va) => {
+      let container
+      if( document.querySelector('.cardAboutUs') !==null){
+          container = document.querySelector('.cardAboutUs')
+      }
+      setActive(va)
+      if (va == 'Values') {
+          container.innerHTML = "<font size=4 color=black>\
+          We offer solutions for Startups/SME/Entrepreneurs\
+          </font>\
+          <br>\
+          <br>\
+          <font size=3 color=gray>\
+          We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.\
+          </font>\
+          <br>\
+          <br>\
+  ";
+      }
+      else if (va === 'Diversity') {
+          container.innerHTML = "<font size=4 color=black>\
+          We offer refined customized applications that streamline your 2.\
+          </font>\
+          <br>\
+          <br>\
+          <font size=3 color=gray>\
+          Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+          </font>\
+  ";
+      }
+      else if (va === 'Society') {
+        container.innerHTML = "<font size=4 color=black>\
+        We offer refined customized applications that streamline your 2.\
+        </font>\
+        <br>\
+        <br>\
+        <font size=3 color=gray>\
+        Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+        </font>\
+";
+    }
+    }
   return (
     <div className='unleashing'>
       <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'> transformative power</span> in Technology platforms</p>
@@ -68,39 +73,71 @@ function Unleashing() {
           <div className='aboutVenzo'>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon1} alt=''></img>
-              <p id='aboutinnerNumber'>90+</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={90} duration={2} delay={0}></Countup>}
+               +
+              </p>
+              </ScrollTrigger>
+              
+             
               <p id='aboutinnerText'>Brilliant minds</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon2} alt=''></img>
-              <p id='aboutinnerNumber'>6</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={6} duration={2} delay={0}></Countup>}
+               
+              </p>
+              </ScrollTrigger>
               <p id='aboutinnerText'>Years of Business</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon3} alt=''></img>
-              <p id='aboutinnerNumber'>6+</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={6} duration={2} delay={0}></Countup>}
+               +
+              </p>
+              </ScrollTrigger>
               <p id='aboutinnerText'>Amazing Products</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon4} alt=''></img>
-              <p id='aboutinnerNumber'>20+</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={20} duration={2} delay={0}></Countup>}
+               +
+              </p>
+              </ScrollTrigger>
               <p id='aboutinnerText'>Satisfied Clients</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon5} alt=''></img>
-              <p id='aboutinnerNumber'>98%</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={98} duration={2} delay={0}></Countup>}
+               %
+              </p>
+              </ScrollTrigger>
               <p id='aboutinnerText'>Customer Retention</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon6} alt=''></img>
-              <p id='aboutinnerNumber'>30+</p>
+              <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
+              <p id='aboutinnerNumber'>
+                {counter && <Countup start={0} end ={30} duration={2} delay={0}></Countup>}
+               +
+              </p>
+              </ScrollTrigger>
               <p id='aboutinnerText'>Tech Stack</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='commitments'>
+      {/* <div className='commitments'>
         <div className='leftCommit'>
           <p id='leftCommitTitle'>Our Commitments</p>
           <div className='whatCommits1'>
@@ -136,24 +173,26 @@ function Unleashing() {
               <p id='tickiconText'>Revolutionary Testing</p>
             </div>
           </div>
+        </div> */}
 
-        </div>
-                {/* <div className='leftCommit'>
-                    <ul className='leftCommit1'>
+                <div className='aboutLeftCommit'>
+                  <div>
+                  <ul className='leftCommit1'>
                         <li className={active === 'Values' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
                         <li className={active === 'Diversity' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
                         <li className={active === 'Society' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
                     </ul>
-                    <div className='card1'>
+                  </div>
+                    <div className='cardAboutUs'>
                         <p> We offer refined customized applications that streamline your. </p>
                         <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
                     </div>
-                </div> */}
+                </div>
 
       </div>
 
 
-    </div>
+    // </div>
   )
 }
 
@@ -232,3 +271,19 @@ function Unleashing() {
 //   )
 // }
 export default Unleashing
+
+
+
+{/* <div display=grid>\
+<div px-5>\
+  <img src='" + TickIcon+ "'  /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \
+  <img src='" + TickIcon + "' />\
+  <img src='" + TickIcon + "' />\
+  <img src='" + TickIcon + "' />\
+</div>\
+<div>\
+hello\
+hello\
+</div>\
+
+</div>\ */}

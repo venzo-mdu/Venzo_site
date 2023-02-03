@@ -2,7 +2,9 @@ import React from 'react'
 import '../culture/culture.css'
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 import cultureImage1 from '../../../images/culture/culture1.png'
 import cultureImage2 from '../../../images/culture/culture2.png'
@@ -56,6 +58,8 @@ const handleSelect = (selectedIndex, e) =>
     </div>
 </Carousel.Item>
 
+
+
 <Carousel.Item interval={2000}>
   <div style={{ display: 'flex' }}>
   <div className='innercarouselCards3'>
@@ -64,7 +68,10 @@ const handleSelect = (selectedIndex, e) =>
   </div>
 </Carousel.Item>
 </Carousel>
+
 </div>
+
+
 </div>  
   )
 }
