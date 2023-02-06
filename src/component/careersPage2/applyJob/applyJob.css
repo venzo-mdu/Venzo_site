@@ -13,6 +13,16 @@
   width:100%;
 
 }
+#joinourteamText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;/* identical to box height */
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
 .applyJob .details{
   width:50%;
 }

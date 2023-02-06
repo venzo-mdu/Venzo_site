@@ -1,14 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../../style/style.css'
 import '../../style/laptop.css'
 import '../../style/laptopL.css'
 import '../../style/tablet.css'
 import '../../style/mobile.css'
 import itemContent from '../../content/CustomerContent.json'
+import Popup from '../careersPage2/popup/popup'
 
 
 
 function Idea() {
+  const [buttonPopup, setButtonPopup] = useState(false);
   return (
     // <div className='containor3'>
     //     <p className='anyIdea'>Any Ideas? <br/>
@@ -20,9 +22,19 @@ function Idea() {
         return     <div className='containor3'>
         <p className='anyIdea'>{item.line1} <br/>
           <span className=' textColor'>{item.line2}</span> </p>
-        <button className=' btn talk'>{item.talk}</button>   
+        <button className=' btn talk' onClick={() => setButtonPopup(true)}>{item.talk}</button>   
     </div>
+
       })}
+       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
     </div>
   )
 }

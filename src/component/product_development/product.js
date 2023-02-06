@@ -27,9 +27,12 @@ import productImage from '../../images/productImage.png'
 import borderLine from '../../images/borderLine.png'
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
+import Popup from '../careersPage2/popup/popup'
+import { useState } from 'react'
+  
 
-
-function product() {
+function Product() {
+    const [buttonPopup, setButtonPopup] = useState(false);
     return (
         <>        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'></link>
 
@@ -175,20 +178,20 @@ function product() {
                         <p className='cardTitle'>Startups</p>
                         <p className='cardDesc'>Venzo is helping startups with a wide range of SaaS product and support to build their brand.</p>
                         <p className='cardDescList'>Product Discovery <br />Idea Validation <br />Prototyping<br />User Testing<br />Early Go-to-market</p>
-                        <div className='ButtonTalk'><button className=' btn Quotes'>Get Quote</button></div>
+                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
                     
                     </div>
                     <div className='cards2'>
                         <p className='cardTitle'>Medium Enterprise</p>
                         <p className='cardDesc'>Venzo is helping Medium enteprise with a wide range of SaaS product and support to build their brand.</p>
                         <p className='cardDescList'>MVP / Rapid MVP<br />Product Discovery<br />Team Augmentation<br />User Testing<br />Go-to-market</p>
-                        <div className='ButtonTalk'><button className=' btn Quotes'>Get Quote</button></div>
+                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
                     </div>
                     <div className='cards3'>
                         <p className='cardTitle'>Top Tier Companies</p>
                         <p className='cardDesc'>Venzo is helping Top brands with a wide range of SaaS product and support to maintain their market value.</p>
                         <p className='cardDescList'>Growth Design<br />Continuous Product Discovery<br />Opportunity Mapping<br />User Interviews<br />Scrum Team Augmentation</p>
-                        <div className='ButtonTalk'><button className=' btn Quotes'>Get Quote</button></div>
+                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
                     </div>
                 </div>
             
@@ -292,14 +295,25 @@ function product() {
             <div>
                 <div className='containor3'>
                     <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                    <button className=' btn talk'>Let's talk</button>
+                    <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
                 </div>
             </div>
             <Footer />
+
+           
         </div>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
         </>
 
     )
 }
 
-export default product
+export default Product

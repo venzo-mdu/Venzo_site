@@ -37,11 +37,12 @@ import securityimg3 from "../../images/quality/securityimg3.png"
 import performimg1 from "../../images/quality/performimg1.png"
 import performimg2 from "../../images/quality/performimg2.png"
 import performimg3 from "../../images/quality/performimg3.png"
-
+import Popup from '../../component/careersPage2/popup/popup'
 import checkcolor from '../../images/quality/checkcolor.png'
 import Footer from '../footer/footer'
 function QualityAssurance() {
     const [active, setActive] = useState('');
+    const [buttonPopup, setButtonPopup] = useState(false);
     const dated = (value) => {
         let container 
         if( document.querySelector('.quality_card1') !==null){
@@ -366,11 +367,21 @@ function QualityAssurance() {
                 <div>
                     <div className='quality_section7'>
                         <p className='qulaityend'><span className=' textColor'>End-To-End Quality</span><br />Engineering Services </p>
-                        <button className=' btn qualitybtn'>Get Quote</button>
+                        <p className='qualitybtn' onClick={() => setButtonPopup(true)}>Get Quote</p>
                     </div>
                 </div>
             </div>
             <Footer />
+
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
         </div>
     )
 }

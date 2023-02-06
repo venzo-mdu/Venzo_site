@@ -7,8 +7,11 @@ import '../../style/laptopL.css'
 import '../../style/tablet.css'
 import '../../style/mobile.css'
 // import customerContent from '../../content/CustomerContent.json'
-
-function customer() {
+import { useState } from 'react'
+import Popup from '../careersPage2/popup/popup'
+  
+function Customer() {
+    const [buttonPopup, setButtonPopup] = useState(false);
     return (
 
         
@@ -17,7 +20,7 @@ function customer() {
             <div className='row2'>
                 <div className='col4'>
                     <p className=' des1'>We break down the custom-built complexities.   Our custom applications are powered by cutting-edge technologies and superior process agility. You benefit from next-generation applications that are tailored to your specific needs without the hassle. </p>
-                    <p className='readMore1'> READ MORE<img className='arrow' src={arrow} alt='arrow' /></p>
+                    <p className='readMore1' onClick={() => setButtonPopup(true)}> READ MORE<img className='arrow' src={arrow} alt='arrow' /></p>
                 </div>
                 <div className='col5'>
                     <img className='videoImg' src={video} alt='video' />
@@ -39,9 +42,17 @@ function customer() {
                     </div>
                 </div>
             })} */}
-
+  <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
         </div>
     )
 }
 
-export default customer
+export default Customer

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Header from '../header/header'
 import line from '../../images/Vector 76.svg'
 import line1 from '../../DMpage/Vector 82.png'
@@ -11,7 +11,9 @@ import './laptop.css'
 import './tablet.css'
 import './mobile.css'
 import Footer from '../footer/footer'
+import Popup from '../careersPage2/popup/popup'
 function Development() {
+    const [buttonPopup, setButtonPopup] = useState(false);
     return (
         <div>
             <Header flag='header1' />
@@ -20,7 +22,7 @@ function Development() {
                 <div className='sect1'>
                     <p className='web_Title'>Expand your digtial <br className='mobilBr'/>territory</p>
                     <p className="webDesc">We build sites that build your business</p>
-                    <p className="knowmore">KNOW MORE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                    <p className="knowmore" onClick={() => setButtonPopup(true)}>KNOW MORE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
                 </div>
             </div>
             <div className="sect2" >
@@ -54,10 +56,21 @@ function Development() {
             <div>
                 <div className='containor12'>
                     <p className='anyIdea12'>Build your website <br /><span className=' textColor'>to grow your business  </span> </p>
-                    <button className=' btn talk12'>Let's Talk</button>
+                    <button className=' btn talk12' onClick={() => setButtonPopup(true)}>Let's Talk</button>
                 </div>
             </div>
             <Footer />
+
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
+      
         </div>
     )
 }

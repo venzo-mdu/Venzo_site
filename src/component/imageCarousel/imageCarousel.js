@@ -19,8 +19,11 @@ import blogBl2 from '../../images/blogBl2.png'
 import blogBl3 from '../../images/blogBl3.png'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-function ImageCarousel() {
+import Popup from '../careersPage2/popup/popup'
 
+
+function ImageCarousel() {
+    const [buttonPopup, setButtonPopup] = useState(false);
     const [fbIcon,setfbIconlogo] = useState(FbIcon);
     const [twitterIcon, settwitterIconlogo] = useState(TwitterIcon);
     const [linkedIcon, setlinkedinIconlogo] = useState(LinkedinIcon);
@@ -80,7 +83,7 @@ function ImageCarousel() {
                         <p id='blockchain'>Immutable Blockchain<br id='brtag'></br> Solutions</p>
                         <p id="blockchainDev"> Fabricate Smarter Supply Chains with <br id='brtag'></br>
                         Blockchain Technology Solutions</p>
-                        <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        <p id="knowMore" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
                 <div>
@@ -102,7 +105,7 @@ function ImageCarousel() {
                         <p id="productDev">
                         Designing & delivering Positive Products <br id='brtag'></br>
                         for progressive change-makers.</p>
-                        <p id="knowMore">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        <p id="knowMore" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
                 <div>
@@ -124,18 +127,26 @@ function ImageCarousel() {
                         <p id="dataEnggDev">
                         Extending the boundaries of excellence through <br id='brtag'></br>
                         data-driven transformation</p>
-                        <p id="knowMore1">KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
+                        <p id="knowMore1" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
                     </div>
                 </div>
             </AliceCarousel>
 
             <div className='socialMediaIcon'>
-                <img id='fbicon' src={fbIcon} alt='fbIcon'></img>
-                <img id='twittericon' src={twitterIcon} alt='twitterIcon'></img>
-                <img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img>
-                <img id='instaicon' src={instaIcon} alt='instaIcon'></img>
+                <a href='https://www.facebook.com/VenzoTechnologies/'><img id='fbicon' src={fbIcon} alt='fbIcon'></img></a>
+                <a href='https://twitter.com/Venzo_Tech/'><img id='twittericon' src={twitterIcon} alt='twitterIcon'></img></a>
+                <a href='https://www.linkedin.com/company/venzo-technologies/'><img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img></a>
+                <a href='https://www.instagram.com/venzo_tech/'><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
             </div>
-
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
         </>
     )
 }

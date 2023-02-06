@@ -30,13 +30,14 @@
 @media screen and (max-width:1705px) and (min-width:1025px) {
     .customerExperiance1{
         background-color: whitesmoke;
-        padding: 4% 10% 20%;
+        padding: 4% 10% 16%;
         display: inline-flex;
         width: 100vw;
     }
     .customerExperiance1 h3{
-        font-family:poppins-semibold;
-        font-size: 40px;
+        font-family: poppins-semibold;
+    font-size: 37px;
+    margin-left: -4%;
     }
     .customerExperiance1 #through{
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -45,8 +46,8 @@
         background-clip: text;
     }
     .customerExperiance1 .reachus{
-        height: 5vh;
-        width: 13vw;
+        height: 50px;
+        width: 16%;
         color: white;
         background-color: #000000;
         border-radius: 10px 10px 10px 10px;

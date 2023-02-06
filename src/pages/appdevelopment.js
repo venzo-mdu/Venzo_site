@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import Carousel from 'react-bootstrap/Carousel';
 import productImage from '../images/productImage.png'
@@ -13,8 +13,11 @@ import Dprocess from '../component/appdevelopment/dprocess/dprocess'
 import Offering from '../component/appdevelopment/offering/offering'
 import Techs from '../component/appdevelopment/techs/techs'
 import Footer from '../component/footer/footer'
-function appdevelopment() {
+import Popup from '../component/careersPage2/popup/popup'
+function Appdevelopment() {
+  const [buttonPopup, setButtonPopup] = useState(false);
   return (
+
     <div className='appdevbody'>
       <Header flag='header2' />
       <Customized />
@@ -84,11 +87,21 @@ function appdevelopment() {
       </div>
       <div className='containor3'>
                     <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                    <button className=' btn talk'>Let's talk</button>
+                    <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
                 </div>
       <Footer />
+
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
     </div>
   )
 }
 
-export default appdevelopment
+export default Appdevelopment

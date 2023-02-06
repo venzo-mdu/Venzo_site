@@ -11,10 +11,11 @@ import BCNetwork from '../component/blockchaindevelopment/bcNetwork/bcNetwork'
 import BCServices from '../component/blockchaindevelopment/bcServices/bcServices'
 import BCExecution from '../component/blockchaindevelopment/bcExecution/bcExecution'
 import Footer from '../component/footer/footer'
+import Popup from '../component/careersPage2/popup/popup'
+import { useState } from 'react'
 
-
-
-function blockchaindevelopment() {
+function Blockchaindevelopment() {
+  const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <div className='blockchainbody'>
       <Header flag='header2' />
@@ -83,11 +84,21 @@ function blockchaindevelopment() {
 
       <div className='buildProduct'>
         <p className='buildText'> Start building blockchain <br /><span className=' textColor'>to grow your business</span> </p>
-        <button className=' btn buildtalk'>Let's talk</button>
+        <button className=' btn buildtalk' onClick={() => setButtonPopup(true)}>Let's talk</button>
       </div>
       <Footer />
+
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
     </div>
   )
 }
 
-export default blockchaindevelopment
+export default Blockchaindevelopment
