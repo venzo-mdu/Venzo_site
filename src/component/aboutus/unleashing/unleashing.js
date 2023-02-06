@@ -13,6 +13,7 @@ import gridIcon6 from '../../../images/aboutus/aboutus11.png'
 import TickIcon from '../../../images/aboutus/aboutus17.png'
 import Countup from 'react-countup'
 import { duration } from '@mui/material';
+import Accordion from 'react-bootstrap/Accordion';
 import ScrollTrigger from 'react-scroll-trigger'
 
 
@@ -40,23 +41,23 @@ function Unleashing() {
       }
       else if (va === 'Diversity') {
           container.innerHTML = "<font size=4 color=black>\
-          We offer refined customized applications that streamline your 2.\
+          Pople first always\
           </font>\
           <br>\
           <br>\
           <font size=3 color=gray>\
-          Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+          Empowering the business with agile digital at scale to deliver unprrecedented levels of performance and customer delight Empowering the business with agile digital at scale to deliver unprecedented levels of performance and customer delight.\
           </font>\
   ";
       }
       else if (va === 'Society') {
         container.innerHTML = "<font size=4 color=black>\
-        We offer refined customized applications that streamline your 2.\
+        Creating social impact through thechnologies\
         </font>\
         <br>\
         <br>\
         <font size=3 color=gray>\
-        Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.\
+        We are client-oriented with a 'service' mentality.We are available to assist you.we can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today's IT market. Our primary goal is to manitain the highest quality standards and best practices in today's IT market.We can either lead or fellow.Our primary goal is to maintain the highest quality standards and best practices in today's IT market.Our primary gial is to maintain the highest quality standards and best practices in today's IT market.  \
         </font>\
 ";
     }
@@ -178,17 +179,42 @@ function Unleashing() {
                 <div className='aboutLeftCommit'>
                   <div>
                   <ul className='leftCommit1'>
-                        <li className={active === 'Values' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
-                        <li className={active === 'Diversity' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
-                        <li className={active === 'Society' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
+                        <li className={active === 'Values' ? 'cardtitle02' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
+                        <li className={active === 'Diversity' ? 'cardtitle02' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
+                        <li className={active === 'Society' ? 'cardtitle02' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
                     </ul>
                   </div>
                     <div className='cardAboutUs'>
-                        <p> We offer refined customized applications that streamline your. </p>
-                        <p className='subTitle'>Brand promotion is the way to inform, remind, persuade convincingly, and influence the consumers to drive their decision towards purchasing the product or service under a brand.</p>
+                        <p> We offer solutions for Startups/SME/Entrepreneurs</p>
+                        <p className='subTitle'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
                     </div>
                 </div>
+                <div className='section51 aboutCardUnleas'>
+                    <Accordion defaultActiveKey="0" flush>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>Values</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                {/* <p className='cardtitle'>Values</p> */}
+                                <p className='carddesc'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>Diversity & Equity</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                {/* <p className='cardtitle'>Diversity & Equity</p> */}
+                                <p className='carddesc'>Empowering the business with agile digital at scale to deliver unprrecedented levels of performance and customer delight Empowering the business with agile digital at scale to deliver unprecedented levels of performance and customer delight.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                            <Accordion.Header>Society Impact</Accordion.Header>
+                            <Accordion.Body className=' cardbox'>
+                                {/* <p className='cardtitle'>Society Impact</p> */}
+                                <p className='carddesc'>We are client-oriented with a 'service' mentality.We are available to assist you.we can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today's IT market. Our primary goal is to manitain the highest quality standards and best practices in today's IT market.We can either lead or fellow.Our primary goal is to maintain the highest quality standards and best practices in today's IT market.Our primary gial is to maintain the highest quality standards and best practices in today's IT market.</p>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
 
+                </div>
       </div>
 
 

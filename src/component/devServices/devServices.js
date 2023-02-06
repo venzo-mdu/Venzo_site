@@ -31,7 +31,7 @@ function devServices() {
       <p id='reach'><span id='mantra'>VENZO MANTRA</span></p>
      
      <p id='venzoExpertise'>With our unique blend of business experience and efficient approach, Venzo has developed successful apps that speed digital transformation. Venzoians have expertly crafted IT solutions & developed applications from the ground-up with our fully equipped talent team & BCs on board. We design, implement, and monitor your unique digital business requirements for greater expansion.</p>
-     <p id='Motto'>Build&nbsp;-&nbsp;Modernize&nbsp;-&nbsp;Upscale.</p>
+     <p id='Motto'>Build&nbsp;.&nbsp;Modernize&nbsp;.&nbsp;Upscale.</p>
       </div>
       <div className='venzoexpertImg'>
         <img src={roundimage} alt='venzoexpertimg'></img>

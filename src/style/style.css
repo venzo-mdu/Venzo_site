@@ -95,11 +95,11 @@ width: 65%;
     line-height: 45px;
     background-image: url('../images/Vector-61.png');
     background-repeat: no-repeat;
-    background-position-x: 45%;
+    background-position-x:1%;
     background-position-y: 95%;
     padding-bottom: 2%;
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
 .des1{
     width: 68%;

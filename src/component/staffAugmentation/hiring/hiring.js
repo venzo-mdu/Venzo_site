@@ -26,7 +26,9 @@ function hiring() {
               </p>
             </div>
             <div className='hireCards'>
-              <p id="cardTitle">Mobile Developer &nbsp;&nbsp;<img src={ArrowHiring} alt='arrow' ></img></p>
+              <p id="cardTitle">Mobile Developer &nbsp;&nbsp;
+              {/* <img src={ArrowHiring} alt='arrow' ></img> */}
+              </p>
               <p id="cardText">Cross-Platform mobile application development mixed with digital strategy.
               </p>
             </div>

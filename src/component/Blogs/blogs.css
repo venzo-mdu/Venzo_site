@@ -75,12 +75,16 @@
     margin-right: 20%;
     margin-top: 3%;
     z-index: 0;
+    width: 55%;
 }
 
 .card11 {
     margin-bottom: 5%;
     margin-left: 25%;
     height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
 }
 
 .blogsubtitile {
@@ -135,15 +139,15 @@
     font-size: 14px;
     line-height: 120%;
     letter-spacing: -0.02em;
-    color: #A4A4A4;
+    color: #000;
     padding-left: 8%;
 
 }
 
-.slide1 p:hover {
+/* .slide1 p:hover {
     color: #000;
     cursor: pointer;
-}
+} */
 
 .slide2 {
     background: #FFFFFF;

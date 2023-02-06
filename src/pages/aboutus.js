@@ -10,7 +10,7 @@ import Footer from '../component/footer/footer'
 
 function aboutus() {
   return (
-      <>
+      <div className='blockchainbody'>
       <Header flag='header2'/>
       <Unleashing/>
       <Community/>
@@ -19,7 +19,7 @@ function aboutus() {
       <Leadership/>
       <Mobility/>
       <Footer/>
-      </>
+      </div>
   )
 
 }

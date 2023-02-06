@@ -78,6 +78,14 @@
     #offerCardsTitle{
         width: 100%;
     }
+    .cardsinOffering {
+        padding: 3% 2%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 6%;
+        margin: 0 0 0 0%;
+    }
 }
 @media screen and (max-width:1025px) and (min-width:768px) {
    
@@ -109,13 +117,14 @@
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:430px) and (min-width:378px) {
     .offering {
         padding: 5% 5% 0%;
     }
 
     .cardsinOffering {
         display: block;
+        margin-left: -1%;
     }
     .offerCards1 {
        width: 100%;
@@ -134,7 +143,43 @@
 
     #offeringTilte {
         font-family: Poppins;
-        font-size: 32px;
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        width: 80%;
+        margin: 5% 0 0 10%;
+    }
+}
+
+@media screen and (max-width:375px){
+    .offering {
+        padding: 5% 5% 0%;
+    }
+
+    .cardsinOffering {
+        display: block;
+        margin-left: -1%;
+    }
+    .offerCards1 {
+       width: 100%;
+       margin: 0 0 10% 0;
+    }
+
+    #offerCardsTitle {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #offeringTilte {
+        font-family: Poppins;
+        font-size: 31px;
         font-weight: 600;
         line-height: 42px;
         letter-spacing: -0.025em;

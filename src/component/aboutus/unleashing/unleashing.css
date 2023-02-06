@@ -34,7 +34,7 @@
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
-    text-align: justified;
+    text-align: justify;
     color: #A4A4A4;
     width: 97%;
 }
@@ -205,7 +205,9 @@
     width: 72%;
 
 }
-
+.cardtitle02{
+    color: #000000;
+}
 
 @media screen and (max-width:1440px) and (min-width:1024px) {
     .powerOfvenzo .powerrightImage {
@@ -278,7 +280,9 @@
     .powerOfvenzo {
         display: block;
     }
-
+    .aboutLeftCommit{
+        display: none !important;
+    }
     .powerImage {
         width: 433px;
         height: 356px;
@@ -375,6 +379,9 @@
         text-align: left;
         width: 100%;
         margin: 75px 0px 16px 3%;
+    }
+    .aboutLeftCommit{
+        display: none !important;
     }
 
     .aboutVenzo {
@@ -487,6 +494,9 @@
     #tickiconText {
         width: 87% !important;
     }
+    .aboutCardUnleas{
+        margin-top: 8%;
+    }
     
 }
 @media screen and (max-width:375px) {
@@ -520,6 +530,9 @@
         text-align: left;
         margin-top: 6%;
     }
+    .aboutLeftCommit{
+        display: none !important;
+    }
     .leftCommit #leftCommitTitle {
         font-family: Poppins;
         font-size: 17px;
@@ -543,6 +556,9 @@
         grid-row-gap: 11%;
         grid-column-gap: 20%;
         margin-bottom: 12%;
+    }
+    .aboutCardUnleas{
+        margin-top: 8%;
     }
 }
 .aboutLeftCommit{

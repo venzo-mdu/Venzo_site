@@ -111,13 +111,13 @@
         font-weight: 400;
         font-size: 20px;
         color: #000000;
-        line-height: 25px;
+        line-height: 35px;
         background-image: url('../images/Vector-61.png');
         background-repeat: no-repeat;
-        background-position-x: 48%;
-        background-position-y: 98px;
+        background-position-x: 1%;
+        background-position-y: 135px;
         background-size: 50%;
-        text-align: center;
+        text-align: left;
     }
 
     .des1 {
