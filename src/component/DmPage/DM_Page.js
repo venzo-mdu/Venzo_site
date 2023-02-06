@@ -13,10 +13,12 @@ import Dmcarousels from './DmCarousel'
 import DmFrequentQues from './DmFrequentQues';
 import './laptopL.css'
 import './mobile.css'
+import Popup from '../careersPage2/popup/popup'
 import "react-image-gallery/styles/css/image-gallery.css";
 import Accordion from 'react-bootstrap/Accordion';
 
 function DM_Page() {
+    const [buttonPopup, setButtonPopup] = useState(false);
     const [active, setActive] = useState('');
     const dated = (va) => {
         let container
@@ -89,7 +91,7 @@ function DM_Page() {
                     <div className='section1'>
                         <p className='Dm_Title'>We create robust strategies for <br />online businesses.  </p>
                         <p className="blockchainDesc">Crafting data-driven, automated, and personalized solutions for businesses.</p>
-                        <p className="GetQuote">GET QUOTE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        <p className="GetQuote" onClick={() => setButtonPopup(true)} >GET QUOTE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
                 <div className='section2'>
@@ -231,11 +233,19 @@ function DM_Page() {
             <div>
                 <div className='containor11'>
                     <p className='anyIdea1'>Wanna try ? <br /><span className=' textColor'>Get free website audit.</span> </p>
-                    <button className=' btn auidt'>Free website audit</button>
+                    <button className=' btn auidt' onClick={() => setButtonPopup(true)}>Free website audit</button>
                 </div>
             </div>
             <Footer />
-
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <input className='file' type="file" placeholder='choose file'></input>
+        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <button className='Fbutton'>Submit</button>
+      </Popup>
         </>
     )
 }
