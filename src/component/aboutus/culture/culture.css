@@ -44,7 +44,7 @@
     }
     .cultures {
         grid-column-gap: 4%;
-        margin: 7% 0px 5% -37px;
+        margin: 7% 0px 5% 0%;
     }
     .communityImage {
         width: 60%;

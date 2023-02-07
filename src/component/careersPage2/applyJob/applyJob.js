@@ -8,8 +8,30 @@ import linkedinIcon from '../../../images/linkedinCareers2.png'
 import instaIcon from '../../../images/igCareers2.png'
 import Popup from '../popup/popup'
 import { useState } from 'react'
+import axios from 'axios'
 function ApplyJob() {
   const [buttonPopup, setButtonPopup] = useState(false);
+  const [emailInput,setEmailInput]=useState({
+    name:"",
+    email:"",
+    mobile:"",
+    message:""
+  });
+
+  const handleChange=(e)=>{
+    setEmailInput({...emailInput,[e.target.name]:e.target.value});
+  }
+  async function sendEmail(event){
+    event.preventDefault()
+    const body={
+      to:"vgowthama225@gmail.com",
+      message:emailInput["message"]+emailInput["email"],
+      subject:"subject here"
+    }
+    const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+    console.log(emailResponse)
+
+  }
   return (
     <>
 
@@ -18,8 +40,8 @@ function ApplyJob() {
         <div className='applyJob'>
           <div className='job'>
             <div className='details'>
-              <p id='detailsText'>Automation Tester</p>
-              <p id='experiancerText'><img src={experianceImg} alt='experiance'></img> 3 - 5 Years Experience</p>
+              <p id='detailsText'>BPM / JAVA ARCHITECT</p>
+              <p id='experiancerText'><img src={experianceImg} alt='experiance'></img> 8-10 Years Experience</p>
             </div>
             <div className='applyNow'>
               <button className='applyNowButton' data-toggle="modal" data-target="#exampleModalCenter" onClick={() => setButtonPopup(true)}>Apply Now</button>
@@ -60,21 +82,27 @@ function ApplyJob() {
             <div className='jobDescripition'>
               <p id='jobDescripitionTitle'>Job Descripition</p>
               <ul>
-                <li> <img src={TickImg} alt='tickImg'></img> Read and understand the requirements given.</li>
-                <li><img src={TickImg} alt='tickImg'></img> Think as a business user and come up with Test scenarios.</li>
-                <li><img src={TickImg} alt='tickImg'></img> Write Test scripts as per the CSV validation procedure using Excel or HP ALM or XRAY tools.</li>
-                <li><img src={TickImg} alt='tickImg'></img> Execute test cases and capture evidence in result document or HP ALM or XRAY tools.</li>
-                <li><img src={TickImg} alt='tickImg'></img> Create traceability between the requirement, test cases, and defects.</li>
-
+                <li> <img src={TickImg} alt='tickImg'></img> At least 8-10 years of IT experience in Java and BPM technologies.</li>
+                <li><img src={TickImg} alt='tickImg'></img> At least 3 years of BPM experience actively contributing with large-scale BPM projects.</li>
+                <li><img src={TickImg} alt='tickImg'></img>Understanding requirements from business-team and model workflow.</li>
+                <li><img src={TickImg} alt='tickImg'></img> Creating BPMN processes</li>
+                <li><img src={TickImg} alt='tickImg'></img>Integrating approval into corporate portal using apis for seamless UI experiences.</li>
+                <li> <img src={TickImg} alt='tickImg'></img> Has clear idea about identity and Access management to a BPM application..</li>
+                <li><img src={TickImg} alt='tickImg'></img>Strong knowledge on integrate principles to integrate BPM with other systems.</li>
+                <li><img src={TickImg} alt='tickImg'></img>At least 3 years of spring boot experience involving REST, SpringData, SpringIntegration.</li>
+                <li><img src={TickImg} alt='tickImg'></img> Extensive hands-on Service Oriented architecture.</li>
+                <li><img src={TickImg} alt='tickImg'></img>Comfortable with microservices/cloud architecture.</li>
+                <li><img src={TickImg} alt='tickImg'></img>Ability to work with team.</li>
               </ul>
 
             </div>
             <div className='skillsRequired'>
               <p id='skillsRequiredTitle'>skills Required</p>
               <ul>
-                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Must have HP ALM or XRAY Test management tool experience</p></li>
-                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Good to have Selenium (Java, Python), Opkey or Any Automation testing experience, at least basics.</p></li>
-                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Good to have Lifescience domain experience </p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Experience in Kubernetes</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Deep knowledge in database.</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Working knowledge on AWS or other cloud platforms.</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Administration experience with both offline and online deployments.</p></li>
               </ul>
 
 
@@ -85,13 +113,15 @@ function ApplyJob() {
 
       </section>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <form onSubmit={sendEmail}>
         <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' type="text" placeholder='Name*'></input>
-        <input className='Femail' type="text" placeholder='Email*'></input>
-        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-        <input className='file' type="file" placeholder='choose file'></input>
-        <textarea className='Fmessage' placeholder='Message*'></textarea>
-        <button className='Fbutton'>Submit</button>
+        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
+        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
+        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
+        <input className='file' type="file" placeholder='choose file' />
+        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+        <button type='submit' className='Fbutton'>Submit</button>
+        </form>
       </Popup>
 
     </>

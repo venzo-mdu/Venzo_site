@@ -10,17 +10,17 @@ function devServices() {
     <div className='developmentServices'>
         <p>Full cycle of development services</p>
             <div className='technologies1'>
-                    <li><Link to="/appdevelopment"> Apps Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
-                    <li><Link to="/productdevelopment"> Product Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/qualityassurance">QA Engineering &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
-                    <li><Link to="/blockchaindevelopment">Blockchain Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/staffaugmentation">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/bankingQA">Banking QA Testing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/app-development-company"> Apps Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
+                    <li><Link to="/product-development-company"> Product Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/quality-engineering-assurance">QA Engineering &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/blockchain-development-company">Blockchain Development &nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/hire-our-developers">Staff Augmentation&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/banking-application-testing-qa-services">Banking QA Testing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
             </div>
             <div className='technologies2'>
-                    <li><Link to="/dm_page">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
-                    <li><Link to="/UIUX">UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
-                    <li><Link to="/webDevelopment">Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
+                    <li><Link to="/digital-marketing-comapany">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
+                    <li><Link to="/ui-ux-design-company">UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
+                    <li><Link to="/website-development-company">Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
                     <li>E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
                     <li>Enterprise App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
                     <li>Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>

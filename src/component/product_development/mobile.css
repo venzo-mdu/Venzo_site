@@ -1,4 +1,4 @@
-@media screen and (max-width:425px)  {
+@media screen and (max-width:425px)  and (min-width:377px){
     .expertsBottomline{
         height: 133.22825622558594px;
         width: 0px;
@@ -261,11 +261,12 @@
   }
   .buildText{
     font-family: Poppins;
-    font-size: 29px;
+    font-size: 25px !important;
     font-weight: 600;
     line-height: 38px;
     letter-spacing: -0.03em;
     text-align: left;
+    margin-left: 1%;
     
   }
   .buildtalk{
@@ -274,6 +275,7 @@
     left: 20px;
     top: 8236px;
     border-radius: 8px;
+    margin-left: 1%;
     
   }
   .animation #animationText{

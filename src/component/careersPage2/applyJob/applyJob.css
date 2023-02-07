@@ -89,7 +89,7 @@ border-radius: 7px;
 .applyJob .descripition{
     background-color: #F8F8F8;
     border-radius: 12px;
-    height: 543px;
+    height: 835px;
     width: 100%;
     margin:3% 0 0 0;
     padding: 2% 5%;
@@ -110,6 +110,8 @@ border-radius: 7px;
 .skillsRequired ul li img{
     /* display: none; */
     margin-right: 1%;
+    width: 20px;
+    height: 23px;
 }
 .jobDescripition ul li img{
     display: none;
@@ -140,7 +142,7 @@ ul li{
     letter-spacing: 0em;
     text-align: left;
     color:#929292;
-
+    display: flex
 }
 .applyNowButton1{
     height: 8%;

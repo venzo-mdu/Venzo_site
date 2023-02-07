@@ -2,7 +2,7 @@ import React from 'react'
 import Product from '../component/product_development/product'
 function product_development() {
   return (
-    <div>
+    <div className='blockchainbody'>
       <Product />
     </div>
   )

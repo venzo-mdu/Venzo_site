@@ -1,8 +1,29 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../discussion/discussion.css'
 import lineImg from '../../../images/horizLinecareers2.png'
+import axios from 'axios'
+function Discussion() {
+  const [emailInput,setEmailInput]=useState({
+    name:"",
+    email:"",
+    mobile:"",
+    message:""
+  });
 
-function discussion() {
+  const handleChange=(e)=>{
+    setEmailInput({...emailInput,[e.target.name]:e.target.value});
+  }
+  async function sendEmail(event){
+    event.preventDefault()
+    const body={
+      to:"vgowthama225@gmail.com",
+      message:emailInput["message"]+emailInput["email"],
+      subject:"subject here"
+    }
+    const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+    console.log(emailResponse)
+
+  }
   return (
     <>
     <section>
@@ -15,11 +36,15 @@ function discussion() {
        <div className='enquiryinDiscussion'>
        <div className='contactformCareers'>
                     <p className='formTitle'>Let’s catch the initial spark!</p>
-                    <input className='Fname' type="text" placeholder='Name*'></input>
-                    <input className='Femail' type="text" placeholder='Email*'></input>
-                    <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-                    <textarea className='Fmessage' placeholder='Message*'></textarea>
-                    <button className='Fbutton'>Submit</button>
+                    <form onSubmit={sendEmail}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
+        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
+        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
+
+        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+        <button type='submit' className='Fbutton'>Submit</button>
+        </form>
 
                 </div>
        </div>
@@ -29,4 +54,4 @@ function discussion() {
   )
 }
 
-export default discussion
+export default Discussion

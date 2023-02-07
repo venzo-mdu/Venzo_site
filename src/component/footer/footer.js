@@ -39,14 +39,14 @@ function Footer() {
                 <h5>Services</h5>
                 <hr  className='titleHr'></hr>
                 <p>
-                  <Link to="/bankingQA">Banking QA</Link><br></br>
-                  <Link to="/qualityassurance">Quality Assurance</Link><br></br>
+                  <Link to="/banking-application-testing-qa-services">Banking QA</Link><br></br>
+                  <Link to="/quality-engineering-assurance">Quality Assurance</Link><br></br>
                   <Link to="/">Banking Solutions</Link><br></br>
-                  <Link to="/staffaugmentation">Staff Augmentation</Link><br></br>
-                  <Link to="/appdevelopment"> App Development</Link><br></br>
-                  <Link to="/webDevelopment">Website Development</Link><br></br>
-                  <Link to="/productdevelopment">Product Development</Link><br></br>
-                  <Link to="/blockchaindevelopment">Blockchain Development</Link><br></br>
+                  <Link to="/hire-our-developers">Staff Augmentation</Link><br></br>
+                  <Link to="/app-development-company"> App Development</Link><br></br>
+                  <Link to="/website-development-company">Website Development</Link><br></br>
+                  <Link to="/product-development-company">Product Development</Link><br></br>
+                  <Link to="/blockchain-development-company">Blockchain Development</Link><br></br>
                   </p>
               </div>
             </div>
@@ -55,12 +55,12 @@ function Footer() {
                 <div className='company'>
                   <h5>Company</h5>
                   <hr  className='titleHr'></hr>
-                  <Link to="/aboutus">About us</Link>
+                  <Link to="/about-us">About us</Link>
                   <br></br>
                   <Link to="/careers">Careers</Link><br></br>
-                  <Link to="/blogs">Blogs</Link><br></br>
+                  <Link to="/blog">Blogs</Link><br></br>
                   Reach Us<br></br>
-                  <Link to="/privacypolicy">Privacy Policy</Link><br></br>
+                  <Link to="/privacy-policy">Privacy Policy</Link><br></br>
 
                 </div>
                 <div className='careers'>
@@ -74,7 +74,7 @@ function Footer() {
               <div className='contactUs'>
                 <div className='contact'>
 
-                  <h5><Link to="/contactus">Contact Us</Link></h5>
+                  <h5><Link to="/contact-us">Contact Us</Link></h5>
                   <hr  className='titleHr'></hr>
                   <p>India :</p>
                   <p><img src={phone} alt='phoneIcon'></img> +91 9840594865</p>

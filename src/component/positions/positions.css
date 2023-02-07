@@ -31,15 +31,15 @@
     font-family: poppins;
     font-weight: 600;
     font-size: 16px;
-    color: #0A1020;
+    color: #6C6C6C;
     
 }
-.posCard .cards #cardText{
+.posCard .cards #cardText1{
     font-family: poppins;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 21.14px;
-    color: #6C6C6C;
+    color: #0A1020;
 }
 .posCard .cards #viewJob{
     font-family: poppins;
@@ -50,7 +50,12 @@
 .posCard .cards img{
     margin:0 0 0 5%;
 }
-
+#exprYear{
+    color: #E23B3F;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 @media screen and (max-width:1705px)and (min-width:1024px){
     .positions .posCard {

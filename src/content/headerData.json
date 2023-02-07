@@ -4,15 +4,19 @@
         "routeLink":"/"
     },
     {
+        "navLink":"App Development",
+        "routeLink":"/app-development-company"
+    },
+    {
         "navLink":"Product Development",
-        "routeLink":"/productdevelopment"
+        "routeLink":"/product-development-company"
     },
     {
-        "navLink":"BlockChain Development",
-        "routeLink":"/blockchaindevelopment"
+        "navLink":"About Us",
+        "routeLink":"/about-us"
     },
     {
-        "navLink":"Data Engineering",
-        "routeLink":"/webDevelopment"
+        "navLink":"Blog",
+        "routeLink":"/blog"
     }
 ]

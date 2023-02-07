@@ -13,34 +13,34 @@ function community() {
         <>
             <div className='community'>
                 <div className='communityLeft'>
-                    <p id='communityLeftText'>We are trying to make a better community through...</p>
+                    <p id='communityLeftText'>Venzo’s DNA </p>
                     <div className='betterment'>
                         <div className='betterCommunity'>
                             <div>
                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
                             </div>
-                            <p id='betterText'>Work Life Balance</p>
+                            <p id='betterText'>Highly- Collaborative </p>
                         </div>
                         <div className='betterCommunity'>
                             <div>
                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
                             </div>
-                            <p id='betterText'>Flat Heirarchy</p>
+                            <p id='betterText'>Positive attitude </p>
                         </div>
                         <div className='betterCommunity'>
                             <div>
                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
                             </div>
-                            <p id='betterText'>A Friendly Culture</p>
+                            <p id='betterText'>Grow-Mindset </p>
                         </div>
                         <div className='betterCommunity'>
                             <div>
                                 <img className='betterImage' src={TickIcon} alt='tick'></img>
                             </div>
-                            <p id='betterText'>Satisfied Salary</p>
+                            <p id='betterText'>Strong problem-solving abilities</p>
                         </div>
                     </div>
-                    <p id='belowLeftText'>Venzo Technologies leverages the power of cognitive computing, hyper-automation.</p>
+                    <p id='belowLeftText'>Venzo Technologies leverages the power of cognitive computing, hyper-automation, cloud, analytics, and emerging technologies to assist our clients in adapting to and succeeding in the digital world.</p>
                 </div>
                 <div className='communityRight'>
                     <img className='communityImage' src={CommunityImage1} alt='community'></img>

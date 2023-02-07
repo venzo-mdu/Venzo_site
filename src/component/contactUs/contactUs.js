@@ -15,7 +15,30 @@ import TwitterIcon from "../../images/tiwerr.png"
 import LinkedinIcon from "../../images/linkedin.png"
 import InstaIcon from "../../images/insta.png"
 import youtube from '../../images/youtube.png'
-function contactUs() {
+import axios from 'axios'
+import { useState } from 'react'
+function ContactUs() {
+    const [emailInput,setEmailInput]=useState({
+        name:"",
+        email:"",
+        mobile:"",
+        message:""
+      });
+    
+      const handleChange=(e)=>{
+        setEmailInput({...emailInput,[e.target.name]:e.target.value});
+      }
+      async function sendEmail(event){
+        event.preventDefault()
+        const body={
+          to:"vgowthama225@gmail.com",
+          message:emailInput["message"]+emailInput["email"],
+          subject:"subject here"
+        }
+        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        console.log(emailResponse)
+    
+      }
     return (
         <div>
             <Header flag='header2' />
@@ -45,12 +68,14 @@ function contactUs() {
                     </div>
                 </div>
                 <div className='ContForm'>
-                    <p className='formTitle'>Let’s catch the initial spark!</p>
-                    <input className='Fname' type="text" placeholder='Name*'></input>
-                    <input className='Femail' type="text" placeholder='Email*'></input>
-                    <input className='Fphone' type="phone" placeholder='Mobile number'></input>
-                    <textarea className='Fmessage' placeholder='Message*'></textarea>
-                    <button className='Fbutton'>Submit</button>
+                <form onSubmit={sendEmail}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
+        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
+        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
+        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+        <button type='submit' className='Fbutton'>Submit</button>
+        </form>
 
                 </div>
             </div>
@@ -69,4 +94,4 @@ function contactUs() {
     )
 }
 
-export default contactUs
+export default ContactUs

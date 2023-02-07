@@ -33,7 +33,7 @@ function Unleashing() {
           <br>\
           <br>\
           <font size=3 color=gray>\
-          We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.\
+          Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation.\
           </font>\
           <br>\
           <br>\
@@ -41,12 +41,12 @@ function Unleashing() {
       }
       else if (va === 'Diversity') {
           container.innerHTML = "<font size=4 color=black>\
-          Pople first always\
+          People first always\
           </font>\
           <br>\
           <br>\
           <font size=3 color=gray>\
-          Empowering the business with agile digital at scale to deliver unprrecedented levels of performance and customer delight Empowering the business with agile digital at scale to deliver unprecedented levels of performance and customer delight.\
+          Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community.\
           </font>\
   ";
       }
@@ -57,7 +57,7 @@ function Unleashing() {
         <br>\
         <br>\
         <font size=3 color=gray>\
-        We are client-oriented with a 'service' mentality.We are available to assist you.we can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today's IT market. Our primary goal is to manitain the highest quality standards and best practices in today's IT market.We can either lead or fellow.Our primary goal is to maintain the highest quality standards and best practices in today's IT market.Our primary gial is to maintain the highest quality standards and best practices in today's IT market.  \
+        Venzo has a strong commitment to social responsibility and actively works to make a positive impact on society through various initiatives and partnerships.\
         </font>\
 ";
     }
@@ -70,7 +70,7 @@ function Unleashing() {
           <img className='powerImage' alt='venzopower' src={powerImage}></img>
         </div>
         <div className='powerrightImage'>
-          <p id='powerrightText'>Venzo Technologies leverages the power of cognitive computing, hyper-automation, cloud, analytics, and emerging technologies to assist our clients in adapting to and succeeding in the digital world.</p>
+          <p id='powerrightText'>We lead with an independent point-of-view. That means we work with the partners you ask for in addition to the ones we know you need, leveraging our stores of knowledge and experience to bring together the best of the best to help you reach your specific goals.</p>
           <div className='aboutVenzo'>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon1} alt=''></img>
@@ -186,7 +186,7 @@ function Unleashing() {
                   </div>
                     <div className='cardAboutUs'>
                         <p> We offer solutions for Startups/SME/Entrepreneurs</p>
-                        <p className='subTitle'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
+                        <p className='subTitle'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
                     </div>
                 </div>
                 <div className='section51 aboutCardUnleas'>
@@ -195,21 +195,21 @@ function Unleashing() {
                             <Accordion.Header>Values</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
                                 {/* <p className='cardtitle'>Values</p> */}
-                                <p className='carddesc'>We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.</p>
+                                <p className='carddesc'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>Diversity & Equity</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
                                 {/* <p className='cardtitle'>Diversity & Equity</p> */}
-                                <p className='carddesc'>Empowering the business with agile digital at scale to deliver unprrecedented levels of performance and customer delight Empowering the business with agile digital at scale to deliver unprecedented levels of performance and customer delight.</p>
+                                <p className='carddesc'>Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community. </p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                             <Accordion.Header>Society Impact</Accordion.Header>
                             <Accordion.Body className=' cardbox'>
                                 {/* <p className='cardtitle'>Society Impact</p> */}
-                                <p className='carddesc'>We are client-oriented with a 'service' mentality.We are available to assist you.we can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today's IT market. Our primary goal is to manitain the highest quality standards and best practices in today's IT market.We can either lead or fellow.Our primary goal is to maintain the highest quality standards and best practices in today's IT market.Our primary gial is to maintain the highest quality standards and best practices in today's IT market.</p>
+                                <p className='carddesc'>Venzo has a strong commitment to social responsibility and actively works to make a positive impact on society through various initiatives and partnerships.</p>
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>

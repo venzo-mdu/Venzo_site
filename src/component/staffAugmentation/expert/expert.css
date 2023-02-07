@@ -10,7 +10,7 @@
     margin: 2% 0 0 0%;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) and (min-width:378px){
     .expert .buildText {
     font-family: Poppins;
     font-size: 27px !important;

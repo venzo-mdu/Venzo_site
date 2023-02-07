@@ -14,46 +14,50 @@ function positions() {
           <p id="positionsText">Open Positions</p>
           <div className='posCard'>
             <div className='cards'>
-              <p id="cardTitle">Automater Tester</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
-              </p>
+              <p id="cardTitle">Java Architect</p>
+              <p id="cardText1">BPM / JAVA ARCHITECT</p>
+              <br></br> 
+              <p id='exprYear'>8 - 10 years experience</p>
+        
               <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>  
             </div>
             <div className='cards'>
-              <p id="cardTitle">Full Stack Developer</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
+              <p id="cardTitle">Developers</p>
+              <p id="cardText1">SR. JAVA DEVELOPERS
               </p>
-             <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
+              <br></br>
+              <p id='exprYear'>6 Years Experience</p>
+             <Link to='/careers/careersdetails1'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
             </div>
             <div className='cards'>
-              <p id="cardTitle">Java Developer</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
+              <p id="cardTitle">Developers</p>
+              <p id="cardText1">REACT DEVELOPERS
               </p>
-              <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
+              <br></br>
+              <p id='exprYear'>4 Years Experience</p>
+              <Link to='/careers/careersdetails2'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
             </div>
             <div className='cards'>
-              <p id="cardTitle">BDE-International Sales</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
+              <p id="cardTitle">Test Engineer</p>
+              <p id="cardText1">AUTOMATION TEST ENGINEER
               </p>
-              <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
+              <br></br>
+              <p id='exprYear'>3-5 Years Experience</p>
+              <Link to='/careers/careersdetails3'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
             </div>
             <div className='cards'>
-              <p id="cardTitle">DevOps Engineer</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
-              </p>
-              <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
+              <p id="cardTitle">Developers</p>
+              <p id="cardText1">BACKEND LEAD
+              </p><br></br>
+              <p id='exprYear'>7+ Years Experience</p>
+              <Link to='/careers/careersdetails4'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
             </div>
             <div className='cards'>
-              <p id="cardTitle">.Net Developer</p>
-              <p id="cardText">Read and understand the requirements given.
-                Think as a business user and come up with Test scenarios.
-              </p>
-              <Link to='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
+              <p id="cardTitle">Developers</p>
+              <p id="cardText1">MICRO STRATEGY
+              </p><br></br>
+              <p id='exprYear'>6-8 Years Experience</p>
+              <Link to='/careers/careersdetails5'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></Link>    
             </div>
           </div>
         </div>

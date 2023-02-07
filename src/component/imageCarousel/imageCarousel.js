@@ -20,7 +20,7 @@ import blogBl3 from '../../images/blogBl3.png'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Popup from '../careersPage2/popup/popup'
-
+import axios from 'axios'
 
 function ImageCarousel() {
     const [buttonPopup, setButtonPopup] = useState(false);
@@ -54,6 +54,27 @@ function ImageCarousel() {
         <img className='carouselImage' src={blog2} role="presentation" />,
         <img className='carouselImage' src={blog3} role="presentation" />,
     ];
+    const [emailInput,setEmailInput]=useState({
+        name:"",
+        email:"",
+        mobile:"",
+        message:""
+      });
+    
+      const handleChange=(e)=>{
+        setEmailInput({...emailInput,[e.target.name]:e.target.value});
+      }
+      async function sendEmail(event){
+        event.preventDefault()
+        const body={
+          to:"vgowthama225@gmail.com",
+          message:emailInput["message"]+emailInput["email"],
+          subject:"subject here"
+        }
+        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        console.log(emailResponse)
+    
+      }
     return (
         <>
             <Header flag='header1' />
@@ -138,14 +159,16 @@ function ImageCarousel() {
                 <a href='https://www.linkedin.com/company/venzo-technologies/'><img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img></a>
                 <a href='https://www.instagram.com/venzo_tech/'><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
             </div>
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <form onSubmit={sendEmail}>
         <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' type="text" placeholder='Name*'></input>
-        <input className='Femail' type="text" placeholder='Email*'></input>
-        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-        <input className='file' type="file" placeholder='choose file'></input>
-        <textarea className='Fmessage' placeholder='Message*'></textarea>
-        <button className='Fbutton'>Submit</button>
+        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
+        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
+        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
+        <input className='file' type="file" placeholder='choose file' />
+        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+        <button type='submit' className='Fbutton'>Submit</button>
+        </form>
       </Popup>
         </>
     )

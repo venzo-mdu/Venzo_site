@@ -15,11 +15,13 @@ function hamburger({closemodal}) {
           <div className='menu'>
                  <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/">Home</Link></p>
                  <hr id='hrincard'></hr>
-                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/productdevelopment">Product Development</Link></p>
+                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/app-development-company">App Development</Link></p>
                  <hr id='hrincard'></hr>
-                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/blockchaindevelopment">Blockchain Development</Link></p>
+                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/product-development-company">Product Development</Link></p>
                  <hr id='hrincard'></hr>
-                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/webDevelopment">Data Engineering</Link></p>
+                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/about-us">About Us</Link></p>
+                 <hr id='hrincard'></hr>
+                 <p id='cardText'><Link className="nav-link" activeClassName="active-link" to="/blog">Blog</Link></p>
                 
           </div>
         

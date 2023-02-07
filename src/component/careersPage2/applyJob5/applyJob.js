@@ -1,0 +1,122 @@
+import React from 'react'
+import '../applyJob/applyJob.css'
+import experianceImg from '../../../images/expImg.png'
+import TickImg from '../../../images/tickImg.png'
+import fbIcon from '../../../images/fbCareers2.png'
+import twitterIcon from '../../../images/twitterCareers2.png'
+import linkedinIcon from '../../../images/linkedinCareers2.png'
+import instaIcon from '../../../images/igCareers2.png'
+import Popup from '../popup/popup'
+import { useState } from 'react'
+import axios from 'axios'
+function ApplyJob() {
+  const [buttonPopup, setButtonPopup] = useState(false);
+  const [emailInput,setEmailInput]=useState({
+    name:"",
+    email:"",
+    mobile:"",
+    message:""
+  });
+
+  const handleChange=(e)=>{
+    setEmailInput({...emailInput,[e.target.name]:e.target.value});
+  }
+  async function sendEmail(event){
+    event.preventDefault()
+    const body={
+      to:"vgowthama225@gmail.com",
+      message:emailInput["message"]+emailInput["email"],
+      subject:"subject here"
+    }
+    const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+    console.log(emailResponse)
+
+  }
+  return (
+    <>
+
+
+      <section>
+        <div className='applyJob'>
+          <div className='job'>
+            <div className='details'>
+              <p id='detailsText'>MICRO STRATEGY</p>
+              <p id='experiancerText'><img src={experianceImg} alt='experiance'></img> 6 - 7 Years Experience</p>
+            </div>
+            <div className='applyNow'>
+              <button className='applyNowButton' data-toggle="modal" data-target="#exampleModalCenter" onClick={() => setButtonPopup(true)}>Apply Now</button>
+
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='socialmediaIconsCareers'>
+                <p id='shareitOn'>share it on</p>
+                <div className='icons'>
+                  <img src={fbIcon} alt='fb-icon'></img>
+                  <img src={twitterIcon} alt='twitter-icon'></img>
+                  <img src={linkedinIcon} alt='linkedin-icon'></img>
+                  <img src={instaIcon} alt='insta-icon'></img>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='descripition'>
+            <div className='jobDescripition'>
+              <p id='jobDescripitionTitle'>Job Descripition</p>
+              <ul>
+                <li> <img src={TickImg} alt='tickImg'></img>Knowledge in MSTR  Developer, Architect, Web.</li>
+                <li><img src={TickImg} alt='tickImg'></img> Knowledge in SMM/SCA.</li>
+              </ul>
+
+            </div>
+            <div className='skillsRequired'>
+              <p id='skillsRequiredTitle'>skills Required</p>
+              <ul>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Ability to create and manage complex cubes from various sources.</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Ability to create dashboard.</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Performance management on cubes.</p></li>
+                <li><img src={TickImg} alt='tickImg'></img><p id='SkillPara'>Strong team players.</p></li>
+              </ul>
+
+
+            </div>
+            <button className='applyNowButton1' onClick={() => setButtonPopup(true)}>Apply Now</button>
+          </div>
+        </div>
+
+      </section>
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <form onSubmit={sendEmail}>
+        <p id='joinourteamText'>Join our team</p>
+        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
+        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
+        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
+        <input className='file' type="file" placeholder='choose file' />
+        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+        <button type='submit' className='Fbutton'>Submit</button>
+        </form>
+      </Popup>
+
+    </>
+  )
+}
+
+export default ApplyJob

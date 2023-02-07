@@ -8,6 +8,7 @@
 {
 .buildText {
     font-size: 45px !important;
+    margin-left: -5%;
 }
 .buildtalk{
     font-size: 14px !important;
@@ -26,7 +27,7 @@
     width: 125px !important;
 }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) and (min-width:378px){
 .buildText {
     font-family: Poppins;
     font-size: 32px !important;
@@ -43,3 +44,21 @@
     width: 110px !important;
 }
 }
+
+@media screen and (max-width:375px){
+    .buildText {
+        font-family: Poppins;
+        font-size: 32px !important;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        width: 400px !important;
+        margin-left: -9%;
+    }
+    .buildtalk{
+        font-size: 14px !important;
+        height: 35px !important;
+        width: 110px !important;
+    }
+    }

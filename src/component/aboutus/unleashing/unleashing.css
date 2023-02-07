@@ -1,7 +1,22 @@
 .unleashing {
     padding: 10% 3% 5%;
 }
-
+.leftCommit1 li{
+    background: url('../../../images/aboutus/listnormal.png') no-repeat left center;
+     padding: 5px 10px 5px 25px;
+     list-style: none;
+     margin: 0;
+     vertical-align: middle;
+     margin-bottom: 2%;
+    }
+.leftCommit1 li:hover:active {
+    background: url('../../../images/aboutus/listhover.png') no-repeat left center;
+    padding: 5px 10px 5px 25px;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+     margin-bottom: 2%;
+    }
 .unleashing #unleashingTitle {
     font-family: 'Poppins';
     font-style: normal;
@@ -12,6 +27,7 @@
     color: #A4A4A4;
     width: 43%;
     margin: 0 0 0 5%;
+    letter-spacing: -0.04em;
 }
 
 .powerOfvenzo {
@@ -209,7 +225,7 @@
     color: #000000;
 }
 
-@media screen and (max-width:1440px) and (min-width:1024px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .powerOfvenzo .powerrightImage {
         margin: 0 0 0 10%;
     }
@@ -219,12 +235,14 @@
         font-size: 18px !important;
     }
     .unleashing #unleashingTitle {
-        width:60%;
+        width:66% !important;
         font-size: 45px;
+        text-align: left;
     }
     #tickiconText {
         width: 87%;
     }
+   
     
 }
 

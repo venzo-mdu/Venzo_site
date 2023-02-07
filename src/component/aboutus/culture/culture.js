@@ -20,8 +20,8 @@ const handleSelect = (selectedIndex, e) =>
 };
   return (
     <div className='culture'>
-      <p id='cultureTitle'>The Venzo Way of Culture, Co-Operative & Versatile</p>
-      <p id='cultureText'>With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality. </p>
+      <p id='cultureTitle'>The Venzo Way - Culture </p>
+      <p id='cultureText'>With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality.</p>
       <div className='cultures'>
         {/* <marquee direction="left" className='marqueeinCulture'> */}
           <img className='cultureImage' src={cultureImage1} alt='culture'></img>
