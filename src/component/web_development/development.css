@@ -368,8 +368,10 @@
         height: 348px;
         width: 100%;
         border-radius: 0px;
-        border: 1px solid gray;
+        border: 0.1px solid #F8F8F8;;
+        background-color: #CECECE;
         padding-top: 6%;
+        
         padding-left: 6%;
     }
     .cardWebTitle{
