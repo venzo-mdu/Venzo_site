@@ -1,9 +1,9 @@
 import React from 'react'
 import "react-image-gallery/styles/css/image-gallery.css";
 import './development.css'
-import Carousel from 'react-bootstrap/Carousel';
-import mango from '../../webDev_Image/mango.png'
-import blog3 from '../../webDev_Image/carosImage.png'
+// import Carousel from 'react-bootstrap/Carousel';
+// import mango from '../../webDev_Image/mango.png'
+// import blog3 from '../../webDev_Image/carosImage.png'
 function devCarousel() {
   
     return (
@@ -66,64 +66,64 @@ function devCarousel() {
         
         <div className='webSlide1'>
 <a href='https://www.google.co.in/'>
-            <div className='webCard1 comp1'>
+            <div className='webCard1'>
                 <p className='cardWebTitle '>Mangopoint</p>
             </div>
 </a>
            
-            <div className='webCard1 comp2'>
+            <div className='webCard2 '>
             <p className='cardWebTitle'>Algoritmik</p>
             </div>
-            <div className='webCard1 comp3'>
-            <p className='cardWebTitle'>Farmerica</p>
+            <div className='webCard3 '>
+            <p className='cardWebTitle'>Securekloud</p>
             </div>
-            <div className='webCard1 comp4'>
-            <p className='cardWebTitle'>Chennai<br></br>Spine</p>
+            <div className='webCard4 '>
+            <p className='cardWebTitle'>Agshealth</p>
             </div>
         </div>
         <div className='webSlide1'>
-            <div className='webCard1 comp5'>
-            <p className='cardWebTitle'>RFL<br></br>Valves</p>
+            <div className='webCard5 '>
+            <p className='cardWebTitle'>Pure-chemical</p>
             </div>
-            <div className='webCard1 comp6'>
-            <p className='cardWebTitle'>Sarra<br></br>Bricks</p>
+            <div className='webCard6 '>
+            <p className='cardWebTitle'>Siriuscom</p>
             </div>
-            <div className='webCard1 comp7'>
-            <p className='cardWebTitle'>Stronghold<br></br>Facades</p>
+            <div className='webCard7 '>
+            <p className='cardWebTitle'>RFL Valves</p>
             </div>
-            <div className='webCard1 comp8'>
-            <p className='cardWebTitle'>Freshara<br></br>Picklz</p>
+            <div className='webCard8 '>
+            <p className='cardWebTitle'>Ebms</p>
             </div>
         </div>
         <div className='webSlide1'>
 <a href='https://www.google.co.in/'>
-            <div className='webCard1 comp9'>
-                <p className='cardWebTitle'>Mangopoint</p>
+            <div className='webCard9 '>
+                <p className='cardWebTitle'>Farmerica</p>
             </div>
 </a>
            
-            <div className='webCard1 comp10'>
-            <p className='cardWebTitle'>Algoritmik</p>
+            <div className='webCard10 '>
+            <p className='cardWebTitle'>Tringapps</p>
             </div>
-            <div className='webCard1 comp11'>
-            <p className='cardWebTitle'>Farmerica</p>
+            <div className='webCard11 '>
+            <p className='cardWebTitle'>Stronghold<br/>Facades</p>
             </div>
-            <div className='webCard1 comp12'>
-            <p className='cardWebTitle'>Chennai<br></br>Spine</p>
+            <div className='webCard12 '>
+            <p className='cardWebTitle'>Freshara<br></br>Picklz</p>
             </div>
         </div>
-        <div className='webSlide1 comp13'>
-            <div className='webCard1'>
-            <p className='cardWebTitle'>RFL<br></br>Valves</p>
+        <div className='webSlide1 '>
+            <div className='webCard13'>
+            <p className='cardWebTitle'>Vooki</p>
             </div>
-            <div className='webCard1 comp14'>
-            <p className='cardWebTitle'>Sarra<br></br>Bricks</p>
+            <div className='webCard14 '>
+            <p className='cardWebTitle'>Vivid-edge</p>
             </div>
-            <div className='webCard1 comp15'>
-            <p className='cardWebTitle'>Stronghold<br></br>Facades</p>
+            <div className='webCard15 '>
+            <p className='cardWebTitle'>Brainobrain</p>
             </div>
-            <div className='webCard1 comp16'>
-            <p className='cardWebTitle'>Freshara<br></br>Picklz</p>
+            <div className='webCard16 '>
+            <p className='cardWebTitle'>ChennaiSpine</p>
             </div>
         </div>
 
