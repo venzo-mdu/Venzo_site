@@ -14,65 +14,64 @@ import cultureImage4 from '../../../images/culture/culture4.png'
 
 function Culture() {
   const [index, setIndex] = useState(0);
-const handleSelect = (selectedIndex, e) => 
-{
-  setIndex(selectedIndex);
-};
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div className='culture'>
       <p id='cultureTitle'>The Venzo Way - Culture </p>
       <p id='cultureText'>With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality.</p>
       <div className='cultures'>
         {/* <marquee direction="left" className='marqueeinCulture'> */}
-          <img className='cultureImage' src={cultureImage1} alt='culture'></img>
-          <img className='cultureImage' src={cultureImage2} alt='culture'></img>
-          <img className='cultureImage' src={cultureImage3} alt='culture'></img>
-          <img className='cultureImage' src={cultureImage4} alt='culture'></img>
+        <img className='cultureImage' src={cultureImage1} alt='culture'></img>
+        <img className='cultureImage' src={cultureImage2} alt='culture'></img>
+        <img className='cultureImage' src={cultureImage3} alt='culture'></img>
+        <img className='cultureImage' src={cultureImage4} alt='culture'></img>
         {/* </marquee> */}
       </div>
-      
-<div className='Carousel'>
-<Carousel activeIndex={index} onSelect={handleSelect}>
-<Carousel.Item interval={2000}>
-  <div style={{ display: 'flex' }}>
-    <div className='innercarouselCards1'>
-          <img className='cultureImage' src={cultureImage1} alt='culture'></img>
+
+      <div className='Carousel'>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          <Carousel.Item interval={2000}>
+            <div style={{ display: 'flex' }}>
+              <div className='innercarouselCards1'>
+                <img className='cultureImage' src={cultureImage1} alt='culture'></img>
+              </div>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item interval={2000}>
+            <div style={{ display: 'flex' }}>
+
+              <div className='innercarouselCards2'>
+                <img className='cultureImage' src={cultureImage2} alt='culture'></img>
+              </div>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item interval={2000}>
+            <div style={{ display: 'flex' }}>
+              <div className='innercarouselCards3'>
+                <img className='cultureImage' src={cultureImage3} alt='culture'></img>
+              </div>
+            </div>
+          </Carousel.Item>
+
+
+
+          <Carousel.Item interval={2000}>
+            <div style={{ display: 'flex' }}>
+              <div className='innercarouselCards3'>
+                <img className='cultureImage' src={cultureImage4} alt='culture'></img>
+              </div>
+            </div>
+          </Carousel.Item>
+        </Carousel>
+
+      </div>
+
+
     </div>
-    </div>
-</Carousel.Item>
-
-<Carousel.Item interval={2000}>
-  <div style={{ display: 'flex' }}>
-    
-    <div className='innercarouselCards2'>
-          <img className='cultureImage' src={cultureImage2} alt='culture'></img>
-    </div>
-  </div>
-</Carousel.Item>
-
-<Carousel.Item interval={2000}>
-  <div style={{ display: 'flex' }}>
-    <div className='innercarouselCards3'>
-          <img className='cultureImage' src={cultureImage3} alt='culture'></img>
-    </div>
-    </div>
-</Carousel.Item>
-
-
-
-<Carousel.Item interval={2000}>
-  <div style={{ display: 'flex' }}>
-  <div className='innercarouselCards3'>
-          <img className='cultureImage' src={cultureImage4} alt='culture'></img>
-  </div>
-  </div>
-</Carousel.Item>
-</Carousel>
-
-</div>
-
-
-</div>  
   )
 }
 
@@ -96,7 +95,7 @@ const handleSelect = (selectedIndex, e) =>
 //           <img className='cultureImage' src={cultureImage4} alt='culture'></img>
 //         {/* </marquee> */}
 //       </div>
-      
+
 // <div className='Carousel'>
 // <Carousel activeIndex={index} onSelect={handleSelect}>
 // <Carousel.Item interval={2000}>
@@ -109,7 +108,7 @@ const handleSelect = (selectedIndex, e) =>
 
 // <Carousel.Item interval={2000}>
 //   <div style={{ display: 'flex' }}>
-    
+
 //     <div className='innercarouselCards2'>
 //           <img className='cultureImage' src={cultureImage2} alt='culture'></img>
 //     </div>

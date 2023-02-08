@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import Header from '../header/header'
-import Footer from '../footer/footer'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-import { Link, navigate } from 'gatsby'
+import { Link} from 'gatsby'
 import './blogs.css'
 import './laptop.css'
 import './tab.css'
@@ -80,8 +79,8 @@ function Blogs1() {
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} />
-                        <img src={tweet2} />
+                        <img src={tweet1} alt="tweet1"/>
+                        <img src={tweet2} alt="tweet2"/>
                     </div>
                 </div>
             </div>

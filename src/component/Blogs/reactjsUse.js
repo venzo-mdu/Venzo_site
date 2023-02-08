@@ -9,15 +9,15 @@ function reactjsUse() {
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>ReactJS Framework Working Wonders For Modern Web Development Businesses</p>
                 <p className='reactusesubtitle'>Technology, Web App Development | November 29th, 2021</p>
-                <img className='reactuseimg' src={reactjs1} />
+                <img className='reactuseimg' src={reactjs1} alt="reactjs"/>
                 <p className='reactuseIntro'>Introduction</p>
-                <p className='reactuseIntroDesc'>The current ecosystem of front-end development is witnessing a fast-paced revolution. The major contributing parameters are the release of new tools every day and ever-expanding libraries and frameworks. With so many options in hand, it becomes difficult for business owners to make their pick. <br/>Apart from Angular, there’s another popular choice surfacing today – ReactJS. Any <strong>web app development company</strong> which aims to stay relevant in the dynamic environment of design and development is inclining itself towards the ReactJS platform.</p>
+                <p className='reactuseIntroDesc'>The current ecosystem of front-end development is witnessing a fast-paced revolution. The major contributing parameters are the release of new tools every day and ever-expanding libraries and frameworks. With so many options in hand, it becomes difficult for business owners to make their pick. <br />Apart from Angular, there’s another popular choice surfacing today – ReactJS. Any <strong>web app development company</strong> which aims to stay relevant in the dynamic environment of design and development is inclining itself towards the ReactJS platform.</p>
                 <p className='reactuseIntro'>What is React JS?</p>
-                <p className='reactuseIntroDesc'>ReactJS is a JavaScript library developed and maintained by Facebook to date. According to its creator, the framework is more efficient and flexible than other front-end development options. As per a recent survey by Stack Overflow, the ReactJS framework emerged as the most loved web framework while Angular ranked ninth. <br/>If we consider a current estimate, there are over 2,20,000 live websites that are built-in ReactJS, reflecting the mammoth popularity of the framework. On top of that, major names like Netflix and Paypal have also started using ReactJS for their software products.</p>
+                <p className='reactuseIntroDesc'>ReactJS is a JavaScript library developed and maintained by Facebook to date. According to its creator, the framework is more efficient and flexible than other front-end development options. As per a recent survey by Stack Overflow, the ReactJS framework emerged as the most loved web framework while Angular ranked ninth. <br />If we consider a current estimate, there are over 2,20,000 live websites that are built-in ReactJS, reflecting the mammoth popularity of the framework. On top of that, major names like Netflix and Paypal have also started using ReactJS for their software products.</p>
                 <p className='reactuseIntro'>How Is ReactJS Helping Modern Web Development Businesses?</p>
                 <p className='reactuseIntroDesc'>Whether web developers or <strong>App Development Companies</strong>, they all need to select a framework that best performs on various evaluative parameters to make their projects successful. Given below are these factors and how well ReactJS operates.</p>
                 <p className='reactuseIntro'>1. Speed</p>
-                <p className='reactuseIntroDesc'>While talking about speed, we can conveniently state that ReactJS extends the option to developers to utilise the different units of their application on both sides, i.e., the client-side and the server-side, eventually boosting the development process. <br/>In other words, multiple developers can write the code of the application. Moreover, they can even make changes without affecting the app’s main logic</p>
+                <p className='reactuseIntroDesc'>While talking about speed, we can conveniently state that ReactJS extends the option to developers to utilise the different units of their application on both sides, i.e., the client-side and the server-side, eventually boosting the development process. <br />In other words, multiple developers can write the code of the application. Moreover, they can even make changes without affecting the app’s main logic</p>
                 <p className='reactuseIntro'>2. Flexibility</p>
                 <p className='reactuseIntroDesc'>Flexibility is a major factor why ReactJS continues to gain popularity as it contributes to providing a modular structure to the code. Such flexibility saves a lot of time and cost for businesses.</p>
                 <p className='reactuseIntro'>3. Performance</p>
@@ -32,7 +32,7 @@ function reactjsUse() {
                 <p className='reactuseIntro'>3. Component Reusability Feature</p>
                 <p className='reactuseIntroDesc'>Component reusability is a huge benefit that ReactJS provides developers as they can utilise the same digital object repeatedly. For example, if a developer wants to add simple components such as a button, text field, and a checkbox to use them again, they can move them to wrapper components which are ultimately placed inside the root components.</p>
                 <p className='reactuseIntro'>Conclusion</p>
-                <p className='reactuseIntroDesc'>The popularity of ReactJS will inevitably continue to grow. With the increasing competition to take the best out of the framework, the need for skilled and experienced ReactJS developers is also expected to escalate. <br/><strong>Venzo</strong> provides world-class ReactJS developers and experts for your web app Development. Their end-to-end management of your requirements will help you stand out and attract more audiences with top-notch quality applications and websites.</p>
+                <p className='reactuseIntroDesc'>The popularity of ReactJS will inevitably continue to grow. With the increasing competition to take the best out of the framework, the need for skilled and experienced ReactJS developers is also expected to escalate. <br /><strong>Venzo</strong> provides world-class ReactJS developers and experts for your web app Development. Their end-to-end management of your requirements will help you stand out and attract more audiences with top-notch quality applications and websites.</p>
             </div>
             <div className='blogsRight blogsRight1'>
                 <div className='slide1'>
@@ -46,8 +46,8 @@ function reactjsUse() {
                 </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} />
-                    <img src={tweet2} />
+                    <img src={tweet1} alt="tweet1" />
+                    <img src={tweet2} alt="tweet2"/>
                 </div>
             </div>
         </div>

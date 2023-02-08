@@ -46,12 +46,12 @@ function QualityAssurance() {
     const [active, setActive] = useState('');
     const [buttonPopup, setButtonPopup] = useState(false);
     const dated = (value) => {
-        let container 
-        if( document.querySelector('.quality_card1') !==null){
+        let container
+        if (document.querySelector('.quality_card1') !== null) {
             container = document.querySelector('.quality_card1')
         }
         setActive(value)
-        if (value == 'Automation') {
+        if (value === 'Automation') {
             container.innerHTML = "<img src='" + autoimg1 + "' />\
             <br>\
             <br>\
@@ -134,27 +134,31 @@ function QualityAssurance() {
     ";
         }
     }
-    const [emailInput,setEmailInput]=useState({
-        name:"",
-        email:"",
-        mobile:"",
-        message:""
-      });
-    
-      const handleChange=(e)=>{
-        setEmailInput({...emailInput,[e.target.name]:e.target.value});
-      }
-      async function sendEmail(event){
+    const [submit, setSubmit] = useState(false);
+    const [emailInput, setEmailInput] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
+    });
+
+    const handleChange = (e) => {
+        setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
+    }
+    async function sendEmail(event) {
         event.preventDefault()
-        const body={
-          to:"vgowthama225@gmail.com",
-          message:emailInput["message"]+emailInput["email"],
-          subject:"subject here"
+        const body = {
+            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            cc: "priyankac@venzotechnologies.com",
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+            // message:emailInput["message"]+emailInput["email"],
+            subject: "subject here"
         }
-        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-    
-      }
+        setSubmit(true)
+
+    }
     return (
         <div>
             <Header flag='header1' />
@@ -170,20 +174,20 @@ function QualityAssurance() {
                             <img className="icon" src={performancetesting} alt='icon' />
                             <h2 className="heading">Performance <br />Testing</h2>
                         </div>
-                        <img className='Vline2' src={line} ></img>
+                        <img className='Vline2' src={line} alt="line"></img>
                         <hr className='qualityres' />
                         <div className='colm'>
                             <img className="icon" src={manualtesting} alt='icon' />
                             <h2 className="heading">Manual and <br />Automation Testing</h2>
                         </div>
-                        <img className='Vline2' src={line} ></img>
+                        <img className='Vline2' src={line} alt="line"></img>
                         <hr className='qualityres' />
 
                         <div className='colm'>
                             <img className="icon" src={functiontesting} alt='icon' />
                             <h2 className="heading">Functional <br />Testing</h2>
                         </div>
-                        <img className='Vline2' src={line} ></img>
+                        <img className='Vline2' src={line} alt="line"></img>
                         <hr className='qualityres' />
                         <div className='colm'>
                             <img className="icon" src={vector} alt='icon' />
@@ -200,13 +204,13 @@ function QualityAssurance() {
                             <h2 className="s1heading">Performance Evaluation</h2>
                             <p className='s1desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
-                        <hr className='quality_cardTitleHr'/>
+                        <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s1icon" src={group2} alt='icon' />
                             <h2 className="s1heading">Quality and UX audit</h2>
                             <p className='s1desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
-                        <hr className='quality_cardTitleHr'/>
+                        <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s1icon" src={group3} alt='icon' />
                             <h2 className="s1heading">Integration Testing</h2>
@@ -219,13 +223,13 @@ function QualityAssurance() {
                             <h2 className="s2heading">Performance Evaluation</h2>
                             <p className='s2desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
                         </div>
-                        <hr className='quality_cardTitleHr'/>
+                        <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s2icon" src={group5} alt='icon' />
                             <h2 className="s2heading">Quality and UX audit</h2>
                             <p className='s2desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
                         </div>
-                        <hr className='quality_cardTitleHr'/>
+                        <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s2icon" src={group6} alt='icon' />
                             <h2 className="s2heading">Integration Testing</h2>
@@ -237,7 +241,7 @@ function QualityAssurance() {
                     <div className='assurance_section4_s1'>
                         <p className='section4_heading'><span className='s4_colortext'>Gain Peculiar advantage</span> of Software testing from Venzo</p>
                         <p className='s4_desc'>Venzo offers end-to-end quality assurance and testing services to assist businesses in managing an increasingly complex technological landscape.</p>
-                        <img src={gainimg} ></img>
+                        <img src={gainimg} alt="line"></img>
                     </div>
                     <div className='assurance_section4_s2'>
                         <div className=' testbtn'><p>Driven Development</p></div>
@@ -251,26 +255,26 @@ function QualityAssurance() {
                     <div className='quality_cardList'>
                         <ul className='quality_cardTitle'>
                             <li className={active === 'Automation' ? 'cardtitle01' : 'cardtitle1'} onClick={() => dated('Automation')}>Automation Testing</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Defect' ? 'cardtitle01' : 'cardtitle2'} onClick={() => dated('Defect')}>Test & Defect</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Devops' ? 'cardtitle01' : 'cardtitle3'} onClick={() => dated('Devops')}>Devops Integration</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Mobile' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('Mobile')}>Mobile Testing</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Web' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('Web')}>Web Tesing</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Security' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Security')}>Security Testing</li>
-                            <hr className='quality_cardTitleHr'/>
+                            <hr className='quality_cardTitleHr' />
                             <li className={active === 'Performance' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Performance')}>Performance Tesing</li>
                         </ul>
                         <div className='quality_card1'>
                             <div>
-                                <img src={autoimg1} />
+                                <img src={autoimg1} alt="autoimg"/>
                                 <br /><br /><hr />
-                                <img src={autoimg2} />
+                                <img src={autoimg2} alt="autoimg"/>
                                 <br /><br /><hr />
-                                <img src={autoimg3} />
+                                <img src={autoimg3} alt="autoimg"/>
                             </div>
                         </div>
                     </div>
@@ -281,11 +285,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Automation Testing </Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={autoimg1} />
+                                        <img src={autoimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={autoimg2} />
+                                        <img src={autoimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={autoimg3} />
+                                        <img src={autoimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -293,11 +297,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Test & Defect</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={testimg1} />
+                                        <img src={testimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={testimg2} />
+                                        <img src={testimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={testimg3} />
+                                        <img src={testimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -306,9 +310,9 @@ function QualityAssurance() {
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
                                         <br /><br />
-                                        <img src={developimg2} />
+                                        <img src={developimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={developimg1} />
+                                        <img src={developimg1} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -316,11 +320,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Mobile Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={cardimg1} />
+                                        <img src={cardimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={cardimg2} />
+                                        <img src={cardimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={cardimg3} />
+                                        <img src={cardimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -328,11 +332,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Web Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={webimg1} />
+                                        <img src={webimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={webimg2} />
+                                        <img src={webimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={webimg3} />
+                                        <img src={webimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -340,11 +344,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Security Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={securityimg1} />
+                                        <img src={securityimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={securityimg2} />
+                                        <img src={securityimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={securityimg3} />
+                                        <img src={securityimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -352,11 +356,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Performance Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={performimg1} />
+                                        <img src={performimg1} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={performimg2} />
+                                        <img src={performimg2} alt="autoimg"/>
                                         <br /><br /><hr />
-                                        <img src={performimg3} />
+                                        <img src={performimg3} alt="autoimg"/>
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -370,19 +374,19 @@ function QualityAssurance() {
                     <p className='quality_section6_desc'>Venzo is about providing an impeccable customer experience. We focus on robust quality testing mechanisms and practices tailored to your specific business goals by leveraging our expertise in various industries.</p>
                     <div className='qaprocess'>
                         <div className='qaSec6Res'>
-                            <img src={checkcolor}></img>
+                            <img src={checkcolor} alt="autoimg"></img>
                             <p>Analyze Requirements</p>
                         </div>
                         <div className='qaSec6Res'>
-                            <img src={checkcolor}></img>
+                            <img src={checkcolor} alt="autoimg"></img>
                             <p>Test Planning</p>
                         </div>
                         <div className='qaSec6Res'>
-                            <img src={checkcolor}></img>
+                            <img src={checkcolor} alt="autoimg"></img>
                             <p>Sprint QA Activities</p>
                         </div>
                         <div className='qaSec6Res'>
-                            <img src={checkcolor}></img>
+                            <img src={checkcolor} alt="autoimg"></img>
                             <p>Hardening Sprint</p>
                         </div>
                     </div>
@@ -397,16 +401,22 @@ function QualityAssurance() {
             <Footer />
 
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <form onSubmit={sendEmail}>
-        <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
-        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
-        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-        <input className='file' type="file" placeholder='choose file' />
-        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
-        <button type='submit' className='Fbutton'>Submit</button>
-        </form>
-      </Popup>
+                <form onSubmit={sendEmail}>
+                    <p id='joinourteamText'>Join our team</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <input className='file' type="file" placeholder='choose file' />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
+            </Popup>
+
+            <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+                <div className='thankPop'>
+                    Thank you for contacting us, our team will reach you.
+                </div>
+            </Popup>
 
         </div>
     )

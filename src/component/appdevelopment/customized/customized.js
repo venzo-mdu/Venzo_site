@@ -7,11 +7,11 @@ import CustomBgRes from '../../../images/appdevelopment/appd13.png'
 function customized() {
   return (
     <div className='customized'>
-    <img className='customizedImages' src={CustomBg} alt='customizedbg'></img>
-     <img className='customizedImagesRes' src={CustomBgRes} alt='customizedbgRes'></img>
-     <div className='custmoizedText'>
-     <p id='customizeText'>We build most Innovative & <span id='hiringGradient'><br></br>User-friendly Apps</span></p>
-     </div>
+      <img className='customizedImages' src={CustomBg} alt='customizedbg'></img>
+      <img className='customizedImagesRes' src={CustomBgRes} alt='customizedbgRes'></img>
+      <div className='custmoizedText'>
+        <p id='customizeText'>We build most Innovative & <span id='hiringGradient'><br></br>User-friendly Apps</span></p>
+      </div>
     </div>
   )
 }

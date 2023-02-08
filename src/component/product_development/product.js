@@ -33,307 +33,317 @@ import axios from 'axios'
 
 function Product() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    const [emailInput,setEmailInput]=useState({
-        name:"",
-        email:"",
-        mobile:"",
-        message:""
-      });
-    
-      const handleChange=(e)=>{
-        setEmailInput({...emailInput,[e.target.name]:e.target.value});
-      }
-      async function sendEmail(event){
+    const [submit, setSubmit] = useState(false);
+    const [emailInput, setEmailInput] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
+    });
+
+    const handleChange = (e) => {
+        setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
+    }
+    async function sendEmail(event) {
         event.preventDefault()
-        const body={
-          to:"vgowthama225@gmail.com",
-          message:emailInput["message"]+emailInput["email"],
-          subject:"subject here"
+        const body = {
+            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            cc: "priyankac@venzotechnologies.com",
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+            // message:emailInput["message"]+emailInput["email"],
+            subject: "subject here"
         }
-        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-    
-      }
+        setSubmit(true)
+
+    }
     return (
         <>        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'></link>
 
-        <div>
-            <Header flag='header1' />
-            <Header flag='header2' />
             <div>
-                <div className='product_section1'>
-                    <p className='product_Title'>Developing<br /> products that<br /> provide <span className='colorname'>real value</span></p>
+                <Header flag='header1' />
+                <Header flag='header2' />
+                <div>
+                    <div className='product_section1'>
+                        <p className='product_Title'>Developing<br /> products that<br /> provide <span className='colorname'>real value</span></p>
+                    </div>
                 </div>
-            </div>
-            {/* <div>
+                {/* <div>
                 <div className='product_section2'>
                     <p className='product_Title'>Developing<br /> products that<br /> provide <span className='colorname'>real value</span></p>
                 </div>
             </div> */}
-            <div className='product_experts'>
-                <p className='experts_title'>We are <span className='colorname'>experts in</span></p>
-                <div className='expert_flex'>
-                    <div>
-                        <img src={quality} />
-                        <p className='titleHead'>Enterprise<br /> Application Development</p>
-                    </div>
-                    {/* <img className='VerticlLine' src={VerticlLine} alt ='VerticlLine' /> */}
-                    <img className='linev LinevHoriz' src={line} alt='line' />
+                <div className='product_experts'>
+                    <p className='experts_title'>We are <span className='colorname'>experts in</span></p>
+                    <div className='expert_flex'>
+                        <div>
+                            <img src={quality} alt="quality"/>
+                            <p className='titleHead'>Enterprise<br /> Application Development</p>
+                        </div>
+                        {/* <img className='VerticlLine' src={VerticlLine} alt ='VerticlLine' /> */}
+                        <img className='linev LinevHoriz' src={line} alt='line' />
 
-                    <div>
-                        <img src={mvp} />
-                        <p className='titleHead'>MVP<br /> Development</p>
-                    </div>
-                    
-                    <img className='linev LinevHoriz' src={line} alt='line' />
+                        <div>
+                            <img src={mvp} alt="mvp"/>
+                            <p className='titleHead'>MVP<br /> Development</p>
+                        </div>
 
-                    <div>
-                        <img src={domin} />
-                        <p className='titleHead'>Domain<br /> Specific Development</p>
-                    </div>
-                    <img className='linev LinevHoriz' src={line} alt='line' />
+                        <img className='linev LinevHoriz' src={line} alt='line' />
 
-                    <div>
-                        <img src={consulting} />
-                        <p className='titleHead'>Business<br /> Consulting</p>
-                    </div>
-                    <img className='linev LinevHoriz' src={line} alt='line' />
-           
-                    <div>
-                        <img src={sme} />
-                        <p className='titleHead'>SME<br /> Product Development</p>
-                    </div>
-                </div>
-                <div className='helpYou'>
-                    <p className='helpTitle'>How we help you</p>
-                    <p className='helpDesc'>We fully understand that developing successful products is not a straight line, so we provide a flexible, scalable approach that keeps you moving forward.</p>
-                </div>
-                <div className='saas'>
-                    <div className='saas_consulting'>
-                        <img className='saasImg' src={saas1} />
-                        <div className='cons_right'>
-                            <p className='cons_title'>Saas Consulting</p>
-                            <p className='cons_desc SaasPara'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
-                            <div className='cons_list'>
-                                <img className='linev HrLine' src={line} alt='line' />
-                                <div className='linevText'>
-                                    <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'> Technical<br className='ConsultBr'></br>consultation </p>
-                                </div>
-                                <img className='linev HrLine' src={line} alt='line' />
+                        <div>
+                            <img src={domin} alt="domain"/>
+                            <p className='titleHead'>Domain<br /> Specific Development</p>
+                        </div>
+                        <img className='linev LinevHoriz' src={line} alt='line' />
 
-                                <div className='linevText'>
-                                    <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ideas  &<br className='ConsultBr'></br>Conceptualization </p>
-                                </div>
-                                <img className='linev HrLine' src={line} alt='line' />
-                                <div className='linevText'>
-                                    <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Strategy<br className='ConsultBr'></br>Development </p>
+                        <div>
+                            <img src={consulting} alt="consult"/>
+                            <p className='titleHead'>Business<br /> Consulting</p>
+                        </div>
+                        <img className='linev LinevHoriz' src={line} alt='line' />
+
+                        <div>
+                            <img src={sme} alt="sme"/>
+                            <p className='titleHead'>SME<br /> Product Development</p>
+                        </div>
+                    </div>
+                    <div className='helpYou'>
+                        <p className='helpTitle'>How we help you</p>
+                        <p className='helpDesc'>We fully understand that developing successful products is not a straight line, so we provide a flexible, scalable approach that keeps you moving forward.</p>
+                    </div>
+                    <div className='saas'>
+                        <div className='saas_consulting'>
+                            <img className='saasImg' src={saas1} alt="saas1"/>
+                            <div className='cons_right'>
+                                <p className='cons_title'>Saas Consulting</p>
+                                <p className='cons_desc SaasPara'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
+                                <div className='cons_list'>
+                                    <img className='linev HrLine' src={line} alt='line' />
+                                    <div className='linevText'>
+                                        <p className='cons_number'>01</p>
+                                        <p className='cons_subTitle'> Technical<br className='ConsultBr'></br>consultation </p>
+                                    </div>
+                                    <img className='linev HrLine' src={line} alt='line' />
+
+                                    <div className='linevText'>
+                                        <p className='cons_number'>02</p>
+                                        <p className='cons_subTitle'>Ideas  &<br className='ConsultBr'></br>Conceptualization </p>
+                                    </div>
+                                    <img className='linev HrLine' src={line} alt='line' />
+                                    <div className='linevText'>
+                                        <p className='cons_number'>03</p>
+                                        <p className='cons_subTitle'>Strategy<br className='ConsultBr'></br>Development </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='saas_Development'>
-                    <img className='saasImg' id='saasImgRes' src={saas4} />
-                        <div className='cons_left'>
-                            <p className='cons_title SaasDevTit2'>Saas Development</p>
-                            <p className='cons_desc SAASDev'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
-                            <div className='dev_list '>
-                                <div className='dev_list-Block'>
+                        <div className='saas_Development'>
+                            <img className='saasImg' id='saasImgRes' src={saas4} alt="saasImg"/>
+                            <div className='cons_left'>
+                                <p className='cons_title SaasDevTit2'>Saas Development</p>
+                                <p className='cons_desc SAASDev'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
+                                <div className='dev_list '>
+                                    <div className='dev_list-Block'>
 
-                                <img className='linev saasHr' src={line} alt='line' />
-                                <div className='linevText'>
-                                    <p className='cons_number'>01 </p>
-                                    <p className='cons_subTitle'>  Multi-tenant<br className='ConsultBr'></br>architecture development</p>
-                                </div>
-                                <img className='linev saasHr' src={line} alt='line' />
-                                <div  className='linevText'>
-                                    <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Service Oriented<br className='ConsultBr'></br>Architecture (SOA) development</p>
-                                </div>
-                                </div>
-                                <div className='dev_list-Block'>
-                                <img className='linev saasHr' src={line} alt='line' />
-                                <div className='linevText'>
-                                    <p className='cons_number'>03</p>
-                                    <p className='cons_subTitle'>Cloud<br className='ConsultBr'></br>Computing Deployments </p>
-                                </div>
-                                <img className='linev saasHr' src={line} alt='line' />
-                                <div className='linevText'>
-                                    <p className='cons_number'>04</p>
-                                    <p className='cons_subTitle'>API<br className='ConsultBr'></br>Development and Integration </p>
-                                </div>
+                                        <img className='linev saasHr' src={line} alt='line' />
+                                        <div className='linevText'>
+                                            <p className='cons_number'>01 </p>
+                                            <p className='cons_subTitle'>  Multi-tenant<br className='ConsultBr'></br>architecture development</p>
+                                        </div>
+                                        <img className='linev saasHr' src={line} alt='line' />
+                                        <div className='linevText'>
+                                            <p className='cons_number'>02</p>
+                                            <p className='cons_subTitle'>Service Oriented<br className='ConsultBr'></br>Architecture (SOA) development</p>
+                                        </div>
+                                    </div>
+                                    <div className='dev_list-Block'>
+                                        <img className='linev saasHr' src={line} alt='line' />
+                                        <div className='linevText'>
+                                            <p className='cons_number'>03</p>
+                                            <p className='cons_subTitle'>Cloud<br className='ConsultBr'></br>Computing Deployments </p>
+                                        </div>
+                                        <img className='linev saasHr' src={line} alt='line' />
+                                        <div className='linevText'>
+                                            <p className='cons_number'>04</p>
+                                            <p className='cons_subTitle'>API<br className='ConsultBr'></br>Development and Integration </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <img className='saasImg1' src={saas2} />
+                            <img className='saasImg1' src={saas2} alt="saas2"/>
 
-                    </div>
-                    <div className='saas_consulting'>
-                        <img className='saasImg' src={saas3} />
-                        <div className='cons_right'>
-                            <p className='cons_title ConsTitl'>Support and Maintanence</p>
-                            <p className='cons_desc SupportMain'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
-                            <div className='cons_list SupportLine SaasConsList'>
-                                <img className='linev consultHr' src={line} alt='line' />
-                                <div className='linevText SaasConsList'> 
-                                    <p className='cons_number'>01</p>
-                                    <p className='cons_subTitle'>Flexible team<br className='ConsultBr'></br>& 24/7 Service </p>
+                        </div>
+                        <div className='saas_consulting'>
+                            <img className='saasImg' src={saas3} alt="saas3"/>
+                            <div className='cons_right'>
+                                <p className='cons_title ConsTitl'>Support and Maintanence</p>
+                                <p className='cons_desc SupportMain'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
+                                <div className='cons_list SupportLine SaasConsList'>
+                                    <img className='linev consultHr' src={line} alt='line' />
+                                    <div className='linevText SaasConsList'>
+                                        <p className='cons_number'>01</p>
+                                        <p className='cons_subTitle'>Flexible team<br className='ConsultBr'></br>& 24/7 Service </p>
+                                    </div>
+                                    <img className='linev consultHr' src={line} alt='line' />
+                                    <div className='linevText SaasConsList'>
+                                        <p className='cons_number'>02</p>
+                                        <p className='cons_subTitle'>Ongoing<br className='ConsultBr'></br>support & maintenance </p>
+                                    </div>
                                 </div>
-                                <img className='linev consultHr' src={line} alt='line' />
-                                <div className='linevText SaasConsList'>
-                                    <p className='cons_number'>02</p>
-                                    <p className='cons_subTitle'>Ongoing<br className='ConsultBr'></br>support & maintenance </p>
-                                </div> 
                             </div>
+
                         </div>
-
                     </div>
                 </div>
-            </div>
-            <div className='CreateImpact'>
-                <p className='ImpactTitle'><span className='textColor'> Creating Impact </span> by providing a wide range of services and opportunities to</p>
-                <div className='cardlist'>
-                    <div className='cards1'>
-                        <p className='cardTitle'>Startups</p>
-                        <p className='cardDesc'>Venzo is helping startups with a wide range of SaaS product and support to build their brand.</p>
-                        <p className='cardDescList'>Product Discovery <br />Idea Validation <br />Prototyping<br />User Testing<br />Early Go-to-market</p>
-                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
-                    
+                <div className='CreateImpact'>
+                    <p className='ImpactTitle'><span className='textColor'> Creating Impact </span> by providing a wide range of services and opportunities to</p>
+                    <div className='cardlist'>
+                        <div className='cards1'>
+                            <p className='cardTitle'>Startups</p>
+                            <p className='cardDesc'>Venzo is helping startups with a wide range of SaaS product and support to build their brand.</p>
+                            <p className='cardDescList'>Product Discovery <br />Idea Validation <br />Prototyping<br />User Testing<br />Early Go-to-market</p>
+                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+
+                        </div>
+                        <div className='cards2'>
+                            <p className='cardTitle'>Medium Enterprise</p>
+                            <p className='cardDesc'>Venzo is helping Medium enteprise with a wide range of SaaS product and support to build their brand.</p>
+                            <p className='cardDescList'>MVP / Rapid MVP<br />Product Discovery<br />Team Augmentation<br />User Testing<br />Go-to-market</p>
+                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+                        </div>
+                        <div className='cards3'>
+                            <p className='cardTitle'>Top Tier Companies</p>
+                            <p className='cardDesc'>Venzo is helping Top brands with a wide range of SaaS product and support to maintain their market value.</p>
+                            <p className='cardDescList'>Growth Design<br />Continuous Product Discovery<br />Opportunity Mapping<br />User Interviews<br />Scrum Team Augmentation</p>
+                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+                        </div>
                     </div>
-                    <div className='cards2'>
-                        <p className='cardTitle'>Medium Enterprise</p>
-                        <p className='cardDesc'>Venzo is helping Medium enteprise with a wide range of SaaS product and support to build their brand.</p>
-                        <p className='cardDescList'>MVP / Rapid MVP<br />Product Discovery<br />Team Augmentation<br />User Testing<br />Go-to-market</p>
-                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+
+                </div>
+
+                <div className='animation'>
+                    <img className='animationBG' src={bgImageAnimation} alt='backgroundImage'></img>
+                    <img className='animationBGRes' src={bgImageAnimationRes} alt='backgroundImage'></img>
+
+                    <p id='animationText'>We’ll identify and equip you with a team of developers perfectly suited to your project, ready to work hand-in-glove with your in-house team, using shared tools and methodologies.</p>
+                </div>
+
+
+                <div className='whyVenzo'>
+                    <p id='whyVenzoTitle'>Why <span id='colorVenzoText'>Venzo?</span></p>
+                    <p id='whyVenzoText'>Venzo’s product engineering solutions team uses cutting-edge technologies, solid frameworks, and efficient workflows to provide stage-wise delivery for improved product control and visibility.</p>
+                    <div className='venzoCards'>
+                        <div className='subCards subCards1'>
+                            <img src={whyVenzoIcon1} alt='whyVenzoIcon'></img>
+                            <p id='subCardsText'>Product engineering experts</p>
+                        </div>
+                        <div className='subCards subCards2'>
+                            <img src={whyVenzoIcon2} alt='whyVenzoIcon'></img>
+                            <p id='subCardsText'>Quality driven</p>
+
+                        </div>
+                        <div className='subCards subCards3'>
+                            <img src={whyVenzoIcon3} alt='whyVenzoIcon'></img>
+                            <p id='subCardsText'>Diverse technology</p>
+
+                        </div>
+                        <div className='subCards subCards4'>
+                            <img src={whyVenzoIcon4} alt='whyVenzoIcon'></img>
+                            <p id='subCardsText'>Information Security</p>
+
+                        </div>
                     </div>
-                    <div className='cards3'>
-                        <p className='cardTitle'>Top Tier Companies</p>
-                        <p className='cardDesc'>Venzo is helping Top brands with a wide range of SaaS product and support to maintain their market value.</p>
-                        <p className='cardDescList'>Growth Design<br />Continuous Product Discovery<br />Opportunity Mapping<br />User Interviews<br />Scrum Team Augmentation</p>
-                        <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+
+                </div>
+
+
+                <div className='awesomeProducts'>
+                    <p className='awesomeTitle'>Awesome products from <span id='awesomeVenzo'>Venzo !</span></p>
+                    <Carousel>
+                        <Carousel.Item >
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Madras Daily</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={productImage} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item >
+
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Madras Daily</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={productImage} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item >
+                        <Carousel.Item >
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Madras Daily</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={productImage} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item >
+                        <Carousel.Item >
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Madras Daily</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={productImage} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item >
+                        <Carousel.Item >
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Madras Daily</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={productImage} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item >
+
+                    </Carousel>
+
+                </div>
+
+                <div>
+                    <div className='containor3'>
+                        <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
+                        <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
                     </div>
                 </div>
-            
+                <Footer />
+
+
             </div>
-   
-               <div className='animation'>
-                   <img className='animationBG' src={bgImageAnimation} alt='backgroundImage'></img>
-                   <img className='animationBGRes' src={bgImageAnimationRes} alt='backgroundImage'></img>
-                  
-                   <p id='animationText'>We’ll identify and equip you with a team of developers perfectly suited to your project, ready to work hand-in-glove with your in-house team, using shared tools and methodologies.</p>
-               </div>
-      
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <form onSubmit={sendEmail}>
+                    <p id='joinourteamText'>Join our team</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <input className='file' type="file" placeholder='choose file' />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
+            </Popup>
 
-               <div className='whyVenzo'>
-                     <p id='whyVenzoTitle'>Why <span id='colorVenzoText'>Venzo?</span></p>
-                     <p id='whyVenzoText'>Venzo’s product engineering solutions team uses cutting-edge technologies, solid frameworks, and efficient workflows to provide stage-wise delivery for improved product control and visibility.</p>
-                     <div className='venzoCards'>
-                         <div className='subCards subCards1'>
-                             <img src={whyVenzoIcon1} alt='whyVenzoIcon'></img>
-                          <p id='subCardsText'>Product engineering experts</p>
-                         </div>
-                         <div className='subCards subCards2'>
-                         <img src={whyVenzoIcon2} alt='whyVenzoIcon'></img>
-                          <p id='subCardsText'>Quality driven</p>
-                             
-                         </div>
-                         <div className='subCards subCards3'>
-                         <img src={whyVenzoIcon3} alt='whyVenzoIcon'></img>
-                          <p id='subCardsText'>Diverse technology</p>
-                             
-                         </div>
-                         <div className='subCards subCards4'>
-                         <img src={whyVenzoIcon4} alt='whyVenzoIcon'></img>
-                          <p id='subCardsText'>Information Security</p>
-                             
-                         </div>
-                     </div>
-              
-               </div>
-           
-
-           <div className='awesomeProducts'>
-               <p className='awesomeTitle'>Awesome products from <span id='awesomeVenzo'>Venzo !</span></p>
-            <Carousel>
-            <Carousel.Item >
-                <div className='ourProducts'>
-                <div className='productDesc'>
-                <p id='productTitle'>Madras Daily</p>
-                <img  className='borderLine' src={borderLine} alt='borderImage'></img>
-                <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+            <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+                <div className='thankPop'>
+                    Thank you for contacting us, our team will reach you.
                 </div>
-                <img  className='productImage' src={productImage} alt='productImage'></img>
-                </div>
-              </Carousel.Item>
-              <Carousel.Item >
-
-                <div className='ourProducts'>
-              <div className='productDesc'>
-               <p id='productTitle'>Madras Daily</p>
-               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
-               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
-              </div>
-              <img  className='productImage' src={productImage} alt='productImage'></img>
-            </div>
-            </Carousel.Item >
-            <Carousel.Item >
-            <div className='ourProducts'>
-              <div className='productDesc'>
-               <p id='productTitle'>Madras Daily</p>
-               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
-               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
-              </div>
-              <img  className='productImage' src={productImage} alt='productImage'></img>
-            </div>
-            </Carousel.Item >
-            <Carousel.Item >
-            <div className='ourProducts'>
-              <div className='productDesc'>
-               <p id='productTitle'>Madras Daily</p>
-               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
-               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
-              </div>
-              <img  className='productImage' src={productImage} alt='productImage'></img>
-            </div>
-            </Carousel.Item >
-            <Carousel.Item >
-            <div className='ourProducts'>
-              <div className='productDesc'>
-               <p id='productTitle'>Madras Daily</p>
-               <img  className='borderLine' src={borderLine} alt='borderImage'></img>
-               <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
-              </div>
-              <img  className='productImage' src={productImage} alt='productImage'></img>
-            </div>
-            </Carousel.Item >
-
-            </Carousel>
-
-           </div>
-
-            <div>
-                <div className='containor3'>
-                    <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                    <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
-                </div>
-            </div>
-            <Footer />
-
-           
-        </div>
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <form onSubmit={sendEmail}>
-        <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
-        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
-        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-        <input className='file' type="file" placeholder='choose file' />
-        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
-        <button type='submit' className='Fbutton'>Submit</button>
-        </form>
-      </Popup>
+            </Popup>
         </>
 
     )

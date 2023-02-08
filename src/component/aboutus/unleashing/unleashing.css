@@ -1,22 +1,25 @@
 .unleashing {
     padding: 10% 3% 5%;
 }
-.leftCommit1 li{
+
+.leftCommit1 li {
     background: url('../../../images/aboutus/listnormal.png') no-repeat left center;
-     padding: 5px 10px 5px 25px;
-     list-style: none;
-     margin: 0;
-     vertical-align: middle;
-     margin-bottom: 2%;
-    }
+    padding: 5px 10px 5px 25px;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+    margin-bottom: 2%;
+}
+
 .leftCommit1 li:hover:active {
     background: url('../../../images/aboutus/listhover.png') no-repeat left center;
     padding: 5px 10px 5px 25px;
     list-style: none;
     margin: 0;
     vertical-align: middle;
-     margin-bottom: 2%;
-    }
+    margin-bottom: 2%;
+}
+
 .unleashing #unleashingTitle {
     font-family: 'Poppins';
     font-style: normal;
@@ -66,18 +69,21 @@
     width: 100%;
     margin: 10% 0 0 0;
 }
-#unleashingGradient{
+
+#unleashingGradient {
     background: linear-gradient(233.68deg, #BF1BC6 21.18%, #E45155 78.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
-.unleashingGradient1{
+
+.unleashingGradient1 {
     background: linear-gradient(233.68deg, #C421B9 21.18%, #F97112 78.82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
+
 .aboutInner #aboutinnerNumber {
     font-family: Poppins;
     font-size: 29px;
@@ -87,6 +93,7 @@
     text-align: justified;
     color: #000000;
 }
+
 /* @property --num {
     syntax: "<integer>";
     initial-value: 0;
@@ -221,7 +228,8 @@
     width: 72%;
 
 }
-.cardtitle02{
+
+.cardtitle02 {
     color: #000000;
 }
 
@@ -234,16 +242,18 @@
         width: 599px !important;
         font-size: 18px !important;
     }
+
     .unleashing #unleashingTitle {
-        width:66% !important;
+        width: 66% !important;
         font-size: 45px;
         text-align: left;
     }
+
     #tickiconText {
         width: 87%;
     }
-   
-    
+
+
 }
 
 @media screen and (max-width:1024px) and (min-width:768px) {
@@ -251,56 +261,68 @@
         width: 433px;
         height: 470px;
     }
+
     .unleashing #unleashingTitle {
         width: 81%;
         font-size: 41px;
         margin-top: 4%;
         margin-left: 3%;
     }
+
     .powerOfvenzo {
         padding: 5% 5%;
         margin-left: -2%;
     }
+
     .powerrightImage #powerrightText {
         width: 452px !important;
         font-size: 18px !important;
     }
+
     .powerOfvenzo .powerrightImage {
         margin: 0 0 0 5%;
     }
+
     .aboutVenzo {
         grid-row-gap: 1%;
         grid-column-gap: 3%;
     }
+
     .aboutInner #aboutinnerText {
         font-size: 17px;
         width: 53%;
     }
+
     .commitments {
         padding: 5% 5%;
         margin-left: -1%;
     }
+
     .rightCommit {
         width: 98%;
         margin-left: 6%;
     }
+
     #tickiconText {
         width: 100%;
         font-size: 14px;
     }
+
     .rightCommit #rightCommitText {
         width: 99%;
     }
-    
+
 }
 
 @media screen and (max-width:768px) and (min-width:430px) {
     .powerOfvenzo {
         display: block;
     }
-    .aboutLeftCommit{
+
+    .aboutLeftCommit {
         display: none !important;
     }
+
     .powerImage {
         width: 433px;
         height: 356px;
@@ -309,10 +331,10 @@
 
     .unleashing #unleashingTitle {
         width: 95%;
-    margin-left: 3%;
-    margin-top: 9%;
-    font-size: 37px;
-    text-align: center;
+        margin-left: 3%;
+        margin-top: 9%;
+        font-size: 37px;
+        text-align: center;
     }
 
     .powerOfvenzo .powerrightImage {
@@ -323,17 +345,21 @@
         width: 100%;
         margin: 5% 0 0 0;
     }
+
     .powerOfvenzo .powerrightImage {
         margin: 0 0 0 0%;
     }
+
     .powerrightImage #powerrightText {
         width: 674px !important;
         font-size: 18px !important;
     }
+
     .aboutVenzo {
         grid-row-gap: 0%;
         grid-column-gap: 20%;
     }
+
     .commitments {
         display: block;
         width: 100%;
@@ -352,7 +378,8 @@
     .rightCommit #rightCommitTitle {
         width: 100%;
     }
-    .Accele{
+
+    .Accele {
         display: none
     }
 
@@ -371,17 +398,19 @@
         grid-row-gap: 11%;
         grid-column-gap: 13%;
     }
+
     #tickiconText {
         width: 99%;
         font-size: 14px;
     }
-    .Accele{
+
+    .Accele {
         display: block;
     }
 }
 
 
-@media screen and (max-width:430px) and (min-width:375px){
+@media screen and (max-width:430px) and (min-width:375px) {
     .powerOfvenzo {
         padding: 5% 5%;
     }
@@ -398,7 +427,8 @@
         width: 100%;
         margin: 75px 0px 16px 3%;
     }
-    .aboutLeftCommit{
+
+    .aboutLeftCommit {
         display: none !important;
     }
 
@@ -408,21 +438,26 @@
         grid-row-gap: 6%;
         grid-column-gap: 4%;
     }
+
     .aboutInner #aboutinnerText {
         font-family: Poppins;
         font-size: 15px;
     }
+
     .aboutInner {
         width: 100%;
         margin: 10% 0 0 0;
     }
-    .powerOfvenzo .powerleftImage{
+
+    .powerOfvenzo .powerleftImage {
         width: 100%;
     }
+
     .powerImage {
         width: 370px;
         margin-left: -4px;
     }
+
     .powerOfvenzo {
         display: block;
     }
@@ -457,20 +492,24 @@
     .rightCommit {
         width: 100%;
     }
+
     .leftCommit .whatCommits1 {
         border-left: none;
     }
-    .whatCommits1 #whatCommitsText1{
-        margin:  0 0 0 0%;
+
+    .whatCommits1 #whatCommitsText1 {
+        margin: 0 0 0 0%;
         font-size: 21px;
     }
+
     .whatCommits #whatCommitsText {
         display: none;
     }
-        .leftCommit .whatCommits {
+
+    .leftCommit .whatCommits {
         border-left: none;
     }
-    
+
     .rightCommit #rightCommitTitle {
         font-family: Poppins;
         font-size: 16px;
@@ -509,22 +548,27 @@
         grid-column-gap: 3%;
         margin-bottom: 12%;
     }
+
     #tickiconText {
         width: 87% !important;
     }
-    .aboutCardUnleas{
+
+    .aboutCardUnleas {
         margin-top: 8%;
     }
-    
+
 }
+
 @media screen and (max-width:375px) {
     .powerOfvenzo .powerrightImage {
         width: 100%;
     }
+
     .powerImage {
         width: 322px;
         margin-left: -4px;
     }
+
     .powerrightImage #powerrightText {
         font-family: Poppins;
         font-size: 15px;
@@ -536,9 +580,11 @@
         margin-top: 7%;
         margin-bottom: 15%;
     }
+
     .rightCommit {
         width: 100%;
     }
+
     .rightCommit #rightCommitTitle {
         font-family: Poppins;
         font-size: 16px;
@@ -548,9 +594,11 @@
         text-align: left;
         margin-top: 6%;
     }
-    .aboutLeftCommit{
+
+    .aboutLeftCommit {
         display: none !important;
     }
+
     .leftCommit #leftCommitTitle {
         font-family: Poppins;
         font-size: 17px;
@@ -560,14 +608,17 @@
         text-align: center;
         margin-top: 9%;
     }
+
     .whatCommits1 #whatCommitsText1 {
         margin: 0 0 0 0%;
         font-size: 24px;
     }
+
     #tickiconText {
         width: 93% !important;
         font-size: 13px;
     }
+
     .rightCommitIcons {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -575,11 +626,13 @@
         grid-column-gap: 20%;
         margin-bottom: 12%;
     }
-    .aboutCardUnleas{
+
+    .aboutCardUnleas {
         margin-top: 8%;
     }
 }
-.aboutLeftCommit{
+
+.aboutLeftCommit {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 0%;
@@ -590,5 +643,5 @@
     margin-top: 4%;
 
 }
-.cardAboutUs{
-}
+
+.cardAboutUs {}

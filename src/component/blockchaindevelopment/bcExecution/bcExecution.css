@@ -1,8 +1,8 @@
-.bcExecution{
+.bcExecution {
     padding: 3% 5%;
 }
 
-#executionTitle1{
+#executionTitle1 {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 600;
@@ -14,34 +14,38 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-#executionTitle2{
+
+#executionTitle2 {
     font-family: Poppins;
     font-size: 44px;
     font-weight: 600;
     line-height: 62px;
     letter-spacing: -0.025em;
     text-align: center;
-    color: #000000;    
+    color: #000000;
 }
-#firstTitle{
+
+#firstTitle {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
     letter-spacing: -0.025em;
     text-align: left;
-    color:#7777777D
+    color: #7777777D
 }
-#firstTitle1{
+
+#firstTitle1 {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
     letter-spacing: -0.025em;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
-#timelineText1{
+
+#timelineText1 {
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
@@ -51,7 +55,8 @@
     color: #000000A6;
     width: 70%;
 }
-#timelineText2{
+
+#timelineText2 {
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
@@ -80,6 +85,7 @@
     align-items: center;
     z-index: -1;
 }
+
 .css-1ami7lv-MuiTimelineConnector-root {
     width: 2px;
     border: 1px dashed gray;
@@ -88,8 +94,9 @@
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
-.css-55vwbm-MuiTimeline-root  li{ 
-    height:160px;
+
+.css-55vwbm-MuiTimeline-root li {
+    height: 160px;
 }
 
 .awesomeProducts .carousel-indicators {
@@ -98,36 +105,44 @@
     color: white;
     width: 69%;
 }
- .NFTImage {
+
+.NFTImage {
     margin-left: 6%;
 }
+
 @media screen and (max-width:1440px) and (min-width:1025px) {
-    #timelineText1{
-    width: 80%;
+    #timelineText1 {
+        width: 80%;
     }
-    #timelineText2{
+
+    #timelineText2 {
         width: 80%;
         margin: 0 0 0 20%;
     }
 }
+
 @media screen and (max-width:1025px) and (min-width:768px) {
 
-    #timelineText1{
+    #timelineText1 {
         width: 90%;
-        }
-        #timelineText2{
-            width: 100%;
-            margin: 0 0 0 0%;
-        }
+    }
+
+    #timelineText2 {
+        width: 100%;
+        margin: 0 0 0 0%;
+    }
 }
+
 @media screen and (max-width:767px) and (min-width:426px) {
-    .bcExecution{
+    .bcExecution {
         padding: 3% 2%;
     }
+
     .NFTImage {
         margin-left: 10% !important;
     }
-    #executionTitle2{
+
+    #executionTitle2 {
         font-family: Poppins;
         font-size: 28px;
         font-weight: 600;
@@ -135,6 +150,7 @@
         letter-spacing: -0.025em;
         text-align: center;
     }
+
     .css-1ami7lv-MuiTimelineConnector-root {
         width: 2px;
         background-color: #bdbdbd;
@@ -143,6 +159,7 @@
         -ms-flex-positive: 1;
         flex-grow: 1;
     }
+
     .css-55vwbm-MuiTimeline-root {
         display: -webkit-box;
         display: -webkit-flex;
@@ -157,59 +174,68 @@
         -ms-flex-positive: 1;
         flex-grow: 1;
     }
-.css-ha3bif-MuiTimelineItem-root:before{
-    display: none;
-}
-.css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root ,.css-l4x062-MuiTypography-root-MuiTimelineOppositeContent-root {
-    display: none;
-}
-#firstTitle{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: -0.025em;
-    text-align: left;
-    width: 100%;
-}
-#firstTitle1{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: -0.025em;
-    text-align: left;
-    width: 100%;
-}
-#timelineText2 {
-    margin: 0 0 0 0;
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 100%;
-}
-#timelineText1 {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 100%;
-}
+
+    .css-ha3bif-MuiTimelineItem-root:before {
+        display: none;
+    }
+
+    .css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root,
+    .css-l4x062-MuiTypography-root-MuiTimelineOppositeContent-root {
+        display: none;
+    }
+
+    #firstTitle {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #firstTitle1 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText2 {
+        margin: 0 0 0 0;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText1 {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width:425px) {
-    .bcExecution{
+    .bcExecution {
         padding: 3% 2%;
     }
+
     .NFTImage {
         margin-left: 10% !important;
     }
+
     #executionTitle1 {
         font-family: Poppins;
         font-size: 14px !important;
@@ -222,7 +248,8 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
-    #executionTitle2{
+
+    #executionTitle2 {
         font-family: Poppins;
         font-size: 28px;
         font-weight: 600;
@@ -230,6 +257,7 @@
         letter-spacing: -0.025em;
         text-align: center;
     }
+
     .css-1ami7lv-MuiTimelineConnector-root {
         width: 2px;
         background-color: #bdbdbd;
@@ -238,6 +266,7 @@
         -ms-flex-positive: 1;
         flex-grow: 1;
     }
+
     .css-55vwbm-MuiTimeline-root {
         display: -webkit-box;
         display: -webkit-flex;
@@ -252,61 +281,71 @@
         -ms-flex-positive: 1;
         flex-grow: 1;
     }
-.css-ha3bif-MuiTimelineItem-root:before{
-    display: none;
-}
-.css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root ,.css-l4x062-MuiTypography-root-MuiTimelineOppositeContent-root {
-    display: none;
-}
-#firstTitle{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: -0.025em;
-    text-align: left;
-    width: 100%;
-}
-#firstTitle1{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: -0.025em;
-    text-align: left;
-    width: 100%;
-}
-#timelineText2 {
-    margin: 0 0 0 0;
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 100%;
-}
-#timelineText1 {
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 100%;
-}
-.NFTImage {
-    margin-left: 0%;
-    margin-top: 15%;
-    width: 90%;
-}
-.ourProducts {
-    padding: 5% 5%;
-    margin: 10% 0 0 0;
-    display: block;
-    height: 567px !important;
-}
-.css-55vwbm-MuiTimeline-root li {
-    height: 200px;
-}
+
+    .css-ha3bif-MuiTimelineItem-root:before {
+        display: none;
+    }
+
+    .css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root,
+    .css-l4x062-MuiTypography-root-MuiTimelineOppositeContent-root {
+        display: none;
+    }
+
+    #firstTitle {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #firstTitle1 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText2 {
+        margin: 0 0 0 0;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText1 {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .NFTImage {
+        margin-left: 0%;
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .ourProducts {
+        padding: 5% 5%;
+        margin: 10% 0 0 0;
+        display: block;
+        height: 567px !important;
+    }
+
+    .css-55vwbm-MuiTimeline-root li {
+        height: 200px;
+    }
 }

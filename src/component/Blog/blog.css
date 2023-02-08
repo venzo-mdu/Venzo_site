@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body{
+body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
 }
 
-.container2{
+.container2 {
     background: #0A1020;
     display: flex;
     padding: 5% 10%;
     width: 100%;
 }
-.blogHr{
-    border:1px solid white;
+
+.blogHr {
+    border: 1px solid white;
     margin: 0 0 8% 0;
-    opacity:none!important;
+    opacity: none !important;
 }
-.bloghead{
+
+.bloghead {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -26,17 +28,21 @@ body{
     color: #F0F0F0;
     width: 85%;
 }
-.arrows{
+
+.arrows {
     margin-left: 90%;
     margin-top: -20%;
 }
-.Blogs{
+
+.Blogs {
     width: 50%;
 }
-.Careers{
+
+.Careers {
     margin: 0 0 0 15%;
 }
-.blurTitle{
+
+.blurTitle {
     font-family: Poppins;
     font-size: 54px;
     font-weight: 600;
@@ -49,9 +55,10 @@ body{
     background-clip: text;
     text-fill-color: transparent;
     margin: 0 0 8% 0;
-    
+
 }
-.blurTitle1{
+
+.blurTitle1 {
     font-family: Poppins;
     font-size: 54px;
     font-weight: 600;
@@ -66,7 +73,8 @@ body{
     margin: 0 0 15% 0;
 
 }
-.box{
+
+.box {
     margin-left: 5%;
     padding: 13%;
     background: #181D2B;
@@ -77,15 +85,17 @@ body{
 
 }
 
-.careershead{
+.careershead {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     text-align: center;
     letter-spacing: -0.025em;
-    color: #FFFFFF;}
-.careersdec{
+    color: #FFFFFF;
+}
+
+.careersdec {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -95,6 +105,7 @@ body{
     color: #A6A6A6;
     padding: 5% 0;
 }
+
 .date {
     font-family: 'Poppins';
     font-style: normal;
@@ -105,7 +116,7 @@ body{
     padding-top: 3%;
 }
 
-.jobs{
+.jobs {
     height: 40px;
     width: 140px;
     font-family: Poppins;
@@ -121,59 +132,70 @@ body{
     padding-top: 3%;
 }
 
-@media screen  and (max-width:1705px) and (min-width:1030px){
-    .container2{
+@media screen and (max-width:1705px) and (min-width:1030px) {
+    .container2 {
         background: #0A1020;
         display: flex;
         width: 100%;
         padding: 5% 10%;
     }
+
     .blogs_section1 {
         height: 93vh !important;
     }
-    .arrows{
+
+    .arrows {
         margin-left: 90%;
         margin-top: -25%;
     }
-    
-    .Careers{
+
+    .Careers {
         margin: 0 0 0 15%;
     }
-    .blurTitle1{
+
+    .blurTitle1 {
         margin: 0 0 10% 0;
     }
 }
 
 
-@media screen  and (max-width:1024px) and (min-width:768px){
-    .container2{
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .container2 {
         background: #0A1020;
         display: flex;
         padding: 5% 5%;
         width: 100%;
     }
+
     .blogs_section1 {
         height: 93vh !important;
     }
-    .Blogs{
+
+    .Blogs {
         width: 50%;
     }
-    .Careers{
+
+    .Careers {
         margin: 0 0 0 0%;
     }
-    .bloghead{
+
+    .bloghead {
         font-size: 16px;
     }
-    .arrows{
+
+    .arrows {
         margin: -30% 0 0 90%;
     }
-    .blurTitle{
-        margin:0 0 15% -8%;
+
+    .blurTitle {
+        margin: 0 0 15% -8%;
     }
-    .blurTitle1{
-        margin:0 0 15% 25%;
+
+    .blurTitle1 {
+        margin: 0 0 15% 25%;
     }
-    .box{
+
+    .box {
         margin-left: 15%;
         padding: 13%;
         background: #181D2B;
@@ -185,107 +207,119 @@ body{
 }
 
 
-@media screen  and (max-width:768px) and (min-width:545px){
-    .container2{
+@media screen and (max-width:768px) and (min-width:545px) {
+    .container2 {
         background: #0A1020;
         display: block;
         width: 100%;
         padding: 5% 10%;
     }
+
     .blogs_section1 {
         height: 100vh !important;
     }
-    .blogHr{
+
+    .blogHr {
         color: white;
         width: 100%;
         margin: 0 0 8% 0;
     }
-    
-    .arrows{
+
+    .arrows {
         margin-left: 90%;
         margin-top: -22%;
     }
-   
-    .Blogs{
+
+    .Blogs {
         width: 100%;
     }
-    .box{
+
+    .box {
         width: 90%;
         height: 50%;
         margin-left: 5%;
         margin-bottom: 4%;
         padding: 15%;
-        border-radius: 15px;    
+        border-radius: 15px;
         box-sizing: border-box;
     }
-    .blurTitle{
+
+    .blurTitle {
         margin: 0 0 10% 5%;
     }
-    .blurTitle1{
+
+    .blurTitle1 {
         margin: 0 0 10% 3%;
     }
-   
-    
+
+
 }
 
-@media screen  and (max-width:540px) and (min-width:430px){
-    .container2{
+@media screen and (max-width:540px) and (min-width:430px) {
+    .container2 {
         background: #0A1020;
         display: block;
         width: 100%;
         padding: 5% 10%;
     }
-    .blogHr{
+
+    .blogHr {
         color: white;
         width: 100%;
         margin: 0 0 8% 0;
     }
-    
-    .arrows{
+
+    .arrows {
         margin-left: 90%;
         margin-top: -22%;
     }
-   
-    .Blogs{
+
+    .Blogs {
         width: 100%;
     }
-    .Careers{
+
+    .Careers {
         margin: 0 0 0 0%;
     }
-    .box{
+
+    .box {
         width: 100%;
         height: 50%;
         margin-bottom: 4%;
         padding: 15%;
-        border-radius: 15px;    
+        border-radius: 15px;
         box-sizing: border-box;
         margin-left: 0%;
     }
-    .blurTitle{
+
+    .blurTitle {
         margin: 0 0 10% 5%;
         font-size: 45px;
     }
-    .blurTitle1{
+
+    .blurTitle1 {
         margin: 0 0 10% 3%;
         font-size: 45px;
 
     }
- 
+
 }
 
-@media screen  and (max-width:430px) and (min-width:375px){
-    .container2{
+@media screen and (max-width:430px) and (min-width:375px) {
+    .container2 {
         background: #0A1020;
         display: block;
         width: 100%;
         padding: 5% 5%;
     }
-    .blogHr{
+
+    .blogHr {
         color: white;
         width: 100%;
         margin: 0 0 8% 0;
     }
-    .bloghead{
+
+    .bloghead {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -294,27 +328,31 @@ body{
         color: #F0F0F0;
         width: 83%;
     }
-    .arrows{
+
+    .arrows {
         margin-left: 90%;
         margin-top: -35%;
     }
-   
-    .Blogs{
+
+    .Blogs {
         width: 100%;
     }
-    .Careers{
+
+    .Careers {
         margin: 0 0 0 0;
     }
-    .box{
+
+    .box {
         width: 95%;
         height: 50%;
         margin-left: 4%;
         margin-bottom: 4%;
         padding: 15%;
-        border-radius: 15px;    
+        border-radius: 15px;
         box-sizing: border-box;
     }
-    .careershead{
+
+    .careershead {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -324,7 +362,8 @@ body{
         letter-spacing: -0.025em;
         color: #FFFFFF;
     }
-    .careersdec{
+
+    .careersdec {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -335,6 +374,7 @@ body{
         color: #A6A6A6;
         padding: 3% 0;
     }
+
     .date {
         font-family: 'Poppins';
         font-style: normal;
@@ -344,7 +384,8 @@ body{
         color: #BCBCBC;
         padding-top: 9%;
     }
-    .blurTitle{
+
+    .blurTitle {
         padding: 0 0% 8% 0%;
         font-family: 'Poppins';
         font-style: normal;
@@ -356,9 +397,10 @@ body{
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
-        
+
     }
-    .blurTitle1{
+
+    .blurTitle1 {
         width: 100%;
         font-family: 'Poppins';
         font-style: normal;
@@ -371,7 +413,8 @@ body{
         background-clip: text;
         text-fill-color: transparent;
     }
-    .jobs{
+
+    .jobs {
         height: 40px;
         width: 140px;
         font-family: Poppins;
@@ -387,8 +430,8 @@ body{
     }
 }
 
-@media screen  and (max-width:375px) {
-   .arrows{
-    margin: -50% 0 0 90%;
-   }
+@media screen and (max-width:375px) {
+    .arrows {
+        margin: -50% 0 0 90%;
+    }
 }

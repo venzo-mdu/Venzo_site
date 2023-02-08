@@ -3,59 +3,56 @@
         "images": "../images/blogsPic/blog0.png",
         "title1": "New Product Development; Winner’s Guide",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …",
-        "subTitle":"Product Development   |   May 26, 2022",
-        "route":"/blog/newproduct"
-       },
+        "subTitle": "Product Development   |   May 26, 2022",
+        "route": "/blog/newproduct"
+    },
     {
         "images": "../images/blogsPic/blog1.png",
         "title1": "Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing",
-        "subTitle":"Automated Testing   |   February 16, 2022",
-        "route":"/blog/selenium",
+        "subTitle": "Automated Testing   |   February 16, 2022",
+        "route": "/blog/selenium",
         "content1": "Introduction You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. …"
     },
     {
         "images": "../images/blogsPic/blog2.png",
         "title1": "How To Choose Between React Native And Ionic For Your App",
-        "subTitle":"Technology   |   December 20, 2021",
-        "route":"/blog/reactnativeandionic",
+        "subTitle": "Technology   |   December 20, 2021",
+        "route": "/blog/reactnativeandionic",
         "content1": "React Native and Ionic are two such technologies for creating user interfaces that are extensively used by developers..."
     },
     {
         "images": "../images/blogsPic/reactjs1.webp",
         "title1": "ReactJS Framework Working Wonders For Modern Web Development Businesses",
         "content1": "If we consider a current estimate, there are over 2,20,000 live websites that are built-in ReactJS, reflecting …",
-        "subTitle":"Technology, Web App Development | November 29th, 2021 ",
-        "route":"/blog/reactjsuse"
-
+        "subTitle": "Technology, Web App Development | November 29th, 2021 ",
+        "route": "/blog/reactjsuse"
     },
     {
         "images": "../images/blogsPic/blog3.png",
         "title1": "Top-15 Mobile App Ideas that Will Drive Your Start-Up Ahead",
         "content1": "Introduction A terrific app idea is what drives your start-up business ahead and enables you to spin money. It is an online …",
-        "subTitle":" Mobile APP Development    |   November 29, 2021 ",
-        "route":"/blog/topmobile"
-
+        "subTitle": " Mobile APP Development    |   November 29, 2021 ",
+        "route": "/blog/topmobile"
     },
     {
         "images": "../images/blogsPic/blog4.png",
         "title1": "Significant Benefits and Why Your Company Requires IT Staff Augmentation Services",
-        "subTitle":"Staff Augmentation   |   November 29, 2021",
-        "route":"/blog/staffblog",
+        "subTitle": "Staff Augmentation   |   November 29, 2021",
+        "route": "/blog/staffblog",
         "content1": "Let’s explore benefits and why your company needs IT Staff Augmentation Services for swifter business success.  …"
     },
     {
         "images": "../images/blogsPic/autotestingimg1.webp",
         "title1": "Why should banks invest in automated testing for their software?",
-        "subTitle":"Automated Testing | November 29th, 2021",
-        "route":"/blog/autotesting",
+        "subTitle": "Automated Testing | November 29th, 2021",
+        "route": "/blog/autotesting",
         "content1": "Introduction Banking business priorities have shifted towards optimizing internal cost structures and identifying  …"
     },
     {
         "images": "../images/blogsPic/AngularVSReact.webp",
         "title1": "Angular JS vs React Js: Which is Better for You?",
-        "subTitle":"Technology | November 29, 2021",
-        "route":"/blog/angularvsreact",
+        "subTitle": "Technology | November 29, 2021",
+        "route": "/blog/angularvsreact",
         "content1": "The ability to develop robust and reliable web applications in a shorter time using a high functionality framework is the common requirement  …"
     }
-
 ]

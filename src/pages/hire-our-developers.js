@@ -10,13 +10,13 @@ import Footer from '../component/footer/footer'
 function staffaugmentation() {
   return (
     <div className='stafBody'>
-    <Header flag='header2'/>
-    <VenzoSA/>
-    <Hiring/>
-    <Hiredevelopers/>
-    <Proven/>
-    <Expert/>
-    <Footer/>
+      <Header flag='header2' />
+      <VenzoSA />
+      <Hiring />
+      <Hiredevelopers />
+      <Proven />
+      <Expert />
+      <Footer />
     </div>
   )
 }

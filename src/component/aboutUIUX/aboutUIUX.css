@@ -1,40 +1,48 @@
-
 @font-face {
-    font-family:'poppins-semibold';
+    font-family: 'poppins-semibold';
     src: url('../../../Poppins/Poppins-SemiBold.ttf');
 }
+
 @font-face {
-    font-family:'poppins-thin';
+    font-family: 'poppins-thin';
     src: url('../../../Poppins/Poppins-Thin.ttf');
 }
+
 @font-face {
     font-family: 'poppins-black';
     src: url('../../../Poppins/Poppins-Black.ttf');
 }
+
 @font-face {
     font-family: 'poppins-medium';
     src: url('../../../Poppins/Poppins-Medium.ttf');
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
 }
-.uiuxBody #headerSection{
+
+.uiuxBody #headerSection {
     z-index: 1 !important;
 }
-.aboutUIUX{
+
+.aboutUIUX {
     background-image: url("../../../src/images/Banner.png");
     width: 100vw;
     z-index: 0;
     background-size: 100% 100%;
 }
-.aboutUIUXRes{
+
+.aboutUIUXRes {
     display: none;
 }
-.digitalProducts{
+
+.digitalProducts {
     padding: 8% 6%;
 }
-#usable{
+
+#usable {
     background: linear-gradient(269.28deg, #C90736 0.5%, #0022FF 105.22%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -43,7 +51,8 @@ body{
     font-style: normal;
     font-weight: 900;
 }
-#digitalLine1{
+
+#digitalLine1 {
     font-family: poppins-regular;
     font-style: normal;
     font-weight: 600;
@@ -52,6 +61,7 @@ body{
     letter-spacing: -0.04em;
     color: #FFFFFF;
 }
+
 #digitalLine2 {
     font-family: 'poppins-regular';
     font-style: normal;
@@ -61,7 +71,8 @@ body{
     width: 65%;
     color: #C4C4C4;
 }
-#digitalLine3{
+
+#digitalLine3 {
     font-family: poppins-regular;
     font-style: normal;
     font-weight: 600;
@@ -72,14 +83,16 @@ body{
     padding-right: 3%;
 }
 
-#digitalLine3 img{
+#digitalLine3 img {
     margin-left: 1%;
 }
+
 @media screen and (max-width:1440px) and (min-width:1030px) {
-    .digitalProducts{
+    .digitalProducts {
         padding: 12% 8%;
     }
-    #digitalLine3{
+
+    #digitalLine3 {
         font-family: poppins-regular;
         font-style: normal;
         font-weight: 600;
@@ -89,26 +102,31 @@ body{
         margin: 3% 0 0 0;
         padding-right: 3%;
     }
-    #digitalLine3 img{
+
+    #digitalLine3 img {
         margin-left: 1%;
     }
 }
+
 @media screen and (max-width:1024px) and (min-width:768px) {
-    .digitalProducts{
+    .digitalProducts {
         padding: 15% 5%;
     }
-    #digitalLine1{
+
+    #digitalLine1 {
         font-family: poppins-semibold;
-    color: white;
-    width: 65%;
-    margin-top: 3%;
+        color: white;
+        width: 65%;
+        margin-top: 3%;
     }
-    #digitalLine2{
+
+    #digitalLine2 {
         font-family: poppins-regular;
         color: #C4C4C4;
         font-size: 18px;
     }
-    #digitalLine3{
+
+    #digitalLine3 {
         font-family: poppins-regular;
         font-style: normal;
         font-weight: 600;
@@ -119,80 +137,97 @@ body{
         padding-right: 3%;
     }
 }
+
 @media screen and (max-width:768px) and (min-width:426px) {
-    .aboutUIUX{
+    .aboutUIUX {
         display: none;
     }
-    .aboutUIUXRes{
+
+    .aboutUIUXRes {
         background-image: url("../../images//bgMob2.png");
         background-size: 100% 100%;
         height: auto;
         display: block;
     }
-    .digitalProducts{
+
+    .digitalProducts {
         padding: 20% 10% 30%;
     }
-    #digitalLine1{
+
+    #digitalLine1 {
         font-size: 32px;
         width: 97%;
     }
-    #digitalLine3{
+
+    #digitalLine3 {
         margin: 5% 0 0 0;
     }
+
     #digitalLine2 {
         font-family: poppins-regular;
         color: #C4C4C4;
         font-size: 18px;
         width: 99%;
     }
-   
+
 }
 
 @media screen and (max-width:425px) and (min-width:376px) {
-    .aboutUIUX{
+    .aboutUIUX {
         display: none;
     }
-    .aboutUIUXRes{
+
+    .aboutUIUXRes {
         background-image: url("../../images//bgMob2.png");
         background-size: 100% 100%;
         height: 1000px;
         display: block;
     }
-    .digitalProducts{
+
+    .digitalProducts {
         padding: 25% 6%;
     }
-    #digitalLine1{
+
+    #digitalLine1 {
         font-size: 36px;
     }
-    #digitalLine2{
+
+    #digitalLine2 {
         margin: 10% 0 0 0;
         width: 100%;
     }
-    #digitalLine3{
+
+    #digitalLine3 {
         margin: 10% 0 0 0;
     }
 }
+
 @media screen and (max-width:375px) {
-    .aboutUIUX{
+    .aboutUIUX {
         display: none;
     }
-    .aboutUIUXRes{
+
+    .aboutUIUXRes {
         background-image: url("../../images//bgMob2.png");
         background-size: 100% 100%;
         height: 1000px;
         display: block;
     }
-    .digitalProducts{
+
+    .digitalProducts {
         padding: 30% 1%;
     }
-    #digitalLine1{
+
+    #digitalLine1 {
         font-size: 28px;
     }
-    #digitalLine2{
+
+    #digitalLine2 {
         margin: 10% 0 0 0;
         width: 100%;
     }
-    #digitalLine3{
+
+    #digitalLine3 {
         margin: 10% 0 0 0;
     }
 }

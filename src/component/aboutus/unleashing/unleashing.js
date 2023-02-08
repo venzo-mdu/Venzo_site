@@ -18,16 +18,16 @@ import ScrollTrigger from 'react-scroll-trigger'
 
 
 function Unleashing() {
-  const [counter, setCounter]=useState(false);
+  const [counter, setCounter] = useState(false);
   const [active, setActive] = useState('');
   const dated = (va) => {
-      let container
-      if( document.querySelector('.cardAboutUs') !==null){
-          container = document.querySelector('.cardAboutUs')
-      }
-      setActive(va)
-      if (va == 'Values') {
-          container.innerHTML = "<font size=4 color=black>\
+    let container
+    if (document.querySelector('.cardAboutUs') !== null) {
+      container = document.querySelector('.cardAboutUs')
+    }
+    setActive(va)
+    if (va == 'Values') {
+      container.innerHTML = "<font size=4 color=black>\
           We offer solutions for Startups/SME/Entrepreneurs\
           </font>\
           <br>\
@@ -38,9 +38,9 @@ function Unleashing() {
           <br>\
           <br>\
   ";
-      }
-      else if (va === 'Diversity') {
-          container.innerHTML = "<font size=4 color=black>\
+    }
+    else if (va === 'Diversity') {
+      container.innerHTML = "<font size=4 color=black>\
           People first always\
           </font>\
           <br>\
@@ -49,9 +49,9 @@ function Unleashing() {
           Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community.\
           </font>\
   ";
-      }
-      else if (va === 'Society') {
-        container.innerHTML = "<font size=4 color=black>\
+    }
+    else if (va === 'Society') {
+      container.innerHTML = "<font size=4 color=black>\
         Creating social impact through thechnologies\
         </font>\
         <br>\
@@ -61,7 +61,7 @@ function Unleashing() {
         </font>\
 ";
     }
-    }
+  }
   return (
     <div className='unleashing'>
       <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'> transformative power</span> in Technology platforms</p>
@@ -75,62 +75,62 @@ function Unleashing() {
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon1} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={90} duration={2} delay={0}></Countup>}
-               +
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={90} duration={2} delay={0}></Countup>}
+                  +
+                </p>
               </ScrollTrigger>
-              
-             
+
+
               <p id='aboutinnerText'>Brilliant minds</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon2} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={6} duration={2} delay={0}></Countup>}
-               
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={6} duration={2} delay={0}></Countup>}
+
+                </p>
               </ScrollTrigger>
               <p id='aboutinnerText'>Years of Business</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon3} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={6} duration={2} delay={0}></Countup>}
-               +
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={6} duration={2} delay={0}></Countup>}
+                  +
+                </p>
               </ScrollTrigger>
               <p id='aboutinnerText'>Amazing Products</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon4} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={20} duration={2} delay={0}></Countup>}
-               +
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={20} duration={2} delay={0}></Countup>}
+                  +
+                </p>
               </ScrollTrigger>
               <p id='aboutinnerText'>Satisfied Clients</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon5} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={98} duration={2} delay={0}></Countup>}
-               %
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={98} duration={2} delay={0}></Countup>}
+                  %
+                </p>
               </ScrollTrigger>
               <p id='aboutinnerText'>Customer Retention</p>
             </div>
             <div className='aboutInner'>
               <img className='aboutinnerImage' src={gridIcon6} alt=''></img>
               <ScrollTrigger onEnter={() => setCounter(true)} onExit={() => setCounter(false)}>
-              <p id='aboutinnerNumber'>
-                {counter && <Countup start={0} end ={30} duration={2} delay={0}></Countup>}
-               +
-              </p>
+                <p id='aboutinnerNumber'>
+                  {counter && <Countup start={0} end={30} duration={2} delay={0}></Countup>}
+                  +
+                </p>
               </ScrollTrigger>
               <p id='aboutinnerText'>Tech Stack</p>
             </div>
@@ -176,46 +176,46 @@ function Unleashing() {
           </div>
         </div> */}
 
-                <div className='aboutLeftCommit'>
-                  <div>
-                  <ul className='leftCommit1'>
-                        <li className={active === 'Values' ? 'cardtitle02' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
-                        <li className={active === 'Diversity' ? 'cardtitle02' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
-                        <li className={active === 'Society' ? 'cardtitle02' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
-                    </ul>
-                  </div>
-                    <div className='cardAboutUs'>
-                        <p> We offer solutions for Startups/SME/Entrepreneurs</p>
-                        <p className='subTitle'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
-                    </div>
-                </div>
-                <div className='section51 aboutCardUnleas'>
-                    <Accordion defaultActiveKey="0" flush>
-                        <Accordion.Item eventKey="0">
-                            <Accordion.Header>Values</Accordion.Header>
-                            <Accordion.Body className=' cardbox'>
-                                {/* <p className='cardtitle'>Values</p> */}
-                                <p className='carddesc'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                        <Accordion.Item eventKey="1">
-                            <Accordion.Header>Diversity & Equity</Accordion.Header>
-                            <Accordion.Body className=' cardbox'>
-                                {/* <p className='cardtitle'>Diversity & Equity</p> */}
-                                <p className='carddesc'>Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community. </p>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                        <Accordion.Item eventKey="3">
-                            <Accordion.Header>Society Impact</Accordion.Header>
-                            <Accordion.Body className=' cardbox'>
-                                {/* <p className='cardtitle'>Society Impact</p> */}
-                                <p className='carddesc'>Venzo has a strong commitment to social responsibility and actively works to make a positive impact on society through various initiatives and partnerships.</p>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                    </Accordion>
-
-                </div>
+      <div className='aboutLeftCommit'>
+        <div>
+          <ul className='leftCommit1'>
+            <li className={active === 'Values' ? 'cardtitle02' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
+            <li className={active === 'Diversity' ? 'cardtitle02' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
+            <li className={active === 'Society' ? 'cardtitle02' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
+          </ul>
+        </div>
+        <div className='cardAboutUs'>
+          <p> We offer solutions for Startups/SME/Entrepreneurs</p>
+          <p className='subTitle'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
+        </div>
       </div>
+      <div className='section51 aboutCardUnleas'>
+        <Accordion defaultActiveKey="0" flush>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Values</Accordion.Header>
+            <Accordion.Body className=' cardbox'>
+              {/* <p className='cardtitle'>Values</p> */}
+              <p className='carddesc'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>Diversity & Equity</Accordion.Header>
+            <Accordion.Body className=' cardbox'>
+              {/* <p className='cardtitle'>Diversity & Equity</p> */}
+              <p className='carddesc'>Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community. </p>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>Society Impact</Accordion.Header>
+            <Accordion.Body className=' cardbox'>
+              {/* <p className='cardtitle'>Society Impact</p> */}
+              <p className='carddesc'>Venzo has a strong commitment to social responsibility and actively works to make a positive impact on society through various initiatives and partnerships.</p>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+      </div>
+    </div>
 
 
     // </div>
@@ -243,14 +243,14 @@ function Unleashing() {
 //               <p id='aboutinnerNumber'>90+</p>
 //               <p id='aboutinnerText'>Brilliant minds</p>
 //             </div>
- 
+
 //           </div>
-      
+
 //         </div>
 //       </div>
 // </div>
 
-    
+
 //       <div className='commitments'>
 //         <div className='leftCommit'>
 //           <p id='leftCommitTitle'>{item.commit}</p>
@@ -292,8 +292,8 @@ function Unleashing() {
 //     </div>
 //     })}
 //   </div>
-   
-    
+
+
 //   )
 // }
 export default Unleashing

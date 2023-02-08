@@ -10,9 +10,9 @@ import Footer from '../component/footer/footer'
 function privacypolicy() {
   return (
     <>
-    <Header flag='header2'/>
-    <Privacy/>
-    <Footer/>
+      <Header flag='header2' />
+      <Privacy />
+      <Footer />
     </>
   )
 }

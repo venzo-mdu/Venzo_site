@@ -1,107 +1,99 @@
 [
-{
- "title1" : "Venzo is",
- "title2" :"unleashing the ",
- "title3" :"transformative power",
- "title4" : "in Technology platforms",
- "powerImage" : "../images/aboutus/aboutus4.png",
- "powerCont" : "Venzo Technologies leverages the power of cognitive computing, hyper-automation, cloud, analytics, and emerging technologies to assist our clients in adapting to and succeeding in the digital world.",
- "powerSubCont": 
- [
     {
-        "icon":"../DMpage/Google.png",
-        "no":"90+",
-        "name":"Years of Business"
-    },
-    {
-        "icon": "../DMpage/bing.png",
-        "no":"90+",
-        "name":"Years of Business"
-       
-    },
-    {
-        "icon": "../DMpage/yahoo.png",
-        "no":"90+",
-        "name":"Years of Business"
-
-    },
-    {
-        "icon": "../DMpage/yahoo.png",
-        "no":"90+",
-        "name":"Years of Business"
-
-    },
-    {
-        "icon": "../DMpage/yahoo.png",
-        "no":"90+",
-        "name":"Years of Business"
-
-    },
-    {
-        "icon": "../DMpage/yahoo.png",
-        "no":"90+",
-        "name":"Years of Business"
-
+        "title1": "Venzo is",
+        "title2": "unleashing the ",
+        "title3": "transformative power",
+        "title4": "in Technology platforms",
+        "powerImage": "../images/aboutus/aboutus4.png",
+        "powerCont": "Venzo Technologies leverages the power of cognitive computing, hyper-automation, cloud, analytics, and emerging technologies to assist our clients in adapting to and succeeding in the digital world.",
+        "powerSubCont": [
+            {
+                "icon": "../DMpage/Google.png",
+                "no": "90+",
+                "name": "Years of Business"
+            },
+            {
+                "icon": "../DMpage/bing.png",
+                "no": "90+",
+                "name": "Years of Business"
+            },
+            {
+                "icon": "../DMpage/yahoo.png",
+                "no": "90+",
+                "name": "Years of Business"
+            },
+            {
+                "icon": "../DMpage/yahoo.png",
+                "no": "90+",
+                "name": "Years of Business"
+            },
+            {
+                "icon": "../DMpage/yahoo.png",
+                "no": "90+",
+                "name": "Years of Business"
+            },
+            {
+                "icon": "../DMpage/yahoo.png",
+                "no": "90+",
+                "name": "Years of Business"
+            }
+        ],
+        "commit": "Our Commitments",
+        "commit1": "Values",
+        "commit2": "Diversity & Equity",
+        "commit3": "Society Impact",
+        "offer": "We offer solutions for Startups/SME/Entrepreneurs",
+        "offerCont": "We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.",
+        "cultureTitle": "The Venzo Way of Culture, Co-Operative & Versatile",
+        "culturecont": "With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality.",
+        "culture1": "../images/culture/culture1",
+        "culture2": "../images/culture/culture2",
+        "culture3": "../images/culture/culture3",
+        "culture4": "../images/culture/culture4",
+        "commitmentsSub": [
+            {
+                "icon": "../images/aboutus/aboutus17.png",
+                "title": "Accelerate Work"
+            },
+            {
+                "icon": "../images/aboutus/aboutus17.png",
+                "title": "Total Transparency"
+            },
+            {
+                "icon": "../images/aboutus/aboutus17.png",
+                "title": "Customer Centred Experience"
+            },
+            {
+                "icon": "../images/aboutus/aboutus17.png",
+                "title": "Revolutionary Testing"
+            }
+        ],
+        "learTitle": "Meet Our Leadership Team",
+        "leaderCont1": "With over 15 years of combined experience, we’ve",
+        "leaderCont2": "got a well-seasoned team of experts",
+        "leaderCont3": "at Venzo Technologies.",
+        "leaderSub": [
+            {
+                "leaderimg": "../images/aboutus/aboutus15.png",
+                "name": "Asif",
+                "role": "Co-Fouder",
+                "leadercont": "After a 12-year stint donning various hats as a Project leader, Pre-Sales Consultant, Functional Consultant, and Trade-finance professional, he took the entrepreneurial plunge in his early 30’s with a relentless drive for innovation and a passion to best to align technology with customer business plans.",
+                "link": "../images/aboutus/aboutus14.png"
+            },
+            {
+                "leaderimg": "../images/aboutus/aboutus16.png",
+                "name": "Balaji",
+                "role": "Co-Fouder",
+                "leadercont": "Trade Finance professional with experience of more than 18 years in all facets of trade finance operations and handling projects of different natures like in-sourcing, core banking, online banking & merger of banks.",
+                "link": "../images/aboutus/aboutus14.png"
+            },
+            {
+                "leaderimg": "../images/aboutus/aboutus15.png",
+                "name": "Ravi",
+                "role": "Co-Fouder",
+                "leadercont": "CEG Alumnus and a Business Leader with 17 plus years of rich experience in handling Finance and Operations. Expertise in handling a diverse range of operations, including areas involving Strategy, Engineering, Delivery, Marketing, Program Management for software products and services.",
+                "link": "../images/aboutus/aboutus14.png"
+            }
+        ]
     }
-],
-"commit" : "Our Commitments",
-"commit1" :"Values",
-"commit2" :"Diversity & Equity",
-"commit3" :"Society Impact",
-"offer" : "We offer solutions for Startups/SME/Entrepreneurs",
-"offerCont" : "We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.We are client-oriented with a “service” mentality. We are available to assist you. We can either lead or follow. Our primary goal is to maintain the highest quality standards and best practices in today’s IT market.",
-
-"cultureTitle" : "The Venzo Way of Culture, Co-Operative & Versatile",
-"culturecont" : "With casual work attire and social activities as company culture, Venzo is defined by smart minds doing smart things. We take pride in our culture of fun, reward, and hard work. We follow three core values: integrity, positivity, and quality.",
-"culture1" : "../images/culture/culture1",
-"culture2" : "../images/culture/culture2",
-"culture3" : "../images/culture/culture3",
-"culture4" : "../images/culture/culture4",
-"commitmentsSub" :[
-    {
-    "icon" : "../images/aboutus/aboutus17.png",
-    "title": "Accelerate Work"
-},
-{
-    "icon" : "../images/aboutus/aboutus17.png",
-    "title": "Total Transparency"
-},
-{
-    "icon" : "../images/aboutus/aboutus17.png",
-    "title": "Customer Centred Experience"
-},
-{
-    "icon" : "../images/aboutus/aboutus17.png",
-    "title": "Revolutionary Testing"
-}
-],
-"learTitle" : "Meet Our Leadership Team",
-"leaderCont1" : "With over 15 years of combined experience, we’ve",
-"leaderCont2" : "got a well-seasoned team of experts",
-"leaderCont3" : "at Venzo Technologies.",
-"leaderSub":[
-    {
-        "leaderimg" : "../images/aboutus/aboutus15.png",
-        "name" : "Asif",
-        "role":"Co-Fouder",
-        "leadercont":"After a 12-year stint donning various hats as a Project leader, Pre-Sales Consultant, Functional Consultant, and Trade-finance professional, he took the entrepreneurial plunge in his early 30’s with a relentless drive for innovation and a passion to best to align technology with customer business plans.",
-        "link":"../images/aboutus/aboutus14.png"
-    },
-    {
-        "leaderimg" : "../images/aboutus/aboutus16.png",
-        "name" : "Balaji",
-        "role":"Co-Fouder",
-        "leadercont":"Trade Finance professional with experience of more than 18 years in all facets of trade finance operations and handling projects of different natures like in-sourcing, core banking, online banking & merger of banks.",
-        "link":"../images/aboutus/aboutus14.png"
-    },
-    {
-        "leaderimg" : "../images/aboutus/aboutus15.png",
-        "name" : "Ravi",
-        "role":"Co-Fouder",
-        "leadercont":"CEG Alumnus and a Business Leader with 17 plus years of rich experience in handling Finance and Operations. Expertise in handling a diverse range of operations, including areas involving Strategy, Engineering, Delivery, Marketing, Program Management for software products and services.",
-        "link":"../images/aboutus/aboutus14.png"
-    }
-]
-}
-
 ]

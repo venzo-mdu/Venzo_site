@@ -1,4 +1,4 @@
-.bcBanner{
+.bcBanner {
     background-image: url('../../../images/blockchaindevelopment/bcd28.png');
     background-size: 100% 100%;
     height: 90vh;
@@ -6,132 +6,151 @@
     padding: 5% 8%;
     display: block;
 }
-.bcBannerRes{
-    display:none;
+
+.bcBannerRes {
+    display: none;
 }
-#bcbannerTitle{
+
+#bcbannerTitle {
     font-family: Poppins;
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
     letter-spacing: -0.04em;
     text-align: left;
-    background:  linear-gradient(180deg, #FFFFFF 26.54%, rgba(255, 255, 255, 0) 116.98%);
+    background: linear-gradient(180deg, #FFFFFF 26.54%, rgba(255, 255, 255, 0) 116.98%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     background-clip: text;
+    background-clip: text;
     margin: 8% 0 1% 0;
     width: 40%;
 }
-#bcBannergradienttext{
+
+#bcBannergradienttext {
     background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     background-clip: text;
+    background-clip: text;
 }
-#bcbannerText{
+
+#bcbannerText {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
-.bcdemoButton{
+
+.bcdemoButton {
     background-image: url("../../../images/blockchaindevelopment/demobtn.png");
     background-repeat: no-repeat;
-    background-size:10% 100%;
+    background-size: 10% 100%;
     padding: 1%;
     color: #FFFFFF;
     padding-left: 2%;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 120%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
 }
 
 @media screen and (max-width:1705px) and (min-width:1025px) {
-    #bcbannerTitle{
+    #bcbannerTitle {
         width: 50%;
     }
+
     .bcBanner {
         height: 93vh;
     }
 }
+
 @media screen and (max-width:1024px) and (min-width:768px) {
-    .bcBanner{
+    .bcBanner {
         padding: 5% 8%;
         height: 93vh;
     }
-    #bcbannerTitle{
+
+    #bcbannerTitle {
         width: 70%;
     }
+
     .bcdemoButton {
         background-size: 13% 100%;
     }
 }
-@media screen and  (max-width:768px) and (min-width:431px) {
-    .bcBanner{
+
+@media screen and (max-width:768px) and (min-width:431px) {
+    .bcBanner {
         padding: 5% 8%;
         height: 100vh;
     }
-    .innerbcBanner{
+
+    .innerbcBanner {
         margin: 15% 0 0 0;
     }
-    #bcbannerTitle{
+
+    #bcbannerTitle {
         width: 85%;
     }
+
     .bcdemoButton {
         background-size: 15% 100%;
     }
 }
+
 @media screen and (max-width:430px) {
-    .bcBanner{
+    .bcBanner {
         display: none;
     }
-    .bcBannerRes{
-        display:block;
+
+    .bcBannerRes {
+        display: block;
         background-image: url('../../../images/blockchaindevelopment/bcd29.png');
         height: 100vh;
-        padding: 10% 5% ;
+        padding: 10% 5%;
     }
-    .innerbcBannerRes{
+
+    .innerbcBannerRes {
         margin: 15% 0 10% 0;
     }
-    #bcbannerTitleRes{
+
+    #bcbannerTitleRes {
         font-family: Poppins;
         font-size: 42px;
         font-weight: 600;
         line-height: 50px;
         letter-spacing: -0.04em;
         text-align: left;
-        background:  linear-gradient(180deg, #FFFFFF 26.54%, rgba(255, 255, 255, 0) 116.98%);
+        background: linear-gradient(180deg, #FFFFFF 26.54%, rgba(255, 255, 255, 0) 116.98%);
         -webkit-text-fill-color: transparent;
         background-clip: text;
     }
-    #bcbannerTextRes{
+
+    #bcbannerTextRes {
         font-family: Poppins;
         font-size: 18px;
         font-weight: 400;
         line-height: 28px;
         letter-spacing: 0em;
         text-align: left;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
-    .bcdemoButton{
+
+    .bcdemoButton {
         background-image: url("../../../images/blockchaindevelopment/demobtn.png");
         background-repeat: no-repeat;
-        background-size:30% 100%;
+        background-size: 30% 100%;
         padding: 2%;
         color: #FFFFFF;
         padding-left: 5%;
         font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 120%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
     }
 }
 

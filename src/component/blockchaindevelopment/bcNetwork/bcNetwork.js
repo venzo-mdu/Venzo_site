@@ -21,59 +21,59 @@ import bcd1 from '../../../images/blockchaindevelopment/bcd1.png'
 
 function bcNetwork() {
   return (
-      <div className='bcNetwork'>
-          <p id='bcnetworkgradient'>The most trusted way to build future</p>
-          <p id='bcnetworkTitle'>Blockchain Networks We Support</p>
-          <p id='bcnetworkText'>Equip your business with secure, decentralized, and immutable blockchain solutions. We help start-ups, businesses and enterprises to design more transparent, efficient and automated versions of their businesses with our wide spectrum of blockchain development services.</p>
-         <div className='bcnetworkImages'>
-          <div className='bcnetworkImage1'>
-            <img src={bcd16} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd13} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd15} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd14} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd17} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd18} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd19} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd32} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd4} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd5} alt='networkicon' className='networkIcons'></img>
-          </div>
-          <div className='bcnetworkImage2'>
-            <img src={bcd6} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd2} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd3} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd7} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd9} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd1} alt='networkicon' className='networkIcons'></img>
-          </div>
-          </div>
-
-
-          <div className='bcnetworkRes'>
-            <div className='bcnetworkImageRes1'>
-            <img src={bcd16} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd13} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd15} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd14} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd17} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd18} alt='networkicon' className='networkIcons'></img>
-            </div>
-            <div className='bcnetworkImageRes2'>
-            <img src={bcd19} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd32} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd4} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd5} alt='networkicon' className='networkIcons'></img>
-            </div>
-            <div className='bcnetworkImageRes3'>
-            <img src={bcd6} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd2} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd3} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd7} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd9} alt='networkicon' className='networkIcons'></img>
-            <img src={bcd1} alt='networkicon' className='networkIcons'></img>
-            </div>
-          </div>
+    <div className='bcNetwork'>
+      <p id='bcnetworkgradient'>The most trusted way to build future</p>
+      <p id='bcnetworkTitle'>Blockchain Networks We Support</p>
+      <p id='bcnetworkText'>Equip your business with secure, decentralized, and immutable blockchain solutions. We help start-ups, businesses and enterprises to design more transparent, efficient and automated versions of their businesses with our wide spectrum of blockchain development services.</p>
+      <div className='bcnetworkImages'>
+        <div className='bcnetworkImage1'>
+          <img src={bcd16} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd13} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd15} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd14} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd17} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd18} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd19} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd32} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd4} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd5} alt='networkicon' className='networkIcons'></img>
+        </div>
+        <div className='bcnetworkImage2'>
+          <img src={bcd6} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd2} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd3} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd7} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd9} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd1} alt='networkicon' className='networkIcons'></img>
+        </div>
       </div>
+
+
+      <div className='bcnetworkRes'>
+        <div className='bcnetworkImageRes1'>
+          <img src={bcd16} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd13} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd15} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd14} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd17} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd18} alt='networkicon' className='networkIcons'></img>
+        </div>
+        <div className='bcnetworkImageRes2'>
+          <img src={bcd19} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd32} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd4} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd5} alt='networkicon' className='networkIcons'></img>
+        </div>
+        <div className='bcnetworkImageRes3'>
+          <img src={bcd6} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd2} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd3} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd7} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd9} alt='networkicon' className='networkIcons'></img>
+          <img src={bcd1} alt='networkicon' className='networkIcons'></img>
+        </div>
+      </div>
+    </div>
   )
 }
 

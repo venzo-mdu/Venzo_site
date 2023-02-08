@@ -1,51 +1,35 @@
-.buildProduct .btn:hover{
+.buildProduct .btn:hover {
     color: #FFFFFF;
     background-color: transparent;
     background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px)
-{
-.buildText {
-    font-size: 45px !important;
-    margin-left: -5%;
-}
-.buildtalk{
-    font-size: 14px !important;
-    height: 42px !important;
-    width: 140px !important;
-}
-}
-@media screen and (max-width: 768px) and (min-width: 431px)
-{
-.buildText {
-    font-size: 35px !important;
-}
-.buildtalk{
-    font-size: 14px !important;
-    height: 35px !important;
-    width: 125px !important;
-}
-}
-@media screen and (max-width: 425px) and (min-width:378px){
-.buildText {
-    font-family: Poppins;
-    font-size: 32px !important;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    width: 400px !important;
-    margin-left: -9%;
-}
-.buildtalk{
-    font-size: 14px !important;
-    height: 35px !important;
-    width: 110px !important;
-}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .buildText {
+        font-size: 45px !important;
+        margin-left: -5%;
+    }
+
+    .buildtalk {
+        font-size: 14px !important;
+        height: 42px !important;
+        width: 140px !important;
+    }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width: 768px) and (min-width: 431px) {
+    .buildText {
+        font-size: 35px !important;
+    }
+
+    .buildtalk {
+        font-size: 14px !important;
+        height: 35px !important;
+        width: 125px !important;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width:378px) {
     .buildText {
         font-family: Poppins;
         font-size: 32px !important;
@@ -56,9 +40,29 @@
         width: 400px !important;
         margin-left: -9%;
     }
-    .buildtalk{
+
+    .buildtalk {
         font-size: 14px !important;
         height: 35px !important;
         width: 110px !important;
     }
+}
+
+@media screen and (max-width:375px) {
+    .buildText {
+        font-family: Poppins;
+        font-size: 32px !important;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        width: 400px !important;
+        margin-left: -9%;
     }
+
+    .buildtalk {
+        font-size: 14px !important;
+        height: 35px !important;
+        width: 110px !important;
+    }
+}

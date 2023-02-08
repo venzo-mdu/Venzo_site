@@ -15,29 +15,29 @@ function DmCarousel() {
     const renderSlides = () =>
         Dm_Carousel.map(num => (
             <div>
-                <img src={num.images} alt='company Logo'/>
+                <img src={num.images} alt='company Logo' />
             </div>
         ));
 
 
     return (
-       
+
         <div className='cmpyLogo'>
-        <div className='sliderDesk'>
-            <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
-                {renderSlides()}
-            </Slider>
-        </div> 
-        <div className='sliderLap'>
-            <Slider dots={false} slidesToShow={4} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
-                {renderSlides()}
-            </Slider>
-        </div>
-        <div className='slidermob'>
-            <Slider dots={false} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
-                {renderSlides()}
-            </Slider>
-        </div>
+            <div className='sliderDesk'>
+                <Slider dots={false} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
+                    {renderSlides()}
+                </Slider>
+            </div>
+            <div className='sliderLap'>
+                <Slider dots={false} slidesToShow={4} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
+                    {renderSlides()}
+                </Slider>
+            </div>
+            <div className='slidermob'>
+                <Slider dots={false} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={200} >
+                    {renderSlides()}
+                </Slider>
+            </div>
         </div>
     )
 }

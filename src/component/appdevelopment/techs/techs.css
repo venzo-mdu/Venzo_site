@@ -1,4 +1,3 @@
-
 .techsweUse {
     padding: 3% 5%;
 }
@@ -40,42 +39,54 @@
 
 #techsName {
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16.2333px;
-line-height: 22px;
-letter-spacing: -0.025em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2333px;
+    line-height: 22px;
+    letter-spacing: -0.025em;
 
-color: #000000;
+    color: #000000;
 }
 
 .techsGrid {
     display: grid;
     border: none;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 2% 5%;
     margin: 0 10%;
 }
-.techsGrid:hover #designGrid img ,.techsGrid:hover #mobileGrid img,.techsGrid:hover #frontendGrid img,.techsGrid:hover #backendGrid img{
-   margin-left: -2%;
-   transition: .7s;
+
+.techsGrid:hover #designGrid img,
+.techsGrid:hover #mobileGrid img,
+.techsGrid:hover #frontendGrid img,
+.techsGrid:hover #backendGrid img {
+    margin-left: -2%;
+    transition: .7s;
 }
+
 .techsGrid div {
     border: .5px solid rgba(229, 231, 235, 0.5);
     padding: 3% 10%;
 
 }
-.techsIcon1{
+
+.techsIcon1 {
     margin: 0 0 0 5%;
 }
-#designGrid img,#mobileGrid img ,#frontendGrid img,#backendGrid img{
+
+#designGrid img,
+#mobileGrid img,
+#frontendGrid img,
+#backendGrid img {
     transition: .7s;
 }
+
 #designGrid {
     border-top: none;
     border-left: none;
-    
+
 }
+
 #mobileGrid {
     border-top: none;
     border-right: none;
@@ -106,90 +117,110 @@ color: #000000;
 #backendGrid .techsIcon {
     margin-left: -15%;
 }
+
 @media screen and (max-width:1705px) and (min-width:1025px) {
     .techsGrid {
         padding: 2% 3%;
         width: 100%;
-        margin:0 0%;
+        margin: 0 0%;
     }
-    .techsText{
+
+    .techsText {
         margin: 0 0 0 5%;
     }
-    #techsrightText{
+
+    #techsrightText {
         width: 60%;
     }
 }
-@media screen and  (max-width:1025px) and (min-width:768px){
-    .techsweUse{
+
+@media screen and (max-width:1025px) and (min-width:768px) {
+    .techsweUse {
         padding: 3% 1%;
         margin: 0 0 0 -5%;
     }
+
     .techsGrid {
         padding: 2% 1%;
         width: 100%;
-        margin:0 11%;
+        margin: 0 11%;
     }
-    .techsText{
+
+    .techsText {
         margin: 0 0 0 10%;
     }
+
     #techsrightText {
         width: 55%;
     }
+
     .techsGrid div {
         padding: 3% 6%;
     }
-    .techsGrid img{
+
+    .techsGrid img {
         width: 20%;
     }
-    .techsIcon1{
+
+    .techsIcon1 {
         margin: 0 0 0 -6%;
     }
 }
-@media screen and (max-width:768px) and (min-width:431px){
+
+@media screen and (max-width:768px) and (min-width:431px) {
     .tech {
         margin: 10% 0 0% 0;
     }
+
     .techsweUse {
         padding: 3% 1%;
         width: 100%;
     }
-    .techsText{
+
+    .techsText {
         display: block;
     }
-    #techsTitle{
+
+    #techsTitle {
         margin: 0 0 0 0;
         text-align: center;
         width: 90%;
     }
+
     #techsrightText {
         width: 90%;
         margin: 5% 0 0 0;
     }
+
     .techsGrid {
         padding: 2% 1%;
         width: 100%;
-        margin:0 0%;
+        margin: 0 0%;
         display: block;
-        
+
     }
+
     .techsGrid div {
         border: none;
     }
 }
+
 @media screen and (max-width:430px) {
     .techsweUse {
         padding: 3% 1%;
         margin: 5% 0 0 0%;
     }
-    #brinTech{
+
+    #brinTech {
         display: none;
     }
+
     .techsText {
         display: block;
         width: 100%;
         margin: 0 0 0 5%;
     }
-        
+
     #techsTitle {
         font-family: Poppins;
         font-size: 28px;
@@ -199,7 +230,7 @@ color: #000000;
         text-align: left;
         width: 100%;
     }
-    
+
     #techsrightText {
         font-family: Poppins;
         font-size: 16px;
@@ -209,22 +240,28 @@ color: #000000;
         text-align: justified;
         width: 85%;
     }
+
     .techsGrid {
         padding: 2% 1%;
         width: 100%;
-        margin:0 0%;
+        margin: 0 0%;
         display: block;
     }
+
     .techsGrid div {
         border: none;
     }
-    .techsIcon1,.techsIcon{
+
+    .techsIcon1,
+    .techsIcon {
         width: 30%;
     }
-    .techsGrid img{
+
+    .techsGrid img {
         width: 20%;
     }
-    .carousel-indicators  {
-     display: none!important;
+
+    .carousel-indicators {
+        display: none !important;
     }
 }

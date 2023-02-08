@@ -9,7 +9,7 @@ function newproduct() {
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>New Product Development; Winner’s Guide</p>
                 <p className='reactusesubtitle'>Product Development  | May 26, 2022</p>
-                <img className='reactuseimg' src={blog0} />
+                <img className='reactuseimg' src={blog0} alt="newproduct"/>
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. A large number of projects fail because they do not follow a process consistently. <br />That is why it is critical to follow a series of systemic steps when developing a high-quality product that overcomes challenges and meets requirements. A solid software product development process not only improves the end product’s quality but also the overall development process.</p>
                 <p className='reactuseIntroDesc'><strong>“If you fail to plan, you plan to fail,” </strong>said Benjamin Franklin.<br />The entire product development cycle consists of several steps, the end of one being the start of another!</p>
@@ -44,28 +44,28 @@ function newproduct() {
                 <p className='reactuseIntro'>The Road to Success</p>
                 <p className='reactuseIntroDesc'>Lastly for SaaS development, keep in mind that your SaaS product must provide value. Its concept should correspond to the needs of your customers. <br /> <br />
                     To create an appealing and functional application, ensure clear navigation, human-centered design, and don’t overburden your SaaS with unnecessary features.<br /> <br />
-                   <strong> Venzo Technologies</strong>, a premier <strong>SaaS product development company</strong>, understands that this process entails not only launching a visually appealing software but also building an entire SaaS product from the ground up so that customers can use it immediately after it is introduced.<br /> <br />
+                    <strong> Venzo Technologies</strong>, a premier <strong>SaaS product development company</strong>, understands that this process entails not only launching a visually appealing software but also building an entire SaaS product from the ground up so that customers can use it immediately after it is introduced.<br /> <br />
                     Since the development stage of creating new software consumes <strong>63 percent </strong>of the software department budget, Venzo considers lean and agile methodology processes as well as different ways of development.<br /> <br />
                     With just under <strong>40% of all software testers </strong>routinely using Selenium for testing purposes. Venzo creates the world class final product using the Selenium software testing automation software, which has multi-browser support, open-source availability, and support from various operating systems.<br /> <br />
                     These are some of the many examples of the<strong> latest technologies </strong>we employ to make premium products for our clients.
                 </p>
             </div>
             <div className='blogsRight blogsRight1'>
-                    <div className='slide1'>
-                        <p>All Categories</p> <hr />
-                        <p>Automated Testing</p><hr />
-                        <p>Mobile App Development</p><hr />
-                        <p>Product Development</p><hr />
-                        <p>Staff Augmentation</p><hr />
-                        <p>Technology</p><hr />
-                        <p>Web App Development</p>
-                    </div>
-                    <div className='slide2'>
-                        <p>Tweets</p>
-                        <img src={tweet1} />
-                        <img src={tweet2} />
-                    </div>
+                <div className='slide1'>
+                    <p>All Categories</p> <hr />
+                    <p>Automated Testing</p><hr />
+                    <p>Mobile App Development</p><hr />
+                    <p>Product Development</p><hr />
+                    <p>Staff Augmentation</p><hr />
+                    <p>Technology</p><hr />
+                    <p>Web App Development</p>
                 </div>
+                <div className='slide2'>
+                    <p>Tweets</p>
+                    <img src={tweet1}  alt="tweet1"/>
+                    <img src={tweet2} alt="tweet2"/>
+                </div>
+            </div>
         </div>
     )
 }

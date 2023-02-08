@@ -24,7 +24,8 @@ import axios from 'axios'
 
 function ImageCarousel() {
     const [buttonPopup, setButtonPopup] = useState(false);
-    const [fbIcon,setfbIconlogo] = useState(FbIcon);
+    const [submit, setSubmit] = useState(false);
+    const [fbIcon, setfbIconlogo] = useState(FbIcon);
     const [twitterIcon, settwitterIconlogo] = useState(TwitterIcon);
     const [linkedIcon, setlinkedinIconlogo] = useState(LinkedinIcon);
     const [instaIcon, setinstaIconlogo] = useState(InstaIcon);
@@ -42,39 +43,42 @@ function ImageCarousel() {
             setlinkedinIconlogo(LinkedinIcon)
             setinstaIconlogo(InstaIcon)
         }
-      }
-    
-      useEffect(() => {
+    }
+
+    useEffect(() => {
         changeIcon()
         window.addEventListener("scroll", changeIcon)
-      })
+    })
 
-    const items = [
-        <img className='carouselImage' src={blog1} role="presentation" />,
-        <img className='carouselImage' src={blog2} role="presentation" />,
-        <img className='carouselImage' src={blog3} role="presentation" />,
-    ];
-    const [emailInput,setEmailInput]=useState({
-        name:"",
-        email:"",
-        mobile:"",
-        message:""
-      });
-    
-      const handleChange=(e)=>{
-        setEmailInput({...emailInput,[e.target.name]:e.target.value});
-      }
-      async function sendEmail(event){
+    // const items = [
+    //     <img className='carouselImage' src={blog1} role="presentation" alt="blog1"/>,
+    //     <img className='carouselImage' src={blog2} role="presentation" alt="blog2"/>,
+    //     <img className='carouselImage' src={blog3} role="presentation" alt="blog3"/>,
+    // ];
+    const [emailInput, setEmailInput] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
+    });
+
+    const handleChange = (e) => {
+        setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
+    }
+    async function sendEmail(event) {
         event.preventDefault()
-        const body={
-          to:"vgowthama225@gmail.com",
-          message:emailInput["message"]+emailInput["email"],
-          subject:"subject here"
+        const body = {
+            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            cc: "priyankac@venzotechnologies.com",
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+            // message:emailInput["message"]+emailInput["email"],
+            subject: "subject here"
         }
-        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-    
-      }
+        setSubmit(true)
+
+    }
     return (
         <>
             <Header flag='header1' />
@@ -99,11 +103,11 @@ function ImageCarousel() {
                         src={blogBl1}
                         alt="blockchainBl "
                     />
-                   
+
                     <div className='item1'>
                         <p id='blockchain'>Immutable Blockchain<br id='brtag'></br> Solutions</p>
                         <p id="blockchainDev"> Fabricate Smarter Supply Chains with <br id='brtag'></br>
-                        Blockchain Technology Solutions</p>
+                            Blockchain Technology Solutions</p>
                         <p id="knowMore" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -119,13 +123,13 @@ function ImageCarousel() {
                         src={blogBl3}
                         alt="productDevelopmentBl "
                     />
-                   
+
 
                     <div className='item3'>
                         <p id='productDevelopment'>Innovation That<br id='brtag'></br> Delivers </p>
                         <p id="productDev">
-                        Designing & delivering Positive Products <br id='brtag'></br>
-                        for progressive change-makers.</p>
+                            Designing & delivering Positive Products <br id='brtag'></br>
+                            for progressive change-makers.</p>
                         <p id="knowMore" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={whiteArrow} className='whiteArrow' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -141,13 +145,13 @@ function ImageCarousel() {
                         src={blogBl2}
                         alt="dataEngineeringBl "
                     />
-                    
+
 
                     <div className='item2'>
                         <p id='dataEngineering'>  Building you Smart<br id='brtag'></br> Data Management Systems </p>
                         <p id="dataEnggDev">
-                        Extending the boundaries of excellence through <br id='brtag'></br>
-                        data-driven transformation</p>
+                            Extending the boundaries of excellence through <br id='brtag'></br>
+                            data-driven transformation</p>
                         <p id="knowMore1" onClick={() => setButtonPopup(true)}>KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;<img src={blackArrow} className='blackArrow1' alt="black-arrow"></img></p>
                     </div>
                 </div>
@@ -159,17 +163,23 @@ function ImageCarousel() {
                 <a href='https://www.linkedin.com/company/venzo-technologies/'><img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img></a>
                 <a href='https://www.instagram.com/venzo_tech/'><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
             </div>
-    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <form onSubmit={sendEmail}>
-        <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
-        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
-        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-        <input className='file' type="file" placeholder='choose file' />
-        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
-        <button type='submit' className='Fbutton'>Submit</button>
-        </form>
-      </Popup>
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <form onSubmit={sendEmail}>
+                    <p id='joinourteamText'>Join our team</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <input className='file' type="file" placeholder='choose file' />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
+            </Popup>
+
+            <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+                <div className='thankPop'>
+                    Thank you for contacting us, our team will reach you.
+                </div>
+            </Popup>
         </>
     )
 }

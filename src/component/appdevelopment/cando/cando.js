@@ -28,7 +28,7 @@ function cando() {
           <img className='cardsIcon' src={appCard11} alt='cardsicon'></img>
           <img src={appCard17} className='canDocardsImg' alt='candocards'></img>
           <img src={appCard30} className='canDocards1Img' alt='candocards'></img>
-          
+
           <p id='cardsTitle2'>Native App Development </p>
           <span id='cardsTitle1'>Our developers’ Native apps assure optimized performance leveraging the latest technology.</span>
         </div>
@@ -40,12 +40,12 @@ function cando() {
           <img src={appCard32} className='canDocards1Img' alt='candocards'></img>
           <span id='cardsTitle1'>Our hybrid apps are highly scalable, budget friendly, and cross-platform compatible to increase ROI. </span>
         </div>
-        
+
         <div className='candocards3'>
           <img className='cardsIcon' src={appCard8} alt='cardsicon'></img>
           <img src={appCard15} className='canDocardsImg' alt='candocards'></img>
           <img src={appCard31} className='canDocards1Img' alt='candocards'></img>
-          
+
           <p id='cardsTitle2'>Enterprise App Development</p>
           <span id='cardsTitle1'>Designing the secured web gateways to connect users and services. </span>
         </div>
@@ -53,7 +53,7 @@ function cando() {
           <img className='cardsIcon' src={appCard9} alt='cardsicon'></img>
           <img src={appCard16} className='canDocardsImg' alt='candocards'></img>
           <img src={appCard33} className='canDocards1Img' alt='candocards'></img>
-         
+
           <p id='cardsTitle2'>Ecommerce App Development </p>
           <span id='cardsTitle1'>We make your ecommerce app the most convenient and preferred shopping avenue.</span>
         </div>

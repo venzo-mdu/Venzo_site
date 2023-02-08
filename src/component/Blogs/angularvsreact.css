@@ -1,12 +1,14 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.angularBlog{
+
+.angularBlog {
     display: flex;
     margin-left: 6%;
-   
+
 }
+
 .productflex {
     display: flex;
     margin-bottom: 10%;
@@ -16,16 +18,17 @@ body{
 }
 
 
-.angularLef{
+.angularLef {
     width: 60%;
 }
+
 /* .blogsRight {
     margin-top: 3%;
     width: 40%;
     padding-left: 11%;
 } */
 
-.angulatTitle1{
+.angulatTitle1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -35,10 +38,12 @@ body{
     color: #000000;
     width: 74%;
 }
-.angulatTitle1flex{
+
+.angulatTitle1flex {
     display: flex;
 }
-.AngularDate{
+
+.AngularDate {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -46,7 +51,8 @@ body{
     line-height: 200%;
     color: #165EA0;
 }
-.AnguarPrd{
+
+.AnguarPrd {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -57,10 +63,12 @@ body{
     margin-left: 2%;
 
 }
-.angularvsreact{
+
+.angularvsreact {
     width: 1049px;
 }
-.angularCont{
+
+.angularCont {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
@@ -72,7 +80,8 @@ body{
     margin-top: 3%;
 
 }
-.Significance{
+
+.Significance {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -81,6 +90,7 @@ body{
     width: 1054px;
     color: #000000;
 }
-.angularCont strong{
+
+.angularCont strong {
     font-weight: 600;
 }

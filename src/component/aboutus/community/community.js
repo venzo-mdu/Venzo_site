@@ -53,7 +53,7 @@ function community() {
 // import comunity from '../../../content/communityData.json'
 // function community() {
 //     return (
-        
+
 //         <>
 //         <div>
 //             {comunity.map((item) => 

@@ -8,7 +8,7 @@ function topmobile() {
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>Top-15 Mobile App Ideas that Will Drive Your Start-Up Ahead</p>
                 <p className='reactusesubtitle'> Mobile APP Development   | November 29th, 2021 </p>
-                <img className='reactuseimg' src={blog3} />
+                <img className='reactuseimg' src={blog3} alt="topmobile"/>
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>A terrific app idea is what drives your start-up business ahead and enables you to spin money. It is an online world out there. Earning profits through business is directly connected with touching as many hearts as possible using the best mobile application. Attractive and useful mobile applications help entrepreneurs to leverage mobile technology to its fullest and reach great heights. Here’s where the need for landing the distinctively unique mobile app idea becomes crucial.</p>
                 <p className='reactuseIntro'>Top-Mobile Application Ideas that can Positively Change the Course of Your Start-Up</p>
@@ -30,19 +30,19 @@ function topmobile() {
                 <p className='reactuseIntro'>8. Personal cooking assistant app</p>
                 <p className='reactuseIntroDesc'>Cooking is not a drudgery anymore. With the young generation taking cooking and eating as not a routine task but as something they relish, a cooking assistant app would take you places.</p>
                 <p className='reactuseIntro'>9. Restaurant booking app</p>
-                <p className='reactuseIntroDesc'>The concept of eating out has been gathering importance globally since the last few decades. Serving a dietary as well as business purpose, eating out has several benefits that may be tapped through a robust reservation app. Your mobile app development company can handle it the way you want.</p>                             
+                <p className='reactuseIntroDesc'>The concept of eating out has been gathering importance globally since the last few decades. Serving a dietary as well as business purpose, eating out has several benefits that may be tapped through a robust reservation app. Your mobile app development company can handle it the way you want.</p>
                 <p className='reactuseIntro'>10. An app for buying and selling stuff</p>
-                <p className='reactuseIntroDesc'>In addition to helping people to interact effortlessly and joyfully, mobile apps can enable them to get connected for selling, buying, or renting stuff online.</p>                             
+                <p className='reactuseIntroDesc'>In addition to helping people to interact effortlessly and joyfully, mobile apps can enable them to get connected for selling, buying, or renting stuff online.</p>
                 <p className='reactuseIntro'>11. Home workout specialist</p>
-                <p className='reactuseIntroDesc'>Workout and physical fitness are among the main courses of young as well as elderly people’s palate. Especially after the pandemic hit the world in unprecedented ways, home workouts have been scaling newer heights. Craft your own home workout app through the best mobile app development company in town.</p>                             
+                <p className='reactuseIntroDesc'>Workout and physical fitness are among the main courses of young as well as elderly people’s palate. Especially after the pandemic hit the world in unprecedented ways, home workouts have been scaling newer heights. Craft your own home workout app through the best mobile app development company in town.</p>
                 <p className='reactuseIntro'>12. The book lending app for book lovers</p>
-                <p className='reactuseIntroDesc'>Avid readers have always been looking for comfortable ways to read, store, and cherish the books of their taste. A book lending app helps them to lend or exchange books.</p>                             
+                <p className='reactuseIntroDesc'>Avid readers have always been looking for comfortable ways to read, store, and cherish the books of their taste. A book lending app helps them to lend or exchange books.</p>
                 <p className='reactuseIntro'>13. Dating apps are a part of life</p>
-                <p className='reactuseIntroDesc'>Enabling one to find their soul mate safely and effortlessly, dating apps help people to identify and befriend like-minded persons.</p>                             
+                <p className='reactuseIntroDesc'>Enabling one to find their soul mate safely and effortlessly, dating apps help people to identify and befriend like-minded persons.</p>
                 <p className='reactuseIntro'>14. An app exclusively for smartphone deaddiction</p>
-                <p className='reactuseIntroDesc'>Sounds a bit contradictory, right? But then we are living in a world filled with geeks who spend too much time on their mobile devices. To avoid excessive dilly-dallying on mobiles, an anti-smartphone addiction app would come in handy.</p>                             
+                <p className='reactuseIntroDesc'>Sounds a bit contradictory, right? But then we are living in a world filled with geeks who spend too much time on their mobile devices. To avoid excessive dilly-dallying on mobiles, an anti-smartphone addiction app would come in handy.</p>
                 <p className='reactuseIntro'>15. Meditation app</p>
-                <p className='reactuseIntroDesc'>An original app idea that will help not only business purposes but also the promotion of mental health of people, meditation apps are a boon for those who seek inner peace. Now, are we not all searching for that?</p>                             
+                <p className='reactuseIntroDesc'>An original app idea that will help not only business purposes but also the promotion of mental health of people, meditation apps are a boon for those who seek inner peace. Now, are we not all searching for that?</p>
                 <p className='reactuseIntro'>Conclusion</p>
                 <p className='reactuseIntroDesc'>As we have seen in several modern global businesses, the success of a modern start-up relies largely on a unique idea. It is the innovative, useful mobile app idea that can resolve people’s needs while attracting the masses that propels your business ahead of the competition today.</p>
             </div>
@@ -58,8 +58,8 @@ function topmobile() {
                 </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} />
-                    <img src={tweet2} />
+                    <img src={tweet1} alt="tweet1"/>
+                    <img src={tweet2} alt="tweet2"/>
                 </div>
             </div>
         </div>

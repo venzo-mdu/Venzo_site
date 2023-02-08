@@ -16,7 +16,7 @@ function angularvsreact() {
                         <p className='AngularDate'>May 26th, 2022    |</p>
                         <p className='AnguarPrd'>Product Development</p>
                     </div>
-                    <img src={angularreact} className='angularvsreact' />
+                    <img src={angularreact} className='angularvsreact' alt="angular"/>
                     <p className='Significance'>Introduction</p>
                     <p className='angularCont'>The ability to develop robust and reliable web applications in a shorter time using a high functionality framework is the common requirement among modern business enterprises, regardless of their size and type. The two major frameworks that are being used extensively in the contemporary tech world are Angular JS and React JS.</p>
                     <p className='Significance '>The Significance of Choosing Between Angular JS and React JS</p>
@@ -78,8 +78,8 @@ function angularvsreact() {
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} />
-                        <img src={tweet2} />
+                        <img src={tweet1} alt="tweet1" />
+                        <img src={tweet2} alt="tweet2"/>
                     </div>
                 </div>
             </div>

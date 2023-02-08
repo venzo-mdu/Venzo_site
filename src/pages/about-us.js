@@ -10,16 +10,16 @@ import Footer from '../component/footer/footer'
 
 function aboutus() {
   return (
-      <div className='blockchainbody'>
-      <Header flag='header2'/>
-      <Unleashing/>
-      <Community/>
-      <Life/>
-      <Culture/>
-      <Leadership/>
-      <Mobility/>
-      <Footer/>
-      </div>
+    <div className='blockchainbody'>
+      <Header flag='header2' />
+      <Unleashing />
+      <Community />
+      <Life />
+      <Culture />
+      <Leadership />
+      <Mobility />
+      <Footer />
+    </div>
   )
 
 }

@@ -10,7 +10,7 @@ import buildContent from '../../content/BuilContent.json'
 function Build() {
     return (
         <div>
-            
+
             {console.log(buildContent.SubContent)}
 
             {buildContent.map(item => {
@@ -26,16 +26,16 @@ function Build() {
                                 </div>
                             </div>
                         </div>
-                        
-                            <img className="images" src={item.images} alt='image'/>
+
+                        <img className="images" src={item.images} alt='image' />
                     </div>
                     <div className=" row">
                         {item.SubContent.map(item => {
                             return <div className='col1'>
-                                <img className="icon" src={item.icon} alt='icon'/>
+                                <img className="icon" src={item.icon} alt='icon' />
                                 <h2 className="heading">{item.title1}</h2>
                                 <p className="desc1">{item.content1}</p>
-                        {/* <p className='readMore'> {item.readMore ? item.readMore : ""}&nbsp;</p> */}
+                                {/* <p className='readMore'> {item.readMore ? item.readMore : ""}&nbsp;</p> */}
                                 {/* {item.arrow ? <img className='arrow1' src={item.arrow} alt='arrow' /> : ""} */}
                             </div>
                         })}
@@ -44,7 +44,7 @@ function Build() {
                     {item.hrLine ? <hr className='hr_line' /> : " "}
 
                 </div>
-                
+
             })}
 
         </div>
@@ -73,7 +73,7 @@ export default Build
                     <img className="images" src={build} alt="Build" />
                 </div>
             </div> */}
-            {/* <div className=" col1">
+{/* <div className=" col1">
                     <img className="icon" src={web} alt="web" />
                     <h2 className="heading">Web Development	</h2>
                     <p className="desc1">We offer refined customized applications that streamline your business needs and enhance  customer  experience  for diversified sectors.</p>

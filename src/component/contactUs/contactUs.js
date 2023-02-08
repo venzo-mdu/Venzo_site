@@ -17,28 +17,35 @@ import InstaIcon from "../../images/insta.png"
 import youtube from '../../images/youtube.png'
 import axios from 'axios'
 import { useState } from 'react'
+import Popup from '../careersPage2/popup/popup'
 function ContactUs() {
-    const [emailInput,setEmailInput]=useState({
-        name:"",
-        email:"",
-        mobile:"",
-        message:""
-      });
-    
-      const handleChange=(e)=>{
-        setEmailInput({...emailInput,[e.target.name]:e.target.value});
-      }
-      async function sendEmail(event){
+
+
+    const [submit, setSubmit] = useState(false);
+    const [emailInput, setEmailInput] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
+    });
+
+    const handleChange = (e) => {
+        setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
+    }
+    async function sendEmail(event) {
         event.preventDefault()
-        const body={
-          to:"vgowthama225@gmail.com",
-          message:emailInput["message"]+emailInput["email"],
-          subject:"subject here"
+        const body = {
+            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            cc: "priyankac@venzotechnologies.com",
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+            // message:emailInput["message"]+emailInput["email"],
+            subject: "subject here"
         }
-        const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
+        const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-    
-      }
+        setSubmit(true)
+
+    }
     return (
         <div>
             <Header flag='header2' />
@@ -49,33 +56,33 @@ function ContactUs() {
             <div className='contactUs1'>
                 <div className='cont'>
                     <p className='contactTitle' >Got an idea?<br />Let's get in touch!</p>
-                    <img src={Rectangle} />
+                    <img src={Rectangle} alt="rectangle"/>
                     <div className='lin1'>
-                        <img className='ph_icon1' src={phone} alt='ph_icon'/>
+                        <img className='ph_icon1' src={phone} alt='ph_icon' />
                         <h5 className='country1'><u>INDIA</u><br /><span className='phn'>+91 9840594865</span></h5>
                         <p className='country1'><u>USA</u><br /><span className='phn'>+1 325 271 4695 </span></p>
                     </div>
                     <div className='lin2'>
-                        <img className='ph_icon1' src={mail} alt='mail_icon'/>
+                        <img className='ph_icon1' src={mail} alt='mail_icon' />
                         <p className='careers1 car1'><u>Business</u><br /> <span className='phn'>bd@venzotechnologies.com </span></p><br id='careBreak'></br>
                         <p className='careers1'><u>Careers</u><br /> <span className='phn'>hrteam@venzotechnologies.com </span></p>
                     </div>
                     <div className='lin3'>
-                        <img className='ph_icon1' src={location} alt='location_icon'/>
+                        <img className='ph_icon1' src={location} alt='location_icon' />
                         <p className='address1'><u>CHENNAI</u><br /> <span className='addrs'>Purva Primus, 8th Floor, No.236,<br />Old Mahabalipuram Rd, Thoraipakkam,<br />Chennai-600097,Tamil Nadu, India.</span></p>
                         <br></br>
                         <p className='address1'><u>MADURAI</u><br /> <span className='addrs'>Plot No: 16,5/244,<br />Maruthupandiar 1st Cross street,<br />JJ Nagar, Madurai – 625020,Tamil Nadu, India.</span></p>
                     </div>
                 </div>
                 <div className='ContForm'>
-                <form onSubmit={sendEmail}>
-        <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
-        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
-        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
-        <button type='submit' className='Fbutton'>Submit</button>
-        </form>
+                    <form onSubmit={sendEmail}>
+                        <p className='formTitle'>Let’s catch the initial spark!</p>
+                        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                        <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+                        <button type='submit' className='Fbutton'>Submit</button>
+                    </form>
 
                 </div>
             </div>
@@ -85,11 +92,18 @@ function ContactUs() {
                     <img className='icons1' src={FbIcon} alt='fbIcon'></img>
                     <img className='icons1' src={TwitterIcon} alt='twitterIcon'></img>
                     <img className='icons1' src={LinkedinIcon} alt='linkedIcon'></img>
-                    <img className='icons1' src={InstaIcon} alt='instaIcon'></img>  
+                    <img className='icons1' src={InstaIcon} alt='instaIcon'></img>
                     <img className='icons1' src={youtube} alt='youtube'></img>
                 </div>
             </div>
+
+
             <Footer />
+            <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+                <div className='thankPop'>
+                    Thank you for contacting us, our team will reach you.
+                </div>
+            </Popup>
         </div>
     )
 }

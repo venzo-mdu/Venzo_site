@@ -26,7 +26,7 @@ function Footer() {
                 </div>
                 <div className='branchOffice'>
                   <h5>Madurai</h5>
-                  <hr  className='titleHr'></hr>
+                  <hr className='titleHr'></hr>
                   Plot No 15,5/244,<br></br>
                   Maruthupandiar 1st Cross Street,&nbsp;<br></br>
                   JJ Nagar, Madurai – 625020
@@ -37,7 +37,7 @@ function Footer() {
               <div className='services'>
 
                 <h5>Services</h5>
-                <hr  className='titleHr'></hr>
+                <hr className='titleHr'></hr>
                 <p>
                   <Link to="/banking-application-testing-qa-services">Banking QA</Link><br></br>
                   <Link to="/quality-engineering-assurance">Quality Assurance</Link><br></br>
@@ -47,35 +47,35 @@ function Footer() {
                   <Link to="/website-development-company">Website Development</Link><br></br>
                   <Link to="/product-development-company">Product Development</Link><br></br>
                   <Link to="/blockchain-development-company">Blockchain Development</Link><br></br>
-                  </p>
+                </p>
               </div>
             </div>
             <div className='laptopResponsive1'>
               <div className='aboutUs'>
                 <div className='company'>
                   <h5>Company</h5>
-                  <hr  className='titleHr'></hr>
+                  <hr className='titleHr'></hr>
                   <Link to="/about-us">About us</Link>
                   <br></br>
                   <Link to="/careers">Careers</Link><br></br>
                   <Link to="/blog">Blogs</Link><br></br>
-                  Reach Us<br></br>
+                  <Link to="/contact-us">Reach Us</Link><br></br>
                   <Link to="/privacy-policy">Privacy Policy</Link><br></br>
 
                 </div>
                 <div className='careers'>
 
-                <h5>Careers</h5>
-                  <hr  className='titleHr'></hr>
+                  <h5>Careers</h5>
+                  <hr className='titleHr'></hr>
                   <p>hrteam@venzotechnologies.com</p>
                 </div>
-              
+
               </div>
               <div className='contactUs'>
                 <div className='contact'>
 
                   <h5><Link to="/contact-us">Contact Us</Link></h5>
-                  <hr  className='titleHr'></hr>
+                  <hr className='titleHr'></hr>
                   <p>India :</p>
                   <p><img src={phone} alt='phoneIcon'></img> +91 9840594865</p>
                   <p>USA :</p>
@@ -84,10 +84,10 @@ function Footer() {
                 </div>
                 <div className='business'>
                   <h5>Business</h5>
-                  <hr  className='titleHr'></hr>
+                  <hr className='titleHr'></hr>
                   <p>bd@venzotechnologies.com</p>
                 </div>
-              
+
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ function Footer() {
       </footer>
 
 
-   
+
     </>
   )
 }

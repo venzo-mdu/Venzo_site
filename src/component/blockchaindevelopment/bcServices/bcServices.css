@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 1250px;
-    z-index:0;
+    z-index: 0;
 }
 
 .innerbcServices {
@@ -109,6 +109,7 @@
     background-image: url("../../../images/blockchaindevelopment/cardbgHover.png");
     background-repeat: no-repeat;
 }
+
 #bcCardtitle {
     font-family: Poppins;
     font-size: 18px;
@@ -217,9 +218,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 #bcserviceschooseCardText {
     margin: 25% 0 15% 23%;
 }
+
 #bcserviceschooseCardText {
     font-family: Poppins;
     font-size: 16px;
@@ -312,9 +315,11 @@
     #bcCardtitle {
         width: 100%;
     }
-    #bcCardtext{
+
+    #bcCardtext {
         width: 95%;
     }
+
     .bcServicesbutton {
         width: 50%;
         height: 10%;
@@ -327,6 +332,7 @@
     .bcServices {
         height: 1600px;
     }
+
     .innerbcServices {
         top: 55px;
         width: 100%;
@@ -359,10 +365,12 @@
     .bcserviceschooseCard4 {
         background-size: 100% 100%;
     }
+
     .bcserviceschooseCards {
         padding: 3% 5%;
         margin: 0 -1% 0 -4%;
     }
+
     #bcserviceschooseCardText {
         width: 100%;
         padding: 25px;
@@ -374,10 +382,12 @@
         width: 50%;
         height: 15%;
     }
+
     .bcServicesText {
         padding: 5% 1%;
         margin: 0 0 0 3%;
     }
+
     .bcServicesLeft {
         width: 40%;
     }
@@ -484,10 +494,11 @@
         grid-column-gap: 3%;
         margin: -5% 0 0 0%;
     }
+
     .bcserviceschooseCard1,
     .bcserviceschooseCard2,
     .bcserviceschooseCard3,
     .bcserviceschooseCard4 {
-      height: 215px;
+        height: 215px;
     }
 }

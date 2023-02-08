@@ -1,6 +1,6 @@
 import * as React from "react"
 import Build from '../component/Build/build'
-import {Link } from "gatsby";
+import { Link } from "gatsby";
 
 import Customer from "../component/customer/customer"
 import Blog from "../component/Blog/blog"
@@ -30,8 +30,8 @@ const IndexPage = () => {
       <Link to="/careers"></Link>
       <Link to="/careers/careersdetails"></Link> */}
     </div>
-   
+
   )
 }
-export default IndexPage  
+export default IndexPage
 
