@@ -352,4 +352,15 @@
      br {
         display: block;
     }
+    .webSlide1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+        height: 243px;
+        width: 100%;
+    }
 }

@@ -391,6 +391,18 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+/* */
+    .webSlide1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+        height: 243px;
+        width: 100%;
+    }
 }
 
 
@@ -785,6 +797,19 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    /*  */
+    .webSlide1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+        height: 390px;
+        width: 100%;
+    }
 }
 
 
@@ -1177,5 +1202,17 @@
         background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+  /*  */
+    .webSlide1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+        height: 390px;
+        width: 100%;
     }
 }

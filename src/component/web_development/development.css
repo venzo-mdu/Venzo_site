@@ -311,7 +311,7 @@ body {
 
 
 
-.containor12 {
+.coveror12 {
     margin: 8% 9px 0 0;
     padding: 4% 0;
     width: 100%;
@@ -388,70 +388,70 @@ body {
 .webCard1:hover{
     background-image: url('../../webDev_Image/Component\ 11.png');
     background-repeat: no-repeat;
-    background-size: contain;
 }
 .webCard2:hover{
     background-image: url('../../webDev_Image/Component\ 10.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+
 }.webCard3:hover{
     background-image: url('../../webDev_Image/Component\ 12.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
 }.webCard4:hover{
     background-image: url('../../webDev_Image/Component\ 13.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard5:hover{
     background-image: url('../../webDev_Image/Component\ 14.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard6:hover{
     background-image: url('../../webDev_Image/Component\ 15.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard7:hover{
     background-image: url('../../webDev_Image/Component\ 16.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard8:hover{
     background-image: url('../../webDev_Image/Component\ 17.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .webCard9:hover{
     background-image: url('../../webDev_Image/Component\ 18.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .webCard10:hover{
     background-image: url('../../webDev_Image/Component\ 19.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard11:hover{
     background-image: url('../../webDev_Image/Component\ 20.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard12:hover{
     background-image: url('../../webDev_Image/Component\ 21.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard13:hover{
     background-image: url('../../webDev_Image/Component\ 22.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard14:hover{
     background-image: url('../../webDev_Image/Component\ 23.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard15:hover{
     background-image: url('../../webDev_Image/Component\ 24.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }.webCard16:hover{
     background-image: url('../../webDev_Image/Component\ 25.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
