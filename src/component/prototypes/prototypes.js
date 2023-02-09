@@ -3,6 +3,7 @@ import "../prototypes/prototypes.css"
 import Popup from '../careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
+import toMail from '../../config/config'
 function Prototypes() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [emailInput, setEmailInput] = useState({
@@ -18,7 +19,7 @@ function Prototypes() {
   async function sendEmail(event) {
     event.preventDefault()
     const body = {
-      to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+      to: toMail,
       cc: "priyankac@venzotechnologies.com",
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       // message:emailInput["message"]+emailInput["email"],
@@ -38,15 +39,14 @@ function Prototypes() {
         </div>
       </section>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <form onSubmit={sendEmail}>
-          <p id='joinourteamText'>Join our team</p>
-          <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-          <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
-          <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-          <input className='file' type="file" placeholder='choose file' />
-          <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
-          <button type='submit' className='Fbutton'>Submit</button>
-        </form>
+      <form onSubmit={sendEmail}>
+            <p className='formTitle'>Let’s catch the initial spark!</p>
+            <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+            <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+            <button type='submit' className='Fbutton'>Submit</button>
+          </form>
       </Popup>
 
       <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>

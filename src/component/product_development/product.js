@@ -30,7 +30,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Popup from '../careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
-
+import toMail from '../../config/config'
 function Product() {
     const [buttonPopup, setButtonPopup] = useState(false);
     const [submit, setSubmit] = useState(false);
@@ -47,7 +47,7 @@ function Product() {
     async function sendEmail(event) {
         event.preventDefault()
         const body = {
-            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            to: toMail,
             cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
             // message:emailInput["message"]+emailInput["email"],
@@ -203,20 +203,20 @@ function Product() {
                             <p className='cardTitle'>Startups</p>
                             <p className='cardDesc'>Venzo is helping startups with a wide range of SaaS product and support to build their brand.</p>
                             <p className='cardDescList'>Product Discovery <br />Idea Validation <br />Prototyping<br />User Testing<br />Early Go-to-market</p>
-                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+                            <div className='ButtonTalk' onClick={() => setButtonPopup(true)}><p className='Quotes'>Get Quote</p></div>
 
                         </div>
                         <div className='cards2'>
                             <p className='cardTitle'>Medium Enterprise</p>
                             <p className='cardDesc'>Venzo is helping Medium enteprise with a wide range of SaaS product and support to build their brand.</p>
                             <p className='cardDescList'>MVP / Rapid MVP<br />Product Discovery<br />Team Augmentation<br />User Testing<br />Go-to-market</p>
-                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+                            <div className='ButtonTalk' onClick={() => setButtonPopup(true)}><p className='Quotes'>Get Quote</p></div>
                         </div>
                         <div className='cards3'>
                             <p className='cardTitle'>Top Tier Companies</p>
                             <p className='cardDesc'>Venzo is helping Top brands with a wide range of SaaS product and support to maintain their market value.</p>
                             <p className='cardDescList'>Growth Design<br />Continuous Product Discovery<br />Opportunity Mapping<br />User Interviews<br />Scrum Team Augmentation</p>
-                            <div className='ButtonTalk'><p className='Quotes'>Get Quote</p></div>
+                            <div className='ButtonTalk' onClick={() => setButtonPopup(true)}><p className='Quotes'>Get Quote</p></div>
                         </div>
                     </div>
 
@@ -328,15 +328,14 @@ function Product() {
 
             </div>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-                <form onSubmit={sendEmail}>
-                    <p id='joinourteamText'>Join our team</p>
-                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
-                    <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-                    <input className='file' type="file" placeholder='choose file' />
-                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
-                    <button type='submit' className='Fbutton'>Submit</button>
-                </form>
+            <form onSubmit={sendEmail}>
+            <p className='formTitle'>Let’s catch the initial spark!</p>
+            <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+            <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+            <button type='submit' className='Fbutton'>Submit</button>
+          </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>

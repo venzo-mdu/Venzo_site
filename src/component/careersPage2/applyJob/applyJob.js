@@ -10,6 +10,7 @@ import Popup from '../popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
 import toMail from '../../../config/config'
+import Popup1 from '../popup/popup'
 
 function ApplyJob() {
   const [buttonPopup, setButtonPopup] = useState(false);

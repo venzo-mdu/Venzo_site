@@ -18,6 +18,7 @@ import youtube from '../../images/youtube.png'
 import axios from 'axios'
 import { useState } from 'react'
 import Popup from '../careersPage2/popup/popup'
+import toMail from '../../config/config'
 function ContactUs() {
 
 
@@ -35,7 +36,7 @@ function ContactUs() {
     async function sendEmail(event) {
         event.preventDefault()
         const body = {
-            to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+            to: toMail,
             cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
             // message:emailInput["message"]+emailInput["email"],
@@ -80,7 +81,7 @@ function ContactUs() {
                         <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
                         <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
                         <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-                        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+                        <textarea className='Fmessage1' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
                         <button type='submit' className='Fbutton'>Submit</button>
                     </form>
 

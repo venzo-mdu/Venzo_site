@@ -9,9 +9,16 @@ import instaIcon from '../../../images/igCareers2.png'
 import Popup from '../popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
+import toMail from '../../../config/config'
+import { storage } from '../../firebase'
+import { v4 } from "uuid";
+import { ref, uploadBytes, listAll, getDownloadURL } from "firebase/storage";
+
 function ApplyJob() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [submit, setSubmit] = useState(false);
+  const [imagelist, setImagelist] = useState([]);
+  const [imageUpload, setImageUpload] = useState(null);
   const [emailInput, setEmailInput] = useState({
     name: "",
     email: "",
@@ -22,10 +29,13 @@ function ApplyJob() {
   const handleChange = (e) => {
     setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
   }
-  async function sendEmail(event) {
-    event.preventDefault()
+    const sendEmail =async(event)=>{
+    event.preventDefault();
+    sendFile();
+ 
+
     const body = {
-      to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+      to: toMail,
       cc: "priyankac@venzotechnologies.com",
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       // message:emailInput["message"]+emailInput["email"],
@@ -35,6 +45,16 @@ function ApplyJob() {
     console.log(emailResponse)
     setSubmit(true)
 
+  }
+  const sendFile =()=>{
+    console.log('hihih');
+  
+    const imageRef = ref(storage, `venzofile/${imageUpload.name + v4()}`)
+    uploadBytes(imageRef, imageUpload).then((snapshot) => {
+      getDownloadURL(snapshot.ref).then((url) => {
+        setImagelist((prev) => [...prev, url]);
+      })
+    })
   }
   return (
     <>
@@ -122,7 +142,7 @@ function ApplyJob() {
           <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
           <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
           <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-          <input className='file' type="file" placeholder='choose file' />
+          <input className='file' type="file" placeholder='choose file' onChange={(e)=>setImageUpload(e.target.files[0])}/>
           <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
           <button type='submit' className='Fbutton'>Submit</button>
         </form>

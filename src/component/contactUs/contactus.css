@@ -226,6 +226,17 @@
         width: 93%;
         height: 30%;
     }
+    .Fmessage1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #929292;
+        padding: 2%;
+        width: 97%;
+        height: 30%;
+    }
 
     .Fbutton {
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);

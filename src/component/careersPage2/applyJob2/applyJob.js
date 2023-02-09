@@ -9,6 +9,7 @@ import instaIcon from '../../../images/igCareers2.png'
 import Popup from '../popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
+import toMail from '../../../config/config'
 function ApplyJob() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [submit, setSubmit] = useState(false);
@@ -25,7 +26,7 @@ function ApplyJob() {
   async function sendEmail(event) {
     event.preventDefault()
     const body = {
-      to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+      to: toMail,
       cc: "priyankac@venzotechnologies.com",
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       // message:emailInput["message"]+emailInput["email"],

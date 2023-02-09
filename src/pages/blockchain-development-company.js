@@ -14,6 +14,7 @@ import Footer from '../component/footer/footer'
 import Popup from '../component/careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
+import toMail from '../config/config'
 function Blockchaindevelopment() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [emailInput, setEmailInput] = useState({
@@ -29,7 +30,7 @@ function Blockchaindevelopment() {
   async function sendEmail(event) {
     event.preventDefault()
     const body = {
-      to: "vgowthama225@gmail.com",
+      to: toMail,
       message: emailInput["message"] + emailInput["email"],
       subject: "subject here"
     }
@@ -110,15 +111,14 @@ function Blockchaindevelopment() {
       <Footer />
 
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <form onSubmit={sendEmail}>
-          <p id='joinourteamText'>Join our team</p>
-          <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
-          <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
-          <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-          <input className='file' type="file" placeholder='choose file' />
-          <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
-          <button type='submit' className='Fbutton'>Submit</button>
-        </form>
+      <form onSubmit={sendEmail}>
+            <p className='formTitle'>Let’s catch the initial spark!</p>
+            <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+            <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+            <button type='submit' className='Fbutton'>Submit</button>
+          </form>
       </Popup>
     </div>
   )

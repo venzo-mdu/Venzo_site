@@ -299,7 +299,7 @@ body {
 }
 
 .anyIdea12{
-    margin-left: 12%;
+    margin-left: 8%;
     padding: 2% 0;
     margin-top:-1% ;
     font-family: Poppins;
@@ -310,8 +310,8 @@ body {
     text-align: left;
 }
 .talk12{
-    margin-left: 28%;
-    height: 45%;
+    margin-left: 38%;
+    height: 45px;
     margin-top: 3%;
     width: 11%;
     color: white;
@@ -330,6 +330,25 @@ body {
     background: -webkit-linear-gradient(60deg, #e66521,#d1368f, #ae01ff);
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
+}
+.webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+    height: 343px;
+    width: 100%;
+    border-radius: 0px;
+    background: #F8F8F8;
+    border: 0.2px solid #CECECE;
+    padding-top: 11%;
+    padding-left: 11%;
+}
+
+.cardWebTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000000;
 }
 
 }

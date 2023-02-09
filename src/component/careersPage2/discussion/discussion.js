@@ -3,6 +3,7 @@ import '../discussion/discussion.css'
 import lineImg from '../../../images/horizLinecareers2.png'
 import axios from 'axios'
 import Popup from '../popup/popup'
+import toMail from '../../../config/config'
 function Discussion() {
   const [submit, setSubmit] = useState(false);
   const [emailInput, setEmailInput] = useState({
@@ -18,7 +19,7 @@ function Discussion() {
   async function sendEmail(event) {
     event.preventDefault()
     const body = {
-      to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+      to: toMail,
       cc: "priyankac@venzotechnologies.com",
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       // message:emailInput["message"]+emailInput["email"],
