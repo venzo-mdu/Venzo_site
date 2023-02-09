@@ -1,6 +1,37 @@
 import React from 'react'
 import '../offering/offering.css'
-function offering() {
+import Popup from '../../careersPage2/popup/popup'
+import { useState } from 'react'
+import axios from 'axios'
+
+function Offering() {
+  const [buttonPopup, setButtonPopup] = useState(false);
+  const [submit, setSubmit] = useState(false);
+  const [emailInput, setEmailInput] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
+  }
+  async function sendEmail(event) {
+    event.preventDefault()
+    const body = {
+      to: "priyariyabca@gmail.com , vgowthama225@gmail.com",
+      cc: "priyankac@venzotechnologies.com",
+      message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+      // message:emailInput["message"]+emailInput["email"],
+      subject: "subject here"
+    }
+    const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
+    console.log(emailResponse)
+    setSubmit(true)
+
+  }
+
   return (
     <div className='offering'>
       <p id='offeringTilte'>Partner with us for Full-stack App development.</p>
@@ -9,25 +40,41 @@ function offering() {
         <div className='offerCards1'>
           <p id='offerCardsTitle'>Front-end development Services</p>
           <p id='offerCardsText'>Leading businesses and startups bolster their development teams with Venzo front-end developers for software development projects that increase usability, including web development, UI/UX, and mobile app development. We use a wide variety of low-code languages.</p>
-          <button className='offerButton border-gradient-purple'>Get Quote</button>
+          <button className='offerButton border-gradient-purple' onClick={() => setButtonPopup(true)} >Get Quote</button>
         </div>
         <div className='offerCards1'>
           <p id='offerCardsTitle'>Back-End Application Development Services</p>
           <p id='offerCardsText'>We provide backend web development services that include but are not limited to, creating scalable, complicated applications and IoT infrastructure. Our team creates scalable backend solutions that automatically expand to meet your business needs.</p>
-          <button className='offerButton border-gradient-purple'>Get Quote</button>
+          <button className='offerButton border-gradient-purple' onClick={() => setButtonPopup(true)} >Get Quote</button>
         </div>
         <div className='offerCards1' id='offerCardsRes'>
           <p id='offerCardsTitle'>Comprehensive DevOps Solutions</p>
           <p id='offerCardsText'>Eliminate the tradeoff between quick release and quality assurance. We enable companies to accelerate innovation without taking any risks. By removing friction, our solutions can increase developer productivity, shorten the time it takes to launch products and boost customer happiness.</p>
-          <button className='offerButton border-gradient-purple'>Get Quote</button>
+          <button className='offerButton border-gradient-purple' onClick={() => setButtonPopup(true)} >Get Quote</button>
 
         </div>
       </div>
 
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <form onSubmit={sendEmail}>
+          <p id='joinourteamText'>Join our team</p>
+          <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+          <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+          <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+          <input className='file' type="file" placeholder='choose file' />
+          <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
+          <button type='submit' className='Fbutton'>Submit</button>
+        </form>
+      </Popup>
 
+      <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+        <div className='thankPop'>
+          Thank you for contacting us, our team will reach you.
+        </div>
+      </Popup>
 
     </div>
   )
 }
 
-export default offering
+export default Offering
