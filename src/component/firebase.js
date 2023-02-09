@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth"
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from 'firebase/storage' 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
     apiKey: "AIzaSyC6XJ9TTMi-Q2ea3cAynGr9pG_YZQMheP4",
     authDomain: "devtraining-2ec83.firebaseapp.com",
@@ -10,7 +11,7 @@ const firebaseConfig = {
     messagingSenderId: "642377465042",
     appId: "1:642377465042:web:1d406a78a39f30d5a8c10b",
     measurementId: "G-7W7TK0VXJN"
-}; 
+};
 const app = initializeApp(firebaseConfig);
 export const auth =getAuth(app);
 export default app;

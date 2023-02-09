@@ -15,6 +15,40 @@
 }
 #thankPop{
     width: 50%;
+    text-align: center;
+
+}
+.thanksMsg{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.succImg{
+ margin-left: 37%;
+width: 175px;
+height: 185px;
+
+
+}
+.subSucss{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C4C4C4;
 }
 #joinourteamText{
     font-family: 'Poppins';
@@ -172,6 +206,43 @@ ul li{
     font-size: 16px;
     width: 61% !important;
 }
+#thankPop{
+    width: 50%;
+    text-align: center;
+
+}
+.thanksMsg{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.succImg{
+ margin-left: 37%;
+width: 175px;
+height: 185px;
+
+
+}
+.subSucss{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C4C4C4;
+}
 }
 
 @media screen and (max-width:1204px) and (min-width:768px){
@@ -182,6 +253,43 @@ ul li{
     width: 100%;
     margin: 3% 0 0 0;
     padding: 2% 2%;
+}
+#thankPop{
+    width: 50%;
+    text-align: center;
+
+}
+.thanksMsg{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.succImg{
+ margin-left: 30%;
+width: 175px;
+height: 185px;
+
+
+}
+.subSucss{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C4C4C4;
 }
 }
 
@@ -204,6 +312,43 @@ ul li{
     margin-left: 15%;
 
 
+}
+#thankPop{
+    width: 50%;
+    text-align: center;
+
+}
+.thanksMsg{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.succImg{
+ margin-left: 23%;
+width: 150px;
+height: 150px;
+
+
+}
+.subSucss{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C4C4C4;
 }
 
 }
@@ -260,11 +405,85 @@ display: none;
     height: 40px;
     width: 328px;
     margin-left: 4%;
-}    
+}  
+#thankPop{
+    width: 50%;
+    text-align: center;
+
+}
+.thanksMsg{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.succImg{
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+
+
+}
+.subSucss{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #C4C4C4;
+}  
 }
 @media screen and (max-width:380px) {
     .descripition .applyNowButton{
     width: 300px;
     margin-left: 1%;
+    }
+    #thankPop{
+        width: 50%;
+        text-align: center;
+    
+    }
+    .thanksMsg{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #000000;
+    
+    }
+    .succImg{
+        margin-left: 28%;
+    width: 100px;
+    height: 100px;
+    
+    
+    }
+    .subSucss{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #C4C4C4;
     }
 }

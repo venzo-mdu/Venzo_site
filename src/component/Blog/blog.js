@@ -50,7 +50,7 @@ function Blog() {
         <input className='Femail' type="text" placeholder='Email*'></input>
         <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
         <input className='file' type="file" placeholder='choose file'></input>
-        <textarea className='Fmessage' placeholder='Message*'></textarea>
+        <textarea className='Fmessage' placeholder='Message'></textarea>
         <button className='Fbutton'>Submit</button>
       </Popup> */}
     </div>

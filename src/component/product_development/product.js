@@ -31,6 +31,7 @@ import Popup from '../careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
 import toMail from '../../config/config'
+import success from '../../images/successfully.png'
 function Product() {
     const [buttonPopup, setButtonPopup] = useState(false);
     const [submit, setSubmit] = useState(false);
@@ -333,16 +334,18 @@ function Product() {
             <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
             <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
             <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
             <button type='submit' className='Fbutton'>Submit</button>
           </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
-                <div className='thankPop'>
-                    Thank you for contacting us, our team will reach you.
-                </div>
-            </Popup>
+        <div className='thankPop'>
+          <p className='subSucss'>Submitted successfully</p>
+          <img src={success} alt='success' className='succImg'/>
+          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+        </div>
+      </Popup>
         </>
 
     )

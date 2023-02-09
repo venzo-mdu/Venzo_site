@@ -1,8 +1,9 @@
 import React from 'react'
 import '../leadership/leadership.css'
 
-import Leader1 from '../../../images/aboutus/aboutus15.png'
-import Leader2 from '../../../images/aboutus/aboutus16.png'
+import Leader1 from '../../../images/aboutus/asif.png'
+import Leader2 from '../../../images/aboutus/balaji.png'
+import Leader3 from '../../../images/aboutus/ravi.png'
 import linkedIcon from '../../../images/aboutus/aboutus14.png'
 
 
@@ -44,7 +45,7 @@ function leadership() {
 
           <div className='leaders'>
             <div className='imagewithText'>
-              <img className='leaderImage' src={Leader1} alt='leader'></img>
+              <img className='leaderImage' src={Leader3} alt='leader'></img>
               <div className='aboutLeader'>
                 <p id='nameText'>Ravi</p>
                 <p id='positionText'>Co-Fouder</p>

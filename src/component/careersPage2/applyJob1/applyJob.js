@@ -13,11 +13,11 @@ import toMail from '../../../config/config'
 import { storage } from '../../firebase'
 import { v4 } from "uuid";
 import { ref, uploadBytes, listAll, getDownloadURL } from "firebase/storage";
-
+import success from '../../../images/successfully.png'
 function ApplyJob() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [submit, setSubmit] = useState(false);
-  const [imagelist, setImagelist] = useState([]);
+  const [imagelist, setImagelist] = useState('');
   const [imageUpload, setImageUpload] = useState(null);
   const [emailInput, setEmailInput] = useState({
     name: "",
@@ -31,28 +31,33 @@ function ApplyJob() {
   }
     const sendEmail =async(event)=>{
     event.preventDefault();
-    sendFile();
+
  
 
     const body = {
       to: toMail,
       cc: "priyankac@venzotechnologies.com",
-      message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+      message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"] + " " +"<br> resume:" + " " + imagelist,
       // message:emailInput["message"]+emailInput["email"],
-      subject: "subject here"
+      subject: "subject here",
+      
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
     setSubmit(true)
 
   }
-  const sendFile =()=>{
-    console.log('hihih');
-  
-    const imageRef = ref(storage, `venzofile/${imageUpload.name + v4()}`)
-    uploadBytes(imageRef, imageUpload).then((snapshot) => {
+  const sendFile =(e)=>{
+    console.log('hihh',imagelist,'image',imageUpload);
+    setImageUpload(e.target.files[0])
+    console.log(e.target.files[0])
+    const imageRef = ref(storage, `venzofile/${e.target.files[0].name + v4()}`)
+
+    uploadBytes(imageRef, e.target.files[0]).then((snapshot) => {
       getDownloadURL(snapshot.ref).then((url) => {
-        setImagelist((prev) => [...prev, url]);
+        console.log(url)
+        // setImagelist((prev) => [...prev, url]);
+        setImagelist(url)
       })
     })
   }
@@ -142,15 +147,17 @@ function ApplyJob() {
           <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
           <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
           <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-          <input className='file' type="file" placeholder='choose file' onChange={(e)=>setImageUpload(e.target.files[0])}/>
-          <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*' ></textarea>
+          <input className='file' type="file" placeholder='choose file' onChange={sendFile}/>
+          <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' ></textarea>
           <button type='submit' className='Fbutton'>Submit</button>
         </form>
       </Popup>
 
       <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
         <div className='thankPop'>
-          Thank you for contacting us, our team will reach you.
+          <p className='subSucss'>Submitted successfully</p>
+          <img src={success} alt='success' className='succImg'/>
+          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
         </div>
       </Popup>
     </>

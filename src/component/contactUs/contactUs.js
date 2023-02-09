@@ -81,7 +81,7 @@ function ContactUs() {
                         <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
                         <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
                         <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-                        <textarea className='Fmessage1' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+                        <textarea className='Fmessage1' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
                         <button type='submit' className='Fbutton'>Submit</button>
                     </form>
 

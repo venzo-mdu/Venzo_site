@@ -5,6 +5,8 @@ import line1 from '../../DMpage/Vector 82.png'
 import DevType from './DevType'
 import DevCarousel from './devCarousel'
 import colorArrow from '../../images/devArrow.svg'
+import success from '../../images/successfully.png'
+
 import './development.css'
 import './laptopL.css'
 import './laptop.css'
@@ -94,16 +96,18 @@ function Development() {
             <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
             <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
             <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
             <button type='submit' className='Fbutton'>Submit</button>
           </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
-                <div className='thankPop'>
-                    Thank you for contacting us, our team will reach you.
-                </div>
-            </Popup>
+        <div className='thankPop'>
+          <p className='subSucss'>Submitted successfully</p>
+          <img src={success} alt='success' className='succImg'/>
+          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+        </div>
+      </Popup>
 
         </div>
     )

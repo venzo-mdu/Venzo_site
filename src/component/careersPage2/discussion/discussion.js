@@ -4,6 +4,8 @@ import lineImg from '../../../images/horizLinecareers2.png'
 import axios from 'axios'
 import Popup from '../popup/popup'
 import toMail from '../../../config/config'
+import success from '../../../images/successfully.png'
+
 function Discussion() {
   const [submit, setSubmit] = useState(false);
   const [emailInput, setEmailInput] = useState({
@@ -48,7 +50,7 @@ function Discussion() {
                 <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
                 <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
 
-                <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message*'></textarea>
+                <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
                 <button type='submit' className='Fbutton'>Submit</button>
               </form>
 
@@ -59,7 +61,9 @@ function Discussion() {
 
       <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
         <div className='thankPop'>
-          Thank you for contacting us, our team will reach you.
+          <p className='subSucss'>Submitted successfully</p>
+          <img src={success} alt='success' className='succImg'/>
+          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
         </div>
       </Popup>
     </>
