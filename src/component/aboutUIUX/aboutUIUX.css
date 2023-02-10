@@ -81,6 +81,7 @@ body {
     color: #FFFFFF;
     margin: 3% 0 0 0;
     padding-right: 3%;
+    cursor: pointer;
 }
 
 #digitalLine3 img {

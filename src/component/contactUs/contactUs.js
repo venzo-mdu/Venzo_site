@@ -10,15 +10,16 @@ import './laptopL.css'
 import './laptop.css'
 import './tablet.css'
 import './mobile.css'
-import FbIcon from "../../images/facebook.png"
-import TwitterIcon from "../../images/tiwerr.png"
-import LinkedinIcon from "../../images/linkedin.png"
-import InstaIcon from "../../images/insta.png"
-import youtube from '../../images/youtube.png'
+import FbIcon from "../../images/contactUs/blackicon5.png"
+import TwitterIcon from "../../images/contactUs/blackicon1.png"
+import LinkedinIcon from "../../images/contactUs/blackicon2.png"
+import InstaIcon from "../../images/contactUs/blackicon3.png"
+import youtube from '../../images/contactUs/blackicon4.png'
 import axios from 'axios'
 import { useState } from 'react'
 import Popup from '../careersPage2/popup/popup'
 import toMail from '../../config/config'
+import success from '../../images/successfully.png'
 function ContactUs() {
 
 
@@ -37,14 +38,20 @@ function ContactUs() {
         event.preventDefault()
         const body = {
             to: toMail,
-            cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            // message:emailInput["message"]+emailInput["email"],
-            subject: "subject here"
+            subject: "Contact-us"
         }
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
         setSubmit(true)
+        setEmailInput(
+            {
+                name: "",
+                email: "",
+                mobile: "",
+                message: ""
+            }
+        )
 
     }
     return (
@@ -57,7 +64,7 @@ function ContactUs() {
             <div className='contactUs1'>
                 <div className='cont'>
                     <p className='contactTitle' >Got an idea?<br />Let's get in touch!</p>
-                    <img src={Rectangle} alt="rectangle"/>
+                    <img src={Rectangle} alt="rectangle" />
                     <div className='lin1'>
                         <img className='ph_icon1' src={phone} alt='ph_icon' />
                         <h5 className='country1'><u>INDIA</u><br /><span className='phn'>+91 9840594865</span></h5>
@@ -90,19 +97,28 @@ function ContactUs() {
             <div className='mediaIocn'>
                 <p className='icontitle'>connect with us</p>
                 <div className='mediaIcons'>
-                    <img className='icons1' src={FbIcon} alt='fbIcon'></img>
-                    <img className='icons1' src={TwitterIcon} alt='twitterIcon'></img>
-                    <img className='icons1' src={LinkedinIcon} alt='linkedIcon'></img>
-                    <img className='icons1' src={InstaIcon} alt='instaIcon'></img>
-                    <img className='icons1' src={youtube} alt='youtube'></img>
+                    {/* <img className='fbicons1' src={FbIcon} alt='fbIcon'></img> */}
+                    <a href='https://www.facebook.com/VenzoTechnologies/' className='fbicons1'> <p ></p></a>
+                    <a href='https://twitter.com/Venzo_Tech/' className='twitericons1' > <p ></p></a>
+                    <a href='https://www.linkedin.com/company/venzo-technologies/' className='linkedicons1'> <p ></p></a>
+                    <a href='https://www.instagram.com/venzo_tech/' className='instaicons1'> <p ></p></a>
+                    <a href='https://www.youtube.com/channel/UCebtP01QSLIIRNrye8Zl4HQ' className='youtubeicons1'> <p></p></a>
+
+                    {/* <img className='twitericons1' src={TwitterIcon} alt='twitterIcon'></img>
+                    <img className='linkedicons1' src={LinkedinIcon} alt='linkedIcon'></img>
+                    <img className='instaicons1' src={InstaIcon} alt='instaIcon'></img>
+                    <img className='youtubeicons1' src={youtube} alt='youtube'></img> */}
                 </div>
             </div>
 
 
             <Footer />
+
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
                 <div className='thankPop'>
-                    Thank you for contacting us, our team will reach you.
+                    <p className='subSucss'>Submitted successfully</p>
+                    <img src={success} alt='success' className='succImg' />
+                    <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
                 </div>
             </Popup>
         </div>

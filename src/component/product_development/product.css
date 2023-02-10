@@ -270,7 +270,7 @@
 .ButtonTalk{
     background: #0A1020;
     border-radius: 8px;
-    
+    cursor: pointer;
     background-image: url("../../images/blockchaindevelopment/demobtn.png");
     background-repeat: no-repeat;
     background-size:100% 100%;

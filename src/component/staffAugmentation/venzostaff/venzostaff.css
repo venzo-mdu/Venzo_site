@@ -33,6 +33,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    cursor: pointer;
+
 }
 .venzoSA #venzoSATalk img{
     margin-left: 1%;

@@ -11,8 +11,8 @@ import Footer from '../component/footer/footer'
 
 const careers = () => {
     return (
-        <>
-            <Header flag="header2" />
+        <div className='blockchainbody'>
+        <Header flag="header2" />
             <Colleagues />
             <Life />
             <Perks />
@@ -21,7 +21,7 @@ const careers = () => {
             <Frequently />
             <Pahtway />
             <Footer />
-        </>
+        </div>
     );
 }
 

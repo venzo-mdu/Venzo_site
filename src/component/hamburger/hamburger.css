@@ -45,6 +45,7 @@
             width: 430px;
             padding: 1.5% 5%;
             right: 0px;
+            padding-left: 10%;
         }
         .closeBtn{
             position: absolute;
@@ -59,6 +60,8 @@
             width: 380px;
             padding: 1.5% 5%;
             right: 0px;
+            padding-left: 10%;
+
         }
     }
     /* @media screen and (max-width:365px){

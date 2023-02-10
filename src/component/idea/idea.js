@@ -8,6 +8,7 @@ import itemContent from '../../content/CustomerContent.json'
 import Popup from '../careersPage2/popup/popup'
 import axios from 'axios'
 import success from '../../images/successfully.png'
+import toMail from '../../config/config'
 
 function Idea() {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -25,15 +26,19 @@ function Idea() {
   async function sendEmail(event){
     event.preventDefault()
     const body={
-      to:"priyariyabca@gmail.com , vgowthama225@gmail.com",
-      cc:"priyankac@venzotechnologies.com", 
+      to:toMail,
       message:" Name:"+ " " +emailInput["name"] + " " + " <br> Email:"+ " "+ emailInput["email"] + " " + " <br> Mobile No:" + " "+ emailInput["mobile"] + " " + " <br> Message:"+ " " + emailInput["message"],
-      // message:emailInput["message"]+emailInput["email"],
-      subject:"subject here"
+      subject:"home"
     }
     const emailResponse=await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail",body);
     console.log(emailResponse)
     setSubmit(true)
+    setEmailInput(
+      { name: "",
+      email: "",
+      mobile: "",
+      message: ""}
+  )
 
   }
   return (

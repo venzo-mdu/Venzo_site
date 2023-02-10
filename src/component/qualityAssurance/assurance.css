@@ -337,6 +337,8 @@
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #7E7E7E;
+    cursor: pointer;
+
 }
 
 .quality_cardTitleHr {
@@ -512,6 +514,8 @@
     background-size: contain;
     padding: 2%;
     padding-left: 81px;
+    cursor: pointer;
+
 }
 
 /* .qualitybtn:hover {

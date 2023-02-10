@@ -70,14 +70,20 @@ function ImageCarousel() {
         event.preventDefault()
         const body = {
             to: toMail,
-            cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            // message:emailInput["message"]+emailInput["email"],
-            subject: "subject here"
+            subject: "home"
         }
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
         setSubmit(true)
+        setEmailInput(
+            {
+                name: "",
+                email: "",
+                mobile: "",
+                message: ""
+            }
+        )
 
     }
     return (
@@ -165,23 +171,23 @@ function ImageCarousel() {
                 <a href='https://www.instagram.com/venzo_tech/'><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
             </div>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <form onSubmit={sendEmail}>
-                        <p className='formTitle'>Let’s catch the initial spark!</p>
-                        <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-                        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
-                        <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-                        <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
-                        <button type='submit' className='Fbutton'>Submit</button>
-                    </form>
+                <form onSubmit={sendEmail}>
+                    <p className='formTitle'>Let’s catch the initial spark!</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
-        <div className='thankPop'>
-          <p className='subSucss'>Submitted successfully</p>
-          <img src={success} alt='success' className='succImg'/>
-          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
-        </div>
-      </Popup>
+                <div className='thankPop'>
+                    <p className='subSucss'>Submitted successfully</p>
+                    <img src={success} alt='success' className='succImg' />
+                    <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+                </div>
+            </Popup>
         </>
     )
 }

@@ -271,11 +271,10 @@ input {
     margin: 4% 0 10% 10%;
 }
 
-.icons1 {
-    width: 22.97px;
-    height: 22.97px;
-    margin-left: 11%;
-
+.fbicons1, .twitericons1, .linkedicons1, .instaicons1, .youtubeicons1  {
+    width: 46.97px;
+    height: 32.97px;
+    margin-left: 4%;
 }}
 
 /* @media screen and (max-width:430px) and (min-width:380px) {
@@ -810,12 +809,13 @@ input {
     margin-top: 5%;
 }
 .mediaIcons{
-    width: 90%;
-    margin: -3% 0 15%;
+    width: 93%;
+    margin: 3% 0 15%;
 }
 
-.icons1 {
-    width: 19.97px;
-    height: 20.97px;
-    margin-left: 13%;
-}}
+.fbicons1, .twitericons1, .linkedicons1, .instaicons1, .youtubeicons1 {
+    width: 46.97px;
+    height: 32.97px;
+    margin-left: 6%;
+}
+}

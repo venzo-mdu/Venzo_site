@@ -3,29 +3,43 @@ import "../pathway/pathway.css"
 import Popup from '../careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
+import success from '../../images/successfully.png'
+import toMail from '../../config/config'
+
 function Pathway() {
   const [buttonPopup, setButtonPopup] = useState(false);
-  const [emailInput, setEmailInput] = useState({
-    name: "",
-    email: "",
-    mobile: "",
-    message: ""
-  });
+    const [submit, setSubmit] = useState(false);
+    const [emailInput, setEmailInput] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        message: ""
+    });
 
-  const handleChange = (e) => {
-    setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
-  }
-  async function sendEmail(event) {
-    event.preventDefault()
-    const body = {
-      to: "vgowthama225@gmail.com",
-      message: emailInput["message"] + emailInput["email"],
-      subject: "subject here"
+    const handleChange = (e) => {
+        setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
     }
-    const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
-    console.log(emailResponse)
+    async function sendEmail(event) {
+        event.preventDefault()
+        const body = {
+            to: toMail,
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
+            subject: "product-development-company"
+        }
 
-  }
+        const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
+        console.log(emailResponse)
+        setSubmit(true)
+        setEmailInput(
+            {
+                name: "",
+                email: "",
+                mobile: "",
+                message: ""
+            }
+        )
+
+    }
   return (
     <>
       <section>
@@ -44,6 +58,13 @@ function Pathway() {
           <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
           <button type='submit' className='Fbutton'>Submit</button>
         </form>
+      </Popup>
+      <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
+        <div className='thankPop'>
+          <p className='subSucss'>Submitted successfully</p>
+          <img src={success} alt='success' className='succImg' />
+          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+        </div>
       </Popup>
     </>
   )

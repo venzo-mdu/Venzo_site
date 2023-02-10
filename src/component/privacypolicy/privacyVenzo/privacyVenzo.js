@@ -19,12 +19,12 @@ function privacyVenzo() {
         <PolicyVenzo />
         <div className='connectwithUs'>
           <p id='connectwithUsTitle'>connect with us</p>
-          <div className='privacyMediaIcons'>
-            <a href='https://www.facebook.com/VenzoTechnologies/'><img className='ppicons' src={fbIcon} alt='socialIcons'></img></a>
-            <a href='https://twitter.com/Venzo_Tech/'><img className='ppicons' src={TwitterIcon} alt='socialIcons'></img></a>
-            <a href='https://www.linkedin.com/company/venzo-technologies/'><img className='ppicons' src={linkedinIcon} alt='socialIcons'></img></a>
-            <a href='https://www.instagram.com/venzo_tech/'><img className='ppicons' src={instaIcon} alt='socialIcons'></img></a>
-            <a href='https://www.youtube.com/channel/UCebtP01QSLIIRNrye8Zl4HQ'><img className='ppicons' src={youtubeIcon} alt='socialIcons'></img></a>
+          <div className='mediaIcons'>
+            <a href='https://www.facebook.com/VenzoTechnologies/' className='fbicons1'> <p ></p></a>
+            <a href='https://twitter.com/Venzo_Tech/' className='twitericons1' > <p ></p></a>
+            <a href='https://www.linkedin.com/company/venzo-technologies/' className='linkedicons1'> <p ></p></a>
+            <a href='https://www.instagram.com/venzo_tech/' className='instaicons1'> <p ></p></a>
+            <a href='https://www.youtube.com/channel/UCebtP01QSLIIRNrye8Zl4HQ' className='youtubeicons1'> <p></p></a>
           </div>
         </div>
       </div>

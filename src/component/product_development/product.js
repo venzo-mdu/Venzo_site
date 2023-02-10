@@ -49,14 +49,21 @@ function Product() {
         event.preventDefault()
         const body = {
             to: toMail,
-            cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            // message:emailInput["message"]+emailInput["email"],
-            subject: "subject here"
+            subject: "product-development-company"
         }
+
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
         setSubmit(true)
+        setEmailInput(
+            {
+                name: "",
+                email: "",
+                mobile: "",
+                message: ""
+            }
+        )
 
     }
     return (
@@ -79,33 +86,33 @@ function Product() {
                     <p className='experts_title'>We are <span className='colorname'>experts in</span></p>
                     <div className='expert_flex'>
                         <div>
-                            <img src={quality} alt="quality"/>
+                            <img src={quality} alt="quality" />
                             <p className='titleHead'>Enterprise<br /> Application Development</p>
                         </div>
                         {/* <img className='VerticlLine' src={VerticlLine} alt ='VerticlLine' /> */}
                         <img className='linev LinevHoriz' src={line} alt='line' />
 
                         <div>
-                            <img src={mvp} alt="mvp"/>
+                            <img src={mvp} alt="mvp" />
                             <p className='titleHead'>MVP<br /> Development</p>
                         </div>
 
                         <img className='linev LinevHoriz' src={line} alt='line' />
 
                         <div>
-                            <img src={domin} alt="domain"/>
+                            <img src={domin} alt="domain" />
                             <p className='titleHead'>Domain<br /> Specific Development</p>
                         </div>
                         <img className='linev LinevHoriz' src={line} alt='line' />
 
                         <div>
-                            <img src={consulting} alt="consult"/>
+                            <img src={consulting} alt="consult" />
                             <p className='titleHead'>Business<br /> Consulting</p>
                         </div>
                         <img className='linev LinevHoriz' src={line} alt='line' />
 
                         <div>
-                            <img src={sme} alt="sme"/>
+                            <img src={sme} alt="sme" />
                             <p className='titleHead'>SME<br /> Product Development</p>
                         </div>
                     </div>
@@ -115,7 +122,7 @@ function Product() {
                     </div>
                     <div className='saas'>
                         <div className='saas_consulting'>
-                            <img className='saasImg' src={saas1} alt="saas1"/>
+                            <img className='saasImg' src={saas1} alt="saas1" />
                             <div className='cons_right'>
                                 <p className='cons_title'>Saas Consulting</p>
                                 <p className='cons_desc SaasPara'>Implementing a SaaS solution is the first step towards business digitalization. We also perform the Discovery Phase, develop the SaaS application concept, and devise a development strategy that reflects your long-term goals.</p>
@@ -140,7 +147,7 @@ function Product() {
                             </div>
                         </div>
                         <div className='saas_Development'>
-                            <img className='saasImg' id='saasImgRes' src={saas4} alt="saasImg"/>
+                            <img className='saasImg' id='saasImgRes' src={saas4} alt="saasImg" />
                             <div className='cons_left'>
                                 <p className='cons_title SaasDevTit2'>Saas Development</p>
                                 <p className='cons_desc SAASDev'>We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
@@ -172,11 +179,11 @@ function Product() {
                                     </div>
                                 </div>
                             </div>
-                            <img className='saasImg1' src={saas2} alt="saas2"/>
+                            <img className='saasImg1' src={saas2} alt="saas2" />
 
                         </div>
                         <div className='saas_consulting'>
-                            <img className='saasImg' src={saas3} alt="saas3"/>
+                            <img className='saasImg' src={saas3} alt="saas3" />
                             <div className='cons_right'>
                                 <p className='cons_title ConsTitl'>Support and Maintanence</p>
                                 <p className='cons_desc SupportMain'>We can add new features and maintains the product. We can develop a SaaS product from scratch or re-architecture existing applications for SaaS environments.</p>
@@ -329,23 +336,23 @@ function Product() {
 
             </div>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <form onSubmit={sendEmail}>
-            <p className='formTitle'>Let’s catch the initial spark!</p>
-            <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
-            <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
-            <button type='submit' className='Fbutton'>Submit</button>
-          </form>
+                <form onSubmit={sendEmail}>
+                    <p className='formTitle'>Let’s catch the initial spark!</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
-        <div className='thankPop'>
-          <p className='subSucss'>Submitted successfully</p>
-          <img src={success} alt='success' className='succImg'/>
-          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
-        </div>
-      </Popup>
+                <div className='thankPop'>
+                    <p className='subSucss'>Submitted successfully</p>
+                    <img src={success} alt='success' className='succImg' />
+                    <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+                </div>
+            </Popup>
         </>
 
     )

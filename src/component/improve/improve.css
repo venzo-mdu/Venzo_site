@@ -49,6 +49,7 @@ body{
     color: white;
     font-size: 16px;
     margin: 3% 0 0 0;
+    cursor: pointer;
 }
 .improveRes{
     display:none;

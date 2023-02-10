@@ -38,15 +38,19 @@ function ApplyJob() {
 
     const body = {
       to: toMail,
-      cc: "priyankac@venzotechnologies.com",
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"] + " " +"<br> resume:" + " " + imagelist,
-      // message:emailInput["message"]+emailInput["email"],
-      subject: "subject here",
+      subject: "careers",
       
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
     setSubmit(true)
+    setEmailInput(
+      { name: "",
+      email: "",
+      mobile: "",
+      message: ""}
+  )
 
   }
   const sendFile =(e)=>{

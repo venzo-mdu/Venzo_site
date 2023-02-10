@@ -76,6 +76,7 @@
     color: #FFFFFF;
     padding-top: 1%;
     padding-bottom: 7%;
+    cursor: pointer;
 }
 #knowMore1{
     font-family: 'Poppins';
@@ -85,6 +86,7 @@
     color: #0E276A;
     padding-top: 1%;
     padding-bottom: 7%;
+    cursor: pointer;
 
 }
 
@@ -172,6 +174,8 @@
         letter-spacing: -0.04em;
         text-align: left;
         color: #FFFFFF;
+        cursor: pointer;
+
     }
     #knowMore1{
         font-family: 'Poppins';
@@ -181,6 +185,7 @@
         color: #0E276A;
         padding-top: 1%;
         padding-bottom: 7%;
+        cursor: pointer;
     
     }
     
@@ -401,6 +406,8 @@
         font-size: 14px;
         color: #FFFFFF;
         text-align: center;
+    cursor: pointer;
+
 
     }
     #knowMore1{
@@ -410,6 +417,8 @@
         font-size: 14px;
         color: #0E276A;
         text-align: center;
+    cursor: pointer;
+
     }
     #blockchainDev{
         font-family: 'Poppins';
@@ -510,6 +519,8 @@
         color: #FFFFFF;
         padding-top: 1%;
         padding-bottom: 40%;
+    cursor: pointer;
+
     }
     #knowMore1{
         font-family: 'Poppins';
@@ -519,6 +530,7 @@
         color: #0E276A;
         padding-top: 1%;
         padding-bottom: 40%;
+        cursor: pointer;
     
     }
     #blockchainDev{
@@ -629,6 +641,7 @@
         color: #0E276A;
         padding-top: 1%;
         padding-bottom: 40%;
+        cursor: pointer;
     
     }
     #blockchainDev{
@@ -738,6 +751,7 @@
         color: #0E276A;
         padding-top: 1%;
         padding-bottom: 40%;
+        cursor: pointer;
     
     }
     #blockchainDev{

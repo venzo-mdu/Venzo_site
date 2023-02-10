@@ -5,11 +5,11 @@ import Footer from '../component/footer/footer'
 
 function privacypolicy() {
   return (
-    <>
+    <div className='blockchainbody'>
       <Header flag='header2' />
       <Privacy />
       <Footer />
-    </>
+    </div>
   )
 }
 

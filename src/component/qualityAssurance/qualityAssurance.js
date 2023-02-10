@@ -151,14 +151,20 @@ function QualityAssurance() {
         event.preventDefault()
         const body = {
             to: toMail,
-            cc: "priyankac@venzotechnologies.com",
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            // message:emailInput["message"]+emailInput["email"],
-            subject: "subject here"
+            subject: "quality-engineering-assurance"
         }
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
         setSubmit(true)
+        setEmailInput(
+            {
+                name: "",
+                email: "",
+                mobile: "",
+                message: ""
+            }
+        )
 
     }
     return (
@@ -272,11 +278,11 @@ function QualityAssurance() {
                         </ul>
                         <div className='quality_card1'>
                             <div>
-                                <img src={autoimg1} alt="autoimg"/>
+                                <img src={autoimg1} alt="autoimg" />
                                 <br /><br /><hr />
-                                <img src={autoimg2} alt="autoimg"/>
+                                <img src={autoimg2} alt="autoimg" />
                                 <br /><br /><hr />
-                                <img src={autoimg3} alt="autoimg"/>
+                                <img src={autoimg3} alt="autoimg" />
                             </div>
                         </div>
                     </div>
@@ -287,11 +293,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Automation Testing </Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={autoimg1} alt="autoimg"/>
+                                        <img src={autoimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={autoimg2} alt="autoimg"/>
+                                        <img src={autoimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={autoimg3} alt="autoimg"/>
+                                        <img src={autoimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -299,11 +305,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Test & Defect</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={testimg1} alt="autoimg"/>
+                                        <img src={testimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={testimg2} alt="autoimg"/>
+                                        <img src={testimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={testimg3} alt="autoimg"/>
+                                        <img src={testimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -312,9 +318,9 @@ function QualityAssurance() {
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
                                         <br /><br />
-                                        <img src={developimg2} alt="autoimg"/>
+                                        <img src={developimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={developimg1} alt="autoimg"/>
+                                        <img src={developimg1} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -322,11 +328,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Mobile Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={cardimg1} alt="autoimg"/>
+                                        <img src={cardimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={cardimg2} alt="autoimg"/>
+                                        <img src={cardimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={cardimg3} alt="autoimg"/>
+                                        <img src={cardimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -334,11 +340,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Web Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={webimg1} alt="autoimg"/>
+                                        <img src={webimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={webimg2} alt="autoimg"/>
+                                        <img src={webimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={webimg3} alt="autoimg"/>
+                                        <img src={webimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -346,11 +352,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Security Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={securityimg1} alt="autoimg"/>
+                                        <img src={securityimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={securityimg2} alt="autoimg"/>
+                                        <img src={securityimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={securityimg3} alt="autoimg"/>
+                                        <img src={securityimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -358,11 +364,11 @@ function QualityAssurance() {
                                 <Accordion.Header className='qacardtitle' >Performance Tesing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
-                                        <img src={performimg1} alt="autoimg"/>
+                                        <img src={performimg1} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={performimg2} alt="autoimg"/>
+                                        <img src={performimg2} alt="autoimg" />
                                         <br /><br /><hr />
-                                        <img src={performimg3} alt="autoimg"/>
+                                        <img src={performimg3} alt="autoimg" />
                                     </div>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -403,23 +409,23 @@ function QualityAssurance() {
             <Footer />
 
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <form onSubmit={sendEmail}>
-            <p className='formTitle'>Let’s catch the initial spark!</p>
-            <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
-            <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-            <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
-            <button type='submit' className='Fbutton'>Submit</button>
-          </form>
+                <form onSubmit={sendEmail}>
+                    <p className='formTitle'>Let’s catch the initial spark!</p>
+                    <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                    <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
+                    <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
+                    <button type='submit' className='Fbutton'>Submit</button>
+                </form>
             </Popup>
 
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
-        <div className='thankPop'>
-          <p className='subSucss'>Submitted successfully</p>
-          <img src={success} alt='success' className='succImg'/>
-          <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
-        </div>
-      </Popup>
+                <div className='thankPop'>
+                    <p className='subSucss'>Submitted successfully</p>
+                    <img src={success} alt='success' className='succImg' />
+                    <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+                </div>
+            </Popup>
 
         </div>
     )
