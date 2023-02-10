@@ -438,7 +438,7 @@
     }
 
     .component {
-        padding: 15% 0 10% 0;
+        padding: 20% 0 10% 0;
         background-image: url("../../webDev_Image/devBgM.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -449,8 +449,8 @@
     .web_Title {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 600;
-        font-size: 42px;
+        font-weight: 500;
+        font-size: 24px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
@@ -536,7 +536,7 @@
 
     .Webdesc-detail {
         margin: auto;
-        width: 80%;
+        width: 100%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -568,7 +568,7 @@
 
     .devContent {
         height: 12%;
-        width: 40%;
+        width: 90%;
         margin-left: 8%;
     }
 
@@ -588,7 +588,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 175%;
-        width: 200%;
+        width: 90%;
         text-align: justify;
         padding-bottom: 10%;
 
@@ -854,7 +854,7 @@
     }
 
     .component {
-        padding: 15% 0 10% 0;
+        padding: 20% 0 10% 0;
         background-image: url("../../webDev_Image/devBgM.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -866,7 +866,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 42px;
+        font-size: 21px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
@@ -952,7 +952,7 @@
 
     .Webdesc-detail {
         margin: auto;
-        width: 90%;
+        width: 100%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -984,7 +984,7 @@
 
     .devContent {
         height: 12%;
-        width: 40%;
+        width: 100%;
         margin-left: 8%;
     }
 
@@ -1004,7 +1004,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 175%;
-        width: 200%;
+        width: 80%;
         text-align: justify;
         padding-bottom: 10%;
 

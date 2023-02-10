@@ -52,7 +52,7 @@ function Development() {
             <Header flag='header2' />
             <div className='component'>
                 <div className='sect1'>
-                    <p className='web_Title'>Expand your digtial <br className='mobilBr' />territory</p>
+                    <p className='web_Title'>Enabling businesses stand out <br/> securely in the dynamic digital <br/> environment territory</p>
                     <p className="webDesc">We build sites that build your business</p>
                     <p className="knowmore" onClick={() => setButtonPopup(true)}>KNOW MORE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
                 </div>
@@ -61,21 +61,21 @@ function Development() {
                 <p className='sect2_title'> What we do? </p>
                 <div className='sect2-desc'>
                     <div className='devdesc-p'>
-                        <p className='Webdesc-titlte'>Wordpress Development</p>
-                        <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
+                        <p className='Webdesc-titlte'>Wordpress Development </p>
+                        <p className='Webdesc-detail'> Developing customized WordPress websites for businesses based on parameters like adaptability, dynamic functionality, and security.  </p>
                         <img className="lineM1" src={line1} alt="line"/>
                     </div>
 
                     <div className='devdesc-p'>
-                        <p className='Webdesc-titlte'>Ecommerce Development</p>
-                        <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
+                        <p className='Webdesc-titlte'>Ecommerce Development </p>
+                        <p className='Webdesc-detail'>Offering a blended connection with the present and potential customers through accelerated and innovative e-commerce solutions.</p>
                         <img className='Vline1' src={line} alt="line"></img>
                         <img className="lineM1" src={line1} alt="line"/>
 
                     </div>
                     <div className='devdesc-p'>
-                        <p className='Webdesc-titlte'>Website Development</p>
-                        <p className='Webdesc-detail'>We offer refined customized applications that streamline your.</p>
+                        <p className='Webdesc-titlte'>Custom Website Development </p>
+                        <p className='Webdesc-detail'>Integrating business solutions in future ready custom websites to seize growth opportunities in the digital economy. </p>
                         <img className='Vline1' src={line} alt="line"></img>
 
                     </div>

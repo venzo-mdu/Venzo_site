@@ -132,7 +132,7 @@ border-radius: 7px;
     list-style-type: none;
     margin-left: -2%;
  }
-ul li{
+ .jobDescripition ul li{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;

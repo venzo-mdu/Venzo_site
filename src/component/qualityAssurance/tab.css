@@ -424,9 +424,8 @@
     }
 
     .qualitybtn {
-        margin-left: 3%;
+        margin-left: 5%;
         height: 45%;
-        margin-top: 2%;
         width: 25%;
         color: white;
         background-color: #0A1020;
@@ -436,7 +435,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 120%;
-        padding: 1%;
+        padding-left: 23px;
     }
 
     .qualitybtn:hover {
@@ -887,17 +886,16 @@
     .qualitybtn {
         margin-left: 5%;
         height: 45%;
-        margin-top: 2%;
-        width: 45%;
+        width: 25%;
         color: white;
         background-color: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 120%;
-        padding: 3%;
+        padding-left: 23px;
     }
 
     /* .qualitybtn:hover {

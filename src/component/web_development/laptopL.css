@@ -18,7 +18,7 @@ body {
 }
 
 .component {
-    padding: 10% 0 10% 0;
+    padding: 7% 0 10% 0;
     background-image: url("../../webDev_Image/devBg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body {
 }
 
 .Webdesc-titlte {
-    width: 54%;
+    width: 65%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -108,7 +108,7 @@ body {
 
 .Webdesc-detail {
     margin: auto;
-    width: 65%;
+    width: 60%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -119,7 +119,7 @@ body {
 }
 
 .Vline1 {
-    margin-top: -27%;
+    margin-top: -44%;
     height: 60%;
 }
 
@@ -196,7 +196,7 @@ body {
     font-size: 16px;
     line-height: 133.5%;
     color: #000000;
-    width: 60%;
+    width: 58%;
 }
 
 .hr_line1{

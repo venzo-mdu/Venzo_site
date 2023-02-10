@@ -1,17 +1,17 @@
 [
     {
         "title": "Wordpress Development",
-        "content": "WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its superior quality plugins and easy development and maintenance. Our team of WordPress experts specializes in offering a wide range of services that help you leverage the potential of WordPress.",
+        "content": "Trap the fast, secure and unbeatable performance of Wordpress!. Our enviable wordpress websites development services are a perfect blend of industry specific approach and creativity. Team of expert developers provide an immersive and intuitive website navigation experience to your clients via careful selection of images, compelling content on every page, and embedding third-party modules and plugins.  ",
         "images": "../images/wordpress.png",
         "SubContent": [
             {
                 "icon1": "../images/security.png",
-                "title1": "WordPress CMS Installation & Configuration"
+                "title1": "WordPress CMS Installation & Configuration "
 
             },
             {
                 "icon1": "../images/security.png",
-                "title1": "Custom WordPress Web Development"
+                "title1": "Custom WordPress Web Development "
 
             },
             {
@@ -42,22 +42,22 @@
     },
     {
         "title": "Ecommerce Development",
-        "content": "WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its superior quality plugins and easy development and maintenance. Our team of WordPress experts specializes in offering a wide range of services that help you leverage the potential of WordPress.",
+        "content": "Integrating cutting-edge custom e-commerce development with world-class support! We create a distinctive look and feel for e-commerce websites with robust backend support so that no stone is left unturned for your digital business store. Our deliverables include highly scalable and reliable online stores that cater to a global clientele.",
         "images": "../images/ecommerce.png",
         "SubContent": [
             {
                 "icon1": "../images/security.png",
-                "title1": "Responsive Shopping Website"
+                "title1": "Shopify E-commerce Website "
 
             },
             {
                 "icon1": "../images/security.png",
-                "title1": "Payment Gateway Integration"
+                "title1": "Woocommerce Website "
 
             },
             {
                 "icon1": "../images/security.png",
-                "title1": "WordPress Theme Customisation"
+                "title1": "Responsive Shopping Website "
 
             }
             
@@ -65,17 +65,17 @@
         "SubContent1":[
             {
                 "icon2": "../images/security.png",
-                "title2": "100% Customizable Design"
+                "title2": "Payment Gateway Integration "
 
             },
             {
                 "icon2": "../images/security.png",
-                "title2": "Multiple Product Image"
+                "title2": "100% Customizable Design "
 
             },
             {
                 "icon2": "../images/security.png",
-                "title2": "Manage Category"
+                "title2": "Wix ecommerce "
 
             }
         ],
@@ -83,39 +83,21 @@
 
     },
     {
-        "title": "Website Development",
-        "content": "WordPress has been the go-to CMS choice for businesses for years. The platform powers more than 35% of the websites, thanks to its superior quality plugins and easy development and maintenance. Our team of WordPress experts specializes in offering a wide range of services that help you leverage the potential of WordPress.",
+        "title": "Custom Website Development ",
+        "content": "Our customer-centric team of custom website developers serves everyone from big entrepreneurs to global leaders and SMEs. We think big for all projects and sectors, deliver trend-right design, and build quickly. We employ an agile development methodology to create your dream website, empowered by user-friendly UX/UI. ",
         "images": "../images/website.png",
         "SubContent": [
             {
                 "icon1": "../images/security.png",
-                "title1": "Website Design"
+                "title1": "React Js Website "
             },
             {
                 "icon1": "../images/security.png",
-                "title1": "CMS Development"
+                "title1": "Web Apps Using Flutter "
             },
             {
                 "icon1": "../images/security.png",
-                "title1": "Website Maintenance"
-            }
-        ],
-        "SubContent1":[
-            
-            {
-                "icon2": "../images/security.png",
-                "title2": "Website Redesign"
-
-            },
-            {
-                "icon2": "../images/security.png",
-                "title2": "Responsive Web Design"
-
-            },
-            {
-                "icon2": "../images/security.png",
-                "title2": "Manage Category"
-
+                "title1": "Custom language "
             }
         ]
     }

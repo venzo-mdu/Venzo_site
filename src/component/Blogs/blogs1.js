@@ -4,7 +4,7 @@ import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-import { Link} from 'gatsby'
+import { Link } from 'gatsby'
 import './blogs.css'
 import './laptop.css'
 import './tab.css'
@@ -20,6 +20,9 @@ function Blogs1() {
         }
         return blogsList
     }
+   
+
+
 
     const Blogdetail = (blog) => {
         console.log("data", blog)
@@ -69,18 +72,18 @@ function Blogs1() {
                 </div>
                 <div className='blogsRight'>
                     <div className='slide1'>
-                        <p>All Categories</p> <hr />
-                        <p>Automated Testing</p><hr />
-                        <p>Mobile App Development</p><hr />
-                        <p>Product Development</p><hr />
-                        <p>Staff Augmentation</p><hr />
-                        <p>Technology</p><hr />
-                        <p>Web App Development</p>
+                        <p onClick={(e) => setSearch('')}>All Categories</p> <hr />
+                        <p onClick={(e) => setSearch('Automated Testing')}>Automated Testing</p><hr />
+                        <p onClick={(e) => setSearch('Mobile App Development')}>Mobile App Development</p><hr />
+                        <p onClick={(e) => setSearch('Product Development')}>Product Development</p><hr />
+                        <p onClick={(e) => setSearch('Staff Augmentation')}>Staff Augmentation</p><hr />
+                        <p onClick={(e) => setSearch('Technology')}>Technology</p><hr />
+                        <p onClick={(e) => setSearch('Web App Development')}>Web App Development</p>
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} alt="tweet1"/>
-                        <img src={tweet2} alt="tweet2"/>
+                        <img src={tweet1} alt="tweet1" />
+                        <img src={tweet2} alt="tweet2" />
                     </div>
                 </div>
             </div>

@@ -435,19 +435,20 @@
     }
 
     .qualitybtn {
-        margin-left: 5%;
-        height: 45%;
-        margin-top: 2%;
-        width: 45%;
-        color: white;
-        background-color: #0A1020;
-        border-radius: 7px 7px 7px 7px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 120%;
-        padding: 3%;
+        margin-left: 0%;
+    height: 45%;
+    margin-top: 2%;
+    width: 45%;
+    color: white;
+    background-color: #0A1020;
+    border-radius: 7px 7px 7px 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* padding: 3%; */
+    padding-left: 41px;
     }
 
     .qualitybtn:hover {
@@ -918,7 +919,8 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 120%;
-        padding: 3%;
+        /* padding: 3%; */
+        padding-left: 25px;
     }
 /* 
     .qualitybtn:hover {

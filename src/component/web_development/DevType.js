@@ -9,7 +9,7 @@ function DevType() {
                     <div className="development1" >
                         <div className="devContent">
                             <div className="con_title">
-                                <p > {item.title}.</p>
+                                <p > {item.title}</p>
                             </div>
                             <div>
                                 <div className="con_desc">
@@ -32,12 +32,12 @@ function DevType() {
                                 })}
                             </div>
                             <div className='column1'>
-                                {item.SubContent1.map(item => {
+                            {item.SubContent1 ? item.SubContent1.map(item => {
                                     return <div className='column2'>
                                         <img className="icon1" src={item.icon2} alt='icon' />
                                         <h2 className="heading1">{item.title2}</h2>
                                     </div>
-                                })}
+                                }): " "}
                             </div>
                         </div>
                         {item.hrLine ? <hr className='hr_line1' /> : " "}

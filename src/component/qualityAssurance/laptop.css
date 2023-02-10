@@ -432,19 +432,14 @@ margin-left: 15%;
     margin-left: 5%;
 } 
 .qualitybtn{
-    margin-left: 2%;
-    height: 0%;
-    margin-top: 2%;
-    width: 25%;
-    color: white;
-    background-color: #0A1020;
+    background-size: contain;
     border-radius: 7px 7px 7px 7px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
+    cursor: pointer;
     font-size: 18px;
-    line-height: 120%;
-    padding: 1%;
+    font-weight: 500;
+    margin-top: 2%;
+    padding: 2% 2% 2% 22px;
+    width: 19%;
 }
 /* .qualitybtn:hover{
     color: #FFFFFF;
