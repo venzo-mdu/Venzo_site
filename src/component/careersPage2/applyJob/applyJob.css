@@ -204,6 +204,7 @@ border-radius: 7px;
 @media screen and (max-width:1705px) and (min-width:1024px) {
 .socialmediaIconsCareers {
     margin-top: 3%;
+    margin-left: 18%;
 }
 .gotanIdea #gotanIdeaText {
     font-size: 16px;
