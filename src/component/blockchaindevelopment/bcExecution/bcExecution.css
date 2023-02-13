@@ -227,7 +227,7 @@
 
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:425px) and (min-width:376px) {
     .bcExecution {
         padding: 3% 2%;
     }
@@ -342,6 +342,131 @@
         padding: 5% 5%;
         margin: 10% 0 0 0;
         display: block;
+        height: 567px !important;
+    }
+
+    .css-55vwbm-MuiTimeline-root li {
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:375px) {
+    .bcExecution {
+        padding: 3% 2%;
+    }
+
+    .NFTImage {
+        margin-left: 10% !important;
+    }
+
+    #executionTitle1 {
+        font-family: Poppins;
+        font-size: 14px !important;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        background: linear-gradient(272.57deg, #AD00FF 21.61%, #FF7A00 133.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    #executionTitle2 {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: -0.025em;
+        text-align: center;
+    }
+
+    .css-1ami7lv-MuiTimelineConnector-root {
+        width: 2px;
+        background-color: #bdbdbd;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+
+    .css-55vwbm-MuiTimeline-root {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 5px 0px;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+
+    .css-ha3bif-MuiTimelineItem-root:before {
+        display: none;
+    }
+
+    .css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root,
+    .css-l4x062-MuiTypography-root-MuiTimelineOppositeContent-root {
+        display: none;
+    }
+
+    #firstTitle {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #firstTitle1 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText2 {
+        margin: 0 0 0 0;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    #timelineText1 {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .NFTImage {
+        margin-left: 0%;
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .ourProducts {
+        padding: 5% 5%;
+        margin: 10% 0 0 0;
+        display: block !important;
         height: 567px !important;
     }
 
