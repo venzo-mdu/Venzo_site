@@ -316,9 +316,9 @@ color: #C4C4C4;
 
 @media screen and (max-width:768px) and (min-width:431px) {
 .applyJob .applyNowButton{
-    height: 25%;
-    width:55%;
+    height: 30%;
     margin-top: 5%;
+    width: 100%;
 }
 .descripition .applyNowButton{
     height: 8%;
@@ -371,25 +371,19 @@ letter-spacing: -0.03em;
 
 color: #C4C4C4;
 }
-/* .applyJob .applyNow {
-    width: 43%;
-    height: 130px;
-} */
-/* .applyNow #shareitOn {
+.applyJob .descripition {
+    height: 800px;
+    width: 100%;
+    margin: 3% 0 0 0;
+    padding: 2% 2%;
+}
+
+.applyNow #shareitOn {
     color: #929292;
-    margin: 5.5% 0 0 -1%;
-} */
-
+    margin: 7% 0 0 -5%;
 }
-@media screen and (max-width:768px) and (min-width:431px) {
-    .applyJob .descripition {
-        height: 800px;
-        width: 100%;
-        margin: 3% 0 0 0;
-        padding: 2% 2%;
-    }
-
 }
+
 @media screen and (max-width:430px) {
 .applyJob .descripition{
     height:1000px !important;
