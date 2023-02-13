@@ -13,6 +13,9 @@
   width:100%;
 
 }
+.skillsRequired ul li{
+    display: flex;
+}
 #thankPop{
     width: 50%;
     text-align: center;
@@ -61,10 +64,10 @@ color: #C4C4C4;
 }
 
 .applyJob .details{
-  width:50%;
+  width:78%;
 }
 .applyJob .applyNow{
-    width: 50%;
+    width: 22%;
 }
 .socialmediaIconsCareers{
     display: inline-flex;
@@ -120,7 +123,7 @@ border-radius: 7px;
     letter-spacing: 0em;
     text-align: left;
     color:#929292;
-    margin: 1.5% 0 0 40%;
+    margin: 3.5% 0 0 40%;
 }
 
 .applyJob .descripition{
@@ -243,13 +246,20 @@ letter-spacing: -0.03em;
 
 color: #C4C4C4;
 }
+.applyJob .details {
+    width: 72%;
+}
+.applyNow #shareitOn{
+    color:#929292;
+    margin: 3.5% 0 0 23%;
+}
 }
 
 @media screen and (max-width:1204px) and (min-width:768px){
 .applyJob .descripition {
     background-color: #F8F8F8;
     border-radius: 12px;
-    height: 543px;
+    height:700px;
     width: 100%;
     margin: 3% 0 0 0;
     padding: 2% 2%;
@@ -258,6 +268,17 @@ color: #C4C4C4;
     width: 50%;
     text-align: center;
 
+}
+.applyJob .details {
+    width: 62%;
+}
+.applyNow #shareitOn{
+    color:#929292;
+    margin: 5.5% 0 0 9%;
+}
+.socialmediaIconsCareers {
+    margin-top: 3%;
+    margin-left: 33%;
 }
 .thanksMsg{
     font-family: 'Poppins';
@@ -350,11 +371,28 @@ letter-spacing: -0.03em;
 
 color: #C4C4C4;
 }
+/* .applyJob .applyNow {
+    width: 43%;
+    height: 130px;
+} */
+/* .applyNow #shareitOn {
+    color: #929292;
+    margin: 5.5% 0 0 -1%;
+} */
+
+}
+@media screen and (max-width:768px) and (min-width:431px) {
+    .applyJob .descripition {
+        height: 800px;
+        width: 100%;
+        margin: 3% 0 0 0;
+        padding: 2% 2%;
+    }
 
 }
 @media screen and (max-width:430px) {
 .applyJob .descripition{
-    height:697px;
+    height:1000px !important;
 }
     .applyNow{
         display: none;

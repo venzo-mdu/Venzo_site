@@ -395,7 +395,7 @@
 }
 .awesomeProducts{
     background-color:#0A1020;
-    height: 769px;
+    height: 879px;
     width:100vw;
     padding: 5%;
 }
@@ -415,12 +415,13 @@
     -webkit-text-fill-color: transparent;
 
 }
-.ourProducts{
+.ourProducts {
     background: #181D2B;
     border-radius: 5px;
     padding: 5% 10%;
     display: flex;
-    width: 100%;
+    width: 76%;
+    margin-left: 10%;
 }
 .ourProducts .productDesc{
     width:50%
@@ -436,7 +437,7 @@
 }
 .productDesc #productText{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
@@ -500,4 +501,5 @@ width:20%;
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  margin-left: 13%;
 }

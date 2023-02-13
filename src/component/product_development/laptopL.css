@@ -40,7 +40,8 @@
         margin-top: 5%;
     }
     .ourProducts {
-        height: 400px;
+    width: 96%;
+    margin-left: 1%;
     }
     .helpDesc {
         font-family: 'Poppins';
@@ -141,9 +142,10 @@
     }
     .carousel-indicators {
         margin-bottom: 5%;
+        z-index: 0;
     }
     .awesomeProducts {
-            height: 650px;
+            height: 710px;
             padding: 8%;
         
     }

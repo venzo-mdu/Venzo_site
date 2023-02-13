@@ -48,7 +48,8 @@ a {
     display: inline;
     margin: 0% 4%;
     width: 100%;
-    color: #FFFFFF;
+    
+    color:  rgba(255, 255, 255, 0.5)!important;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -64,7 +65,7 @@ a {
     height: 90px;
 }
 .active-link{
-    color:  rgba(255, 255, 255, 0.5)!important;
+    color: #FFFFFF !important;
 }
 
 @media screen and (max-width:1705px) and (min-width:1024px) {

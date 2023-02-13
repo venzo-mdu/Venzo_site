@@ -189,6 +189,7 @@ body {
     line-height: 33px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+    margin-left: 8%;
 }
 
 input {
@@ -204,7 +205,7 @@ input {
     font-size: 12px;
     line-height: 21px;
     color: #929292;
-    margin: 2% 2% 8% 0;
+    margin: 2% 2% 8% 2%;
 }
 
 .Femail {
@@ -215,6 +216,7 @@ input {
     line-height: 21px;
     color: #929292;
     margin-bottom: 8%;
+    margin: 2% 2% 8% 2%;
 }
 
 .Fphone {
@@ -224,7 +226,7 @@ input {
     font-size: 12px;
     line-height: 21px;
     color: #929292;
-    margin: 2% 4% 8% 0;
+    margin: 2% 2% 8% 2%;
     width: 97%;
 }
 
@@ -250,7 +252,9 @@ input {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 7% 38%;
+    margin: 8% 0 7% 4%;
+    width: 93%;
+    height: 40px;
 }
 .mediaIocn{
     margin: -3% 0 4%;

@@ -31,7 +31,7 @@
 
 }
 .enquiryinDiscussion{
-    height: 500px;
+    height: 580px;
     width: 687px;
     border-radius: 10.839534759521484px;
     padding: 3% 5%;
@@ -121,12 +121,62 @@
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 0 75%;
+    margin: 8% 0 0 66%;
+    height: 40px;
+    width: 30%;
+}
+@media screen and (max-width:1705px) and (min-width:1024px){
+    .enquiryinDiscussion {
+        height: 500px;
+    }
+    .enquiryinDiscussion .Fbutton {
+        background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+        border-radius: 8px;
+        padding: 1% 5%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin: 8% 0 0 66%;
+        width: 30%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px){
+    .enquiryinDiscussion .Fbutton {
+        margin: 8% 0 0 65%;
+        height: 40px;
+        width: 30%;
+    }
+    .enquiryinDiscussion {
+        height: 420px;
+    }
+}
+@media screen and (max-width:768px) and (min-width:430px){
+    .enquiryinDiscussion .Fbutton {
+        margin: 8% 0 0 56%;
+        width: 40%;
+        height: 30px;
+    }
+    .enquiryinDiscussion {
+        height: 440px;
+    }
+    .enquiryinDiscussion .formTitle {
+        font-size: 21px;
+    }
+    .enquiryinDiscussion .Fname {
+        margin: 2% 3% 9% 0;
+        width: 46%;
+    }
 }
 @media screen and (max-width:430px) {
 .discussion{
     display: block;
     height:90vh;
+
 }
 
 
@@ -154,15 +204,50 @@
    margin-top: 15%;
 }
 .enquiryinDiscussion .Fbutton {
+    margin-left: 2%;
     margin: 10% 0 0 3%;
     width: 320px;
-    
+    height: 45px;
+}
+.enquiryinDiscussion .Fname {
+    margin: 2% 4% 4% 3%;
+    width: 46%;
+}
+.enquiryinDiscussion .Femail {
+    margin: 2% 4% 4% 3%;
+}
+.enquiryinDiscussion .Fphone {
+    margin: 1% 4% 4% 3%;
+}
+.enquiryinDiscussion .Fmessage {
+    margin: 2% 0% 0% 3%;
 }
 }
 @media screen and (max-width:380px) {
-.enquiryinDiscussion .Fbutton {
-    margin-left: 1%;
-    width: 290px;
+    .enquiryinDiscussion .Fbutton {
+        margin-left: 2%;
+        width: 290px;
+        height: 45px;
+    }
+.enquiryinDiscussion {
+    height: 466px !important;
 }
-
+.enquiryinDiscussion .formTitle {
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: -5%;
+}
+.enquiryinDiscussion .Fname {
+    margin: 2% 4% 4% 2%;
+    width: 46%;
+}
+.enquiryinDiscussion .Femail {
+    margin: 2% 4% 4% 2%;
+}
+.enquiryinDiscussion .Fphone {
+    margin: 1% 4% 4% 2%;
+}
+.enquiryinDiscussion .Fmessage {
+    margin: 2% 0% 0% 2%;
+}
 }

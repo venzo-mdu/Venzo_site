@@ -72,6 +72,7 @@
         grid-template-columns: 60% 1fr;
         margin-right: 20%;
         margin-top: 3%;
+        width: 75%;
     }
 
     .card11 {
@@ -175,5 +176,19 @@
         margin-left: -6%;
         padding-right: 3%;
     }
+    .card11 {
+      
+        border-radius: 8px;
+        width: 21rem !important;
+    }
 
+}
+
+@media screen and (max-width:1705px) and (min-width:1028px){
+    .card11 {
+      
+        border-radius: 8px;
+        width: 25rem !important;
+    }
+    
 }

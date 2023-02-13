@@ -271,7 +271,7 @@
 
     .mediaIcons {
         width: 50%;
-        margin: 4% 0 10% 32%;
+        margin: 4% 0 10% 31%;
         cursor: pointer;
         display: flex;
     }
@@ -386,5 +386,11 @@
             Width: 16.43px;
             Height: 18px;
             margin-right: 5%;
+        }
+    }
+
+    @media screen and (max-width:425px) and (min-width:376px){
+        .Fmessage1{
+            margin-left: 2%;
         }
     }
