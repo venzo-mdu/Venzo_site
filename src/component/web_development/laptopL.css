@@ -331,14 +331,10 @@ body {
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;
 }
-.webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
+ .webCard1, .webCard2, .webCard3, .webCard4, .webCard5, .webCard6, .webCard7, .webCard8, .webCard9, .webCard10, .webCard11, .webCard12, .webCard13, .webCard14, .webCard15, .webCard16 {
     height: 343px;
     width: 100%;
     border-radius: 0px;
-    background: #F8F8F8;
-    border: 0.2px solid #CECECE;
-    padding-top: 11%;
-    padding-left: 11%;
 }
 
 .cardWebTitle {

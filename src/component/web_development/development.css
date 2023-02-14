@@ -370,10 +370,8 @@ body {
     height: 500px;
     width: 100%;
     border-radius: 0px;
-    background: #F8F8F8;
     border: 0.2px solid #CECECE;
-    padding-top: 11%;
-    padding-left: 11%;
+    
 }
 
 .cardWebTitle {
@@ -384,6 +382,86 @@ body {
     line-height: 120%;
     letter-spacing: -0.02em;
     color: #000000;
+}
+.webCard1{
+    background-image: url('../../webDev_Image/Component\ 41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard2{
+    background-image: url('../../webDev_Image/Component\ 26.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard3{
+    background-image: url('../../webDev_Image/Component\ 27.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard4{
+    background-image: url('../../webDev_Image/Component\ 28.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard5{
+    background-image: url('../../webDev_Image/Component\ 29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard6{
+    background-image: url('../../webDev_Image/Component\ 32.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard7{
+    background-image: url('../../webDev_Image/Component\ 35.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard8{
+    background-image: url('../../webDev_Image/Component\ 38.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard9{
+    background-image: url('../../webDev_Image/Component\ 30.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard10{
+    background-image: url('../../webDev_Image/Component\ 33.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard11{
+    background-image: url('../../webDev_Image/Component\ 36.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard12{
+    background-image: url('../../webDev_Image/Component\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard13{
+    background-image: url('../../webDev_Image/Component\ 31.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard14{
+    background-image: url('../../webDev_Image/Component\ 34.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard15{
+    background-image: url('../../webDev_Image/Component\ 37.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.webCard16{
+    background-image: url('../../webDev_Image/Component\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .webCard1:hover{

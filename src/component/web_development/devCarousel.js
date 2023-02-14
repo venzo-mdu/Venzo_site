@@ -67,95 +67,95 @@ function devCarousel() {
             <div className='webSlide1'>
                 {/* <a href='https://www.mangopoint.in/'> */}
                     <div className='webCard1'>
-                        <p className='cardWebTitle '>Mangopoint</p>
+                        {/* <p className='cardWebTitle '>Mangopoint</p> */}
                     </div>
                 {/* </a> */}
                 <a href='https://algoritmik.netlify.app/'>
                 <div className='webCard2 '>
-                    <p className='cardWebTitle'>Algoritmik</p>
+                    {/* <p className='cardWebTitle'>Algoritmik</p> */}
                 </div>
                 </a>
                 <a href='https://www.securekloud.com/'>
                 <div className='webCard3 '>
-                    <p className='cardWebTitle'>Securekloud</p>
+                    {/* <p className='cardWebTitle'>Securekloud</p> */}
                 </div>
                 </a>
                 <a href='https://www.agshealth.com/'>
                 <div className='webCard4 '>
-                    <p className='cardWebTitle'>Agshealth</p>
+                    {/* <p className='cardWebTitle'>Agshealth</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.pure-chemical.com/'>
                 <div className='webCard5 '>
-                    <p className='cardWebTitle'>Pure-chemical</p>
+                    {/* <p className='cardWebTitle'>Pure-chemical</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.siriuscom.com/'>
                 <div className='webCard6 '>
-                    <p className='cardWebTitle'>Siriuscom</p>
+                    {/* <p className='cardWebTitle'>Siriuscom</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.rflvalves.com/'>
                 <div className='webCard7 '>
-                    <p className='cardWebTitle'>RFL Valves</p>
+                    {/* <p className='cardWebTitle'>RFL Valves</p> */}
                 </div>
                 </a>
 
                 <a href='https://ebms.co.in/'>
                 <div className='webCard8 '>
-                    <p className='cardWebTitle'>Ebms</p>
+                    {/* <p className='cardWebTitle'>Ebms</p> */}
                 </div>
                 </a>
 
                 
                 <a href='https://www.farmerica.in/new/'>
                     <div className='webCard9 '>
-                        <p className='cardWebTitle'>Farmerica</p>
+                        {/* <p className='cardWebTitle'>Farmerica</p> */}
                     </div>
                 </a>
 
                 <a href='https://tringapps.com/'>
                 <div className='webCard10 '>
-                    <p className='cardWebTitle'>Tringapps</p>
+                    {/* <p className='cardWebTitle'>Tringapps</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.google.co.in/'>
                 <div className='webCard11 '>
-                    <p className='cardWebTitle'>Stronghold<br />Facades</p>
+                    {/* <p className='cardWebTitle'>Stronghold<br />Facades</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.fresharapicklz.com/'>
                 <div className='webCard12 '>
-                    <p className='cardWebTitle'>Freshara<br></br>Picklz</p>
+                    {/* <p className='cardWebTitle'>Freshara<br></br>Picklz</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.vooki.in/'>
                 <div className='webCard13'>
-                    <p className='cardWebTitle'>Vooki</p>
+                    {/* <p className='cardWebTitle'>Vooki</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.vivid-edge.com/'>
                 <div className='webCard14 '>
-                    <p className='cardWebTitle'>Vivid-edge</p>
+                    {/* <p className='cardWebTitle'>Vivid-edge</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.brainobrain.com/'>
                 <div className='webCard15 '>
-                    <p className='cardWebTitle'>Brainobrain</p>
+                    {/* <p className='cardWebTitle'>Brainobrain</p> */}
                 </div>
                 </a>
 
                 <a href='https://www.chennaispine.com/'>
                 <div className='webCard16 '>
-                    <p className='cardWebTitle'>ChennaiSpine</p>
+                    {/* <p className='cardWebTitle'>ChennaiSpine</p> */}
                 </div>
                 </a>
             </div>
