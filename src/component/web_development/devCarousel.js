@@ -65,11 +65,11 @@ function devCarousel() {
 
 
             <div className='webSlide1'>
-                {/* <a href='https://www.mangopoint.in/'> */}
+                <a href='https://www.mangopoint.in/'>
                     <div className='webCard1'>
                         {/* <p className='cardWebTitle '>Mangopoint</p> */}
                     </div>
-                {/* </a> */}
+                </a>
                 <a href='https://algoritmik.netlify.app/'>
                 <div className='webCard2 '>
                     {/* <p className='cardWebTitle'>Algoritmik</p> */}

@@ -22,7 +22,7 @@ function devServices() {
           <li><Link to="/ui-ux-design-company">UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
           <li><Link to="/website-development-company">Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
           <li>E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-          <li>Enterprise App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+          <li>Enterprise App Development&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
           <li>Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
         </div>
       </div>

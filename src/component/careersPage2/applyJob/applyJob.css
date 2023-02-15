@@ -77,8 +77,8 @@ color: #C4C4C4;
     display: inline-flex;
 }
 .icons img{
-    height: 16.678285598754883px;
-    width: 16.678285598754883px;
+    height: 17px;
+    width: 17px;
     margin: 20% 0 0 30%;
 }
 .details #detailsText{
@@ -102,12 +102,12 @@ color: #C4C4C4;
 }
 .applyJob .applyNowButton{
     height: 40px;
-width: 225px;
-border-radius: 7px;
+    width: 225px;
+    border-radius: 7px;
     color: white;
     background: #0A1020;
     border-radius: 10px 10px 10px 10px;
-    margin: 1.5% 0 0 40%;
+    margin:5% 0 0 30%;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -129,7 +129,7 @@ border-radius: 7px;
 .applyJob .descripition{
     background-color: #F8F8F8;
     border-radius: 12px;
-    height: 835px;
+    height: 685px;
     width: 100%;
     margin:3% 0 0 0;
     padding: 2% 5%;
@@ -185,7 +185,7 @@ border-radius: 7px;
     display: flex
 }
 .applyNowButton1{
-    height: 8%;
+    height: 6%;
     padding: -0.5% 0;
     width: 158px;
     border-radius: 10px 10px 10px 10px;
@@ -204,7 +204,7 @@ border-radius: 7px;
 @media screen and (max-width:1705px) and (min-width:1024px) {
 .socialmediaIconsCareers {
     margin-top: 3%;
-    margin-left: 18%;
+    margin-left: 7%;
 }
 .gotanIdea #gotanIdeaText {
     font-size: 16px;

@@ -202,6 +202,7 @@
         line-height: 21px;
         color: #929292;
         width: 45%;
+        margin: 0 0 0 2%;
     }
 
     .Fphone {
@@ -223,7 +224,7 @@
         line-height: 21px;
         color: #929292;
         padding: 2%;
-        width: 93%;
+        width: 100% !important;
         height: 30%;
     }
 
@@ -249,10 +250,12 @@
         font-size: 16px;
         line-height: 120%;
         color: #FFFFFF;
-        margin: 8% 0 0 75%;
+        margin: 8% 0 0 80% !important;
         border: none;
     }
-
+    .Fphone1{
+        width: 100% !important;
+    }
     .mediaIocn {
         margin: -3% 0 5%;
     }

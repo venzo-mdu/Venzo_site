@@ -72,18 +72,18 @@
     line-height: 21px;
     color: #929292;
     margin: 2% 4% 4% 0;
-    width: 46%;
+    width: 48%;
 
 }
 
-.enquiryinDiscussion  .Femail {
+.enquiryinDiscussion  .Femail1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #929292;
-    width: 46%;
+    width: 48%;
 
 }
 
@@ -95,7 +95,7 @@
     line-height: 21px;
     color: #929292;
     margin: 2% 4% 4% 0;
-    width: 96%;
+    width: 100%;
 }
 
 .enquiryinDiscussion  .Fmessage {
@@ -111,7 +111,7 @@
     border-radius: 4px;
     
 }
-.enquiryinDiscussion .Fbutton {
+.enquiryinDiscussion .Fbutton1 {
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
     border-radius: 8px;
     padding: 1% 5%;
@@ -121,13 +121,13 @@
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 0 66%;
+    margin: 8% 0 0 70%;
     height: 40px;
     width: 30%;
 }
 @media screen and (max-width:1705px) and (min-width:1024px){
     .enquiryinDiscussion {
-        height: 500px;
+        height: 460px;
     }
     .enquiryinDiscussion .Fbutton {
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);

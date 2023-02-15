@@ -9,7 +9,9 @@ import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
 
 const IndexPage = () => {
+  
   return (
+    
     <div>
       <title>Venzo Technologies</title>
       <ImageCarousel />

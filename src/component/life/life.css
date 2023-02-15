@@ -24,12 +24,18 @@
     display: inline-flex;
     padding: 1% 3%;
     width: 100%;
+
 }
 .youtubeVideo .link1{
     width:50%
 }
 .youtubeVideo .link2{
     width:50%
+}
+iframe{
+    border-radius: 8px;
+    height: 230px;
+    width: 480px;
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
 
@@ -41,7 +47,7 @@
 }
 .youtubeVideo{
     padding: 1% 6%;
-    margin-bottom: 1%;
+    margin:5% 0 1% 0
 }
 .lifeAtvenzo #lifeAtvenzotitle {
     font-size: 55px;

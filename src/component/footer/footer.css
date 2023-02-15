@@ -27,8 +27,11 @@ footer {
     background-color: #0A1020;
     height: 100%;
     width: 100%;
+    
 }
-
+#footerText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .footer {
     display: flex;
     line-height: 2;
@@ -90,7 +93,7 @@ footer {
 }
 
 .careers {
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
 }
 
 .contactUs {
@@ -102,14 +105,9 @@ footer {
     width: 50%;
 }
 
-.contact p {
-    margin: unset !important;
-}
 
-.business {
-    margin: 12% 0 0 0;
 
-}
+
 
 .copyRight {
     color: rgba(255, 255, 255, 0.8);
@@ -134,7 +132,7 @@ footer {
 }
 
 .business {
-    margin: 14% 0 0 0;
+    margin: 13% 0 0 0;
 
 }
 
@@ -148,7 +146,15 @@ footer {
     height: 70px;
     margin: -10% 0% 0% 85%;
 }
-
+.company{
+    margin: 0 0 3% 0;
+}
+.contact p{
+    margin-bottom: unset !important;
+}
+#contactIND{
+    margin:0 0 6% 0;
+}
 
 
 @media screen and (max-width:1705px) and (min-width:1030px) {
@@ -171,7 +177,7 @@ footer {
     }
 
     .branchOffice {
-        margin: 7% 0 0 0;
+        margin: 8% 0 0 0;
     }
 
     #paraHR {
@@ -311,6 +317,7 @@ footer {
         height: 70px;
         margin: -15% 0% 0% 87%;
     }
+    
 
 }
 

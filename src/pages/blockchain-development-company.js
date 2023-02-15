@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import productImage from '../images/blockchaindevelopment/nftimg.png'
 import borderLine from '../images/borderLine.png'
@@ -26,6 +25,8 @@ function Blockchaindevelopment() {
     mobile:"",
     message:""
   });
+
+
 
   const handleChange=(e)=>{
     setEmailInput({...emailInput,[e.target.name]:e.target.value});

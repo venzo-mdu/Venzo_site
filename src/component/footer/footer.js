@@ -1,17 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
 import "../footer/footer.css"
 import footerIcon from "../../images/Footericon.svg"
 import footerData from "../../content/footerData.json"
 import phone from '../../images/phone.png'
 import { Link } from 'gatsby'
+import { useLocation } from 'react-router-dom'
+
 
 function Footer() {
+  const scrolltoTop =()=>{
+    
+  }
   return (
     <>
       <head>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"></link>
       </head>
+
       <footer>
+      <Link to='/privacy-policy'><p id='footerText'>Ransomware</p></Link>
         <div className='footerDetails'>
           <div className='footer'>
             <div className='laptopResponsive'>
@@ -39,14 +47,14 @@ function Footer() {
                 <h5>Services</h5>
                 <hr className='titleHr'></hr>
                 <p>
-                  <Link to="/banking-application-testing-qa-services">Banking QA</Link><br></br>
-                  <Link to="/quality-engineering-assurance">Quality Assurance</Link><br></br>
-                  <Link to="/">Banking Solutions</Link><br></br>
-                  <Link to="/hire-our-developers">Staff Augmentation</Link><br></br>
-                  <Link to="/app-development-company"> App Development</Link><br></br>
-                  <Link to="/website-development-company">Website Development</Link><br></br>
-                  <Link to="/product-development-company">Product Development</Link><br></br>
-                  <Link to="/blockchain-development-company">Blockchain Development</Link><br></br>
+                  <a href="/banking-application-testing-qa-services">Banking QA</a><br></br>
+                  <a href="/quality-engineering-assurance">Quality Assurance</a><br></br>
+                  <a href="/">Banking Solutions</a><br></br>
+                  <a href="/hire-our-developers">Staff Augmentation</a><br></br>
+                  <a href="/app-development-company"> App Development</a><br></br>
+                  <a href="/website-development-company">Website Development</a><br></br>
+                  <a href="/product-development-company">Product Development</a><br></br>
+                  <a href="/blockchain-development-company">Blockchain Development</a><br></br>
                 </p>
               </div>
             </div>
@@ -55,12 +63,13 @@ function Footer() {
                 <div className='company'>
                   <h5>Company</h5>
                   <hr className='titleHr'></hr>
-                  <Link to="/about-us">About us</Link>
+                  <a href="/about-us">About us</a>
                   <br></br>
-                  <Link to="/careers">Careers</Link><br></br>
-                  <Link to="/blog">Blogs</Link><br></br>
-                  <Link to="/contact-us">Reach Us</Link><br></br>
-                  <Link to="/privacy-policy">Privacy Policy</Link><br></br>
+                  <a href="/careers">Careers</a><br></br>
+                  <a href="/blog">Blogs</a><br></br>
+                  <a href="/contact-us">Reach Us</a><br></br>
+                  <a  href="/privacy-policy">Privacy Policy</a><br></br>
+                 
 
                 </div>
                 <div className='careers'>
@@ -74,13 +83,16 @@ function Footer() {
               <div className='contactUs'>
                 <div className='contact'>
 
-                  <h5><Link to="/contact-us">Contact Us</Link></h5>
+                  <h5><a href="/contact-us">Contact Us</a></h5>
                   <hr className='titleHr'></hr>
-                  <p>India :</p>
-                  <p><img src={phone} alt='phoneIcon'></img> +91 9840594865</p>
-                  <p>USA :</p>
+                  <div id='contactIND'>
+                  <p>India</p>
+                  <p><img  src={phone} alt='phoneIcon'></img> +91 9840594865</p>
+                  </div>
+                  <div id='contactUSA'>
+                  <p>USA</p>
                   <p><img src={phone} alt='phoneIcon'></img> +1 325 271 4695</p>
-
+                  </div>
                 </div>
                 <div className='business'>
                   <h5>Business</h5>
