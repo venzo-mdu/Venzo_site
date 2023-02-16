@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Autotesting from '../../component/Blogs/autotesting'
 import Header from '../../component/header/header'
 import Footer from '../../component/footer/footer'
-function autotesting() {
+
+function AutotestingPage() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div> 
         <Header flag='header2'/>
@@ -12,4 +19,4 @@ function autotesting() {
   )
 }
 
-export default autotesting
+export default AutotestingPage

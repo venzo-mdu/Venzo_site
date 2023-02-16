@@ -1,6 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Product from '../component/product_development/product'
-function product_development() {
+function Product_development() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div className='blockchainbody'>
       <Product />
@@ -8,4 +14,4 @@ function product_development() {
   )
 }
 
-export default product_development
+export default Product_development

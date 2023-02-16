@@ -17,6 +17,12 @@ import toMail from '../config/config'
 import success from '../images/successfully.png'
 
 function Blockchaindevelopment() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   const [buttonPopup, setButtonPopup] = useState(false);
   const [submit, setSubmit] = useState(false);
   const [emailInput,setEmailInput]=useState({

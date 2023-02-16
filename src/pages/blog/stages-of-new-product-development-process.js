@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Newproduct from '../../component/Blogs/newproduct'
 import Footer from '../../component/footer/footer'
 import Header from '../../component/header/header'
 
-function newproduct() {
+function NewproductPage() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
    <div> 
         <Header flag='header2'/>
@@ -14,4 +20,4 @@ function newproduct() {
   )
 }
 
-export default newproduct
+export default NewproductPage

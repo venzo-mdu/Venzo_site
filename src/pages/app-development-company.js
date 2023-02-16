@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 import Carousel from 'react-bootstrap/Carousel';
 import productImage from '../images/productImage.png'
@@ -18,6 +18,12 @@ import Popup from '../component/careersPage2/popup/popup'
 import axios from 'axios'
 import toMail from '../config/config'
 function Appdevelopment() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   const [buttonPopup, setButtonPopup] = useState(false);
   const [submit, setSubmit] = useState(false);
   const [emailInput, setEmailInput] = useState({

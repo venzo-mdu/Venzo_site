@@ -1,17 +1,105 @@
 .hamburger{
     background-color: #0A1020;
-    height: 380px;
-    width: 125px;
+    height: 100vh;
+    width: 100vw;
     padding: 1.5% 3%;
     position: absolute;
     right: 0px;
     top: 0px;
+    animation: moving 500ms linear;  
+}
+#hamburger{
+    animation-timing-function: ease-in;  
+}
+@keyframes moving {
+    from{
+        top:-500px;
+    }
+    to{
+        bottom:1000px;
+    }
+}
+
+
+
+.menu{
+    padding: 5% 3%;
+    width: 100%;
+    display: inline-flex;
+}
+.hamLogo{
+    width: 30%;
+}
+.routeLinks{
+    width: 70%;
+    display: inline-flex;
+    margin: 8% 0 0 5%;
+}
+.routes2{
+    margin: 0 0 0 8%;
 }
     #cardText{
         font-family: Poppins;
         font-size: 22px;
         font-weight: 400;
         line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+         color: #FFFFFF;        
+    }
+    #hrincard{
+        height: 0px;
+        width: 315px;
+        border: 2px solid #686868
+    }
+    .closeBtn{
+        float:right;
+        animation: movingup 0.5s linear;
+
+    }
+    @keyframes movingup {
+        from{
+            bottom:1000px;
+        }
+        to{
+            top:-500px;
+        }
+    }
+  
+@media screen and (max-width:1705px) and (min-width:1024px) {
+    .hamburger{
+    background-color: #0A1020;
+    height: 100vh;
+    width: 100vw;
+    padding: 1% 3%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.menu{
+    padding: 1% 3%;
+    width: 100%;
+    display: inline-flex;
+}
+.hamLogo{
+    width: 30%;
+}
+.venzoLogoham{
+    width: 50%;
+}
+.routeLinks{
+    width: 70%;
+    display: inline-flex;
+    margin: 5% 0 0 3%;
+}
+.routes2{
+    margin: 0 0 0 8%;
+}
+    #cardText{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
         color: #ffffff;           
@@ -26,42 +114,147 @@
     .closeBtn{
         float:right;
     }
-  
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .hamburger{
+        background-color: #0A1020;
+        height: 100vh;
+        width: 100vw;
+        padding: 1.5% 3%;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .hamLogo{
+        width: 30%;
+    }
+    .venzoLogoham{
+     width: 75%;
+    }
+    .routeLinks{
+        width: 70%;
+        display: inline-flex;
+        margin: 15% 0 0 -5%;
+    }
+    .routes2{
+        margin: 0 0 0 8%;
+    }
+    
+        #cardText{
+            font-family: Poppins;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 39px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #ffffff;           
+            margin: 8% 0 0 0;
+    
+        }
+        #hrincard{
+            height: 0px;
+            width: 315px;
+            border: 1px solid #FFFFFF4D;
+        }
+        .closeBtn{
+            float:right;
+        }
+}
+
     @media screen and (max-width:768px) and (min-width:430px) {
         .hamburger{
-            height: 250px;
-            width: 380px;
+            background-color: #0A1020;
+            height: 75vh;
+            width: 100vw;
             padding: 1.5% 3%;
+            position: absolute;
             right: 0px;
+            top: 0px;
+        }
+        .menu{
+            display: block;
+        }
+        .hamLogo{
+            width: 30%;
+            margin: 5% 0 0 0;
+        }
+        .venzoLogoham{
+         width: 75%;
+        }
+        .routeLinks{
+            width: 60%;
+            display: inline-flex;
+            margin: 10% 0 0 15%;
+        }
+        .routes2{
+            margin: 0% 0 0 15%;
         }
         #cardText{
             font-size: 16px;
-            line-height: 2px;
+            line-height: 19px;
+        }
+        #hrincard{
+            height: 0px;
+            width: 215px;
+            border: 1px solid #FFFFFF4D;
+        }
+        .closeBtn{
+            float:right;
+            margin: 4% 0 0 0;
         }
     }
     @media screen and (max-width:425px) and (min-width:375px) {
         .hamburger{
-            height: 440px;
-            width: 430px;
-            padding: 1.5% 5%;
+            background-color: #0A1020;
+            height: 100vh;
+            width: 100vw;
+            padding: 1.5% 3%;
+            position: absolute;
             right: 0px;
-            padding-left: 10%;
+            top: 0px;
+        }
+        .menu{
+            display: block;
+        }
+        .hamLogo{
+            width: 50%;
+            margin: 5% 0 0 5%;
+        }
+        .venzoLogoham{
+         width: 75%;
+        }
+        .routeLinks{
+            width: 60%;
+            display: block;
+            margin: 10% 0 0 5%;
+        }
+        .routes2{
+            margin: 20% 0 0 0%;
         }
         .closeBtn{
             position: absolute;
             top:10px;
             right: 25px;
         }
-    
+        #cardText{
+            font-size: 16px;
+            line-height: 19px;
+        }
+        #hrincard{
+            height: 0px;
+            width: 300px;
+            border: 1px solid #FFFFFF4D;
+        }
     }
     @media screen and (max-width:376px) {
         .hamburger{
-            height: 440px;
-            width: 380px;
-            padding: 1.5% 5%;
+            background-color: #0A1020;
+            height: 100vh;
+            width: 100vw;
+            padding: 1.5% 3%;
+            position: absolute;
             right: 0px;
-            padding-left: 10%;
-
+            top: 0px;
         }
     }
     /* @media screen and (max-width:365px){

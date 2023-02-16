@@ -1,11 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from '../../component/header/header'
 import JobDetails from '../../component/careersPage2/jobDetails/jobDetails'
 import ApplyJob from '../../component/careersPage2/applyJob/applyJob'
 import Discussion from '../../component/careersPage2/discussion/discussion'
 import Footer from '../../component/footer/footer'
 
-const careersPage=()=>{
+const CareersPage=()=>{
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <>
     <Header flag='header2'/>
@@ -17,4 +23,4 @@ const careersPage=()=>{
   )
 }
 
-export default careersPage;
+export default CareersPage;

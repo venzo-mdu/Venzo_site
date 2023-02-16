@@ -1,7 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import QualityAssurance from '../component/qualityAssurance/qualityAssurance'
 
-function qualityassurance() {
+function Qualityassurance() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div>
       <QualityAssurance />
@@ -10,4 +16,4 @@ function qualityassurance() {
   )
 }
 
-export default qualityassurance
+export default Qualityassurance

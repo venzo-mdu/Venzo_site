@@ -58,7 +58,7 @@ function QualityAssurance() {
             <br>\
             <br>\
             <hr/>\
-            <img src='" + autoimg2 + "' />\
+            <img class='q1images' src='" + autoimg2 + "' />\
             <br>\
             <br>\
             <hr/>\

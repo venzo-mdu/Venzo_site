@@ -3,7 +3,7 @@ import Angularvsreact from '../../component/Blogs/angularvsreact'
 import Header from '../../component/header/header'
 import Footer from '../../component/footer/footer'
 
-function angularvsreact() {
+function AngularvsreactPage() {
   return (
     <div>
         <Header flag='header2'/>
@@ -13,4 +13,4 @@ function angularvsreact() {
   )
 }
 
-export default angularvsreact
+export default AngularvsreactPage

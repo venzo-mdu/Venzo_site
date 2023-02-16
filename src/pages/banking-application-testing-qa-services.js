@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from "../component/header/header"
 import Improve from '../component/improve/improve.js';
 import Services from '../component/services/services.js'
@@ -10,7 +10,13 @@ import Customerexp from '../component/customerexp/customerexp.js';
 import Footer from '../component/footer/footer.js'
 
 
-const bankingQAPage = () => {
+const BankingQAPage = () => {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div className='bankbody'>
       <title>Venzo Technologies</title>
@@ -28,4 +34,4 @@ const bankingQAPage = () => {
   );
 }
 
-export default bankingQAPage;
+export default BankingQAPage;

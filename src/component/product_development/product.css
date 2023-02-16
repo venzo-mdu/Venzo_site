@@ -195,7 +195,7 @@
 
 .CreateImpact {
     background: #0A1020;
-    padding: 5% ;
+    padding: 5%  ;
 }
 
 .ImpactTitle {
@@ -380,6 +380,8 @@
     border-radius: 12px;
     background: #F9F9F9;
     display: block;
+    transition: 0.7s;
+
 }
 .venzoCards .subCards #subCardsText{
     font-family: Manrope;
@@ -420,7 +422,7 @@
     border-radius: 5px;
     padding: 5% 10%;
     display: flex;
-    width: 76%;
+    width: 100%;
     margin-left: 10%;
 }
 .ourProducts .productDesc{

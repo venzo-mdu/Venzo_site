@@ -1,5 +1,5 @@
 .unleashing {
-    padding: 10% 3% 5%;
+    padding: 12% 3% 5%;
 }
 
 .leftCommit1 li {
@@ -23,11 +23,11 @@
 .unleashing #unleashingTitle {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 46px;
     line-height: 45px;
     text-align: left;
-    color: #A4A4A4;
+    color: #0A1020;
     width: 48%;
     margin: 0 0 0 5%;
     letter-spacing: -0.04em;

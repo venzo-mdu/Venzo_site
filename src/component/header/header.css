@@ -31,15 +31,13 @@ a {
     width: 10%;
 }
 
-.toggleIcon {
-    display: none;
-}
+
 .header .links{
     width: 90%;
 }
 
 .header .links ul {
-    margin: -.5% 30%;
+    margin: -.5% 20%;
     width: 100%;
 
 }
@@ -48,7 +46,6 @@ a {
     display: inline;
     margin: 0% 4%;
     width: 100%;
-    
     color:  rgba(255, 255, 255, 0.5)!important;
     font-family: Poppins;
     font-size: 16px;
@@ -67,6 +64,17 @@ a {
 .active-link{
     color: #FFFFFF !important;
 }
+ .header .toggleIcon {
+        display: block;
+        height: 20px;
+        width: 24px;
+        position: absolute;
+        top: 28px;
+        right: 40px;
+    }
+   
+
+
 
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .header {
@@ -75,7 +83,7 @@ a {
 
     }
     .header .links ul {
-        margin: 0% 25%;
+        margin: 0% 20%;
         width: 90%;
     
     }
@@ -83,15 +91,20 @@ a {
     .venzohome{
         margin:-7% 0 0 0;
     }
-    .toggleIcon {
-        display: none;
-    }
+    
 
     .header .links li {
         margin: 0% 3%;
         font-weight: 500;
     }
-   
+    .header .toggleIcon {
+        display: block;
+        height: 20px;
+        width: 24px;
+        position: absolute;
+        top: 28px;
+        right: 40px;
+    }
 }
 
 @media screen and (max-width:1024px) and (min-width:768px) {

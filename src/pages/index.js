@@ -1,4 +1,4 @@
-import * as React from "react"
+import  React,{useEffect} from "react"
 import Build from '../component/Build/build'
 
 import Customer from "../component/customer/customer"
@@ -9,7 +9,12 @@ import DevServices from "../component/devServices/devServices"
 import ImageCarousel from "../component/imageCarousel/imageCarousel";
 
 const IndexPage = () => {
-  
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     
     <div>
@@ -21,9 +26,13 @@ const IndexPage = () => {
       <Blog />
       <Idea />
       <Footer />
+
     </div>
 
   )
 }
 export default IndexPage
+
+
+
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from '../component/header/header'
 import Colleagues from '../component/colleagues/colleagues';
 import Life from '../component/life/life'
@@ -9,7 +9,13 @@ import Frequently from '../component/frequently/frequently'
 import Pahtway from '../component/pathway/pathway'
 import Footer from '../component/footer/footer'
 
-const careers = () => {
+const Careers = () => {
+    useEffect(()=>{
+        document.documentElement.scrollTo({
+          top: 0,
+          left: 0
+        })
+      },[])
     return (
         <div className='blockchainbody'>
         <Header flag="header2" />
@@ -25,4 +31,4 @@ const careers = () => {
     );
 }
 
-export default careers
+export default Careers

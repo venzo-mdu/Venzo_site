@@ -1,31 +1,40 @@
 @media screen and (max-width:375px) {
+    .expertsBottomline{
+        height: 133.22825622558594px;
+        width: 0px;
+        left: 146.826171875px;
+        top: 1078.421875px;
+        border-radius: 0px;
+
+    }
+   
+    /* .product_section2{
+        background-image: url("../../images/productDevelopmentbg.png");
+        padding: 15% 0 10% 0;
+        background-image: url("../../images/productBgm.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 610px;
+    } */
     .product_section1 {
+        padding: 15% 0 10% 0;
         background-image: url(../../images/ProductMobBG.svg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 684px;
+        height: 765px;
     }
     .product_Title {
-        margin: 20% 6%;
-        width: 74%;
-        font-size: 32px;
-    }
-    .helpDesc{
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 32px;
-        letter-spacing: 0em;
-        text-align: center;
-        width: 84%;
-        margin: 0% 0px 9% 8%;
+        margin: 18% 6%;
+        width: 85%;
+        font-size: 42px;
     }
     .experts_title {
-        font-size: 25px;
-        margin: 10% 0;
+        margin-bottom: 6%;
+        margin-top: 12%;
     }
-    .LinevHoriz{
-        display: block;
+    .LinevHoriz {
+        display: block !important;
         margin-left: 52%;
         border: -0.88043px solid #D8D8D8;
         -webkit-transform: rotate(-90deg);
@@ -34,207 +43,356 @@
         height: 140px;
         margin-top: -14%;
     }
-    .SaasPara {
-        width: 342px;
-    text-align: justify;
-    margin-left: -20%;
-    font-size: 13px;
+    .expert_flex{
+        display: block;
+        text-align: center;
+        margin-left: 4%;
+        margin-top: 15%;
+        margin-bottom: 14%;
     }
-    .cons_list {
-        margin-left: -30%;
+    .expert_flex>div {
+        margin-top: -12%;
     }
-    .ConsultBr{
+    .expert_flex p{
+        margin: 0% 0 0 0;
+    }
+    .saas{
+        margin: 0 0 0 5%;
+    }
+    .saasImg{
+        width: 96%;
+    margin-left: 5% -11px 0px 0%;
+
+    }
+    .saasImg1{
         display: none;
     }
-    .helpTitle {
-        margin-top: 13%;
+    #saasImgRes{
+        display: block;
     }
-    .saasImg {
-        width: 97%;
-        margin: 5% 0 0 -1%;
+    .saas_consulting{
+        margin: 0 0 0 1%;
     }
-    .cons_title {
+    .saas_Development{
+        margin: 0 0 0 5%;
+    }
+   
+    .cons_title{
         text-align: left;
         width: 100%;
         font-size: 28px;
-        margin-left: -20%;
+        margin-left: -19%;
+    margin-top: 4%;
     }
-    .cons_list>div {
-        padding-left: 6%;
+    .linevText{
+        display: flex;
+        text-align: left;
+    }
+    .SaasDevTit2 {
+        margin-left: 0%;
+    }
+    .SaasPara{
+        width: 383px;
+    text-align: justify;
+    margin-left: -19%;
+    font-size: 14px;
+    }
+    .linev{
+        display: none;
+    }
+    .SAASDev{
+        text-align: justify;
+    margin-left: 0% !important;
+    width: 376px;
+    font-size: 14px;
+    }
+   
+    .dev_list {
+        display: block;
+        margin-left: -8%;
+    }
+    .ConsTitl{
+        width: 100%;
+    font-size: 25px;
+    margin-left: -18%;
+    }
+    .cons_right {
+        padding-left: 16%;
+        padding-top: 2%;
+    }
+    .dev_list>div>div {
+        padding-left: 10%;
+        padding-right: 0%;
+        padding-top: 5%;
+    }
+    .cons_desc {
+        text-align: justify;
+        margin-left: -18%;
     }
     .SaasConsList{
-        margin-left: -11%;
-        margin-bottom: -6%;
-
+        margin-top: -5%;
     }
-    .CreateImpact {
-        margin-top: 26%;
+    .SupportMain{
+        text-align: justify;
+        margin-left: -17%;
+        width: 381px;
+        margin-bottom: 14%;
+        font-size: 14px;
+        width: 100%;
     }
     .cardTitle {
-        padding: 18% 0 0 10%;
-        font-size: 20px;
-        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 6%;
+    }
+    .cons_number {
+        font-size: 22.8118px;
     }
     .cardDesc {
-        padding: 0% 0 0 10%;
         font-size: 12px;
-        width: 94%;
+         width: 93%;
     }
     .cardDescList {
         font-size: 14px;
-        margin-left: 17px;
     }
-    
-    .SaasDevTit2 {
-        text-align: left;
-        width: 100%;
-        font-size: 28px;
-        margin-left: 0%;
-        margin-top: 6%;
-    }
-    .animationBGRes {
-        height: 519px;
-    }
-    .expert_flex>div {
-        padding-bottom: 0%;
-        padding-top: 0%;
-    }
-    .duct_Title {
-        margin: 22% 4%;
-        width: 65%;
-        font-size: 28px;
-        font-size: 28px;
-        line-height: 120%;
-        letter-spacing: -0.04em;
-        color: #FFFFFF;
-    }
-    
-    .SAASDev {
-        width: 337px;
-        margin-left: 0%;
-        text-align: justify;
-        font-size: 13px;
-    }
-   .dev_list {
-    margin-left: -4%;
-}
-.cons_number {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21.8118px;
-    line-height: 42px;
-    color: #000000;
-}
-.cons_number {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21.8118px;
-    line-height: 42px;
-    color: #000000;
-}
-.dev_list-Block {
-    
-    padding-right: 0%;
-}
-   .SupportMain{
-    width: 348px;
-    margin-left: -20%;
-    text-align: justify;
-    font-size: 13px;
-   }
-   .ConsTitl {
-    width: 100%;
-    font-size: 20px;
-    margin-left: -20%;
-    margin-top: 5%;
-}
-   .cons_subTitle {
-    margin-top: 9px;
-    margin-left: 5%;
-        margin-top: 9px;
-        margin-left: 5%;
-        font-size: 14px;
-   }
-.dev_list>div>div {
-    padding-left: 5%;
-    padding-right: 0%;
-    padding-top: 5%;
-}
-   .SupportLine{
-    margin-left: -8%;
-   }
-   .buildProduct {
-    height: auto;
-    padding-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 13%;
-    display: block;
-}
     .cards1,.cards2,.cards3{
         width:300px;
-        margin: 0 0 15% 1%;
+        margin: 0 0 10% 8%;
         text-align: left;
     }
     .ImpactTitle{
-        margin: 0 0 0 1%;
-    }
-    .animation #animationText{
         font-family: Poppins;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 500;
-        line-height: 21px;
+        line-height: 31px;
         letter-spacing: -0.025em;
         text-align: center;
-        left: 55px;
-        top: 191px;
-        text-align: justify;
-        width: 260px;
-      }
-    .whyVenzo{
-        margin: 8% 0 0 -15%;
+        width: 350px;
+        margin: 0 0 0 2%;
+
     }
-    .whyVenzo #whyVenzoText{
+    /* .cards3{
+        margin-left: -10%;
+    } */
+    .animation #animationText{
+        left:190px;
+        top:227px;
+        font-size: 16px;
+        width: 50%;
+    }
+
+    
+    .helpTitle{
+        font-size: 38px;
+        font-weight: 600;
+        text-align: center;
+
+    }
+    .helpDesc{
         font-size: 14px;
-        width:85%;
-        margin: 0 0 46px 15%;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        height: 128px;
+        width: 361px;
+        margin: 0 0 24px 2%;
+        
     }
-    .ourProducts .productImage{
-        width: 100%;
-        margin: 15% 0 0 0%;
-    }
-    .productDesc #productText {
-        font-size: 12px;
-        width: 316px;
-    }
-    .carousel-indicators {
-        display: flex;
-    }
-    .venzoCards .subCards #subCardsText {
-        font-size: 15px;
+    .cons_list{
+        display: block;
         text-align: left;
-        width: 50%;
+        margin-left: -26%;
     }
-    .awesomeProducts {
-        height: 955px;
-        padding-top: 15%;
+    .ConsultBr {
+        display: none;
     }
-    .ourProducts .productDesc {
-        width: 50%;
-        padding-top: 5%;
+    .dev_list-Block{
+        display: block;
+        text-align: left;
     }
-    .carousel-indicators {
-        margin-bottom: -3rem;
+   
+    /* .ourProducts{
+        display: block;
+        text-align: center;
+    } */
+    .cardlist{
+        display: block;
+        text-align: center;
+        
     }
-    .buildText {
-        font-size: 20px !important;
-        width: 89% !important;
-        margin-left: 3%;
+    .saas_consulting, .saas_Development {
+        display: block;
+        margin: 1% 0 10% 0;
+        
     }
-    .buildtalk {
-        height: 35px !important;
-        width: 103px !important;
-        margin-left: 4%;
+    .cons_subTitle {
+        width: 90%;
+        text-align: left;
+        margin: 1% 0px 0px 5%;
+        font-size: 15px
     }
+    .awesomeProducts{
+        height: 844px;
+   }
+   .ourProducts{
+       padding:5% 5%;
+       margin: 10% 0 0 0;
+       display: block;
+       height: 700px;
+   }
+   .cardlist {
+       padding:3% 0%;
+       grid-template-columns: repeat(2,1fr);
+      
+  }
+  
+  .venzoCards{
+   grid-template-columns: repeat(2,1fr);
+   margin: 0 0 0 10%;
+
+  }
+  .whyVenzo #whyVenzoTitle{
+      text-align: center;
+      margin-left: 10%;
+  }
+
+  .buildProduct{
+      display: block;
+      height: auto;
+      padding: 4% 10%;
+      padding-top: 8%;
+    padding-bottom: 13%;
+  }
+  .buildText{
+    font-family: Poppins;
+    font-size: 25px !important;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-left: 1%;
+    
+  }
+  .buildtalk{
+    height: 31px;
+    width: 114px;
+    left: 20px;
+    top: 8236px;
+    border-radius: 8px;
+    margin-left: 1%;
+    
+  }
+  .animation #animationText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    width: 60%;
+    left: 85px;
+    top: 229px;
+    
+  }
+  .whyVenzo{
+      margin: 1% 0 0 -8%;
+  }
+  .whyVenzo #whyVenzoTitle{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    
+  }
+  .whyVenzo #whyVenzoText{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    width: 387px;
+    margin: 0 0 0 2%;
+    
+  }
+  .venzoCards{
+      padding: 13% 5%;
+      margin-bottom: 10%;
+  }
+  .venzoCards .subCards{
+    height: 169.21881103515625px;
+    width: 165px;
+    border-radius: 7.411043167114258px;
+    margin: 0 0 0 -15%;
+    
+  }
+  .venzoCards .subCards img{
+    height: 26.079145431518555px;
+    width: 28.449974060058594px;
+    left: 97.9384765625px;
+    top: 6838.703125px;
+    border-radius: 0px;
+    
+  }
+  .venzoCards .subCards #subCardsText{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 40%;
+  }
+  .awesomeProducts .awesomeTitle {
+    margin-top: 8%;
+}
+.productDesc #productTitle{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    }
+    .borderLine{
+    width:50%;
+    }
+    .productDesc #productText{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justify;
+        width: 330px;
+    }
+.ourProducts .productImage{
+    margin: 5% 0 0 -2%;
+}
+.awesomeProducts {
+    height: 921px;
+}
+.animationBG{
+    display: none;
+}
+.animationBGRes{
+    display: block;
+}
+.carousel-indicators {
+    display: flex;
+}
+.carousel-inner {
+    height:  138vh !important;
+}
+.carousel-indicators {
+    margin-bottom: -3rem;
+}
+.CreateImpact {
+    background: #0A1020;
+    padding: 5% 0;
+}
+.cons_desc {
+    text-align: justify;
+    margin-left: -18%;
+    width: 100%;
+}
 }

@@ -29,11 +29,61 @@
 }
 
 .candoCards {
-    padding: 4% 10%;
+    padding: 4% 3%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 11%;
+    grid-row-gap: 10%;
     grid-column-gap: 3%;
+    margin: 0 0 0 2%;
+
+}
+
+
+.candocards1{
+    background-image: url('../../../images/appdevelopment/appd17.png');
+    width: 280px;
+    height: 455px;
+}
+.candocards1:hover{
+    background-image: url('../../../images/appdevelopment/appd36.png');
+    height: 455px;
+    width: 280px;
+}
+.candocards2{
+    background-image: url('../../../images/appdevelopment/appd37.png');
+    width: 280px;
+    height: 455px;
+}
+.candocards2:hover{
+    background-image: url('../../../images/appdevelopment/appd14.png');
+    height: 455px;
+    width: 280px;
+
+
+}
+.candocards3{
+    background-image: url('../../../images/appdevelopment/appd15.png');
+    width: 280px;
+    height: 455px;
+}
+.candocards3:hover{
+    background-image: url('../../../images/appdevelopment/appd35.png');
+    height: 455px;
+    width: 280px;
+
+
+}
+.candocards4{
+    background-image: url('../../../images/appdevelopment/appd16.png');
+    width: 280px;
+    height: 455px;
+}
+.candocards4:hover{
+    background-image: url('../../../images/appdevelopment/appd34.png');
+    height: 455px;
+    width: 280px;
+
+
 }
 
 .candocards1,
@@ -130,6 +180,12 @@
 }
 
 @media screen and (max-width:430px)and (min-width:375px) {
+    /* .candocards1,.candocards2,.candocards3,.candocards4{
+        background-image: unset;
+    }
+    .candocards1:hover,.candocards2:hover,.candocards3:hover,.candocards4:hover{
+        background-image: unset;
+    } */
     .canDo {
         padding: 3% 2% !important;
     }

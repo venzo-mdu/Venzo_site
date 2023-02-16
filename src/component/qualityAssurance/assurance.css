@@ -1,3 +1,5 @@
+
+
 .quality_section1 {
     padding: 15% 0 10% 0;
     background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
@@ -334,11 +336,11 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 120%;
+    line-height: 22px;
     letter-spacing: -0.04em;
     color: #7E7E7E;
     cursor: pointer;
-
+    text-align: left;
 }
 
 .quality_cardTitleHr {
@@ -536,6 +538,10 @@
 
 
 @media screen and  (max-width:1705px) and (min-width:1205px){
+    .q1images{
+    width: 100%;
+    margin: 0 0 0 5%;
+}
     .quality_section1 {
         padding: 15% 0 10% 0;
         background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
@@ -1013,7 +1019,7 @@
         width: 90%;
         margin-left: 5%;
         border-radius: 18px;
-        margin-bottom: 15%;
+        margin-bottom: 6%;
         background-image: url('../../images/quality/endtoendbg.png');
         background-repeat: no-repeat;
         background-position-x: right;

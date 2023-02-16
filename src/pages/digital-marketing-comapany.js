@@ -1,6 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import DM_Page from '../component/DmPage/DM_Page'
-function dm_page() {
+function Dm_page() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div className='blockchainbody'>
       <title>Venzo Technologies</title>
@@ -9,5 +15,5 @@ function dm_page() {
   )
 }
 
-export default dm_page
+export default Dm_page
 

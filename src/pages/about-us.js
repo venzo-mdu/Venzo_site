@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from '../component/header/header'
 import Unleashing from '../component/aboutus/unleashing/unleashing'
 import Community from '../component/aboutus/community/community'
@@ -8,7 +8,13 @@ import Leadership from '../component/aboutus/leadership/leadership'
 import Mobility from '../component/aboutus/mobility/mobility'
 import Footer from '../component/footer/footer'
 
-function aboutus() {
+function Aboutus() {
+  useEffect(()=>{
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0
+    })
+  },[])
   return (
     <div className='blockchainbody'>
       <Header flag='header2' />
@@ -24,4 +30,4 @@ function aboutus() {
 
 }
 
-export default aboutus
+export default Aboutus
