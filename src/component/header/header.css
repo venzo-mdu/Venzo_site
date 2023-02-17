@@ -46,7 +46,7 @@ a {
     display: inline;
     margin: 0% 4%;
     width: 100%;
-    color:  rgba(255, 255, 255, 0.5)!important;
+    color:  rgba(255, 255, 255,0.5)!important;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -63,14 +63,16 @@ a {
 }
 .active-link{
     color: #FFFFFF !important;
+
 }
  .header .toggleIcon {
         display: block;
         height: 20px;
         width: 24px;
         position: absolute;
-        top: 28px;
-        right: 40px;
+        top: 32px;
+        right: 100px;
+        cursor: pointer;
     }
    
 
@@ -125,6 +127,16 @@ a {
         font-size: 14px;
         margin: 0% 3%;
     }
+    .header .toggleIcon {
+        display: block;
+        height: 20px;
+        width: 24px;
+        position: absolute;
+        top: 32px;
+        right: 20px;
+    }
+    
+ 
 }
 
 @media screen and (max-width:768px) and (min-width:430px) {

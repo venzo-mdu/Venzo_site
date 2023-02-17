@@ -44,7 +44,7 @@ function Header(props) {
     <header>
       <div id={props.flag == 'header2' ? 'headerSection' : ' '} className='header'>
         <div className='logo'>
-          <Link to='/'><img className='venzohome' src={navbarLogo} alt='logoIcon'></img></Link>
+          <a href='/'><img className='venzohome' src={navbarLogo} alt='logoIcon'></img></a>
         </div>
         <div className='links'>
           {/* <ul>

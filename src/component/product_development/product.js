@@ -70,7 +70,6 @@ function Product() {
         <>        <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'></link>
 
             <div>
-                <Header flag='header1' />
                 <Header flag='header2' />
                 <div>
                     <div className='product_section1'>

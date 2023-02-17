@@ -38,7 +38,7 @@
 }
 
 .popup-inner input{
-    width: 48%;
+    width: 47%;
     background: #F8F8F8;
     border-radius: 4px;
     border: none;
@@ -51,6 +51,7 @@
     border-radius: 4px;
     border: none;
 }
+
 @media screen and (max-width:430px) and (min-width:376px){
 .popup-inner {
     position: relative;
@@ -91,11 +92,39 @@
 }
 
 @media screen and (max-width:375px){
+   
+    .popup-inner {
+        position: relative;
+        padding: 32px;
+        width: 83%;
+        background-color: #fff;
+        height: 67%;
+    } 
+    .popup-inner .close-btn {
+        border: 0px;
+        background: transparent;
+    }
+    .popup-inner input {
+        width: 98%;
+        background: #F8F8F8;
+        border-radius: 4px;
+        border: none;
+    }  
+    .popup-inner {
+        height: auto;
+    }
+    .Fmessage {
+        height: 100px !important;
+        margin-top: 3%;
+        background: #F8F8F8;
+        border-radius: 4px;
+        border: none;
+    }
     .formTitle1 {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 33px;
         letter-spacing: -0.03em;
         color: black;

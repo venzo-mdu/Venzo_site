@@ -165,10 +165,10 @@ function ImageCarousel() {
             </AliceCarousel>
 
             <div className='socialMediaIcon'>
-                <a href='https://www.facebook.com/VenzoTechnologies/'><img id='fbicon' src={fbIcon} alt='fbIcon'></img></a>
-                <a href='https://twitter.com/Venzo_Tech/'><img id='twittericon' src={twitterIcon} alt='twitterIcon'></img></a>
-                <a href='https://www.linkedin.com/company/venzo-technologies/'><img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img></a>
-                <a href='https://www.instagram.com/venzo_tech/'><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
+                <a href='https://www.facebook.com/VenzoTechnologies/' target={"_blank"}><img id='fbicon' src={fbIcon} alt='fbIcon'></img></a>
+                <a href='https://twitter.com/Venzo_Tech/' target={"_blank"}><img id='twittericon' src={twitterIcon} alt='twitterIcon'></img></a>
+                <a href='https://www.linkedin.com/company/venzo-technologies/' target={"_blank"}><img id='linkedinicon' src={linkedIcon} alt='linkedIcon'></img></a>
+                <a href='https://www.instagram.com/venzo_tech/' target={"_blank"}><img id='instaicon' src={instaIcon} alt='instaIcon'></img></a>
             </div>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
                 <form onSubmit={sendEmail}>

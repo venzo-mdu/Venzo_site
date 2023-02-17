@@ -253,6 +253,19 @@
         margin: 8% 0 0 80% !important;
         border: none;
     }
+    .Fbutton2 {
+        background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+        border-radius: 8px;
+        padding: 1% 5%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin: 8% 0 0 80% !important;
+        border: none;
+    }
     .Fphone1{
         width: 100% !important;
     }

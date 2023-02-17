@@ -12,8 +12,8 @@
         "routeLink":"/product-development-company"
     },
     {
-        "navLink":"About Us",
-        "routeLink":"/about-us"
+        "navLink":"QA Services",
+        "routeLink":"/quality-engineering-assurance"
     },
     {
         "navLink":"Blog",

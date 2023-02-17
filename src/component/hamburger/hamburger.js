@@ -7,14 +7,12 @@ function hamburger({ closemodal }) {
    const onClickclose = () => {
       console.log('clickedclose', closemodal)
       closemodal(false)
-      document.getElementsByClassName('hamburger').style.animation = 'movingup 0.5s linear'
-      console.log('close',document.getElementsByClassName('hamburger').style.animation)
    }
    return (
-            <div className='hamburger'>
+            <div className='hamburger closeHamburger'>
                <span onClick={onClickclose} className='closeBtn'><img src={Closebtn} alt='closeicon'></img></span>
 
-               <div id='hamburger'>
+               <div id='hamburger closeBtn'>
                <div className='menu'>
                   <div className='hamLogo'>
                   <a href='/'><img className='venzoLogoham' src={VenzoHam} alt='images-Logo'></img></a>
@@ -22,31 +20,31 @@ function hamburger({ closemodal }) {
                  
                  <div className='routeLinks'>
                   <div className='routes1'>
-                 <p id='cardText'><a className="nav-link" activeClassName="active-link"  href="/">Banking QA</a></p>
+                 <p id='cardText'><a className="nav-link"  activeClassName="active-link"  href="/banking-application-testing-qa-services">Banking QA</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/app-development-company">Quality Assurance</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/quality-engineering-assurance">Quality Assurance</a></p>
                   <hr id='hrincard'></hr>
                   <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/product-development-company">Banking Solutions</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/about-us">Staff Augumentation</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/hire-our-developers">Staff Augumentation</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/blog">App Development</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/app-development-company">App Development</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/about-us">Web Development</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/website-development-company">Website Development</a></p>
                      </div>
                      <div className='routes2'>
                     
                   <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/product-development-company">Product Development</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/product-development-company">Blockchain  Development</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/blockchain-development-company">Blockchain  Development</a></p>
                   <hr id='hrincard'></hr>
                   <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/about-us">About Us</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/blog">Careers</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/careers">Careers</a></p>
                   <hr id='hrincard'></hr>
                   <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/blog">Blogs</a></p>
                   <hr id='hrincard'></hr>
-                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/app-development-company">Reach Us</a></p>
+                  <p id='cardText'><a className="nav-link" activeClassName="active-link" href="/contact-us">Reach Us</a></p>
 
                      </div>
                  </div>

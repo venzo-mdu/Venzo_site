@@ -34,6 +34,7 @@
     "gatsby-transformer-sharp": "^4.19.0",
     "react": "^18.1.0",
     "react-alice-carousel": "^2.6.4",
+    "react-animated-css": "^1.2.1",
     "react-bootstrap": "^2.4.0",
     "react-countup": "^6.4.1",
     "react-dom": "^18.1.0",

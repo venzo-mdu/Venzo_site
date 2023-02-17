@@ -6,8 +6,12 @@
     position: absolute;
     right: 0px;
     top: 0px;
-    animation: moving 500ms linear;  
+    animation: moving 200ms linear;  
+    /* transition: 10s; */
 }
+
+
+
 #hamburger{
     animation-timing-function: ease-in;  
 }
@@ -54,8 +58,15 @@
     }
     .closeBtn{
         float:right;
-        animation: movingup 0.5s linear;
+        /* animation: movingup 300ms linear; */
+        cursor: poiner;
 
+    }
+    .closeBtn:hover{
+        cursor: pointer;
+    }
+    /* #closeBtn{
+        animation-timing-function: ease-in-out;
     }
     @keyframes movingup {
         from{
@@ -64,7 +75,7 @@
         to{
             top:-500px;
         }
-    }
+    } */
   
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .hamburger{

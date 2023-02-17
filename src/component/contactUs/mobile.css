@@ -229,6 +229,16 @@ input {
     margin: 2% 2% 8% 2%;
     width: 97%;
 }
+.Fphone1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 21px;
+    color: #929292;
+    margin: 2% 2% 8% 2%;
+    width: 97%;
+}
 
 .Fmessage {
     font-family: 'Poppins';
@@ -252,7 +262,21 @@ input {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 7% 4%;
+    margin: 8% 0 7% 4% ;
+    width: 93%;
+    height: 40px;
+}
+.Fbutton2{
+    background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    border-radius: 8px;
+    padding: 1% 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 8% 0 7% 4% !important;
     width: 93%;
     height: 40px;
 }
@@ -797,6 +821,20 @@ input {
     line-height: 120%;
     color: #FFFFFF;
     margin: 8% 0 7% 38%;
+}
+.Fbutton2{
+    background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+    border-radius: 8px;
+    padding: 1% 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 8% 0 7% 3% !important;
+    width: 93%;
+    height: 40px;
 }
 .mediaIocn{
     margin: -3% 0 4%;

@@ -169,7 +169,6 @@ function QualityAssurance() {
     }
     return (
         <div>
-            <Header flag='header1' />
             <Header flag='header2' />
             <div>
                 <div className='quality_section1'>

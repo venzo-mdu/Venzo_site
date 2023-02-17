@@ -13,13 +13,14 @@ const CareersPage=()=>{
     })
   },[])
   return (
-    <>
+    <div className='blockchainbody'>
+
     <Header flag='header2'/>
     <JobDetails/>
     <ApplyJob/>
     <Discussion/>
     <Footer/>
-    </>
+    </div>
   )
 }
 

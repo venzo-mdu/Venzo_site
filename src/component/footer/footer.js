@@ -19,7 +19,6 @@ function Footer() {
       </head>
 
       <footer>
-      <Link to='/privacy-policy'><p id='footerText'>Ransomware</p></Link>
         <div className='footerDetails'>
           <div className='footer'>
             <div className='laptopResponsive'>

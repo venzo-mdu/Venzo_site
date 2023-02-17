@@ -37,6 +37,9 @@
     margin: 0 0 0 2%;
 
 }
+.candoCardsRes{
+    display: none;
+}
 
 
 .candocards1{
@@ -204,15 +207,85 @@
         font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
         width: 100%;
-        margin: 5% 0 0 1%;
+            margin: 3% 0 5% 1%
     }
-
-    .candoCards {
+    .candoCards{
+        display: none;
+    }
+    .candoCardsRes {
         display: block;
+        padding: 2% 2%;
+    }
+   
+    .candocards1Res{
+        background-image: url('../../../images/appdevelopment/appd30.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+    }
+     .candocards2Res{
+        background-image: url('../../../images/appdevelopment/appd31.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+
+    }
+     .candocards3Res{
+        background-image: url('../../../images/appdevelopment/appd32.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+    }
+     .candocards4Res{
+        background-image: url('../../../images/appdevelopment/appd33.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        padding: 2% 2%;
+
+    }
+    
+    .candocards1Res:hover{
+        background-image: url('../../../images/appdevelopment/appd41.png');
+        height: 201px;
+        width: 388px;
+        
+
+    }
+     .candocards2Res:hover{
+        background-image: url('../../../images/appdevelopment/appd40.png');
+        height: 201px;
+        width: 388px;
+        
+
+
+    }
+     .candocards3Res:hover{
+        background-image: url('../../../images/appdevelopment/appd39.png');
+        height: 201px;
+        width: 388px;
+       
+
+    }
+     .candocards4Res:hover{
+        background-image: url('../../../images/appdevelopment/appd38.png');
+        height: 201px;
+        width: 388px;
+       
+
     }
 
     .canDocardsImg {
@@ -225,7 +298,8 @@
     }
 
     .cardsIcon {
-        left: 0px
+            left: 25px;
+            top: 25px;
     }
 
     #cardsTitle {
@@ -244,8 +318,8 @@
 
     #cardsTitle2 {
         /* display: none; */
-        top: 120px;
-        left: 2%;
+            top: 120px;
+            left: 25px;
     }
 
     #cardsTitle1 {
@@ -257,7 +331,7 @@
         text-align: left;
         width: 100%;
         top: 50px;
-        left: 60px;
+        left: 45px;
         width: 80%;
     }
 
@@ -265,61 +339,67 @@
         /* display: none; */
     }
 
-    .candocards2:hover #cardsTitle2 {
-        top: 100px;
+    .candocards2Res:hover #cardsTitle2 {
+       
         display: none;
     }
 
-    .candocards2 span {
+    .candocards2Res span {
         display: none;
     }
 
-    .candocards2:hover span {
+    .candocards2Res:hover span {
         display: block;
     }
 
-    .candocards1:hover #cardsTitle2 {
-        top: 100px;
+    .candocards1Res:hover #cardsTitle2 {
+        
         display: none;
     }
 
-    .candocards1 span {
+    .candocards1Res span {
         display: none;
         /* width: 50%; */
     }
 
-    .candocards1:hover span {
+    .candocards1Res:hover span {
         display: block;
     }
 
-    .candocards3:hover #cardsTitle2 {
-        top: 100px;
+    .candocards3Res:hover #cardsTitle2 {
+        
         display: none;
     }
 
-    .candocards3 span {
+    .candocards3Res span {
         display: none;
     }
 
-    .candocards3:hover span {
+    .candocards3Res:hover span {
         display: block;
     }
 
-    .candocards4:hover #cardsTitle2 {
-        top: 100px;
+    .candocards4Res:hover #cardsTitle2 {
+      
         display: none;
     }
 
-    .candocards4 span {
+    .candocards4Res span {
         display: none;
     }
 
-    .candocards4:hover span {
+    .candocards4Res:hover span {
         display: block;
     }
+    .candocards1Res:hover img,
+     .candocards2Res:hover img,
+      .candocards3Res:hover img,
+       .candocards4Res:hover img{
+
+       display: none;
 
 }
-
+}
 @media screen and (max-width:375px) {
 
     #cardsTitle {
@@ -348,8 +428,50 @@
         left: 50px;
     }
 
-    .candoCards {
-        padding: 4% 5%;
+     .candoCards{
+        display: none;
+    }
+    .candoCardsRes {
+        display: block;
+        padding: 2% 2%;
+    }
+   
+    .candocards1Res{
+        background-image: url('../../../images/appdevelopment/appd30.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+
+    }
+     .candocards2Res{
+        background-image: url('../../../images/appdevelopment/appd31.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+
+    }
+     .candocards3Res{
+        background-image: url('../../../images/appdevelopment/appd32.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+    }
+     .candocards4Res{
+        background-image: url('../../../images/appdevelopment/appd33.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        padding: 2% 2%;
+
     }
 
     .canDocards1Img {

@@ -44,7 +44,7 @@ text-fill-color: transparent;
         width: 57%;
     }
     .colleagues{
-        margin-bottom: 14% !important;
+        margin-bottom: 3% !important;
     }
     .posCard .cards #cardText {
         font-size: 16px !important;
@@ -58,7 +58,6 @@ text-fill-color: transparent;
 @media screen and (max-width:1025px) and (min-width:768px) {
 .colleagues{
     padding: 15% 0 0 0;
-    margin-bottom: 25% !important;
 }
 .colleagues img{
     width:80%;
@@ -96,16 +95,15 @@ text-fill-color: transparent;
 @media  screen and (max-width:430px) and (min-width:375px) {
     .colleagues{
         height: 60vh;
-        margin-bottom: 47%;
     }
     .colleagues #candidateTitle{
        font-size: 30px;
        margin-top: 18%;
        font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
 /* or 38px */
 
 text-align: center;
@@ -121,14 +119,4 @@ letter-spacing: -0.04em;
         width:100%;
         border-radius:0px!important;
     }
-}
-@media  screen and (max-width:430px) and (min-width:375px) {
-.colleagues #candidateTitle {
-    font-size: 30px;
-    margin-top: 23%;
-}
-.colleagues {
-    height: 60vh;
-    margin-bottom: 55%;
-}
 }

@@ -44,7 +44,6 @@ function Blogs1() {
 
     return (
         <div className='blogbody'>
-            <Header flag='header1' />
             <Header flag='header2' />
             <div className='blogs_section1'>
                 <p className='Blogs_title'>Blogs</p>
