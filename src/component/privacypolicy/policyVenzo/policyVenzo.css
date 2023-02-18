@@ -111,7 +111,7 @@
 @media screen and (max-width:1705px) and (min-width:1030px){
         .policyVenzo{
             padding: 1% 3%;
-            margin: -21% 0 0 0;
+            margin: -15% 0 0 0;
         }
         .policies{
         background-color: #F8F8F8;
@@ -187,7 +187,7 @@
 @media screen and (max-width:1024px) and (min-width:775px){
     .policyVenzo{
         padding: 1% 2.1%;
-    margin: -20% 0 0 0;
+    margin: -15% 0 0 0;
     }
     .policies{
     background-color: #F8F8F8;
@@ -213,7 +213,7 @@
 @media screen and (max-width:770px) and (min-width:431px){
     .policyVenzo {
         padding: 1% 2.3%;
-        margin: -30% 0 0 0;
+        margin: -25% 0 0 0;
     }
     .policies{
     background-color: #F8F8F8;

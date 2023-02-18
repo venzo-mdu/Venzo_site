@@ -58,6 +58,9 @@
         left: 269px;
         top: 148px;
     }
+    .connectwithUs .privacyMediaIcons{
+        margin: 0 0 0 -10%;
+    }
 }
 @media screen and (max-width:770px) and (min-width:431px){
     .privacyVenzo #privacyText{

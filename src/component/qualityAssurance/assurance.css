@@ -384,7 +384,7 @@
 }
 
 .quality_card1 img {
-    width: 40%;
+    width: 55%;
     height: 60px;
     margin-top: 5%;
 }
@@ -538,11 +538,7 @@
 
 
 @media screen and  (max-width:1705px) and (min-width:1205px){
-    .q1images{
-    width: 100%;
-    margin: 0 0 0 5%;
-}
-    .quality_section1 {
+   .quality_section1 {
         padding: 15% 0 10% 0;
         background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
         background-size: 100% 100%;
@@ -926,7 +922,7 @@
     }
     
     .quality_card1 img {
-        width: 40%;
+        width: 55%;
         height: 60px;
         margin-top: 5%;
     }

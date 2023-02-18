@@ -17,26 +17,28 @@ import group4 from '../../images/quality/group4.png'
 import group5 from '../../images/quality/group5.png'
 import group6 from '../../images/quality/group6.png'
 import gainimg from '../../images/quality/gainimg.png'
-import cardimg1 from '../../images/quality/cardimg1.png'
-import cardimg2 from '../../images/quality/cardimg2.png'
-import cardimg3 from '../../images/quality/cardimg3.png'
-import autoimg1 from "../../images/quality/autoimg1.png"
-import autoimg2 from "../../images/quality/autoimg2.png"
-import autoimg3 from "../../images/quality/autoimg3.png"
-import testimg1 from "../../images/quality/testimg1.png"
-import testimg2 from "../../images/quality/testimg2.png"
-import testimg3 from "../../images/quality/testimg3.png"
-import developimg1 from "../../images/quality/developimg1.png"
-import developimg2 from "../../images/quality/developimg2.png"
-import webimg1 from "../../images/quality/webimg1.png"
-import webimg2 from "../../images/quality/webimg2.png"
-import webimg3 from "../../images/quality/webimg3.png"
+import cardimg1 from '../../images/quality/quality13.svg'
+import cardimg2 from '../../images/quality/quality14.svg'
+import cardimg3 from '../../images/quality/quality12.svg'
+import autoimg1 from "../../images/quality/Group 81757.svg"
+import autoimg2 from "../../images/quality/Group 81755.svg"
+import autoimg3 from "../../images/quality/Group 81756.svg"
+import testimg1 from "../../images/quality/image 49.svg"
+import testimg2 from "../../images/quality/image 50.svg"
+import testimg3 from "../../images/quality/image 51.svg"
+import developimg1 from "../../images/quality/image 52.svg"
+import developimg2 from "../../images/quality/image 53.svg"
+import webimg1 from "../../images/quality/image 57.svg"
+import webimg2 from "../../images/quality/Group 81766.svg"
+import webimg3 from "../../images/quality/image 58.svg"
 import securityimg1 from "../../images/quality/securityimg1.png"
 import securityimg2 from "../../images/quality/securityimg2.png"
 import securityimg3 from "../../images/quality/securityimg3.png"
-import performimg1 from "../../images/quality/performimg1.png"
-import performimg2 from "../../images/quality/performimg2.png"
-import performimg3 from "../../images/quality/performimg3.png"
+import performimg1 from "../../images/quality/image 34.svg"
+import performimg2 from "../../images/quality/Group 81752.svg"
+import performimg3 from "../../images/quality/image 39.svg"
+import card4  from "../../images/quality/quality12.svg"
+
 import Popup from '../../component/careersPage2/popup/popup'
 import checkcolor from '../../images/quality/checkcolor.png'
 import Footer from '../footer/footer'
@@ -96,7 +98,7 @@ function QualityAssurance() {
             <br>\
             <br>\
             <hr/>\
-            <img src='" + cardimg3 + "' />\
+            <img src='" + card4 + "' />\
     ";
         }
         else if (value === 'Web') {
@@ -269,11 +271,11 @@ function QualityAssurance() {
                             <hr className='quality_cardTitleHr' />
                             <li className={active === 'Mobile' ? 'cardtitle01' : 'cardtitle4'} onClick={() => dated('Mobile')}>Mobile Testing</li>
                             <hr className='quality_cardTitleHr' />
-                            <li className={active === 'Web' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('Web')}>Web Tesing</li>
+                            <li className={active === 'Web' ? 'cardtitle01' : 'cardtitle5'} onClick={() => dated('Web')}>Web Testing</li>
                             <hr className='quality_cardTitleHr' />
                             <li className={active === 'Security' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Security')}>Security Testing</li>
                             <hr className='quality_cardTitleHr' />
-                            <li className={active === 'Performance' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Performance')}>Performance Tesing</li>
+                            <li className={active === 'Performance' ? 'cardtitle01' : 'cardtitle6'} onClick={() => dated('Performance')}>Performance Testing</li>
                         </ul>
                         <div className='quality_card1'>
                             <div>
@@ -336,7 +338,7 @@ function QualityAssurance() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="5">
-                                <Accordion.Header className='qacardtitle' >Web Tesing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Web Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
                                         <img src={webimg1} alt="autoimg" />
@@ -360,7 +362,7 @@ function QualityAssurance() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="7">
-                                <Accordion.Header className='qacardtitle' >Performance Tesing</Accordion.Header>
+                                <Accordion.Header className='qacardtitle' >Performance Testing</Accordion.Header>
                                 <Accordion.Body className=' quality_card2'>
                                     <div>
                                         <img src={performimg1} alt="autoimg" />

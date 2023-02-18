@@ -297,59 +297,78 @@
     .linkedicons1,
     .instaicons1,
     .youtubeicons1 {
-        width: 42.97px;
-        height: 28.97px;
+        height: 45px;
         margin-left: 10%;
     }
 
     .fbicons1 {
         background-image: url('../../images/contactUs/blackicon5.png');
         background-repeat: no-repeat;
+        width: 45px;
+   
     }
 
     .fbicons1:hover {
         background-image: url('../../images/contactUs/coloricon1.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .twitericons1 {
         background-image: url('../../images/contactUs/blackicon1.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .twitericons1:hover {
         background-image: url('../../images/contactUs/coloricon2.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .linkedicons1 {
         background-image: url('../../images/contactUs/blackicon2.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .linkedicons1:hover {
         background-image: url('../../images/contactUs/coloricon3.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .instaicons1 {
         background-image: url('../../images/contactUs/blackicon3.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .instaicons1:hover {
         background-image: url('../../images/contactUs/coloricon4.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .youtubeicons1 {
         background-image: url('../../images/contactUs/blackicon4.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     .youtubeicons1:hover {
         background-image: url('../../images/contactUs/coloricon5.png');
         background-repeat: no-repeat;
+        width: 45px;
+
     }
 
     @media screen and (max-width:1705px) and (min-width:1024px) {

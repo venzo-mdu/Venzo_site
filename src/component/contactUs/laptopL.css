@@ -262,13 +262,12 @@ input {
     margin-top: 5%;
 }
 .mediaIcons{
-    width: 50%;
-    margin: 4% 0 10% 30%;
+    width: 55%;
+    margin: 4% 0 10% 25%;
 }
 
  .fbicons1, .twitericons1, .linkedicons1, .instaicons1, .youtubeicons1 {
-    width: 42.97px;
-    height: 28.97px;
+    height: 50px;
     margin-left: 10%;
 
 }}

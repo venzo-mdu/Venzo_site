@@ -48,7 +48,6 @@ function Footer() {
                 <p>
                   <a href="/banking-application-testing-qa-services">Banking QA</a><br></br>
                   <a href="/quality-engineering-assurance">Quality Assurance</a><br></br>
-                  <a href="/">Banking Solutions</a><br></br>
                   <a href="/hire-our-developers">Staff Augmentation</a><br></br>
                   <a href="/app-development-company"> App Development</a><br></br>
                   <a href="/website-development-company">Website Development</a><br></br>

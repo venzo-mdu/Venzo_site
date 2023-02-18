@@ -80,6 +80,7 @@ footer {
     font-weight: 400;
     width: 50%;
     margin: 0 0 0 5%;
+    line-height: 32px;
 }
 
 .aboutUs {
@@ -188,7 +189,9 @@ footer {
     .copyRight p {
         margin: 1% 9.2%;
     }
-
+    .services {
+        line-height: 32.8px;
+    }
 }
 
 
