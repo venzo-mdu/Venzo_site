@@ -15,6 +15,62 @@
 .alice-carousel__wrapper {
     height: 100vh;
 }
+.homeBanner{
+    background: url('../../images/banner/homebanner.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 10% 15%;
+    position: relative;
+    display: block;
+}
+.homeBannerRes{
+    display: none;
+}
+.homeBold{
+  background-color: #FFFFFF;
+   border-radius: 8px;
+   color: #715dad;
+   padding: 0 2%;
+}
+#homeText{
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 65%;
+}
+.scrollItems{
+    position: absolute;
+    bottom: 100px;
+    left: 850px;
+}
+.scrollExplore{
+    margin: 5% 0 0 40%;
+    cursor: pointer;
+}
+#scrollText{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+} 
+#homeText1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9087AB;
+    
+}
 .item1 {
     text-align: left;
     padding: 0% 7%;
@@ -127,6 +183,65 @@
     margin:0 0 50% 0;
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
+
+
+    .homeBanner{
+        background: url('../../images/banner/homebanner.png');
+        background-size: 100% 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding: 10% 15%;
+        position: relative;
+    }
+    .homeBannerRes{
+        display: none;
+    }
+    .homeBold{
+      background-color: #FFFFFF;
+       border-radius: 8px;
+       color: #715dad;
+       padding: 0 2%;
+    }
+    #homeText{
+        font-family: Poppins;
+        font-size: 57px;
+        font-weight: 400;
+        line-height: 95px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 80%;
+    }
+    .scrollItems{
+        position: absolute;
+        bottom: 50px;
+        left: 680px;
+    }
+    .scrollExplore{
+        margin: 5% 0 0 40%;
+        cursor: pointer;
+    }
+    #scrollText{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    } 
+    #homeText1{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #9087AB;
+        
+    }
+
+
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb{
         height: 93vh;
     }
@@ -222,6 +337,64 @@
 }
 
 @media screen and (max-width:1024px) and (min-width:768px) {
+
+    .homeBanner{
+        background: url('../../images/banner/homebanner.png');
+        background-size: 100% 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding: 15% 18%;
+        position: relative;
+    }
+    .homeBannerRes{
+        display: none;
+    }
+    .homeBold{
+      background-color: #FFFFFF;
+       border-radius: 8px;
+       color: #715dad;
+       padding: 0 2%;
+    }
+    #homeText{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 75px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 80%;
+        word-spacing: 10px;
+    }
+    .scrollItems{
+        position: absolute;
+        bottom: 50px;
+        left: 450px;
+    }
+    .scrollExplore{
+        margin: 5% 0 0 40%;
+        cursor: pointer;
+    }
+    #scrollText{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    } 
+    #homeText1{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #9087AB;
+        
+    }
+
     #blockchainweb, #dataEngineeringweb, #productDevelopmentweb {
         height: 93vh;
     }
@@ -332,6 +505,64 @@
 
 
 @media screen  and (max-width:768px) and (min-width:501px) {
+
+    .homeBanner{
+        background: url('../../images/banner/homebanner.png');
+        background-size: 100% 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding: 15% 15%;
+        position: relative;
+    }
+    .homeBannerRes{
+        display: none;
+    }
+    .homeBold{
+      background-color: #FFFFFF;
+       border-radius: 8px;
+       color: #715dad;
+       padding: 0 2%;
+    }
+    #homeText{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 75px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 10% 0 0 0;
+    }
+    .scrollItems{
+        position: absolute;
+        bottom: 50px;
+        left: 330px;
+    }
+    .scrollExplore{
+        margin: 5% 0 0 40%;
+        cursor: pointer;
+    }
+    #scrollText{
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    } 
+    #homeText1{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #9087AB;
+        
+    }
+
 
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
@@ -456,6 +687,63 @@
 }
 
 @media screen  and (max-width:500px) and (min-width:430px) {
+    .scrollItems{
+        bottom: 165px;
+        left: 140px;
+        position: absolute;
+    }
+    .homeBanner{
+        display: none;
+    }
+    .homeBannerRes{
+        display: block;
+        background: url('../../images/banner/homebannerres.png');
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding:15% 5%;
+        position: relative;
+    }
+    .homeBold{
+        background-color: #FFFFFF;
+         border-radius: 8px;
+         color: #715dad;
+         padding: 0 2%;
+      }
+      #homeText{
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 25% 0 0 0;
+      }
+     
+      .scrollExplore{
+          margin: 5% 0 0 40%;
+          cursor: pointer;
+      }
+      #scrollText{
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #FFFFFF;
+      } 
+      #homeText1{
+          font-family: Poppins;
+          font-size: 25px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #9087AB;
+          
+      }
     .alice-carousel__wrapper {
         height: 80vh !important;
     }
@@ -564,6 +852,62 @@
 
 
 @media screen and (max-width:430px) and (min-width:375px) {
+    .homeBanner{
+        display: none;
+    }
+    .homeBannerRes{
+        display: block;
+        background: url('../../images/banner/homebannerres.png');
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding:15% 5%;
+        position: relative;
+    }
+    .homeBold{
+        background-color: #FFFFFF;
+         border-radius: 8px;
+         color: #715dad;
+         padding: 0 2%;
+      }
+      #homeText{
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 25% 0 0 0;
+      }
+      .scrollItems{
+          position: absolute;
+          bottom: 100px;
+          left: 160px;
+      }
+      .scrollExplore{
+          margin: 5% 0 0 40%;
+          cursor: pointer;
+      }
+      #scrollText{
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #FFFFFF;
+      } 
+      #homeText1{
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #9087AB;
+          
+      }
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
@@ -675,6 +1019,62 @@
 
 
 @media screen and (max-width:375px) {
+    .homeBanner{
+        display: none;
+    }
+    .homeBannerRes{
+        display: block;
+        background: url('../../images/banner/homebannerres.png');
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding:15% 5%;
+        position: relative;
+    }
+    .homeBold{
+        background-color: #FFFFFF;
+         border-radius: 8px;
+         color: #715dad;
+         padding: 0 2%;
+      }
+      #homeText{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        width: 100%;
+        margin: 25% 0 0 0;
+      }
+      .scrollItems{
+          position: absolute;
+          bottom: 100px;
+          left: 130px;
+      }
+      .scrollExplore{
+          margin: 5% 0 0 40%;
+          cursor: pointer;
+      }
+      #scrollText{
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #FFFFFF;
+      } 
+      #homeText1{
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #9087AB;
+          
+      }
     .blockchainBl, .dataEngineeringBl, .productDevelopmentBl{
         display: block;
         width: 100vw;
