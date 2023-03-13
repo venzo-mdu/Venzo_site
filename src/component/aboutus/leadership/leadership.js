@@ -28,7 +28,7 @@ function leadership() {
               </div>
             </div>
             <p id='aboutLeaders'>After a 12-year stint donning various hats as a Project leader, Pre-Sales Consultant, Functional Consultant, and Trade-finance professional, he took the entrepreneurial plunge in his early 30’s with a relentless drive for innovation and a passion to best to align technology with customer business plans. </p>
-            <a href='https://www.linkedin.com/in/asifaly/'><img className='linkedinIcon' src={linkedIcon} alt='linkedicon'></img></a>
+            <a href='https://www.linkedin.com/in/asifaly/' target={'_blank'}><img className='linkedinIcon' src={linkedIcon} alt='linkedicon'></img></a>
           </div>
 
           <div className='leaders'>
@@ -40,7 +40,7 @@ function leadership() {
               </div>
             </div>
             <p id='aboutLeaders'>Trade Finance professional with experience of more than 18 years in all facets of trade finance operations and handling projects of different natures like in-sourcing, core banking, online banking & merger of banks. </p>
-            <a href='https://www.linkedin.com/in/balaji-venkatachalam-1012145/'><img className='linkedinIcon IconCoFounder' src={linkedIcon} alt='linkedicon'></img></a>
+            <a href='https://www.linkedin.com/in/balaji-venkatachalam-1012145/' target={'_blank'}><img className='linkedinIcon IconCoFounder' src={linkedIcon} alt='linkedicon'></img></a>
           </div>
 
           <div className='leaders'>
@@ -52,7 +52,7 @@ function leadership() {
               </div>
             </div>
             <p id='aboutLeaders'>CEG Alumnus and a Business Leader with 17 plus years of rich experience in handling Finance and Operations. Expertise in handling a diverse range of operations, including areas involving Strategy, Engineering, Delivery, Marketing, Program Management for software products and services.</p>
-            <a href='https://www.linkedin.com/in/ravindran-subbaiah-74824369/'><img className='linkedinIcon' src={linkedIcon} alt='linkedicon'></img></a>
+            <a href='https://www.linkedin.com/in/ravindran-subbaiah-74824369/' target={'_blank'}><img className='linkedinIcon' src={linkedIcon} alt='linkedicon'></img></a>
           </div>
 
         </div>

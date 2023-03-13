@@ -37,7 +37,7 @@
     font-family: Poppins;
     font-size: 65px;
     font-weight: 400;
-    line-height: 120px;
+    line-height: 110px;
     letter-spacing: -0.04em;
     text-align: left;
     color: #FFFFFF;
@@ -206,7 +206,7 @@
         font-family: Poppins;
         font-size: 57px;
         font-weight: 400;
-        line-height: 95px;
+        line-height: 88px;
         letter-spacing: -0.04em;
         text-align: left;
         color: #FFFFFF;
@@ -871,9 +871,9 @@
       }
       #homeText{
         font-family: Poppins;
-        font-size: 30px;
+        font-size: 42px;
         font-weight: 400;
-        line-height: 60px;
+        line-height: 65px;
         letter-spacing: -0.04em;
         text-align: left;
         color: #FFFFFF;
@@ -1038,14 +1038,14 @@
       }
       #homeText{
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 400;
-        line-height: 55px;
+        line-height: 50px;
         letter-spacing: -0.04em;
         text-align: left;
         color: #FFFFFF;
         width: 100%;
-        margin: 25% 0 0 0;
+        margin: 25% 0 0 0
       }
       .scrollItems{
           position: absolute;
