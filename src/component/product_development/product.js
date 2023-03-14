@@ -283,17 +283,7 @@ function Product() {
                                 <img className='productImage1' src={productImage} alt='productImage'></img>
                             </div>
                         </Carousel.Item>
-                        <Carousel.Item >
-
-                            <div className='ourProducts'>
-                                <div className='productDesc'>
-                                    <p id='productTitle'>Finflo</p>
-                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
-                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
-                                </div>
-                                <img className='productImage' src={FinfloImg} alt='productImage'></img>
-                            </div>
-                        </Carousel.Item >
+                        
                         <Carousel.Item >
                             <div className='ourProducts'>
                                 <div className='productDesc'>
@@ -325,6 +315,17 @@ function Product() {
                                    With our ERP workflow app, you can make data-driven decisions by accessing real-time analytics and reporting.  </p>
                                 </div>
                                 <img className='productImage' src={WorkflowImg} alt='productImage'></img>
+                            </div>
+                        </Carousel.Item >
+                        <Carousel.Item >
+
+                            <div className='ourProducts'>
+                                <div className='productDesc'>
+                                    <p id='productTitle'>Finflo</p>
+                                    <img className='borderLine' src={borderLine} alt='borderImage'></img>
+                                    <p id='productText'>Madras Daily is a news-reading app for on-the-go that you may tailor to your preferences. It comes with 12 pre-made subjects for individuals who don't want to go digging for information. It comprises a wide selection of topics, and the ability to log what you read is all included in this app.</p>
+                                </div>
+                                <img className='productImage' src={FinfloImg} alt='productImage'></img>
                             </div>
                         </Carousel.Item >
 
