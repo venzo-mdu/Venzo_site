@@ -230,12 +230,12 @@
     .awesomeProducts{
         height: 844px;
    }
-   .ourProducts{
+   /* .ourProducts{
        padding:5% 5%;
        margin: 10% 0 0 0;
        display: block;
        height: 700px;
-   }
+   } */
    .cardlist {
        padding:3% 5%;
        grid-template-columns: repeat(2,1fr);
@@ -360,10 +360,26 @@
         line-height: 21px;
         letter-spacing: 0em;
         text-align: justify;
-        width: 330px;
+        width: 335px;
     }
+
+
+.ourProducts{
+    padding:5% 5%;
+    margin: 10% 0 0 0;
+    display: block;
+    height: 700px;
+}
+.ourProducts .productImage1{
+ width: 80%;
+margin:5% 0 0 10% ;
+
+}
+
 .ourProducts .productImage{
-    margin: 5% 0 0 -2%;
+width: 70%;
+height: 30%;
+margin:10% 0 0 15% ;
 }
 .awesomeProducts {
     height: 921px;

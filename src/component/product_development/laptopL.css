@@ -1,4 +1,14 @@
 @media screen and (max-width:1705px) and (min-width:1025px) {
+
+    
+    .ourProducts .productImage1{
+        margin-left: 15%;
+    }
+    .ourProducts .productImage{
+       margin-left: 10%;
+       width: 50%;
+       height: 80%;
+    }
     .saas{
       
     margin:0 0 5% -10%;
@@ -40,8 +50,9 @@
         margin-top: 5%;
     }
     .ourProducts {
-    width: 96%;
+    width: 100%;
     margin-left: 1%;
+    height: 450px;
     }
     .helpDesc {
         font-family: 'Poppins';

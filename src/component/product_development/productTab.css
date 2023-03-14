@@ -166,14 +166,22 @@
        display: block;
        height: 700px;
    }
+   .ourProducts .productImage1{
+    width: 50%;
+   margin:5% 0 0 20% ;
+
+}
+   
+.ourProducts .productImage{
+   width: 60%;
+   height: 30%;
+   margin:10% 0 0 18% ;
+}
    .cardlist {
        padding:3% 5%;
        grid-template-columns: repeat(2,1fr);  
   }
-  .ourProducts .productImage {
-    margin-left: 24%;
-}
-  
+ 
   .venzoCards{
    grid-template-columns: repeat(2,1fr);
    margin: 0 0 0 15%;

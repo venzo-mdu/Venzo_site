@@ -422,8 +422,8 @@
     border-radius: 5px;
     padding: 5% 10%;
     display: flex;
-    width: 100%;
-    margin-left: 10%;
+    /* width: 100%; */
+    /* margin-left: 10%; */
 }
 .ourProducts .productDesc{
     width:50%
@@ -453,8 +453,12 @@
 .borderLine{
 width:20%;
 }
+.ourProducts .productImage1{
+    margin-left: 15%;
+}
 .ourProducts .productImage{
    margin-left: 15%;
+   width: 50%;
 }
 .Quotes {
     font-family: 'Poppins';
