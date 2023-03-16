@@ -8,7 +8,7 @@ import ToggleIcon from "../../images/toggleIcon.png"
 import { Link } from 'gatsby'
 
 function Header(props) {
-  console.log("props", props.flag)
+  // console.log("props", props.flag)
   const [open, setOpen] = useState(false);
   const [navbarLogo, setnavbarLogo] = useState(Venzologo1);
 
@@ -36,7 +36,7 @@ function Header(props) {
     setOpen(true)
   }
   const closemodal = (data) => {
-    console.log("data", data)
+    // console.log("data", data)
     setOpen(data)
   }
   return (
@@ -56,7 +56,7 @@ function Header(props) {
           <ul>
             {
               HeaderData.map(item => {
-                console.log(HeaderData);
+                // console.log(HeaderData);
                 return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
             }

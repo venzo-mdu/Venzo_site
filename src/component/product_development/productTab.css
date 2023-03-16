@@ -66,9 +66,10 @@
     } */
     .animation #animationText{
         left: 165px;
-    top: 132px;
-    font-size: 16px;
-    width: 61%;
+        top: 175px;
+        font-size: 16px;
+        width: 61%;
+        line-height: 25px;
     }
     .buildText {
         font-size: 35px;
@@ -84,6 +85,9 @@
         width: 100%;
         display: block;
         margin-left: 7%;
+    }
+    .animation{
+        padding: 1% 0%;
     }
     .animationBG {
         display: block;

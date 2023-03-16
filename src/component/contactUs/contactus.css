@@ -105,6 +105,8 @@
         color: #909090;
         line-height: 3;
         text-decoration: none;
+        text-transform: lowercase;
+
     }
 
     .careers1 {
@@ -191,7 +193,8 @@
         color: #929292;
         margin: 2% 4% 4% 0;
         width: 45%;
-
+        outline: none;
+        border: none;
     }
 
     .Femail {
@@ -203,6 +206,9 @@
         color: #929292;
         width: 45%;
         margin: 0 0 0 2%;
+        outline: none;
+        border: none;
+
     }
 
     .Fphone {
@@ -213,7 +219,10 @@
         line-height: 21px;
         color: #929292;
         margin: 2% 4% 4% 0;
-        width: 93%;
+        width: 97%;
+        outline: none;
+        border: none;
+
     }
 
     .Fmessage {
@@ -226,6 +235,10 @@
         padding: 2%;
         width: 100% !important;
         height: 30%;
+        outline: none;
+        height: 120px;
+        border: none;
+
     }
 
     .Fmessage1 {
@@ -238,6 +251,11 @@
         padding: 2%;
         width: 97%;
         height: 30%;
+        outline: none;
+        height: 120px;
+        border: none;
+        margin: 3% 0 0 0;
+
     }
 
     .Fbutton {
@@ -250,7 +268,9 @@
         font-size: 16px;
         line-height: 120%;
         color: #FFFFFF;
-        margin: 8% 0 0 80% !important;
+        margin: 5% 0 0 70% !important;
+        width: 30%;
+        height: 45px;
         border: none;
     }
     .Fbutton2 {
@@ -265,9 +285,17 @@
         color: #FFFFFF;
         margin: 8% 0 0 80% !important;
         border: none;
+        height: 45px;
     }
     .Fphone1{
         width: 100% !important;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #929292;
+
     }
     .mediaIocn {
         margin: -3% 0 5%;

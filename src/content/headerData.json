@@ -16,7 +16,7 @@
         "routeLink":"/quality-engineering-assurance"
     },
     {
-        "navLink":"Blog",
+        "navLink":"Blogs",
         "routeLink":"/blog"
     }
 ]

@@ -22,7 +22,8 @@
     }  
     .animation #animationText{
         left:190px;
-        top:200px
+        top:250px;
+        font-size: 16px;
     }
     .whyVenzo{
         margin:3% 0 0 -21.5%;
@@ -39,6 +40,9 @@
     padding:5% 5%;
     margin: 5% 0 0 0;
     }
+    .animation{
+        padding: 1% 0%;
+     }
    .animationBG {
     display: block;
     width: 100%;

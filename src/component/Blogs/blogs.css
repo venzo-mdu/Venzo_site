@@ -11,7 +11,9 @@
     width: 100vw;
     height: 450px;
 }
-
+.fa-search{
+    opacity: .5;
+}
 .Blogs_title {
     font-family: 'Poppins';
     font-style: normal;
@@ -33,20 +35,53 @@
     text-align: center;
     color: #FFFFFF;
     width: 55%;
-    margin-left: 23%;
+    margin: 1% 0 0 23%;
 }
 
 .blogs_section2 {
     display: flex;
     margin-top: 2%;
     margin-left: 10%;
+    position: relative;
+
 }
 
 .searchBox {
-    padding: 0.5%;
+    padding: 1% 2%;
     background: #F6F6F6;
     border-radius: 8px;
-    margin-left: 75%;
+    margin-left: 70%;
+    outline: none;
+    border: none;
+    width: 25%;
+}
+.searchIcon{
+    position: absolute;
+    right: 122px;
+    top: 20px;
+}
+.blogText{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #A4A4A4;
+    cursor: pointer;
+}
+.slide1 hr:last-child {
+display: none;
+}
+#clickedText{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #000000;
+    margin: -2% 0 0 8%;
 }
 
 .categories {
@@ -82,7 +117,7 @@
 .card11 {
     margin-bottom: 5%;
     margin-left: 25%;
-    height: 450px;
+    height: 525px;
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
     border-radius: 8px;
@@ -130,26 +165,9 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
-    padding: 3%;
-    padding-top: 10%;
+    padding: 10%;
 }
 
-.slide1 p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 120%;
-    letter-spacing: -0.02em;
-    color: #000;
-    padding-left: 8%;
-
-}
-
-/* .slide1 p:hover {
-    color: #000;
-    cursor: pointer;
-} */
 
 .slide2 {
     background: #FFFFFF;
@@ -157,19 +175,24 @@
     border-radius: 12px;
     padding-top: 15%;
     margin-top: 10%;
+    padding:5% 5%;
+    height: 700px;
 
 }
 .slide2 p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 120%;
-letter-spacing: -0.02em;
-color: #000000;
-padding-left: 5%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #000000;
 }
 .slide2 img{
     margin: 5%;
     padding-bottom: 15%;
+}
+.css-1dbjc4n {
+height: 600px;
+width: 300px;
 }

@@ -206,7 +206,7 @@ input {
     font-size: 12px;
     line-height: 21px;
     color: #929292;
-    width: 47%;
+    width: 46%;
 }
 
 .Fphone {
@@ -242,7 +242,9 @@ input {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 0 77% !important;
+    margin: 8% 0 0 60% !important;
+    width: 40%;
+    height: 45px;
 }
 
 .Fbutton2 {
@@ -256,6 +258,8 @@ input {
     line-height: 120%;
     color: #FFFFFF;
     margin: 8% 0 0 73% !important;
+    height: 35px;
+
 }
 .mediaIocn{
     margin: -3% 0 4%;

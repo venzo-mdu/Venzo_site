@@ -170,15 +170,7 @@
         margin: 0 0 0 2%;
 
     }
-    /* .cards3{
-        margin-left: -10%;
-    } */
-    .animation #animationText{
-        left:190px;
-        top:227px;
-        font-size: 16px;
-        width: 50%;
-    }
+   
 
     
     .helpTitle{
@@ -299,8 +291,8 @@ margin:10% 0 0 15% ;
     line-height: 21px;
     letter-spacing: -0.025em;
     text-align: center;
-    width: 60%;
-    left: 85px;
+    width: 70%;
+    left: 75px;
     top: 229px;
     
   }

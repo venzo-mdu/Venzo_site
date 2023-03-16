@@ -42,7 +42,7 @@ function perks() {
             <section>
                 <div className='perks'>
                     <div className='perksLeftsection'>
-                        <p id="perksLeftTitle">Perks you get</p>
+                        <p id="perksLeftTitle">Venzo Work Culture </p>
                         <p id="perksLeftText">We care about each other’s well-being and success. We share common values that are part of everything we do within a culture of collaboration, respect, and integrity. Consider how much we can accomplish together.</p>
                     </div>
                     <div className='perksRightsection'>

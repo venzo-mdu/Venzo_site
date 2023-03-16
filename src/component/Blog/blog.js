@@ -8,23 +8,7 @@ import { Link } from 'gatsby';
 function Blog() {
   const [buttonPopup, setButtonPopup] = useState(false);
   return (
-    // <div className=' container2'>
-    //     <div className='Blogs'>
-    //       <h2 className='blurTitle'> Our Latest Blogs</h2>
-    //         <p className='bloghead'> New Product Development; Winner's Guild <br/> <span className='date'>May04,2022</span>   </p><img className='arrows' src={arrow} alt ='arrows'/> 
-    //         <hr className='blogHr'/><p className='bloghead'> How To Choose Betwen React Native And Ionic For Your App <br/> <span className='date'>May04,2022</span>  </p><img className='arrows2' src={arrow} alt ='arrows'/> 
-    //         <hr className='blogHr'/><p className='bloghead'> Selenium the Most Popular Test Automation Tool <br/> <span className='date'>May04,2022</span>  </p><img className='arrows2' src={arrow} alt ='arrows'/> 
-    //     </div>
-    //     <div className='Careers'>
-    //       <h2 className='blurTitle1'> Careers</h2>
-    //       <div className='box'>
-    //       <h2 className='careershead'> Want to be a Venzoian?</h2>
-    //       <p className='careersdec'> Interested in working with us? <br/>Explore career oppourtunities below.</p>
-    //       <p className='btn jobs'> View Jobs</p>
-    //       </div>
 
-    //     </div> 
-    // </div>
     <div>
       {blogContent.blog.map((item) => {
         return <div className=' container2'>
@@ -44,15 +28,7 @@ function Blog() {
           </div>
         </div>
       })}
-      {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <p id='joinourteamText'>Join our team</p>
-        <input className='Fname' type="text" placeholder='Name*'></input>
-        <input className='Femail' type="text" placeholder='Email*'></input>
-        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-        <input className='file' type="file" placeholder='choose file'></input>
-        <textarea className='Fmessage' placeholder='Message'></textarea>
-        <button className='Fbutton'>Submit</button>
-      </Popup> */}
+   
     </div>
   )
 }

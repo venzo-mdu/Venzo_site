@@ -3,6 +3,10 @@ import staffblogimg from '../../images/blogsPic/staffblogimg.webp'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
 import './staffblog.css'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {Link,navigate} from 'gatsby'
+import {slideData1} from './slideData1'
+
 function staffblog() {
     return (
         <div className='productflex'>
@@ -32,19 +36,25 @@ function staffblog() {
                 <p className='staffintroDesc'>So, <strong>IT staff augmentation companies </strong> offer several benefits when used precisely. Lower operational and software development costs, less legal or documentation work, lesser hiring pains, improved productivity, performance, and team size are the gains you will get with IT staff augmentation. <br /> <strong>Venzo </strong>is a leading custom software development, product Development, and enterprise application development company with highly skilled and proficient IT professionals. If you are exploring credible IT staff augmentation companies for your precise software project requirements, get in touch with us today!</p>
             </div>
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+            {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} alt="tweet1"/>
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                 </div>
             </div>
         </div>

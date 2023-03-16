@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../header/header'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
@@ -9,38 +9,74 @@ import './blogs.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
+import SearchIcon from '../../images/blogsPic/blogsearchicon.svg'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 function Blogs1() {
+    const data = window.history.state
+    console.log(data.data)
 
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState(data.data !== undefined?data.data:'All Categories')
+    const [searchInput, setSearchInput] = useState('')
+
+  
 
     const searchresult = () => {
+        if (searchInput.length > 0) {
+            return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(searchInput.toLowerCase()))
+        }
         if (search.length > 0) {
             return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(search.toLowerCase()))
         }
+     
         return blogsList
     }
-   
 
+
+    
+ 
+    const slideData1 =[
+        {
+            stateValue:'All Categories',
+            value:'All Categories'
+        },
+        {
+            stateValue:'Automated Testing',
+            value:'Automated Testing'
+        },
+        {
+            stateValue:'Mobile App Development',
+            value:'Mobile App Development'
+        },
+        {
+            stateValue:'Product Development',
+            value:'Product Development'
+        },
+        {
+            stateValue:'Staff Augmentation',
+            value:'Staff Augmentation'
+        },
+        {
+            stateValue:'Technology',
+            value:'Technology'
+        },
+        {
+            stateValue:'Web App Development',
+            value:'Web App Development'
+        },
+    ]
+        
+            
+    
 
 
     const Blogdetail = (blog) => {
         console.log("data", blog)
-        // navigate('/blog/${blog}')
-        // navigate(blog)
+
 
     }
 
-    //  const Blogdetail = ({ actions }) => {
-    //     const { createPage } = actions;
-    //     createPage({
-    //       path: '/projects/hello-world',
-    //       component: SingleProject,
-    //       context: {
-    //         id: 'hello-world',
-    //       },
-    //     });
-    //   };
+ 
 
     return (
         <div className='blogbody'>
@@ -50,10 +86,13 @@ function Blogs1() {
                 <p className='Blogs_desc'>Explore our vast library of fascinating IT technology resources. Subject matter experts create our blogs to help you learn about and understand essential digital innovations.</p>
             </div>
             <div className='blogs_section2'>
-                <p className='categories'></p>
-                <input placeholder='search' className='searchBox' onChange={(e) => setSearch(e.target.value)}></input>
+                <input placeholder='search' className='searchBox' onChange={(e) => setSearchInput(e.target.value)}></input>
+                <img src={SearchIcon} alt='search' className='searchIcon'></img>
             </div>
+            <p id='clickedText'>{search}</p>
+
             <hr className='sect2_hr'></hr>
+
             <div className='blogs_section3'>
                 <div className='blogs_cardlist'>
                     {searchresult().map((item, index) => {
@@ -71,18 +110,24 @@ function Blogs1() {
                 </div>
                 <div className='blogsRight'>
                     <div className='slide1'>
-                        <p onClick={(e) => setSearch('')}>All Categories</p> <hr />
-                        <p onClick={(e) => setSearch('Automated Testing')}>Automated Testing</p><hr />
-                        <p onClick={(e) => setSearch('Mobile App Development')}>Mobile App Development</p><hr />
-                        <p onClick={(e) => setSearch('Product Development')}>Product Development</p><hr />
-                        <p onClick={(e) => setSearch('Staff Augmentation')}>Staff Augmentation</p><hr />
-                        <p onClick={(e) => setSearch('Technology')}>Technology</p><hr />
-                        <p onClick={(e) => setSearch('Web App Development')}>Web App Development</p>
+                        {
+                            slideData1.map((blogRoutes,index)=>{
+                                return(
+                                    <>
+                                    <p className='blogText' key={index}  onClick={(e) => setSearch(blogRoutes.stateValue)}>{blogRoutes.value}</p><hr />
+                                    </>
+                                )
+                            })
+                        }
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} alt="tweet1" />
-                        <img src={tweet2} alt="tweet2" />
+                       
+                             <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                 options={{height:600}}
+                                />
                     </div>
                 </div>
             </div>

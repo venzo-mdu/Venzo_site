@@ -215,7 +215,7 @@
         font-size: 12px;
         line-height: 21px;
         color: #929292;
-        margin-bottom: 8%;
+        margin: 0 0 5% 0;
     }
 
     .Fphone {
@@ -252,7 +252,9 @@
         font-size: 16px;
         line-height: 120%;
         color: #FFFFFF;
-        margin: 8% 0 0 72% !important;
+        margin: 8% 0 7% 50% !important;
+        width: 50%;
+        height: 45px;
     }
     .Fbutton2{
         background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -264,7 +266,9 @@
         font-size: 16px;
         line-height: 120%;
         color: #FFFFFF;
-        margin: 8% 0 0 72% !important;
+        margin: 8% 0 0 58% !important;
+        height: 35px;
+        width: 40%;
     }
     .mediaIocn {
         margin: -3% 0 4%;

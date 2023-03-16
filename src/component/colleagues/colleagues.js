@@ -8,7 +8,7 @@ function colleagues() {
     return (
         <section>
             <div className='colleagues'>
-                <p id='candidateTitle'>From candidate to <span id="gradientText">colleague</span></p>
+                <p id='candidateTitle'>Be a part of <span id="gradientText">VENZO</span>ian</p>
                 <p id="candidateText">We are an advanced, forward-thinking team of Software engineers & Business Analysts reshaping reality with fun and exciting ideas using cutting-edge technology. Explore new opportunities for career growth. Join our troop today.</p>
                 {/* <img classname="colleagueImgRes" src={ColleagueImgRes} alt="colleagueimageRes"></img> */}
                 <img classname="colleagueImg" src={ColleagueImg} alt="colleagueimage"></img>

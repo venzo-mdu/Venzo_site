@@ -28,7 +28,9 @@
     border-radius: 10px 10px 10px 10px;
     font-size: 18px;
     margin: 1.5% 0 0 40%;
-    border:none
+    border:none;
+    width: 10%;
+    height: 55px;
 }
 .pathway .pathwayButton:hover{
     color: #FFFFFF;
@@ -45,6 +47,8 @@
         border-radius: 10px 10px 10px 10px;
         margin: 1.5% 0 0 20%;
         border: none;
+        width: 13%;
+        height: 50px;
     }
     .pathway #pathwayText {
         color: #000000;
@@ -62,14 +66,22 @@
     }
 .pathway .pathwayButton{
     height: 25%;
-    margin: 1.5% 0 0 15%;
+    margin: 1.5% 0 0 5%;
+    width: 15%;
+    height: 50px;
 
 }
 }
 
 @media screen and (max-width:768px)and (min-width:425px){
+    
+    .pathway{
+        display: block;
+    }
     .pathway .pathwayButton{
-        margin-top: 8%;
+        margin-top: 5%;
+        width: 25%;
+        height: 55px;
     }
 }
 @media screen and (max-width:425px) {
@@ -86,8 +98,8 @@
     width: 69%;
 }
 .pathway .pathwayButton {
-    width: 30%;
-    height: 13%;
+    width: 35%;
+    height: 50px;
     margin: 5% 0 0 0%;
 }
 .pathway .pathwayButton {
@@ -99,10 +111,9 @@
 
 @media screen and (max-width:375px) {
     .pathway .pathwayButton {
-        width: 30%;
-        height: 12%;
-        margin: 1% 0 0 6%;
-        font-size: 16px;
+        width: 35%;
+        height: 50px;
+        margin: 5% 0 5% 5%;
     }
     .pathway #pathwayText {
         font-size: 24px;

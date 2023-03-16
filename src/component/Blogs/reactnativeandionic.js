@@ -3,9 +3,11 @@ import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
 
 import iconic1 from '../../images/blogsPic/iconic1.webp'
+import {Link,navigate} from 'gatsby'
 
 import '../Blogs/reactnativeandiconic.css'
 import { Table } from 'react-bootstrap'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 function reactnativeandionic() {
     return (
@@ -101,19 +103,22 @@ function reactnativeandionic() {
             </div>
 
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+                       <Link to='/blog' state={{data:'All Categories'}}> <p className='blogText'>All Categories</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Automated Testing'}}> <p className='blogText'>Automated Testing</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Mobile App Development'}}> <p className='blogText'>Mobile App Development</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Product Development'}}> <p className='blogText'>Product Development</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Staff Augmentation'}}> <p className='blogText'>Staff Augmentation</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Technology'}}> <p className='blogText'>Technology</p> </Link><hr />
+                       <Link to='/blog' state={{data:'Web App Development'}}> <p className='blogText'>Web App Development</p> </Link><hr />
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} alt="tweet1" />
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                 </div>
             </div>
         </div>

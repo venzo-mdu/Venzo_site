@@ -196,7 +196,7 @@ input {
     font-size: 14px;
     line-height: 21px;
     color: #929292;
-    width: 47%;
+    width: 46%;
 
 }
 
@@ -233,7 +233,9 @@ input {
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
-    margin: 8% 0 0 75%;
+    margin: 5% 0 0 70% !important;
+    width: 30%;
+    height: 45px;
 }
 .Fbutton2{
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
@@ -246,6 +248,7 @@ input {
     line-height: 120%;
     color: #FFFFFF;
     margin: 8% 0 0 77.5% !important;
+    height: 40px;
 }
 .mediaIocn{
     margin: -3% 0 4%;

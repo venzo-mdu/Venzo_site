@@ -7,7 +7,7 @@ function life() {
     <section>
       <div className='lifeAtvenzo'>
         <p id="lifeAtvenzotitle">Life at Venzo</p>
-        <p id="lifeAtvenzoText">Venzoians are here to give you the inside scoop on our work, culture, offices, and everything else that makes up life at Venzo Technologies.</p>
+        <p id="lifeAtvenzoText">Creating more opportunities for fun at work tends to boost Venzo morale. Our employees are more prone to put effort into an activity they find enjoyable. </p>
         <div className='youtubeVideo'>
           <div className='link1'>
           <div className="video-responsive">

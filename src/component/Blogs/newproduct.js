@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 // import './product.css'
 import blog0 from '../../images/blogsPic/blog0.png'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-function newproduct() {
+import {Link,navigate} from 'gatsby'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import blogsList from '../../content/BlogsContent.json'
+import { height } from '@mui/system';
+import {slideData1} from './slideData1'
+function Newproduct() {
+
     return (
         <div className='productflex'>
             <div className='reactuseLeft'>
@@ -51,23 +57,29 @@ function newproduct() {
                 </p>
             </div>
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+                       {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1}  alt="tweet1"/>
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height:600}}
+                                />
                 </div>
             </div>
         </div>
     )
 }
 
-export default newproduct
+export default Newproduct

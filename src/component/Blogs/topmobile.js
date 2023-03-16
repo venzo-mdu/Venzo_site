@@ -1,8 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
+import {Link,navigate} from 'gatsby'
+
 import blog3 from '../../images/blogsPic/blog3.png'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
-function topmobile() {
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {slideData1} from './slideData1'
+
+function Topmobile() {
+ 
     return (
         <div className='productflex'>
             <div className='reactuseLeft'>
@@ -47,23 +53,29 @@ function topmobile() {
                 <p className='reactuseIntroDesc'>As we have seen in several modern global businesses, the success of a modern start-up relies largely on a unique idea. It is the innovative, useful mobile app idea that can resolve people’s needs while attracting the masses that propels your business ahead of the competition today.</p>
             </div>
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+            {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} alt="tweet1"/>
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                 </div>
             </div>
         </div>
     )
 }
 
-export default topmobile
+export default Topmobile

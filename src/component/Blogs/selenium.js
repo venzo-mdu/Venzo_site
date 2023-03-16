@@ -8,6 +8,9 @@ import selenium4 from '../../images/blogsPic/selenium4.webp'
 import selenium5 from '../../images/blogsPic/selenium5.webp'
 import selenium6 from '../../images/blogsPic/selenium6.webp'
 import selenium7 from '../../images/blogsPic/selenium7.webp'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {Link,navigate} from 'gatsby'
+import {slideData1} from './slideData1'
 
 import '../Blogs/selenium.css'
 
@@ -18,8 +21,8 @@ function selenium() {
                 <div className='seleniumleft'>
                     <p className='seleTitle'>Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing</p>
                     <div className='angulatTitle1flex'>
-                        <p className='AngularDate'>May 26th, 2022    |</p>
-                        <p className='AnguarPrd'>Product Development</p>
+                        <p className='AngularDate'> Automation Testing | May 26th, 2022  </p>
+                        {/* <p className='AnguarPrd'>Automation Testing</p> */}
                     </div>
                     <img src={selenium1} className='selenium1' alt="selenium"/>
                     <p className='seleniumTtiel'>Introduction</p>
@@ -90,19 +93,25 @@ function selenium() {
                     <p className='seleniumCont'></p>
                 </div>
                 <div className='blogsRight blogsRight1'>
-                    <div className='slide1'>
-                        <p>All Categories</p> <hr />
-                        <p>Automated Testing</p><hr />
-                        <p>Mobile App Development</p><hr />
-                        <p>Product Development</p><hr />
-                        <p>Staff Augmentation</p><hr />
-                        <p>Technology</p><hr />
-                        <p>Web App Development</p>
+                <div className='slide1'>
+                {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} alt="tweet1"/>
-                        <img src={tweet2} alt="tweet2"/>
+                        <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                     </div>
                 </div>
             </div>

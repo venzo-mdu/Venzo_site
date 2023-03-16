@@ -293,8 +293,9 @@
    margin: 2% 0 0 13%;
 }
 .animation{
-    /* background-image: url('../../images/animationBg.png'); */
     position: relative;
+    padding: 1% 12%;
+
 }
 .animationBG{
     display: block;
@@ -313,8 +314,8 @@
     height: 140px;
     width: 668px;
     position: absolute;
-    top: 302px;
-    left:600px;
+    top: 325px;
+    left:675px;
     text-align: center;
 }
 

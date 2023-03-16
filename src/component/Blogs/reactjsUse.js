@@ -3,6 +3,10 @@ import './reactjsuse.css'
 import reactjs1 from '../../images/blogsPic/reactjs1.webp'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {Link,navigate} from 'gatsby'
+import {slideData1} from './slideData1'
+
 function reactjsUse() {
     return (
         <div className='productflex'>
@@ -35,19 +39,25 @@ function reactjsUse() {
                 <p className='reactuseIntroDesc'>The popularity of ReactJS will inevitably continue to grow. With the increasing competition to take the best out of the framework, the need for skilled and experienced ReactJS developers is also expected to escalate. <br /><strong>Venzo</strong> provides world-class ReactJS developers and experts for your web app Development. Their end-to-end management of your requirements will help you stand out and attract more audiences with top-notch quality applications and websites.</p>
             </div>
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+            {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} alt="tweet1" />
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                 </div>
             </div>
         </div>

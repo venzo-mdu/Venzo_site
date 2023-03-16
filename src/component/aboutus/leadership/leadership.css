@@ -184,7 +184,7 @@
     .aboutLeader {
         position: absolute;
         top: 15px;
-        left: 117px;
+        left: 150px;
     }
 
     #nameText {
@@ -207,6 +207,11 @@
 @media screen and (max-width:768px) and (min-width:430px) {
     .IconCoFounder {
         margin-top: 41%;
+    }
+    .aboutLeader {
+        position: absolute;
+        top: 15px;
+        left: 135px;
     }
 }
 

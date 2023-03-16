@@ -167,16 +167,8 @@
         margin: 0 0 0 5%;
 
     }
-    /* .cards3{
-        margin-left: -10%;
-    } */
-    .animation #animationText{
-        left:190px;
-        top:227px;
-        font-size: 16px;
-        width: 50%;
-    }
-
+ 
+   
     
     .helpTitle{
         font-size: 38px;
@@ -285,7 +277,7 @@
     line-height: 21px;
     letter-spacing: -0.025em;
     text-align: center;
-    width: 60%;
+    width: 65%;
     left: 85px;
     top: 229px;
     
@@ -383,6 +375,9 @@ margin:10% 0 0 15% ;
 }
 .awesomeProducts {
     height: 921px;
+}
+.animation{
+    padding: 1% 0%;
 }
 .animationBG{
     display: none;

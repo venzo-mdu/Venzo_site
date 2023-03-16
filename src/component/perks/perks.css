@@ -87,6 +87,13 @@
     padding-left: 0%;
     margin-right: -15%;
 }
+.perks .perksLeftsection #perksLeftTitle
+{
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
 }
 
 
@@ -99,7 +106,7 @@
     margin: 15% 0 0 0;
 }
 .perks .perksLeftsection #perksLeftTitle {
-    font-size: 44px;
+    font-size: 35px;
 }
 }
 
@@ -110,7 +117,7 @@
     height: 350px;
 }
 .perks .perksLeftsection #perksLeftTitle{
-    font-size:35px;
+    font-size:24px;
 }
 .perks .perksLeftsection #perksLeftText {
     font-size: 14px;

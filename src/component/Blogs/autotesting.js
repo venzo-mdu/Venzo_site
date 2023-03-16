@@ -2,6 +2,10 @@ import React from 'react'
 import autotestingimg1 from '../../images/blogsPic/autotestingimg1.webp'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {Link,navigate} from 'gatsby'
+import {slideData1} from './slideData1'
+
 function autotesting() {
     return (
         <div className='productflex'>
@@ -28,19 +32,25 @@ function autotesting() {
                 <p className='reactuseIntroDesc'>In summary, the banking industry is under a lot of pressure to meet the needs of the modern banking industry but with the dependence on manual testing for most of the test scenarios, Venzo’s <strong>QA Automation Testing Services</strong> can help reduce time to market and improve the quality of application when it goes live to customers.</p>
             </div>
             <div className='blogsRight blogsRight1'>
-                <div className='slide1'>
-                    <p>All Categories</p> <hr />
-                    <p>Automated Testing</p><hr />
-                    <p>Mobile App Development</p><hr />
-                    <p>Product Development</p><hr />
-                    <p>Staff Augmentation</p><hr />
-                    <p>Technology</p><hr />
-                    <p>Web App Development</p>
-                </div>
+            <div className='slide1'>
+            {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
+                    </div>
                 <div className='slide2'>
                     <p>Tweets</p>
-                    <img src={tweet1} alt="tweet1"/>
-                    <img src={tweet2} alt="tweet2"/>
+                    <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                 </div>
             </div>
         </div>)

@@ -17,8 +17,9 @@
         text-align: center;
         letter-spacing: -0.04em;
         color: #FFFFFF;
+        margin: 0% 0 0 0;
+
     }
-    
     .Blogs_desc {
         font-family: 'Poppins';
         font-style: normal;
@@ -37,15 +38,26 @@
         margin-left: 5%;
     }
     
+    #clickedText {
+        font-size: 24px;
+        margin: -9% 0 0 8%;
+    }
     .searchBox {
         padding: 0.5%;
         background: #F6F6F6;
         border-radius: 8px;
-        margin-left: 40%;
-        width: 27%;
-        padding-left: 3%;
+        width: 45%!important;
+        margin: 0% 0 5% 50%;
+        padding: 1% 4%;
     }
-    
+    .searchIcon {
+        right: 70px;
+        top: 8px;
+    }
+    .r-1mlwlqe {
+        flex-basis: auto;
+        height: 300px !important;
+    }
     .categories {
         font-family: 'Poppins';
         font-style: normal;
@@ -72,9 +84,9 @@
         display: grid;
         grid-template-columns: 44% 1fr;
         margin-right: 0%;
-        margin-top: 3%;
         padding-right: 0%;
         width: 100%;
+        margin: 3% 0 0 1.5%;
     }
     
     .card11 {
@@ -82,8 +94,11 @@
         margin-left: 16%;
         z-index: -1;
         margin-top: 5%;
+        border-radius: 8px;
+        width: 21rem !important;
+        height: 425px;
     }
-    
+   
     .blogsubtitile {
         font-family: 'Poppins';
         font-style: normal;
@@ -118,19 +133,17 @@
     
     .blogsRight {
         margin-top: 3%;
-        width: 30%;
+        width: 100%;
         display: flex;
         margin-left: 7%;
     }
     
     .slide1 {
-        margin-bottom: 50%;
-        margin-right: 25%;
         background: #FFFFFF;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
         border-radius: 12px;
         padding: 5%;
-        width: 100%;
+        width: 40%;
     }
     
     .slide1 p {
@@ -144,20 +157,15 @@
         width: 25vw;
     }
     
-    .slide1 p:hover {
-        color: #000;
-        cursor: pointer;
-    }
     
     .slide2 {
-        margin-top: 0%;
         background: #FFFFFF;
-        box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
         border-radius: 12px;
-        margin-left: 0%;
-        padding-top: 10%;
-        display: flex;
-        width: 60vw;
+        padding: 5% 5%;
+        width: 40%;
+        margin:  0 0 0 7%;
+        height: 410px;
     }
     .slide2 p{
         font-family: 'Poppins';
@@ -176,11 +184,7 @@
         margin-left: -6%;
         padding-right: 3%;
 }
-.card11 {
-      
-    border-radius: 8px;
-    width: 21rem !important;
-}
+
 }
 
 
@@ -265,13 +269,7 @@
         padding-right: 0%;
     }
     
-    .card11 {
-        margin-bottom: 2%;
-        margin-left: 16%;
-        z-index: -1;
-        margin-top: 5%;
-    }
-    
+   
     .blogsubtitile {
         font-family: 'Poppins';
         font-style: normal;
@@ -333,10 +331,7 @@
 
     }
     
-    .slide1 p:hover {
-        color: #000;
-        cursor: pointer;
-    }
+   
     
     .slide2 {
         margin-top: -23%;

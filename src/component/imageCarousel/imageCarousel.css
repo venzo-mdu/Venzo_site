@@ -42,11 +42,12 @@
     text-align: left;
     color: #FFFFFF;
     width: 65%;
+    margin: 8% 0 0 0 ;
 }
 .scrollItems{
     position: absolute;
     bottom: 100px;
-    left: 850px;
+    left: 950px;
 }
 .scrollExplore{
     margin: 5% 0 0 40%;
@@ -174,7 +175,7 @@
 
 .socialMediaIcon{
     position: fixed;
-    top:34%;
+    top:40%;
     right: 2%;
     display: grid;
     height: 200px;
@@ -211,6 +212,7 @@
         text-align: left;
         color: #FFFFFF;
         width: 80%;
+        margin: 12% 0 0 0;
     }
     .scrollItems{
         position: absolute;
@@ -329,7 +331,7 @@
         color: #F4F4FF;
     }
     .socialMediaIcon{
-        top:25%;
+        top:40%;
         right: 2%;
     }
     
@@ -532,7 +534,7 @@
         text-align: left;
         color: #FFFFFF;
         width: 100%;
-        margin: 10% 0 0 0;
+        margin: 18% 0 0 0;
     }
     .scrollItems{
         position: absolute;
@@ -878,12 +880,12 @@
         text-align: left;
         color: #FFFFFF;
         width: 100%;
-        margin: 25% 0 0 0;
+        margin: 40% 0 0 0;
       }
       .scrollItems{
           position: absolute;
-          bottom: 100px;
-          left: 160px;
+          bottom: 45px;
+    left: 148px;
       }
       .scrollExplore{
           margin: 5% 0 0 40%;
@@ -1045,12 +1047,12 @@
         text-align: left;
         color: #FFFFFF;
         width: 100%;
-        margin: 25% 0 0 0
+        margin: 50% 0 0 0
       }
       .scrollItems{
           position: absolute;
-          bottom: 100px;
-          left: 130px;
+          bottom: 50px;
+          left: 125px;
       }
       .scrollExplore{
           margin: 5% 0 0 40%;

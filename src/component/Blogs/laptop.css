@@ -1,3 +1,31 @@
+
+@media screen and (max-width:1705px) and (min-width:1024px) {
+    .searchBox{
+        margin: 0 0 0 68%;
+    }
+    .searchIcon{
+        right: 108px;
+        top: 15px;
+    }
+.card11{
+    height: 450px;
+    border-radius: 8px;
+    width: 25rem !important;
+}
+.slide1{
+    width: 350px;
+}
+.slide2{
+    width: 350px;
+    height: 620px;
+    padding: 5% 5%;
+}
+.blogs_cardlist {
+    margin-right: 16%;
+}
+
+
+}
 @media screen and (max-width:1024px) and (min-width:769px) {
     .blogs_section1 {
         padding: 15% 0 10% 0;
@@ -17,6 +45,8 @@
         text-align: center;
         letter-spacing: -0.04em;
         color: #FFFFFF;
+        margin: 0% 0 0 0;
+
     }
 
     .Blogs_desc {
@@ -36,16 +66,22 @@
         margin-top: 2%;
         margin-left: 10%;
     }
-
+    #clickedText {
+        font-size: 24px;
+        margin: -3% 0 0 8%;
+    }
     .searchBox {
         padding: 0.5%;
         background: #F6F6F6;
         border-radius: 8px;
-        margin-left: 65%;
-        width: 27%;
-        padding-left:3%;
+        width: 30%;
+        margin: 3% 0 0 60%;
+        padding: 1% 4%;
     }
-
+    .searchIcon {
+        right: 110px;
+        top: 38px;
+    }
     .categories {
         font-family: 'Poppins';
         font-style: normal;
@@ -69,16 +105,18 @@
 
     .blogs_cardlist {
         display: grid;
-        grid-template-columns: 60% 1fr;
-        margin-right: 20%;
-        margin-top: 3%;
+        grid-template-columns: 65% 1fr;
         width: 75%;
+        margin: 5% 0 0 -1%;
     }
 
     .card11 {
         margin-bottom: 5%;
         margin-left: 25%;
         z-index: -1;
+        height: 450px;
+        border-radius: 8px;
+        width: 21rem !important;
     }
 
     .blogsubtitile {
@@ -126,7 +164,8 @@
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
         border-radius: 12px;
         padding:2%;
-        height: 410px;
+        height: 360px;
+        width: 33%;
     }
 
     .slide1 p {
@@ -137,23 +176,21 @@
         line-height: 120%;
         letter-spacing: -0.02em;
         color: #A4A4A4;
-
+        margin: 0 0 0 0;
     }
 
-    .slide1 p:hover {
-        color: #000;
-        cursor: pointer;
-    }
+   
 
     .slide2 {
         margin-top: 0%;
         background: #FFFFFF;
         box-shadow: 0px 4px 25px rgb(0 0 0 / 8%);
         border-radius: 12px;
-        padding-top: 4%;
-        display: flex;
-        margin-left: -5%;
-        height: 450px;
+        display: block;
+        margin-left: 0%;
+        height: 360px;
+        width: 33%;
+        padding: 2% 1%;
 
     }
 
@@ -176,19 +213,6 @@
         margin-left: -6%;
         padding-right: 3%;
     }
-    .card11 {
-      
-        border-radius: 8px;
-        width: 21rem !important;
-    }
-
-}
-
-@media screen and (max-width:1705px) and (min-width:1028px){
-    .card11 {
-      
-        border-radius: 8px;
-        width: 25rem !important;
-    }
     
 }
+

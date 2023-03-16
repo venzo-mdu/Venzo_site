@@ -2,7 +2,9 @@ import React from 'react'
 import tweet1 from '../../images/blogsPic/tweet1.png'
 import tweet2 from '../../images/blogsPic/tweet2.png'
 import angularreact from '../../images/blogsPic/AngularVSReact.webp'
-
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import {Link,navigate} from 'gatsby'
+import {slideData1} from './slideData1'
 import '../Blogs/angularvsreact.css'
 import '../Blogs/angularvsreactRes.css'
 
@@ -13,8 +15,8 @@ function angularvsreact() {
                 <div className='angularLef'>
                     <p className='angulatTitle1'>Angular JS vs React Js: Which is Better for You?</p>
                     <div className='angulatTitle1flex'>
-                        <p className='AngularDate'>May 26th, 2022    |</p>
-                        <p className='AnguarPrd'>Product Development</p>
+                        <p className='AngularDate'> Technology | May 26th, 2022    </p>
+                        {/* <p className='AnguarPrd'></p> */}
                     </div>
                     <img src={angularreact} className='angularvsreact' alt="angular"/>
                     <p className='Significance'>Introduction</p>
@@ -67,19 +69,25 @@ function angularvsreact() {
                     <p className='angularCont'>Both Angular JS and React JS have their benefits and unique characteristics. Developers who look for simplicity and flexibility may go in for React JS, while those who need the best way of organizing and boosting their applications with a comprehensive tool might want to choose Angular JS. Venzo is a leading web application development service provider having skilled and experienced Angular JS and React JS professionals.</p>
                 </div>
                 <div className='blogsRight blogsRight1'>
-                    <div className='slide1'>
-                        <p>All Categories</p> <hr />
-                        <p>Automated Testing</p><hr />
-                        <p>Mobile App Development</p><hr />
-                        <p>Product Development</p><hr />
-                        <p>Staff Augmentation</p><hr />
-                        <p>Technology</p><hr />
-                        <p>Web App Development</p>
+                <div className='slide1'>
+                {
+                        slideData1.map((obj,index)=>{
+                            return(
+                                <>
+                              <Link to={obj.routeValue} key={index} state={{data:obj.stateValue}}> <p className='blogText'>{obj.value}</p> </Link><hr />
+                                </>
+
+                            )
+                        })
+                       }
                     </div>
                     <div className='slide2'>
                         <p>Tweets</p>
-                        <img src={tweet1} alt="tweet1" />
-                        <img src={tweet2} alt="tweet2"/>
+                         <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="Venzo_Tech"
+                                options={{height: 600}}
+                                />
                     </div>
                 </div>
             </div>
