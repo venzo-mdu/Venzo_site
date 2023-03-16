@@ -13,7 +13,7 @@ import SearchIcon from '../../images/blogsPic/blogsearchicon.svg'
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 function Blogs1() {
-    const data = window.history.state
+    const data =typeof window !== 'undefined'? window.history.state:''
     console.log(data.data)
 
     const [search, setSearch] = useState(data.data !== undefined?data.data:'All Categories')
@@ -126,7 +126,7 @@ function Blogs1() {
                              <TwitterTimelineEmbed
                                 sourceType="profile"
                                 screenName="Venzo_Tech"
-                                 options={{height:600}}
+                                 options={{height:300}}
                                 />
                     </div>
                 </div>
