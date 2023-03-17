@@ -110,7 +110,7 @@ function selenium() {
                         <TwitterTimelineEmbed
                                 sourceType="profile"
                                 screenName="Venzo_Tech"
-                                options={{height: 600}}
+                                options={{height: 300}}
                                 />
                     </div>
                 </div>
