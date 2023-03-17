@@ -288,7 +288,7 @@
 
     .sect6_title {
         font-family: "Poppins", Sans-serif;
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 600;
         font-style: normal;
         line-height: 120px;
@@ -342,7 +342,7 @@
         margin-top: 0%;
         width: 16%;
         color: white;
-        background-color: #000000;
+        background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 18px;
         margin-bottom: 3%;
@@ -642,7 +642,7 @@
 
     .sect6_title {
         font-family: "Poppins", Sans-serif;
-        font-size: 65px;
+        font-size: 56px;
         font-weight: 600;
         font-style: normal;
         line-height: 120px;
@@ -703,7 +703,7 @@
         margin-top: 3%;
         width: 20%;
         color: white;
-        background-color: #000000;
+       background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 18px;
         margin-left: 10%;

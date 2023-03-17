@@ -364,13 +364,13 @@ button:focus:not(:focus-visible) {
     margin-top: 5%;
 }
 .sect6_title {
-    font-family: "Poppins", Sans-serif;
+    font-family: poppins;
     font-size: 75px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 120px;
+    background: linear-gradient(182.19deg, #000000 -860.5%, rgba(0, 0, 0, 0) 98.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-   
 }
 
 .freqQus {
@@ -472,7 +472,7 @@ button:focus:not(:focus-visible) {
     height: 40%;
     width: 16%;
     color: white;
-    background-color: #000000;
+    background: #0A1020;
     border-radius: 7px 7px 7px 7px;
     font-size: 18px;
     margin-bottom: 5%;

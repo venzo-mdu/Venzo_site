@@ -330,13 +330,13 @@
     }
 
     .auidt {
-        margin-top: -2%;
+        margin-top: 5%;
         width: 22%;
         color: white;
-        background-color: #000000;
+        background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 14px;
-        margin-left: 7%;
+        margin-left: 10%;
     }
 
     .auidt:hover {
@@ -687,7 +687,7 @@
         margin-top: 0%;
         width: 40%;
         color: white;
-        background-color: #000000;
+        background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 14px;
         margin-left: 7%;
@@ -1051,11 +1051,11 @@
     }
 
     .auidt {
-        height: 10%;
+        height: 45px;
         margin-top: 0%;
         width: 40%;
         color: white;
-        background-color: #000000;
+        background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 14px;
         margin-left: 7%;
@@ -1414,11 +1414,11 @@
     }
 
     .auidt {
-        height: 10%;
+        height: 45px;
         margin-top: 0%;
         width: 40vw;
         color: white;
-        background-color: #000000;
+        background: #0A1020;
         border-radius: 7px 7px 7px 7px;
         font-size: 14px;
         margin-left: 7%;
@@ -1442,5 +1442,6 @@
 
     .containor11 {
         margin-top: 5%;
+        display: block;
     }
 }
