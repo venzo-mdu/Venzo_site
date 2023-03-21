@@ -38,7 +38,7 @@ color: rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 2%;
-    grid-column-gap: 7%;
+    grid-column-gap: 3%;
     width:100%;
 }
 .heading{
@@ -57,7 +57,7 @@ color: rgba(0, 0, 0, 0.5);
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
     margin:  0 0 20% 0;
-    width: 350px;
+    width: 325px;
 }
 .hr_line{
     width: 80%;
