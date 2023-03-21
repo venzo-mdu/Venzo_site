@@ -23,7 +23,6 @@ import Popup from '../careersPage2/popup/popup'
 import axios from 'axios'
 import toMail from '../../config/config'
 import success from '../../images/successfully.png'
-import Mouse from '../../images/banner/mouse.svg'
 
 function ImageCarousel() {
     const [buttonPopup, setButtonPopup] = useState(false);
@@ -89,24 +88,7 @@ function ImageCarousel() {
 
     }
 
-    const scrollBottom =()=>{
-        if(window.innerWidth>=1705){
-            window.scrollTo(0,1100);
-
-        }
-        if(window.innerWidth>=1024){
-            window.scrollTo(0,600);
-        }
-        if(window.innerWidth>=768){
-            window.scrollTo(0,600);
-        }
-        if(window.innerWidth>=430){
-            window.scrollTo(0,780);
-        }
-        if(window.innerWidth>=375){
-            window.scrollTo(0,765);
-        }
-    }
+    
 
     return (
         <>
@@ -189,18 +171,12 @@ function ImageCarousel() {
             <div className='homeBanner'>
                 <p id='homeText'>Revolutionize your Business with <span className='homeBold'> Comprehensive </span> <span className='homeBold'>  Software Solutions.</span> </p>
                 <p id='homeText1'>Innovate &#183; Integrate &middot; Intensify</p>
-                <div className='scrollItems'> 
-                <p id='scrollText'>Scroll to explore</p>
-                <img src={Mouse} className='scrollExplore' alt='scroll' onClick={scrollBottom}></img>
-                </div>
+                
             </div>
             <div className='homeBannerRes'>
                 <p id='homeText'>Revolutionize your Business with <span className='homeBold'> Comprehensive </span> <span className='homeBold'>  Software Solutions.</span> </p>
                 <p id='homeText1'>Innovate &#183; Integrate &middot; Intensify</p>
-                <div className='scrollItems'> 
-                <p id='scrollText'>Scroll to explore</p>
-                <img src={Mouse} className='scrollExplore' alt='scroll' onClick={scrollBottom}></img>
-                </div>
+                
             </div>
             <div className='socialMediaIcon'>
                 <a href='https://www.facebook.com/VenzoTechnologies/' target={"_blank"}><img id='fbicon' src={fbIcon} alt='fbIcon'></img></a>

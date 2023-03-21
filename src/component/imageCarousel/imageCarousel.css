@@ -44,24 +44,7 @@
     width: 65%;
     margin: 8% 0 0 0 ;
 }
-.scrollItems{
-    position: absolute;
-    bottom: 100px;
-    left: 850px;
-}
-.scrollExplore{
-    margin: 5% 0 0 40%;
-    cursor: pointer;
-}
-#scrollText{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-} 
+ 
 #homeText1{
     font-family: Poppins;
     font-size: 28px;
@@ -207,40 +190,23 @@
         font-family: Poppins;
         font-size: 57px;
         font-weight: 400;
-        line-height: 88px;
+        line-height: 100px;
         letter-spacing: -0.04em;
         text-align: left;
         color: #FFFFFF;
         width: 80%;
-        margin: 12% 0 0 0;
+        margin: 10% 0 0 0;
     }
-    .scrollItems{
-        position: absolute;
-        bottom: 50px;
-        left: 680px;
-    }
-    .scrollExplore{
-        margin: 5% 0 0 40%;
-        cursor: pointer;
-    }
-    #scrollText{
-        font-family: Poppins;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FFFFFF;
-    } 
+    
     #homeText1{
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
         text-align: left;
         color: #9087AB;
-        
+        margin:2% 0 0 0;
     }
 
 
@@ -367,6 +333,7 @@
         color: #FFFFFF;
         width: 80%;
         word-spacing: 10px;
+        margin: 24% 0 0 0;
     }
     .scrollItems{
         position: absolute;
@@ -534,7 +501,7 @@
         text-align: left;
         color: #FFFFFF;
         width: 100%;
-        margin: 18% 0 0 0;
+        margin: 28% 0 0 0;
     }
     .scrollItems{
         position: absolute;
