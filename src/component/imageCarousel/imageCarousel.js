@@ -170,12 +170,12 @@ function ImageCarousel() {
 
             <div className='homeBanner'>
                 <p id='homeText'>Revolutionize your Business with <span className='homeBold'> Comprehensive </span> <span className='homeBold'>  Software Solutions.</span> </p>
-                <p id='homeText1'>Innovate &#183; Integrate &middot; Intensify</p>
+                <p id='homeText1'>Innovate&nbsp;&nbsp;&nbsp;&#9679;&nbsp;&nbsp;&nbsp; Integrate&nbsp;&nbsp;&nbsp; &#9679;&nbsp;&nbsp;&nbsp; Intensify</p>
                 
             </div>
             <div className='homeBannerRes'>
                 <p id='homeText'>Revolutionize your Business with <span className='homeBold'> Comprehensive </span> <span className='homeBold'>  Software Solutions.</span> </p>
-                <p id='homeText1'>Innovate &#183; Integrate &middot; Intensify</p>
+                <p id='homeText1'>Innovate &#9679;&nbsp; Integrate &#9679;&nbsp; Intensify</p>
                 
             </div>
             <div className='socialMediaIcon'>

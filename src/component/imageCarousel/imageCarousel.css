@@ -195,12 +195,12 @@
         text-align: left;
         color: #FFFFFF;
         width: 80%;
-        margin: 10% 0 0 0;
+        margin: 5% 0 0 0;
     }
     
     #homeText1{
         font-family: Poppins;
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
@@ -355,7 +355,7 @@
     } 
     #homeText1{
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
@@ -523,7 +523,7 @@
     } 
     #homeText1{
         font-family: Poppins;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 38px;
         letter-spacing: 0em;
@@ -776,7 +776,7 @@
         color: #FFFFFF;
         padding-top: 1%;
         padding-bottom: 40%;
-    cursor: pointer;
+        cursor: pointer;
 
     }
     #knowMore1{
@@ -1036,7 +1036,7 @@
       } 
       #homeText1{
           font-family: Poppins;
-          font-size: 18px;
+          font-size: 14px;
           font-weight: 400;
           line-height: 38px;
           letter-spacing: 0em;
