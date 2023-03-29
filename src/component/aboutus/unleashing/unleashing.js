@@ -3,7 +3,7 @@ import '../unleashing/Laptop.css'
 import React, { useState } from 'react';
 
 
-import powerImage from '../../../images/aboutus/aboutus4.png'
+import powerImage from '../../../images/allpageabanner/about_us/about_us_1x.webp'
 import gridIcon1 from '../../../images/aboutus/aboutus13.png'
 import gridIcon2 from '../../../images/aboutus/aboutus12.png'
 import gridIcon3 from '../../../images/aboutus/aboutus8.png'

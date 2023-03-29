@@ -1,6 +1,6 @@
 import React from 'react'
 import "../colleagues/colleagues.css"
-import ColleagueImg from "../../images/colleague.png"
+import ColleagueImg from "../../images/allpageabanner/careers/careers_1x.webp"
 import ColleagueImgRes from "../../images/career1resImg.png"
 
 

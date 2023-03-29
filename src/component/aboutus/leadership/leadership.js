@@ -1,9 +1,9 @@
 import React from 'react'
 import '../leadership/leadership.css'
 
-import Leader1 from '../../../images/aboutus/asif.png'
-import Leader2 from '../../../images/aboutus/balaji.png'
-import Leader3 from '../../../images/aboutus/ravi.png'
+import Leader1 from '../../../images/allpageabanner/about_us/Asif bro/Asif bro_1x.webp'
+import Leader2 from '../../../images/allpageabanner/about_us/balaji bro/balaji bro_1x.webp'
+import Leader3 from '../../../images/allpageabanner/about_us/Ravi bro/Ravi bro_1x.webp'
 import linkedIcon from '../../../images/aboutus/aboutus14.png'
 
 

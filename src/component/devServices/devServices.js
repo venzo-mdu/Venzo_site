@@ -1,7 +1,7 @@
 import React from 'react'
 import "./devServices .css"
 import rightArrow from "../../images/devArrow.svg"
-import roundimage from "../../images/round.png"
+import roundimage from "../../images/allpageabanner/venzo mantra/venzo mantra_1x.webp"
 import { Link } from 'gatsby'
 
 function devServices() {

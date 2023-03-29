@@ -2,7 +2,7 @@
     {
         "title": "Build",
         "content": "Building custom apps necessitates collaboration, we work closely with you to include quality, value, and service into your applications. ",
-        "images": "../images/Build.svg",
+        "images": "../images/allpageabanner/build/build_1x.webp",
         "SubContent": [
             {
                 "icon": "../images/Web development-gradient.svg",
@@ -30,7 +30,7 @@
     {
         "title": "Modernize",
         "content": "Modernize, as we power your data structures to take full advantage of the optimum decentralized computing technologies, powered analysis platforms to increase quality, speed, flexibility & security.",
-        "images": "../images/Innovate.svg",
+        "images": "../images/allpageabanner/modernize/modernize_1x.webp",
         "SubContent": [
             {
                 "icon": "../images/Blockchain Development-gradient.svg",
@@ -58,7 +58,7 @@
     {
         "title": "Upscale",
         "content": "Upscale, since we work with your company to use web development techniques and strategies to grow your customer base, generate sales, and keep delighted customers for a long time.",
-        "images": "../images/Grow.svg",
+        "images": "../images/../images/allpageabanner/upscale/upscale_1x.webp",
         "SubContent": [
             {
                 "icon": "../images/Bespoke Solutions-gradient.svg",

@@ -1,5 +1,5 @@
 .venzoSA{
-    background-image: url(../../../images/bannerSA.png);
+    background-image: url(../../../images/webp/stafffffff/stafffffff_1x.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 90vh;
@@ -15,6 +15,7 @@
     letter-spacing: -0.04em;
     text-align: left;
     color: #FFFFFF;
+    margin: 8% 0 0 0;
 }
 .venzoSA #venzoSAText{
     font-family: Poppins;
@@ -24,6 +25,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #C4C4C4;
+    width: 90%;
 }
 .venzoSA #venzoSATalk{
     font-family: Poppins;
@@ -43,7 +45,9 @@
 @media screen and (max-width:1705px) and (min-width:1026px) {
 
     .venzoSA #venzoSAText{
-        width:55%;
+        width:85%;
+        line-height: 28px;
+        margin: 2% 0 2% 0 ;
     }
     .venzoSA{
         height: 93vh;

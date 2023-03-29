@@ -33,7 +33,7 @@ function ImageCarousel() {
     const [instaIcon, setinstaIconlogo] = useState(InstaIcon);
 
     const changeIcon = () => {
-        if (window.scrollY >= 350) {
+        if (window.scrollY >= 60) {
             setfbIconlogo(FbIcon2)
             settwitterIconlogo(TwitterIcon2)
             setlinkedinIconlogo(LinkedinIcon2)

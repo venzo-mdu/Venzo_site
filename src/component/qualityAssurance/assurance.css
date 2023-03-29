@@ -2,7 +2,7 @@
 
 .quality_section1 {
     padding: 15% 0 10% 0;
-    background-image: url("../../images/quality/App\ dev\ banner\ 1.png");
+    background-image: url("../../images/allpageabanner/quality_assurance/quality_assurance_1x.webp");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
@@ -515,7 +515,7 @@
     background-position-y: center;
     background-size: contain;
     padding: 2%;
-    padding-left: 81px;
+    padding-left: 60px;
     cursor: pointer;
 
 }
@@ -1054,7 +1054,7 @@
         background-position-y: center;
         background-size: contain;
         
-        padding: 2%;
+        padding: 2% 3%;
         
     }
     

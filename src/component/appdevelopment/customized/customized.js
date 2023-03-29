@@ -1,7 +1,8 @@
 import React from 'react'
 import '../customized/customized.css'
 
-import CustomBg from '../../../images/appdevelopment/appd1.png'
+// import CustomBg from '../../../images/appdevelopment/appd1.png'
+import CustomBg from '../../../images/allpageabanner/app_dev_banner_1/app_dev_banner_1_1x.webp'
 import CustomBgRes from '../../../images/appdevelopment/appd13.png'
 
 function customized() {

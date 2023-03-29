@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import cultureImage1 from '../../../images/culture/culture1.png'
-import cultureImage2 from '../../../images/culture/culture2.png'
-import cultureImage3 from '../../../images/culture/culture3.png'
-import cultureImage4 from '../../../images/culture/culture4.png'
+import cultureImage1 from '../../../images/allpageabanner/about_us/children/children_1x.webp'
+import cultureImage2 from '../../../images/allpageabanner/about_us/Ladies/Ladies_1x.webp'
+import cultureImage3 from '../../../images/allpageabanner/about_us/our team/our team_1x.webp'
+import cultureImage4 from '../../../images/allpageabanner/about_us/banner/banner_1x.webp'
 
 
 function Culture() {

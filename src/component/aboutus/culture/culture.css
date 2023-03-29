@@ -31,7 +31,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
-    margin: 5% 0 0 5.5%;
+    margin: 5% 0 0 1.5%;
 }
 
 .marqueeinCulture {

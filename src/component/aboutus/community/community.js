@@ -4,8 +4,8 @@ import '../community/community.css'
 import TickIcon from '../../../images/aboutus/aboutus17.png'
 // import CommunityImage1 from '../../../images/aboutus/aboutus3.png'
 // import CommunityImage2 from '../../../images/aboutus/aboutus7.png'
-import CommunityImage1 from '../../../images/aboutus/aboutus6.png'
-import CommunityImage2 from '../../../images/aboutus/aboutus3.png'
+import CommunityImage1 from '../../../images/allpageabanner/about_us/Rahul/Rahul_1x.webp'
+import CommunityImage2 from '../../../images/allpageabanner/about_us/soundarya/soundarya_1x.webp'
 
 
 function community() {

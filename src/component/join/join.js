@@ -1,6 +1,6 @@
 import React from 'react'
 import '../join/join.css'
-import JoinusImg from '../../images/joinUs.png'
+import JoinusImg from '../../images/allpageabanner/Join with us/Join with us_1x.webp'
 import JoinusImgRes from '../../images/joinRes.png'
 import rightArrow from '../../images/devArrow.svg'
 import Popup from '../careersPage2/popup/popup'

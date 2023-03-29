@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../../images/Video thumbnail.svg'
+import video from '../../images/allpageabanner/Future Growth/upscale/upscale_1x.webp'
 import arrow from '../../images/devArrow.svg'
 import '../../style/style.css'
 import '../../style/laptop.css'

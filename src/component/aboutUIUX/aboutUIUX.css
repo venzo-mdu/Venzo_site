@@ -28,10 +28,11 @@ body {
 }
 
 .aboutUIUX {
-    background-image: url("../../../src/images/Banner.png");
+    background-image: url("../../../src/images/allpageabanner/uxui/uxui_1x.webp");
     width: 100vw;
     z-index: 0;
     background-size: 100% 100%;
+    height: 65vh;
 }
 
 .aboutUIUXRes {
@@ -60,6 +61,7 @@ body {
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #FFFFFF;
+    margin:5% 0 0 0;
 }
 
 #digitalLine2 {
