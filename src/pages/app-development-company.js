@@ -117,7 +117,7 @@ function Appdevelopment() {
                                 <img className='productImage' src={WorkflowImg} alt='productImage'></img>
                             </div>
                         </Carousel.Item >
-                        <Carousel.Item >
+                        {/* <Carousel.Item >
 
                             <div className='ourProducts'>
                                 <div className='productDesc'>
@@ -127,7 +127,7 @@ function Appdevelopment() {
                                 </div>
                                 <img className='productImage' src={FinfloImg} alt='productImage'></img>
                             </div>
-                        </Carousel.Item >
+                        </Carousel.Item > */}
 
                     </Carousel>
 

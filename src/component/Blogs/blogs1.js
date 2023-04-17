@@ -14,9 +14,8 @@ import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterH
 
 function Blogs1() {
     const data =typeof window !== 'undefined'? window.history.state:''
-    console.log(data.data)
 
-    const [search, setSearch] = useState(data.data !== undefined?data.data:'All Categories')
+    const [search, setSearch] = useState(data?.data !== undefined?data.data:'All Categories')
     const [searchInput, setSearchInput] = useState('')
 
   
@@ -25,7 +24,7 @@ function Blogs1() {
         if (searchInput.length > 0) {
             return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(searchInput.toLowerCase()))
         }
-        if (search.length > 0) {
+        if (search?.length > 0) {
             return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(search.toLowerCase()))
         }
      

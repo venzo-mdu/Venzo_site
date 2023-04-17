@@ -24,7 +24,7 @@ function leadership() {
               <img className='leaderImage' src={Leader1} alt='leader'></img>
               <div className='aboutLeader'>
                 <p id='nameText'>Asif</p>
-                <p id='positionText'>Co-Fouder</p>
+                <p id='positionText'>Co-Founder</p>
               </div>
             </div>
             <p id='aboutLeaders'>After a 12-year stint donning various hats as a Project leader, Pre-Sales Consultant, Functional Consultant, and Trade-finance professional, he took the entrepreneurial plunge in his early 30’s with a relentless drive for innovation and a passion to best to align technology with customer business plans. </p>
@@ -36,7 +36,7 @@ function leadership() {
               <img className='leaderImage' src={Leader2} alt='leader'></img>
               <div className='aboutLeader'>
                 <p id='nameText'>Balaji</p>
-                <p id='positionText'>Co-Fouder</p>
+                <p id='positionText'>Co-Founder</p>
               </div>
             </div>
             <p id='aboutLeaders'>Trade Finance professional with experience of more than 18 years in all facets of trade finance operations and handling projects of different natures like in-sourcing, core banking, online banking & merger of banks. </p>
@@ -48,7 +48,7 @@ function leadership() {
               <img className='leaderImage' src={Leader3} alt='leader'></img>
               <div className='aboutLeader'>
                 <p id='nameText'>Ravi</p>
-                <p id='positionText'>Co-Fouder</p>
+                <p id='positionText'>Co-Founder</p>
               </div>
             </div>
             <p id='aboutLeaders'>CEG Alumnus and a Business Leader with 17 plus years of rich experience in handling Finance and Operations. Expertise in handling a diverse range of operations, including areas involving Strategy, Engineering, Delivery, Marketing, Program Management for software products and services.</p>

@@ -21,9 +21,9 @@ function devServices() {
           <li><Link to="/digital-marketing-comapany">Digital Marketing&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link> </li>
           <li><Link to="/ui-ux-design-company">UI & UX Design&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></Link></li>
           <li><Link to="/website-development-company">Website Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
-          <li>E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-          <li>Enterprise App Development&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
-          <li>Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img></li>
+          <li><Link to="/website-development-company">E-Commerce Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
+          <li><Link to="/app-development-company">Enterprise App Development&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
+          <li><Link to="/hire-our-developers">Hire Developers&nbsp;&nbsp;<img src={rightArrow} alt='right-Arrow'></img> </Link></li>
         </div>
       </div>
       <div className='venzoMantra'>
@@ -31,7 +31,7 @@ function devServices() {
           <p id='reach'><span id='mantra'>VENZO MANTRA</span></p>
 
           <p id='venzoExpertise'>With our unique blend of business experience and efficient approach, Venzo has developed successful apps that speed digital transformation. Venzoians have expertly crafted IT solutions & developed applications from the ground-up with our fully equipped talent team & BCs on board. We design, implement, and monitor your unique digital business requirements for greater expansion.</p>
-          <p id='Motto'>Build&nbsp;.&nbsp;Modernize&nbsp;.&nbsp;Upscale.</p>
+          <p id='Motto'>Build&nbsp;.&nbsp;Modernize&nbsp;.&nbsp;Scale.</p>
         </div>
         <div className='venzoexpertImg'>
           <img src={roundimage} alt='venzoexpertimg'></img>
