@@ -2,7 +2,7 @@
     background-image: url(../../../images/webp/stafffffff/stafffffff_1x.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 90vh;
+    height: 100vh;
 }
 .bannerText{
     padding: 10% 7% 10%;
@@ -10,12 +10,12 @@
 .venzoSA #venzoSATitle{
     font-family: Poppins;
     font-size: 55px;
-    font-weight: 600;
-    line-height: 66px;
+    font-weight: 400;
+    line-height: 65px;
     letter-spacing: -0.04em;
     text-align: left;
     color: #FFFFFF;
-    margin: 8% 0 0 0;
+    margin: 15% 0 0 10%;
 }
 .venzoSA #venzoSAText{
     font-family: Poppins;
@@ -49,6 +49,16 @@
         line-height: 28px;
         margin: 2% 0 2% 0 ;
     }
+    .venzoSA #venzoSATitle{
+        font-family: Poppins;
+        font-size: 57px;
+        font-weight: 400;
+        line-height: 65px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 15% 0 0 10%;
+    }
     .venzoSA{
         height: 93vh;
     }
@@ -56,6 +66,16 @@
 @media screen and (max-width:1025px) and (min-width:769px) {
     .bannerText{
         padding: 15% 7% 10%;
+    }
+    .venzoSA #venzoSATitle{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 18% 0 0 15%;
     }
     .venzoSA #venzoSAText{
         width:88%;
@@ -68,7 +88,16 @@
     .bannerText{
         padding: 15% 3% 10%;
     }
-   
+    .venzoSA #venzoSATitle{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 30% 0 0 23%;
+    }
 .venzoSA #venzoSAText{
     width:90%;
 }

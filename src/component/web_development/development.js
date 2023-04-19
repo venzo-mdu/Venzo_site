@@ -31,14 +31,15 @@ function Development() {
     }
     async function sendEmail(event) {
         event.preventDefault()
+        setSubmit(true)
+
         const body = {
             to: toMail,
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            subject: "website-development-company"
+            subject: "Venzo Enquiry From: Lets Talk Form"
         }
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-        setSubmit(true)
         setEmailInput(
             { name: "",
             email: "",
@@ -53,8 +54,8 @@ function Development() {
             <div className='component'>
                 <div className='sect1'>
                     <p className='web_Title'>Enabling businesses stand out <br/> securely in the dynamic digital <br/> environment territory</p>
-                    <p className="webDesc">We build sites that build your business</p>
-                    <p className="knowmore" onClick={() => setButtonPopup(true)}>KNOW MORE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                    {/* <p className="webDesc">We build sites that build your business</p> */}
+                    {/* <p className="knowmore" onClick={() => setButtonPopup(true)}>KNOW MORE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p> */}
                 </div>
             </div>
             <div className="sect2" >

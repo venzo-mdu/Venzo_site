@@ -16,8 +16,12 @@ const IndexPage = () => {
     })
   },[])
   return (
+   
     
     <div>
+       <head>
+      
+    </head>
       <title>Venzo Technologies</title>
       <ImageCarousel />
       <DevServices />

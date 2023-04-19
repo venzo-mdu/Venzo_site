@@ -21,14 +21,14 @@ function AboutUIUX() {
   }
   async function sendEmail(event) {
     event.preventDefault()
+    setSubmit(true)
     const body = {
       to: toMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-      subject: "ui-ux-design-company"
+      subject: "Venzo Enquiry From: Lets Talk Form"
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
-    setSubmit(true)
     setEmailInput(
       { name: "",
       email: "",

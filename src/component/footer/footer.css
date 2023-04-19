@@ -133,7 +133,7 @@ footer {
 }
 
 .business {
-    margin: 13% 0 0 0;
+    margin: 10% 0 0 0;
 
 }
 
@@ -191,6 +191,9 @@ footer {
     }
     .services {
         line-height: 32.8px;
+    }
+    .business{
+        margin: 12% 0 0 0;
     }
 }
 

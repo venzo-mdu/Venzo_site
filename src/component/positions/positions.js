@@ -19,7 +19,7 @@ function positions() {
               <br></br>
               <p id='exprYear'>8 - 10 years experience</p>
 
-              <a href='/careers/careersdetails'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/java-architect'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             <div className='cards'>
               <p id="cardTitle">Developers</p>
@@ -27,7 +27,7 @@ function positions() {
               </p>
               <br></br>
               <p id='exprYear'>6 Years Experience</p>
-              <a href='/careers/careersdetails1'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/sr-javadevelopers'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             <div className='cards'>
               <p id="cardTitle">Developers</p>
@@ -35,7 +35,7 @@ function positions() {
               </p>
               <br></br>
               <p id='exprYear'>4 Years Experience</p>
-              <a href='/careers/careersdetails2'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/react-developers'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             <div className='cards'>
               <p id="cardTitle">Test Engineer</p>
@@ -43,21 +43,21 @@ function positions() {
               </p>
               <br></br>
               <p id='exprYear'>3-5 Years Experience</p>
-              <a href='/careers/careersdetails3'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/automation-test-engineer'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             <div className='cards'>
               <p id="cardTitle">Developers</p>
               <p id="cardText1">BACKEND LEAD
               </p><br></br>
               <p id='exprYear'>7+ Years Experience</p>
-              <a href='/careers/careersdetails4'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/backend-lead'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             <div className='cards'>
               <p id="cardTitle">Developers</p>
               <p id="cardText1">MICRO STRATEGY
               </p><br></br>
               <p id='exprYear'>6-8 Years Experience</p>
-              <a href='/careers/careersdetails5'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+              <a href='/careers/micro-strategy'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
           </div>
         </div>

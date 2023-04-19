@@ -27,12 +27,13 @@
     .web_Title {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 32px;
+        font-weight: 400;
+        font-size: 40px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
-        width: 70%;
+        width: 80%;
+        margin: 35% 0 0 5%;
     }
 
     .webDesc {

@@ -7,6 +7,10 @@ import './laptopM.css';
 import './productTab.css';
 import './mobile.css';
 import './mobileS.css';
+
+import CircularProgress from '@mui/material/CircularProgress';
+
+
 import line from '../../images/Vector 76.svg';
 import quality from '../../images/enterpise.png'
 import mvp from '../../images/mvp.png'
@@ -52,15 +56,16 @@ function Product() {
     }
     async function sendEmail(event) {
         event.preventDefault()
+        setSubmit(true)
         const body = {
             to: toMail,
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            subject: "product-development-company"
+            subject: "Venzo Enquiry From: Lets Talk Form"
         }
 
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-        setSubmit(true)
+        
         setEmailInput(
             {
                 name: "",
@@ -353,7 +358,7 @@ function Product() {
                     <button type='submit' className='Fbutton'>Submit</button>
                 </form>
             </Popup>
-
+            <CircularProgress/>
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
                 <div className='thankPop'>
                     <p className='subSucss'>Submitted successfully</p>

@@ -17,7 +17,7 @@
     left: 896px;
     color: #FFFFFF;
     margin-top: -2%;
-    margin-left: -12%;
+    margin-left: -17%;
 }
 
 .connectwithUs{
@@ -45,26 +45,29 @@
 
 @media screen and (max-width:1705px) and (min-width:1025px){
 .privacyVenzo #privacyText{
-    left: 541px;
-    top: 166px;
+    left: 575px;
+    top: 175px;
     z-index: -1;
 }
+
 /* .policy #attention {
     width: 26% !important;
 } */
 }
 @media screen and (max-width:1024px) and (min-width:775px){
-    .privacyVenzo #privacyText{
-        left: 269px;
-        top: 148px;
-    }
+  
     .connectwithUs .privacyMediaIcons{
         margin: 0 0 0 -10%;
+    }
+    .privacyVenzo #privacyText{
+        left: 325px;
+        top: 166px;
+        z-index: -1;
     }
 }
 @media screen and (max-width:770px) and (min-width:431px){
     .privacyVenzo #privacyText{
-        left: 176px;
+        left: 225px;
         top: 132px;
         font-size: 36px;
     }
@@ -75,12 +78,12 @@
     }
     .privacyVenzo #privacyText{
         font-family: Poppins;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -0.04em;
     text-align: center;
-    left: 57px;
+    left: 65px;
     top: 134px;
 
     }
@@ -97,12 +100,12 @@
 @media screen and (max-width:375px){
     .privacyVenzo #privacyText{
         font-family: Poppins;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -0.04em;
     text-align: center;
-    left: 53px;
+    left: 60px;
     top: 124px;
 
     }

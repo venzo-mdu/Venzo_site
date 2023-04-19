@@ -22,14 +22,15 @@ function Venzostaff() {
   }
   async function sendEmail(event) {
     event.preventDefault()
+    setSubmit(true)
+
     const body = {
       to: toMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-      subject: "Hire-our-developers"
+      subject: "Venzo Enquiry From: Lets Talk Form"
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
-    setSubmit(true)
     setEmailInput(
       {
         name: "",
@@ -45,8 +46,8 @@ function Venzostaff() {
       <div className='venzoSA'>
         <div className='bannerText'>
           <p id='venzoSATitle'>Hire Dedicated <br /> Developers </p>
-          <p id='venzoSAText'>Hire our highly qualified and experienced developers and designers to augment your team and assist you in creating complex software solutions based on your business requirements in cost-effective measures.</p>
-          <p id='venzoSATalk' onClick={() => setButtonPopup(true)}>Talk to us <img src={RightArrow} alt='talktous'></img></p>
+          {/* <p id='venzoSAText'>Hire our highly qualified and experienced developers and designers to augment your team and assist you in creating complex software solutions based on your business requirements in cost-effective measures.</p> */}
+          {/* <p id='venzoSATalk' onClick={() => setButtonPopup(true)}>Talk to us <img src={RightArrow} alt='talktous'></img></p> */}
         </div>
       </div>
 

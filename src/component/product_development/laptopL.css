@@ -14,8 +14,12 @@
     margin:0 0 5% -10%;
 
     }
+    .product_Title{
+        font-size: 57px;
+        font-weight: 400;
+    }
     .product_section1{
-        height: 93vh;
+        height: 100vh;
     }
     .animation #animationText{
         position: absolute;

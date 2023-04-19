@@ -29,34 +29,6 @@ function life() {
   )
 }
 
-// import lifeData from '../../content/lifeData.json'
-// function life() {
-//   return (
-//     <div>
-//       {lifeData.map((item) => 
-//       {return <section>
-//           <div className='lifeAtvenzo'>
-//              <p id="lifeAtvenzotitle">{item.title}</p>
-//              <p id="lifeAtvenzoText">{item.contn}</p>
-//              <div className='youtubeVideo'>
-//                <div className='link1'>
-//                <img src={item.youtube1} alt='youtubeVideo1'></img>
-//                </div>
-//                <div className='link2'>
-//                <img src={item.youtube2} alt='youtubeVideo2'></img>
-//                </div>
-//              </div>
 
-//           </div>
-//       </section>
-//       }
-//       )}
-//       </div>
-
-
-
-
-//   )
-// }
 
 export default life

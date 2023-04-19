@@ -25,7 +25,7 @@ body{
 .improve{
     background-image: url("../../../src/images/allpageabanner/banking_qa/banking_qa_1x.webp");
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     z-index: 0;
     background-size: 100% 100%;
 }
@@ -33,11 +33,13 @@ body{
     padding: 14% 6%;
 }
 #improveSoftwareLine1{
-    font-family: poppins-semibold;
+    font-family: poppins;
     color: white;
     font-size: 65px;
-    line-height: 120%;
-    width: 53%;
+    font-weight: 400;
+    line-height: 75px;
+    width: 60%;
+    margin: 5% 0 0 10%;
 }
 #improveSoftwareLine2{
     font-family: poppins-medium;
@@ -54,9 +56,18 @@ body{
 .improveRes{
     display:none;
 }
-@media screen and (max-width:1705px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .improve{
-        height: 93vh;
+        height: 100vh;
+    }
+    #improveSoftwareLine1{
+        font-family: poppins;
+        color: white;
+        font-size: 57px;
+        font-weight: 400;
+        line-height: 75px;
+        width: 60%;
+        margin: 15% 0 0 10%;
     }
     .improveSoftware{
         padding: 15% 10% 0;
@@ -68,7 +79,7 @@ body{
     }
     
 }
-@media screen and (max-width:1440px) and (min-width:1030px) {
+/* @media screen and (max-width:1440px) and (min-width:1030px) {
     .improve{
         height: 93vh;
     }
@@ -81,8 +92,8 @@ body{
     .improveSoftware1{
         padding: 9% 10% 0;
     }
-}
-@media screen and (max-width:1024px) and (min-width:775px) {
+} */
+@media screen and (max-width:1024px) and (min-width:768px) {
     .improve{
         height: 93vh;
     }
@@ -90,8 +101,15 @@ body{
         padding:20% 10% 0;
         margin-left: -4%;
     }
+ 
     #improveSoftwareLine1{
-        font-size: 35px;
+        font-family: poppins;
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 65px;
+        width: 60%;
+        margin: 18% 0 0 10%;
     }
 }
 @media screen and (max-width:768px) and (min-width:435px) {
@@ -103,7 +121,11 @@ body{
         margin-left: -5%;
     }
     #improveSoftwareLine1{
-        font-size: 35px;
+        font-size: 40px;
+        width: 75%;
+        line-height: 65px;
+        margin: 10% 0 0 15%;
+
     }
     #improveSoftwareLine3{
         margin: 5% 0 0 0;

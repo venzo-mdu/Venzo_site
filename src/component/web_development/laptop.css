@@ -5,9 +5,7 @@
         margin: 0;
         padding: 0;
     }
-    .component{
-        height: 93vh !important;
-    }
+   
     body {
         padding: 0;
         margin: 0;
@@ -25,17 +23,18 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
     }
     
     .web_Title {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 600;
-        font-size: 35px;
+        font-weight: 400;
+        font-size: 40px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
+        margin: 20% 0 0 10%;
     }
     
     .webDesc {

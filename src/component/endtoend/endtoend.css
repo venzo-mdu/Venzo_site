@@ -22,11 +22,11 @@
 }
 @media screen and (max-width: 1024px) and (min-width: 775px)
 {
-    #improveSoftwareLine1 {
+    /* #improveSoftwareLine1 {
         font-size: 35px;
         margin-top: -4%;
         width: 58%;
-    }
+    } */
 .improveSoftware {
     padding: 23% 5% 0;
 }
@@ -53,10 +53,10 @@
 }
 }
 @media screen and (max-width: 770px) and (min-width: 380px){
-    #improveSoftwareLine1 {
+    /* #improveSoftwareLine1 {
         font-size: 24px;
         margin-top: -6%;
-    }
+    } */
     
     .Dm_heading {
         font-family: "Poppins", Sans-serif;

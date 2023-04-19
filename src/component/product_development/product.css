@@ -4,7 +4,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 /* .product_section2{
     display: none;
@@ -16,13 +16,14 @@
 .product_Title {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
+    font-weight: 400;
+    font-size: 65px;
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #FFFFFF;
-    margin-left: 10%;
+    margin: 5% 0 0 15%;
 }
+
 
 .colorname {
     background: linear-gradient(233.68deg, #F97112 21.18%, #C421B9 78.82%);

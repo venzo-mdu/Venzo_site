@@ -21,6 +21,7 @@ function BcBanner() {
   }
   async function sendEmail(event) {
     event.preventDefault()
+    setSubmit(true)
     const body = {
       to: toMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
@@ -28,7 +29,6 @@ function BcBanner() {
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
-    setSubmit(true)
     setEmailInput(
       { name: "",
       email: "",
@@ -42,8 +42,8 @@ function BcBanner() {
       <div className='bcBanner'>
         <div className='innerbcBanner'>
           <p id='bcbannerTitle'><span id='bcBannergradienttext'>Blockchain, Metaverse</span>, AI/ML, IoT and Mobility Solutions Provider</p>
-          <p id='bcbannerText'>We build stellar products with elite blockchain engineers for global web3 startups</p>
-          <div className='bcdemoButton' onClick={() => setButtonPopup(true)}>Let’s Talk</div>
+          {/* <p id='bcbannerText'>We build stellar products with elite blockchain engineers for global web3 startups</p> */}
+          {/* <div className='bcdemoButton' onClick={() => setButtonPopup(true)}>Let’s Talk</div> */}
         </div>
       </div>
       <div className='bcBannerRes'>

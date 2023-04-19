@@ -6,15 +6,14 @@ import Leader2 from '../../../images/allpageabanner/about_us/balaji bro/balaji b
 import Leader3 from '../../../images/allpageabanner/about_us/Ravi bro/Ravi bro_1x.webp'
 import linkedIcon from '../../../images/aboutus/aboutus14.png'
 
-
-
+ 
 
 function leadership() {
   return (
     <>
       <div className='leadership'>
         <p id='leadershipTitle'>Meet Our Leadership Team</p>
-        <p id='leadershipText'>With over 15 years of combined experience, we’ve <span id='hiringGradient1'>got a well-seasoned team of experts</span> at Venzo Technologies.</p>
+        <p id='leadershipText'>With over <span id='hiringGradient1'> 50 years of combined experience</span> , we've got a seasoned team of experts to lead Venzo Technologies.</p>
 
 
         <div className='ourLeaders'>

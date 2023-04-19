@@ -22,7 +22,7 @@ function Mobility() {
     const body = {
       to: toMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-      subject: "about-us"
+      subject: "Venzo Enquiry From: Lets Talk Form"
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
