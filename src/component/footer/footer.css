@@ -158,7 +158,7 @@ footer {
 }
 
 
-@media screen and (max-width:1705px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     footer {
         background-color: #0A1020;
         width: 100%;
@@ -198,7 +198,7 @@ footer {
 }
 
 
-@media screen and (max-width:1030px) and (min-width:768px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
     footer {
         background-color: #0A1020;
         width: 100%;

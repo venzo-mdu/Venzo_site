@@ -235,7 +235,7 @@
 
     #ApproachPara4 {
         margin-left: 23%;
-        margin-top: 4%;
+        margin-top: 2%;
     }
 
     #ApproachPara3 {
@@ -245,12 +245,16 @@
 
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1025px) {
+@media screen and (max-width: 1705px) and (min-width: 1025px) {
     .ourapproachQA .approachDesignQA img {
         position: absolute;
         margin: 3.5% 0 0 31%;
         height: 686px;
         width: 28%;
+    }
+    #ApproachPara2 {
+        margin-left: 35%;
+        margin-top: 1%;
     }
 
 }
@@ -489,7 +493,7 @@
     }
 
     .ourapproachQA .approachDesignQA #straightarrowQA {
-        height: 85vh;
+        height: 58vh;
         margin: 8% 10% 10% 39%;
         display: block;
 
@@ -504,7 +508,7 @@
     }
 
     .approachQA .feasibility {
-        margin: 10% 0 0 0%;
+        margin: 18% 0 0 0%;
 
     }
 

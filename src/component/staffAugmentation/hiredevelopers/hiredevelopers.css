@@ -58,7 +58,7 @@
 #imageText:hover{
     color: #FFFFFF;
 }
-@media screen and (max-width:1440px) and (min-width:1024px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .hireDevelopers{
         padding: 4% 10%;
     }

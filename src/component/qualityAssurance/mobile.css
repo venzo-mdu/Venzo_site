@@ -5,7 +5,7 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 610px;
+        height: 100vh;
     }
     .quality_Title {
         font-family: 'Poppins';
@@ -16,7 +16,7 @@
         letter-spacing: -0.04em;
         color: #FFFFFF;
         margin-left: 5%;
-        margin-top: 10%;
+        margin-top: 50%;
     }
 
     .section2_Title {
@@ -475,19 +475,20 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 610px;
+        height: 100vh;
     }
 
     .quality_Title {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 42px;
+        font-size: 35px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
         margin-left: 5%;
-        margin-top: 14%;
+        width: 100%;
+        margin-top: 60%;
     }
 
     .section2_Title {

@@ -49,8 +49,8 @@ function BcBanner() {
       <div className='bcBannerRes'>
         <div className='innerbcBannerRes'>
           <p id='bcbannerTitleRes'><span id='bcBannergradienttext'>Blockchain, Metaverse</span>, AI/ML, IoT and Mobility Solutions Provider</p>
-          <p id='bcbannerTextRes'>We build stellar products with elite blockchain engineers for global web3 startups</p>
-          <div className='bcdemoButton'>Let’s Talk</div>
+          {/* <p id='bcbannerTextRes'>We build stellar products with elite blockchain engineers for global web3 startups</p>
+          <div className='bcdemoButton'>Let’s Talk</div> */}
         </div>
       </div>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>

@@ -79,20 +79,7 @@ body{
     }
     
 }
-/* @media screen and (max-width:1440px) and (min-width:1030px) {
-    .improve{
-        height: 93vh;
-    }
-    #improveSoftwareLine1 {
-        font-family: poppins-semibold;
-        color: white;
-        font-size: 60px;
-        width: 53%;
-    }
-    .improveSoftware1{
-        padding: 9% 10% 0;
-    }
-} */
+
 @media screen and (max-width:1024px) and (min-width:768px) {
     .improve{
         height: 93vh;
@@ -146,9 +133,13 @@ body{
         margin-top: 0%;
     }
     #improveSoftwareLine1{
-        font-size: 24px;
-        margin-top: -6%;
-        width: 96%;
+        font-family: poppins;
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        width: 100%;
+        margin: 5% 0 10% 0%;
     }
    
 }

@@ -18,7 +18,7 @@ function privacyVenzo() {
 
         <PolicyVenzo />
         <div className='connectwithUs'>
-          <p id='connectwithUsTitle'>connect with us</p>
+          <p id='connectwithUsTitle'>Connect with us</p>
           <div className='mediaIcons'>
             <a href='https://www.facebook.com/VenzoTechnologies/' target={"_blank"} className='fbicons1'> <p ></p></a>
             <a href='https://twitter.com/Venzo_Tech/' target={"_blank"} className='twitericons1' > <p ></p></a>

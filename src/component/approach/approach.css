@@ -81,7 +81,7 @@
      display: none;
  }
 
- @media screen and (max-width:1705px) and (min-width:1030px) {
+ @media screen and (max-width:1705px) and (min-width:1024px) {
      .ourApproach {
          background-color: white;
          margin: -5% 0 0 0;

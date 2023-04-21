@@ -55,8 +55,15 @@ function ApplyJob() {
   }
   const sendFile =(e)=>{
     console.log('hihh',imagelist,'image',imageUpload);
+    let file = e.target.files[0]
+    let fileSize = e.target.files[0].size
+
+  //   if (file != ".pdf" && fileSize >= ) {
+  //     window.alert("File does not support. You must use .png or .jpg ");
+  //     return false;
+  //  }
+
     setImageUpload(e.target.files[0])
-    console.log(e.target.files[0])
     const imageRef = ref(storage, `venzofile/${e.target.files[0].name + v4()}`)
 
     uploadBytes(imageRef, e.target.files[0]).then((snapshot) => {

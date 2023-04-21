@@ -1,6 +1,6 @@
 .customerExperiance1{
     background-color: whitesmoke;
-    height: 25vh;
+    height: 28vh;
     padding: 4% 6%;
     display: inline-flex;
     width: 100vw;
@@ -26,6 +26,8 @@
     border-radius: 10px 10px 10px 10px;
     font-size: 18px;
     margin: 1.5% 0 0 10%;
+    outline: none;
+    border: none
 }
 @media screen and (max-width:1705px) and (min-width:1025px) {
     .customerExperiance1{

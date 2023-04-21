@@ -96,7 +96,7 @@ function ContactUs() {
                 </div>
             </div>
             <div className='mediaIocn'>
-                <p className='icontitle'>connect with us</p>
+                <p className='icontitle'>Connect with us</p>
                 <div className='mediaIcons'>
                     {/* <img className='fbicons1' src={FbIcon} alt='fbIcon'></img> */}
                     <a href='https://www.facebook.com/VenzoTechnologies/'target={"_blank"} className='fbicons1'> <p ></p></a>

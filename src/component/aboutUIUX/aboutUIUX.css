@@ -90,7 +90,7 @@ body {
     margin-left: 1%;
 }
 
-@media screen and (max-width:1440px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .digitalProducts {
         padding: 12% 8%;
     }

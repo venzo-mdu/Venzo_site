@@ -132,7 +132,7 @@ body {
     padding-top: 3%;
 }
 
-@media screen and (max-width:1705px) and (min-width:1030px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
     .container2 {
         background: #0A1020;
         display: flex;

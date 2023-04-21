@@ -55,6 +55,7 @@ function ApplyJob() {
   }
   const sendFile =(e)=>{
     console.log('hihh',imagelist,'image',imageUpload);
+   
     setImageUpload(e.target.files[0])
     console.log(e.target.files[0])
     const imageRef = ref(storage, `venzofile/${e.target.files[0].name + v4()}`)

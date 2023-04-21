@@ -20,7 +20,6 @@ const BankingQAPage = () => {
   return (
     <div className='bankbody'>
       <title>Venzo Technologies</title>
-      <Header flag="header1" />
       <Header flag="header2" />
       <Improve />
       <Services />

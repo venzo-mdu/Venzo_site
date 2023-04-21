@@ -49,7 +49,6 @@ function Development() {
     }
     return (
         <div>
-            <Header flag='header1' />
             <Header flag='header2' />
             <div className='component'>
                 <div className='sect1'>

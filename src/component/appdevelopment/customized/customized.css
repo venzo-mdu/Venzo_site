@@ -125,6 +125,7 @@
         letter-spacing: -0.04em;
         text-align: left;
         width: 100%;
+        margin: 50% 0 0 0%;
     }
 }
 
@@ -138,7 +139,7 @@
 
     #customizeText {
         font-family: Poppins;
-        font-size: 37px;
+        font-size: 25px;
         font-weight: 600;
         line-height: 50px;
         letter-spacing: -0.04em;

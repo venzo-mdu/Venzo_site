@@ -449,13 +449,13 @@
     .web_Title {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 120%;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
-        margin-right: -10%;
-        width: 90%;
+        width: 95%;
+        margin: 60% 0 0 0;
     }
 
     .webDesc {
@@ -865,13 +865,13 @@
     .web_Title {
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 600;
-        font-size: 21px;
+        font-weight: 400;
+        font-size: 25px;
         line-height: 120%;
         letter-spacing: -0.04em;
         color: #FFFFFF;
-        margin-right: -10%;
         width: 90%;
+        margin: 60% 0 0 0;
     }
 
     .webDesc {

@@ -203,7 +203,7 @@
 }
 
 .testbtn p {
-    padding-left: 20%;
+    padding-left: 25%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -212,9 +212,8 @@
     letter-spacing: -0.04em;
     color: #000000;
     text-align: center;
-    padding-top: 4%;
+    padding-top: 1%;
 }
-
 .testbtn p:hover {
 
     background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
