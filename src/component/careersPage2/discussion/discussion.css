@@ -84,7 +84,8 @@
     line-height: 21px;
     color: #929292;
     width: 48%;
-
+    border:none;
+    outline: none;
 }
 
 .enquiryinDiscussion  .Fphone {
@@ -124,6 +125,8 @@
     margin: 8% 0 0 70%;
     height: 40px;
     width: 30%;
+    outline: none;
+    border: none;
 }
 @media screen and (max-width:1705px) and (min-width:1024px){
     .enquiryinDiscussion {

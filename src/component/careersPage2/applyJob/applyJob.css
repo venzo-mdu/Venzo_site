@@ -72,6 +72,7 @@ color: #C4C4C4;
 .socialmediaIconsCareers{
     display: inline-flex;
     width: 100%;
+    margin: 5% 0 0 0;
 }
 .icons{
     display: inline-flex;
@@ -114,6 +115,8 @@ color: #C4C4C4;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
+    outline: none;
+    border: none;
 }
 .applyNow #shareitOn{
     font-family: Poppins;
@@ -123,7 +126,7 @@ color: #C4C4C4;
     letter-spacing: 0em;
     text-align: left;
     color:#929292;
-    margin: 3.5% 0 0 40%;
+    margin: 3.5% 0 0 30%;
 }
 
 .applyJob .descripition{
@@ -199,6 +202,8 @@ color: #C4C4C4;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
+    outline: none;
+    border: none;
 }
 
 @media screen and (max-width:1705px) and (min-width:1024px) {
@@ -254,9 +259,12 @@ color: #C4C4C4;
     color:#929292;
     margin: 3.5% 0 0 23%;
 }
+.applyJob .applyNowButton{
+    margin: 8% 0 0 30%;
+}
 }
 
-@media screen and (max-width:1204px) and (min-width:768px){
+@media screen and (max-width:1024px) and (min-width:768px){
 .applyJob .descripition {
     background-color: #F8F8F8;
     border-radius: 12px;
@@ -312,6 +320,9 @@ text-align: center;
 letter-spacing: -0.03em;
 
 color: #C4C4C4;
+}
+.applyJob .applyNowButton{
+    margin: 8% 0 0 40%;
 }
 }
 
@@ -423,7 +434,7 @@ display: none;
     display: block;
     margin-left: -5%;
     margin-top: 5%;
-    width:5%;
+    width:7%;
 }
 .skillsRequired ul li{
     font-family: Poppins;
@@ -456,6 +467,7 @@ letter-spacing: -0.03em;
 color: #000000;
 
 }
+
 .succImg{
     margin-left: 30%;
     width: 100px;
