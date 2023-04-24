@@ -55,10 +55,7 @@ function ApplyJob() {
 
   }
   const sendFile =(e)=>{
-    // console.log('hihh',imagelist,'image',imageUpload);
-    let file = e.target.files[0]
-    let fileSize = e.target.files[0].size
-     console.log(file)
+   
   
     setImageUpload(e.target.files[0])
     const imageRef = ref(storage, `venzofile/${e.target.files[0].name + v4()}`)
@@ -157,7 +154,7 @@ function ApplyJob() {
           <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
           <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
           <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
-          <input className='file' type="file" accept='.pdf , .doc' placeholder='choose file' onChange={sendFile}/>
+          <input className='file' type="file" accept='.pdf , .doc , .docx' placeholder='choose file' onChange={sendFile}/>
           <Toaster/>
           <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' ></textarea>
           <button type='submit' className='Fbutton'>Submit</button>

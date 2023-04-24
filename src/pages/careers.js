@@ -6,7 +6,7 @@ import Perks from '../component/perks/perks'
 import Positions from '../component/positions/positions';
 import Join from "../component/join/join"
 import Frequently from '../component/frequently/frequently'
-import Pahtway from '../component/pathway/pathway'
+import Pathway from '../component/pathway/pathway'
 import Footer from '../component/footer/footer'
 
 const Careers = () => {
@@ -25,7 +25,7 @@ const Careers = () => {
             <Positions />
             <Join />
             <Frequently />
-            <Pahtway />
+            <Pathway />
             <Footer />
         </div>
     );
