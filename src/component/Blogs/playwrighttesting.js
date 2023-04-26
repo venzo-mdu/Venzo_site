@@ -13,7 +13,8 @@ import Playwright3 from '../../images/blogsPic/playwright3.png'
 
 function playwrighttesting() {
   return (
-    <div className='productflex'>
+    
+    <div className='Selenium'>
       <div className='seleniumleft'>
         <p className='seleTitle'>End to End Test Automation Testing with PLAYWRIGHT</p>
         <div className='angulatTitle1flex'>
