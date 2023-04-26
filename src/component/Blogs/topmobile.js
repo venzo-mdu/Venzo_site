@@ -13,7 +13,7 @@ function Topmobile() {
         <div className='productflex'>
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>Top-15 Mobile App Ideas that Will Drive Your Start-Up Ahead</p>
-                <p className='reactusesubtitle'> Mobile APP Development   | November 29th, 2021 </p>
+                <p className='reactusesubtitle'> Mobile APP Development   | November 29th, 2021 | Elamparithi</p>
                 <img className='reactuseimg' src={blog3} alt="topmobile"/>
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>A terrific app idea is what drives your start-up business ahead and enables you to spin money. It is an online world out there. Earning profits through business is directly connected with touching as many hearts as possible using the best mobile application. Attractive and useful mobile applications help entrepreneurs to leverage mobile technology to its fullest and reach great heights. Here’s where the need for landing the distinctively unique mobile app idea becomes crucial.</p>

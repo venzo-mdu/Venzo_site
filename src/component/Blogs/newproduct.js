@@ -14,7 +14,7 @@ function Newproduct() {
         <div className='productflex'>
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>New Product Development; Winner’s Guide</p>
-                <p className='reactusesubtitle'>Product Development  | May 26, 2022</p>
+                <p className='reactusesubtitle'>Product Development  | May 26, 2022 | Karthik</p>
                 <img className='reactuseimg' src={blog0} alt="newproduct"/>
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>You never act on a hunch in software product development because developing robust software for widespread adoption is a complex process. A large number of projects fail because they do not follow a process consistently. <br />That is why it is critical to follow a series of systemic steps when developing a high-quality product that overcomes challenges and meets requirements. A solid software product development process not only improves the end product’s quality but also the overall development process.</p>

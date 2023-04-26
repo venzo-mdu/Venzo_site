@@ -15,8 +15,8 @@ function reactnativeandionic() {
             <div className='iconicLeft'>
                 <p className='iconiTitle'>How To Choose Between React Native And Ionic For Your App</p>
                 <div className='angulatTitle1flex'>
-                    <p className='AngularDate'>May 26th, 2022    |</p>
-                    <p className='AnguarPrd'>Product Development</p>
+                    <p className='AngularDate'>Product Development | May 26th, 2022  | Kristen</p>
+                    {/* <p className='AnguarPrd'></p> */}
                 </div>
                 <img src={iconic1} className='iconic1' alt="reactNative"></img>
                 <p className='iconicTitle'>Introduction</p>

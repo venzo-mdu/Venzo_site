@@ -12,7 +12,7 @@ function reactjsUse() {
         <div className='productflex'>
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>ReactJS Framework Working Wonders For Modern Web Development Businesses</p>
-                <p className='reactusesubtitle'>Technology, Web App Development | November 29th, 2021</p>
+                <p className='reactusesubtitle'>Technology, Web App Development | November 29th, 2021 | Vasanth</p>
                 <img className='reactuseimg' src={reactjs1} alt="reactjs"/>
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>The current ecosystem of front-end development is witnessing a fast-paced revolution. The major contributing parameters are the release of new tools every day and ever-expanding libraries and frameworks. With so many options in hand, it becomes difficult for business owners to make their pick. <br />Apart from Angular, there’s another popular choice surfacing today – ReactJS. Any <strong>web app development company</strong> which aims to stay relevant in the dynamic environment of design and development is inclining itself towards the ReactJS platform.</p>

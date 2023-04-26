@@ -15,7 +15,7 @@ function angularvsreact() {
                 <div className='angularLef'>
                     <p className='angulatTitle1'>Angular JS vs React Js: Which is Better for You?</p>
                     <div className='angulatTitle1flex'>
-                        <p className='AngularDate'> Technology | May 26th, 2022    </p>
+                        <p className='AngularDate'> Technology | May 26th, 2022 | Vasanth  </p>
                         {/* <p className='AnguarPrd'></p> */}
                     </div>
                     <img src={angularreact} className='angularvsreact' alt="angular"/>

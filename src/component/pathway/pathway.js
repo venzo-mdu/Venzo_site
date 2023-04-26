@@ -5,17 +5,21 @@ import { useState } from 'react'
 import axios from 'axios'
 import success from '../../images/successfully.png'
 import toMail from '../../config/config'
+import { storage } from '../firebase'
+import { v4 } from "uuid";
+import { ref, uploadBytes, listAll, getDownloadURL } from "firebase/storage";
 
 function Pathway() {
   const [buttonPopup, setButtonPopup] = useState(false);
     const [submit, setSubmit] = useState(false);
+    const [imagelist, setImagelist] = useState('');
+    const [imageUpload, setImageUpload] = useState(null);
     const [emailInput, setEmailInput] = useState({
         name: "",
         email: "",
         mobile: "",
         message: ""
     });
-
     const handleChange = (e) => {
         setEmailInput({ ...emailInput, [e.target.name]: e.target.value });
     }
@@ -25,8 +29,8 @@ function Pathway() {
 
         const body = {
             to: toMail,
-            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-            subject: "Venzo Enquiry From: Lets Talk Form"
+            message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"]+"<br> Resume :" +" "+ imagelist,
+            subject: "Venzo Careers From"
         }
 
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
@@ -37,9 +41,25 @@ function Pathway() {
                 email: "",
                 mobile: "",
                 message: ""
-            }
+            },
+          setImagelist('')
         )
 
+    }
+    const sendFile =(e)=>{
+      console.log(e)
+      console.log('hihh',imagelist,'image',imageUpload);
+      setImageUpload(e.target.files[0])
+      console.log(e.target.files[0])
+      const imageRef = ref(storage, `venzofile/${e.target.files[0].name + v4()}`)
+  
+      uploadBytes(imageRef, e.target.files[0]).then((snapshot) => {
+        getDownloadURL(snapshot.ref).then((url) => {
+          console.log(url)
+          // setImagelist((prev) => [...prev, url]);
+          setImagelist(url)
+        })
+      })
     }
   return (
     <>
@@ -55,7 +75,7 @@ function Pathway() {
           <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' />
           <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' />
           <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' />
-          <input className='file' type="file" placeholder='choose file' />
+          <input className='file' type="file" accept='.pdf , .doc ,. docx' onChange={sendFile} placeholder='choose file' />
           <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message'></textarea>
           <button type='submit' className='Fbutton'>Submit</button>
         </form>

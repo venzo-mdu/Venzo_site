@@ -69,7 +69,7 @@ const BcExecution = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
-              <Typography id='firstTitle1' variant="h6" component="span" style={{ color: 'black' }}>
+              <Typography id='firstTitle1' variant="h6" component="span">
                 Development
               </Typography>
               <Typography id='timelineText1'>Programming and coding based on the designs approved by you takes place in this stage. Our development lifecycle consists of 3-stages: Alpha phase, Beta phase and Release phase.</Typography>

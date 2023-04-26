@@ -12,7 +12,7 @@ function staffblog() {
         <div className='productflex'>
             <div className='staffLeft'>
                 <p className='staffTitle'>Significant Benefits and Why Your Company Requires IT Staff Augmentation Services</p>
-                <p className='staffsubtitle'>Staff Augmentation  | November 29th, 2021</p>
+                <p className='staffsubtitle'>Staff Augmentation  | November 29th, 2021 | kristen</p>
                 <img className='staffblogimg' src={staffblogimg} alt="staffblog"/>
                 <p className='staffintro'>Introduction</p>
                 <p className='staffintroDesc'>IT staff augmentation companies have turned into a valuable resource for organizations building superior quality software solutions. This outsourcing method supplements an in-house software development team with specialists who only work as required. With technological advancements, it is straightforward to create global remote teams without many challenges. <br />Furthermore, IT staff augmentation services remove the prerequisite to involve staff directly and evade comprehensive interviews and training programs. This approach saves a lot of resources and costs than the traditional recruitment process. <br />Coming to statistics, as per a Statista report, the worldwide outsourcing market in 2019 was <strong> $ 92.5 billion</strong>. However, the IT staff augmentation market size enlarged to<strong> $ 132.9 billion </strong> in 2020.</p>

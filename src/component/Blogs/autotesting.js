@@ -11,7 +11,7 @@ function autotesting() {
         <div className='productflex'>
             <div className='reactuseLeft'>
                 <p className='reactuseTitle'>Why should banks invest in automated testing for their software?</p>
-                <p className='reactusesubtitle'>Automated Testing   |  November 29th, 2021 </p>
+                <p className='reactusesubtitle'>Automated Testing   |  November 29th, 2021 | Arun Charles</p>
                 <img className='reactuseimg' src={autotestingimg1} alt="autotestingimg1" />
                 <p className='reactuseIntro'>Introduction</p>
                 <p className='reactuseIntroDesc'>Banking business priorities have shifted towards optimizing internal cost structures and identifying new in-demand customer segments, products, or service lines. This being the case, the banking domain has significant dependence on technology enabled products that is easily approachable and contains a personalized experience for its customers to connect. <br /> For instance, the banks of today offer their products or services such as new loan schemes, transaction alerts through WhatsApp for business. <br />To track and adopt agile methodologies practiced at your bank, Testing is an essential step in this process that assures stability followed by step automation thereby enabling speed. After all, a business progresses with quality and speed.</p>

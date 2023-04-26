@@ -18,7 +18,7 @@ function Blogs1() {
     const [search, setSearch] = useState(data?.data !== undefined?data.data:'All Categories')
     const [searchInput, setSearchInput] = useState('')
 
-  
+    console.log(blogsList)
 
     const searchresult = () => {
         if (searchInput.length > 0) {
@@ -27,7 +27,6 @@ function Blogs1() {
         if (search?.length > 0) {
             return blogsList.filter(obj => obj.subTitle.toLowerCase().includes(search.toLowerCase()))
         }
-     
         return blogsList
     }
 
@@ -97,7 +96,7 @@ function Blogs1() {
                     {searchresult().map((item, index) => {
                         return <Link href={item.route}>
                             <Card key={index} style={{ width: '23rem' }} className="card11" onClick={() => Blogdetail(item.route)}>
-                                <Card.Img variant="top" src={item.images} />
+                                <Card.Img variant="top" src={item.images} alt='Blog-images'/>
                                 <Card.Body>
                                     <Card.Subtitle className='blogsubtitile'> {item.subTitle}  </Card.Subtitle>
                                     <Card.Title className='blogsTitile' >{item.title1}</Card.Title>

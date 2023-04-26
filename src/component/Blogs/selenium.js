@@ -21,7 +21,7 @@ function selenium() {
                 <div className='seleniumleft'>
                     <p className='seleTitle'>Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing</p>
                     <div className='angulatTitle1flex'>
-                        <p className='AngularDate'> Automation Testing | May 26th, 2022  </p>
+                        <p className='AngularDate'> Automation Testing | May 26th, 2022  | Arun Charles</p>
                         {/* <p className='AnguarPrd'>Automation Testing</p> */}
                     </div>
                     <img src={selenium1} className='selenium1' alt="selenium"/>
