@@ -49,8 +49,8 @@ function Improve() {
       <div className='improveRes'>
         <div className='improveSoftware improveSoftware1'>
           <p id='improveSoftwareLine1'>Next Gen Quality Testing Services for Banks </p>
-          <p id='improveSoftwareLine2'>Well thought through QA initiatives</p>
-          <p id='improveSoftwareLine3' onClick={() => setButtonPopup(true)} >KNOW MORE    <img src={rightArrow} alt='rightArrow'></img> </p>
+          {/* <p id='improveSoftwareLine2'>Well thought through QA initiatives</p> */}
+          {/* <p id='improveSoftwareLine3' onClick={() => setButtonPopup(true)} >KNOW MORE    <img src={rightArrow} alt='rightArrow'></img> </p> */}
         </div>
       </div>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
