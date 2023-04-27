@@ -14,6 +14,7 @@ const Playwright = () => {
   return (
     <>
     <Header flag='header2'/>
+    
     <Playwrightesting/>
     <Footer/>
     </>

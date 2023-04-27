@@ -117,7 +117,6 @@ function DM_Page() {
     }
     return (
         <>
-            <Header flag='header1' />
             <Header flag='header2' />
             <div>
                 <div className='starting'>
@@ -125,8 +124,8 @@ function DM_Page() {
                     <img className='blockLogo1 w-100 ' src={block1} ></img> */}
                     <div className='section1'>
                         <p className='Dm_Title'>We create robust strategies for <br />online businesses.  </p>
-                        <p className="blockchainDesc">Crafting data-driven, automated, and personalized solutions for businesses.</p>
-                        <p className="GetQuote" onClick={() => setButtonPopup(true)} >GET QUOTE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p>
+                        {/* <p className="blockchainDesc">Crafting data-driven, automated, and personalized solutions for businesses.</p> */}
+                        {/* <p className="GetQuote" onClick={() => setButtonPopup(true)} >GET QUOTE <img src={colorArrow} className='whiteArrow' alt="black-arrow"></img></p> */}
                     </div>
                 </div>
                 <div className='section2'>

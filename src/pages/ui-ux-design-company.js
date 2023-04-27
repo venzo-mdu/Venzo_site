@@ -17,7 +17,6 @@ const UiuxPage = () => {
   return (
     <div className='uiuxBody'>
       <title>Venzo Technologies</title>
-      <Header flag="header1" />
       <Header flag="header2" />
       <About />
       <Whatwedo />

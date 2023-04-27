@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `venzo site`,
-    siteUrl: `https://www.venzotechnologies.com`
+    siteMetadata: {
+      title: `Emma Goto`,
+      description: `Front-end development and side projects.`,
+      author: `Emma Goto`,
+      siteUrl: `https://www.venzotechnologies.com`,
+
+    },
   },
   plugins: [
     {

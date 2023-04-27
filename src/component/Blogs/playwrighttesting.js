@@ -18,7 +18,7 @@ function playwrighttesting() {
       <div className='seleniumleft'>
         <p className='seleTitle'>End to End Test Automation Testing with PLAYWRIGHT</p>
         <div className='angulatTitle1flex'>
-          <p className='AngularDate'> Automation Testing | May 26th, 2022  | Ramya</p>
+          <p className='AngularDate'> Automation Testing | April 27, 2022  | Ramya</p>
           {/* <p className='AnguarPrd'>Automation Testing</p> */}
         </div>
         <img className='selenium1' src={Playwright1} alt='image'></img>

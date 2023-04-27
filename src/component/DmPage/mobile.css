@@ -16,12 +16,13 @@
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
-        font-size: 55px;
-        font-weight: 600;
+        font-size: 40px;
+        font-weight: 400;
         font-style: normal;
         line-height: 1.3;
         letter-spacing: -2px;
         padding-top: 15%;
+        margin: 25% 0 0 5%;
     }
 
     .blockchainDesc {
@@ -375,7 +376,7 @@
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
         line-height: 1.2;
         letter-spacing: -4;
@@ -723,7 +724,7 @@
 @media screen and (max-width:425px) and (min-width:376px) 
 {
     .section1 {
-        margin: 0% 0 0 7%;
+        margin: 0% 0 0 4%;
     }
     .cmpyLogo{
         margin-bottom: 50%;
@@ -733,19 +734,20 @@
     .starting {
         padding: 15% 0 0 0;
         background-image: url("../../DMpage/blockLogo1.png");
-        height: 100vh;
+        height: 85vh;
     }
 
     .Dm_Title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
         font-size: 42px;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
         line-height: 1.2;
         letter-spacing: -4;
         padding-bottom: 2%;
-        margin-top: 15%;
+        margin-top: 35%;
+        margin-left:5%;
     }
 
     .blockchainDesc {
@@ -1087,28 +1089,21 @@
 
 
     .section1 {
-        margin: 0% 0 0 7%;
+        padding: 10% 1%;
     }
 
     .starting {
         padding: 0% 0 0 0;
         background-image: url("../../DMpage/blockLogo1.png");
-        height: 100vh;
-    }
-    .cmpyLogo{
-        margin-bottom: 50%;
+        height: 85vh;
     }
 
     .Dm_Title {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
-        font-size: 40px;
-        font-weight: 600;
-        font-style: normal;
-        line-height: 1.2;
-        letter-spacing: -4;
-        padding-bottom: 7%;
-        padding-top: 30%;
+        font-size: 42px;
+        font-weight: 400;
+        width: 89%;
+        margin: 45% 0 0 5%;
+        line-height: 45px;
     }
 
     .blockchainDesc {

@@ -32,7 +32,7 @@ body {
     width: 100vw;
     z-index: 0;
     background-size: 100% 100%;
-    height: 65vh;
+    height: 100vh;
 }
 
 .aboutUIUXRes {
@@ -50,18 +50,18 @@ body {
     background-clip: text;
     font-family: 'poppins-medium';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
 }
 
 #digitalLine1 {
     font-family: poppins-regular;
     font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
+    font-weight: 400;
+    font-size: 65px;
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #FFFFFF;
-    margin:5% 0 0 0;
+    margin:15% 0 0 10%;
 }
 
 #digitalLine2 {
@@ -117,10 +117,13 @@ body {
     }
 
     #digitalLine1 {
-        font-family: poppins-semibold;
+        font-family: poppins;
         color: white;
+        font-size: 40px;
+        font-weight: 400;
         width: 65%;
-        margin-top: 3%;
+        margin:25% 0 0 10%;
+        line-height: 55px;
     }
 
     #digitalLine2 {
@@ -151,6 +154,7 @@ body {
         background-size: 100% 100%;
         height: auto;
         display: block;
+        height: 100vh;
     }
 
     .digitalProducts {
@@ -183,7 +187,7 @@ body {
     .aboutUIUXRes {
         background-image: url("../../images//bgMob2.png");
         background-size: 100% 100%;
-        height: 1000px;
+        height: 85vh;
         display: block;
     }
 
@@ -192,7 +196,8 @@ body {
     }
 
     #digitalLine1 {
-        font-size: 36px;
+        font-size: 42px;
+        margin: 20% 0 0 5%;
     }
 
     #digitalLine2 {
@@ -213,7 +218,7 @@ body {
     .aboutUIUXRes {
         background-image: url("../../images//bgMob2.png");
         background-size: 100% 100%;
-        height: 1000px;
+        height: 85vh;
         display: block;
     }
 
@@ -223,6 +228,7 @@ body {
 
     #digitalLine1 {
         font-size: 28px;
+        margin: 25% 0 0 5%;
     }
 
     #digitalLine2 {

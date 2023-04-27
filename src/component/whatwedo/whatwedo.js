@@ -1,8 +1,8 @@
 import React from 'react'
 import "./whatwedo.css"
 
-
 function whatwedo() {
+
   return (
     <section>
       <div className='whatwedo'>

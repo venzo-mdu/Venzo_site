@@ -26,16 +26,17 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 93vh;
+    height: 100vh;
 }
 .Dm_Title {
     color: #FFFFFF;
     font-family: "Poppins", Sans-serif;
-    font-size: 55px;
-    font-weight: 600;
+    font-size: 65px;
+    font-weight: 400;
     font-style: normal;
-    line-height: 66px;
+    line-height: 75px;
     letter-spacing: -2px;
+    margin: 8% 0 0 5%;
 }
 
 .blockchainDesc {

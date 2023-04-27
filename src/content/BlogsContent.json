@@ -73,8 +73,8 @@
     {
         "images": "../images/blogsPic/playwright1.png",
         "title1": "End to End Test Automation Testing with PLAYWRIGHT",
-        "subTitle": "All Categories | February 16, 2022 | Ramya",
-        "route": "/blog/play-wright",
+        "subTitle": "All Categories | April 27, 2022 | Ramya",
+        "route": "/blog/test-automation-with-playwright",
         "content1": "Playwright is a tool used for testing web applications.It helps developers automate tests so that they can quickly and easily check if their web application is working properly…"
     },
     {
@@ -122,8 +122,8 @@
     {
         "images": "../images/blogsPic/playwright1.png",
         "title1": "End to End Test Automation Testing with PLAYWRIGHT",
-        "subTitle": "Automated Testing   | February 16, 2022 | Ramya",
-        "route": "/blog/play-wright",
+        "subTitle": "Automated Testing   | April 27, 2022 | Ramya",
+        "route": "/blog/test-automation-with-playwright",
         "content1": "Playwright is a tool used for testing web applications.It helps developers automate tests so that they can quickly and easily check if their web application is working properly…"
     }
 ]

@@ -40,7 +40,7 @@ function ApplyJob() {
 
     const body = {
       to: toMail,
-      message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"] + " " +"<br> resume:" + " " + imagelist,
+      message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"] + " " +"<br> Resume:" + " " + imagelist,
       subject: "Venzo Careers Form",
       
     }
