@@ -10,6 +10,8 @@ import axios from 'axios'
 // import customerContent from '../../content/CustomerContent.json'
 import { useState } from 'react'
 import toMail from '../../config/config'
+import {toEnquiryMail} from '../../config/config'
+
 import Popup from '../careersPage2/popup/popup'
 import success from '../../images/successfully.png'
 
@@ -31,7 +33,7 @@ function Customer() {
     setSubmit(true)
 
     const body = {
-      to: toMail,
+      to: toEnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       subject: "Venzo Enquiry From: Lets Talk Form"
     }

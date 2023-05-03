@@ -4,6 +4,7 @@ import lineImg from '../../../images/horizLinecareers2.png'
 import axios from 'axios'
 import Popup from '../popup/popup'
 import toMail from '../../../config/config'
+import {toHREnquiryMail} from '../../../config/config'
 import success from '../../../images/successfully.png'
 
 function Discussion() {
@@ -23,7 +24,7 @@ function Discussion() {
     setSubmit(true)
 
     const body = {
-      to: toMail,
+      to: toHREnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       subject: "Venzo Careers Form"
     }

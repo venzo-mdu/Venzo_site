@@ -136,8 +136,8 @@ function playwrighttesting() {
                     </tr>
                 </Table>
 
-        <p className='seleniumTtiel'> Ready to streamline your testing process? Let us show you the power of automation. <span style={{ fontSize: '16px', fontFamily: 'poppins', fontWeight: '200' }} className='seleinumList'>Contact us now for</span>  <span style={{ color: 'blue', fontSize: '22px', borderBottom: '2px solid blue' }}><Link to='/quality-engineering-assurance/'>Quality Assurance and Testing Services</Link> </span></p>
-
+        <p className='seleniumTtiel'> Ready to streamline your testing process? Let us show you the power of automation. <span style={{ fontSize: '16px', fontFamily: 'poppins', fontWeight: '200' }} className='seleinumList'>Contact us now for</span>  </p>
+        <span style={{ color: 'blue', fontSize: '18px', borderBottom: '2px solid blue' }}><Link to='/quality-engineering-assurance/'>Quality Assurance and Testing Services</Link> </span>
         <p className='seleniumTtiel'>What is the Playwright Test Recorder ?  </p>
 
         <p className='seleniumCont'>

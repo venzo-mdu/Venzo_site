@@ -10,6 +10,8 @@ import Popup from '../popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
 import toMail from '../../../config/config'
+import {toHREnquiryMail} from '../../../config/config'
+
 import { storage } from '../../firebase'
 import { v4 } from "uuid";
 import { ref, uploadBytes, listAll, getDownloadURL } from "firebase/storage";
@@ -38,7 +40,7 @@ function ApplyJob() {
  
 
     const body = {
-      to: toMail,
+      to: toHREnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"] + " " +"<br> Resume:" + " " + imagelist,
       subject: "Venzo Careers Form",
       

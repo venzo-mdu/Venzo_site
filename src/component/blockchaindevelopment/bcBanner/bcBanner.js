@@ -4,6 +4,8 @@ import '../bcBanner/bcBanner.css'
 import Popup from '../../careersPage2/popup/popup'
 import axios from 'axios'
 import toMail from '../../../config/config'
+import {toEnquiryMail} from '../../../config/config'
+
 import success from '../../../images/successfully.png'
 
 function BcBanner() {
@@ -23,7 +25,7 @@ function BcBanner() {
     event.preventDefault()
     setSubmit(true)
     const body = {
-      to: toMail,
+      to: toEnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       subject: "blockchain-development-company"
     }

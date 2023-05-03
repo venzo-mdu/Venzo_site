@@ -44,6 +44,8 @@ import checkcolor from '../../images/quality/checkcolor.png'
 import Footer from '../footer/footer'
 import axios from 'axios'
 import toMail from '../../config/config'
+import {toEnquiryMail} from '../../config/config'
+
 import success from '../../images/successfully.png'
 
 function QualityAssurance() {
@@ -154,7 +156,7 @@ function QualityAssurance() {
         setSubmit(true)
 
         const body = {
-            to: toMail,
+            to: toEnquiryMail,
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
             subject: "Venzo Enquiry From: Lets Talk Form"
         }

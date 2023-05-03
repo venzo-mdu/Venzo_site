@@ -20,6 +20,8 @@ import Footer from '../component/footer/footer'
 import Popup from '../component/careersPage2/popup/popup'
 import axios from 'axios'
 import toMail from '../config/config'
+import {toEnquiryMail} from '../config/config'
+
 function Appdevelopment() {
   useEffect(()=>{
     document.documentElement.scrollTo({
@@ -44,7 +46,7 @@ function Appdevelopment() {
     setSubmit(true)
 
     const body = {
-      to: toMail,
+      to: toEnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
       subject: "Venzo Enquiry From: Lets Talk Form"
     }

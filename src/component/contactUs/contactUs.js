@@ -19,9 +19,13 @@ import axios from 'axios'
 import { useState } from 'react'
 import Popup from '../careersPage2/popup/popup'
 import toMail from '../../config/config'
+import {toEnquiryMail} from '../../config/config'
+
 import success from '../../images/successfully.png'
 function ContactUs() {
 
+
+    console.log(toMail)
 
     const [submit, setSubmit] = useState(false);
     const [emailInput, setEmailInput] = useState({
@@ -39,7 +43,7 @@ function ContactUs() {
         setSubmit(true)
 
         const body = {
-            to: toMail,
+            to: toEnquiryMail,
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
             subject: "Venzo Enquiry From :Contact-us Form"
         }
@@ -119,7 +123,7 @@ function ContactUs() {
                 <div className='thankPop'>
                     <p className='subSucss'>Submitted successfully</p>
                     <img src={success} alt='success' className='succImg' />
-                    <p className='thanksMsg'>Thank you for contacting us,<br></br> our team will reach you.</p>
+                    <p className='thanksMsg'>We've received your message loud and clear.<br></br>  Our team will be in touch soon..</p>
                 </div>
             </Popup>
         </div>
