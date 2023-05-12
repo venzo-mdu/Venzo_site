@@ -4,6 +4,7 @@ import JobDetails from '../../component/careersPage2/jobDetails/jobDetails'
 import ApplyJob from '../../component/careersPage2/applyJob/applyJob'
 import Discussion from '../../component/careersPage2/discussion/discussion'
 import Footer from '../../component/footer/footer'
+import {SEO} from "../../component/seo"
 
 const CareersPage=()=>{
   useEffect(()=>{
@@ -15,6 +16,7 @@ const CareersPage=()=>{
   return (
     <div className='blockchainbody'>
     <Header flag='header2'/>
+    <SEO title={'Job Openings - BPM / Java Architect'} description = {'At least 8-10 years of IT experience in Java and BPM technologies.'} />
     <JobDetails/>
     <ApplyJob/>
     <Discussion/>

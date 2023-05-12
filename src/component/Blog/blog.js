@@ -10,8 +10,8 @@ function Blog() {
   return (
 
     <div>
-      {blogContent.blog.map((item) => {
-        return <div className=' container2'>
+      {blogContent.blog.map((item,index) => {
+        return <div className=' container2' key={index}>
           <div className='Blogs'>
             <h2 className='blurTitle'> {item.title1}</h2>
             <p className='bloghead' > {item.decs1} <br /> <span className='date'>{item.date1}</span>   </p> <Link to='/blogs/newproduct'><img className='arrows' src={item.arrow} alt='arrows' /> </Link>

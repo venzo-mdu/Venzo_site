@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import { SEO } from '../component/seo';
 import Header from "../component/header/header"
 import Improve from '../component/improve/improve.js';
 import Services from '../component/services/services.js'
@@ -19,7 +20,7 @@ const BankingQAPage = () => {
   },[])
   return (
     <div className='bankbody'>
-      <title>Venzo Technologies</title>
+      <SEO title={'Banking Application Testing Services providers - Venzo'} description={'At Venzo, we are a trusted provider of banking application testing services for financial institutions.  We use proven methodologies and testing frameworks.'}/>
       <Header flag="header2" />
       <Improve />
       <Services />

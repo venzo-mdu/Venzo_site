@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import {SEO} from '../component/seo'
 import Header from '../component/header/header'
 import Colleagues from '../component/colleagues/colleagues';
 import Life from '../component/life/life'
@@ -19,6 +20,7 @@ const Careers = () => {
     return (
         <div className='blockchainbody'>
         <Header flag="header2" />
+        <SEO title={'Careers at Venzo Technologies | Join the Venzo team'} description = {'Join the Venzo team and advance your career in the exciting world of software development and technology. '}/>
             <Colleagues />
             <Life />
             <Perks />

@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import Selenium from '../../component/Blogs/selenium'
+import {SEO} from "../../component/seo"
 import Header from '../../component/header/header'
 import Footer from '../../component/footer/footer'
 
@@ -13,6 +14,7 @@ function SeleniumPage() {
   return (
     <div>
         <Header flag='header2'/>
+        <SEO title={'Selenium Automation Testing: Step by Step Guide for 2023'} description = {'Learn everything you need to know about Selenium testing, the most popular test automation tool. A Superlative Guide To Selenium Testing'}/>
         <Selenium/>
         <Footer/>
     </div>

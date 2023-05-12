@@ -1,6 +1,5 @@
 module.exports = {
   siteMetadata: {
-    title: `venzo technologies`,
     siteUrl: `https://www.venzotechnologies.com`,
   },
   plugins: [
@@ -18,5 +17,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Venzo Technologies`,
+        short_name: `Venzo`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `src/images/favicon.svg`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 };
+

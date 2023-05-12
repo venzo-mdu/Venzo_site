@@ -6,7 +6,7 @@ import Approach from '../component/approach/approach'
 import Prototypes from "../component/prototypes/prototypes";
 import Fidelity from "../component/fidelity/fidelity";
 import Footer from "../component/footer/footer"
-
+import {SEO} from "../component/seo"
 const UiuxPage = () => {
   useEffect(()=>{
     document.documentElement.scrollTo({
@@ -16,7 +16,7 @@ const UiuxPage = () => {
   },[])
   return (
     <div className='uiuxBody'>
-      <title>Venzo Technologies</title>
+      <SEO title={'UI UX Company in India | Best UX / UI Resources in chennai'} description = {'Venzo provide end-to-end UX/UI services & solutions that enhance your brand, improve user satisfaction, and increase conversions. Best UI, UX Company'} />
       <Header flag="header2" />
       <About />
       <Whatwedo />

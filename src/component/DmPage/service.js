@@ -6,9 +6,9 @@ function service() {
         <div>
 
 
-            {serviceData.map(item => {
+            {serviceData.map((item,index) => {
                 return <div >
-                    <img className="serv_hr" src={line} alt='line' />
+                    <img key={index} className="serv_hr" src={line} alt='line' />
                     <div className='Dm_sec' >
                         <div className='Serv_left'>
                             <div className="serv_title">
@@ -17,8 +17,8 @@ function service() {
                             <div className="DM_icon ">
                                 {console.log(serviceData.SubContent)}
 
-                                {item.SubContent.map(item => {
-                                    return <img className="DM_icons" src={item.icon} alt="mobile media icon" />
+                                {item.SubContent.map((item,index) => {
+                                    return <img key={index} className="DM_icons" src={item.icon} alt="mobile media icon" />
 
                                 })}
                             </div>

@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import {SEO} from '../component/seo'
 import Header from '../component/header/header'
 import VenzoSA from '../component/staffAugmentation/venzostaff/venzostaff'
 import Hiring from '../component/staffAugmentation/hiring/hiring'
@@ -17,6 +18,7 @@ function Staffaugmentation() {
   return (
     <div className='stafBody'>
       <Header flag='header2' />
+      <SEO title={'IT Staff Augmentation Company- Technical Staffing Agency'} description={'Venzo is a leading IT staff augmentation company that provides skilled and experienced IT professionals for short-term and long-term assignments.'}/>
       <VenzoSA />
       <Hiring />
       <Hiredevelopers />

@@ -55,9 +55,8 @@ function Header(props) {
            </ul> */}
           <ul>
             {
-              HeaderData.map(item => {
-                // console.log(HeaderData);
-                return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+              HeaderData.map((item,index) => {
+                return <li><Link key={index} to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
             }
           </ul>

@@ -4,8 +4,8 @@ function DevType() {
     return (
         <div>
 
-            {devContent.map(item => {
-                return <div>
+            {devContent.map((item,index) => {
+                return <div key={index}>
                     <div className="development1" >
                         <div className="devContent">
                             <div className="con_title">
@@ -24,16 +24,16 @@ function DevType() {
                     <div className=" row1">
                         <div className='column'>
                             <div className='column1'>
-                                {item.SubContent.map(item => {
-                                    return <div className='column2'>
+                                {item.SubContent.map((item,index) => {
+                                    return <div className='column2' key={index}>
                                         <img className="icon1" src={item.icon1} alt='icon' />
                                         <h2 className="heading1">{item.title1}</h2>
                                     </div>
                                 })}
                             </div>
                             <div className='column1'>
-                            {item.SubContent1 ? item.SubContent1.map(item => {
-                                    return <div className='column2'>
+                            {item.SubContent1 ? item.SubContent1.map((item,index) => {
+                                    return <div className='column2' key={index}>
                                         <img className="icon1" src={item.icon2} alt='icon' />
                                         <h2 className="heading1">{item.title2}</h2>
                                     </div>

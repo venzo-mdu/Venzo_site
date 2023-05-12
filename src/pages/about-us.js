@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import { SEO } from '../component/seo'
 import Header from '../component/header/header'
 import Unleashing from '../component/aboutus/unleashing/unleashing'
 import Community from '../component/aboutus/community/community'
@@ -17,6 +18,7 @@ function Aboutus() {
   },[])
   return (
     <div className='blockchainbody'>
+      <SEO title={'About Venzo Technologies'} description = {'Venzo Technologies mission is to help businesses leverage the power of technology to drive their growth and success'}/>
       <Header flag='header2' />
       <Unleashing />
       <Community />

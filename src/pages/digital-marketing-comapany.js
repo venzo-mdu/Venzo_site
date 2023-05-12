@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import DM_Page from '../component/DmPage/DM_Page'
+import {SEO} from "../component/seo"
 function Dm_page() {
   useEffect(()=>{
     document.documentElement.scrollTo({
@@ -9,7 +10,7 @@ function Dm_page() {
   },[])
   return (
     <div className='blockchainbody'>
-      <title>Venzo Technologies</title>
+      <SEO title={'Digital marketing company in Chennai, India | Venzo'} description = {'From SEO, PPC,SEM to social media & content marketing, we use the unique strategy and techniques to drive traffic, generate leads, and boost your online presence'}/>
       <DM_Page />
     </div>
   )

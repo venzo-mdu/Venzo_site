@@ -1,6 +1,6 @@
 import  React,{useEffect} from "react"
 import Build from '../component/Build/build'
-
+import { SEO } from "../component/seo"
 import Customer from "../component/customer/customer"
 import Blog from "../component/Blog/blog"
 import Idea from "../component/idea/idea"
@@ -19,10 +19,8 @@ const IndexPage = () => {
    
     
     <div>
-       <head>
-      
-    </head>
-      <title>Venzo Technologies</title>
+       
+      <SEO title={'Custom Software Development Company - Venzo Technologies'} description={'Venzo offers integrated software solutions for startups, SMEs, and large enterprises. With expertise in Mobile App, Website Development, Cloud, etc.'}/>
       <ImageCarousel />
       <DevServices />
       <Build />

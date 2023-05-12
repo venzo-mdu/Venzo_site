@@ -1,4 +1,6 @@
 import React,{useEffect} from 'react'
+import {SEO} from '../component/seo'
+
 import Carousel from 'react-bootstrap/Carousel';
 import productImage from '../images/productImage.png'
 import borderLine from '../images/borderLine.png'
@@ -65,6 +67,7 @@ function Blockchaindevelopment() {
   return (
     <div className='blockchainbody'>
       <Header flag='header2' />
+      <SEO title={'Blockchain development company in india | Venzo'} description ={'Venzo is one of the leading blockchain development companies in India, providing end-to-end blockchain solutions for startups, SMEs, and large enterprises. '}/>
       <BCBanner />
       <BCNetwork />
       <BCServices />

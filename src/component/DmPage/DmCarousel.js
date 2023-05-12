@@ -13,9 +13,9 @@ import Slider from "react-slick";
 
 function DmCarousel() {
     const renderSlides = () =>
-        Dm_Carousel.map(num => (
+        Dm_Carousel.map((num,index) => (
             <div>
-                <img src={num.images} alt='company Logo' />
+                <img key={index} src={num.images} alt='company Logo' />
             </div>
         ));
 

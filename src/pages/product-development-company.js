@@ -1,5 +1,7 @@
 import React,{useEffect} from 'react'
+import {SEO} from "../component/seo"
 import Product from '../component/product_development/product'
+
 function Product_development() {
   useEffect(()=>{
     document.documentElement.scrollTo({
@@ -9,6 +11,7 @@ function Product_development() {
   },[])
   return (
     <div className='blockchainbody'>
+      <SEO title={'Software Product Development Company in India, Chennai | Venzo'} description ={'At Venzo, we are a trusted software product development company that offers end-to-end solutions for startups, SMEs, and large enterprises.'}/>
       <Product />
     </div>
   )

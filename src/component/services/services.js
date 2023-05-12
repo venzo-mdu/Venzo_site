@@ -10,8 +10,8 @@ function services() {
                 <p className='Dm_heading1 dmheading'>Services</p>
                 <p className='Dm_subheading1'>Ready to test any custom software for Corporates, Retail Banks,<strong> Trade Finance & Investment Banking companies. </strong></p>
             </div>
-            {servicesData.map(item => {
-                return <div >
+            {servicesData.map((item,index) => {
+                return <div key={index}>
 
                     <img className="serv_hr" src={line} alt="line"/>
                     <div id='parainQA' className='Dm_sec' >

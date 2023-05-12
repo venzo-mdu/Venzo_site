@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import Autotesting from '../../component/Blogs/autotesting'
 import Header from '../../component/header/header'
 import Footer from '../../component/footer/footer'
+import {SEO} from "../../component/seo"
 
 function AutotestingPage() {
   useEffect(()=>{
@@ -13,6 +14,7 @@ function AutotestingPage() {
   return (
     <div> 
         <Header flag='header2'/>
+        <SEO title={'Why Financial Companies Should Embrace Automated Testing'} description ={'Why should banks invest in automated testing for their software? with Venzo Technologies expert insights.'}/>
         <Autotesting/>
         <Footer/>
     </div>

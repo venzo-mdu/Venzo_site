@@ -10,12 +10,9 @@ import buildContent from '../../content/BuilContent.json'
 function Build() {
     return (
         <div>
-
-            {console.log(buildContent.SubContent)}
-
-            {buildContent.map(item => {
+            {buildContent.map((item,index) => {
                 return <div>
-                    <div className="containor1" >
+                    <div className="containor1" key={index} >
                         <div className="build">
                             <div className="title">
                                 <p > {item.title}.</p>
@@ -30,8 +27,8 @@ function Build() {
                         <img className="images" src={item.images} alt='image' />
                     </div>
                     <div className=" row">
-                        {item.SubContent.map(item => {
-                            return <div className='col1'>
+                        {item.SubContent.map((item,index) => {
+                            return <div className='col1' key={index}>
                                 <img className="icon" src={item.icon} alt='icon' />
                                 <h2 className="heading">{item.title1}</h2>
                                 <p className="desc1">{item.content1}</p>

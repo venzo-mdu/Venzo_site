@@ -51,8 +51,8 @@ function Idea() {
     //     <button className=' btn talk'>Let's Talk</button>   
     // </div>
     <div>
-      {itemContent.idea.map((item) => {
-        return     <div className='containor3'>
+      {itemContent.idea.map((item,index) => {
+        return     <div className='containor3' key={index}>
         <p className='anyIdea'>{item.line1} <br/>
           <span className=' textColor'>{item.line2}</span> </p>
         <button className=' btn talk' onClick={() => setButtonPopup(true)}>{item.talk}</button>   

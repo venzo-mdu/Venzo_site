@@ -5,7 +5,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import success from '../../images/successfully.png'
 import toMail from '../../config/config'
-import {toEnquiryMail} from '../../config/config'
+import {toHREnquiryMail} from '../../config/config'
 
 import { storage } from '../firebase'
 import { v4 } from "uuid";
@@ -30,7 +30,7 @@ function Pathway() {
         setSubmit(true)
 
         const body = {
-            to: toEnquiryMail,
+            to: toHREnquiryMail,
             message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"]+"<br> Resume :" +" "+ imagelist,
             subject: "Venzo Careers From"
         }

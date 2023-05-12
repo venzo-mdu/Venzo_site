@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import {SEO} from '../component/seo'
 import Blogs1 from '../component/Blogs/blogs1'
 import Footer from '../component/footer/footer'
 function Blogs() {
@@ -10,6 +11,7 @@ function Blogs() {
   },[])
   return (
     <div>
+      <SEO title={'Venzo Technologies Blog - Explore the latest trends, insights.'} description = {'Explore the latest trends, insights, and best practices in software development, technology, and business on the Venzo blog.'}/>
       <Blogs1 />
       <Footer />
     </div>

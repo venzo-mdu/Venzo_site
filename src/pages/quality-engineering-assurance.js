@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import {SEO} from '../component/seo'
 import QualityAssurance from '../component/qualityAssurance/qualityAssurance'
 
 function Qualityassurance() {
@@ -10,6 +11,7 @@ function Qualityassurance() {
   },[])
   return (
     <div>
+      <SEO title={'Quality Assurance (QA) Services | Software Testing Company|Venzo'} description={'Venzo is a leading Quality Assurance (QA) services and software testing company that provides end-to-end testing solutions for startups, SMEs, and large enterprises. '}/>
       <QualityAssurance />
     </div>
 

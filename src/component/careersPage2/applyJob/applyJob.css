@@ -132,7 +132,7 @@ color: #C4C4C4;
 .applyJob .descripition{
     background-color: #F8F8F8;
     border-radius: 12px;
-    height: 685px;
+    height:inherit;
     width: 100%;
     margin:3% 0 0 0;
     padding: 2% 5%;
@@ -188,7 +188,7 @@ color: #C4C4C4;
     display: flex
 }
 .applyNowButton1{
-    height: 6%;
+    height: 50px;
     padding: -0.5% 0;
     width: 158px;
     border-radius: 10px 10px 10px 10px;
