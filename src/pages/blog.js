@@ -11,6 +11,9 @@ function Blogs() {
   },[])
   return (
     <div>
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/" />
+          </head>
       <SEO title={'Venzo Technologies Blog - Explore the latest trends, insights.'} description = {'Explore the latest trends, insights, and best practices in software development, technology, and business on the Venzo blog.'}/>
       <Blogs1 />
       <Footer />

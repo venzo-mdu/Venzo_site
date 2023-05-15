@@ -14,7 +14,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
-
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/sr-javadevelopers/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - Jr. Java Developers'} description = {'At least 6 years of IT experience in Java / Spring Boot technologies.'}/>
     <JobDetails/>

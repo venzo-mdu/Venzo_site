@@ -10,6 +10,9 @@ function Contactus() {
   },[])
   return (
     <div>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/contact-us/" />
+          </head>
       <SEO title={'Contact Venzo Technologies | Software Development Company'} description={'We have the expertise and experience to drive your success. Contact us today for a free consultation and lets start building your future together.'}/>
       <ContactUs />
       </div>

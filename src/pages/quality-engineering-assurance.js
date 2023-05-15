@@ -11,6 +11,9 @@ function Qualityassurance() {
   },[])
   return (
     <div>
+      <head>
+      <link rel="canonical" href="https://www.venzotechnologies.com/quality-engineering-assurance/" />
+      </head>
       <SEO title={'Quality Assurance (QA) Services | Software Testing Company|Venzo'} description={'Venzo is a leading Quality Assurance (QA) services and software testing company that provides end-to-end testing solutions for startups, SMEs, and large enterprises. '}/>
       <QualityAssurance />
     </div>

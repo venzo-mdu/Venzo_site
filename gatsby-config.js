@@ -28,6 +28,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+
+      {
+        resolve: `gatsby-plugin-canonical-urls`,
+        options: {
+          siteUrl: `https://www.example.com`,
+        },
+      },
   ],
 };
 

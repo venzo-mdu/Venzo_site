@@ -18,6 +18,9 @@ function Aboutus() {
   },[])
   return (
     <div className='blockchainbody'>
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/about-us/" />
+          </head>
       <SEO title={'About Venzo Technologies'} description = {'Venzo Technologies mission is to help businesses leverage the power of technology to drive their growth and success'}/>
       <Header flag='header2' />
       <Unleashing />

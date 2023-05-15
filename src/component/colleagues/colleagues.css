@@ -1,24 +1,26 @@
-.colleagues{
-    height: 100vh;
+.colleagues {
     width: 100vw;
     padding: 8% 0 0 0;
     text-align: center;
 }
-.colleagues #candidateTitle{
+
+.colleagues #candidateTitle {
     color: #0A1020;
     font-size: 55px;
     font-family: poppins;
     font-weight: 600;
     text-align: center;
 }
- #gradientText{
+
+#gradientText {
     background: linear-gradient(90deg, #D84176 0%, #B811DA 97.04%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
-.colleagues #candidateText{
+
+.colleagues #candidateText {
     color: #929292;
     font-family: poppins;
     font-size: 20px;
@@ -28,11 +30,13 @@ text-fill-color: transparent;
     margin: 0 0 0 26%;
     width: 47%;
 }
-.colleagues img{
+
+.colleagues img {
     margin: 5% 0 0 0;
 }
-@media screen and (max-width:1705px) and (min-width:1025px){
-    
+
+@media screen and (max-width:1705px) and (min-width:1025px) {
+
     .colleagues #candidateText {
         color: #929292;
         font-family: poppins;
@@ -43,12 +47,15 @@ text-fill-color: transparent;
         margin: 0 0 0 21%;
         width: 57%;
     }
-    .colleagues{
+
+    .colleagues {
         margin-bottom: 3% !important;
     }
+
     .posCard .cards #cardText {
         font-size: 16px !important;
     }
+
     .posCard .cards #viewJob {
         font-size: 16px !important;
         margin-top: 6% !important;
@@ -56,67 +63,77 @@ text-fill-color: transparent;
 }
 
 @media screen and (max-width:1025px) and (min-width:768px) {
-.colleagues{
-    padding: 15% 0 0 0;
+    .colleagues {
+        padding: 15% 0 0 0;
+    }
+
+    .colleagues img {
+        width: 80%;
+    }
+
+    .colleagues #candidateText {
+        color: #929292;
+        font-family: poppins;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 0 0 11%;
+        width: 80%;
+    }
 }
-.colleagues img{
-    width:80%;
-}
-.colleagues #candidateText {
-    color: #929292;
-    font-family: poppins;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    margin: 0 0 0 11%;
-    width: 80%;
-}
-}
+
 @media screen and (max-width:768px) and (min-width:431px) {
-    .colleagues{
+    .colleagues {
         height: auto;
         padding: 20% 0 0 0;
         margin-bottom: 0% !important;
     }
-    .colleagues #candidateTitle{
-    font-size: 40px;
+
+    .colleagues #candidateTitle {
+        font-size: 40px;
     }
-    .colleagues #candidateText{
-      width:50%;
-      margin: 0 0 0 25%;
-      
+
+    .colleagues #candidateText {
+        width: 50%;
+        margin: 0 0 0 25%;
+
     }
-    .colleagues img{
-        width:80%;
+
+    .colleagues img {
+        width: 80%;
     }
-   
+
 }
-@media  screen and (max-width:430px) and (min-width:375px) {
-    .colleagues{
+
+@media screen and (max-width:430px) and (min-width:375px) {
+    .colleagues {
         height: 60vh;
     }
-    .colleagues #candidateTitle{
-       font-size: 30px;
-       margin-top: 18%;
-       font-family: 'Poppins';
+
+    .colleagues #candidateTitle {
+        font-size: 30px;
+        margin-top: 18%;
+        font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 32px;
         line-height: 120%;
-/* or 38px */
+        /* or 38px */
 
-text-align: center;
-letter-spacing: -0.04em;
-       
+        text-align: center;
+        letter-spacing: -0.04em;
+
     }
-    .colleagues #candidateText{
-      width:90%;
-      margin: 0 0 0 3%;
-      font-size: 14px;
+
+    .colleagues #candidateText {
+        width: 90%;
+        margin: 0 0 0 3%;
+        font-size: 14px;
     }
-    .colleagues img{
-        width:100%;
-        border-radius:0px!important;
+
+    .colleagues img {
+        width: 100%;
+        border-radius: 0px !important;
     }
 }

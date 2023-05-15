@@ -19,6 +19,9 @@ const Careers = () => {
       },[])
     return (
         <div className='blockchainbody'>
+           <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/" />
+          </head>
         <Header flag="header2" />
         <SEO title={'Careers at Venzo Technologies | Join the Venzo team'} description = {'Join the Venzo team and advance your career in the exciting world of software development and technology. '}/>
             <Colleagues />

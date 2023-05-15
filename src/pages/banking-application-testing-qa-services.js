@@ -20,6 +20,9 @@ const BankingQAPage = () => {
   },[])
   return (
     <div className='bankbody'>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/banking-application-testing-qa-services/" />
+          </head>
       <SEO title={'Banking Application Testing Services providers - Venzo'} description={'At Venzo, we are a trusted provider of banking application testing services for financial institutions.  We use proven methodologies and testing frameworks.'}/>
       <Header flag="header2" />
       <Improve />

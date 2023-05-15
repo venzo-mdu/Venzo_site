@@ -15,6 +15,9 @@ function Projectaccountmanager() {
       },[])
   return (
     <div className='blockchainbody'>
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/project-account-manager/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - Project & Account Manager'} description ={'A  minimum  of 3years  of  experience  in  managing  multiple  projects  either  in  aWebsite development or Design agency or similar environment (Domestic & International clients)..'} />
     <JobDetails/>

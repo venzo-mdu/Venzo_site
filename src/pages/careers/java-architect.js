@@ -15,6 +15,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
+           <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/java-architect/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - BPM / Java Architect'} description = {'At least 8-10 years of IT experience in Java and BPM technologies.'} />
     <JobDetails/>

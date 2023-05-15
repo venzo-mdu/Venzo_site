@@ -13,6 +13,9 @@ function ReactjsusePage() {
   },[])
   return (
     <div>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/reason-to-use-reactjs-for-web-development/" />
+          </head>
         <Header flag='header2'/>
         <SEO title={'Why You Should Use React.js For Web Development'} description ={'ReactJS Framework Working Wonders For Modern Web Development Businesses. Read blog here'}/>
         <Reactjsuse/>

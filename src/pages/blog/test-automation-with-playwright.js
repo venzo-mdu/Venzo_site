@@ -13,6 +13,9 @@ const Playwright = () => {
       },[])
   return (
     <>
+     <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/test-automation-with-playwright/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'End to End Test Automation Testing with PLAYWRIGHT | Venzo Blog'} description={'Unlocking the Benefits of Playwright & it is a powerful open-source tool for browser automation that offers the following capabilities:Read More'}/>
     <Playwrightesting/>

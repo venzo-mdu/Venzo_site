@@ -13,6 +13,9 @@ function AutotestingPage() {
   },[])
   return (
     <div> 
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/why-should-banks-invest-in-automated-testing-for-their-software/" />
+          </head>
         <Header flag='header2'/>
         <SEO title={'Why Financial Companies Should Embrace Automated Testing'} description ={'Why should banks invest in automated testing for their software? with Venzo Technologies expert insights.'}/>
         <Autotesting/>

@@ -16,6 +16,9 @@ const UiuxPage = () => {
   },[])
   return (
     <div className='uiuxBody'>
+      <head>
+      <link rel="canonical" href="https://www.venzotechnologies.com/ui-ux-design-company/" />
+      </head>
       <SEO title={'UI UX Company in India | Best UX / UI Resources in chennai'} description = {'Venzo provide end-to-end UX/UI services & solutions that enhance your brand, improve user satisfaction, and increase conversions. Best UI, UX Company'} />
       <Header flag="header2" />
       <About />

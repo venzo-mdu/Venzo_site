@@ -66,6 +66,9 @@ function Blockchaindevelopment() {
   }
   return (
     <div className='blockchainbody'>
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blockchain-development-company/" />
+          </head>
       <Header flag='header2' />
       <SEO title={'Blockchain development company in india | Venzo'} description ={'Venzo is one of the leading blockchain development companies in India, providing end-to-end blockchain solutions for startups, SMEs, and large enterprises. '}/>
       <BCBanner />

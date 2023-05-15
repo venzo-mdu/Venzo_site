@@ -14,7 +14,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
-
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/micro-strategy/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - Micro Strategy '} description = {'Ability to create and manage complex cubes from various sources.'} />
     <JobDetails/>

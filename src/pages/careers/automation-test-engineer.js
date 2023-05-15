@@ -15,7 +15,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
-
+           <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/automation-test-engineer/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Opening - Automation Test Engineer'} description = {'Good to have Selenium (Java, Python), Opkey or Any Automation testing experience, at least basics.'}/>
     <JobDetails/>

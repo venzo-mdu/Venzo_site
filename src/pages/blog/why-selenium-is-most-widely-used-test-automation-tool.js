@@ -13,6 +13,9 @@ function SeleniumPage() {
   },[])
   return (
     <div>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/why-selenium-is-most-widely-used-test-automation-tool/" />
+          </head>
         <Header flag='header2'/>
         <SEO title={'Selenium Automation Testing: Step by Step Guide for 2023'} description = {'Learn everything you need to know about Selenium testing, the most popular test automation tool. A Superlative Guide To Selenium Testing'}/>
         <Selenium/>

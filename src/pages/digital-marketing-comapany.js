@@ -10,6 +10,9 @@ function Dm_page() {
   },[])
   return (
     <div className='blockchainbody'>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/digital-marketing-comapany/" />
+          </head>
       <SEO title={'Digital marketing company in Chennai, India | Venzo'} description = {'From SEO, PPC,SEM to social media & content marketing, we use the unique strategy and techniques to drive traffic, generate leads, and boost your online presence'}/>
       <DM_Page />
     </div>

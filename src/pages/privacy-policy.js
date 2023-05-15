@@ -14,6 +14,9 @@ function Privacypolicy() {
   },[])
   return (
     <div className='blockchainbody'>
+      <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/privacy-policy/" />
+          </head>
       <SEO title={'Venzo Technologies Privacy Policy'} description={'Venzo Technologies Privacy Policy is incorporated into and forms part of our terms and conditions of use of any website.'}/>
       <Header flag='header2' />
       <Privacy />

@@ -15,7 +15,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
-
+           <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/backend-lead/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - Backend Lead'} description ={'7+ years of experience in creating large-scale data pipeline.'} />
     <JobDetails/>

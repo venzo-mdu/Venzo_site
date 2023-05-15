@@ -10,6 +10,9 @@ function WebDevelopment() {
       },[])
     return (
         <div>
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/website-development-company/" />
+          </head>
             <SEO title={'Website Development Company - Web Design Service In India'} description = {'Venzo is a leading website development company and web design service provider in India. We use the latest web technologies and design trends.'}/>
             <Development />
         </div>

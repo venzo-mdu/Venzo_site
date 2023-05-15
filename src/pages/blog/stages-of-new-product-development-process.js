@@ -13,6 +13,9 @@ function NewproductPage() {
   },[])
   return (
    <div> 
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/stages-of-new-product-development-process/" />
+          </head>
         <Header flag='header2'/>
         <SEO title={'New Product Development; Winner’s Guide'} description={'Discover the key strategies and best practices for successful new product development. Read More the blog'}/>
         <Newproduct />

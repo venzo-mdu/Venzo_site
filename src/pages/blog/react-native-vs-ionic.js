@@ -13,6 +13,9 @@ function ReactnativeandionicPage() {
   },[])
   return (
     <div>
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/blog/react-native-vs-ionic/" />
+          </head>
         <Header flag='header2'/>
         <SEO title={'React Native vs Ionic: Which Framework is best and Why?'} description = {'Discover the pros and cons of React Native and Ionic, the two leading cross-platform app development frameworks, with Venzo Technologies expert analysis.'} />
         <Reactnativeandionic/>

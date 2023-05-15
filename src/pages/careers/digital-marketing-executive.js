@@ -9,6 +9,9 @@ import {SEO} from "../../component/seo"
 function Digitalmarketingexecutive() {
   return (
     <div className='blockchainbody'>
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/digital-marketing-executive/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - Digital Marketing Executive'} description ={'Minimum 2 to 3 years real-timeexperiencein an IT company '} />
     <JobDetails/>

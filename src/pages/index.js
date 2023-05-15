@@ -16,9 +16,13 @@ const IndexPage = () => {
     })
   },[])
   return (
+    
    
     
     <div>
+      <head>
+      <link rel="canonical" href="https://www.venzotechnologies.com/" />
+      </head>
        
       <SEO title={'Custom Software Development Company - Venzo Technologies'} description={'Venzo offers integrated software solutions for startups, SMEs, and large enterprises. With expertise in Mobile App, Website Development, Cloud, etc.'}/>
       <ImageCarousel />

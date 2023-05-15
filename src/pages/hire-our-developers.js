@@ -17,6 +17,9 @@ function Staffaugmentation() {
   },[])
   return (
     <div className='stafBody'>
+       <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/hire-our-developers/" />
+          </head>
       <Header flag='header2' />
       <SEO title={'IT Staff Augmentation Company- Technical Staffing Agency'} description={'Venzo is a leading IT staff augmentation company that provides skilled and experienced IT professionals for short-term and long-term assignments.'}/>
       <VenzoSA />

@@ -14,7 +14,9 @@ const CareersPage=()=>{
   },[])
   return (
     <div className='blockchainbody'>
-
+          <head>
+          <link rel="canonical" href="https://www.venzotechnologies.com/careers/react-developers/" />
+          </head>
     <Header flag='header2'/>
     <SEO title={'Job Openings - React Developers'} description ={'At Least 4 years of IT experience in Javascript / UI frameworks.'}/>
     <JobDetails/>
