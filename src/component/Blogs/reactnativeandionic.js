@@ -1,13 +1,12 @@
 import React from 'react'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
+
 
 import iconic1 from '../../images/blogsPic/iconic1.webp'
-import {Link,navigate} from 'gatsby'
+import {Link} from 'gatsby'
 
 import '../Blogs/reactnativeandiconic.css'
 import { Table } from 'react-bootstrap'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function reactnativeandionic() {
     return (

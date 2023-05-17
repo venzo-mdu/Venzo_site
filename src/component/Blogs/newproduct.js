@@ -1,12 +1,10 @@
-import React,{useState} from 'react'
+import React from 'react'
 // import './product.css'
 import blog0 from '../../images/blogsPic/blog0.png'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
-import {Link,navigate} from 'gatsby'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import blogsList from '../../content/BlogsContent.json'
-import { height } from '@mui/system';
+
+import {Link} from 'gatsby'
+import { TwitterTimelineEmbed} from 'react-twitter-embed';
+
 import {slideData1} from './slideData1'
 function Newproduct() {
 

@@ -1,10 +1,9 @@
-import React,{useState} from 'react'
-import {Link,navigate} from 'gatsby'
+import React from 'react'
+import {Link} from 'gatsby'
 
 import blog3 from '../../images/blogsPic/blog3.png'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import {slideData1} from './slideData1'
 
 function Topmobile() {

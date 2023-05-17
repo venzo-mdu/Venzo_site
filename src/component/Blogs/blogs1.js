@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import { React,  useState } from 'react'
 import Header from '../header/header'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
 import { Link } from 'gatsby'
 import './blogs.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
 import SearchIcon from '../../images/blogsPic/blogsearchicon.svg'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function Blogs1() {
     const data =typeof window !== 'undefined'? window.history.state:''
@@ -112,7 +110,7 @@ function Blogs1() {
                             slideData1.map((blogRoutes,index)=>{
                                 return(
                                     <>
-                                    <p className='blogText' key={index}  onClick={(e) => setSearch(blogRoutes.stateValue)}>{blogRoutes.value}</p><hr />
+                                    <p className='blogText' key={index}  onClick={() => setSearch(blogRoutes.stateValue)}>{blogRoutes.value}</p><hr />
                                     </>
                                 )
                             })

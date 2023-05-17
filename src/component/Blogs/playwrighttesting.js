@@ -2,9 +2,9 @@ import React from 'react'
 import './reactjsuse.css'
 import './playwrighttesting.css'
 import { Table } from 'react-bootstrap'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { slideData1 } from './slideData1'
-import { Link, navigate } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Playwright1 from '../../images/blogsPic/playwright1.png'
 import Playwright2 from '../../images/blogsPic/playwright2.png'
@@ -21,7 +21,7 @@ function playwrighttesting() {
           <p className='AngularDate'> Automation Testing | April 27, 2022  | Ramya</p>
           {/* <p className='AnguarPrd'>Automation Testing</p> */}
         </div>
-        <img className='selenium1' src={Playwright1} alt='image'></img>
+        <img className='selenium1' src={Playwright1} alt='playwright'></img>
         <p className='seleniumTtiel'>What a playwright is ?</p>
         <p className='seleniumCont'>
           Playwright is a tool used for testing web applications. It helps developers automate tests so that they can quickly and easily check if their web application is working properly.
@@ -70,7 +70,7 @@ function playwrighttesting() {
           </ul></p>
 
         <p className='seleniumTtiel'>Playwright Architecture :</p>
-        <img className='selenium1' src={Playwright2} alt='images'></img>
+        <img className='selenium1' src={Playwright2} alt='playwright'></img>
         <p className='seleniumCont'><span style={{ fontSize: '15px', fontFamily: 'poppins', fontWeight: 'bold' }}>CLIENT : </span>Playwright operates on a client-server model, with the client being your code written in a programming language such as JavaScript, Java, Python, C#, and so on.  </p>
         <p className='seleniumCont'><span style={{ fontSize: '15px', fontFamily: 'poppins', fontWeight: 'bold' }}>SERVER : </span>The Playwright server interacts with the client and the various web browser engines. To communicate with different browsers, Playwright employs a variety of protocols. It communicates with Chromium using the Chrome DevTools Protocol (CDP), and it has its own protocols for Firefox and WebKit that are similar to CDP.  </p>
         <p className='seleniumCont'><span style={{ fontSize: '15px', fontFamily: 'poppins', fontWeight: 'bold' }}>Websocket Protocol : </span>To connect the client and the server, Playwright employs the WebSocket protocol. A process is used to establish the WebSocket connection. </p>
@@ -81,7 +81,7 @@ function playwrighttesting() {
         <p className='seleniumCont'>This is different from other testing frameworks like Selenium, which uses the HTTP protocol to send each command to the server separately. In Selenium, the connection between the server and client is terminated after each request and then re-established for the next request, which can cause delays and lead to test failures.  </p>
         <p className='seleniumCont'>Because Playwright uses a single connection for all requests, it is faster and less prone to test failures or flakiness. Plus, the commands are executed quickly, which makes Playwright a better choice for cross-browser testing.  </p>
 
-        <img className='selenium1' src={Playwright3} alt='images'></img>
+        <img className='selenium1' src={Playwright3} alt='playwright'></img>
         <p className='seleniumTtiel'>Playwright VS Selenium : </p>
         <Table className='iconicTable'>
                     <tr>

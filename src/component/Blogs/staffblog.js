@@ -1,10 +1,9 @@
 import React from 'react'
 import staffblogimg from '../../images/blogsPic/staffblogimg.webp'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
+
 import './staffblog.css'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import {Link,navigate} from 'gatsby'
+import { TwitterTimelineEmbed} from 'react-twitter-embed';
+import {Link} from 'gatsby'
 import {slideData1} from './slideData1'
 
 function staffblog() {

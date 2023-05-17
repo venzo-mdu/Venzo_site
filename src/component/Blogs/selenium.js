@@ -1,6 +1,5 @@
 import React from 'react'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
+
 import selenium1 from '../../images/blogsPic/selenium1.webp'
 import selenium2 from '../../images/blogsPic/selenium2.webp'
 import selenium3 from '../../images/blogsPic/selenium3.webp'
@@ -8,8 +7,8 @@ import selenium4 from '../../images/blogsPic/selenium4.webp'
 import selenium5 from '../../images/blogsPic/selenium5.webp'
 import selenium6 from '../../images/blogsPic/selenium6.webp'
 import selenium7 from '../../images/blogsPic/selenium7.webp'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import {Link,navigate} from 'gatsby'
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import {Link} from 'gatsby'
 import {slideData1} from './slideData1'
 
 import '../Blogs/selenium.css'

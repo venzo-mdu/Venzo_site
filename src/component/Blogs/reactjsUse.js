@@ -1,10 +1,9 @@
 import React from 'react'
 import './reactjsuse.css'
 import reactjs1 from '../../images/blogsPic/reactjs1.webp'
-import tweet1 from '../../images/blogsPic/tweet1.png'
-import tweet2 from '../../images/blogsPic/tweet2.png'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-import {Link,navigate} from 'gatsby'
+
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import {Link} from 'gatsby'
 import {slideData1} from './slideData1'
 
 function reactjsUse() {

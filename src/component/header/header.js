@@ -42,17 +42,12 @@ function Header(props) {
   return (
 
     <header>
-      <div id={props.flag == 'header2' ? 'headerSection' : ' '} className='header'>
+      <div id={props.flag === 'header2' ? 'headerSection' : ' '} className='header'>
         <div className='logo'>
           <a href='/'><img className='venzohome' src={navbarLogo} alt='logoIcon'></img></a>
         </div>
         <div className='links'>
-          {/* <ul>
-               <li>Home</li>
-               <li>Product Development</li>
-               <li>BlockChain Development</li>
-               <li>Data Engineering</li>
-           </ul> */}
+       
           <ul>
             {
               HeaderData.map((item,index) => {
