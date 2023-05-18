@@ -138,8 +138,10 @@ function playwrighttesting() {
                     </tr>
                 </Table>
 
-        <p className='seleniumTtiel'> Ready to streamline your testing process? Let us show you the power of automation. <span style={{ fontSize: '16px', fontFamily: 'poppins', fontWeight: '200' }} className='seleinumList'>Contact us now for</span>  </p>
-        <span style={{ color: 'blue', fontSize: '18px', borderBottom: '2px solid blue' }}><Link to='/quality-engineering-assurance/'>Quality Assurance and Testing Services</Link> </span>
+        <div className='playwrightBg1'>
+        <span className='seleReadmore'>Ready to streamline your testing process? Let us show you the power of automation , Contact us now for :   &nbsp; </span><p className='seleBlog'><Link to='/quality-engineering-assurance/'>Quality Assurance and Testing Services</Link></p>
+        </div>
+
         <p className='seleniumTtiel'>What is the Playwright Test Recorder ?  </p>
 
         <p className='seleniumCont'>
@@ -154,6 +156,7 @@ function playwrighttesting() {
         <p className='seleniumTtiel'>Conclusion :  </p>
         <p className='seleniumCont'>Playwright automates web browsers on various computers for tasks such as website testing and screen capturing. It improves software development with its versatility and ease of use. The development team listens to users' feedback to continuously enhance the tool's capabilities. </p>
       </div>
+      
       <div className='blogsRight blogsRight1'>
         <div className='slide1'>
           {

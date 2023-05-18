@@ -6,6 +6,14 @@
   padding: 3% 2%;
   display: flex;
 }
+.playwrightBg1{
+    background: #ecf3ff;
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 3% 2%;
+    display: flex;
+}
 .seleBlog{
     font-family: Poppins;
     font-size: 15px;
@@ -36,7 +44,14 @@
         font-size: 16px;
         
     }
-   
+   .playwrightBg1{
+    background: #ecf3ff;
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 2% 2%;
+    display: block;
+}
 }
 @media screen  and (max-width:1024px) and (min-width:768px) {
     .playwrightBg{
@@ -50,6 +65,14 @@
       .seleBlog{
         font-size: 16px;
         
+    }
+    .playwrightBg1{
+        background: #ecf3ff;
+        height: 100px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 2% 2%;
+        display: block;
     }
    
 }
@@ -79,6 +102,14 @@
         letter-spacing: 0em;
         text-align: left;
     }
+    .playwrightBg1{
+        background: #ecf3ff;
+        height: 100px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 2% 2%;
+        display: block;
+    }
    
 }
 @media screen and (max-width:425px) and (min-width:375px)  {
@@ -104,8 +135,16 @@
         font-family: Poppins;
         font-size: 12px;
         font-weight: 400;
-        line-height: 32px;
+        line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
+    }
+    .playwrightBg1{
+        background: #ecf3ff;
+        height: 100px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 2% 2%;
+        display: block;
     }
 }
