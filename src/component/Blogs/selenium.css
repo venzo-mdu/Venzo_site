@@ -134,6 +134,10 @@
         padding-top: 12%;
         padding-bottom: 8%;
     }
+    .seleniumleft{
+        width: 85%;
+        margin-left: 7%;
+    }
     .seleTitle {
         font-size: 30px;
         line-height: 142.5%;
@@ -204,6 +208,10 @@
         display: block;
         padding-top: 22%;
         padding-bottom: 8%;
+    }
+    .seleniumleft{
+        width: 90%;
+        margin-left: 5%;
     }
     .seleTitle {
         font-size: 17px;

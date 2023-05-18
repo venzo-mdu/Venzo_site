@@ -1,4 +1,4 @@
-import { React,  useState } from 'react'
+import React,{ useState } from 'react'
 import Header from '../header/header'
 import blogsList from '../../content/BlogsContent.json'
 import { Card } from 'react-bootstrap'

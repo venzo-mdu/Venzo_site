@@ -37,7 +37,9 @@ function playwrighttesting() {
             <li className='seleinumList'>Playwright integrates well with other tools, such as Docker, GitHub Actions, Azure Pipelines, CircleCI, Jenkins, GitLab, and JavaScript test runners like Jest/Jasmine, AVA, and Mocha, making it easy to incorporate Playwright into your existing development workflow. </li>
           </ul>
         </p>
-        <p className='seleTitle'>Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing <span style={{ color: 'blue', fontSize: '22px', borderBottom: '2px solid blue' }}><Link to='/blog/why-selenium-is-most-widely-used-test-automation-tool/'>Read More</Link> </span></p>
+        <div className='playwrightBg'>
+        <span className='seleReadmore'>Read More :  &nbsp; </span><p className='seleBlog'><Link to='/blog/why-selenium-is-most-widely-used-test-automation-tool/'>Selenium the Most Popular Test Automation Tool; A Superlative Guide To Selenium Testing </Link></p>
+        </div>
 
         <p className='seleniumTtiel'>In summary, Playwright is a powerful open-source tool for browser automation that offers the following capabilities: </p>
         <p className='seleniumCont'>

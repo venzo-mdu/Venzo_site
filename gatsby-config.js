@@ -28,7 +28,35 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-open-graph-images`,
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        RewriteBase: '/custom/',
+        https: true,
+        www: true,
+        SymLinksIfOwnerMatch: true,
+        host: 'www.venzotechnologies.com',
+        ErrorDocument: `
+          ErrorDocument 401 /error_pages/401.html
+          ErrorDocument 404 /error_pages/404.html
+          ErrorDocument 500 /error_pages/500.html
+        `,
+        redirect: [
+          'RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]',
+          {
+            from: 'https://venzotechnologies.com',
+            to: 'https://www.venzotechnologies.com',
+          },
+        ],
+        custom: `
+            # This is a custom rule!
+            # This is a another custom rule!
+        `,
+      },
+    },
+  
       {
         resolve: `gatsby-plugin-canonical-urls`,
         options: {
