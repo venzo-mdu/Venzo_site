@@ -27,9 +27,9 @@ module.exports = {
         icon: `src/images/favicon.svg`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-open-graph-images`,
+    { resolve: `gatsby-plugin-offline` },
+    { resolve: `gatsby-plugin-react-helmet` },
+    { resolve: 'gatsby-plugin-open-graph-images' },
     {
       resolve: 'gatsby-plugin-htaccess',
       options: {
@@ -56,13 +56,13 @@ module.exports = {
         `,
       },
     },
-  
-      {
-        resolve: `gatsby-plugin-canonical-urls`,
-        options: {
-          siteUrl: `https://www.venzotechnologies.com`,
-        },
+
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.venzotechnologies.com`,
       },
+    },
   ],
 };
 

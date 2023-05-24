@@ -350,11 +350,8 @@ AddDefaultCharset utf-8
 
     RewriteEngine On
 
-    RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]
-
-    RewriteCond %{HTTP_HOST} ^(www\.)?https://venzotechnologies\.com [NC]
-    RewriteRule ^(.*)$ %{ENV:PROTO}://https://www\.venzotechnologies.com/$1 [L,R=301,NC]
-        
+     RewriteCond %{HTTP_HOST} !^www. [NC]
+ RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 
 </IfModule>
 

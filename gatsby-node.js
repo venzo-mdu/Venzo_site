@@ -3,7 +3,7 @@
   
 //     const openGraphImage = createOpenGraphImage(createPage, {
 //       path: "/images/venzoog.png",
-//       component: path.resolve(`src/venzoog.js`),
+//       component: path.resolve(`src/pages/index.js`),
 //       size: {
 //         width: 400,
 //         height: 50,
