@@ -50,7 +50,7 @@ function devCarousel() {
                 </a>
 
                 
-                <a href='https://www.farmerica.in/new/'  target="_blank">
+                <a href='https://www.farmerica.in/'  target="_blank">
                     <div className='webCard9 '>
                     </div>
                 </a>

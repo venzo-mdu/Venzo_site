@@ -4,6 +4,6 @@ const toHREnquiryMail = 'hrteam@venzotechnologies.com';
 
 
 
-export default toMail
+export  {toMail}
 export {toHREnquiryMail}
 export {toEnquiryMail}
