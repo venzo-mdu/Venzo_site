@@ -13,7 +13,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 11%;
-    grid-column-gap: 3%
+    grid-column-gap: 3%;
+    margin: 0 0 0 24%;
 }
 .posCard .cards{
   padding: 10% 10%;
@@ -64,7 +65,7 @@
         grid-template-columns: repeat(3,1fr);
         grid-row-gap: 11%;
         grid-column-gap: 3%;
-        margin: 0 0 0 4%;
+        margin: 0 0 0 30%;
     }
     
 }
@@ -75,7 +76,7 @@
    
 .positions .posCard{
     padding: 2% 2%;
-    margin: 0 0 0 1%;
+    margin: 0 0 0 28%;
 
 }
 .posCard .cards{
@@ -103,7 +104,7 @@
         padding: 2% 4%;
     }
     .posCard .cards{
-        width:220px;
+        width:280px;
         height: 230px;
     }
     .posCard .cards #cardText1{
@@ -114,6 +115,7 @@
 .positions .posCard{
     display: block;
     padding: 2% 12%;
+    margin: 0 0 0 0;
 }
 .posCard .cards{
     margin: 0 0 10% 0;
@@ -129,6 +131,8 @@
 @media screen and (max-width:376px){
     .positions .posCard{
         padding: 2% 8%;
+        margin: 0 0 0 0;
+
     }
     .posCard .cards #viewJob {
         font-family: poppins;

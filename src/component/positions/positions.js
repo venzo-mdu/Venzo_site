@@ -13,22 +13,22 @@ function positions() {
         <div className='positions'>
           <p id="positionsText">Open Positions</p>
           <div className='posCard'>
-            <div className='cards'>
+            {/* <div className='cards'>
               <p id="cardTitle">Java Architect</p>
               <p id="cardText1">BPM / JAVA ARCHITECT</p>
               <br></br>
               <p id='exprYear'>8 - 10 years experience</p>
 
               <a href='/careers/java-architect'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
-            </div>
-            <div className='cards'>
+            </div> */}
+            {/* <div className='cards'>
               <p id="cardTitle">Developers</p>
               <p id="cardText1">SR. JAVA DEVELOPERS
               </p>
               <br></br>
               <p id='exprYear'>6 Years Experience</p>
               <a href='/careers/sr-javadevelopers'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
-            </div>
+            </div> */}
             <div className='cards'>
               <p id="cardTitle">Project & Account Manager</p>
               <p id="cardText1">PROJECT & ACCOUNT MANAGER

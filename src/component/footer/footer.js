@@ -26,9 +26,9 @@ function Footer() {
                 <div className='headOffice'>
                   <h5>Chennai</h5>
                   <hr className='titleHr'></hr>
-                  8th Floor, Purva Primus,<br></br>
-                  No.236, Old Mahabalipuram Rd, &nbsp;<br id='addressBr'></br>
-                  Thoraipakkam – 600097.
+                  Spero Seirra, 1st Floor, Awfis,<br></br>
+                  Plot No 21, Bethel Nagar Street, Industrial Estate, &nbsp;<br id='addressBr'></br>
+                  Perungudi , Chennai – 600096.
 
                 </div>
                 <div className='branchOffice'>
