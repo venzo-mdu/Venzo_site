@@ -18,7 +18,7 @@ import youtube from '../../images/contactUs/blackicon4.png'
 import axios from 'axios'
 import { useState } from 'react'
 import Popup from '../careersPage2/popup/popup'
-import toMail from '../../config/config'
+import {toMail} from '../../config/config'
 import {toEnquiryMail} from '../../config/config'
 
 import success from '../../images/successfully.png'
@@ -91,7 +91,7 @@ function ContactUs() {
                     <form onSubmit={sendEmail}>
                         <p className='formTitle'>Let’s catch the initial spark!</p>
                         <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-                        <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+                        <input className='Femail' name='email' type='email' value={emailInput["email"]} onChange={handleChange}  placeholder='Email*' required />
                         <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
                         <textarea className='Fmessage1' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' required></textarea>
                         <button type='submit' className='Fbutton2'>Submit</button>
@@ -99,6 +99,7 @@ function ContactUs() {
 
                 </div>
             </div>
+
             <div className='mediaIocn'>
                 <p className='icontitle'>Connect with us</p>
                 <div className='mediaIcons'>

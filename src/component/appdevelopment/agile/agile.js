@@ -30,7 +30,7 @@ function Agile() {
     const body = {
       to: toEnquiryMail,
       message: " Name:" + " " + emailInput["name"] + " " + " <br> Email:" + " " + emailInput["email"] + " " + " <br> Mobile No:" + " " + emailInput["mobile"] + " " + " <br> Message:" + " " + emailInput["message"],
-      subject: "app-development-company"
+      subject: "Venzo Enquiry From:Let's Talk form"
     }
     const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
     console.log(emailResponse)
@@ -70,7 +70,7 @@ function Agile() {
       <form onSubmit={sendEmail}>
             <p className='formTitle1'>Let’s catch the initial spark!</p>
             <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+            <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="email" placeholder='Email*' required />
             <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
             <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' required></textarea>
             <button type='submit' className='Fbutton'>Submit</button>

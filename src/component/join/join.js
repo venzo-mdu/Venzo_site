@@ -63,7 +63,7 @@ function Join() {
         <form onSubmit={sendEmail}>
           <p id='joinourteamText'>Join our team</p>
           <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required/>
-          <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
+          <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="email" placeholder='Email*' required />
           <input className='Fphone' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required/>
           <input className='file' type="file" placeholder='choose file' required/>
           <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' required></textarea>
