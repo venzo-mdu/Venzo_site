@@ -268,7 +268,7 @@ color: #C4C4C4;
 .applyJob .descripition {
     background-color: #F8F8F8;
     border-radius: 12px;
-    height:700px;
+    height:inherit;
     width: 100%;
     margin: 3% 0 0 0;
     padding: 2% 2%;
@@ -384,7 +384,7 @@ letter-spacing: -0.03em;
 color: #C4C4C4;
 }
 .applyJob .descripition {
-    height: 800px;
+    height: inherit;
     width: 100%;
     margin: 3% 0 0 0;
     padding: 2% 2%;
@@ -398,7 +398,7 @@ color: #C4C4C4;
 
 @media screen and (max-width:430px) {
 .applyJob .descripition{
-    height:1000px !important;
+    height:inherit !important;
 }
     .applyNow{
         display: none;
