@@ -82,7 +82,7 @@ function ContactUs() {
                     </div>
                     <div className='lin3'>
                         <img className='ph_icon1' src={location} alt='location_icon' />
-                        <p className='address1'><u>CHENNAI</u><br /> <span className='addrs'>Spero Seirra, 1st Floor, Awfis,<br />Plot No 21, Bethel Nagar Street, Industrial Estate,<br />Perungudi , Chennai – 600096,Tamil Nadu, India.</span></p>
+                        <p className='address1'><u>CHENNAI</u><br /> <span className='addrs'>Spero Sierra, 1st Floor, Awfis,<br />Plot No 21, Bethel Nagar Street, Industrial Estate,<br />Perungudi , Chennai – 600096,Tamil Nadu, India.</span></p>
                         <br></br>
                         <p className='address1'><u>MADURAI</u><br /> <span className='addrs'>Plot No: 16,5/244,<br />Maruthupandiar 1st Cross street,<br />JJ Nagar, Madurai – 625020,Tamil Nadu, India.</span></p>
                     </div>

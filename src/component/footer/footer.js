@@ -26,7 +26,7 @@ function Footer() {
                 <div className='headOffice'>
                   <h5>Chennai</h5>
                   <hr className='titleHr'></hr>
-                  Spero Seirra, 1st Floor, Awfis,<br></br>
+                  Spero Sierra, 1st Floor, Awfis,<br></br>
                   Plot No 21, Bethel Nagar Street, Industrial Estate, &nbsp;<br id='addressBr'></br>
                   Perungudi , Chennai – 600096.
 
