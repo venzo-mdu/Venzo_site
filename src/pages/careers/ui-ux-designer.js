@@ -18,7 +18,7 @@ const CareersPage=()=>{
           <link rel="canonical" href="https://www.venzotechnologies.com/careers/sr-javadevelopers/" />
           </head>
     <Header flag='header2'/>
-    <SEO title={'Job Openings - Jr. Java Developers'} description = {'At least 6 years of IT experience in Java / Spring Boot technologies.'}/>
+    <SEO title={'Job Openings - UI UX Designer'} description = {' 6 Months to 1 year of experience in Designing.'}/>
     <JobDetails/>
     <ApplyJob/>
     <Discussion/>
