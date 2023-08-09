@@ -194,6 +194,7 @@ color: #C4C4C4;
     border-radius: 10px 10px 10px 10px;
     font-size: 18px;
     margin-left: 0% !important;
+    margin-top: 5% !important;
     background: #0A1020;
     color: white;
     font-family: Poppins;
@@ -474,6 +475,9 @@ color: #000000;
     height: 100px;
 
 
+}
+.applyNowButton1{
+    height: 50px !important;
 }
 .subSucss{
     font-family: 'Poppins';
