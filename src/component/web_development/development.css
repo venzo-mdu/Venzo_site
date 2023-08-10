@@ -327,7 +327,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 62px;
+    font-size: 45px;
     line-height: 120%;
     letter-spacing: -0.03em;
     color: #000000;
@@ -336,9 +336,9 @@ body {
 
 .talk12 {
     margin-left: 42%;
-    height: 67px;
+    height: 50px;
     margin-top: 3%;
-    width: 11%;
+    width:200px;
     color: white;
     background-color: #000000;
     border-radius: 7px 7px 7px 7px;
