@@ -164,7 +164,12 @@
     height: 200px;
 }
 .socialMediaIcon img{
-    margin:0 0 50% 0;
+    margin:0 0 20% 0;
+}
+#twittericon{
+    width: 25px;
+    height: 20px;
+    margin: -1% -13%;
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
 
