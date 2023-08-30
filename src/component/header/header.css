@@ -33,7 +33,7 @@ a {
 
 
 .header .links{
-    width: 90%;
+    width: 80%;
 }
 
 .header .links ul {
@@ -70,7 +70,7 @@ a {
         width: 24px;
         position: absolute;
         top: 32px;
-        right: 100px;
+        right: 50px;
         cursor: pointer;
     }
    
@@ -84,11 +84,14 @@ a {
 
     }
     .header .links ul {
-        margin: 0% 20%;
+        margin: 0% 13%;
         width: 90%;
     
     }
+    .header .links  {
+        width: 100%;
     
+    }
     .venzohome{
         margin:-7% 0 0 0;
     }
@@ -119,12 +122,13 @@ a {
     }
 
     .header .links ul {
-        margin: 0% 0 0 13%;
+        margin: 0% 0 0 3%;
+        width: 100%;
     }
-
+   
     .header .links li {
         font-size: 14px;
-        margin: 0% 3%;
+        margin: 0% 2.8%;
     }
     .header .toggleIcon {
         display: block;

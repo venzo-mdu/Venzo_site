@@ -16,6 +16,10 @@
         "routeLink":"/quality-engineering-assurance"
     },
     {
+        "navLink":"Careers",
+        "routeLink":"/careers"
+    },
+    {
         "navLink":"Blog",
         "routeLink":"/blog"
     }
