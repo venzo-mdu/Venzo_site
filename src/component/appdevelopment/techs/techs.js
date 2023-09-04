@@ -26,7 +26,7 @@ function techs() {
         <div className='techsweUse'>
           <div className='techsText'>
             <p id='techsTitle'><span id='gradienttechsText'>Technologies</span><br id='brinTech'></br>we use</p>
-            <p id='techsrightText'>It's challenging to stay concurrent with all the new technologies appearing on various fronts. However, we ensure that our team employs state-of-the-art technologies to cater for your needs.  </p>
+            <p id='techsrightText'>It's challenging to keep up with all the new technologies appearing on various fronts.However, we ensure that our team employs state-of-the-art technologies to cater to your needs.  </p>
 
 
           </div>

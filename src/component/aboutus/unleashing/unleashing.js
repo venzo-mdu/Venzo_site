@@ -28,7 +28,7 @@ function Unleashing() {
     setActive(va)
     if (va == 'Values') {
       container.innerHTML = "<font size=4 color=black>\
-          We offer solutions for Startups/SME/Entrepreneurs\
+          We offer solutions for Startups , SME 's , and Entrepreneurs.\
           </font>\
           <br>\
           <br>\
@@ -64,7 +64,7 @@ function Unleashing() {
   }
   return (
     <div className='unleashing'>
-      <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'> transformative power</span> in Technology platforms</p>
+      <p id='unleashingTitle'>Venzo is <span id='unleashingGradient'> unleashing the </span> <span className='unleashingGradient1'>  transformative power </span> of technology platforms</p>
       <div className='powerOfvenzo'>
         <div className='powerleftImage'>
           <img className='powerImage' alt='venzopower' src={powerImage}></img>
@@ -180,12 +180,12 @@ function Unleashing() {
         <div>
           <ul className='leftCommit1'>
             <li className={active === 'Values' ? 'cardtitle02' : 'cardtitle1'} onClick={() => dated('Values')}>Values</li>
-            <li className={active === 'Diversity' ? 'cardtitle02' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity & Equity</li>
-            <li className={active === 'Society' ? 'cardtitle02' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
+            <li className={active === 'Diversity and Equity' ? 'cardtitle02' : 'cardtitle2'} onClick={() => dated('Diversity')}>Diversity and Equity</li>
+            <li className={active === 'Society Impact' ? 'cardtitle02' : 'cardtitle3'} onClick={() => dated('Society')}>Society Impact</li>
           </ul>
         </div>
         <div className='cardAboutUs'>
-          <p> We offer solutions for Startups/SME/Entrepreneurs</p>
+          <p> We offer solutions for Startups , SME 's , and Entrepreneurs.</p>
           <p className='subTitle'>Venzo values honesty, integrity, and respect for all individuals. We believe in creating a positive, inclusive work environment and fostering collaboration and innovation. </p>
         </div>
       </div>
@@ -199,7 +199,7 @@ function Unleashing() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Diversity & Equity</Accordion.Header>
+            <Accordion.Header>Diversity and Equity</Accordion.Header>
             <Accordion.Body className=' cardbox'>
               {/* <p className='cardtitle'>Diversity & Equity</p> */}
               <p className='carddesc'>Venzo values diversity and equity in all aspects of our business. We believe that creating a diverse and inclusive environment fosters innovation and leads to better outcomes for our employees, customers, and community. </p>

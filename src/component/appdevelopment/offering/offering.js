@@ -53,7 +53,7 @@ function Offering() {
         </div>
         <div className='offerCards1'>
           <p id='offerCardsTitle'>Back-End Application Development Services</p>
-          <p id='offerCardsText'>We provide backend web development services that include but are not limited to, creating scalable, complicated applications and IoT infrastructure. Our team creates scalable backend solutions that automatically expand to meet your business needs.</p>
+          <p id='offerCardsText'>We provide backend web development services that include, but are not limited to, creating scalable, complicated applications and IoT infrastructure.Our team creates scalable backend solutions that automatically expand to meet your business needs.</p>
           <button className='offerButton border-gradient-purple' onClick={() => setButtonPopup(true)} >Get Quote</button>
         </div>
         <div className='offerCards1' id='offerCardsRes'>

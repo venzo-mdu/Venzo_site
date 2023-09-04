@@ -11,7 +11,7 @@ function customized() {
       <img className='customizedImages' src={CustomBg} alt='customizedbg'></img>
       <img className='customizedImagesRes' src={CustomBgRes} alt='customizedbgRes'></img>
       <div className='custmoizedText'>
-        <p id='customizeText'>We build most Innovative & <span id='hiringGradient'><br></br>User-friendly Apps</span></p>
+        <p id='customizeText'>We build the most Innovative and <span id='hiringGradient'><br></br>User-friendly Apps</span></p>
       </div>
     </div>
   )

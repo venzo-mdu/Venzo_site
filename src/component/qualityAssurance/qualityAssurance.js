@@ -210,7 +210,7 @@ function QualityAssurance() {
                 </div>
                 <div className='assurance_section3'>
                     <div className='assurance_section3_s1'>
-                        <p className='section3_s1Title'>Our Approach to<br />an End-to-end Quality Assurance Process</p>
+                        <p className='section3_s1Title'>Our Approach to<br />an End to End Quality Assurance Process</p>
                         <div>
                             <img className="s1icon" src={group1} alt='icon' />
                             <h2 className="s1heading">Performance Evaluation</h2>
@@ -232,20 +232,20 @@ function QualityAssurance() {
                     <div className='assurance_section3_s2'>
                         <div>
                             <img className="s2icon" src={group4} alt='icon' />
-                            <h2 className="s2heading">Performance Evaluation</h2>
-                            <p className='s2desc'>We evaluate your application’s performance in various environments, as well as its scalability and stability under different user loads.</p>
+                            <h2 className="s2heading">Penetration Testing</h2>
+                            <p className='s2desc'>We detect and restore threats and vulnerabilities in your system to eliminate all potential security risks.</p>
                         </div>
                         <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s2icon" src={group5} alt='icon' />
-                            <h2 className="s2heading">Quality and UX audit</h2>
-                            <p className='s2desc'>During this stage, our experts will analyze your product’s user interface and come up with ideas for how to make your user experience smoother and more pleasant.</p>
+                            <h2 className="s2heading">Software Validation </h2>
+                            <p className='s2desc'>Validation testing is performed at the end of the development process to ensure that the end product meets all requirements and performs all required functions.</p>
                         </div>
                         <hr className='quality_cardTitleHr' />
                         <div>
                             <img className="s2icon" src={group6} alt='icon' />
-                            <h2 className="s2heading">Integration Testing</h2>
-                            <p className='s2desc'>This stage we conducted to evaluate the compliance of a system or component with specified functional requirements.</p>
+                            <h2 className="s2heading">Software Maintenance</h2>
+                            <p className='s2desc'>When your product is deployed, you must maintain its high performance. During the software maintenance stage, we test all changes to your product to ensure its quality and stability.</p>
                         </div>
                     </div>
                 </div>

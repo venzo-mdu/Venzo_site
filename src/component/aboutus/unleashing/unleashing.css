@@ -232,6 +232,9 @@
 .cardtitle02 {
     color: #000000;
 }
+.cardtitle1,.cardtitle2,.cardtitle3{
+    cursor: pointer;
+}
 
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .powerOfvenzo .powerrightImage {

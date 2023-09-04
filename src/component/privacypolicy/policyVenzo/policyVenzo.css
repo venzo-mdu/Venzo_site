@@ -103,7 +103,7 @@
     letter-spacing: -0.03em;
     text-align: justified;
     color: #606060;
-    width:27%;
+    width:30%;
 
 }
 @media screen and (max-width:1705px) and (min-width:1024px){
@@ -167,7 +167,7 @@
     }
     .policy #attention {
         margin-left: 2%;
-        width: 253px;
+        width: 35%;
     }
     .policy #personalTitle1 {
         font-family: Poppins;
@@ -193,7 +193,7 @@
     width: 900px;
    }
 .policy #attention{
-    width:35%
+    width:45%
 }
 .policy #firstPara {
     text-align: justify;
@@ -219,7 +219,7 @@
     width: 735px;
    }
    .policy #attention{
-    width:40%
+    width:55%
 }
 .policy #firstPara {
     text-align: justify;

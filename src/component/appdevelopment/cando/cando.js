@@ -25,7 +25,7 @@ function cando() {
   return (
     <div className='canDo'>
       <p id='canDotitle'>Our spectrum of services </p>
-      <p id='canDotext'>At Venzo, we are committed to delivering transformative results incorporating the agile app development methodology. With meticulous planning, we develop best-in-class apps that simplify the business process with end-to-end support and accelerate your growth.</p>
+      <p id='canDotext'>At Venzo, we are committed to delivering transformative results by incorporating the agile app development methodology.With meticulous planning, we develop best-in-class apps that simplify the business process with end-to-end support and accelerate your growth.</p>
 
 
       <div className='candoCards'>

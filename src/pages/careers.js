@@ -27,7 +27,7 @@ const Careers = () => {
             <Colleagues />
             <Life />
             <Perks />
-            <Positions />
+            {/* <Positions /> */}
             <Join />
             <Frequently />
             <Pathway />

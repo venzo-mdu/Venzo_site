@@ -22,9 +22,9 @@ function privacyVenzo() {
           <div className='mediaIcons'>
             <a href='https://www.facebook.com/VenzoTechnologies/' target={"_blank"} className='fbicons1'> <p ></p></a>
             <a href='https://twitter.com/Venzo_Tech/' target={"_blank"} className='twitericons1' > <p ></p></a>
-            <a href='https://www.linkedin.com/company/venzo-technologies/' target={"_blank"}  className='linkedicons1'> <p ></p></a>
+            <a href='https://www.linkedin.com/company/venzo-technologies/' target={"_blank"} className='linkedicons1'> <p ></p></a>
             <a href='https://www.instagram.com/venzo_tech/' target={"_blank"} className='instaicons1'> <p ></p></a>
-            <a href='https://www.youtube.com/channel/UCebtP01QSLIIRNrye8Zl4HQ'target={"_blank"} className='youtubeicons1'> <p></p></a>
+            <a href='https://www.youtube.com/channel/UCebtP01QSLIIRNrye8Zl4HQ' target={"_blank"} className='youtubeicons1'> <p></p></a>
           </div>
         </div>
       </div>
