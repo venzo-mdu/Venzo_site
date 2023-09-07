@@ -46,13 +46,21 @@ function positions() {
               <a href='/careers/web-developer'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div> */}
 
-            <div className='cards'>
+            {/* <div className='cards'>
               <p id="cardTitle">UI UX Designer</p>
               <p id="cardText1">UI UX DESIGNER
               </p>
               <br></br>
               <p id='exprYear'>6 Months - 1  Year Experience</p>
               <a href='/careers/ui-ux-designer'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
+            </div> */}
+
+            <div className='cards'>
+              <p id="cardTitle">Marketing & Communication Strategist</p>
+              <p id="cardText1">MARKETING & COMMUNICATION STRATEGIST</p>
+              <br></br>
+              <p id='exprYear'>1 - 3  Years Experience</p>
+              <a href='/careers/marketing-communication-strategist'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div>
             {/* <div className='cards'>
               <p id="cardTitle">Digital Marketing Executive</p>

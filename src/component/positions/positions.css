@@ -17,7 +17,7 @@
     margin: 0 0 0 24%;
 }
 .posCard .cards{
-  padding: 10% 10%;
+  padding: 10% 8%;
   width:316px;
   height: 256px;
   border-radius: 8px;
@@ -41,6 +41,7 @@
     font-size: 18px;
     line-height: 21.14px;
     color: #0A1020;
+    width: 265px;
 }
 .posCard .cards #viewJob{
     font-family: poppins;
