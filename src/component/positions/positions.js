@@ -37,14 +37,15 @@ function positions() {
               <p id='exprYear'>3- 4  Years Experience</p>
               <a href='/careers/project-account-manager'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
             </div> */}
-            {/* <div className='cards'>
-              <p id="cardTitle">Web Developer</p>
-              <p id="cardText1">WEB DEVELOPER
+            <div className='cards'>
+              <p id="cardTitle">Web Developer - Wordpress and PHP</p>
+              <p id="cardText1">WEB DEVELOPER -
+              Wordpress & PHP knowledge
               </p>
               <br></br>
               <p id='exprYear'>2- 3  Years Experience</p>
               <a href='/careers/web-developer'><p id="viewJob" >view Job <img src={careerArrow} alt='careerArrow'></img></p></a>
-            </div> */}
+            </div>
 
             {/* <div className='cards'>
               <p id="cardTitle">UI UX Designer</p>

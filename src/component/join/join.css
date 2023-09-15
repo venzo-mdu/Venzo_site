@@ -37,7 +37,10 @@
 .innerJoin img{
 margin: 0 0 0 2%;
 }
-@media screen and (max-width:1445px)and (min-width:1024px){
+@media screen and (max-width:1705px)and (min-width:1024px){
+    .joinus{
+        margin: 0 0 0 2%;
+    }
 .joinus .innerJoin{
     width: 950px;
 }

@@ -18,7 +18,7 @@ const CareersPage=()=>{
           <link rel="canonical" href="https://www.venzotechnologies.com/careers/react-developers/" />
           </head>
     <Header flag='header2'/>
-    <SEO title={'Job Openings - Web Developer'} description ={'At Least 2 -3  years of IT experience in Web Developement.'}/>
+    <SEO title={'Job Openings - Web Developer'} description ={'At Least 2 -3  years of IT experience in Web Developement with wordpress & PHP knowledge.'}/>
     <JobDetails/>
     <ApplyJob/>
     <Discussion/>

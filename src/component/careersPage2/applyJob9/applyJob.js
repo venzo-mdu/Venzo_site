@@ -76,7 +76,7 @@ function ApplyJob() {
                 <div className='applyJob'>
                     <div className='job'>
                         <div className='details'>
-                            <p id='detailsText'>Web Developer</p>
+                            <p id='detailsText'>Web Developer - Wordpress and PHP</p>
                             <p id='experiancerText'><img src={experianceImg} alt='experiance'></img> 2 - 3 Years Experience</p>
                         </div>
                         <div className='applyNow'>
@@ -126,7 +126,7 @@ function ApplyJob() {
                         <div className='skillsRequired'>
                             <p id='skillsRequiredTitle'>Roles & Responsibilities</p>
                             <ul>
-                                <li> <img src={TickImg} alt='tickImg'></img>Venzo Technologies looking for Web Developer with 2 to 3 years of experience.</li>
+                                <li> <img src={TickImg} alt='tickImg'></img>Venzo Technologies looking for Web Developer - Wordpress and PHP knowledge with  2 to 3 years of experience.</li>
                                 <li><img src={TickImg} alt='tickImg'></img> We at Venzo Technologies looking for outstanding Web Developer having 2-3 years of experience who has the quench to scale up & create path breaking software solution. This is a fantastic opportunity to engage in a positive and creative work environment that offers excellent benefits and flexible schedules.  </li>
                             </ul>
 
