@@ -68,6 +68,7 @@ function Appdevelopment() {
       <head>
       <link rel="canonical" href="https://www.venzotechnologies.com/app-development-company/" />
       </head>
+      <Header flag='header1' />
       <Header flag='header2' />
       <SEO title={'App Development Company in India, Chennai | Venzo'} description={'Venzo is a leading app development company in India. Our expert team develops high-quality mobile apps for iOS & Android platforms that meet your business needs. '}/>
       <Customized />

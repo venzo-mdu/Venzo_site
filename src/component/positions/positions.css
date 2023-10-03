@@ -14,7 +14,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 11%;
     grid-column-gap: 3%;
-    margin: 0 0 0 15%;
+    margin: 0 0 0 24%;
 }
 .posCard .cards{
   padding: 10% 8%;
@@ -66,7 +66,7 @@
         grid-template-columns: repeat(3,1fr);
         grid-row-gap: 11%;
         grid-column-gap: 3%;
-        margin: 0 0 0 18%;
+        margin: 0 0 0 30%;
     }
     
 }
@@ -77,7 +77,7 @@
    
 .positions .posCard{
     padding: 2% 2%;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 34%;
 
 }
 .posCard .cards{
@@ -103,7 +103,7 @@
 }
     .positions .posCard{
         padding: 2% 1%;
-        margin: 0 0 0 10%;
+        margin: 0 0 0 30%;
     }
     .posCard .cards{
         width:300px;
