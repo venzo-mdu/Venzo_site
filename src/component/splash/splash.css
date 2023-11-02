@@ -1,0 +1,260 @@
+.splash {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celebration {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), white), url('../../images//Venzo7th/Celebration.gif');
+    background-repeat: repeat-x;
+}
+
+.splash-one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venzo-gif {
+    display: flex;
+    margin: auto;
+}
+
+.venzo-sevenyears {
+    width: 400px;
+    height: 200px;
+    animation: venzoseven 1s ease;
+    transition: 1s;
+}
+
+.products-images img {
+    margin: 0 0 0 4.5%;
+}
+
+.products-images {
+    width: 100%;
+    position: absolute;
+    left: 530px;
+    display: flex;
+    bottom: 200px;
+}
+
+.qizto-logo {
+    animation: qizto 1s ease;
+    transition: .1s;
+    display: block;
+
+}
+
+.krediq-logo {
+    animation: krediq 1s ease;
+    transition: .1s;
+    display: block;
+
+}
+
+.tfmasters-logo {
+    animation: tfmasters 1s ease;
+    transition: .1s;
+    display: block;
+
+}
+
+.qizto-logo-inactive {
+    display: none;
+}
+
+.krediq-logo-inactive {
+    display: none;
+}
+
+.tfmasters-logo-inactive {
+    display: none;
+}
+
+.home-moving {
+    animation: homemovingup .8s ease;
+    transition: 5s;
+}
+
+@keyframes venzoseven {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    100% {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@keyframes qizto {
+    0% {
+        transform: translateY(100%);
+    }
+
+    33.33% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes krediq {
+    0% {
+        transform: translateY(100%);
+    }
+
+    33.33% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes tfmasters {
+    0% {
+        transform: translateY(100%);
+    }
+
+    33.33% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes homemovingup {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:1705px)and (min-width:1024px) {
+    .products-images {
+        left: 350px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width:1024px)and (min-width:768px) {
+    .products-images {
+        left: 200px;
+        bottom:75px;
+    }
+}
+
+@media screen and (max-width:768px)and (min-width:430px) {
+    .products-images {
+        left: 100px;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .venzo-gif {
+        height: 80px;
+    }
+
+    .venzo-sevenyears {
+        width: 250px;
+        height: 130px;
+        animation: resseven 1s ease;
+    }
+
+    .products-images {
+        left: 125px;
+        bottom: -200px;
+        display: block;
+        height: 450px;
+    }
+
+    .products-images img {
+        margin: 0 0 5% 3%;
+    }
+
+    .qizto-logo {
+        animation: qiztores 1s ease;
+        transition:.1s;
+    }
+
+    .krediq-logo {
+        animation: krediqres 1s ease;
+        transition: .1s;
+
+    }
+
+    .tfmasters-logo {
+        animation: tfmastersres 1s ease;
+        transition: .1s;
+
+    }
+
+    @keyframes resseven {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 250px;
+            height: 130px;
+        }
+    }
+
+    @keyframes qiztores {
+        0% {
+            transform: translateX(100%);
+
+        }
+
+        33.33% {
+            transform: translateX(0);
+        }
+
+    }
+
+    @keyframes krediqres {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        33.33% {
+            transform: translateX(0);
+        }
+
+    }
+
+    @keyframes tfmastersres {
+        0% {
+            transform: translateX(100%);
+        }
+
+        33.33% {
+            transform: translateX(0);
+        }
+    }
+}
+@media screen and (max-width:375px) {
+   
+
+  
+    .products-images {
+        left: 100px;
+        bottom: -200px;
+        display: block;
+        height: 450px;
+    }
+
+    
+}

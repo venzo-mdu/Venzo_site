@@ -23,8 +23,8 @@ import Popup from '../careersPage2/popup/popup'
 import axios from 'axios'
 import toMail from '../../config/config'
 import {toEnquiryMail} from '../../config/config'
-
 import success from '../../images/successfully.png'
+import Splash from '../../component/splash/splash'
 
 function ImageCarousel() {
     const [buttonPopup, setButtonPopup] = useState(false);
@@ -95,6 +95,7 @@ function ImageCarousel() {
 
     return (
         <>
+            {/* <Splash/> */}
             <Header flag='header1' />
             <Header flag='header2' />
             {/* <AliceCarousel
