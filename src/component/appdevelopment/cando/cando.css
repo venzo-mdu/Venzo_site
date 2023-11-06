@@ -537,6 +537,217 @@
     }
 }
 
+@media screen and (max-width:360px) {
+   
+    .canDo {
+        padding: 3% 2% !important;
+    }
+
+    #canDotitle {
+        font-family: Poppins;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        margin: 5% 0 0 0;
+    }
+
+    #canDotext {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 100%;
+            margin: 3% 0 5% 1%
+    }
+    .candoCards{
+        display: none;
+    }
+    .candoCardsRes {
+        display: block;
+        padding: 2% 2%;
+    }
+   
+    .candocards1Res{
+        background-image: url('../../../images/appdevelopment/appd30.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+    }
+     .candocards2Res{
+        background-image: url('../../../images/appdevelopment/appd31.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+
+    }
+     .candocards3Res{
+        background-image: url('../../../images/appdevelopment/appd32.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        margin: 0 0 10% 0;
+        padding: 2% 2%;
+
+    }
+     .candocards4Res{
+        background-image: url('../../../images/appdevelopment/appd33.png');
+        height: 201px;
+        width: 388px;
+        position: relative;
+        padding: 2% 2%;
+
+    }
+    
+    .candocards1Res:hover{
+        background-image: url('../../../images/appdevelopment/appd41.png');
+        height: 201px;
+        width: 388px;
+        
+
+    }
+     .candocards2Res:hover{
+        background-image: url('../../../images/appdevelopment/appd40.png');
+        height: 201px;
+        width: 388px;
+        
+
+
+    }
+     .candocards3Res:hover{
+        background-image: url('../../../images/appdevelopment/appd39.png');
+        height: 201px;
+        width: 388px;
+       
+
+    }
+     .candocards4Res:hover{
+        background-image: url('../../../images/appdevelopment/appd38.png');
+        height: 201px;
+        width: 388px;
+       
+
+    }
+
+    .canDocardsImg {
+        display: none;
+    }
+
+    .canDocards1Img {
+        display: block;
+        margin: 0 0 5% -10%;
+    }
+
+    .cardsIcon {
+            left: 25px;
+            top: 25px;
+    }
+
+    #cardsTitle {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #FFFFFF;
+        position: absolute;
+        top: 130px;
+        left: 35px;
+        width: 55%;
+    }
+
+    #cardsTitle2 {
+        /* display: none; */
+            top: 120px;
+            left: 25px;
+    }
+
+    #cardsTitle1 {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+        top: 50px;
+        left: 45px;
+        width: 80%;
+    }
+
+   
+
+    .candocards2Res:hover #cardsTitle2 {
+       
+        display: none;
+    }
+
+    .candocards2Res span {
+        display: none;
+    }
+
+    .candocards2Res:hover span {
+        display: block;
+    }
+
+    .candocards1Res:hover #cardsTitle2 {
+        
+        display: none;
+    }
+
+    .candocards1Res span {
+        display: none;
+        /* width: 50%; */
+    }
+
+    .candocards1Res:hover span {
+        display: block;
+    }
+
+    .candocards3Res:hover #cardsTitle2 {
+        
+        display: none;
+    }
+
+    .candocards3Res span {
+        display: none;
+    }
+
+    .candocards3Res:hover span {
+        display: block;
+    }
+
+    .candocards4Res:hover #cardsTitle2 {
+      
+        display: none;
+    }
+
+    .candocards4Res span {
+        display: none;
+    }
+
+    .candocards4Res:hover span {
+        display: block;
+    }
+    .candocards1Res:hover img,
+     .candocards2Res:hover img,
+      .candocards3Res:hover img,
+       .candocards4Res:hover img{
+
+       display: none;
+
+}
+}
 .candocards2:hover #cardsTitle2 {
     top: 100px;
 }

@@ -193,14 +193,50 @@
 }
 }
 
-@media  screen and (max-width:430px) and (min-width:375px){
-    .perks .perksLeftsection #perksLeftText {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 28px;
-        text-align: justify;
-        width:98%;
+@media  screen and (max-width:360px){
+    .perks{
+        display: block;
+        height: 550px;
+        width: 428px;
+        padding: 10% 5%;
     }
+.perks .perksLeftsection{
+    width:100%
+}
+.perks .perksRightsection{
+    width:100%;
+    margin-top: 14%;
+}
+.perks .perksLeftsection #perksLeftTitle{
+    font-size: 34px;
+    font-weight: 600;
+    }
+.perks .perksLeftsection #perksLeftText{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: justify;
+    width: 99%;
+}
+
+.perks .perksRightsection .perksLefticon{
+
+        margin: 4% 53px 0 0;
+        width: 50%;
+    }
+    .perks .perksRightsection .perksLefticon p {
+        font-size: 15px;
+    }
+    .perks .perksRightsection .perksRighticon p {
+        font-size: 15px;
+    }
+
+.perks .perksRightsection .perksRighticon{
+    margin: 5% 0 0 0;
+
+    width:50%
+
+}
 }
 
 @media  screen and  (max-width:375px){

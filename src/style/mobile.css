@@ -473,3 +473,224 @@ body{
         width: 100%;
     }
 }
+
+@media screen  and (max-width:360px){
+    .containor1 {
+        display: block;
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    .build {
+        height: 12%;
+        width: 80%;
+    }
+
+    .title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        color: #000000;
+        text-align: center;
+        margin: 0 0 0 15%;
+    }
+
+    .desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        width: 100%;
+        margin-left: 6%;
+    }
+
+    .images {
+        margin-left :12%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 70%;
+        height: auto;
+    }
+
+    .row {
+        display: block;
+        padding: 5% 10%;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .heading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #000000;
+        margin: 5% 0 5% 0;
+
+    }
+
+
+    .desc1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 0 0 10% 0;
+        text-align: left!important;
+        width: 100%;
+
+    }
+
+    .hr_line {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 0;
+    }
+
+    .customer {
+        padding-left: 5%;
+        padding-top: 4%;
+        background-color: #f6f6f6;
+        color: #0A1020;
+        padding-bottom: 7%;
+        margin-top: -1%;
+    }
+
+    .row2 {
+        display: block;
+        margin-left: 3%;
+        margin-top: 15%;
+
+    }
+
+    .webBr{
+        display: none;
+    }
+    .mobileBr {
+        display: none;
+    }
+    .cus-title  .webBr{
+        display: block;
+    }
+    .cus-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #000000;
+        background-image: url('../images/Vector-61.png');
+        background-repeat: no-repeat;
+        background-position-x: 35%;
+        background-position-y: 100%;
+        background-size: 80%;
+        text-align: center;
+    }
+
+    .des1 {
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        margin-top: 10%;
+        text-align: center;
+        margin-left: -5%;
+    }
+
+    .arrow {
+        margin-left: 2%;
+        margin-top: -1%;
+    }
+
+    .videoImg {
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+
+    .readMore1 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    .readMore1:hover {
+        color: #000000;
+        opacity: 100%;
+        cursor: pointer;
+    }
+
+    .col4 {
+        width: 100%;
+        margin-top: 0%;
+        align-items:center;
+
+    }
+
+    .col5 {
+        width: 100%;
+        align-items:center;
+
+    }
+
+    .containor3 {
+        margin: 0 9px 0 0;
+        padding: 10% 0;
+        width: 100%;
+        display: block;
+        background-color: #f6f6f6;
+    }
+
+    .anyIdea {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+        color: #000000;
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .talk {
+        margin-left: 10%;
+        height: 45%;
+        margin-top: 2%;
+        width: 35%;
+        color: white;
+        background-color: #0A1020;
+        border-radius: 7px 7px 7px 7px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 2%;
+    }
+
+    .talk:hover {
+        color: #FFFFFF;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #E25C37 0%, #951B98 100%);
+    }
+
+    .textColor {
+        background: -webkit-linear-gradient(60deg, #e66521, #d1368f, #ae01ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

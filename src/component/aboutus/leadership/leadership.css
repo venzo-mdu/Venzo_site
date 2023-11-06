@@ -284,3 +284,56 @@
         left: 222px;
     }
 }
+@media screen and (max-width:360px) {
+    .ourLeaders {
+        padding: 3% 1%;
+        display: block;
+        margin: 0 0 0 5%;
+
+    }
+
+    #leadershipTitle {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+
+    #leadershipText {
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        width: 88%;
+        margin: 0 0 0 5%;
+    }
+
+    #aboutLeaders {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        width: 94%;
+        text-align: justify;
+    }
+
+    .linkedinIcon {
+        margin: 4% 0px 10% 0px;
+    }
+
+    .IconCoFounder {
+        margin-bottom: 10% !important;
+    }
+
+    .aboutLeader {
+        position: absolute;
+        top: 80px;
+        left: 240px;
+    }
+}

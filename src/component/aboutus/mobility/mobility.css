@@ -66,3 +66,25 @@
         width: 110px !important;
     }
 }
+@media screen and (max-width:360px) {
+    .buildText {
+        font-family: Poppins;
+        font-size: 32px !important;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        width: 400px !important;
+        margin-left: -9%;
+    }
+    .buildProduct {
+        display: block;
+        height: auto;
+        padding: 4% 2% !important;
+    }
+    .buildtalk {
+        font-size: 14px !important;
+        height: 35px !important;
+        width: 110px !important;
+    }
+}

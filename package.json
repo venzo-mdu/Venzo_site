@@ -37,6 +37,7 @@
     "gatsby-plugin-sitemap": "^5.19.0",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
+    "punycode": "^2.3.1",
     "react": "^18.1.0",
     "react-alice-carousel": "^2.6.4",
     "react-animated-css": "^1.2.1",

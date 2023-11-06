@@ -435,3 +435,127 @@ body {
         margin: -50% 0 0 90%;
     }
 }
+@media screen and (max-width:360px) {
+    .container2 {
+        background: #0A1020;
+        display: block;
+        width: 100%;
+        padding: 5% 5%;
+    }
+
+    .blogHr {
+        color: white;
+        width: 100%;
+        margin: 0 0 8% 0;
+    }
+
+    .bloghead {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: -0.035em;
+        color: #F0F0F0;
+        width: 83%;
+    }
+
+    .arrows {
+        margin-left: 90%;
+        margin-top: -35%;
+    }
+
+    .Blogs {
+        width: 100%;
+    }
+
+    .Careers {
+        margin: 0 0 0 0;
+    }
+
+    .box {
+        width: 95%;
+        height: 50%;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        padding: 15%;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    .careershead {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.025em;
+        color: #FFFFFF;
+    }
+
+    .careersdec {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #A6A6A6;
+        padding: 3% 0;
+    }
+
+    .date {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: -0.035em;
+        color: #BCBCBC;
+        padding-top: 9%;
+    }
+
+    .blurTitle {
+        padding: 0 0% 8% 0%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        background: linear-gradient(182.19deg, #FFFFFF -860.5%, rgba(255, 255, 255, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+    }
+
+    .blurTitle1 {
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        background: linear-gradient(182.19deg, #FFFFFF -860.5%, rgba(255, 255, 255, 0) 98.16%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .jobs {
+        height: 40px;
+        width: 140px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0em;
+        color: #FFFFFF;
+        background: linear-gradient(272.33deg, #AD00FF 21.7%, #FF7A00 103.44%);
+        border-radius: 8px;
+        margin: 5% 0 0 20%;
+        border: none;
+        outline: none;
+    }
+}

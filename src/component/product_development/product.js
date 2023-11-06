@@ -40,7 +40,7 @@ import Popup from '../careersPage2/popup/popup'
 import { useState } from 'react'
 import axios from 'axios'
 import toMail from '../../config/config'
-import {toEnquiryMail} from '../../config/config'
+import { toEnquiryMail } from '../../config/config'
 
 import success from '../../images/successfully.png'
 function Product() {
@@ -67,7 +67,7 @@ function Product() {
 
         const emailResponse = await axios.post("https://us-central1-venzoadmindev.cloudfunctions.net/sendMail", body);
         console.log(emailResponse)
-        
+
         setEmailInput(
             {
                 name: "",
@@ -290,14 +290,14 @@ function Product() {
                                 <img className='productImage1' src={productImage} alt='productImage'></img>
                             </div>
                         </Carousel.Item>
-                        
+
                         <Carousel.Item >
                             <div className='ourProducts'>
                                 <div className='productDesc'>
                                     <p id='productTitle'>Qizto</p>
                                     <img className='borderLine' src={borderLine} alt='borderImage'></img>
                                     <p id='productText'>User Engagement Platform to build great interactive polls and quizzes to engross people at work or in online classrooms. The awesome thing about Qizto is that it helps to measure real engagement rather than just grading for participation.
-                                    Include everyone in the discourse whether in work or for education Qizto have everything for everyone. </p>
+                                        Include everyone in the discourse whether in work or for education Qizto have everything for everyone. </p>
                                 </div>
                                 <img className='productImage' src={QiztoImg} alt='productImage'></img>
                             </div>
@@ -307,7 +307,7 @@ function Product() {
                                 <div className='productDesc'>
                                     <p id='productTitle'>NFT Engine</p>
                                     <img className='borderLine' src={borderLine} alt='borderImage'></img>
-                                    <p id='productText'>NFT-Engine enable brands and companies to sell their unique NFTs to consumers through our easy-to-use interface.  
+                                    <p id='productText'>NFT-Engine enable brands and companies to sell their unique NFTs to consumers through our easy-to-use interface.
                                         NFT-Engine objective is to make it effortless for anyone to create unique digital collectables using their favorite assets—from movies, music videos, TV shows, books, or anything else! </p>
                                 </div>
                                 <img className='productImage' src={NFTEngineImg} alt='productImage'></img>
@@ -318,8 +318,8 @@ function Product() {
                                 <div className='productDesc'>
                                     <p id='productTitle'>Workflow App</p>
                                     <img className='borderLine' src={borderLine} alt='borderImage'></img>
-                                    <p id='productText'>Our ERP workflow app streamlines your business processes by automating tasks and providing real-time visibility into your company's operations. With our app, you can manage everything from sales and inventory to HR and finance, all in one place. 
-                                   With our ERP workflow app, you can make data-driven decisions by accessing real-time analytics and reporting.  </p>
+                                    <p id='productText'>Our ERP workflow app streamlines your business processes by automating tasks and providing real-time visibility into your company's operations. With our app, you can manage everything from sales and inventory to HR and finance, all in one place.
+                                        With our ERP workflow app, you can make data-driven decisions by accessing real-time analytics and reporting.  </p>
                                 </div>
                                 <img className='productImage' src={WorkflowImg} alt='productImage'></img>
                             </div>
@@ -343,7 +343,7 @@ function Product() {
                 <div>
                     <div className='containor3'>
                         <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-                        <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
+                        <button className='btn talk' onClick={()=>{setButtonPopup(true)}}>Let's talk</button>
                     </div>
                 </div>
                 <Footer />
@@ -354,13 +354,13 @@ function Product() {
                 <form onSubmit={sendEmail}>
                     <p className='formTitle1'>Let’s catch the initial spark!</p>
                     <input className='Fname' name='name' value={emailInput["name"]} onChange={handleChange} type="text" placeholder='Name*' required />
-                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="email" placeholder='Email*' required />
+                    <input className='Femail' name='email' value={emailInput["email"]} onChange={handleChange} type="text" placeholder='Email*' required />
                     <input className='Fphone1' name='mobile' value={emailInput["mobile"]} onChange={handleChange} type="phone" placeholder='Mobile number*' required />
                     <textarea className='Fmessage' name='message' value={emailInput["message"]} onChange={handleChange} placeholder='Message' required></textarea>
                     <button type='submit' className='Fbutton'>Submit</button>
                 </form>
             </Popup>
-            <CircularProgress/>
+
             <Popup trigger={submit} setTrigger={setSubmit} id='thankPop'>
                 <div className='thankPop'>
                     <p className='subSucss'>Submitted successfully</p>

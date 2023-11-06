@@ -137,3 +137,34 @@
         border-radius: 0px !important;
     }
 }
+@media screen and (max-width:360px) {
+    .colleagues {
+        height: 60vh;
+    }
+
+    .colleagues #candidateTitle {
+        font-size: 30px;
+        margin-top: 18%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        /* or 38px */
+
+        text-align: center;
+        letter-spacing: -0.04em;
+
+    }
+
+    .colleagues #candidateText {
+        width: 90%;
+        margin: 0 0 0 3%;
+        font-size: 14px;
+    }
+
+    .colleagues img {
+        width: 100%;
+        border-radius: 0px !important;
+    }
+}

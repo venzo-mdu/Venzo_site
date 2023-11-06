@@ -182,3 +182,28 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width:360px) {
+    .cultures {
+        display: none;
+    }
+
+    .Carousel {
+        display: block;
+    }
+
+    .cultureImage {
+        width: 100%;
+        margin-left: 2%;
+        height: 445px;
+    }
+
+    .culture #cultureTitle {
+        padding-top: 12%;
+        font-size: 20px;
+    }
+
+    .culture #cultureText {
+        font-family: Poppins;
+        font-size: 14px;
+    }
+}
