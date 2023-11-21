@@ -23,19 +23,35 @@ const IndexPage = () => {
     }, 7000)
   }, [])
   return (
-    <div>
-      {
-        isSplash ?
-          <div className="home-moving">
-            {/* <Helmet>
+    // <div>
+    //   {
+    //     isSplash ?
+    //       <div className="home-moving">
+    //         {/* <Helmet>
    
-        </Helmet> */}
-            <head>
-              <link rel="canonical" href="https://www.venzotechnologies.com/" />
-              <meta property="og:image" content={OgImage} />
-              <meta property="og:image:width" content="400" />
-              <meta property="og:image:width" content="50" />
-            </head>
+    //     </Helmet> */}
+    //         <head>
+    //           <link rel="canonical" href="https://www.venzotechnologies.com/" />
+    //           <meta property="og:image" content={OgImage} />
+    //           <meta property="og:image:width" content="400" />
+    //           <meta property="og:image:width" content="50" />
+    //         </head>
+
+    //         <SEO title={'Custom Software Development Company - Venzo Technologies'} description={'Venzo offers integrated software solutions for startups, SMEs, and large enterprises. With expertise in Mobile App, Website Development, Cloud, etc.'} />
+    //         <ImageCarousel />
+    //         <DevServices />
+    //         <Build />
+    //         <Customer />
+    //         <Blog />
+    //         <Idea />
+    //         <Footer />
+
+    //       </div>
+    //       : <Splash />
+
+    //   }
+    // </div>
+      <div>
 
             <SEO title={'Custom Software Development Company - Venzo Technologies'} description={'Venzo offers integrated software solutions for startups, SMEs, and large enterprises. With expertise in Mobile App, Website Development, Cloud, etc.'} />
             <ImageCarousel />
@@ -45,12 +61,9 @@ const IndexPage = () => {
             <Blog />
             <Idea />
             <Footer />
-
-          </div>
-          : <Splash />
-
-      }
+          
     </div>
+
 
 
 

@@ -25,7 +25,6 @@ import success from '../../images/successfully.png'
 function ContactUs() {
 
 
-    console.log(toMail)
 
     const [submit, setSubmit] = useState(false);
     const [emailInput, setEmailInput] = useState({

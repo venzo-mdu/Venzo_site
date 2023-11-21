@@ -52,7 +52,7 @@ function Unleashing() {
     }
     else if (va === 'Society') {
       container.innerHTML = "<font size=4 color=black>\
-        Creating social impact through thechnologies\
+        Creating social impact through technologies\
         </font>\
         <br>\
         <br>\

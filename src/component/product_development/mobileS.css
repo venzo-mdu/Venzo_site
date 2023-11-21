@@ -381,9 +381,7 @@ margin:10% 0 0 15% ;
 .carousel-indicators {
     display: flex;
 }
-.carousel-inner {
-    height:  138vh !important;
-}
+
 .carousel-indicators {
     margin-bottom: -3rem;
 }

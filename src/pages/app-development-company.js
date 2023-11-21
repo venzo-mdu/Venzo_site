@@ -142,7 +142,7 @@ function Appdevelopment() {
                 </div>
       <div className='containor3'>
         <p className='anyIdea'>Build your product <br /><span className=' textColor'>to grow your business</span> </p>
-        <button className=' btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
+        <button className='btn talk' onClick={() => setButtonPopup(true)}>Let's talk</button>
       </div>
       <Footer />
 

@@ -383,7 +383,7 @@
     }
 
     .ourapproachQA .approachDesignQA #straightarrowQA {
-        height: 65vh;
+        height: 54vh;
         margin: 8% 0 0 40%;
         display: block;
 
@@ -458,11 +458,7 @@
         height: auto !important;
     }
 
-    .ourapproachQA .approachDesignQA #straightarrowQA {
-        height: 88vh !important;
-        margin: 8% 0 0 40%;
-        display: block;
-    }
+   
 }
 
 @media screen and (max-width:425px) and (min-width:380px) {
